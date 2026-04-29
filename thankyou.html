@@ -262,27 +262,25 @@
 
     /* Section body accordion */
     .section-acc-body {
-      display: grid;
-      grid-template-rows: 0fr;
-      transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .section-acc-body.open { grid-template-rows: 1fr; }
-
-    .section-acc-inner {
+      max-height: 0;
       overflow: hidden;
+      transition: max-height 0.4s ease;
       background: var(--surface);
       border: 1px solid var(--border);
       border-top: none;
       border-radius: 0 0 12px 12px;
-      padding: 0 12px;
+      padding: 0;
     }
 
-    .section-acc-body.open .section-acc-inner { padding: 12px; }
-    .section-trigger.open + .section-acc-body { }
-    .section-trigger.critical + .section-acc-body .section-acc-inner { border-color: var(--critical-border); }
-    .section-trigger.urgent   + .section-acc-body .section-acc-inner { border-color: var(--urgent-border); }
-    .section-trigger.good     + .section-acc-body .section-acc-inner { border-color: var(--good-border); }
+    .section-acc-body.open {
+      max-height: 9999px;
+      transition: max-height 0.6s ease;
+      padding: 12px;
+    }
+
+    .section-trigger.critical + .section-acc-body { border-color: var(--critical-border); }
+    .section-trigger.urgent   + .section-acc-body { border-color: var(--urgent-border); }
+    .section-trigger.good     + .section-acc-body { border-color: var(--good-border); }
 
     /* ── Finding rows (inner accordions) ── */
     .finding-row {
@@ -358,15 +356,14 @@
 
     /* Finding detail accordion */
     .finding-detail-acc {
-      display: grid;
-      grid-template-rows: 0fr;
-      transition: grid-template-rows 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
     }
 
-    .finding-detail-acc.open { grid-template-rows: 1fr; }
-
-    .finding-detail-inner {
-      overflow: hidden;
+    .finding-detail-acc.open {
+      max-height: 400px;
+      transition: max-height 0.4s ease;
     }
 
     .finding-row-body {
@@ -639,6 +636,7 @@
     section.className = 'findings-section';
 
     const trigger = document.createElement('button');
+    trigger.type = 'button';
     trigger.className = `section-trigger ${severity}${startOpen ? ' open' : ''}`;
     trigger.innerHTML = `
       <div class="section-trigger-icon ${severity}">${headingTitle.charAt(0)}</div>
@@ -646,28 +644,23 @@
         <div class="section-trigger-title">${escHtml(headingTitle)}</div>
         <div class="section-trigger-desc">${escHtml(headingDesc)}</div>
       </div>
-      <span class="section-trigger-count ${severity}">${items.length} issue${items.length !== 1 ? 's' : ''}</span>
+      <span class="section-trigger-count ${severity}">${items.length} item${items.length !== 1 ? 's' : ''}</span>
       <span class="section-trigger-chevron">▼</span>
     `;
 
     const accBody = document.createElement('div');
     accBody.className = `section-acc-body${startOpen ? ' open' : ''}`;
 
-    const inner = document.createElement('div');
-    inner.className = 'section-acc-inner';
-
     // Group by category within section
     const seoItems = items.filter(c => c.category === 'SEO');
     const lgItems  = items.filter(c => c.category === 'Lead Gen');
 
     if (seoItems.length > 0 && lgItems.length > 0) {
-      appendCategoryBlock(inner, seoItems, severity, 'SEO & Visibility');
-      appendCategoryBlock(inner, lgItems, severity, 'Lead Generation & Conversion');
+      appendCategoryBlock(accBody, seoItems, severity, 'SEO & Visibility');
+      appendCategoryBlock(accBody, lgItems, severity, 'Lead Generation & Conversion');
     } else {
-      items.forEach(c => inner.appendChild(makeRow(c, severity)));
+      items.forEach(c => accBody.appendChild(makeRow(c, severity)));
     }
-
-    accBody.appendChild(inner);
 
     trigger.addEventListener('click', () => {
       const isOpen = trigger.classList.toggle('open');
@@ -692,6 +685,7 @@
     div.className = 'finding-row ' + severity;
 
     const triggerBtn = document.createElement('button');
+    triggerBtn.type = 'button';
     triggerBtn.className = 'finding-row-trigger';
     triggerBtn.innerHTML = `
       <span class="finding-category-tag">${escHtml(check.category)}</span>
@@ -702,10 +696,7 @@
 
     const detailAcc = document.createElement('div');
     detailAcc.className = 'finding-detail-acc';
-
-    const detailInner = document.createElement('div');
-    detailInner.className = 'finding-detail-inner';
-    detailInner.innerHTML = `
+    detailAcc.innerHTML = `
       <div class="finding-row-body ${severity}">
         <div>
           <div class="finding-field-label">What we found</div>
@@ -717,8 +708,6 @@
         </div>
       </div>
     `;
-
-    detailAcc.appendChild(detailInner);
 
     triggerBtn.addEventListener('click', () => {
       const isOpen = div.classList.toggle('open');
