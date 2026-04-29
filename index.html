@@ -3,126 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Website Audit — Find Out What's Costing You Customers</title>
+  <title>Free Website Audit — The Catalyst Method</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:            #07090F;
-      --surface:       #0D1117;
-      --surface2:      #131B27;
-      --border:        rgba(255,255,255,0.07);
-      --border-focus:  rgba(75,123,245,0.5);
-      --accent:        #4B7BF5;
-      --accent-glow:   rgba(75,123,245,0.12);
-      --critical:      #EF4444;
-      --critical-bg:   rgba(239,68,68,0.08);
-      --critical-border: rgba(239,68,68,0.2);
-      --urgent:        #F59E0B;
-      --urgent-bg:     rgba(245,158,11,0.08);
-      --urgent-border: rgba(245,158,11,0.2);
-      --good:          #10B981;
-      --good-bg:       rgba(16,185,129,0.08);
-      --good-border:   rgba(16,185,129,0.2);
-      --text:          #F1F5F9;
-      --text-muted:    #475569;
-      --text-subtle:   #8B9EB5;
+      --navy:          #002B45;
+      --navy-light:    #003a5c;
+      --gold:          #FFD700;
+      --gold-dark:     #e6c200;
+      --white:         #FFFFFF;
+      --charcoal:      #1A1A1A;
+      --grey-light:    #F5F5F5;
+      --grey-mid:      #E8E8E8;
+      --grey-text:     #666666;
+      --critical:      #D93025;
+      --critical-bg:   #FEF2F2;
+      --critical-border: #FECACA;
+      --urgent:        #C77700;
+      --urgent-bg:     #FFFBEB;
+      --urgent-border: #FDE68A;
+      --good:          #137A50;
+      --good-bg:       #F0FDF4;
+      --good-border:   #BBF7D0;
     }
 
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--white);
+      color: var(--charcoal);
+      font-family: 'Open Sans', system-ui, sans-serif;
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── Hero ── */
+    /* ── Hero (navy banner) ── */
     .hero {
+      background: var(--navy);
       width: 100%;
-      max-width: 660px;
-      padding: 88px 24px 52px;
+      padding: 72px 24px 64px;
       text-align: center;
     }
 
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
+    .brand-tag {
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
       font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.13em;
+      letter-spacing: 0.15em;
       text-transform: uppercase;
-      color: var(--accent);
-      background: var(--accent-glow);
-      border: 1px solid rgba(75,123,245,0.22);
+      color: var(--gold);
+      border: 1px solid rgba(255,215,0,0.35);
       border-radius: 100px;
-      padding: 5px 14px;
-      margin-bottom: 32px;
-    }
-
-    .eyebrow::before {
-      content: '';
-      width: 6px; height: 6px;
-      background: var(--accent);
-      border-radius: 50%;
-      animation: pulse 2s ease-in-out infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.7); }
+      padding: 5px 16px;
+      margin-bottom: 28px;
     }
 
     h1 {
-      font-size: clamp(1.9rem, 4.5vw, 2.9rem);
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(1.8rem, 4.5vw, 2.8rem);
       font-weight: 800;
       line-height: 1.18;
-      letter-spacing: -0.03em;
-      color: #fff;
-      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+      color: var(--white);
+      margin-bottom: 18px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     h1 em {
       font-style: normal;
-      color: var(--accent);
+      color: var(--gold);
     }
 
     .subtitle {
-      font-size: 1.05rem;
-      color: var(--text-subtle);
+      font-size: 1rem;
+      color: rgba(255,255,255,0.72);
       line-height: 1.75;
       max-width: 480px;
-      margin: 0 auto 52px;
+      margin: 0 auto 48px;
     }
 
-    /* ── Widget shell ── */
-    .widget {
-      width: 100%;
-      max-width: 660px;
-      padding: 0 24px 100px;
+    /* ── Widget ── */
+    .widget-wrap {
+      max-width: 620px;
+      margin: 0 auto;
     }
 
-    /* ── State: Input ── */
+    /* Input state */
     #state-input {
       display: flex;
       align-items: center;
+      background: var(--white);
+      border: 2px solid var(--white);
+      border-radius: 12px;
+      padding: 6px 6px 6px 20px;
       gap: 8px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 7px 7px 7px 22px;
       transition: border-color 0.2s, box-shadow 0.2s;
     }
 
     #state-input:focus-within {
-      border-color: var(--border-focus);
-      box-shadow: 0 0 0 3px var(--accent-glow);
+      box-shadow: 0 0 0 3px rgba(255,215,0,0.4);
     }
 
     #url-input {
@@ -130,40 +113,40 @@
       background: transparent;
       border: none;
       outline: none;
-      color: var(--text);
-      font-size: 1rem;
-      font-family: inherit;
-      padding: 11px 0;
+      color: var(--charcoal);
+      font-size: 0.95rem;
+      font-family: 'Open Sans', sans-serif;
+      padding: 10px 0;
       min-width: 0;
     }
 
-    #url-input::placeholder { color: var(--text-muted); }
+    #url-input::placeholder { color: #999; }
 
     .scan-btn {
-      background: var(--accent);
-      color: #fff;
+      background: var(--gold);
+      color: var(--navy);
       border: none;
-      border-radius: 9px;
-      padding: 13px 26px;
-      font-size: 0.9rem;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-size: 0.875rem;
       font-weight: 700;
-      font-family: inherit;
+      font-family: 'Montserrat', sans-serif;
       cursor: pointer;
       white-space: nowrap;
       transition: background 0.15s, transform 0.1s;
-      letter-spacing: -0.01em;
+      letter-spacing: 0.01em;
     }
 
-    .scan-btn:hover { background: #3a68e0; }
+    .scan-btn:hover { background: var(--gold-dark); }
     .scan-btn:active { transform: scale(0.97); }
-    .scan-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .scan-btn:disabled { opacity: 0.6; cursor: not-allowed; }
 
     .input-meta {
       display: flex;
-      align-items: center;
       justify-content: center;
-      gap: 20px;
+      gap: 24px;
       margin-top: 14px;
+      flex-wrap: wrap;
     }
 
     .input-meta-item {
@@ -171,382 +154,258 @@
       align-items: center;
       gap: 5px;
       font-size: 0.78rem;
-      color: var(--text-muted);
+      color: rgba(255,255,255,0.55);
     }
 
     .input-meta-item::before {
       content: '✓';
-      color: var(--good);
+      color: var(--gold);
       font-size: 0.7rem;
     }
 
-    /* ── State: Scanning ── */
+    /* Scanning state */
     #state-scanning {
       display: none;
       text-align: center;
-      padding: 56px 0;
+      padding: 40px 0 0;
     }
 
-    .scanner-track {
-      width: 44px;
-      height: 44px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
+    .scanner-ring {
+      width: 40px; height: 40px;
+      border: 3px solid rgba(255,255,255,0.15);
+      border-top-color: var(--gold);
       border-radius: 50%;
       animation: spin 0.75s linear infinite;
-      margin: 0 auto 24px;
+      margin: 0 auto 20px;
     }
 
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    .scanning-label {
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 6px;
+    .scanning-label { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 6px; }
+    .scanning-status { font-size: 0.85rem; color: rgba(255,255,255,0.55); transition: opacity 0.3s; }
+
+    /* ── Results (on white) ── */
+    #state-results {
+      display: none;
     }
 
-    .scanning-status {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      min-height: 20px;
-      transition: opacity 0.3s;
+    .results-section {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 48px 24px 0;
     }
-
-    /* ── State: Results ── */
-    #state-results { display: none; }
 
     /* Score */
-    .score-wrap {
-      text-align: center;
-      padding: 0 0 40px;
-    }
+    .score-wrap { text-align: center; margin-bottom: 40px; }
 
-    .score-ring-container {
-      position: relative;
-      display: inline-block;
-      margin-bottom: 18px;
-    }
-
-    .score-svg {
-      width: 144px;
-      height: 144px;
-      transform: rotate(-90deg);
-    }
-
-    .score-track {
-      fill: none;
-      stroke: var(--surface2);
-      stroke-width: 9;
-    }
-
-    .score-arc {
-      fill: none;
-      stroke-width: 9;
-      stroke-linecap: round;
-      stroke-dasharray: 339.292;
-      stroke-dashoffset: 339.292;
-      transition: stroke-dashoffset 1.6s cubic-bezier(0.22, 1, 0.36, 1), stroke 0.4s;
-    }
-
-    .score-num {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.4rem;
-      font-weight: 800;
-      color: #fff;
-      letter-spacing: -0.05em;
-      line-height: 1;
-    }
-
-    .score-num span {
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: var(--text-muted);
-      letter-spacing: 0;
-    }
-
-    .score-band-label {
-      font-size: 1rem;
-      font-weight: 700;
-      margin-bottom: 7px;
-    }
-
-    .score-band-msg {
-      font-size: 0.875rem;
-      color: var(--text-subtle);
-      max-width: 420px;
-      margin: 0 auto;
-      line-height: 1.65;
-    }
-
-    /* Domain pill */
     .domain-pill {
       display: inline-flex;
       align-items: center;
       gap: 6px;
       font-size: 0.78rem;
-      color: var(--text-muted);
-      background: var(--surface2);
-      border: 1px solid var(--border);
+      color: var(--grey-text);
+      background: var(--grey-light);
+      border: 1px solid var(--grey-mid);
       border-radius: 100px;
       padding: 4px 12px;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
     }
 
-    /* Section headers */
-    .section-label {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.7rem;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      margin-bottom: 10px;
+    .score-ring-container {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 16px;
     }
 
-    .section-label .dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      flex-shrink: 0;
+    .score-svg { width: 140px; height: 140px; transform: rotate(-90deg); }
+    .score-track { fill: none; stroke: var(--grey-mid); stroke-width: 9; }
+    .score-arc {
+      fill: none; stroke-width: 9; stroke-linecap: round;
+      stroke-dasharray: 339.292; stroke-dashoffset: 339.292;
+      transition: stroke-dashoffset 1.6s cubic-bezier(0.22, 1, 0.36, 1), stroke 0.4s;
     }
+
+    .score-num {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.4rem; font-weight: 800;
+      color: var(--navy); letter-spacing: -0.04em; line-height: 1;
+    }
+
+    .score-num span { font-size: 0.85rem; font-weight: 600; color: var(--grey-text); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
+
+    .score-band-label { font-family: 'Montserrat', sans-serif; font-size: 1.05rem; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
+    .score-band-msg { font-size: 0.875rem; color: var(--grey-text); max-width: 400px; margin: 0 auto; line-height: 1.7; }
 
     /* Finding cards */
+    .section-label {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 0.68rem; font-weight: 800;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--grey-text); margin-bottom: 10px;
+    }
+
+    .section-label .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
     .finding-card {
-      display: flex;
-      gap: 14px;
-      align-items: flex-start;
-      background: var(--surface);
-      border-radius: 11px;
-      padding: 16px 18px;
-      margin-bottom: 8px;
-      border: 1px solid var(--border);
-      transition: border-color 0.2s;
+      display: flex; gap: 12px; align-items: flex-start;
+      background: var(--white); border-radius: 10px;
+      padding: 14px 16px; margin-bottom: 8px;
+      border: 1px solid var(--grey-mid);
     }
 
-    .finding-card.critical { border-color: var(--critical-border); background: linear-gradient(135deg, var(--critical-bg), transparent); }
-    .finding-card.urgent   { border-color: var(--urgent-border);   background: linear-gradient(135deg, var(--urgent-bg), transparent); }
-    .finding-card.good     { border-color: var(--good-border);     background: linear-gradient(135deg, var(--good-bg), transparent); }
+    .finding-card.critical { border-color: var(--critical-border); background: var(--critical-bg); }
+    .finding-card.urgent   { border-color: var(--urgent-border);   background: var(--urgent-bg); }
 
-    .card-icon {
-      width: 32px; height: 32px;
-      border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 0.85rem;
-      flex-shrink: 0;
+    .card-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      flex-shrink: 0; margin-top: 6px;
     }
 
-    .card-icon.critical { background: var(--critical-bg); color: var(--critical); }
-    .card-icon.urgent   { background: var(--urgent-bg);   color: var(--urgent); }
-    .card-icon.good     { background: var(--good-bg);     color: var(--good); }
+    .card-dot.critical { background: var(--critical); }
+    .card-dot.urgent   { background: var(--urgent); }
 
-    .card-body { flex: 1; min-width: 0; }
-
-    .card-title {
-      font-size: 0.9rem;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 4px;
-    }
-
-    .card-impact {
-      font-size: 0.82rem;
-      color: var(--text-subtle);
-      line-height: 1.65;
-    }
+    .card-body { flex: 1; }
+    .card-title { font-family: 'Montserrat', sans-serif; font-size: 0.875rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+    .card-impact { font-size: 0.82rem; color: #444; line-height: 1.65; }
 
     .card-badge {
-      font-size: 0.65rem;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 3px 9px;
-      border-radius: 100px;
-      white-space: nowrap;
-      align-self: flex-start;
-      flex-shrink: 0;
+      font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 3px 9px;
+      border-radius: 100px; white-space: nowrap;
+      align-self: flex-start; flex-shrink: 0;
     }
 
-    .card-badge.critical { color: var(--critical); background: var(--critical-bg); border: 1px solid var(--critical-border); }
-    .card-badge.urgent   { color: var(--urgent);   background: var(--urgent-bg);   border: 1px solid var(--urgent-border); }
-    .card-badge.good     { color: var(--good);     background: var(--good-bg);     border: 1px solid var(--good-border); }
+    .card-badge.critical { color: var(--critical); background: #fee2e2; border: 1px solid var(--critical-border); }
+    .card-badge.urgent   { color: var(--urgent);   background: #fef3c7; border: 1px solid var(--urgent-border); }
 
     .findings-group { margin-bottom: 28px; }
 
-    /* More hint */
     .more-hint {
-      text-align: center;
-      font-size: 0.82rem;
-      color: var(--text-muted);
-      padding: 8px 0 28px;
+      text-align: center; font-size: 0.82rem;
+      color: var(--grey-text); padding: 8px 0 28px;
     }
 
     /* Email CTA */
     .email-cta {
-      background: linear-gradient(135deg, rgba(75,123,245,0.1) 0%, rgba(75,123,245,0.04) 100%);
-      border: 1px solid rgba(75,123,245,0.2);
-      border-radius: 16px;
+      background: var(--navy);
+      border-radius: 14px;
       padding: 32px 28px;
       text-align: center;
+      margin-bottom: 48px;
     }
 
     .email-cta h3 {
-      font-size: 1.25rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 8px;
-      letter-spacing: -0.02em;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem; font-weight: 800;
+      color: var(--white); margin-bottom: 8px;
+      letter-spacing: -0.01em;
     }
 
-    .email-cta p {
-      font-size: 0.875rem;
-      color: var(--text-subtle);
-      line-height: 1.7;
-      max-width: 420px;
-      margin: 0 auto 24px;
-    }
+    .email-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.7); line-height: 1.7; max-width: 420px; margin: 0 auto 22px; }
 
-    .email-row {
-      display: flex;
-      gap: 8px;
-      max-width: 440px;
-      margin: 0 auto;
-    }
+    .email-row { display: flex; gap: 8px; max-width: 420px; margin: 0 auto; }
 
     .email-field {
-      flex: 1;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 9px;
-      padding: 13px 16px;
-      color: var(--text);
-      font-size: 0.9rem;
-      font-family: inherit;
-      outline: none;
-      min-width: 0;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-    .email-field:focus {
-      border-color: var(--border-focus);
-      box-shadow: 0 0 0 3px var(--accent-glow);
-    }
-
-    .email-field::placeholder { color: var(--text-muted); }
-
-    .report-btn {
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      border-radius: 9px;
-      padding: 13px 22px;
-      font-size: 0.875rem;
-      font-weight: 700;
-      font-family: inherit;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: background 0.15s;
-    }
-
-    .report-btn:hover { background: #3a68e0; }
-
-    .privacy {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 12px;
-    }
-
-    /* ── State: Error ── */
-    #state-error {
-      display: none;
-      text-align: center;
-      padding: 52px 0;
-    }
-
-    .error-heading {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 10px;
-    }
-
-    .error-msg {
-      font-size: 0.875rem;
-      color: var(--text-subtle);
-      margin-bottom: 28px;
-      line-height: 1.6;
-    }
-
-    .retry-btn {
-      background: var(--surface2);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: 9px;
-      padding: 12px 24px;
-      font-size: 0.875rem;
-      font-weight: 600;
-      font-family: inherit;
-      cursor: pointer;
+      flex: 1; background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px; padding: 12px 16px;
+      color: var(--white); font-size: 0.9rem;
+      font-family: 'Open Sans', sans-serif;
+      outline: none; min-width: 0;
       transition: border-color 0.2s;
     }
 
-    .retry-btn:hover { border-color: var(--text-muted); }
+    .email-field:focus { border-color: var(--gold); }
+    .email-field::placeholder { color: rgba(255,255,255,0.4); }
+
+    .report-btn {
+      background: var(--gold); color: var(--navy);
+      border: none; border-radius: 8px;
+      padding: 12px 22px; font-size: 0.875rem;
+      font-weight: 700; font-family: 'Montserrat', sans-serif;
+      cursor: pointer; white-space: nowrap;
+      transition: background 0.15s;
+    }
+
+    .report-btn:hover { background: var(--gold-dark); }
+
+    .privacy { font-size: 0.72rem; color: rgba(255,255,255,0.4); margin-top: 12px; }
+
+    /* Error state */
+    #state-error {
+      display: none; text-align: center; padding: 40px 0 0;
+    }
+
+    .error-heading { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 8px; }
+    .error-msg { font-size: 0.875rem; color: rgba(255,255,255,0.6); margin-bottom: 24px; line-height: 1.6; }
+
+    .retry-btn {
+      background: transparent; color: var(--white);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 8px; padding: 11px 24px;
+      font-size: 0.875rem; font-weight: 600;
+      font-family: 'Open Sans', sans-serif; cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .retry-btn:hover { border-color: var(--gold); color: var(--gold); }
 
     /* ── Responsive ── */
     @media (max-width: 520px) {
-      .hero { padding: 64px 20px 40px; }
+      .hero { padding: 56px 20px 48px; }
       h1 { font-size: 1.7rem; }
-      .subtitle { font-size: 0.95rem; }
-      #state-input { flex-direction: column; padding: 10px; gap: 6px; }
-      .scan-btn { width: 100%; padding: 14px; text-align: center; }
+      #state-input { flex-direction: column; padding: 10px; }
+      .scan-btn { width: 100%; text-align: center; padding: 13px; }
       .email-row { flex-direction: column; }
-      .report-btn { width: 100%; text-align: center; padding: 14px; }
-      .input-meta { flex-direction: column; gap: 8px; }
-      .email-cta { padding: 24px 20px; }
+      .report-btn { width: 100%; text-align: center; padding: 13px; }
+      .input-meta { gap: 10px; }
     }
   </style>
 </head>
 <body>
 
+<!-- Hero / Input -->
 <section class="hero">
-  <span class="eyebrow">Free Instant Audit</span>
-  <h1>Find Out Why Your Website Isn't Getting You <em>More Customers</em></h1>
-  <p class="subtitle">Enter your web address below. We'll scan your site in seconds and show you exactly what's working, what's broken, and what it's costing you in lost enquiries.</p>
+  <div class="widget-wrap">
+    <span class="brand-tag">The Catalyst Method — Free Audit</span>
+    <h1>Find Out Why Your Website Isn't Getting You <em>More Customers</em></h1>
+    <p class="subtitle">Enter your web address below. We'll scan your site in seconds and show you exactly what's working, what's broken, and what it's costing you.</p>
+
+    <div id="state-input">
+      <input type="text" id="url-input" placeholder="yourwebsite.co.uk" autocomplete="off" spellcheck="false">
+      <button class="scan-btn" id="scan-btn" onclick="startScan()">Scan My Website Free</button>
+    </div>
+    <div class="input-meta">
+      <span class="input-meta-item">Free — no sign-up needed</span>
+      <span class="input-meta-item">Results in 10 seconds</span>
+      <span class="input-meta-item">16 checks run instantly</span>
+    </div>
+
+    <div id="state-scanning">
+      <div class="scanner-ring"></div>
+      <p class="scanning-label">Scanning your website…</p>
+      <p class="scanning-status" id="scanning-status">Fetching your page…</p>
+    </div>
+
+    <div id="state-error">
+      <p class="error-heading">We could not scan that website</p>
+      <p class="error-msg" id="error-msg">The site may be down or blocking automated requests.</p>
+      <button class="retry-btn" onclick="resetWidget()">Try a Different URL</button>
+    </div>
+  </div>
 </section>
 
-<div class="widget">
-
-  <!-- Input -->
-  <div id="state-input">
-    <input type="text" id="url-input" placeholder="yourwebsite.co.uk" autocomplete="off" spellcheck="false">
-    <button class="scan-btn" id="scan-btn" onclick="startScan()">Scan My Website Free</button>
-  </div>
-  <div class="input-meta">
-    <span class="input-meta-item">Free — no sign-up needed</span>
-    <span class="input-meta-item">Results in 10 seconds</span>
-    <span class="input-meta-item">16 checks run instantly</span>
-  </div>
-
-  <!-- Scanning -->
-  <div id="state-scanning">
-    <div class="scanner-track"></div>
-    <p class="scanning-label">Scanning your website…</p>
-    <p class="scanning-status" id="scanning-status">Fetching your page…</p>
-  </div>
-
-  <!-- Results -->
-  <div id="state-results">
+<!-- Results (white section) -->
+<div id="state-results">
+  <div class="results-section">
 
     <div class="score-wrap">
       <div class="domain-pill" id="domain-pill">
-        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><circle cx="5" cy="5" r="4.5" stroke="currentColor" stroke-opacity="0.5"/><circle cx="5" cy="5" r="2" fill="currentColor" fill-opacity="0.5"/></svg>
-        <span id="domain-text">yoursite.co.uk</span>
+        <svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3.5" stroke="currentColor" stroke-opacity="0.5" fill="none"/></svg>
+        <span id="domain-text"></span>
       </div>
       <div class="score-ring-container">
         <svg class="score-svg" viewBox="0 0 120 120">
@@ -563,18 +422,12 @@
     </div>
 
     <div id="critical-group" class="findings-group" style="display:none">
-      <div class="section-label">
-        <span class="dot" style="background:var(--critical)"></span>
-        Critical — Fix Immediately
-      </div>
+      <div class="section-label"><span class="dot" style="background:var(--critical)"></span>Critical — Fix Immediately</div>
       <div id="critical-cards"></div>
     </div>
 
     <div id="urgent-group" class="findings-group" style="display:none">
-      <div class="section-label">
-        <span class="dot" style="background:var(--urgent)"></span>
-        Urgent — Address Soon
-      </div>
+      <div class="section-label"><span class="dot" style="background:var(--urgent)"></span>Urgent — Address Soon</div>
       <div id="urgent-cards"></div>
     </div>
 
@@ -582,29 +435,19 @@
 
     <div class="email-cta">
       <h3>Get Your Full <span id="check-count">16</span>-Point Report</h3>
-      <p>We'll send the complete breakdown to your inbox — every issue explained in plain English, what it means for your business, and exactly how to fix it.</p>
+      <p>We'll send the complete breakdown to your inbox — every issue in plain English, what it means for your business, and how to fix it.</p>
       <div class="email-row">
         <input type="email" class="email-field" id="email-input" placeholder="your@email.com">
         <button class="report-btn" onclick="submitEmail()">Send My Report</button>
       </div>
-      <p class="privacy">No spam. One email. Your report — nothing else.</p>
+      <p class="privacy">No spam. One email with your report. Nothing else.</p>
     </div>
 
   </div>
-
-  <!-- Error -->
-  <div id="state-error">
-    <p class="error-heading">We could not scan that website</p>
-    <p class="error-msg" id="error-msg">The site may be down or blocking automated requests.</p>
-    <button class="retry-btn" onclick="resetWidget()">Try a Different URL</button>
-  </div>
-
 </div>
 
 <script>
   let scanResult = null;
-
-  const ICONS = { critical: '✕', urgent: '!', good: '✓' };
 
   const SCAN_STATUSES = [
     'Fetching your page…',
@@ -615,31 +458,26 @@
     'Calculating your score…',
   ];
 
-  function setState(name) {
-    ['input', 'scanning', 'results', 'error'].forEach(s => {
-      const el = document.getElementById('state-' + s);
-      el.style.display = s === name ? (s === 'input' ? 'flex' : 'block') : 'none';
-    });
-    const meta = document.querySelector('.input-meta');
-    if (meta) meta.style.display = name === 'input' ? 'flex' : 'none';
+  function setHeroState(name) {
+    document.getElementById('state-input').style.display    = name === 'input'    ? 'flex'  : 'none';
+    document.getElementById('state-scanning').style.display = name === 'scanning' ? 'block' : 'none';
+    document.getElementById('state-error').style.display    = name === 'error'    ? 'block' : 'none';
+    document.querySelector('.input-meta').style.display     = name === 'input'    ? 'flex'  : 'none';
   }
 
   async function startScan() {
-    let raw = document.getElementById('url-input').value.trim();
+    const raw = document.getElementById('url-input').value.trim();
     if (!raw) { document.getElementById('url-input').focus(); return; }
-
     document.getElementById('scan-btn').disabled = true;
-    setState('scanning');
+    setHeroState('scanning');
+    document.getElementById('state-results').style.display = 'none';
 
     let si = 0;
     const statusEl = document.getElementById('scanning-status');
     const ticker = setInterval(() => {
       si = (si + 1) % SCAN_STATUSES.length;
       statusEl.style.opacity = 0;
-      setTimeout(() => {
-        statusEl.textContent = SCAN_STATUSES[si];
-        statusEl.style.opacity = 1;
-      }, 150);
+      setTimeout(() => { statusEl.textContent = SCAN_STATUSES[si]; statusEl.style.opacity = 1; }, 150);
     }, 1800);
 
     try {
@@ -648,58 +486,48 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url: raw }),
       });
-
       clearInterval(ticker);
-
       if (!res.ok) {
         const err = await res.json().catch(() => ({}));
         showError(err.error || 'Something went wrong. Please try again.');
         return;
       }
-
       scanResult = await res.json();
       try { sessionStorage.setItem('scanData', JSON.stringify(scanResult)); } catch {}
+      setHeroState('input');
+      document.getElementById('scan-btn').disabled = false;
       renderResults(scanResult);
-
+      document.getElementById('state-results').style.display = 'block';
+      document.getElementById('state-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
     } catch {
       clearInterval(ticker);
-      showError('Could not connect. Check your internet connection and try again.');
+      showError('Could not connect. Check your internet and try again.');
     } finally {
       document.getElementById('scan-btn').disabled = false;
     }
   }
 
   function renderResults(data) {
-    setState('results');
-
-    // Domain pill
     document.getElementById('domain-text').textContent = data.domain || data.url;
-
-    // Animate score arc
-    const circumference = 339.292;
+    const scoreColor = data.score >= 65 ? '#137A50' : data.score >= 40 ? '#C77700' : '#D93025';
     const arc = document.getElementById('score-arc');
-    const scoreColor = data.score >= 65 ? '#10B981' : data.score >= 40 ? '#F97316' : '#EF4444';
     arc.style.stroke = scoreColor;
-    const offset = circumference - (data.score / 100) * circumference;
+    const offset = 339.292 - (data.score / 100) * 339.292;
     requestAnimationFrame(() => setTimeout(() => { arc.style.strokeDashoffset = offset; }, 80));
 
-    // Count-up
     const numEl = document.getElementById('score-number');
     let cur = 0;
-    const target = data.score;
-    const inc = Math.max(1, Math.ceil(target / 45));
+    const inc = Math.max(1, Math.ceil(data.score / 45));
     const counter = setInterval(() => {
-      cur = Math.min(cur + inc, target);
+      cur = Math.min(cur + inc, data.score);
       numEl.textContent = cur;
-      if (cur >= target) clearInterval(counter);
+      if (cur >= data.score) clearInterval(counter);
     }, 30);
 
-    // Band
     document.getElementById('score-band-label').textContent = data.band.label;
     document.getElementById('score-band-label').style.color = scoreColor;
     document.getElementById('score-band-msg').textContent = data.band.message;
 
-    // Critical cards — show all
     const critCards = document.getElementById('critical-cards');
     critCards.innerHTML = '';
     if (data.critical && data.critical.length > 0) {
@@ -707,7 +535,6 @@
       document.getElementById('critical-group').style.display = 'block';
     }
 
-    // Urgent — show up to 2 as teaser
     const urgCards = document.getElementById('urgent-cards');
     urgCards.innerHTML = '';
     const urgentShown = (data.urgent || []).slice(0, 2);
@@ -716,19 +543,15 @@
       document.getElementById('urgent-group').style.display = 'block';
     }
 
-    // Hint
-    const totalIssues = (data.critical || []).length + (data.urgent || []).length;
     const hiddenUrgent = Math.max(0, (data.urgent || []).length - urgentShown.length);
     const goodCount = (data.good || []).length;
     const hint = document.getElementById('more-hint');
     const parts = [];
     if (hiddenUrgent > 0) parts.push(`${hiddenUrgent} more urgent issue${hiddenUrgent > 1 ? 's' : ''}`);
     if (goodCount > 0) parts.push(`${goodCount} thing${goodCount > 1 ? 's' : ''} already working in your favour`);
-    if (parts.length > 0) {
-      hint.textContent = `Your full report includes ${parts.join(' and ')} — plus exactly how to fix every issue.`;
-    } else {
-      hint.textContent = 'Get your full report for the complete breakdown with fixes for every issue.';
-    }
+    hint.textContent = parts.length > 0
+      ? `Your full report includes ${parts.join(' and ')} — plus exactly how to fix every issue.`
+      : 'Get your full report for the complete breakdown with fixes for every issue.';
 
     document.getElementById('check-count').textContent = (data.checks || []).length;
   }
@@ -737,7 +560,7 @@
     const div = document.createElement('div');
     div.className = 'finding-card ' + check.severity;
     div.innerHTML = `
-      <div class="card-icon ${check.severity}">${ICONS[check.severity]}</div>
+      <div class="card-dot ${check.severity}"></div>
       <div class="card-body">
         <div class="card-title">${escHtml(check.title)}</div>
         <div class="card-impact">${escHtml(check.impact)}</div>
@@ -747,44 +570,42 @@
     return div;
   }
 
-  function escHtml(str) {
-    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
-
   function showError(msg) {
     document.getElementById('error-msg').textContent = msg;
-    setState('error');
+    setHeroState('error');
   }
 
   function resetWidget() {
     scanResult = null;
     document.getElementById('url-input').value = '';
-    setState('input');
+    setHeroState('input');
     document.getElementById('url-input').focus();
   }
 
   function submitEmail() {
     const email = document.getElementById('email-input').value.trim();
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      document.getElementById('email-input').focus();
-      document.getElementById('email-input').style.borderColor = 'var(--critical)';
-      setTimeout(() => { document.getElementById('email-input').style.borderColor = ''; }, 1500);
+      const f = document.getElementById('email-input');
+      f.style.borderColor = '#D93025';
+      f.focus();
+      setTimeout(() => { f.style.borderColor = ''; }, 1500);
       return;
     }
-
     if (scanResult) {
       scanResult.email = email;
       try { sessionStorage.setItem('scanData', JSON.stringify(scanResult)); } catch {}
     }
-
     const params = new URLSearchParams({
       score: scanResult?.score ?? 0,
       domain: scanResult?.domain ?? '',
       email,
       band: scanResult?.band?.label ?? '',
     });
-
     window.location.href = '/thankyou?' + params.toString();
+  }
+
+  function escHtml(str) {
+    return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
   document.getElementById('url-input').addEventListener('keydown', e => {
