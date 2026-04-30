@@ -91,27 +91,22 @@
       color: var(--gold);
     }
 
-    /* Sizes, positions, rotations */
-    .b1  { width:32px;  height:53px;  top:8%;    left:4%;   transform:rotate(-14deg); animation:bolt-a 4.2s 0.0s  infinite ease-in-out; }
-    .b2  { width:20px;  height:33px;  top:22%;   left:16%;  transform:rotate(11deg);  animation:bolt-b 5.0s 1.3s  infinite ease-in-out; }
-    .b3  { width:46px;  height:77px;  top:6%;    right:5%;  transform:rotate(13deg);  animation:bolt-a 5.8s 0.8s  infinite ease-in-out; }
-    .b4  { width:26px;  height:43px;  top:46%;   right:4%;  transform:rotate(-7deg);  animation:bolt-b 4.6s 2.5s  infinite ease-in-out; }
-    .b5  { width:16px;  height:27px;  top:64%;   left:3%;   transform:rotate(20deg);  animation:bolt-a 5.2s 0.5s  infinite ease-in-out; }
-    .b6  { width:30px;  height:50px;  bottom:8%; left:12%;  transform:rotate(-9deg);  animation:bolt-b 4.8s 1.6s  infinite ease-in-out; }
-    .b7  { width:22px;  height:37px;  bottom:13%;right:13%; transform:rotate(9deg);   animation:bolt-a 5.5s 3.2s  infinite ease-in-out; }
-    .b8  { width:58px;  height:97px;  top:20%;   left:42%;  transform:rotate(-4deg);  animation:bolt-c 7.0s 2.0s  infinite ease-in-out; }
+    /* Sizes, positions, rotations — each bolt shimmers at its own pace */
+    .b1  { width:32px;  height:53px;  top:8%;    left:4%;   transform:rotate(-14deg); animation:bshim 1.8s 0.00s infinite ease-in-out; }
+    .b2  { width:20px;  height:33px;  top:22%;   left:16%;  transform:rotate(11deg);  animation:bshim 2.3s 0.35s infinite ease-in-out; }
+    .b3  { width:46px;  height:77px;  top:6%;    right:5%;  transform:rotate(13deg);  animation:bshim 1.5s 0.80s infinite ease-in-out; }
+    .b4  { width:26px;  height:43px;  top:46%;   right:4%;  transform:rotate(-7deg);  animation:bshim 2.6s 0.55s infinite ease-in-out; }
+    .b5  { width:16px;  height:27px;  top:64%;   left:3%;   transform:rotate(20deg);  animation:bshim 1.9s 1.10s infinite ease-in-out; }
+    .b6  { width:30px;  height:50px;  bottom:8%; left:12%;  transform:rotate(-9deg);  animation:bshim 2.1s 0.20s infinite ease-in-out; }
+    .b7  { width:22px;  height:37px;  bottom:13%;right:13%; transform:rotate(9deg);   animation:bshim 1.7s 0.90s infinite ease-in-out; }
+    .b8  { width:58px;  height:97px;  top:20%;   left:42%;  transform:rotate(-4deg);  animation:bshim 2.8s 1.40s infinite ease-in-out; }
 
-    @keyframes bolt-a {
-      0%,100% { opacity: 0.18; filter: drop-shadow(0 0 4px rgba(255,215,0,0.4)); }
-      50%     { opacity: 0.38; filter: drop-shadow(0 0 10px rgba(255,215,0,0.7)); }
-    }
-    @keyframes bolt-b {
-      0%,100% { opacity: 0.24; filter: drop-shadow(0 0 5px rgba(255,215,0,0.5)); }
-      50%     { opacity: 0.12; filter: drop-shadow(0 0 2px rgba(255,215,0,0.2)); }
-    }
-    @keyframes bolt-c {
-      0%,100% { opacity: 0.08; filter: drop-shadow(0 0 6px rgba(255,215,0,0.3)); }
-      50%     { opacity: 0.16; filter: drop-shadow(0 0 14px rgba(255,215,0,0.5)); }
+    @keyframes bshim {
+      0%   { opacity: 0.25; filter: drop-shadow(0 0 4px  rgba(255,215,0,0.40)); }
+      25%  { opacity: 0.55; filter: drop-shadow(0 0 14px rgba(255,215,0,0.90)); }
+      50%  { opacity: 0.30; filter: drop-shadow(0 0 6px  rgba(255,215,0,0.50)); }
+      75%  { opacity: 0.60; filter: drop-shadow(0 0 18px rgba(255,215,0,1.00)); }
+      100% { opacity: 0.25; filter: drop-shadow(0 0 4px  rgba(255,215,0,0.40)); }
     }
 
     /* Hero content */
@@ -154,7 +149,20 @@
       margin-right: auto;
     }
 
-    h1 em { font-style: normal; color: var(--gold); }
+    h1 em {
+      font-style: normal;
+      background: linear-gradient(90deg, #cc9a00 0%, #FFD700 28%, #fffbe0 50%, #FFD700 72%, #cc9a00 100%);
+      background-size: 260% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: gold-sweep 2.2s linear infinite;
+    }
+
+    @keyframes gold-sweep {
+      0%   { background-position: 100% 50%; }
+      100% { background-position:   0% 50%; }
+    }
 
     .subtitle {
       font-size: 1.05rem;

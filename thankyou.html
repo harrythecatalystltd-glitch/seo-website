@@ -108,21 +108,20 @@
 
     .bolt { position: absolute; color: var(--gold); }
 
-    .b1  { width:28px;  height:47px;  top:8%;    left:4%;    transform:rotate(-14deg); animation:bolt-a 4.2s 0.0s infinite ease-in-out; }
-    .b2  { width:18px;  height:30px;  top:22%;   left:15%;   transform:rotate(11deg);  animation:bolt-b 5.0s 1.3s infinite ease-in-out; }
-    .b3  { width:40px;  height:67px;  top:6%;    right:5%;   transform:rotate(13deg);  animation:bolt-a 5.8s 0.8s infinite ease-in-out; }
-    .b4  { width:22px;  height:37px;  top:50%;   right:4%;   transform:rotate(-7deg);  animation:bolt-b 4.6s 2.5s infinite ease-in-out; }
-    .b5  { width:14px;  height:23px;  bottom:14%;left:3%;    transform:rotate(20deg);  animation:bolt-a 5.2s 0.5s infinite ease-in-out; }
-    .b6  { width:26px;  height:43px;  bottom:8%; left:11%;   transform:rotate(-9deg);  animation:bolt-b 4.8s 1.6s infinite ease-in-out; }
-    .b7  { width:19px;  height:32px;  bottom:12%;right:12%;  transform:rotate(9deg);   animation:bolt-a 5.5s 3.2s infinite ease-in-out; }
+    .b1  { width:28px;  height:47px;  top:8%;    left:4%;    transform:rotate(-14deg); animation:bshim 1.8s 0.00s infinite ease-in-out; }
+    .b2  { width:18px;  height:30px;  top:22%;   left:15%;   transform:rotate(11deg);  animation:bshim 2.3s 0.35s infinite ease-in-out; }
+    .b3  { width:40px;  height:67px;  top:6%;    right:5%;   transform:rotate(13deg);  animation:bshim 1.5s 0.80s infinite ease-in-out; }
+    .b4  { width:22px;  height:37px;  top:50%;   right:4%;   transform:rotate(-7deg);  animation:bshim 2.6s 0.55s infinite ease-in-out; }
+    .b5  { width:14px;  height:23px;  bottom:14%;left:3%;    transform:rotate(20deg);  animation:bshim 1.9s 1.10s infinite ease-in-out; }
+    .b6  { width:26px;  height:43px;  bottom:8%; left:11%;   transform:rotate(-9deg);  animation:bshim 2.1s 0.20s infinite ease-in-out; }
+    .b7  { width:19px;  height:32px;  bottom:12%;right:12%;  transform:rotate(9deg);   animation:bshim 1.7s 0.90s infinite ease-in-out; }
 
-    @keyframes bolt-a {
-      0%,100% { opacity: 0.18; filter: drop-shadow(0 0 4px rgba(255,215,0,0.4)); }
-      50%     { opacity: 0.38; filter: drop-shadow(0 0 10px rgba(255,215,0,0.7)); }
-    }
-    @keyframes bolt-b {
-      0%,100% { opacity: 0.24; filter: drop-shadow(0 0 5px rgba(255,215,0,0.5)); }
-      50%     { opacity: 0.12; filter: drop-shadow(0 0 2px rgba(255,215,0,0.2)); }
+    @keyframes bshim {
+      0%   { opacity: 0.25; filter: drop-shadow(0 0 4px  rgba(255,215,0,0.40)); }
+      25%  { opacity: 0.55; filter: drop-shadow(0 0 14px rgba(255,215,0,0.90)); }
+      50%  { opacity: 0.30; filter: drop-shadow(0 0 6px  rgba(255,215,0,0.50)); }
+      75%  { opacity: 0.60; filter: drop-shadow(0 0 18px rgba(255,215,0,1.00)); }
+      100% { opacity: 0.25; filter: drop-shadow(0 0 4px  rgba(255,215,0,0.40)); }
     }
 
     /* Header content */
