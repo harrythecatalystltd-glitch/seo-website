@@ -5,29 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Website Audit Report — The Catalyst Method</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
       --navy:           #002B45;
-      --navy-light:     #003a5c;
       --gold:           #FFD700;
       --gold-dark:      #e6c200;
       --white:          #FFFFFF;
       --charcoal:       #1A1A1A;
-      --grey-light:     #F5F5F5;
-      --grey-mid:       #E8E8E8;
-      --grey-text:      #666666;
-      --critical:       #D93025;
+      --grey-light:     #F7F8FA;
+      --grey-mid:       #E5E7EB;
+      --grey-text:      #6B7280;
+      --critical:       #DC2626;
       --critical-bg:    #FEF2F2;
       --critical-border:#FECACA;
-      --urgent:         #C77700;
+      --urgent:         #D97706;
       --urgent-bg:      #FFFBEB;
       --urgent-border:  #FDE68A;
-      --good:           #137A50;
-      --good-bg:        #F0FDF4;
-      --good-border:    #BBF7D0;
+      --good:           #059669;
+      --good-bg:        #ECFDF5;
+      --good-border:    #A7F3D0;
     }
 
     body {
@@ -39,59 +38,141 @@
 
     /* ── Confirmation banner ── */
     .confirm-banner {
-      background: var(--navy);
-      padding: 13px 24px;
+      background: #001e30;
+      border-bottom: 1px solid rgba(255,215,0,0.15);
+      padding: 12px 24px;
       text-align: center;
-      font-size: 0.85rem;
-      color: rgba(255,255,255,0.8);
-      font-weight: 600;
+      font-size: 0.84rem;
+      color: rgba(255,255,255,0.7);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
     }
 
-    .confirm-banner strong { color: var(--gold); }
+    .confirm-banner svg { width: 12px; fill: var(--gold); flex-shrink: 0; opacity: 0.9; }
+    .confirm-banner strong { color: var(--gold); font-weight: 700; }
 
-    /* ── Page ── */
-    .page { max-width: 740px; margin: 0 auto; padding: 0 24px 100px; }
+    /* ── Page layout ── */
+    .page { max-width: 760px; margin: 0 auto; padding: 0 24px 100px; }
 
-    /* ── Report header ── */
+    /* ── Report header (navy hero) ── */
     .report-header {
       background: var(--navy);
+      background-image: radial-gradient(ellipse at 50% -10%, #005585 0%, #002B45 65%);
+      position: relative;
+      overflow: hidden;
       margin: 0 -24px;
-      padding: 48px 24px 44px;
+      padding: 56px 24px 52px;
       text-align: center;
-      margin-bottom: 48px;
+      margin-bottom: 52px;
+    }
+
+    /* Dot grid */
+    .report-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 36px 36px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Radial glow */
+    .report-header::after {
+      content: '';
+      position: absolute;
+      width: 600px; height: 400px;
+      top: -160px; left: 50%;
+      transform: translateX(-50%);
+      background: radial-gradient(ellipse, rgba(0,100,160,0.4) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+      animation: glow-pulse 5s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow-pulse {
+      from { opacity: 0.5; transform: translateX(-50%) scale(1); }
+      to   { opacity: 0.9; transform: translateX(-50%) scale(1.12); }
+    }
+
+    /* Lightning bolts */
+    .bolts-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .bolt { position: absolute; fill: var(--gold); opacity: 0; }
+
+    .b1  { width:26px; height:43px; top:8%;   left:4%;   transform:rotate(-14deg); animation:bfa 5.3s 0.0s infinite; }
+    .b2  { width:16px; height:27px; top:22%;  left:16%;  transform:rotate(11deg);  animation:bfb 4.7s 1.4s infinite; }
+    .b3  { width:36px; height:60px; top:6%;   right:5%;  transform:rotate(13deg);  animation:bfa 6.1s 0.9s infinite; }
+    .b4  { width:20px; height:33px; top:50%;  right:4%;  transform:rotate(-7deg);  animation:bfb 4.5s 2.6s infinite; }
+    .b5  { width:14px; height:23px; bottom:12%; left:3%; transform:rotate(20deg);  animation:bfa 5.8s 0.6s infinite; }
+    .b6  { width:24px; height:40px; bottom:8%; left:12%; transform:rotate(-9deg);  animation:bfb 5.0s 1.7s infinite; }
+    .b7  { width:18px; height:30px; bottom:15%; right:13%; transform:rotate(9deg); animation:bfa 5.6s 3.3s infinite; }
+
+    @keyframes bfa {
+      0%,100% { opacity:0; }
+      5%  { opacity:0.22; } 8%  { opacity:0.07; } 11% { opacity:0.24; }
+      18% { opacity:0; }   53% { opacity:0; }    55% { opacity:0.15; } 57% { opacity:0; }
+    }
+    @keyframes bfb {
+      0%,100% { opacity:0; }
+      8%  { opacity:0.17; } 11% { opacity:0.05; } 14% { opacity:0.19; }
+      22% { opacity:0; }   66% { opacity:0; }    68% { opacity:0.11; } 70% { opacity:0; }
+    }
+
+    /* Header content */
+    .report-header-inner {
+      position: relative;
+      z-index: 2;
     }
 
     .report-eyebrow {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       font-family: 'Montserrat', sans-serif;
       font-size: 10px; font-weight: 700;
-      letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--gold); border: 1px solid rgba(255,215,0,0.3);
-      border-radius: 100px; padding: 4px 14px; margin-bottom: 20px;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid rgba(255,215,0,0.28);
+      border-radius: 100px;
+      padding: 6px 16px 6px 12px;
+      margin-bottom: 22px;
+      background: rgba(255,215,0,0.06);
     }
+
+    .report-eyebrow svg { width: 9px; fill: currentColor; flex-shrink: 0; }
 
     .report-domain {
       font-family: 'Montserrat', sans-serif;
-      font-size: clamp(1.4rem, 3.5vw, 2rem);
-      font-weight: 800; color: var(--white);
-      letter-spacing: -0.02em; margin-bottom: 6px;
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+      font-weight: 900; color: var(--white);
+      letter-spacing: -0.025em; margin-bottom: 6px;
     }
 
-    .report-date { font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-bottom: 36px; }
+    .report-date { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-bottom: 40px; }
 
+    /* Score row */
     .score-row {
       display: flex; align-items: center; justify-content: center;
-      gap: 28px; flex-wrap: wrap; margin-bottom: 28px;
+      gap: 32px; flex-wrap: wrap; margin-bottom: 36px;
     }
 
     .score-ring-container { position: relative; display: inline-block; }
 
-    .score-svg { width: 120px; height: 120px; transform: rotate(-90deg); }
-    .score-track { fill: none; stroke: rgba(255,255,255,0.1); stroke-width: 8; }
+    .score-svg { width: 130px; height: 130px; transform: rotate(-90deg); }
+    .score-track { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 9; }
     .score-arc {
-      fill: none; stroke-width: 8; stroke-linecap: round;
+      fill: none; stroke-width: 9; stroke-linecap: round;
       stroke-dasharray: 339.292; stroke-dashoffset: 339.292;
-      transition: stroke-dashoffset 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+      transition: stroke-dashoffset 1.8s cubic-bezier(0.22,1,0.36,1);
     }
 
     .score-num {
@@ -99,91 +180,114 @@
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
       font-family: 'Montserrat', sans-serif;
-      font-size: 2rem; font-weight: 800; color: var(--white);
-      letter-spacing: -0.04em; line-height: 1;
+      font-size: 2.2rem; font-weight: 900;
+      color: var(--white); letter-spacing: -0.04em; line-height: 1;
     }
 
-    .score-num span { font-size: 0.78rem; font-weight: 500; color: rgba(255,255,255,0.5); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
+    .score-num span { font-size: 0.78rem; font-weight: 500; color: rgba(255,255,255,0.45); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
 
     .score-meta { text-align: left; }
-    .score-meta-label { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 800; color: var(--white); margin-bottom: 6px; }
-    .score-meta-msg { font-size: 0.85rem; color: rgba(255,255,255,0.65); line-height: 1.7; max-width: 280px; }
+    .score-meta-label { font-family: 'Montserrat', sans-serif; font-size: 1.05rem; font-weight: 900; color: var(--white); margin-bottom: 7px; letter-spacing: -0.02em; }
+    .score-meta-msg { font-size: 0.85rem; color: rgba(255,255,255,0.58); line-height: 1.75; max-width: 260px; }
 
-    .stats-row { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; }
+    /* Stats row */
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 28px;
+      gap: 0;
+      flex-wrap: wrap;
+    }
 
-    .stat { text-align: center; }
-    .stat-num { font-family: 'Montserrat', sans-serif; font-size: 1.7rem; font-weight: 800; letter-spacing: -0.04em; line-height: 1; margin-bottom: 3px; }
-    .stat-label { font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.45); }
+    .stat {
+      text-align: center;
+      padding: 0 28px;
+      border-right: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .stat:last-child { border-right: none; }
+
+    .stat-num {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.9rem; font-weight: 900;
+      letter-spacing: -0.04em; line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .stat-label { font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.38); }
     .stat-num.critical { color: #F87171; }
     .stat-num.urgent   { color: #FCD34D; }
     .stat-num.good     { color: #6EE7B7; }
     .stat-num.accent   { color: var(--gold); }
 
-    /* ── Section accordions ── */
+    /* ════════════════════════════
+       SECTION ACCORDIONS
+    ════════════════════════════ */
     .findings-section { margin-bottom: 10px; }
 
     .section-trigger {
-      width: 100%; display: flex; align-items: center; gap: 12px;
+      width: 100%; display: flex; align-items: center; gap: 14px;
       background: var(--white); border: 1.5px solid var(--grey-mid);
-      border-radius: 10px; padding: 15px 18px;
+      border-radius: 12px; padding: 16px 20px;
       cursor: pointer; text-align: left;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
       font-family: inherit;
     }
 
-    .section-trigger:hover { box-shadow: 0 2px 8px rgba(0,43,69,0.08); }
+    .section-trigger:hover { box-shadow: 0 3px 14px rgba(0,43,69,0.1); }
     .section-trigger.critical { border-color: var(--critical-border); background: var(--critical-bg); }
     .section-trigger.urgent   { border-color: var(--urgent-border);   background: var(--urgent-bg); }
     .section-trigger.good     { border-color: var(--good-border);     background: var(--good-bg); }
-    .section-trigger.open     { border-radius: 10px 10px 0 0; }
+    .section-trigger.open     { border-radius: 12px 12px 0 0; }
 
     .section-trigger-icon {
-      width: 30px; height: 30px; border-radius: 7px;
+      width: 34px; height: 34px; border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 0.85rem; font-weight: 900; font-family: 'Montserrat', sans-serif;
+      font-size: 0.9rem; font-weight: 900; font-family: 'Montserrat', sans-serif;
       flex-shrink: 0;
     }
 
-    .section-trigger-icon.critical { background: #fee2e2; color: var(--critical); }
-    .section-trigger-icon.urgent   { background: #fef3c7; color: var(--urgent); }
-    .section-trigger-icon.good     { background: #d1fae5; color: var(--good); }
+    .section-trigger-icon.critical { background: #FEE2E2; color: var(--critical); }
+    .section-trigger-icon.urgent   { background: #FEF3C7; color: var(--urgent); }
+    .section-trigger-icon.good     { background: #D1FAE5; color: var(--good); }
 
     .section-trigger-text { flex: 1; }
 
     .section-trigger-title {
       font-family: 'Montserrat', sans-serif;
       font-size: 0.9rem; font-weight: 800; color: var(--navy);
-      letter-spacing: -0.01em; margin-bottom: 1px;
+      letter-spacing: -0.015em; margin-bottom: 2px;
     }
 
-    .section-trigger-desc { font-size: 0.73rem; color: var(--grey-text); }
+    .section-trigger-desc { font-size: 0.73rem; color: var(--grey-text); line-height: 1.5; }
 
     .section-trigger-count {
-      font-size: 0.68rem; font-weight: 800;
-      padding: 3px 10px; border-radius: 100px; flex-shrink: 0;
-      font-family: 'Montserrat', sans-serif;
+      font-size: 0.66rem; font-weight: 800;
+      padding: 3px 11px; border-radius: 100px; flex-shrink: 0;
+      font-family: 'Montserrat', sans-serif; letter-spacing: 0.05em;
     }
 
-    .section-trigger-count.critical { color: var(--critical); background: #fee2e2; border: 1px solid var(--critical-border); }
-    .section-trigger-count.urgent   { color: var(--urgent);   background: #fef3c7; border: 1px solid var(--urgent-border); }
-    .section-trigger-count.good     { color: var(--good);     background: #d1fae5; border: 1px solid var(--good-border); }
+    .section-trigger-count.critical { color: var(--critical); background: #FEE2E2; border: 1px solid var(--critical-border); }
+    .section-trigger-count.urgent   { color: var(--urgent);   background: #FEF3C7; border: 1px solid var(--urgent-border); }
+    .section-trigger-count.good     { color: var(--good);     background: #D1FAE5; border: 1px solid var(--good-border); }
 
     .section-trigger-chevron {
-      color: var(--grey-text); font-size: 0.75rem;
+      color: var(--grey-text); font-size: 0.72rem;
       transition: transform 0.3s ease; flex-shrink: 0;
     }
 
     .section-trigger.open .section-trigger-chevron { transform: rotate(180deg); }
 
-    /* Section body — JS controls maxHeight */
+    /* Section body */
     .section-acc-body {
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.4s ease;
+      transition: max-height 0.45s ease;
       background: var(--white);
       border: 1.5px solid var(--grey-mid);
       border-top: none;
-      border-radius: 0 0 10px 10px;
+      border-radius: 0 0 12px 12px;
     }
 
     .section-trigger.critical + .section-acc-body { border-color: var(--critical-border); background: var(--critical-bg); }
@@ -192,140 +296,180 @@
 
     .section-acc-body-inner { padding: 12px; }
 
-    /* ── Finding rows ── */
+    /* ════════════════════════════
+       FINDING ROWS
+    ════════════════════════════ */
     .finding-row {
-      background: var(--white); border: 1.5px solid var(--grey-mid);
-      border-radius: 8px; margin-bottom: 6px;
+      background: var(--white);
+      border: 1.5px solid var(--grey-mid);
+      border-left: 4px solid transparent;
+      border-radius: 9px;
+      margin-bottom: 6px;
+      transition: box-shadow 0.15s;
     }
 
     .finding-row:last-child { margin-bottom: 0; }
-    .finding-row.critical { border-color: var(--critical-border); }
-    .finding-row.urgent   { border-color: var(--urgent-border); }
-    .finding-row.good     { border-color: var(--good-border); }
+    .finding-row:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+
+    .finding-row.critical { border-color: var(--critical-border); border-left-color: var(--critical); }
+    .finding-row.urgent   { border-color: var(--urgent-border);   border-left-color: var(--urgent); }
+    .finding-row.good     { border-color: var(--good-border);     border-left-color: var(--good); }
 
     .finding-row-trigger {
       width: 100%; display: flex; align-items: center; gap: 10px;
-      padding: 12px 14px; background: transparent; border: none;
+      padding: 13px 15px; background: transparent; border: none;
       cursor: pointer; text-align: left;
-      transition: background 0.15s; border-radius: 7px;
+      transition: background 0.15s; border-radius: 8px;
       font-family: inherit;
     }
 
     .finding-row-trigger:hover { background: rgba(0,43,69,0.03); }
 
     .finding-category-tag {
-      font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em;
-      text-transform: uppercase; padding: 2px 7px; border-radius: 100px;
+      font-size: 0.58rem; font-weight: 800; letter-spacing: 0.09em;
+      text-transform: uppercase; padding: 2px 8px; border-radius: 100px;
       background: var(--grey-light); color: var(--grey-text);
       border: 1px solid var(--grey-mid); flex-shrink: 0;
     }
 
     .finding-row-title {
       font-family: 'Montserrat', sans-serif;
-      font-size: 0.82rem; font-weight: 700; color: var(--navy); flex: 1;
+      font-size: 0.82rem; font-weight: 800; color: var(--navy); flex: 1;
+      letter-spacing: -0.01em;
     }
 
     .finding-row-badge {
-      font-size: 0.6rem; font-weight: 800; letter-spacing: 0.08em;
-      text-transform: uppercase; padding: 2px 8px; border-radius: 100px;
+      font-size: 0.58rem; font-weight: 800; letter-spacing: 0.09em;
+      text-transform: uppercase; padding: 2px 9px; border-radius: 100px;
       flex-shrink: 0; font-family: 'Montserrat', sans-serif;
     }
 
-    .finding-row-badge.critical { color: var(--critical); background: #fee2e2; border: 1px solid var(--critical-border); }
-    .finding-row-badge.urgent   { color: var(--urgent);   background: #fef3c7; border: 1px solid var(--urgent-border); }
-    .finding-row-badge.good     { color: var(--good);     background: #d1fae5; border: 1px solid var(--good-border); }
+    .finding-row-badge.critical { color: var(--critical); background: #FEE2E2; border: 1px solid var(--critical-border); }
+    .finding-row-badge.urgent   { color: var(--urgent);   background: #FEF3C7; border: 1px solid var(--urgent-border); }
+    .finding-row-badge.good     { color: var(--good);     background: #D1FAE5; border: 1px solid var(--good-border); }
 
     .finding-row-chevron {
-      color: var(--grey-text); font-size: 0.65rem;
+      color: var(--grey-text); font-size: 0.62rem;
       transition: transform 0.25s ease; flex-shrink: 0;
     }
 
     .finding-row.open .finding-row-chevron { transform: rotate(180deg); }
 
-    /* Finding detail — JS controls maxHeight */
+    /* Finding detail */
     .finding-detail-acc {
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.3s ease;
+      transition: max-height 0.32s ease;
     }
 
     .finding-row-body {
       border-top: 1px solid var(--grey-mid);
-      padding: 12px 14px;
+      padding: 14px 15px;
       display: grid; grid-template-columns: 1fr 1fr;
-      gap: 10px 20px;
+      gap: 12px 24px;
     }
 
-    .finding-row.critical .finding-row-body { border-top-color: var(--critical-border); background: var(--critical-bg); border-radius: 0 0 6px 6px; }
-    .finding-row.urgent   .finding-row-body { border-top-color: var(--urgent-border);   background: var(--urgent-bg);   border-radius: 0 0 6px 6px; }
-    .finding-row.good     .finding-row-body { border-top-color: var(--good-border);     background: var(--good-bg);     border-radius: 0 0 6px 6px; }
+    .finding-row.critical .finding-row-body { border-top-color: var(--critical-border); background: var(--critical-bg); border-radius: 0 0 7px 7px; }
+    .finding-row.urgent   .finding-row-body { border-top-color: var(--urgent-border);   background: var(--urgent-bg);   border-radius: 0 0 7px 7px; }
+    .finding-row.good     .finding-row-body { border-top-color: var(--good-border);     background: var(--good-bg);     border-radius: 0 0 7px 7px; }
 
     .finding-field-label {
-      font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.09em; color: var(--grey-text); margin-bottom: 4px;
+      font-size: 0.62rem; font-weight: 800; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--grey-text); margin-bottom: 5px;
     }
 
-    .finding-field-value { font-size: 0.8rem; color: #333; line-height: 1.65; }
+    .finding-field-value { font-size: 0.8rem; color: #374151; line-height: 1.7; }
 
-    @media (max-width: 500px) {
-      .finding-row-body { grid-template-columns: 1fr; }
-      .score-row { gap: 16px; }
-      .score-meta { text-align: center; }
-      .score-meta-msg { max-width: none; }
-      .report-header { margin: 0 -24px; padding-left: 20px; padding-right: 20px; }
-    }
-
-    /* ── Category dividers ── */
+    /* Category dividers */
     .category-divider {
       display: flex; align-items: center; gap: 10px; margin: 10px 0 8px;
     }
 
     .category-divider-label {
-      font-size: 0.62rem; font-weight: 800; text-transform: uppercase;
-      letter-spacing: 0.12em; color: var(--grey-text); white-space: nowrap;
+      font-size: 0.6rem; font-weight: 800; text-transform: uppercase;
+      letter-spacing: 0.13em; color: var(--grey-text); white-space: nowrap;
     }
 
     .category-divider-line { flex: 1; height: 1px; background: var(--grey-mid); }
 
-    /* ── CTA block ── */
+    /* ════════════════════════════
+       CTA BLOCK
+    ════════════════════════════ */
     .cta-block {
-      background: var(--navy); border-radius: 14px;
-      padding: 44px 36px; text-align: center; margin-top: 52px;
+      background: var(--navy);
+      background-image: radial-gradient(ellipse at 50% 0%, #005585 0%, #002B45 70%);
+      border-radius: 18px;
+      padding: 52px 40px;
+      text-align: center;
+      margin-top: 56px;
+      position: relative;
+      overflow: hidden;
     }
+
+    .cta-bolt-l, .cta-bolt-r {
+      position: absolute;
+      fill: var(--gold);
+      opacity: 0.08;
+      pointer-events: none;
+    }
+
+    .cta-bolt-l { width: 72px; height: 120px; top: -16px; left: 28px; transform: rotate(-18deg); }
+    .cta-bolt-r { width: 48px; height: 80px; bottom: -12px; right: 32px; transform: rotate(14deg); }
+
+    .cta-block-inner { position: relative; z-index: 1; }
 
     .cta-block h2 {
       font-family: 'Montserrat', sans-serif;
-      font-size: clamp(1.2rem, 3vw, 1.65rem); font-weight: 800;
-      color: var(--white); letter-spacing: -0.02em;
-      margin-bottom: 12px; line-height: 1.3;
+      font-size: clamp(1.25rem, 3vw, 1.75rem); font-weight: 900;
+      color: var(--white); letter-spacing: -0.025em;
+      margin-bottom: 13px; line-height: 1.25;
     }
 
-    .cta-block p { font-size: 0.9rem; color: rgba(255,255,255,0.7); line-height: 1.75; max-width: 440px; margin: 0 auto 28px; }
+    .cta-block p { font-size: 0.9rem; color: rgba(255,255,255,0.62); line-height: 1.78; max-width: 440px; margin: 0 auto 30px; }
 
     .cta-btn {
-      display: inline-block; background: var(--gold); color: var(--navy);
-      border: none; border-radius: 9px; padding: 15px 36px;
-      font-size: 0.95rem; font-weight: 700; font-family: 'Montserrat', sans-serif;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--gold); color: var(--navy);
+      border: none; border-radius: 10px;
+      padding: 16px 38px;
+      font-size: 0.95rem; font-weight: 800;
+      font-family: 'Montserrat', sans-serif;
       cursor: pointer; text-decoration: none;
-      transition: background 0.15s, transform 0.1s; letter-spacing: 0.01em;
+      transition: background 0.15s, transform 0.1s, box-shadow 0.2s;
+      letter-spacing: 0.01em;
+      box-shadow: 0 4px 22px rgba(255,215,0,0.35);
     }
 
-    .cta-btn:hover { background: var(--gold-dark); }
+    .cta-btn svg { width: 13px; fill: currentColor; }
+    .cta-btn:hover { background: #ffe033; box-shadow: 0 6px 30px rgba(255,215,0,0.52); }
     .cta-btn:active { transform: scale(0.97); }
 
-    .cta-reassurance { font-size: 0.78rem; color: rgba(255,255,255,0.4); margin-top: 14px; }
+    .cta-reassurance { font-size: 0.78rem; color: rgba(255,255,255,0.35); margin-top: 16px; }
 
-    /* ── No data fallback ── */
+    /* No data fallback */
     .no-data { text-align: center; padding: 80px 24px; color: var(--grey-text); }
-    .no-data h2 { font-family: 'Montserrat', sans-serif; font-size: 1.3rem; font-weight: 800; margin-bottom: 10px; color: var(--navy); }
+    .no-data h2 { font-family: 'Montserrat', sans-serif; font-size: 1.3rem; font-weight: 900; margin-bottom: 10px; color: var(--navy); }
     .no-data p  { font-size: 0.9rem; margin-bottom: 28px; }
     .no-data a  { color: var(--navy); text-decoration: none; font-weight: 700; border-bottom: 2px solid var(--gold); }
+
+    @media (max-width: 500px) {
+      .finding-row-body { grid-template-columns: 1fr; }
+      .score-row { gap: 20px; }
+      .score-meta { text-align: center; }
+      .score-meta-msg { max-width: none; }
+      .report-header { margin: 0 -24px; }
+      .stat { padding: 0 18px; }
+      .cta-block { padding: 40px 24px; }
+    }
   </style>
 </head>
 <body>
 
 <div class="confirm-banner" id="confirm-banner">
-  Your full report is on its way — <strong id="confirm-email"></strong>
+  <svg viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+  Your full report is on its way to <strong id="confirm-email"></strong>
 </div>
 
 <div class="page">
@@ -339,37 +483,59 @@
   <div id="report" style="display:none">
 
     <div class="report-header">
-      <div class="report-eyebrow">Website Audit Report — The Catalyst Method</div>
-      <div class="report-domain" id="rpt-domain"></div>
-      <div class="report-date" id="rpt-date"></div>
-
-      <div class="score-row">
-        <div class="score-ring-container">
-          <svg class="score-svg" viewBox="0 0 120 120">
-            <circle class="score-track" cx="60" cy="60" r="54"/>
-            <circle class="score-arc" id="rpt-arc" cx="60" cy="60" r="54"/>
-          </svg>
-          <div class="score-num">
-            <div id="rpt-score-num">–</div>
-            <span>/100</span>
-          </div>
-        </div>
-        <div class="score-meta">
-          <div class="score-meta-label" id="rpt-band-label"></div>
-          <div class="score-meta-msg" id="rpt-band-msg"></div>
-        </div>
+      <div class="bolts-bg" aria-hidden="true">
+        <svg class="bolt b1" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        <svg class="bolt b2" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        <svg class="bolt b3" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        <svg class="bolt b4" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        <svg class="bolt b5" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        <svg class="bolt b6" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        <svg class="bolt b7" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
       </div>
 
-      <div class="stats-row" id="rpt-stats"></div>
+      <div class="report-header-inner">
+        <div class="report-eyebrow">
+          <svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+          Website Audit Report — The Catalyst Method
+        </div>
+        <div class="report-domain" id="rpt-domain"></div>
+        <div class="report-date" id="rpt-date"></div>
+
+        <div class="score-row">
+          <div class="score-ring-container">
+            <svg class="score-svg" viewBox="0 0 120 120">
+              <circle class="score-track" cx="60" cy="60" r="54"/>
+              <circle class="score-arc" id="rpt-arc" cx="60" cy="60" r="54"/>
+            </svg>
+            <div class="score-num">
+              <div id="rpt-score-num">–</div>
+              <span>/100</span>
+            </div>
+          </div>
+          <div class="score-meta">
+            <div class="score-meta-label" id="rpt-band-label"></div>
+            <div class="score-meta-msg" id="rpt-band-msg"></div>
+          </div>
+        </div>
+
+        <div class="stats-row" id="rpt-stats"></div>
+      </div>
     </div>
 
     <div id="rpt-findings"></div>
 
     <div class="cta-block">
-      <h2>These issues are fixable — and they're costing you customers right now</h2>
-      <p>Every day these problems go unaddressed is another day competitors are winning the enquiries that should be coming to you. Let's talk about fixing this.</p>
-      <a href="mailto:harrythecatalystltd@gmail.com?subject=I'd like to fix my website" class="cta-btn">Talk to Us About Fixing This</a>
-      <p class="cta-reassurance">No obligation. No hard sell. Just an honest conversation about what's possible.</p>
+      <svg class="cta-bolt-l" viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+      <svg class="cta-bolt-r" viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+      <div class="cta-block-inner">
+        <h2>These issues are fixable — and they're costing you customers right now</h2>
+        <p>Every day these problems go unaddressed is another day competitors are winning the enquiries that should be coming to you. Let's talk about fixing this.</p>
+        <a href="mailto:harrythecatalystltd@gmail.com?subject=I'd like to fix my website" class="cta-btn">
+          <svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+          Talk to Us About Fixing This
+        </a>
+        <p class="cta-reassurance">No obligation. No hard sell. Just an honest conversation about what's possible.</p>
+      </div>
     </div>
 
   </div>
@@ -409,11 +575,12 @@
     const scannedAt = data?.scannedAt ? new Date(data.scannedAt) : new Date();
 
     document.getElementById('rpt-domain').textContent = dom;
-    document.getElementById('rpt-date').textContent = 'Scanned on ' + scannedAt.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    document.getElementById('rpt-date').textContent = 'Scanned ' + scannedAt.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
     const scoreColor = s >= 65 ? '#6EE7B7' : s >= 40 ? '#FCD34D' : '#F87171';
     const arc = document.getElementById('rpt-arc');
     arc.style.stroke = scoreColor;
+    arc.style.filter = `drop-shadow(0 0 8px ${scoreColor})`;
     const offset = 339.292 - (s / 100) * 339.292;
     requestAnimationFrame(() => setTimeout(() => { arc.style.strokeDashoffset = offset; }, 80));
 
@@ -433,15 +600,15 @@
       <div class="stat"><div class="stat-num critical">${critical.length}</div><div class="stat-label">Critical</div></div>
       <div class="stat"><div class="stat-num urgent">${urgent.length}</div><div class="stat-label">Urgent</div></div>
       <div class="stat"><div class="stat-num good">${good.length}</div><div class="stat-label">Passing</div></div>
-      <div class="stat"><div class="stat-num accent">${checks.length}</div><div class="stat-label">Total Checks</div></div>
+      <div class="stat"><div class="stat-num accent">${checks.length}</div><div class="stat-label">Checks</div></div>
     `;
 
     const container = document.getElementById('rpt-findings');
     container.innerHTML = '';
 
     if (critical.length > 0) appendSection(container, critical, 'critical', '✕', 'Fix Immediately', 'These issues are actively costing you customers and rankings right now.', true);
-    if (urgent.length > 0)   appendSection(container, urgent,   'urgent',   '!', 'Address Soon',    'These gaps are hurting your results — fix them after the critical issues.',     false);
-    if (good.length > 0)     appendSection(container, good,     'good',     '✓', 'Already Working', 'These elements are in good shape — keep them and build on them.',              false);
+    if (urgent.length > 0)   appendSection(container, urgent,   'urgent',   '!', 'Address Soon',    'These gaps are hurting your results — fix them after the critical issues.', false);
+    if (good.length > 0)     appendSection(container, good,     'good',     '✓', 'Already Working', 'These elements are in good shape — keep them and build on them.', false);
   }
 
   function appendSection(container, items, severity, icon, title, desc, startOpen) {
@@ -494,7 +661,6 @@
     section.appendChild(accBody);
     container.appendChild(section);
 
-    // Set initial open state AFTER appending so scrollHeight is accurate
     if (startOpen) {
       accBody.style.maxHeight = accBody.scrollHeight + 'px';
       trigger.classList.add('open');

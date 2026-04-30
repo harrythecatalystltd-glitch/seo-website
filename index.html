@@ -5,29 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Free Website Audit — The Catalyst Method</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy:          #002B45;
-      --navy-light:    #003a5c;
-      --gold:          #FFD700;
-      --gold-dark:     #e6c200;
-      --white:         #FFFFFF;
-      --charcoal:      #1A1A1A;
-      --grey-light:    #F5F5F5;
-      --grey-mid:      #E8E8E8;
-      --grey-text:     #666666;
-      --critical:      #D93025;
-      --critical-bg:   #FEF2F2;
-      --critical-border: #FECACA;
-      --urgent:        #C77700;
-      --urgent-bg:     #FFFBEB;
-      --urgent-border: #FDE68A;
-      --good:          #137A50;
-      --good-bg:       #F0FDF4;
-      --good-border:   #BBF7D0;
+      --navy:           #002B45;
+      --gold:           #FFD700;
+      --gold-dark:      #e6c200;
+      --white:          #FFFFFF;
+      --charcoal:       #1A1A1A;
+      --grey-light:     #F7F8FA;
+      --grey-mid:       #E5E7EB;
+      --grey-text:      #6B7280;
+      --critical:       #DC2626;
+      --critical-bg:    #FEF2F2;
+      --critical-border:#FECACA;
+      --urgent:         #D97706;
+      --urgent-bg:      #FFFBEB;
+      --urgent-border:  #FDE68A;
+      --good:           #059669;
+      --good-bg:        #ECFDF5;
+      --good-border:    #A7F3D0;
     }
 
     body {
@@ -38,74 +37,171 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── Hero (navy banner) ── */
+    /* ════════════════════════════
+       HERO
+    ════════════════════════════ */
     .hero {
       background: var(--navy);
-      width: 100%;
-      padding: 72px 24px 64px;
+      background-image: radial-gradient(ellipse at 50% -10%, #005585 0%, #002B45 65%);
+      position: relative;
+      overflow: hidden;
+      padding: 100px 24px 88px;
       text-align: center;
     }
 
+    /* Dot grid */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(255,255,255,0.045) 1px, transparent 1px);
+      background-size: 36px 36px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Centre radial glow pulse */
+    .hero::after {
+      content: '';
+      position: absolute;
+      width: 700px; height: 500px;
+      top: -180px; left: 50%;
+      transform: translateX(-50%);
+      background: radial-gradient(ellipse, rgba(0,100,160,0.45) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+      animation: glow-pulse 5s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow-pulse {
+      from { opacity: 0.5; transform: translateX(-50%) scale(1); }
+      to   { opacity: 0.9; transform: translateX(-50%) scale(1.12); }
+    }
+
+    /* Lightning bolts layer */
+    .bolts-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .bolt {
+      position: absolute;
+      fill: var(--gold);
+      opacity: 0;
+    }
+
+    /* Each bolt: size, position, rotation, animation */
+    .b1  { width:30px; height:50px; top:7%;  left:4%;  transform:rotate(-14deg); animation:bfa 5.3s 0.0s infinite; }
+    .b2  { width:18px; height:30px; top:20%; left:17%; transform:rotate(11deg);  animation:bfb 4.7s 1.4s infinite; }
+    .b3  { width:42px; height:70px; top:5%;  right:6%; transform:rotate(13deg);  animation:bfa 6.1s 0.9s infinite; }
+    .b4  { width:24px; height:40px; top:44%; right:4%; transform:rotate(-7deg);  animation:bfb 4.5s 2.6s infinite; }
+    .b5  { width:15px; height:25px; top:62%; left:3%;  transform:rotate(20deg);  animation:bfa 5.8s 0.6s infinite; }
+    .b6  { width:28px; height:47px; bottom:9%; left:13%; transform:rotate(-9deg); animation:bfb 5.0s 1.7s infinite; }
+    .b7  { width:20px; height:33px; bottom:14%; right:14%; transform:rotate(9deg); animation:bfa 5.6s 3.3s infinite; }
+    .b8  { width:54px; height:90px; top:18%; left:43%; fill:rgba(255,255,255,0.55); animation:bfbig 9s 2.2s infinite; }
+
+    @keyframes bfa {
+      0%,100% { opacity:0; }
+      5%  { opacity:0.22; }
+      8%  { opacity:0.07; }
+      11% { opacity:0.24; }
+      18% { opacity:0; }
+      53% { opacity:0; }
+      55% { opacity:0.15; }
+      57% { opacity:0; }
+    }
+    @keyframes bfb {
+      0%,100% { opacity:0; }
+      8%  { opacity:0.17; }
+      11% { opacity:0.05; }
+      14% { opacity:0.19; }
+      22% { opacity:0; }
+      66% { opacity:0; }
+      68% { opacity:0.11; }
+      70% { opacity:0; }
+    }
+    @keyframes bfbig {
+      0%,100% { opacity:0; }
+      15% { opacity:0.04; }
+      20% { opacity:0.015; }
+      25% { opacity:0.05; }
+      35% { opacity:0; }
+      76% { opacity:0; }
+      79% { opacity:0.03; }
+      83% { opacity:0; }
+    }
+
+    /* Hero content */
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
     .brand-tag {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       font-family: 'Montserrat', sans-serif;
       font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.15em;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
       color: var(--gold);
-      border: 1px solid rgba(255,215,0,0.35);
+      border: 1px solid rgba(255,215,0,0.28);
       border-radius: 100px;
-      padding: 5px 16px;
-      margin-bottom: 28px;
+      padding: 7px 18px 7px 14px;
+      margin-bottom: 32px;
+      background: rgba(255,215,0,0.06);
     }
+
+    .brand-tag svg { width: 10px; fill: currentColor; flex-shrink: 0; }
 
     h1 {
       font-family: 'Montserrat', sans-serif;
-      font-size: clamp(1.8rem, 4.5vw, 2.8rem);
-      font-weight: 800;
-      line-height: 1.18;
-      letter-spacing: -0.02em;
+      font-size: clamp(2.1rem, 5.5vw, 3.6rem);
+      font-weight: 900;
+      line-height: 1.07;
+      letter-spacing: -0.035em;
       color: var(--white);
-      margin-bottom: 18px;
+      margin-bottom: 22px;
       max-width: 640px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    h1 em {
-      font-style: normal;
-      color: var(--gold);
-    }
+    h1 em { font-style: normal; color: var(--gold); }
 
     .subtitle {
-      font-size: 1rem;
-      color: rgba(255,255,255,0.72);
-      line-height: 1.75;
-      max-width: 480px;
-      margin: 0 auto 48px;
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.58);
+      line-height: 1.82;
+      max-width: 460px;
+      margin: 0 auto 52px;
     }
 
     /* ── Widget ── */
-    .widget-wrap {
-      max-width: 620px;
-      margin: 0 auto;
-    }
+    .widget-wrap { max-width: 580px; margin: 0 auto; }
 
-    /* Input state */
     #state-input {
       display: flex;
       align-items: center;
-      background: var(--white);
-      border: 2px solid var(--white);
-      border-radius: 12px;
-      padding: 6px 6px 6px 20px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.13);
+      border-radius: 14px;
+      padding: 7px 7px 7px 22px;
       gap: 8px;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      transition: border-color 0.25s, box-shadow 0.25s;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
     }
 
     #state-input:focus-within {
-      box-shadow: 0 0 0 3px rgba(255,215,0,0.4);
+      border-color: rgba(255,215,0,0.55);
+      box-shadow: 0 0 0 3px rgba(255,215,0,0.10), 0 8px 40px rgba(0,0,0,0.28);
     }
 
     #url-input {
@@ -113,116 +209,158 @@
       background: transparent;
       border: none;
       outline: none;
-      color: var(--charcoal);
+      color: var(--white);
       font-size: 0.95rem;
       font-family: 'Open Sans', sans-serif;
-      padding: 10px 0;
+      padding: 11px 0;
       min-width: 0;
     }
 
-    #url-input::placeholder { color: #999; }
+    #url-input::placeholder { color: rgba(255,255,255,0.3); }
 
     .scan-btn {
+      position: relative;
+      overflow: hidden;
       background: var(--gold);
       color: var(--navy);
       border: none;
-      border-radius: 8px;
-      padding: 12px 24px;
+      border-radius: 9px;
+      padding: 13px 26px;
       font-size: 0.875rem;
-      font-weight: 700;
+      font-weight: 800;
       font-family: 'Montserrat', sans-serif;
       cursor: pointer;
       white-space: nowrap;
-      transition: background 0.15s, transform 0.1s;
       letter-spacing: 0.01em;
+      transition: background 0.15s, transform 0.1s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px rgba(255,215,0,0.38);
     }
 
-    .scan-btn:hover { background: var(--gold-dark); }
+    .scan-btn::after {
+      content: '';
+      position: absolute;
+      top: -50%; left: -80%;
+      width: 50%; height: 200%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.42), transparent);
+      transform: skewX(-20deg);
+      animation: shimmer 3.5s 2s infinite;
+    }
+
+    @keyframes shimmer {
+      0%        { left: -80%; }
+      40%, 100% { left: 130%; }
+    }
+
+    .scan-btn:hover { background: #ffe033; box-shadow: 0 6px 28px rgba(255,215,0,0.52); }
     .scan-btn:active { transform: scale(0.97); }
-    .scan-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+    .scan-btn:disabled { opacity: 0.55; cursor: not-allowed; box-shadow: none; }
+    .scan-btn:disabled::after { display: none; }
 
     .input-meta {
       display: flex;
       justify-content: center;
-      gap: 24px;
-      margin-top: 14px;
+      gap: 28px;
+      margin-top: 18px;
       flex-wrap: wrap;
     }
 
     .input-meta-item {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 6px;
       font-size: 0.78rem;
-      color: rgba(255,255,255,0.55);
+      color: rgba(255,255,255,0.38);
     }
 
     .input-meta-item::before {
-      content: '✓';
-      color: var(--gold);
-      font-size: 0.7rem;
+      content: '';
+      display: inline-block;
+      width: 5px; height: 5px;
+      background: var(--gold);
+      border-radius: 50%;
+      flex-shrink: 0;
     }
 
-    /* Scanning state */
+    /* Scanning */
     #state-scanning {
       display: none;
       text-align: center;
-      padding: 40px 0 0;
+      padding: 48px 0 8px;
     }
 
     .scanner-ring {
-      width: 40px; height: 40px;
-      border: 3px solid rgba(255,255,255,0.15);
+      width: 46px; height: 46px;
+      border: 3px solid rgba(255,255,255,0.08);
       border-top-color: var(--gold);
       border-radius: 50%;
       animation: spin 0.75s linear infinite;
-      margin: 0 auto 20px;
+      margin: 0 auto 24px;
+      box-shadow: 0 0 20px rgba(255,215,0,0.18);
     }
 
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    .scanning-label { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 6px; }
-    .scanning-status { font-size: 0.85rem; color: rgba(255,255,255,0.55); transition: opacity 0.3s; }
-
-    /* ── Results (on white) ── */
-    #state-results {
-      display: none;
+    .scanning-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem; font-weight: 800;
+      color: var(--white); margin-bottom: 8px;
+      letter-spacing: -0.01em;
     }
+
+    .scanning-status { font-size: 0.85rem; color: rgba(255,255,255,0.4); transition: opacity 0.3s; }
+
+    /* Error */
+    #state-error { display: none; text-align: center; padding: 48px 0 8px; }
+    .error-heading { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 800; color: var(--white); margin-bottom: 8px; }
+    .error-msg { font-size: 0.875rem; color: rgba(255,255,255,0.5); margin-bottom: 24px; line-height: 1.65; }
+    .retry-btn {
+      background: transparent; color: rgba(255,255,255,0.75);
+      border: 1px solid rgba(255,255,255,0.18); border-radius: 9px;
+      padding: 11px 24px; font-size: 0.875rem; font-weight: 600;
+      font-family: 'Open Sans', sans-serif; cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .retry-btn:hover { border-color: rgba(255,215,0,0.6); color: var(--gold); }
+
+    /* ════════════════════════════
+       RESULTS
+    ════════════════════════════ */
+    #state-results { display: none; }
 
     .results-section {
-      max-width: 620px;
+      max-width: 640px;
       margin: 0 auto;
-      padding: 48px 24px 0;
+      padding: 64px 24px 0;
     }
 
-    /* Score */
-    .score-wrap { text-align: center; margin-bottom: 40px; }
+    /* Score ring */
+    .score-wrap { text-align: center; margin-bottom: 56px; }
 
     .domain-pill {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 0.78rem;
+      font-size: 0.78rem; font-weight: 600;
       color: var(--grey-text);
       background: var(--grey-light);
       border: 1px solid var(--grey-mid);
       border-radius: 100px;
-      padding: 4px 12px;
-      margin-bottom: 24px;
+      padding: 5px 14px;
+      margin-bottom: 28px;
     }
 
     .score-ring-container {
       position: relative;
       display: inline-block;
-      margin-bottom: 16px;
+      margin-bottom: 22px;
     }
 
-    .score-svg { width: 140px; height: 140px; transform: rotate(-90deg); }
-    .score-track { fill: none; stroke: var(--grey-mid); stroke-width: 9; }
+    .score-svg { width: 160px; height: 160px; transform: rotate(-90deg); }
+    .score-track { fill: none; stroke: var(--grey-mid); stroke-width: 10; }
     .score-arc {
-      fill: none; stroke-width: 9; stroke-linecap: round;
+      fill: none; stroke-width: 10; stroke-linecap: round;
       stroke-dasharray: 339.292; stroke-dashoffset: 339.292;
-      transition: stroke-dashoffset 1.6s cubic-bezier(0.22, 1, 0.36, 1), stroke 0.4s;
+      transition: stroke-dashoffset 1.8s cubic-bezier(0.22,1,0.36,1), stroke 0.4s;
     }
 
     .score-num {
@@ -230,175 +368,198 @@
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
       font-family: 'Montserrat', sans-serif;
-      font-size: 2.4rem; font-weight: 800;
+      font-size: 2.9rem; font-weight: 900;
       color: var(--navy); letter-spacing: -0.04em; line-height: 1;
     }
 
-    .score-num span { font-size: 0.85rem; font-weight: 600; color: var(--grey-text); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
+    .score-num span { font-size: 0.82rem; font-weight: 500; color: var(--grey-text); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
 
-    .score-band-label { font-family: 'Montserrat', sans-serif; font-size: 1.05rem; font-weight: 800; color: var(--navy); margin-bottom: 6px; }
-    .score-band-msg { font-size: 0.875rem; color: var(--grey-text); max-width: 400px; margin: 0 auto; line-height: 1.7; }
+    .score-band-label { font-family: 'Montserrat', sans-serif; font-size: 1.15rem; font-weight: 900; margin-bottom: 8px; letter-spacing: -0.02em; }
+    .score-band-msg { font-size: 0.875rem; color: var(--grey-text); max-width: 400px; margin: 0 auto; line-height: 1.75; }
+
+    /* Section label */
+    .section-divider {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .section-divider-line { flex: 1; height: 1px; background: var(--grey-mid); }
+
+    .section-divider-label {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 0.68rem; font-weight: 800;
+      letter-spacing: 0.13em; text-transform: uppercase;
+      color: var(--grey-text); white-space: nowrap;
+    }
+
+    .section-divider-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 
     /* Finding cards */
-    .section-label {
-      display: flex; align-items: center; gap: 8px;
-      font-size: 0.68rem; font-weight: 800;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      color: var(--grey-text); margin-bottom: 10px;
-    }
-
-    .section-label .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-
     .finding-card {
-      display: flex; gap: 12px; align-items: flex-start;
-      background: var(--white); border-radius: 10px;
-      padding: 14px 16px; margin-bottom: 8px;
+      display: flex; gap: 14px; align-items: flex-start;
+      background: var(--white);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-bottom: 8px;
       border: 1px solid var(--grey-mid);
+      border-left: 4px solid transparent;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
 
-    .finding-card.critical { border-color: var(--critical-border); background: var(--critical-bg); }
-    .finding-card.urgent   { border-color: var(--urgent-border);   background: var(--urgent-bg); }
+    .finding-card:hover { transform: translateY(-1px); box-shadow: 0 4px 18px rgba(0,0,0,0.08); }
 
-    .card-dot {
-      width: 8px; height: 8px; border-radius: 50%;
-      flex-shrink: 0; margin-top: 6px;
-    }
-
-    .card-dot.critical { background: var(--critical); }
-    .card-dot.urgent   { background: var(--urgent); }
+    .finding-card.critical { border-color: var(--critical-border); border-left-color: var(--critical); background: var(--critical-bg); }
+    .finding-card.urgent   { border-color: var(--urgent-border);   border-left-color: var(--urgent);   background: var(--urgent-bg); }
 
     .card-body { flex: 1; }
-    .card-title { font-family: 'Montserrat', sans-serif; font-size: 0.875rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
-    .card-impact { font-size: 0.82rem; color: #444; line-height: 1.65; }
+    .card-title { font-family: 'Montserrat', sans-serif; font-size: 0.875rem; font-weight: 800; color: var(--navy); margin-bottom: 5px; letter-spacing: -0.01em; }
+    .card-impact { font-size: 0.82rem; color: #4B5563; line-height: 1.7; }
 
     .card-badge {
-      font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em;
-      text-transform: uppercase; padding: 3px 9px;
+      font-size: 0.6rem; font-weight: 800; letter-spacing: 0.1em;
+      text-transform: uppercase; padding: 3px 10px;
       border-radius: 100px; white-space: nowrap;
       align-self: flex-start; flex-shrink: 0;
+      font-family: 'Montserrat', sans-serif;
     }
 
-    .card-badge.critical { color: var(--critical); background: #fee2e2; border: 1px solid var(--critical-border); }
-    .card-badge.urgent   { color: var(--urgent);   background: #fef3c7; border: 1px solid var(--urgent-border); }
+    .card-badge.critical { color: var(--critical); background: #FEE2E2; border: 1px solid var(--critical-border); }
+    .card-badge.urgent   { color: var(--urgent);   background: #FEF3C7; border: 1px solid var(--urgent-border); }
 
-    .findings-group { margin-bottom: 28px; }
+    .findings-group { margin-bottom: 36px; }
 
     .more-hint {
-      text-align: center; font-size: 0.82rem;
-      color: var(--grey-text); padding: 8px 0 28px;
+      text-align: center; font-size: 0.83rem;
+      color: var(--grey-text); padding: 8px 0 40px; line-height: 1.75;
     }
 
-    /* Email CTA */
+    /* ── Email CTA ── */
     .email-cta {
       background: var(--navy);
-      border-radius: 14px;
-      padding: 32px 28px;
+      background-image: radial-gradient(ellipse at 50% 0%, #005585 0%, #002B45 70%);
+      border-radius: 18px;
+      padding: 48px 36px;
       text-align: center;
-      margin-bottom: 48px;
+      margin-bottom: 68px;
+      position: relative;
+      overflow: hidden;
     }
+
+    .cta-bolt-l, .cta-bolt-r {
+      position: absolute;
+      fill: var(--gold);
+      opacity: 0.08;
+      pointer-events: none;
+    }
+
+    .cta-bolt-l { width: 68px; height: 113px; top: -14px; left: 22px; transform: rotate(-18deg); }
+    .cta-bolt-r { width: 46px; height: 77px; bottom: -10px; right: 28px; transform: rotate(13deg); }
+
+    .email-cta-inner { position: relative; z-index: 1; }
 
     .email-cta h3 {
       font-family: 'Montserrat', sans-serif;
-      font-size: 1.2rem; font-weight: 800;
-      color: var(--white); margin-bottom: 8px;
-      letter-spacing: -0.01em;
+      font-size: 1.38rem; font-weight: 900;
+      color: var(--white); margin-bottom: 10px;
+      letter-spacing: -0.025em;
     }
 
-    .email-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.7); line-height: 1.7; max-width: 420px; margin: 0 auto 22px; }
+    .email-cta p { font-size: 0.875rem; color: rgba(255,255,255,0.6); line-height: 1.78; max-width: 420px; margin: 0 auto 26px; }
 
     .email-row { display: flex; gap: 8px; max-width: 420px; margin: 0 auto; }
 
     .email-field {
-      flex: 1; background: rgba(255,255,255,0.1);
-      border: 1px solid rgba(255,255,255,0.2);
-      border-radius: 8px; padding: 12px 16px;
+      flex: 1; background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 9px; padding: 13px 16px;
       color: var(--white); font-size: 0.9rem;
       font-family: 'Open Sans', sans-serif;
       outline: none; min-width: 0;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
 
-    .email-field:focus { border-color: var(--gold); }
-    .email-field::placeholder { color: rgba(255,255,255,0.4); }
+    .email-field:focus { border-color: rgba(255,215,0,0.55); box-shadow: 0 0 0 2px rgba(255,215,0,0.10); }
+    .email-field::placeholder { color: rgba(255,255,255,0.3); }
 
     .report-btn {
+      position: relative; overflow: hidden;
       background: var(--gold); color: var(--navy);
-      border: none; border-radius: 8px;
-      padding: 12px 22px; font-size: 0.875rem;
-      font-weight: 700; font-family: 'Montserrat', sans-serif;
+      border: none; border-radius: 9px;
+      padding: 13px 24px; font-size: 0.875rem;
+      font-weight: 800; font-family: 'Montserrat', sans-serif;
       cursor: pointer; white-space: nowrap;
-      transition: background 0.15s;
+      transition: background 0.15s, box-shadow 0.15s;
+      box-shadow: 0 4px 18px rgba(255,215,0,0.3);
     }
 
-    .report-btn:hover { background: var(--gold-dark); }
+    .report-btn:hover { background: #ffe033; box-shadow: 0 6px 28px rgba(255,215,0,0.5); }
+    .privacy { font-size: 0.72rem; color: rgba(255,255,255,0.3); margin-top: 14px; }
 
-    .privacy { font-size: 0.72rem; color: rgba(255,255,255,0.4); margin-top: 12px; }
-
-    /* Error state */
-    #state-error {
-      display: none; text-align: center; padding: 40px 0 0;
-    }
-
-    .error-heading { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 8px; }
-    .error-msg { font-size: 0.875rem; color: rgba(255,255,255,0.6); margin-bottom: 24px; line-height: 1.6; }
-
-    .retry-btn {
-      background: transparent; color: var(--white);
-      border: 1px solid rgba(255,255,255,0.3);
-      border-radius: 8px; padding: 11px 24px;
-      font-size: 0.875rem; font-weight: 600;
-      font-family: 'Open Sans', sans-serif; cursor: pointer;
-      transition: border-color 0.2s;
-    }
-
-    .retry-btn:hover { border-color: var(--gold); color: var(--gold); }
-
-    /* ── Responsive ── */
+    /* Responsive */
     @media (max-width: 520px) {
-      .hero { padding: 56px 20px 48px; }
-      h1 { font-size: 1.7rem; }
+      .hero { padding: 64px 20px 56px; }
+      h1 { font-size: 2.1rem; }
       #state-input { flex-direction: column; padding: 10px; }
-      .scan-btn { width: 100%; text-align: center; padding: 13px; }
+      .scan-btn { width: 100%; text-align: center; padding: 14px; }
       .email-row { flex-direction: column; }
-      .report-btn { width: 100%; text-align: center; padding: 13px; }
-      .input-meta { gap: 10px; }
+      .report-btn { width: 100%; text-align: center; padding: 14px; }
+      .input-meta { gap: 14px; }
+      .score-svg { width: 140px; height: 140px; }
     }
   </style>
 </head>
 <body>
 
-<!-- Hero / Input -->
+<!-- Hero -->
 <section class="hero">
-  <div class="widget-wrap">
-    <span class="brand-tag">The Catalyst Method — Free Audit</span>
-    <h1>Find Out Why Your Website Isn't Getting You <em>More Customers</em></h1>
-    <p class="subtitle">Enter your web address below. We'll scan your site in seconds and show you exactly what's working, what's broken, and what it's costing you.</p>
+  <div class="bolts-bg" aria-hidden="true">
+    <svg class="bolt b1" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b2" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b3" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b4" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b5" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b6" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b7" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="bolt b8" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+  </div>
 
-    <div id="state-input">
-      <input type="text" id="url-input" placeholder="yourwebsite.co.uk" autocomplete="off" spellcheck="false">
-      <button class="scan-btn" id="scan-btn" onclick="startScan()">Scan My Website Free</button>
-    </div>
-    <div class="input-meta">
-      <span class="input-meta-item">Free — no sign-up needed</span>
-      <span class="input-meta-item">Results in 10 seconds</span>
-      <span class="input-meta-item">16 checks run instantly</span>
-    </div>
+  <div class="hero-inner">
+    <div class="widget-wrap">
+      <div class="brand-tag">
+        <svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        The Catalyst Method — Free Audit
+      </div>
 
-    <div id="state-scanning">
-      <div class="scanner-ring"></div>
-      <p class="scanning-label">Scanning your website…</p>
-      <p class="scanning-status" id="scanning-status">Fetching your page…</p>
-    </div>
+      <h1>Find Out Why Your Website Isn't<br>Getting You <em>More Customers</em></h1>
+      <p class="subtitle">Enter your web address below. We'll scan your site in seconds and show you exactly what's working, what's broken, and what it's costing you.</p>
 
-    <div id="state-error">
-      <p class="error-heading">We could not scan that website</p>
-      <p class="error-msg" id="error-msg">The site may be down or blocking automated requests.</p>
-      <button class="retry-btn" onclick="resetWidget()">Try a Different URL</button>
+      <div id="state-input">
+        <input type="text" id="url-input" placeholder="yourwebsite.co.uk" autocomplete="off" spellcheck="false">
+        <button type="button" class="scan-btn" id="scan-btn" onclick="startScan()">Scan My Website Free</button>
+      </div>
+      <div class="input-meta">
+        <span class="input-meta-item">Free — no sign-up needed</span>
+        <span class="input-meta-item">Results in 10 seconds</span>
+        <span class="input-meta-item">16 checks run instantly</span>
+      </div>
+
+      <div id="state-scanning">
+        <div class="scanner-ring"></div>
+        <p class="scanning-label">Scanning your website…</p>
+        <p class="scanning-status" id="scanning-status">Fetching your page…</p>
+      </div>
+
+      <div id="state-error">
+        <p class="error-heading">We could not scan that website</p>
+        <p class="error-msg" id="error-msg">The site may be down or blocking automated requests.</p>
+        <button type="button" class="retry-btn" onclick="resetWidget()">Try a Different URL</button>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Results (white section) -->
+<!-- Results -->
 <div id="state-results">
   <div class="results-section">
 
@@ -422,25 +583,43 @@
     </div>
 
     <div id="critical-group" class="findings-group" style="display:none">
-      <div class="section-label"><span class="dot" style="background:var(--critical)"></span>Critical — Fix Immediately</div>
+      <div class="section-divider">
+        <div class="section-divider-line"></div>
+        <div class="section-divider-label">
+          <span class="section-divider-dot" style="background:var(--critical)"></span>
+          Critical — Fix Immediately
+        </div>
+        <div class="section-divider-line"></div>
+      </div>
       <div id="critical-cards"></div>
     </div>
 
     <div id="urgent-group" class="findings-group" style="display:none">
-      <div class="section-label"><span class="dot" style="background:var(--urgent)"></span>Urgent — Address Soon</div>
+      <div class="section-divider">
+        <div class="section-divider-line"></div>
+        <div class="section-divider-label">
+          <span class="section-divider-dot" style="background:var(--urgent)"></span>
+          Urgent — Address Soon
+        </div>
+        <div class="section-divider-line"></div>
+      </div>
       <div id="urgent-cards"></div>
     </div>
 
     <p class="more-hint" id="more-hint"></p>
 
     <div class="email-cta">
-      <h3>Get Your Full <span id="check-count">16</span>-Point Report</h3>
-      <p>We'll send the complete breakdown to your inbox — every issue in plain English, what it means for your business, and how to fix it.</p>
-      <div class="email-row">
-        <input type="email" class="email-field" id="email-input" placeholder="your@email.com">
-        <button class="report-btn" onclick="submitEmail()">Send My Report</button>
+      <svg class="cta-bolt-l" viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+      <svg class="cta-bolt-r" viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+      <div class="email-cta-inner">
+        <h3>Get Your Full <span id="check-count">16</span>-Point Report</h3>
+        <p>We'll send the complete breakdown to your inbox — every issue in plain English, what it means for your business, and how to fix it.</p>
+        <div class="email-row">
+          <input type="email" class="email-field" id="email-input" placeholder="your@email.com">
+          <button type="button" class="report-btn" onclick="submitEmail()">Send My Report</button>
+        </div>
+        <p class="privacy">No spam. One email with your report. Nothing else.</p>
       </div>
-      <p class="privacy">No spam. One email with your report. Nothing else.</p>
     </div>
 
   </div>
@@ -509,9 +688,10 @@
 
   function renderResults(data) {
     document.getElementById('domain-text').textContent = data.domain || data.url;
-    const scoreColor = data.score >= 65 ? '#137A50' : data.score >= 40 ? '#C77700' : '#D93025';
+    const scoreColor = data.score >= 65 ? '#059669' : data.score >= 40 ? '#D97706' : '#DC2626';
     const arc = document.getElementById('score-arc');
     arc.style.stroke = scoreColor;
+    arc.style.filter = `drop-shadow(0 0 8px ${scoreColor})`;
     const offset = 339.292 - (data.score / 100) * 339.292;
     requestAnimationFrame(() => setTimeout(() => { arc.style.strokeDashoffset = offset; }, 80));
 
@@ -560,7 +740,6 @@
     const div = document.createElement('div');
     div.className = 'finding-card ' + check.severity;
     div.innerHTML = `
-      <div class="card-dot ${check.severity}"></div>
       <div class="card-body">
         <div class="card-title">${escHtml(check.title)}</div>
         <div class="card-impact">${escHtml(check.impact)}</div>
@@ -586,7 +765,7 @@
     const email = document.getElementById('email-input').value.trim();
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       const f = document.getElementById('email-input');
-      f.style.borderColor = '#D93025';
+      f.style.borderColor = 'rgba(220,38,38,0.6)';
       f.focus();
       setTimeout(() => { f.style.borderColor = ''; }, 1500);
       return;
