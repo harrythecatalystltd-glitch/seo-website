@@ -1316,8 +1316,8 @@
         </ul>
       </div>
 
-      <a href="mailto:harry@thecatalyst.ltd?subject=Basic Plan Enquiry" class="card-cta basic-cta">Get Started with Basic</a>
-      <p class="card-sub-note">Email us to get started today</p>
+      <a href="https://buy.stripe.com/00w9AW1rAfWIamy7cF5wI00" class="card-cta basic-cta" data-monthly="https://buy.stripe.com/00w9AW1rAfWIamy7cF5wI00" data-6month="https://buy.stripe.com/28E7sOgmu4e02U62Wp5wI01" data-12month="https://buy.stripe.com/dRmeVg7PYaCogKWbsV5wI02" target="_blank" rel="noopener">Get Started with Basic</a>
+      <p class="card-sub-note">Secure payment via Stripe</p>
     </div>
 
     <!-- GOLD (featured) -->
@@ -1364,8 +1364,8 @@
         </ul>
       </div>
 
-      <a href="mailto:harry@thecatalyst.ltd?subject=Gold Plan Enquiry" class="card-cta gold-cta">Get Started with Gold</a>
-      <p class="card-sub-note">Email us to get started today</p>
+      <a href="https://buy.stripe.com/14AeVg2vE4e0amydB35wI03" class="card-cta gold-cta" data-monthly="https://buy.stripe.com/14AeVg2vE4e0amydB35wI03" data-6month="https://buy.stripe.com/eVq3cy0nw6m8dyK40t5wI04" data-12month="https://buy.stripe.com/aFafZkgmucKwfGSbsV5wI05" target="_blank" rel="noopener">Get Started with Gold</a>
+      <p class="card-sub-note">Secure payment via Stripe</p>
     </div>
 
     <!-- PLATINUM -->
@@ -1410,8 +1410,8 @@
         </ul>
       </div>
 
-      <a href="mailto:harry@thecatalyst.ltd?subject=Platinum Plan Enquiry" class="card-cta platinum-cta">Get Started with Platinum</a>
-      <p class="card-sub-note">Email us to get started today</p>
+      <a href="https://buy.stripe.com/8x24gC1rA39WeCOfJb5wI06" class="card-cta platinum-cta" data-monthly="https://buy.stripe.com/8x24gC1rA39WeCOfJb5wI06" data-6month="https://buy.stripe.com/3cI14q8U2dOAeCO54x5wI07" data-12month="https://buy.stripe.com/14A5kG4DM4e0cuGcwZ5wI08" target="_blank" rel="noopener">Get Started with Platinum</a>
+      <p class="card-sub-note">Secure payment via Stripe</p>
     </div>
 
   </div>
@@ -1527,6 +1527,9 @@
       });
       document.querySelectorAll('.price-alts').forEach(el => {
         el.innerHTML = el.getAttribute('data-' + key);
+      });
+      document.querySelectorAll('.card-cta').forEach(el => {
+        el.href = el.getAttribute('data-' + key);
       });
     });
   });
