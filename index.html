@@ -30,8 +30,8 @@
     }
 
     body {
-      background: var(--white);
-      color: var(--charcoal);
+      background: var(--navy);
+      color: var(--white);
       font-family: 'Open Sans', system-ui, sans-serif;
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
@@ -330,9 +330,9 @@
       align-items: center;
       gap: 6px;
       font-size: 0.78rem; font-weight: 600;
-      color: var(--grey-text);
-      background: var(--grey-light);
-      border: 1px solid var(--grey-mid);
+      color: rgba(255,255,255,0.6);
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.14);
       border-radius: 100px;
       padding: 5px 14px;
       margin-bottom: 28px;
@@ -345,7 +345,7 @@
     }
 
     .score-svg { width: 160px; height: 160px; transform: rotate(-90deg); }
-    .score-track { fill: none; stroke: var(--grey-mid); stroke-width: 10; }
+    .score-track { fill: none; stroke: rgba(255,255,255,0.1); stroke-width: 10; }
     .score-arc {
       fill: none; stroke-width: 10; stroke-linecap: round;
       stroke-dasharray: 339.292; stroke-dashoffset: 339.292;
@@ -358,13 +358,13 @@
       align-items: center; justify-content: center;
       font-family: 'Montserrat', sans-serif;
       font-size: 2.9rem; font-weight: 900;
-      color: var(--navy); letter-spacing: -0.04em; line-height: 1;
+      color: var(--white); letter-spacing: -0.04em; line-height: 1;
     }
 
-    .score-num span { font-size: 0.82rem; font-weight: 500; color: var(--grey-text); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
+    .score-num span { font-size: 0.82rem; font-weight: 500; color: rgba(255,255,255,0.45); letter-spacing: 0; font-family: 'Open Sans', sans-serif; }
 
     .score-band-label { font-family: 'Montserrat', sans-serif; font-size: 1.15rem; font-weight: 900; margin-bottom: 8px; letter-spacing: -0.02em; }
-    .score-band-msg { font-size: 0.875rem; color: var(--grey-text); max-width: 400px; margin: 0 auto; line-height: 1.75; }
+    .score-band-msg { font-size: 0.875rem; color: rgba(255,255,255,0.6); max-width: 400px; margin: 0 auto; line-height: 1.75; }
 
     /* Section label */
     .section-divider {
@@ -372,13 +372,13 @@
       margin-bottom: 12px;
     }
 
-    .section-divider-line { flex: 1; height: 1px; background: var(--grey-mid); }
+    .section-divider-line { flex: 1; height: 1px; background: rgba(255,255,255,0.12); }
 
     .section-divider-label {
       display: flex; align-items: center; gap: 7px;
       font-size: 0.68rem; font-weight: 800;
       letter-spacing: 0.13em; text-transform: uppercase;
-      color: var(--grey-text); white-space: nowrap;
+      color: rgba(255,255,255,0.5); white-space: nowrap;
     }
 
     .section-divider-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
@@ -386,24 +386,23 @@
     /* Finding cards */
     .finding-card {
       display: flex; gap: 14px; align-items: flex-start;
-      background: var(--white);
+      background: rgba(255,255,255,0.05);
       border-radius: 12px;
       padding: 16px 18px;
       margin-bottom: 8px;
-      border: 1px solid var(--grey-mid);
-      border-left: 4px solid transparent;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      border: 1px solid rgba(255,255,255,0.10);
+      border-left: 4px solid rgba(255,255,255,0.15);
+      transition: transform 0.15s ease, background 0.15s ease;
     }
 
-    .finding-card:hover { transform: translateY(-1px); box-shadow: 0 4px 18px rgba(0,0,0,0.08); }
+    .finding-card:hover { transform: translateY(-1px); background: rgba(255,255,255,0.08); }
 
-    .finding-card.critical { border-color: var(--critical-border); border-left-color: var(--critical); background: var(--critical-bg); }
-    .finding-card.urgent   { border-color: var(--urgent-border);   border-left-color: var(--urgent);   background: var(--urgent-bg); }
+    .finding-card.critical { background: rgba(220,38,38,0.14); border-color: rgba(220,38,38,0.32); border-left-color: #F87171; }
+    .finding-card.urgent   { background: rgba(217,119,6,0.14); border-color: rgba(217,119,6,0.32); border-left-color: #FCD34D; }
 
     .card-body { flex: 1; }
-    .card-title { font-family: 'Montserrat', sans-serif; font-size: 0.875rem; font-weight: 800; color: var(--navy); margin-bottom: 5px; letter-spacing: -0.01em; }
-    .card-impact { font-size: 0.82rem; color: #4B5563; line-height: 1.7; }
+    .card-title { font-family: 'Montserrat', sans-serif; font-size: 0.875rem; font-weight: 800; color: var(--white); margin-bottom: 5px; letter-spacing: -0.01em; }
+    .card-impact { font-size: 0.82rem; color: rgba(255,255,255,0.68); line-height: 1.7; }
 
     .card-badge {
       font-size: 0.6rem; font-weight: 800; letter-spacing: 0.1em;
@@ -413,20 +412,20 @@
       font-family: 'Montserrat', sans-serif;
     }
 
-    .card-badge.critical { color: var(--critical); background: #FEE2E2; border: 1px solid var(--critical-border); }
-    .card-badge.urgent   { color: var(--urgent);   background: #FEF3C7; border: 1px solid var(--urgent-border); }
+    .card-badge.critical { color: #F87171; background: rgba(220,38,38,0.25); border: 1px solid rgba(220,38,38,0.4); }
+    .card-badge.urgent   { color: #FCD34D; background: rgba(217,119,6,0.25); border: 1px solid rgba(217,119,6,0.4); }
 
     .findings-group { margin-bottom: 36px; }
 
     .more-hint {
       text-align: center; font-size: 0.83rem;
-      color: var(--grey-text); padding: 8px 0 40px; line-height: 1.75;
+      color: rgba(255,255,255,0.48); padding: 8px 0 40px; line-height: 1.75;
     }
 
     /* ── Email CTA ── */
     .email-cta {
-      background: var(--navy);
-      background-image: radial-gradient(ellipse at 50% 0%, #005585 0%, #002B45 70%);
+      background: radial-gradient(ellipse at 50% 0%, #004a75 0%, #001a2e 80%);
+      border: 1.5px solid rgba(255,215,0,0.22);
       border-radius: 18px;
       padding: 48px 36px;
       text-align: center;
