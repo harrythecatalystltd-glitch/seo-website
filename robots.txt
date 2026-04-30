@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thankyou
+
+Sitemap: https://the-catalyst-method.vercel.app/sitemap.xml
