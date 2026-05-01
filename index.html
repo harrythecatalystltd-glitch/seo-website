@@ -185,10 +185,45 @@
       align-items: center;
       padding: 14px 28px;
     }
-    .site-nav img {
-      width: 96px;
-      height: auto;
+    .site-nav img { width: 96px; height: auto; }
+
+    /* Hamburger menu */
+    .nav-logo { display: flex; align-items: center; text-decoration: none; }
+    .nav-toggle {
+      margin-left: auto; flex-shrink: 0;
+      background: transparent; border: none; cursor: pointer;
+      padding: 8px; display: flex; flex-direction: column; gap: 5px;
+      border-radius: 6px; transition: background 0.2s;
     }
+    .nav-toggle:hover { background: rgba(255,255,255,0.07); }
+    .nav-toggle span {
+      display: block; width: 22px; height: 2px;
+      background: rgba(255,255,255,0.65); border-radius: 2px;
+      transition: transform 0.25s ease, opacity 0.2s ease;
+      transform-origin: center;
+    }
+    .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-dropdown {
+      position: absolute; top: 100%; right: 20px;
+      background: rgba(0,20,36,0.97);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 10px; padding: 6px; min-width: 130px;
+      opacity: 0; transform: translateY(-6px); pointer-events: none;
+      transition: opacity 0.18s ease, transform 0.18s ease;
+      z-index: 20; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+    .nav-dropdown.open { opacity: 1; transform: translateY(0); pointer-events: all; }
+    .nav-link {
+      display: flex; align-items: center; gap: 8px; padding: 10px 14px;
+      font-family: 'Montserrat', sans-serif; font-size: 0.8rem; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: rgba(255,255,255,0.72); text-decoration: none;
+      border-radius: 6px; transition: background 0.15s, color 0.15s;
+    }
+    .nav-link svg { width: 9px; fill: currentColor; opacity: 0.55; flex-shrink: 0; }
+    .nav-link:hover { background: rgba(255,255,255,0.07); color: var(--white); }
 
     .brand-tag {
       display: inline-flex;
@@ -580,7 +615,16 @@
 <!-- Hero -->
 <section class="hero">
   <nav class="site-nav">
-    <img src="/mainlogo-transparent.png" alt="The Catalyst Method">
+    <a href="/" class="nav-logo"><img src="/mainlogo-transparent.png" alt="The Catalyst Method"></a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-dropdown" id="nav-dropdown">
+      <a href="/blog" class="nav-link">
+        <svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+        Blog
+      </a>
+    </div>
   </nav>
   <div class="bolts-bg" aria-hidden="true">
     <svg class="bolt b1" viewBox="0 0 18 30"><path fill="currentColor" d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
@@ -859,6 +903,24 @@
   document.getElementById('url-input').addEventListener('keydown', e => {
     if (e.key === 'Enter') startScan();
   });
+</script>
+<script>
+  (function() {
+    var t = document.getElementById('nav-toggle');
+    var d = document.getElementById('nav-dropdown');
+    if (!t || !d) return;
+    t.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var open = t.classList.toggle('open');
+      d.classList.toggle('open', open);
+      t.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('click', function() {
+      t.classList.remove('open');
+      d.classList.remove('open');
+      t.setAttribute('aria-expanded', 'false');
+    });
+  })();
 </script>
 </body>
 </html>
