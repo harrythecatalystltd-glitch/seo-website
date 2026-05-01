@@ -2,5 +2,8 @@ node_modules
 .vercel
 .env
 .env.local
-
-.vercel
+.next/
+next-env.d.ts
+.claude/
+remove-bg.js
+seo-audit-report.html
