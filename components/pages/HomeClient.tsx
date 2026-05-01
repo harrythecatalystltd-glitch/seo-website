@@ -94,7 +94,7 @@ export default function HomeClient() {
     }
   }
 
-  function submitEmail() {
+  async function submitEmail() {
     const email = emailValue.trim()
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setEmailErr(true)
@@ -109,6 +109,17 @@ export default function HomeClient() {
       email,
       band: scanResult?.band?.label ?? '',
     })
+    // Fire-and-forget — don't await so the redirect is instant
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email,
+        score: scanResult?.score,
+        domain: scanResult?.domain,
+        band: scanResult?.band?.label,
+      }),
+    }).catch(() => {})
     window.location.href = '/thankyou?' + p.toString()
   }
 
