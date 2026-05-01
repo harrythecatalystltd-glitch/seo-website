@@ -556,7 +556,11 @@
 
     /* Responsive */
     @media (max-width: 520px) {
-      .hero { padding: 64px 20px 56px; }
+      .hero { padding: 82px 20px 56px; }
+      .site-nav { top: 14px; left: 14px; }
+      .site-nav img { width: 76px; }
+      /* Hide centre and inner-edge bolts — too intrusive on narrow screens */
+      .b2, .b3, .b6, .b8 { display: none; }
       h1 { font-size: 2.1rem; }
       #state-input { flex-direction: column; padding: 10px; }
       .scan-btn { width: 100%; text-align: center; padding: 14px; }
@@ -564,6 +568,7 @@
       .report-btn { width: 100%; text-align: center; padding: 14px; }
       .input-meta { gap: 14px; }
       .score-svg { width: 140px; height: 140px; }
+      .email-cta { padding: 36px 20px; }
     }
   </style>
 </head>
