@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 
 const BoltIcon = () => (
@@ -8,29 +8,34 @@ const BoltIcon = () => (
 
 export default function SiteNav() {
   const [open, setOpen] = useState(false)
+  const navRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
-    const close = () => setOpen(false)
-    document.addEventListener('click', close)
-    return () => document.removeEventListener('click', close)
+    const handleClick = (e: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setOpen(false)
+      }
+    }
+    document.addEventListener('click', handleClick)
+    return () => document.removeEventListener('click', handleClick)
   }, [])
 
   return (
-    <nav className="site-nav">
+    <nav className="site-nav" ref={navRef}>
       <Link href="/" className="nav-logo">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/mainlogo-transparent.png" alt="The Catalyst Method" />
       </Link>
       <button
         className={`nav-toggle${open ? ' open' : ''}`}
-        onClick={(e) => { e.stopPropagation(); setOpen(o => !o) }}
+        onClick={() => setOpen(o => !o)}
         aria-label="Toggle menu"
         aria-expanded={open}
       >
         <span /><span /><span />
       </button>
       <div className={`nav-dropdown${open ? ' open' : ''}`}>
-        <Link href="/blog" className="nav-link">
+        <Link href="/blog" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           Blog
         </Link>
