@@ -298,7 +298,7 @@ export default function HomeClient() {
                   We&apos;ll send the complete breakdown to your inbox — every issue in plain English,
                   what it means for your business, and how to fix it.
                 </p>
-                <div className="email-row">
+                <div className="email-row" style={{ marginBottom: 8 }}>
                   <input
                     type="text"
                     className="email-field"
@@ -306,6 +306,8 @@ export default function HomeClient() {
                     value={nameValue}
                     onChange={e => setNameValue(e.target.value)}
                   />
+                </div>
+                <div className="email-row">
                   <input
                     type="email"
                     className="email-field"
