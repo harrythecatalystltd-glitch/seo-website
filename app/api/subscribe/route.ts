@@ -9,6 +9,7 @@ export async function POST(request: Request) {
   }
 
   const email  = typeof parsed.email  === 'string' ? parsed.email  : ''
+  const name   = typeof parsed.name   === 'string' ? parsed.name   : ''
   const score  = parsed.score
   const domain = parsed.domain
   const band   = parsed.band
@@ -24,9 +25,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true })
   }
 
-  let ghlStatus = 0
-  let ghlBody = ''
-
   try {
     const res = await fetch('https://services.leadconnectorhq.com/contacts/', {
       method: 'POST',
@@ -37,6 +35,7 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         email,
+        name,
         locationId,
         tags: ['seo-lead'],
         customFields: [
@@ -46,11 +45,13 @@ export async function POST(request: Request) {
         ],
       }),
     })
-    ghlStatus = res.status
-    ghlBody = await res.text()
+
+    if (!res.ok) {
+      console.error('GHL error:', res.status, await res.text())
+    }
   } catch (err) {
-    ghlBody = String(err)
+    console.error('GHL subscribe failed:', err)
   }
 
-  return NextResponse.json({ ok: true, ghlStatus, ghlBody })
+  return NextResponse.json({ ok: true })
 }

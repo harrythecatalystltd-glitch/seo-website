@@ -31,6 +31,7 @@ export default function HomeClient() {
   const [scanResult, setScanResult] = useState<ScanResult | null>(null)
   const [scanningStatus, setScanningStatus] = useState(SCAN_STATUSES[0])
   const [errorMsg, setErrorMsg] = useState('')
+  const [nameValue, setNameValue] = useState('')
   const [emailValue, setEmailValue] = useState('')
   const [emailErr, setEmailErr] = useState(false)
   const [displayScore, setDisplayScore] = useState(0)
@@ -96,6 +97,7 @@ export default function HomeClient() {
 
   async function submitEmail() {
     const email = emailValue.trim()
+    const name  = nameValue.trim()
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setEmailErr(true)
       setTimeout(() => setEmailErr(false), 1500)
@@ -115,6 +117,7 @@ export default function HomeClient() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           email,
+          name,
           score: scanResult?.score,
           domain: scanResult?.domain,
           band: scanResult?.band?.label,
@@ -296,6 +299,13 @@ export default function HomeClient() {
                   what it means for your business, and how to fix it.
                 </p>
                 <div className="email-row">
+                  <input
+                    type="text"
+                    className="email-field"
+                    placeholder="Your name"
+                    value={nameValue}
+                    onChange={e => setNameValue(e.target.value)}
+                  />
                   <input
                     type="email"
                     className="email-field"
