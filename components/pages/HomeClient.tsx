@@ -109,17 +109,14 @@ export default function HomeClient() {
       email,
       band: scanResult?.band?.label ?? '',
     })
-    // Fire-and-forget — don't await so the redirect is instant
-    fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        email,
-        score: scanResult?.score,
-        domain: scanResult?.domain,
-        band: scanResult?.band?.label,
-      }),
-    }).catch(() => {})
+    // sendBeacon guarantees delivery even when the page navigates away immediately
+    const payload = JSON.stringify({
+      email,
+      score: scanResult?.score,
+      domain: scanResult?.domain,
+      band: scanResult?.band?.label,
+    })
+    navigator.sendBeacon('/api/subscribe', new Blob([payload], { type: 'application/json' }))
     window.location.href = '/thankyou?' + p.toString()
   }
 

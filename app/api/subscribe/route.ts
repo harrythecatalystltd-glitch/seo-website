@@ -1,12 +1,9 @@
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  const body = await request.json()
-  console.log('Subscribe body received:', JSON.stringify(body))
-  const { email, score, domain, band } = body
+  const { email, score, domain, band } = await request.json()
 
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    console.log('Email validation failed for:', JSON.stringify(email))
     return NextResponse.json({ error: 'Invalid email' }, { status: 400 })
   }
 
