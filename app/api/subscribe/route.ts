@@ -7,42 +7,38 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Invalid email' }, { status: 400 })
   }
 
-  const apiKey = process.env.MAILERLITE_API_KEY
-  const groupId = process.env.MAILERLITE_GROUP_ID
+  const apiKey     = process.env.GHL_API_KEY
+  const locationId = process.env.GHL_LOCATION_ID
 
-  if (!apiKey || !groupId) {
-    // Silently succeed so the user journey isn't broken
+  if (!apiKey || !locationId) {
     return NextResponse.json({ ok: true })
   }
 
   try {
-    // Upsert subscriber
-    const subRes = await fetch('https://connect.mailerlite.com/api/subscribers', {
+    const res = await fetch('https://rest.gohighlevel.com/v1/contacts/', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'Accept': 'application/json',
       },
       body: JSON.stringify({
         email,
-        fields: {
+        locationId,
+        customField: {
           audit_score: String(score ?? ''),
           audit_domain: String(domain ?? ''),
           audit_band: String(band ?? ''),
         },
-        groups: [groupId],
+        tags: ['seo-lead'],
       }),
     })
 
-    if (!subRes.ok) {
-      const err = await subRes.text()
-      console.error('MailerLite error:', err)
+    if (!res.ok) {
+      console.error('GHL error:', await res.text())
     }
   } catch (err) {
-    console.error('MailerLite subscribe failed:', err)
+    console.error('GHL subscribe failed:', err)
   }
 
-  // Always return ok — don't block the user journey if MailerLite fails
   return NextResponse.json({ ok: true })
 }
