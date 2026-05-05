@@ -1,27 +1,26 @@
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  const rawText = await request.text()
-  console.log('RAW BODY:', rawText)
-
-  let email: string, score: unknown, domain: unknown, band: unknown
+  let parsed: Record<string, unknown> = {}
   try {
-    ;({ email, score, domain, band } = JSON.parse(rawText))
+    parsed = await request.json() as Record<string, unknown>
   } catch {
-    console.error('JSON parse failed on:', rawText)
-    return NextResponse.json({ error: 'Bad request', raw: rawText }, { status: 400 })
+    return NextResponse.json({ error: 'Bad request' }, { status: 400 })
   }
 
+  const email  = typeof parsed.email  === 'string' ? parsed.email  : ''
+  const score  = parsed.score
+  const domain = parsed.domain
+  const band   = parsed.band
+
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    console.error('Email invalid:', JSON.stringify(email))
-    return NextResponse.json({ error: 'Invalid email', received: email }, { status: 400 })
+    return NextResponse.json({ error: 'Invalid email' }, { status: 400 })
   }
 
   const apiKey     = process.env.GHL_API_KEY
   const locationId = process.env.GHL_LOCATION_ID
 
   if (!apiKey || !locationId) {
-    console.error('Missing GHL env vars')
     return NextResponse.json({ ok: true })
   }
 
@@ -45,11 +44,9 @@ export async function POST(request: Request) {
       }),
     })
 
-    const resBody = await res.text()
+    const body = await res.text()
     if (!res.ok) {
-      console.error('GHL error:', res.status, resBody)
-    } else {
-      console.log('GHL contact created:', resBody)
+      console.error('GHL error:', res.status, body)
     }
   } catch (err) {
     console.error('GHL subscribe failed:', err)
