@@ -1,20 +1,20 @@
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  let email: string, score: unknown, domain: unknown, band: unknown
+  const rawText = await request.text()
+  console.log('RAW BODY:', rawText)
 
+  let email: string, score: unknown, domain: unknown, band: unknown
   try {
-    const body = await request.json()
-    console.log('Subscribe body:', JSON.stringify(body))
-    ;({ email, score, domain, band } = body)
-  } catch (err) {
-    console.error('Body parse error:', err)
-    return NextResponse.json({ error: 'Bad request' }, { status: 400 })
+    ;({ email, score, domain, band } = JSON.parse(rawText))
+  } catch {
+    console.error('JSON parse failed on:', rawText)
+    return NextResponse.json({ error: 'Bad request', raw: rawText }, { status: 400 })
   }
 
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     console.error('Email invalid:', JSON.stringify(email))
-    return NextResponse.json({ error: 'Invalid email' }, { status: 400 })
+    return NextResponse.json({ error: 'Invalid email', received: email }, { status: 400 })
   }
 
   const apiKey     = process.env.GHL_API_KEY
