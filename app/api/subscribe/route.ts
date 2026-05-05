@@ -15,26 +15,30 @@ export async function POST(request: Request) {
   }
 
   try {
-    const res = await fetch('https://rest.gohighlevel.com/v1/contacts/', {
+    const res = await fetch('https://services.leadconnectorhq.com/contacts/', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
+        'Version': '2021-07-28',
       },
       body: JSON.stringify({
         email,
         locationId,
-        customField: {
-          audit_score: String(score ?? ''),
-          audit_domain: String(domain ?? ''),
-          audit_band: String(band ?? ''),
-        },
         tags: ['seo-lead'],
+        customFields: [
+          { key: 'audit_score', field_value: String(score ?? '') },
+          { key: 'audit_domain', field_value: String(domain ?? '') },
+          { key: 'audit_band',   field_value: String(band ?? '') },
+        ],
       }),
     })
 
+    const body = await res.text()
     if (!res.ok) {
-      console.error('GHL error:', await res.text())
+      console.error('GHL error:', res.status, body)
+    } else {
+      console.log('GHL contact created:', body)
     }
   } catch (err) {
     console.error('GHL subscribe failed:', err)
