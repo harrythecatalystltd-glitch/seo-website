@@ -57,7 +57,6 @@ export async function POST(request: Request) {
             'Version': '2021-07-28',
           },
           body: JSON.stringify({
-            userId: contactId,
             body: `Contact form enquiry from ${name}${business ? ` (${business})` : ''}:\n\n${message}`,
           }),
         })
