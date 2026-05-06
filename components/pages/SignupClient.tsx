@@ -237,6 +237,12 @@ export default function SignupClient() {
               </div>
             ))}
           </div>
+          <div style={{ marginTop: '24px' }}>
+            <a href="/case-study-creation-coffee" className="cs-site-link">
+              <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
+              Read Full Case Study
+            </a>
+          </div>
         </div>
 
         {/* Case Study 2 */}
@@ -262,6 +268,9 @@ export default function SignupClient() {
                 <a href="https://fitnesscoachchronicle.com/" target="_blank" rel="noopener" className="cs-site-link">
                   <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
                   View the Site
+                </a>
+                <a href="/case-study-fitness-coach-chronicle" className="cs-site-link-secondary">
+                  Read Full Case Study →
                 </a>
               </div>
             </div>
