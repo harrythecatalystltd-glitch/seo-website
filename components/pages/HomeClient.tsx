@@ -64,8 +64,21 @@ export default function HomeClient() {
   const resultsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const stored = parseInt(localStorage.getItem(COUNTER_KEY) || '', 10)
-    if (!isNaN(stored)) setAuditCount(stored)
+    fetch('/api/audit-count')
+      .then(r => r.json())
+      .then((data: { count: number | null }) => {
+        if (data.count) {
+          setAuditCount(data.count)
+          localStorage.setItem(COUNTER_KEY, String(data.count))
+        } else {
+          const stored = parseInt(localStorage.getItem(COUNTER_KEY) || '', 10)
+          if (!isNaN(stored)) setAuditCount(stored)
+        }
+      })
+      .catch(() => {
+        const stored = parseInt(localStorage.getItem(COUNTER_KEY) || '', 10)
+        if (!isNaN(stored)) setAuditCount(stored)
+      })
   }, [])
 
   useEffect(() => {
