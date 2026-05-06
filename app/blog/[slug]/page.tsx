@@ -72,7 +72,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thecatalystmethod.co.uk/' },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.thecatalystmethod.co.uk/blog' },
-      { '@type': 'ListItem', position: 3, name: article.title, item: `https://www.thecatalystmethod.co.uk/blog/${slug}` },
+      { '@type': 'ListItem', position: 3, name: article.title || slug, item: `https://www.thecatalystmethod.co.uk/blog/${slug}` },
     ],
   }
 
