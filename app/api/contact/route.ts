@@ -41,6 +41,9 @@ export async function POST(request: Request) {
         locationId,
         tags: ['contact-form'],
         source: 'Contact Form — thecatalystmethod.co.uk',
+        customFields: [
+          { key: 'contact_message', field_value: message },
+        ],
       }),
     })
 
