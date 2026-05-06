@@ -43,6 +43,10 @@ export default function SiteNav() {
           <BoltIcon />
           Sign Up
         </Link>
+        <Link href="/contact" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          Contact
+        </Link>
       </div>
     </nav>
   )

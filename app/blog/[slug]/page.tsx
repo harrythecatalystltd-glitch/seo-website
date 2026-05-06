@@ -116,7 +116,41 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             dangerouslySetInnerHTML={{ __html: article.html || article.content || '' }}
           />
 
-          <div style={{ marginTop: '60px', paddingTop: '32px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
+          <div style={{
+            marginTop: '52px',
+            background: 'radial-gradient(ellipse at 50% 0%, #004a75 0%, #001a2e 80%)',
+            border: '1.5px solid rgba(255,215,0,0.22)',
+            borderRadius: '16px',
+            padding: '36px 32px',
+            textAlign: 'center',
+          }}>
+            <div style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: '1.15rem',
+              fontWeight: 900,
+              color: '#fff',
+              letterSpacing: '-0.02em',
+              marginBottom: '10px',
+            }}>
+              See exactly what&apos;s holding your website back
+            </div>
+            <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.58)', marginBottom: '22px', lineHeight: 1.7 }}>
+              Run the free 16-point audit. Takes 10 seconds. No sign-up needed.
+            </p>
+            <Link href="/" style={{
+              display: 'inline-flex', alignItems: 'center', gap: '8px',
+              background: '#FFD700', color: '#002B45',
+              borderRadius: '10px', padding: '14px 28px',
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: '0.9rem', fontWeight: 800,
+              textDecoration: 'none', letterSpacing: '0.01em',
+              boxShadow: '0 4px 20px rgba(255,215,0,0.35)',
+            }}>
+              Scan My Website Free
+            </Link>
+          </div>
+
+          <div style={{ marginTop: '32px', paddingTop: '24px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
             <Link
               href="/blog"
               style={{ color: 'rgba(255,215,0,0.7)', textDecoration: 'none', fontSize: '0.875rem', fontWeight: 600 }}

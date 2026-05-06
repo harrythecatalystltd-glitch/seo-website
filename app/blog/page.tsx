@@ -3,7 +3,7 @@ import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 
 export const metadata: Metadata = {
-  title: 'Local SEO and Lead Generation Blog for UK Businesses | The Catalyst Method',
+  title: 'Local SEO & Lead Gen Blog for UK Businesses | The Catalyst Method',
   description: 'Practical local SEO tips, lead generation strategies and website conversion guides for UK small businesses. Free advice from The Catalyst Method.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/blog' },

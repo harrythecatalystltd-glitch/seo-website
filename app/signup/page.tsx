@@ -3,7 +3,7 @@ import SignupClient from '@/components/pages/SignupClient'
 
 export const metadata: Metadata = {
   title: 'Lead Generation Plans for Local Businesses UK | The Catalyst Method',
-  description: 'Choose your SEO and lead growth plan from The Catalyst Method. Three tiers from £500 per month, all including a free website build, CRM setup, lead magnet and email automation.',
+  description: 'SEO and lead generation plans for UK local businesses. From £500/month — free website build, CRM, lead magnet and email automation included. Cancel anytime.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/signup' },
   openGraph: {

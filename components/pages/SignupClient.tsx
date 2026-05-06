@@ -138,7 +138,7 @@ export default function SignupClient() {
             </ul>
             <BonusBox />
             <a href={PRICING.basic[period].link} className="card-cta basic-cta" target="_blank" rel="noopener">
-              Get Started with Basic
+              Start My Basic Plan
             </a>
             <p className="card-sub-note">Secure payment via Stripe</p>
           </div>
@@ -163,7 +163,7 @@ export default function SignupClient() {
             </ul>
             <BonusBox />
             <a href={PRICING.gold[period].link} className="card-cta gold-cta" target="_blank" rel="noopener">
-              Get Started with Gold
+              Start My Gold Plan
             </a>
             <p className="card-sub-note">Secure payment via Stripe</p>
           </div>
@@ -187,7 +187,7 @@ export default function SignupClient() {
             </ul>
             <BonusBox />
             <a href={PRICING.platinum[period].link} className="card-cta platinum-cta" target="_blank" rel="noopener">
-              Get Started with Platinum
+              Start My Platinum Plan
             </a>
             <p className="card-sub-note">Secure payment via Stripe</p>
           </div>
