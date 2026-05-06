@@ -1494,6 +1494,8 @@ h1 em {
   font-size: 0.82rem;
   color: rgba(255,255,255,0.75);
   font-weight: 600;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 /* Form card */
