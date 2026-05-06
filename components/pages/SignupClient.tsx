@@ -132,7 +132,7 @@ export default function SignupClient() {
             <div className="card-divider" />
             <p className="features-label">What&apos;s included</p>
             <ul className="feature-list">
-              {['Website audit & lead gen conversion plan','Website copywriting action plan','Keyword research & strategy','On-site SEO implementation','Monthly analytics reports','Google My Business optimisation','9 SEO blogs/month with backlinks'].map(f => (
+              {['Website audit & lead gen conversion plan','Website copywriting action plan','Keyword research & strategy','On-site SEO implementation','Monthly analytics reports','Google My Business optimisation','9 SEO blogs/month with backlinks','Lead magnet to attract warm leads','Leads & sales branded dashboard'].map(f => (
                 <li key={f}><span className="chk"><ChkIcon /></span>{f}</li>
               ))}
             </ul>
@@ -157,7 +157,7 @@ export default function SignupClient() {
             <div className="card-divider" />
             <p className="features-label">Everything in Basic, plus</p>
             <ul className="feature-list">
-              {['Website audit & lead gen conversion plan','Website copywriting action plan','Keyword research & strategy','On-site SEO implementation','Monthly analytics reports','Google My Business optimisation','20 SEO blogs/month with backlinks','Sales training & scripts','CRM & email automations'].map(f => (
+              {['Website audit & lead gen conversion plan','Website copywriting action plan','Keyword research & strategy','On-site SEO implementation','Monthly analytics reports','Google My Business optimisation','20 SEO blogs/month with backlinks','Sales training & scripts','Lead magnet to attract warm leads','Leads & sales branded dashboard'].map(f => (
                 <li key={f}><span className="chk"><ChkIcon /></span>{f}</li>
               ))}
             </ul>
@@ -181,7 +181,7 @@ export default function SignupClient() {
             <div className="card-divider" />
             <p className="features-label">Everything in Gold, plus</p>
             <ul className="feature-list">
-              {['Website audit & lead gen conversion plan','20 SEO blogs/month with backlinks','Sales training & scripts','CRM & email automations','Business coaching','Specific sales training for your niche','Monthly business strategy meetings','Organic social posting plan','Directory listings for Domain Authority'].map(f => (
+              {['Website audit & lead gen conversion plan','20 SEO blogs/month with backlinks','Sales training & scripts','CRM & email automations','Specific sales training for your niche','Monthly business strategy meetings','100 directory listings to improve site authority','Lead magnet to attract warm leads','Leads & sales branded dashboard'].map(f => (
                 <li key={f}><span className="chk"><ChkIcon /></span>{f}</li>
               ))}
             </ul>
