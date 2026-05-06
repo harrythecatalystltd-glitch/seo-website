@@ -203,7 +203,7 @@ export default function HomeClient() {
               The Catalyst Method | Free Audit
             </div>
 
-            <h1>Free Lead Generation Audit<br />for UK <em>Local Businesses</em></h1>
+            <h1>Free Lead Generation Audit<br />for <em>Local Businesses</em></h1>
             <p className="subtitle">
               Enter your web address below. We&apos;ll scan your site in seconds and show you exactly
               what&apos;s working, what&apos;s broken, and what it&apos;s costing you.

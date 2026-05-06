@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <p style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.28)', marginBottom: '6px' }}>
               <a href="mailto:hey@thecatalystmethod.co.uk" style={{ color: 'rgba(255,215,0,0.55)', textDecoration: 'none' }}>hey@thecatalystmethod.co.uk</a>
             </p>
-            <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.2)' }}>© 2026 The Catalyst Method · SEO and Lead Generation for UK Local Businesses</p>
+            <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.2)' }}>© 2026 The Catalyst Method · SEO and Lead Generation for Local Businesses</p>
           </div>
         </footer>
         <Script

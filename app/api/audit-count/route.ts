@@ -8,7 +8,7 @@ export async function GET() {
   }
   try {
     const res = await fetch(
-      `${supabaseUrl}/rest/v1/counters?counter_id=eq.audit&select=count`,
+      `${supabaseUrl}/rest/v1/counters?id=eq.audit&select=count`,
       {
         headers: {
           'apikey': supabaseKey,
