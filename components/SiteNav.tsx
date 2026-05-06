@@ -39,6 +39,10 @@ export default function SiteNav() {
           <BoltIcon />
           Blog
         </Link>
+        <Link href="/signup" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          Sign Up
+        </Link>
       </div>
     </nav>
   )
