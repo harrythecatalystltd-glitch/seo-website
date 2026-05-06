@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import SignupClient from '@/components/pages/SignupClient'
 
 export const metadata: Metadata = {
-  title: 'Lead Generation Plans for Local Businesses UK | The Catalyst Method',
+  title: 'Lead Generation Plans for Local Businesses | The Catalyst Method',
   description: 'SEO and lead generation plans for UK local businesses. From £500/month — free website build, CRM, lead magnet and email automation included. Cancel anytime.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/signup' },

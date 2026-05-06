@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import HomeClient from '@/components/pages/HomeClient'
 
 export const metadata: Metadata = {
-  title: 'Free SEO & Lead Gen Audit for UK Businesses | The Catalyst Method',
+  title: 'Free SEO & Lead Gen Audit for Local Businesses | The Catalyst Method',
   description: 'Get your free 16-point website audit in seconds. See what\'s stopping your site ranking and costing you customers. No sign-up needed. Results in 10 seconds.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/' },

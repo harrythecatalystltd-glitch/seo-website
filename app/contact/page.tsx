@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import ContactClient from '@/components/pages/ContactClient'
 
 export const metadata: Metadata = {
-  title: 'Contact The Catalyst Method | Local Business SEO UK',
+  title: 'Contact The Catalyst Method | Local Business SEO',
   description: 'Get in touch with The Catalyst Method. Questions about our SEO and lead generation plans for UK local businesses? We\'d love to hear from you.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/contact' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/contact',
-    title: 'Contact The Catalyst Method | Local Business SEO UK',
+    title: 'Contact The Catalyst Method | Local Business SEO',
     description: 'Questions about our SEO and lead generation plans for UK local businesses? Get in touch.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
