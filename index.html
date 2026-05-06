@@ -352,6 +352,34 @@
     .scan-btn:disabled { opacity: 0.55; cursor: not-allowed; box-shadow: none; }
     .scan-btn:disabled::after { display: none; }
 
+    .audit-counter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 18px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .audit-counter-number {
+      color: var(--gold);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .audit-counter-number.bump {
+      transform: scale(1.25);
+      opacity: 0.7;
+    }
+
+    .audit-counter-label {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.48);
+    }
+
     .input-meta {
       display: flex;
       justify-content: center;
@@ -647,6 +675,11 @@
       <h1>Free Lead Generation Audit<br>for UK <em>Local Businesses</em></h1>
       <p class="subtitle">Enter your web address below. We'll scan your site in seconds and show you exactly what's working, what's broken, and what it's costing you.</p>
 
+      <div class="audit-counter">
+        <span class="audit-counter-number" id="audit-counter-num">1,000</span>
+        <span class="audit-counter-label">businesses have had a free audit</span>
+      </div>
+
       <div id="state-input">
         <input type="text" id="url-input" placeholder="yourwebsite.co.uk" autocomplete="off" spellcheck="false">
         <button type="button" class="scan-btn" id="scan-btn" onclick="startScan()">Scan My Website Free</button>
@@ -741,6 +774,34 @@
 <script>
   let scanResult = null;
 
+  const AUDIT_COUNTER_KEY = 'auditCount';
+  const AUDIT_COUNTER_BASE = 1000;
+
+  function getAuditCount() {
+    return parseInt(localStorage.getItem(AUDIT_COUNTER_KEY) || AUDIT_COUNTER_BASE, 10);
+  }
+
+  function incrementAuditCount() {
+    const next = getAuditCount() + 1;
+    localStorage.setItem(AUDIT_COUNTER_KEY, next);
+    updateCounterDisplay(next);
+  }
+
+  function updateCounterDisplay(count) {
+    const el = document.getElementById('audit-counter-num');
+    if (!el) return;
+    el.textContent = Number(count).toLocaleString('en-GB');
+    el.classList.add('bump');
+    setTimeout(() => el.classList.remove('bump'), 200);
+  }
+
+  function initAuditCounter() {
+    const el = document.getElementById('audit-counter-num');
+    if (el) el.textContent = getAuditCount().toLocaleString('en-GB');
+  }
+
+  document.addEventListener('DOMContentLoaded', initAuditCounter);
+
   const SCAN_STATUSES = [
     'Fetching your page…',
     'Checking page speed and mobile…',
@@ -755,6 +816,7 @@
     document.getElementById('state-scanning').style.display = name === 'scanning' ? 'block' : 'none';
     document.getElementById('state-error').style.display    = name === 'error'    ? 'block' : 'none';
     document.querySelector('.input-meta').style.display     = name === 'input'    ? 'flex'  : 'none';
+    document.querySelector('.audit-counter').style.display  = name === 'input'    ? 'flex'  : 'none';
   }
 
   async function startScan() {
@@ -786,6 +848,12 @@
       }
       scanResult = await res.json();
       try { sessionStorage.setItem('scanData', JSON.stringify(scanResult)); } catch {}
+      if (scanResult.auditCount) {
+        localStorage.setItem(AUDIT_COUNTER_KEY, scanResult.auditCount);
+        updateCounterDisplay(scanResult.auditCount);
+      } else {
+        incrementAuditCount();
+      }
       setHeroState('input');
       document.getElementById('scan-btn').disabled = false;
       renderResults(scanResult);

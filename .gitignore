@@ -7,3 +7,5 @@ next-env.d.ts
 .claude/
 remove-bg.js
 seo-audit-report.html
+
+.vercel

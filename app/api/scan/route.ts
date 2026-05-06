@@ -67,7 +67,17 @@ function analyzeHTML(html: string, url: string) {
   const isHttps = url.startsWith('https://')
 
   let hasLocalBusinessSchema = false
-  const localBizTypes = ['localbusiness','plumber','electrician','restaurant','store','service','homeandconstructionbusiness','professionalservice','medicalorganization','foodestablishment','contractor','tradesperson']
+  const localBizTypes = [
+    'localbusiness','plumber','electrician','restaurant','store','service',
+    'homeandconstructionbusiness','professionalservice','medicalorganization',
+    'foodestablishment','contractor','tradesperson',
+    // broader business & organisation types
+    'organization','organisation','educationalorganization','fitnessbusiness',
+    'sportactivitylocation','course','healthclub','gym','sportsclub',
+    'beautysalon','automotivebusiness','realestatecagent','financialservice',
+    'legalservice','accountingservice','itservice','consultingservice',
+    'product','event','faqpage','howto','article','webpage',
+  ]
   $('script[type="application/ld+json"]').each((_, el) => {
     try {
       const parsed = JSON.parse($(el).html() ?? '') as { '@type'?: string; '@graph'?: Array<{ '@type'?: string }> } | Array<{ '@type'?: string; '@graph'?: Array<{ '@type'?: string }> }>
@@ -85,7 +95,19 @@ function analyzeHTML(html: string, url: string) {
   const hasPhone = phoneRegex.test(bodyHtml)
   const phoneAboveFold = $('header a[href^="tel:"]').length > 0 || $('nav a[href^="tel:"]').length > 0 || phoneRegex.test(bodyHtml.substring(0, 4000))
 
-  const ctaKeywords = ['get a quote','free quote','book now','book a','free estimate','enquire now','enquire today','request a quote','get your free','start today','claim your','get started','call now']
+  const ctaKeywords = [
+    // Trade / service
+    'get a quote','free quote','book now','book a','free estimate','enquire now',
+    'enquire today','request a quote','call now','get a free',
+    // General conversion
+    'get started','start today','claim your','get your free','sign up','join now',
+    'apply now','register now','enrol','enroll','start your','find my','view my',
+    'get my','take the quiz','take our quiz','schedule a','book your',
+    'try for free','try it free','get access','contact us','speak to us',
+    'get in touch','talk to us','download now','reveal my','check my',
+    'see pricing','view pricing','get the guide','buy now','order now',
+    'find out more','see how it works','explore','discover how',
+  ]
   const allAnchorText = $('a, button').map((_, el) => $(el).text().toLowerCase()).get().join(' ')
   const hasCTA = ctaKeywords.some(kw => allAnchorText.includes(kw))
 
@@ -101,10 +123,29 @@ function analyzeHTML(html: string, url: string) {
   const reviewKws = ['review','testimonial','rated','★','⭐','trustpilot','google review','out of 5','what our customers','client said','what our clients','don\'t just take']
   const hasReviews = reviewKws.some(kw => allText.includes(kw) || bodyHtml.includes(kw))
 
-  const leadMagnetKws = ['free download','free guide','free checklist','free report','free ebook','free template','free resource','download now','newsletter','subscribe to','join our list','get your free','free tips']
+  const leadMagnetKws = [
+    'free download','free guide','free checklist','free report','free ebook',
+    'free template','free resource','download now','newsletter','subscribe to',
+    'join our list','get your free','free tips',
+    // broader patterns
+    'free quiz','take the quiz','take our quiz','reveal my','reveal your',
+    'free assessment','free audit','score your','your score','your results',
+    'subscribe','sign up for','sign up to','free training','free workshop',
+    'free webinar','free consultation','free trial','free session',
+    'free lesson','free class','free video','free course',
+  ]
   const hasLeadMagnet = leadMagnetKws.some(kw => allText.includes(kw))
 
-  const outcomeWords = ['get','save','stop','avoid','help','fix','solve','boost','improve','grow','protect','prevent','increase','reduce','transform','achieve','find','discover','remove','install','fit','supply','deliver','create','build','design','repair','replace','restore','clean','maintain']
+  const outcomeWords = [
+    'get','save','stop','avoid','help','fix','solve','boost','improve','grow',
+    'protect','prevent','increase','reduce','transform','achieve','find','discover',
+    'remove','install','fit','supply','deliver','create','build','design',
+    'repair','replace','restore','clean','maintain',
+    // broader industry coverage
+    'become','earn','gain','launch','learn','master','qualify','train',
+    'career','certified','ready','pass','develop','advance','accelerate',
+    'start','join','hire','work with','partner','success','result',
+  ]
   const companyWords = [' ltd',' limited',' group',' plc',' inc','& son','& co']
   const h1Lower = h1Text.toLowerCase()
   const h1HasOutcome = outcomeWords.some(w => h1Lower.includes(w))
@@ -173,6 +214,27 @@ function getScoreBand(score: number) {
   return { label: 'Your site is losing you enquiries daily', color: '#EF4444', message: "Critical issues mean many potential customers cannot find you — and those who do are not converting." }
 }
 
+async function incrementAuditCounter(): Promise<number | null> {
+  const supabaseUrl = process.env.SUPABASE_URL
+  const supabaseKey = process.env.SUPABASE_ANON_KEY
+  if (!supabaseUrl || !supabaseKey) return null
+  try {
+    const res = await fetch(`${supabaseUrl}/rest/v1/rpc/increment_counter`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': supabaseKey,
+        'Authorization': `Bearer ${supabaseKey}`,
+      },
+      body: JSON.stringify({ counter_id: 'audit' }),
+    })
+    if (!res.ok) return null
+    return await res.json() as number
+  } catch {
+    return null
+  }
+}
+
 export async function POST(request: Request) {
   let { url } = await request.json() as { url?: string }
   if (!url) return NextResponse.json({ error: 'URL is required' }, { status: 400 })
@@ -188,9 +250,10 @@ export async function POST(request: Request) {
 
   const domain = targetUrl.hostname.replace(/^www\./, '')
 
-  const [htmlResult, psResult] = await Promise.allSettled([
-    fetchHTML(targetUrl.href),
-    fetchPageSpeed(targetUrl.href),
+  const [htmlResult, psResult, auditCount] = await Promise.all([
+    fetchHTML(targetUrl.href).then(v => ({ status: 'fulfilled' as const, value: v })).catch(e => ({ status: 'rejected' as const, reason: e })),
+    fetchPageSpeed(targetUrl.href).then(v => ({ status: 'fulfilled' as const, value: v })).catch(() => ({ status: 'rejected' as const, reason: null })),
+    incrementAuditCounter(),
   ])
 
   if (htmlResult.status === 'rejected') {
@@ -214,5 +277,6 @@ export async function POST(request: Request) {
     url: targetUrl.href, domain, score, band, checks, critical, urgent, good,
     pageSpeed: psData?.performance ?? null,
     scannedAt: new Date().toISOString(),
+    auditCount,
   })
 }

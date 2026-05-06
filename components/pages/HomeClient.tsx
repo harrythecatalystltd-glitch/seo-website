@@ -23,7 +23,11 @@ type ScanResult = {
   band: { label: string; message: string; color: string };
   checks: Check[]; critical: Check[]; urgent: Check[]; good: Check[];
   pageSpeed: number | null; scannedAt: string; email?: string;
+  auditCount?: number | null;
 }
+
+const COUNTER_KEY = 'auditCount'
+const COUNTER_BASE = 1000
 
 export default function HomeClient() {
   const [heroState, setHeroState] = useState<'input' | 'scanning' | 'error'>('input')
@@ -35,8 +39,15 @@ export default function HomeClient() {
   const [emailValue, setEmailValue] = useState('')
   const [emailErr, setEmailErr] = useState(false)
   const [displayScore, setDisplayScore] = useState(0)
+  const [auditCount, setAuditCount] = useState(COUNTER_BASE)
+  const [counterBump, setCounterBump] = useState(false)
   const arcRef = useRef<SVGCircleElement>(null)
   const resultsRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const stored = parseInt(localStorage.getItem(COUNTER_KEY) || '', 10)
+    if (!isNaN(stored)) setAuditCount(stored)
+  }, [])
 
   useEffect(() => {
     if (!scanResult || !arcRef.current) return
@@ -85,6 +96,12 @@ export default function HomeClient() {
       }
       const data: ScanResult = await res.json()
       try { sessionStorage.setItem('scanData', JSON.stringify(data)) } catch {}
+      if (data.auditCount) {
+        localStorage.setItem(COUNTER_KEY, String(data.auditCount))
+        setAuditCount(data.auditCount)
+        setCounterBump(true)
+        setTimeout(() => setCounterBump(false), 200)
+      }
       setScanResult(data)
       setHeroState('input')
       setTimeout(() => resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50)
@@ -121,6 +138,9 @@ export default function HomeClient() {
           score: scanResult?.score,
           domain: scanResult?.domain,
           band: scanResult?.band?.label,
+          critical: scanResult?.critical?.slice(0, 3).map(c => ({ title: c.title, detail: c.impact })),
+          urgent: scanResult?.urgent?.slice(0, 2).map(u => ({ title: u.title })),
+          checksCount: scanResult?.checks?.length ?? 0,
         }),
       })
     } catch {}
@@ -159,6 +179,23 @@ export default function HomeClient() {
 
             {heroState === 'input' && (
               <>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 18 }}>
+                  <span style={{
+                    color: '#FFD700',
+                    fontFamily: "'Montserrat', sans-serif",
+                    fontSize: '1.25rem',
+                    fontWeight: 800,
+                    letterSpacing: '-0.01em',
+                    transition: 'transform 0.15s ease, opacity 0.15s ease',
+                    ...(counterBump ? { transform: 'scale(1.25)', opacity: 0.7 } : {}),
+                  }}>
+                    {auditCount.toLocaleString('en-GB')}
+                  </span>
+                  <span style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.48)' }}>
+                    businesses have had a free audit
+                  </span>
+                </div>
+
                 <div id="state-input">
                   <input
                     type="text"
