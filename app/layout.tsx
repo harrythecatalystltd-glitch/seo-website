@@ -41,16 +41,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.2)' }}>© 2026 The Catalyst Method · SEO and Lead Generation for Local Businesses</p>
           </div>
         </footer>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-NJD50RKKML"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-NJD50RKKML');
-        `}</Script>
       </body>
     </html>
   )
