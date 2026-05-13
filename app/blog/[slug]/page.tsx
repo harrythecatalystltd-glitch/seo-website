@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
+import { manualPosts } from '@/lib/manual-posts'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
@@ -25,9 +26,30 @@ async function getArticle(slug: string): Promise<Article | null> {
   }
 }
 
+async function resolveArticle(slug: string): Promise<Article | null> {
+  const seobotArticle = await getArticle(slug)
+  if (seobotArticle) return seobotArticle
+
+  const manual = manualPosts.find(p => p.slug === slug)
+  if (!manual) return null
+
+  return {
+    id: manual.slug,
+    slug: manual.slug,
+    title: manual.title,
+    description: manual.description,
+    image: manual.image,
+    html: manual.html,
+    category: { title: manual.category },
+    publishedAt: manual.publishedAt,
+    readingTime: manual.readingTime,
+    author: { name: 'The Catalyst Method' },
+  }
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
-  const article = await getArticle(slug)
+  const article = await resolveArticle(slug)
   if (!article) return { title: 'Article Not Found | The Catalyst Method' }
 
   return {
@@ -47,7 +69,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const article = await getArticle(slug)
+  const article = await resolveArticle(slug)
   if (!article) notFound()
 
   const schema = {

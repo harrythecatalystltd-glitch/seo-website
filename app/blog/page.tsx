@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
+import { manualPosts } from '@/lib/manual-posts'
 
 export const metadata: Metadata = {
   title: 'Local SEO & Lead Gen Blog for Small Businesses | The Catalyst Method',
@@ -41,8 +42,48 @@ async function getArticles(): Promise<{ articles: Article[]; total: number }> {
   }
 }
 
+type DisplayArticle = {
+  slug: string
+  title: string
+  description?: string
+  image?: string
+  category?: string
+  publishedAt?: string
+  readingTime?: number
+}
+
+function mergeArticles(seobotArticles: Article[]): DisplayArticle[] {
+  const fromSeobot: DisplayArticle[] = seobotArticles.map(a => ({
+    slug: a.slug,
+    title: a.title,
+    description: a.description,
+    image: a.image,
+    category: a.category?.title,
+    publishedAt: a.publishedAt,
+    readingTime: a.readingTime,
+  }))
+
+  const fromManual: DisplayArticle[] = manualPosts.map(p => ({
+    slug: p.slug,
+    title: p.title,
+    description: p.description,
+    image: p.image,
+    category: p.category,
+    publishedAt: p.publishedAt,
+    readingTime: p.readingTime,
+  }))
+
+  const all = [...fromSeobot, ...fromManual]
+  return all.sort((a, b) => {
+    if (!a.publishedAt) return 1
+    if (!b.publishedAt) return -1
+    return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  })
+}
+
 export default async function BlogPage() {
   const { articles } = await getArticles()
+  const allArticles = mergeArticles(articles)
 
   const schema = {
     '@context': 'https://schema.org',
@@ -108,7 +149,7 @@ export default async function BlogPage() {
           <div className="blog-section-label-line" />
         </div>
 
-        {articles.length === 0 ? (
+        {allArticles.length === 0 ? (
           <div className="empty-state">
             <div className="empty-icon">
               <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
@@ -122,15 +163,15 @@ export default async function BlogPage() {
           </div>
         ) : (
           <div className="blog-grid">
-            {articles.map((article) => (
+            {allArticles.map((article) => (
               <Link key={article.slug} href={`/blog/${article.slug}`} className="blog-card">
                 {article.image && (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img className="blog-card-img" src={article.image} alt={article.title} />
                 )}
                 <div className="blog-card-body">
-                  {article.category?.title && (
-                    <div className="blog-card-category">{article.category.title}</div>
+                  {article.category && (
+                    <div className="blog-card-category">{article.category}</div>
                   )}
                   <div className="blog-card-title">{article.title}</div>
                   {article.description && (
