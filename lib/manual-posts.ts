@@ -438,6 +438,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Local SEO',
     publishedAt: '2026-05-13',
     readingTime: 10,
+    image: '/blog/local-seo-checklist-small-business-uk.jpg',
     html: `
 <p>Local SEO is not complicated. Most businesses that dominate the Google Map Pack do so because they consistently do 12 simple things that their competitors ignore. This checklist covers every one of them. Work through it once, then set a monthly reminder to repeat the checks marked as ongoing.</p>
 
