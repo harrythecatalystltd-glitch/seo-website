@@ -234,6 +234,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Lead Generation',
     publishedAt: '2026-05-13',
     readingTime: 9,
+    image: '/blog/why-website-not-getting-enquiries.jpg',
     html: `
 <p>Your website gets visitors. Some of them are genuinely interested in what you offer. But most leave without getting in touch. This is one of the most common frustrations UK small business owners bring to us, and the causes are almost always specific and fixable without a complete redesign.</p>
 
