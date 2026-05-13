@@ -29,23 +29,23 @@ type ScanResult = {
 const COUNTER_KEY = 'auditCount'
 const COUNTER_BASE = 1000
 
-const FIX_COPY: Record<string, string> = {
-  page_speed: 'Use Google PageSpeed Insights (free) to find what is slowing your site. The most common fixes are compressing large images, removing unused plugins, and upgrading to faster hosting.',
-  mobile_friendly: 'Your site needs a mobile-responsive design. If you use WordPress, switch to a modern responsive theme. Otherwise ask your web developer to fix the layout for small screens.',
-  https: 'Contact your hosting provider and ask them to install a free SSL certificate. Most hosts include this — it just needs switching on. Your address should start with https://, not http://.',
-  title_tag: 'Log into your website CMS and find the page SEO settings. Write a title of 50–65 characters that includes your main service and town — for example: "Emergency Plumber in Leeds | ABC Plumbing".',
-  meta_description: 'In your CMS under SEO settings, write a 2-sentence description (100–160 characters) that says what you do, where you are, and why someone should click. Think of it as a free advert in Google.',
-  h1_tag: 'Add one clear headline to the top of your page that describes what you do and who you help — for example: "Trusted Electricians Across South London". Every page should have exactly one.',
-  schema: 'Install a free SEO plugin on your website (Yoast SEO or Rank Math for WordPress). Fill in your business name, address, and phone in the local business settings. This helps Google link your site to your map listing.',
-  image_alt: 'For every image on your site, add a short description of what the photo shows. In WordPress this is the "Alt Text" box when editing an image — for example: "Team fitting a new boiler in a Manchester home".',
-  tap_to_call: 'Ask your web developer to wrap your phone number in a tap-to-call link. This lets mobile visitors call you in one tap instead of copying and pasting your number.',
-  phone_above_fold: 'Move your phone number to the very top of your page — ideally inside the header bar. Visitors should see it without scrolling, on both desktop and mobile.',
-  cta_button: 'Add a clearly labelled button near the top of your page — "Get a Free Quote", "Book Now", or "Call Us Today". Use a contrasting colour so it stands out and make it one clear action.',
-  contact_form: 'Add a simple contact form with fields for name, email, phone, and message. Most website builders have this built in — enable it and make sure submissions reach your inbox.',
-  nap: 'Add your full business address to your website footer. Make sure it matches your Google Business Profile exactly — same format, same postcode. Inconsistency hurts your local rankings.',
-  social_proof: 'Copy 2–3 of your best Google reviews onto your homepage with the customer\'s first name and star rating. If you have no Google reviews yet, ask your last five happy customers first.',
-  lead_magnet: 'Add a simple email capture to your page — a free checklist, short guide, or tip sheet in exchange for an email address. Use a free tool like Mailchimp to collect and follow up with the list.',
-  problem_solution: 'Rewrite your main headline to name the outcome you deliver rather than your company name — for example: "We Help Birmingham Homeowners Stay Warm for Less" tells a visitor immediately if you can help.',
+const LEADS_FIGURE: Record<string, string> = {
+  page_speed: 'Costing you an estimated 5–8 leads every month — most visitors leave before a slow page loads',
+  mobile_friendly: 'Could be losing you 6–10 leads every month — over half of all local searches happen on phones',
+  https: 'Could cost you 3–5 leads every month — the "Not Secure" warning sends visitors straight back to Google',
+  title_tag: 'Could be missing out on 5–8 leads every month from lower Google click-through rates',
+  meta_description: 'Could be costing you 4–6 leads every month — no snippet means fewer people click your listing',
+  h1_tag: 'Could be losing you 6–9 leads every month — without a clear headline Google struggles to rank you',
+  schema: 'Could be missing 5–8 leads every month from Google Maps results alone',
+  image_alt: 'Could be costing you 3–5 leads every month from reduced search visibility',
+  tap_to_call: 'Could be losing 4–7 mobile leads every month — most people will not copy-paste a number to call',
+  phone_above_fold: 'Could be costing you 3–6 leads every month — most visitors never scroll to find your number',
+  cta_button: 'Could be losing 6–10 leads every month — visitors with no clear next step simply leave',
+  contact_form: 'Could be missing 4–7 out-of-hours leads every month — no form means no way to enquire at night or weekends',
+  nap: 'Could be costing you 4–6 leads every month from lower Google Maps rankings',
+  social_proof: 'Could be losing 5–8 leads every month to competitors who show reviews — 90% of people check before choosing',
+  lead_magnet: 'Could be losing 8–15 future leads every month — only 3% of visitors are ready to buy today, the rest leave forever',
+  problem_solution: 'Could be losing 6–10 leads every month — a vague headline sends most visitors back to Google in under 5 seconds',
 }
 
 export default function HomeClient() {
@@ -301,43 +301,24 @@ export default function HomeClient() {
               <div className="score-band-msg">{scanResult.band.message}</div>
             </div>
 
-            {scanResult.critical.length > 0 && (
+            {[...scanResult.critical, ...scanResult.urgent].slice(0, 3).length > 0 && (
               <div className="findings-group">
                 <div className="section-divider">
                   <div className="section-divider-line" />
                   <div className="section-divider-label">
                     <span className="section-divider-dot" style={{ background: 'var(--critical)' }} />
-                    Critical — Fix Immediately
+                    Your 3 Biggest Issues
                   </div>
                   <div className="section-divider-line" />
                 </div>
-                {scanResult.critical.map(c => (
+                {[...scanResult.critical, ...scanResult.urgent].slice(0, 3).map(c => (
                   <div key={c.id} className={`finding-card ${c.severity}`}>
                     <div className="card-body">
                       <div className="card-title">{c.title}</div>
                       <div className="card-impact">{c.impact}</div>
-                    </div>
-                    <span className={`card-badge ${c.severity}`}>{c.severity}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {scanResult.urgent.slice(0, 2).length > 0 && (
-              <div className="findings-group">
-                <div className="section-divider">
-                  <div className="section-divider-line" />
-                  <div className="section-divider-label">
-                    <span className="section-divider-dot" style={{ background: 'var(--urgent)' }} />
-                    Urgent — Address Soon
-                  </div>
-                  <div className="section-divider-line" />
-                </div>
-                {scanResult.urgent.slice(0, 2).map(c => (
-                  <div key={c.id} className={`finding-card ${c.severity}`}>
-                    <div className="card-body">
-                      <div className="card-title">{c.title}</div>
-                      <div className="card-impact">{c.impact}</div>
+                      <div className="card-leads-figure">
+                        {LEADS_FIGURE[c.id] ?? 'Could be costing you leads every month'}
+                      </div>
                     </div>
                     <span className={`card-badge ${c.severity}`}>{c.severity}</span>
                   </div>
@@ -347,87 +328,26 @@ export default function HomeClient() {
 
             <p className="more-hint">
               {(() => {
-                const hidden = Math.max(0, scanResult.urgent.length - 2)
+                const total = [...scanResult.critical, ...scanResult.urgent].length
+                const hidden = Math.max(0, total - 3)
                 const good = scanResult.good.length
                 const parts: string[] = []
-                if (hidden > 0) parts.push(`${hidden} more urgent issue${hidden > 1 ? 's' : ''}`)
+                if (hidden > 0) parts.push(`${hidden} more issue${hidden > 1 ? 's' : ''}`)
                 if (good > 0) parts.push(`${good} thing${good > 1 ? 's' : ''} already working in your favour`)
                 return parts.length > 0
-                  ? `Your full report includes ${parts.join(' and ')} — plus exactly how to fix every issue.`
-                  : 'Get your full report for the complete breakdown with fixes for every issue.'
+                  ? `Your full 16-point report includes ${parts.join(' and ')} — plus a simple action plan to fix every issue quickly.`
+                  : 'Get your full 16-point report with a simple action plan to fix every issue quickly.'
               })()}
             </p>
-
-            {scanResult.critical.length > 0 && (
-              <div style={{
-                background: 'rgba(0,0,0,0.25)',
-                border: '1.5px solid rgba(255,215,0,0.2)',
-                borderRadius: '14px',
-                padding: '28px 28px 24px',
-                marginBottom: '24px',
-              }}>
-                <div style={{
-                  display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20,
-                }}>
-                  <div style={{
-                    background: 'rgba(255,215,0,0.12)',
-                    border: '1px solid rgba(255,215,0,0.28)',
-                    borderRadius: '8px',
-                    padding: '5px 12px',
-                    fontFamily: "'Montserrat', sans-serif",
-                    fontSize: '0.68rem', fontWeight: 800,
-                    letterSpacing: '0.1em', textTransform: 'uppercase' as const,
-                    color: '#FFD700',
-                  }}>
-                    Your Action Plan
-                  </div>
-                  <span style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.4)' }}>
-                    How to fix your critical issues
-                  </span>
-                </div>
-                <ol style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column' as const, gap: 14 }}>
-                  {scanResult.critical.map((c, i) => (
-                    <li key={c.id} style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-                      <span style={{
-                        flexShrink: 0,
-                        width: 26, height: 26,
-                        borderRadius: '50%',
-                        background: 'rgba(220,38,38,0.2)',
-                        border: '1.5px solid rgba(220,38,38,0.45)',
-                        display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: '0.7rem', fontWeight: 800,
-                        color: '#F87171',
-                      }}>
-                        {i + 1}
-                      </span>
-                      <div>
-                        <div style={{
-                          fontFamily: "'Montserrat', sans-serif",
-                          fontSize: '0.8rem', fontWeight: 800,
-                          color: '#fff', marginBottom: 4,
-                          letterSpacing: '-0.01em',
-                        }}>
-                          {c.title}
-                        </div>
-                        <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.62)', lineHeight: 1.7 }}>
-                          {FIX_COPY[c.id] ?? 'Contact your web developer to address this issue.'}
-                        </div>
-                      </div>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            )}
 
             <div className="email-cta">
               <svg className="cta-bolt-l" viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
               <svg className="cta-bolt-r" viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
               <div className="email-cta-inner">
-                <h3>Get Your Full {scanResult.checks.length}-Point Report</h3>
+                <h3>Get Your Full 16-Point Report + Action Plan</h3>
                 <p>
-                  We&apos;ll send the complete breakdown to your inbox — every issue in plain English,
-                  what it means for your business, and how to fix it.
+                  We&apos;ll email you the complete 16-point breakdown and a simple step-by-step action plan
+                  so you can fix every issue quickly — plain English, no jargon.
                 </p>
                 <div className="email-row" style={{ marginBottom: 8 }}>
                   <input
