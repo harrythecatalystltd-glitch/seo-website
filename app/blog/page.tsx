@@ -136,8 +136,7 @@ export default async function BlogPage() {
           </div>
           <h1>Local SEO and Lead Generation Blog<br />for <em>Small Businesses</em></h1>
           <p className="hero-sub">
-            Practical guides, SEO tips and lead generation strategies — written for local business
-            owners who want more enquiries from Google.
+            Practical guides, local SEO tips and lead generation strategies for small businesses across the UK. Written for business owners who want more enquiries from Google.
           </p>
         </div>
       </section>
@@ -150,7 +149,7 @@ export default async function BlogPage() {
           lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
           padding: '0 16px',
         }}>
-          Practical local SEO strategies, lead generation tactics and website conversion guides — written for UK small business owners who want more enquiries from Google, not more jargon.
+          The Catalyst Method blog covers local SEO for small businesses, lead generation strategy and website conversion. Every guide is written for UK business owners, not marketers.
         </p>
         <div className="blog-section-label">
           <div className="blog-section-label-line" />

@@ -100,6 +100,11 @@ export default function SignupClient() {
         <div className="pricing-intro">
           <h2>Choose Your Growth Plan</h2>
           <p>
+            Most local businesses are invisible on Google because their website was never built to
+            rank. Local SEO for small businesses is not complicated, but it does need to be done
+            consistently and properly. These plans do that for you.
+          </p>
+          <p style={{ marginTop: '12px' }}>
             Three tiers of done for you SEO UK small businesses can actually use. Every plan includes
             a free website build, CRM setup, lead magnet design and email automation. You are set up
             to convert from day one.

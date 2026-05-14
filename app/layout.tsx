@@ -5,6 +5,14 @@ import './globals.css'
 
 export const metadata: Metadata = {
   icons: { icon: '/favicon.png', apple: '/favicon.png' },
+  openGraph: {
+    images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png', width: 1200, height: 630 }],
+    siteName: 'The Catalyst Method',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://www.thecatalystmethod.co.uk/mainlogo.png'],
+  },
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
