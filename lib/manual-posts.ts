@@ -623,7 +623,7 @@ export const manualPosts: ManualPost[] = [
   {
     slug: 'how-to-get-more-leads-from-your-website',
     title: 'How to Get More Leads From Your Website (Without Paying for Ads)',
-    description: 'Seven practical changes that turn a small business website into a consistent source of enquiries, without spending a penny on paid advertising.',
+    description: 'Seven practical changes that turn a small business website into a consistent source of enquiries. No paid ads, no agency required. Just fixes that work.',
     category: 'Lead Generation',
     publishedAt: '2026-05-14',
     readingTime: 11,
@@ -829,7 +829,7 @@ export const manualPosts: ManualPost[] = [
   {
     slug: 'what-is-a-lead-magnet-ideas-for-local-businesses',
     title: 'What Is a Lead Magnet? 5 Ideas for UK Local Businesses',
-    description: 'A lead magnet captures the 97% of website visitors who are not ready to buy yet. Here are five practical lead magnet ideas for UK local businesses, with real examples.',
+    description: 'A lead magnet captures the 97% of visitors who are not ready to buy yet. Five practical lead magnet ideas for UK local businesses, with examples for each.',
     category: 'Lead Generation',
     publishedAt: '2026-05-14',
     readingTime: 9,

@@ -56,13 +56,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${article.title} | The Catalyst Method`,
     description: article.description,
     alternates: { canonical: `https://www.thecatalystmethod.co.uk/blog/${slug}` },
+    robots: { index: true, follow: true },
     openGraph: {
       type: 'article',
       url: `https://www.thecatalystmethod.co.uk/blog/${slug}`,
       title: article.title,
       description: article.description,
-      images: article.image ? [{ url: article.image }] : [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
+      images: article.image ? [{ url: `https://www.thecatalystmethod.co.uk${article.image}` }] : [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
       siteName: 'The Catalyst Method',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: article.description,
+      images: article.image ? [`https://www.thecatalystmethod.co.uk${article.image}`] : ['https://www.thecatalystmethod.co.uk/mainlogo.png'],
     },
   }
 }
