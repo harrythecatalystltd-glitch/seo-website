@@ -1006,6 +1006,17 @@ h1 em {
 .cs-site-link:hover { background: #ffe033; box-shadow: 0 6px 28px rgba(255,215,0,0.48); }
 .cs-site-link svg { width: 12px; fill: currentColor; }
 
+.cs-site-link-secondary {
+  display: inline-flex; align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem; font-weight: 700;
+  color: rgba(255,255,255,0.55); text-decoration: none;
+  padding: 13px 20px; border-radius: 10px;
+  border: 1.5px solid rgba(255,255,255,0.16);
+  transition: color 0.15s, border-color 0.15s;
+}
+.cs-site-link-secondary:hover { color: rgba(255,255,255,0.85); border-color: rgba(255,255,255,0.3); }
+
 .cs-screenshot-wrap { border-radius: 14px; overflow: hidden; border: 1.5px solid rgba(255,255,255,0.12); box-shadow: 0 8px 40px rgba(0,0,0,0.4); }
 .cs-screenshot-wrap img { width: 100%; height: auto; display: block; }
 
@@ -1429,13 +1440,21 @@ h1 em {
 }
 
 @media (max-width: 500px) {
-  .hero-signup { padding: 90px 20px 70px; }
+  .hero-signup { padding: 90px 20px 60px; }
   .site-nav { padding: 12px 16px; }
   .site-nav img { width: 76px; }
   .bolt { display: none; }
   h1 { font-size: 2rem; }
-  .billing-toggle { flex-wrap: wrap; }
+  .billing-toggle { flex-wrap: wrap; width: 100%; }
+  .toggle-btn { flex: 1; padding: 10px 12px; font-size: 0.72rem; }
+  .pricing-section { padding: 48px 16px 56px; }
   .pricing-card { padding: 28px 18px 24px; }
+  .case-studies { padding: 0 16px 64px; }
+  .cs-card { padding: 24px 18px; }
+  .cs-links { flex-direction: column; }
+  .cs-site-link, .cs-site-link-secondary { width: 100%; justify-content: center; }
+  .growth-strip { grid-template-columns: 1fr 1fr; }
+  .proof-strip p { font-size: 0.72rem; }
   .finding-row-body { grid-template-columns: 1fr; }
   .score-row { gap: 20px; }
   .score-meta { text-align: center; }
