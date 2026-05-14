@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import HomeClient from '@/components/pages/HomeClient'
 
 export const metadata: Metadata = {
-  title: 'Free SEO & Lead Gen Audit for Local Businesses | The Catalyst Method',
+  title: 'Lead Generation for Local Businesses | The Catalyst Method',
   description: 'Get your free 16-point website audit in seconds. See what\'s stopping your site ranking and costing you customers. No sign-up needed. Results in 10 seconds.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/' },
@@ -27,14 +27,15 @@ export default function HomePage() {
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': 'Organization',
+        '@type': ['Organization', 'LocalBusiness'],
         '@id': 'https://www.thecatalystmethod.co.uk/#organization',
         name: 'The Catalyst Method',
         url: 'https://www.thecatalystmethod.co.uk',
         logo: { '@type': 'ImageObject', url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' },
-        email: 'harry@thecatalyst.ltd',
-        description: 'SEO and lead growth system for local businesses.',
+        email: 'hey@thecatalystmethod.co.uk',
+        description: 'Done-for-you SEO and lead generation system for local businesses across the UK.',
         areaServed: { '@type': 'Country', name: 'United Kingdom' },
+        priceRange: '£££',
       },
       {
         '@type': 'WebSite',

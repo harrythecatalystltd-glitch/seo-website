@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         }}>
           <div style={{ maxWidth: '760px', margin: '0 auto' }}>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', flexWrap: 'wrap' as const, marginBottom: '14px' }}>
-              {[['/', 'Home'], ['/blog', 'Blog'], ['/signup', 'Sign Up'], ['/contact', 'Contact']].map(([href, label]) => (
+              {[['/', 'Home'], ['/blog', 'Blog'], ['/about', 'About'], ['/faq', 'FAQ'], ['/signup', 'Plans'], ['/contact', 'Contact'], ['/terms-and-conditions', 'Terms']].map(([href, label]) => (
                 <a key={href} href={href} style={{ color: 'rgba(255,255,255,0.45)', textDecoration: 'none', fontSize: '0.8rem', fontWeight: 600, fontFamily: "'Montserrat', sans-serif", letterSpacing: '0.06em', textTransform: 'uppercase' as const }}>
                   {label}
                 </a>

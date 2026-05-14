@@ -94,7 +94,7 @@ export default async function BlogPage() {
         name: 'The Catalyst Method',
         url: 'https://www.thecatalystmethod.co.uk',
         logo: { '@type': 'ImageObject', url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' },
-        email: 'harry@thecatalyst.ltd',
+        email: 'hey@thecatalystmethod.co.uk',
         areaServed: { '@type': 'Country', name: 'United Kingdom' },
       },
       {
@@ -143,6 +143,15 @@ export default async function BlogPage() {
       </section>
 
       <div className="blog-section">
+        <p style={{
+          maxWidth: '680px', margin: '0 auto 40px',
+          textAlign: 'center',
+          fontSize: '0.97rem', color: 'rgba(255,255,255,0.5)',
+          lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
+          padding: '0 16px',
+        }}>
+          Practical local SEO strategies, lead generation tactics and website conversion guides — written for UK small business owners who want more enquiries from Google, not more jargon.
+        </p>
         <div className="blog-section-label">
           <div className="blog-section-label-line" />
           <span className="blog-section-label-text">Latest Articles</span>

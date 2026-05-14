@@ -70,7 +70,7 @@ export default function SignupClient() {
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
             The Catalyst Method | SEO and Lead Growth System
           </div>
-          <h1>The Lead Generation System<br />for <em>Local Businesses</em></h1>
+          <h1>Done-For-You Lead Generation<br />for <em>UK Small Businesses</em></h1>
           <p className="hero-sub">
             You run a serious business. You&apos;ve seen what&apos;s broken on your website.
             You don&apos;t need a long conversation to know the right move.
@@ -194,6 +194,27 @@ export default function SignupClient() {
 
         </div>
       </section>
+
+      {/* Soft CTA */}
+      <div style={{ textAlign: 'center', padding: '52px 24px 0' }}>
+        <p style={{
+          fontSize: '0.93rem', color: 'rgba(255,255,255,0.38)',
+          fontFamily: "'Open Sans', sans-serif", marginBottom: '14px',
+        }}>
+          Not ready to pick a plan yet?
+        </p>
+        <Link href="/contact" style={{
+          display: 'inline-flex', alignItems: 'center', gap: '8px',
+          background: 'transparent',
+          border: '1px solid rgba(255,255,255,0.18)',
+          color: 'rgba(255,255,255,0.6)',
+          fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+          fontSize: '0.82rem', letterSpacing: '0.05em', textTransform: 'uppercase',
+          padding: '13px 24px', borderRadius: '8px', textDecoration: 'none',
+        }}>
+          Ask My Question First
+        </Link>
+      </div>
 
       {/* Case Studies */}
       <section className="case-studies">

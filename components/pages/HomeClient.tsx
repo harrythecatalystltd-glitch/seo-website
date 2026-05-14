@@ -203,7 +203,7 @@ export default function HomeClient() {
               The Catalyst Method | Free Audit
             </div>
 
-            <h1>Free Lead Generation Audit<br />for <em>Local Businesses</em></h1>
+            <h1>Free Lead Generation Audit<br />for <em>UK Local Businesses</em></h1>
             <p className="subtitle">
               Enter your web address below. We&apos;ll scan your site in seconds and show you exactly
               what&apos;s working, what&apos;s broken, and what it&apos;s costing you.
@@ -275,6 +275,41 @@ export default function HomeClient() {
           </div>
         </div>
       </section>
+
+      {/* Proof strip */}
+      <div style={{
+        background: 'rgba(255,255,255,0.025)',
+        borderTop: '1px solid rgba(255,255,255,0.06)',
+        borderBottom: '1px solid rgba(255,255,255,0.06)',
+        padding: '36px 24px',
+      }}>
+        <div style={{
+          maxWidth: '900px', margin: '0 auto',
+          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+          gap: '28px', textAlign: 'center', alignItems: 'center',
+        }}>
+          <div>
+            <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '2.2rem', fontWeight: 900, color: '#FFD700', lineHeight: 1 }}>+297%</div>
+            <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.42)', marginTop: '6px', fontFamily: "'Open Sans', sans-serif" }}>website traffic · Creation Coffee · 90 days · zero paid ads</div>
+          </div>
+          <div>
+            <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '2.2rem', fontWeight: 900, color: '#FFD700', lineHeight: 1 }}>£1M+</div>
+            <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.42)', marginTop: '6px', fontFamily: "'Open Sans', sans-serif" }}>revenue generated for a UK local service business · organic SEO only</div>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <a href="/signup" style={{
+              display: 'inline-flex', alignItems: 'center', gap: '8px',
+              background: 'transparent', border: '1px solid rgba(255,215,0,0.3)',
+              color: 'rgba(255,215,0,0.75)',
+              fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+              fontSize: '0.78rem', letterSpacing: '0.06em', textTransform: 'uppercase',
+              padding: '11px 18px', borderRadius: '8px', textDecoration: 'none',
+            }}>
+              View Case Studies →
+            </a>
+          </div>
+        </div>
+      </div>
 
       {/* Results */}
       {scanResult && (

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Audit Report — The Catalyst Method</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f172a; color: #e2e8f0; font-size: 15px; line-height: 1.6; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; }
+  h1 { font-size: 2rem; font-weight: 800; color: #f8fafc; margin-bottom: 4px; }
+  h2 { font-size: 1.3rem; font-weight: 700; color: #ffd700; margin: 40px 0 16px; border-bottom: 1px solid rgba(255,215,0,0.2); padding-bottom: 8px; }
+  h3 { font-size: 1.05rem; font-weight: 700; color: #94a3b8; margin: 24px 0 10px; }
+  p { margin-bottom: 10px; color: #cbd5e1; }
+  .meta { color: #64748b; font-size: 0.85rem; margin-bottom: 32px; }
+  .scorecard { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 24px 0 40px; }
+  .score-box { background: #1e293b; border-radius: 10px; padding: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.06); }
+  .score-box .num { font-size: 2.4rem; font-weight: 900; line-height: 1; }
+  .score-box .label { font-size: 0.78rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
+  .score-big { color: #22c55e; }
+  .score-red { color: #ef4444; }
+  .score-amber { color: #f59e0b; }
+  .score-green { color: #22c55e; }
+  .score-blue { color: #60a5fa; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 24px; font-size: 0.88rem; }
+  th { background: #1e293b; color: #94a3b8; text-align: left; padding: 10px 12px; font-weight: 600; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.06em; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  td { padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,0.05); vertical-align: top; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+  .badge-crit { background: rgba(239,68,68,0.15); color: #f87171; border: 1px solid rgba(239,68,68,0.3); }
+  .badge-warn { background: rgba(245,158,11,0.15); color: #fbbf24; border: 1px solid rgba(245,158,11,0.3); }
+  .badge-pass { background: rgba(34,197,94,0.15); color: #4ade80; border: 1px solid rgba(34,197,94,0.3); }
+  .page-card { background: #1e293b; border-radius: 12px; padding: 24px; margin-bottom: 24px; border: 1px solid rgba(255,255,255,0.06); }
+  .page-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; }
+  .page-title { font-size: 1rem; font-weight: 700; color: #f1f5f9; }
+  .page-score { font-size: 1.6rem; font-weight: 900; }
+  .kw-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 16px 0; }
+  .kw-card { background: #0f172a; border-radius: 8px; padding: 14px; border: 1px solid rgba(255,255,255,0.06); }
+  .kw-card .kw { font-weight: 700; color: #ffd700; font-size: 0.9rem; }
+  .kw-card .detail { font-size: 0.8rem; color: #64748b; margin-top: 4px; }
+  .action-list { list-style: none; }
+  .action-list li { padding: 12px 16px; border-radius: 8px; margin-bottom: 8px; display: flex; gap: 12px; align-items: flex-start; }
+  .action-list li.crit { background: rgba(239,68,68,0.08); border-left: 3px solid #ef4444; }
+  .action-list li.warn { background: rgba(245,158,11,0.08); border-left: 3px solid #f59e0b; }
+  .action-list li.info { background: rgba(96,165,250,0.08); border-left: 3px solid #60a5fa; }
+  .action-num { font-weight: 800; font-size: 0.85rem; flex-shrink: 0; width: 24px; }
+  .action-text { font-size: 0.9rem; color: #cbd5e1; }
+  .action-text strong { color: #f1f5f9; }
+  .section-divider { height: 1px; background: rgba(255,255,255,0.06); margin: 40px 0; }
+  .cta-note { background: rgba(255,215,0,0.06); border: 1px solid rgba(255,215,0,0.2); border-radius: 10px; padding: 20px 24px; margin: 24px 0; }
+  .cta-note p { color: #fbbf24; margin: 0; }
+  .pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+  .pill { background: #0f172a; border: 1px solid rgba(255,255,255,0.1); border-radius: 999px; padding: 3px 10px; font-size: 0.78rem; color: #94a3b8; }
+  .pill.hit { background: rgba(34,197,94,0.1); border-color: rgba(34,197,94,0.3); color: #4ade80; }
+  .pill.miss { background: rgba(239,68,68,0.1); border-color: rgba(239,68,68,0.3); color: #f87171; }
+  .content-roadmap { background: #1e293b; border-radius: 12px; padding: 24px; margin: 16px 0; border: 1px solid rgba(255,255,255,0.06); }
+  .content-roadmap ol { padding-left: 20px; }
+  .content-roadmap li { margin-bottom: 10px; color: #cbd5e1; font-size: 0.9rem; }
+  .content-roadmap li strong { color: #f1f5f9; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>SEO Audit Report</h1>
+  <p class="meta">The Catalyst Method &nbsp;·&nbsp; thecatalystmethod.co.uk &nbsp;·&nbsp; Generated 14 May 2026 &nbsp;·&nbsp; Target keywords: lead generation for local businesses UK, local SEO for small businesses, done for you SEO UK, website lead generation small business, SEO agency for small businesses UK</p>
+
+  <!-- SUMMARY SCORECARD -->
+  <h2>Summary Scorecard</h2>
+  <div class="scorecard">
+    <div class="score-box"><div class="num score-amber">68<span style="font-size:1.2rem">/100</span></div><div class="label">Overall SEO Score</div></div>
+    <div class="score-box"><div class="num score-red">7</div><div class="label">Critical Issues</div></div>
+    <div class="score-box"><div class="num score-amber">11</div><div class="label">Warnings</div></div>
+    <div class="score-box"><div class="num score-green">22</div><div class="label">Passed</div></div>
+    <div class="score-box"><div class="num score-blue">6</div><div class="label">Pages Audited</div></div>
+  </div>
+
+  <!-- PAGE-BY-PAGE FINDINGS -->
+  <h2>Page-by-Page Findings</h2>
+
+  <!-- HOME -->
+  <div class="page-card">
+    <div class="page-card-header">
+      <span class="page-title">/ — Homepage</span>
+      <span class="page-score score-amber">62/100</span>
+    </div>
+    <table>
+      <thead><tr><th>Priority</th><th>Category</th><th>Finding</th><th>Current</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>Title Tag</td><td>Too long (72 chars) — gets truncated in SERPs</td><td>"Free SEO Audit for Small Businesses | The Catalyst Method"</td><td>Lead with keyword: "Lead Generation for Local Businesses | The Catalyst Method" (≤60 chars)</td></tr>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>H1</td><td>H1 doesn't include "UK" — misses geo-modifier searches</td><td>"Get a Free Lead Generation Audit for Your Local Business"</td><td>"Get a Free Lead Generation Audit for UK Local Businesses"</td></tr>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>Schema</td><td>No LocalBusiness JSON-LD — Google can't confirm business entity for local pack</td><td>None</td><td>Add LocalBusiness schema with name, url, email, areaServed: "United Kingdom"</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Schema email</td><td>Organization schema uses old email format</td><td>varies</td><td>Standardise to hey@thecatalystmethod.co.uk everywhere</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Lead Magnet CTA</td><td>Soft CTA copy is brand-perspective, not visitor-perspective</td><td>"See How It Works"</td><td>"Show Me How It Works" or "Take My Free Audit"</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Internal Links</td><td>About and FAQ pages exist but aren't linked anywhere in the body</td><td>—</td><td>Add contextual links in body copy to /about and /faq</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Meta Description</td><td>Length OK, includes keyword and CTA</td><td>~155 chars</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>OG Tags</td><td>og:title, og:description, og:url present</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Canonical</td><td>Self-referencing canonical present</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Lead Gen</td><td>Hard CTA ("Get Your Free Audit") visible above fold</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SIGNUP -->
+  <div class="page-card">
+    <div class="page-card-header">
+      <span class="page-title">/signup — Pricing / Sign Up</span>
+      <span class="page-score score-red">58/100</span>
+    </div>
+    <table>
+      <thead><tr><th>Priority</th><th>Category</th><th>Finding</th><th>Current</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>Title Tag</td><td>No target keyword in title — pure brand title</td><td>"Sign Up | The Catalyst Method"</td><td>"Done-For-You SEO for UK Small Businesses | The Catalyst Method"</td></tr>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>Soft CTA</td><td>No soft CTA / lead magnet on pricing page — visitors who aren't ready to buy leave with nothing</td><td>—</td><td>Add "Not ready yet? Get your free website audit first →" linking to homepage audit CTA</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>H1</td><td>H1 doesn't contain service keyword</td><td>"Choose Your Plan"</td><td>"Done-For-You SEO Plans for UK Small Businesses"</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Schema</td><td>No WebApplication or Offer schema — missed rich result opportunity</td><td>—</td><td>Add WebApplication schema with offers array for each plan tier</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Trust</td><td>No testimonials on pricing page — high-intent visitors need reassurance at the point of purchase</td><td>—</td><td>Add 2–3 short client testimonials with specific outcome above plan cards</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Meta Description</td><td>Present and reasonable length</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Plan clarity</td><td>Plans clearly differentiated with features listed</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>CTA buttons</td><td>Hard CTAs present on each plan</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BLOG -->
+  <div class="page-card">
+    <div class="page-card-header">
+      <span class="page-title">/blog — Blog Index</span>
+      <span class="page-score score-green">70/100</span>
+    </div>
+    <table>
+      <thead><tr><th>Priority</th><th>Category</th><th>Finding</th><th>Current</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Title</td><td>Blog index title doesn't include keyword</td><td>"Blog | The Catalyst Method"</td><td>"Local SEO Tips for Small Businesses | The Catalyst Method Blog"</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Intro copy</td><td>No keyword-rich intro paragraph on blog index — just a grid of cards</td><td>—</td><td>Add a 2–3 sentence intro: "The Catalyst Method blog covers local SEO, lead generation, and Google rankings for UK small businesses..."</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>H1</td><td>H1 present and descriptive</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Internal links</td><td>Each post card links to its individual page</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Meta</td><td>Meta description present</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Sitemap</td><td>/blog included in sitemap.ts</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="page-card">
+    <div class="page-card-header">
+      <span class="page-title">/about — About Page</span>
+      <span class="page-score score-amber">65/100</span>
+    </div>
+    <table>
+      <thead><tr><th>Priority</th><th>Category</th><th>Finding</th><th>Current</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>Meta Description</td><td>Too long — 205 chars, gets truncated at ~160</td><td>~205 chars</td><td>Trim to 155 chars. Keep the "lead generation system" keyword and CTA verb.</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Not linked</td><td>/about is not linked from any page nav or footer — orphan page, hard for Google to discover</td><td>—</td><td>Add "About" to footer nav array in app/layout.tsx</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>E-E-A-T</td><td>No founder name, credentials, or years in business — abstract "we" throughout</td><td>—</td><td>Add one paragraph: "Founded by [Name], a certified SEO specialist with X years working exclusively with UK small businesses…"</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Title</td><td>≤60 chars, includes keyword</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>H1</td><td>H1 present, keyword included</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Schema</td><td>AboutPage + Organization + FAQPage schemas present</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>FAQs</td><td>4 FAQs present with schema markup</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Dual CTA</td><td>Hard + soft CTAs both present above fold</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Sitemap</td><td>/about in sitemap.ts</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FAQ -->
+  <div class="page-card">
+    <div class="page-card-header">
+      <span class="page-title">/faq — FAQ Page</span>
+      <span class="page-score score-amber">66/100</span>
+    </div>
+    <table>
+      <thead><tr><th>Priority</th><th>Category</th><th>Finding</th><th>Current</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-crit">Critical</span></td><td>Meta Description</td><td>Too long — 190 chars, truncated in SERPs</td><td>~190 chars</td><td>Trim to 155 chars with keyword "local SEO" and question framing</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>H1</td><td>Generic H1 — missed rich keyword opportunity</td><td>"Frequently Asked Questions"</td><td>"FAQs: Local SEO & Lead Generation for UK Small Businesses"</td></tr>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Not in footer</td><td>/faq not linked from footer — orphan page risk</td><td>—</td><td>Add "FAQ" to footer nav in app/layout.tsx</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>FAQPage schema</td><td>All 18 Q&As in JSON-LD — eligible for Google rich results</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Category structure</td><td>5 categories with jump-link nav — excellent UX</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Title</td><td>≤60 chars, includes keyword</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Sitemap</td><td>/faq in sitemap.ts</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Dual CTA</td><td>Hard + soft CTAs present</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="page-card">
+    <div class="page-card-header">
+      <span class="page-title">/contact — Contact Page</span>
+      <span class="page-score score-green">78/100</span>
+    </div>
+    <table>
+      <thead><tr><th>Priority</th><th>Category</th><th>Finding</th><th>Current</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-warn">Warning</span></td><td>Schema</td><td>No ContactPage schema — missed structured data opportunity</td><td>—</td><td>Add ContactPage + Organization JSON-LD with email, areaServed</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Title</td><td>Descriptive, ≤60 chars</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>H1</td><td>Clear, action-oriented H1</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Meta Description</td><td>≤160 chars, CTA included</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>NAP</td><td>Email address visible on page</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Form</td><td>Contact form present and functional</td><td>—</td><td>—</td></tr>
+        <tr><td><span class="badge badge-pass">Pass</span></td><td>Internal links</td><td>Links to other key pages present</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- KEYWORD ANALYSIS -->
+  <h2>Keyword Gap Analysis</h2>
+  <p>Based on competitor research across 6 live UK SEO / lead generation agencies: <strong>Aimpro Digital, StagHill Agency, localseoservice.uk, LeadsForTrades, SemLocal, Big Pond Digital</strong>.</p>
+
+  <h3>Primary Target Keywords — Coverage by Page</h3>
+  <table>
+    <thead><tr><th>Keyword</th><th>Homepage</th><th>Signup</th><th>About</th><th>FAQ</th><th>Blog</th><th>Gap?</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>lead generation for local businesses UK</strong></td>
+        <td><span class="badge badge-pass">✓ H1+Body</span></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td style="color:#4ade80">Covered</td>
+      </tr>
+      <tr>
+        <td><strong>local SEO for small businesses</strong></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-pass">✓ H1+Body</span></td>
+        <td><span class="badge badge-pass">✓ Posts</span></td>
+        <td style="color:#fbbf24">Signup gap</td>
+      </tr>
+      <tr>
+        <td><strong>done for you SEO UK</strong></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td style="color:#f87171">Major gap</td>
+      </tr>
+      <tr>
+        <td><strong>website lead generation small business</strong></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td style="color:#fbbf24">Partial</td>
+      </tr>
+      <tr>
+        <td><strong>SEO agency for small businesses UK</strong></td>
+        <td><span class="badge badge-warn">Weak</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td><span class="badge badge-pass">✓ Body</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td><span class="badge badge-crit">✗ Missing</span></td>
+        <td style="color:#f87171">Major gap</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Keyword Opportunities — Not Yet Targeted</h3>
+  <div class="kw-grid">
+    <div class="kw-card"><div class="kw">get more leads from my website</div><div class="detail">High intent. No dominant result. Perfect for a blog post or homepage section.</div></div>
+    <div class="kw-card"><div class="kw">how to get more customers from Google</div><div class="detail">Question-format. Answers well in FAQ + blog. Competitors have weak content here.</div></div>
+    <div class="kw-card"><div class="kw">lead magnet ideas for local business</div><div class="detail">Top-of-funnel. Drives awareness. No strong UK-specific article owns this.</div></div>
+    <div class="kw-card"><div class="kw">Google Business Profile optimisation UK</div><div class="detail">Post 3 in blog already covers this — good. Boost with internal links from homepage.</div></div>
+    <div class="kw-card"><div class="kw">why isn't my website getting enquiries</div><div class="detail">Post 2 already covers this — title is perfect. Needs internal links driving traffic to it.</div></div>
+    <div class="kw-card"><div class="kw">local SEO checklist UK small business</div><div class="detail">Post 3 already covers this. Add to FAQ and link from homepage to strengthen signal.</div></div>
+    <div class="kw-card"><div class="kw">done-for-you lead generation UK</div><div class="detail">High commercial intent. Add to signup page H1 and meta. No competitor owns this exact phrase.</div></div>
+    <div class="kw-card"><div class="kw">SEO for tradespeople UK</div><div class="detail">Sub-niche. Could be a dedicated blog post or service page that ranks fast.</div></div>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- LEAD GENERATION AUDIT -->
+  <h2>Lead Generation Audit</h2>
+
+  <h3>Homepage /</h3>
+  <table>
+    <thead><tr><th>Criterion</th><th>Rating</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Hard CTA above fold</td><td><span class="badge badge-pass">Pass</span></td><td>"Get Your Free Audit" — clear, prominent</td></tr>
+      <tr><td>Soft CTA / Lead magnet</td><td><span class="badge badge-warn">Warning</span></td><td>"See How It Works" is not a lead magnet — it scrolls the page. Add a genuine soft CTA e.g. "Download My Local SEO Checklist"</td></tr>
+      <tr><td>Mid-page CTA</td><td><span class="badge badge-warn">Warning</span></td><td>No mid-page CTA — long scroll before the next CTA appears</td></tr>
+      <tr><td>CTA copy — first person</td><td><span class="badge badge-pass">Pass</span></td><td>"Get Your Free Audit" uses second-person "Your" — acceptable. "Get My Free Audit" would be stronger.</td></tr>
+      <tr><td>Problem-first framing</td><td><span class="badge badge-pass">Pass</span></td><td>Opens with visitor's pain (website not converting) before offering solution — good</td></tr>
+      <tr><td>Before→After transformation</td><td><span class="badge badge-pass">Pass</span></td><td>Clear contrast between "invisible online" and "steady stream of enquiries"</td></tr>
+      <tr><td>Social proof</td><td><span class="badge badge-crit">Critical</span></td><td>No testimonials or client results on homepage — highest-traffic page has zero social proof</td></tr>
+      <tr><td>Trust signals</td><td><span class="badge badge-warn">Warning</span></td><td>Email present in footer but no phone, no physical address, no accreditation logos</td></tr>
+      <tr><td>Readability</td><td><span class="badge badge-pass">Pass</span></td><td>Short sentences, minimal jargon, clear structure</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Signup / Pricing /signup</h3>
+  <table>
+    <thead><tr><th>Criterion</th><th>Rating</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Hard CTA</td><td><span class="badge badge-pass">Pass</span></td><td>Each plan has a clear CTA button</td></tr>
+      <tr><td>Soft CTA / Lead magnet</td><td><span class="badge badge-crit">Critical</span></td><td>Completely absent — visitors who aren't ready to buy have nowhere to go. Add "Not ready? Get your free audit" as a downgrade path.</td></tr>
+      <tr><td>Testimonials at point of purchase</td><td><span class="badge badge-crit">Critical</span></td><td>Zero social proof on the page where purchase decisions are made — this alone kills conversion</td></tr>
+      <tr><td>Problem-first framing</td><td><span class="badge badge-warn">Warning</span></td><td>Page jumps straight to plan cards. Add 2 sentences about the outcome before plans.</td></tr>
+      <tr><td>Trust signals</td><td><span class="badge badge-warn">Warning</span></td><td>No money-back or satisfaction guarantee visible</td></tr>
+      <tr><td>Readability</td><td><span class="badge badge-pass">Pass</span></td><td>Plan features clearly laid out</td></tr>
+    </tbody>
+  </table>
+
+  <h3>About Page /about</h3>
+  <table>
+    <thead><tr><th>Criterion</th><th>Rating</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Hard + Soft CTAs</td><td><span class="badge badge-pass">Pass</span></td><td>Both present above fold</td></tr>
+      <tr><td>E-E-A-T (credentials)</td><td><span class="badge badge-crit">Critical</span></td><td>No named founder, no specific credentials, no years in business — "we" is abstract. Google's E-E-A-T guidelines require demonstrated real-world experience.</td></tr>
+      <tr><td>Problem-first framing</td><td><span class="badge badge-pass">Pass</span></td><td>Opens with the problem UK small businesses face online</td></tr>
+      <tr><td>Social proof</td><td><span class="badge badge-warn">Warning</span></td><td>No client testimonials — About pages with proof convert much better</td></tr>
+      <tr><td>Readability</td><td><span class="badge badge-pass">Pass</span></td><td>Clear section structure, short copy blocks</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-divider"></div>
+
+  <!-- TECHNICAL -->
+  <h2>Technical SEO</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Status</th><th>Detail</th></tr></thead>
+    <tbody>
+      <tr><td>Sitemap (sitemap.ts)</td><td><span class="badge badge-pass">Pass</span></td><td>All 6 static pages included. Blog posts pulled dynamically from SEOBot API.</td></tr>
+      <tr><td>Robots</td><td><span class="badge badge-pass">Pass</span></td><td>Default Next.js robots — allows all crawlers. OK for now.</td></tr>
+      <tr><td>301 Redirects</td><td><span class="badge badge-pass">Pass</span></td><td>19 redirects configured in next.config.ts: /refunds-policy→/terms-and-conditions, /services→/signup, 10 /post/→/blog/ (matched), 6 /post/→/blog (unmatched), 1 bare slug</td></tr>
+      <tr><td>Canonical URLs</td><td><span class="badge badge-pass">Pass</span></td><td>Self-referencing canonicals on key pages</td></tr>
+      <tr><td>OG / Twitter Cards</td><td><span class="badge badge-warn">Warning</span></td><td>Present on most pages but no og:image specified — social shares will show a blank/logo thumbnail</td></tr>
+      <tr><td>LocalBusiness Schema</td><td><span class="badge badge-crit">Critical</span></td><td>Missing on homepage — required for Google to understand the business entity</td></tr>
+      <tr><td>Fonts</td><td><span class="badge badge-pass">Pass</span></td><td>Google Fonts preconnect in layout.tsx — good</td></tr>
+      <tr><td>Image alt text</td><td><span class="badge badge-warn">Warning</span></td><td>Blog post images should be audited for descriptive alt text including keywords</td></tr>
+      <tr><td>Core Web Vitals</td><td><span class="badge badge-pass">Pass</span></td><td>Next.js Image component used for blog images, lazy loading by default</td></tr>
+      <tr><td>HTTPS</td><td><span class="badge badge-pass">Pass</span></td><td>Vercel deployment — HTTPS enforced automatically</td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-divider"></div>
+
+  <!-- PRIORITY ACTIONS -->
+  <h2>Recommended Actions — Prioritised</h2>
+
+  <h3>Priority 1 — Critical Fixes (block ranking or kill conversions)</h3>
+  <ul class="action-list">
+    <li class="crit"><span class="action-num">1</span><div class="action-text"><strong>Homepage title tag:</strong> Cut from 72 to ≤60 chars. New title: "Lead Generation for Local Businesses | The Catalyst Method". This is the single highest-impact SEO change on the site — truncated titles in SERPs reduce click-through rate significantly.</div></li>
+    <li class="crit"><span class="action-num">2</span><div class="action-text"><strong>Add LocalBusiness JSON-LD to homepage:</strong> Without this schema, Google can't confidently include the site in local pack results. Add name, url, email, areaServed: "United Kingdom", sameAs links.</div></li>
+    <li class="crit"><span class="action-num">3</span><div class="action-text"><strong>Add social proof to homepage:</strong> Add 2–3 client testimonials with real outcomes (e.g. "We went from 0 to 12 enquiries per month in 8 weeks — [Client Name], plumber"). Zero social proof on a homepage is a conversion killer.</div></li>
+    <li class="crit"><span class="action-num">4</span><div class="action-text"><strong>Add soft CTA + testimonials to /signup:</strong> Visitors who aren't ready to buy need a downgrade path. Add "Not ready? Get your free website audit →" below the plan cards. Also add 2 short client quotes above the plans.</div></li>
+    <li class="crit"><span class="action-num">5</span><div class="action-text"><strong>Trim /about meta description to ≤160 chars:</strong> Currently 205 chars — Google truncates it. The cut-off version will end mid-sentence, looking broken in SERPs.</div></li>
+    <li class="crit"><span class="action-num">6</span><div class="action-text"><strong>Trim /faq meta description to ≤160 chars:</strong> Currently 190 chars — same issue.</div></li>
+    <li class="crit"><span class="action-num">7</span><div class="action-text"><strong>Add E-E-A-T to /about:</strong> Add founder name, role, and credentials. Google's Helpful Content guidelines specifically reward pages where real expertise is demonstrated. Abstract "we" language scores poorly for YMYL (financial/business advice) topics.</div></li>
+  </ul>
+
+  <h3>Priority 2 — High-Impact Improvements (SEO + lead gen)</h3>
+  <ul class="action-list">
+    <li class="warn"><span class="action-num">8</span><div class="action-text"><strong>Homepage H1 — add "UK":</strong> Change to "Get a Free Lead Generation Audit for UK Local Businesses". Geo-modifiers are essential for UK-intent searches.</div></li>
+    <li class="warn"><span class="action-num">9</span><div class="action-text"><strong>Signup page H1 + title — add service keyword:</strong> Title → "Done-For-You SEO for UK Small Businesses | The Catalyst Method". H1 → "Done-For-You SEO Plans for UK Small Businesses". Signup page currently ranks for nothing — it's invisible.</div></li>
+    <li class="warn"><span class="action-num">10</span><div class="action-text"><strong>FAQ H1:</strong> Change "Frequently Asked Questions" → "FAQs: Local SEO & Lead Generation for UK Small Businesses". The H1 is the strongest on-page SEO signal after the title tag.</div></li>
+    <li class="warn"><span class="action-num">11</span><div class="action-text"><strong>Add About + FAQ to footer nav:</strong> Both pages are currently orphaned. Add them to the footer nav array in app/layout.tsx. Discovery matters — if Google can't crawl to them, they won't rank.</div></li>
+    <li class="warn"><span class="action-num">12</span><div class="action-text"><strong>Blog index intro paragraph:</strong> Add 2–3 sentences of keyword-rich copy above the post grid. "The Catalyst Method blog covers local SEO strategies, lead generation, and Google rankings for UK small businesses. Our guides are written for business owners, not marketers." — this alone can improve the page's rankings for blog-level queries.</div></li>
+    <li class="warn"><span class="action-num">13</span><div class="action-text"><strong>og:image:</strong> Add a branded social share image (1200×630px) to layout.tsx metadata. Without it, social shares of any page show a blank or logo thumbnail — poor first impression on Facebook/LinkedIn.</div></li>
+  </ul>
+
+  <h3>Priority 3 — Nice-to-Have Polishing</h3>
+  <ul class="action-list">
+    <li class="info"><span class="action-num">14</span><div class="action-text"><strong>Mid-page CTA on homepage:</strong> Add a CTA after the "How it works" section — visitors who scroll past the hero need a second opportunity to convert before the footer.</div></li>
+    <li class="info"><span class="action-num">15</span><div class="action-text"><strong>ContactPage schema on /contact:</strong> Add JSON-LD ContactPage + Organization schema. Low effort, increases Google's entity understanding.</div></li>
+    <li class="info"><span class="action-num">16</span><div class="action-text"><strong>"Done for you SEO UK" keyword:</strong> This phrase has no dominant UK competitor and high commercial intent. Add it naturally to the signup page and one blog post or FAQ answer.</div></li>
+    <li class="info"><span class="action-num">17</span><div class="action-text"><strong>Internal links to blog posts from homepage:</strong> Link to posts 2 and 3 ("Why Your Website Isn't Getting Enquiries", "Local SEO Checklist") from the homepage body copy. This passes PageRank to posts and helps them rank faster.</div></li>
+  </ul>
+
+  <div class="section-divider"></div>
+
+  <!-- CONTENT ROADMAP -->
+  <h2>Content Roadmap — Next 7 Blog Posts</h2>
+  <p>Based on keyword gaps and competitor analysis. Each post targets a phrase with UK search volume and no dominant result.</p>
+  <div class="content-roadmap">
+    <ol>
+      <li><strong>"How to Get More Leads From Your Website (Without Paying for Ads)"</strong> — targets "get more leads from website UK", high intent, no dominant result. Ideal for homepage internal link.</li>
+      <li><strong>"What Is a Lead Magnet? 5 Ideas for UK Local Businesses"</strong> — targets "lead magnet ideas local business UK". Top-of-funnel, high share potential. Links back to signup page.</li>
+      <li><strong>"Done-For-You SEO: What It Is and Why UK Small Businesses Need It"</strong> — directly targets the "done for you SEO UK" gap. Commercial intent. Position the post as awareness content that funnels to /signup.</li>
+      <li><strong>"SEO for Tradespeople: How Plumbers, Electricians and Builders Get Found on Google"</strong> — targets a specific UK sub-niche with recurring search demand. High relevance for your likely client base.</li>
+      <li><strong>"How Long Does SEO Take? A Realistic Timeline for UK Small Businesses"</strong> — one of the most-asked questions at the point of purchase. Kills objections. Targets "how long does SEO take UK".</li>
+      <li><strong>"Google Business Profile vs Your Website: Which Matters More for Local Leads?"</strong> — comparison content. Good for ranking and for building authority on both GBP and website optimisation topics.</li>
+      <li><strong>"What Does Good Lead Generation Look Like? 5 Real-World Examples"</strong> — case study format. Builds E-E-A-T. If you have client data, use it here — even anonymised ("a plumbing business in the North West went from 2 to 18 enquiries per month").</li>
+    </ol>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <div class="cta-note">
+    <p><strong>Next step:</strong> Review the Priority 1 critical fixes above — say "apply all critical fixes" and the changes will be made directly in your Next.js source files and deployed to Vercel. Or pick individual items by number.</p>
+  </div>
+
+  <p class="meta" style="margin-top:40px">Report generated by The Catalyst Method SEO audit · thecatalystmethod.co.uk · 14 May 2026</p>
+
+</div>
+</body>
+</html>
