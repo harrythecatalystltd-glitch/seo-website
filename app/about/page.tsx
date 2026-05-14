@@ -4,7 +4,7 @@ import SiteNav from '@/components/SiteNav'
 
 export const metadata: Metadata = {
   title: 'What Is The Catalyst Method? | Local SEO & Lead Generation System',
-  description: 'Lead generation for UK small businesses — local SEO, targeted content and website conversion design working together to deliver a consistent flow of high-quality enquiries.',
+  description: 'Lead generation for UK small businesses: local SEO, targeted content and website conversion design working together to deliver a consistent flow of enquiries.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/about' },
   openGraph: {
@@ -49,7 +49,7 @@ const schema = {
       '@id': 'https://www.thecatalystmethod.co.uk/about',
       url: 'https://www.thecatalystmethod.co.uk/about',
       name: 'What Is The Catalyst Method?',
-      description: 'The Catalyst Method is a lead generation system for UK small businesses — combining local Google rankings, targeted SEO content, and website conversion design.',
+      description: 'The Catalyst Method is a lead generation system for UK small businesses combining local Google rankings, targeted SEO content, and website conversion design.',
       publisher: { '@id': 'https://www.thecatalystmethod.co.uk/#organization' },
       inLanguage: 'en-GB',
     },
@@ -92,7 +92,7 @@ const schema = {
           name: 'What is a lead magnet?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A lead magnet is a free resource or tool that gives website visitors a reason to engage with your business before they are ready to buy. Only around 3% of visitors are ready to buy immediately — a lead magnet captures the other 97% and keeps them in your world.',
+            text: 'A lead magnet is a free resource or tool that gives website visitors a reason to engage with your business before they are ready to buy. Only around 3% of visitors are ready to buy immediately. A lead magnet captures the other 97% and keeps them in your world.',
           },
         },
       ],
@@ -129,7 +129,7 @@ export default function AboutPage() {
             margin: '0 auto 36px',
             fontFamily: "'Open Sans', sans-serif",
           }}>
-            A lead generation system that turns your website into your best salesperson — attracting local customers from Google and converting them into real, high-quality enquiries.
+            A lead generation system that turns your website into your best salesperson, attracting local customers from Google and converting them into real, high-quality enquiries.
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/" style={{
@@ -188,7 +188,7 @@ export default function AboutPage() {
             lineHeight: 1.75, marginBottom: '16px',
             fontFamily: "'Open Sans', sans-serif",
           }}>
-            They sit on the internet, pick up the odd visit, and convert almost none of it. Not because the business is bad — but because the website wasn&apos;t built to do the job.
+            They sit on the internet, pick up the odd visit, and convert almost none of it. Not because the business is bad, but because the website was not built to do the job.
           </p>
           <p style={{
             fontSize: '1.05rem', color: 'rgba(255,255,255,0.65)',
@@ -241,21 +241,21 @@ export default function AboutPage() {
               num: '01',
               title: 'Attract',
               sub: 'Get found on Google',
-              body: 'Local SEO, targeted content, and Google Business Profile optimisation — so the right people find you when they search for what you do.',
+              body: 'Local SEO, targeted content, and Google Business Profile optimisation, so the right people find you when they search for what you do.',
               keywords: 'Local rankings · Keyword content · Search visibility',
             },
             {
               num: '02',
               title: 'Convert',
               sub: 'Turn visitors into leads',
-              body: 'Strong visual design, clear calls to action, lead magnets, and copy that speaks directly to your customer\'s problem — so visitors don\'t just browse, they get in touch.',
+              body: 'Strong visual design, clear calls to action, lead magnets, and copy that speaks directly to your customer\'s problem, so visitors don\'t just browse, they get in touch.',
               keywords: 'Lead magnets · CTAs · Conversion design',
             },
             {
               num: '03',
               title: 'Deliver',
               sub: 'High-quality enquiries',
-              body: 'Real leads from people actively searching for your service in your area — not cold traffic, not ad clicks. Genuine enquiries landing in your inbox.',
+              body: 'Real leads from people actively searching for your service in your area. Not cold traffic, not ad clicks. Genuine enquiries landing in your inbox.',
               keywords: 'Local leads · Qualified enquiries · Consistent flow',
             },
           ].map(({ num, title, sub, body, keywords }) => (
@@ -345,22 +345,22 @@ export default function AboutPage() {
             {
               icon: '🧲',
               title: 'A Lead Magnet',
-              body: 'Only 3% of visitors are ready to buy on first contact. A good lead magnet — a free tool, guide, or audit — gives the other 97% a reason to stay in your world until they are ready. That\'s the difference between a one-time visit and a future customer.',
+              body: 'Only 3% of visitors are ready to buy on first contact. A good lead magnet (a free tool, guide, or audit) gives the other 97% a reason to stay in your world until they are ready. That\'s the difference between a one-time visit and a future customer.',
             },
             {
               icon: '📣',
               title: 'Hard & Soft CTAs',
-              body: 'Not every visitor is at the same stage. A soft CTA (download this, get your free audit) captures people who aren\'t quite ready. A hard CTA (book a call, get a quote) converts those who are. You need both — in the right places — or you\'re leaving leads on the table.',
+              body: 'Not every visitor is at the same stage. A soft CTA (download this, get your free audit) captures people who aren\'t quite ready. A hard CTA (book a call, get a quote) converts those who are. You need both, in the right places, or you\'re leaving leads on the table.',
             },
             {
               icon: '🔍',
               title: 'Targeted SEO Content',
-              body: 'Content that ranks for the exact searches your local customers make. Not generic blog posts — specific, high-intent pages and articles built around the keywords that bring in buyers. Combined with Google Business Profile optimisation for local visibility.',
+              body: 'Content that ranks for the exact searches your local customers make. Specific, high-intent pages and articles built around the keywords that bring in buyers. Combined with Google Business Profile optimisation for local visibility.',
             },
             {
               icon: '✦',
               title: 'Strong Design. Easy Copy.',
-              body: 'First impressions decide in under 3 seconds. The design needs to look credible and professional. The copy needs to be short, clear, and about the customer\'s problem — not a list of your qualifications. Both things together build the trust that gets people to enquire.',
+              body: 'First impressions decide in under 3 seconds. The design needs to look credible and professional. The copy needs to be short, clear, and about the customer\'s problem, not a list of your qualifications. Both things together build the trust that gets people to enquire.',
             },
           ].map(({ icon, title, body }) => (
             <div key={title} style={{
@@ -442,7 +442,7 @@ export default function AboutPage() {
             fontFamily: "'Open Sans', sans-serif",
             maxWidth: '580px', margin: '0 auto 16px',
           }}>
-            It&apos;s not a single tactic. It&apos;s a system — and systems compound. The longer it runs, the more Google trusts the site, the more content builds authority, and the more consistent the flow of enquiries becomes.
+            It&apos;s not a single tactic. It is a system, and systems compound. The longer it runs, the more Google trusts the site, the more content builds authority, and the more consistent the flow of enquiries becomes.
           </p>
           <p style={{
             fontSize: '1rem', color: 'rgba(255,255,255,0.82)',
@@ -450,7 +450,7 @@ export default function AboutPage() {
             fontFamily: "'Open Sans', sans-serif",
             maxWidth: '560px', margin: '20px auto 0',
           }}>
-            Built for UK small businesses. Focused on local Google rankings. Designed to deliver leads — not just traffic.
+            Built for UK small businesses. Focused on local Google rankings. Designed to deliver leads, not just traffic.
           </p>
         </div>
       </section>
@@ -492,7 +492,7 @@ export default function AboutPage() {
               fontSize: '0.93rem', color: 'rgba(255,255,255,0.6)',
               lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
             }}>
-              Every element of the system has been tested and refined against real results — not theory, not generic playbooks. If it didn&apos;t move the needle for real local businesses, it didn&apos;t make it in.
+              Every element of the system has been tested and refined against real results, not theory, not generic playbooks. If it didn&apos;t move the needle for real local businesses, it didn&apos;t make it in.
             </p>
           </div>
         </div>
@@ -522,7 +522,7 @@ export default function AboutPage() {
           {[
             {
               q: 'Who is The Catalyst Method for?',
-              a: 'It\'s built for UK small and local businesses — tradespeople, consultants, service businesses, and local professionals — who want their website to consistently generate enquiries from Google rather than just sitting there.',
+              a: 'It\'s built for UK small and local businesses: tradespeople, consultants, service businesses, and local professionals who want their website to consistently generate enquiries from Google rather than just sitting there.',
             },
             {
               q: 'Do I need a new website?',
@@ -530,7 +530,7 @@ export default function AboutPage() {
             },
             {
               q: 'How long before I see results?',
-              a: 'Some improvements — like fixing your CTAs, adding a lead magnet, or cleaning up your Google Business Profile — can show results within weeks. SEO content builds over months. The system is designed for steady, compounding growth rather than a short-term spike.',
+              a: 'Some improvements, like fixing your CTAs, adding a lead magnet, or cleaning up your Google Business Profile, can show results within weeks. SEO content builds over months. The system is designed for steady, compounding growth rather than a short-term spike.',
             },
             {
               q: 'What makes this different from just doing SEO?',
@@ -605,7 +605,7 @@ export default function AboutPage() {
             fontFamily: "'Open Sans', sans-serif",
             position: 'relative',
           }}>
-            Run a free audit and get a 16-point breakdown of exactly what&apos;s stopping your site from generating leads — and what it&apos;s costing you every month.
+            Run a free audit and get a 16-point breakdown of exactly what&apos;s stopping your site from generating leads and what it&apos;s costing you every month.
           </p>
 
           <div style={{
@@ -641,7 +641,7 @@ export default function AboutPage() {
             marginTop: '20px', position: 'relative',
             fontFamily: "'Open Sans', sans-serif",
           }}>
-            Free — no sign-up needed · Results in 10 seconds · 16 checks run instantly
+            Free, no sign-up needed · Results in 10 seconds · 16 checks run instantly
           </p>
         </div>
       </section>

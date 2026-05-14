@@ -27,9 +27,9 @@ const SECTIONS = [
     title: '1. Introduction',
     content: [
       'These Terms and Conditions ("Terms") govern the agreement between The Catalyst Method ("we", "us", "our") and you ("Client", "you") when you purchase any plan or service from us.',
-      'The Catalyst Method is operated by Harry Snape, trading as The Catalyst Method, contactable at hey@thecatalystmethod.co.uk.',
+      'The Catalyst Method is a UK-registered trading business, contactable at hey@thecatalystmethod.co.uk.',
       'By purchasing a plan, clicking a payment link, or signing a client agreement, you confirm that you have read, understood, and agree to be bound by these Terms in full.',
-      'These Terms apply to all plans — Basic, Gold, and Platinum — across all billing periods (monthly, 6-month, and 12-month).',
+      'These Terms apply to all plans (Basic, Gold, and Platinum) across all billing periods (monthly, 6-month, and 12-month).',
     ],
   },
   {
@@ -37,7 +37,7 @@ const SECTIONS = [
     title: '2. Services',
     content: [
       'The Catalyst Method provides a lead generation and local SEO service for UK-based small businesses. Depending on the plan selected, services include some or all of the following: website audit, keyword research, on-site SEO, SEO content production (blog articles), Google Business Profile optimisation, lead magnet design, CRM setup, email automation, analytics reporting, sales training, and business strategy meetings.',
-      'All plans include the free build of a professional website, a CRM setup, a lead magnet, and email automation as stated on our pricing page. These items are included as part of the ongoing service — they are not sold or gifted to the Client independently of the subscription.',
+      'All plans include the free build of a professional website, a CRM setup, a lead magnet, and email automation as stated on our pricing page. These items are included as part of the ongoing service. They are not sold or gifted to the Client independently of the subscription.',
       'The specific deliverables for each plan are set out on our pricing page at thecatalystmethod.co.uk/signup. We reserve the right to update plan inclusions with reasonable notice.',
       'We will deliver services to a professional standard and in accordance with what is reasonably required to fulfil the plan. We do not guarantee specific search rankings, traffic volumes, or enquiry numbers, as these are subject to factors outside our direct control including Google algorithm changes, market competition, and the Client\'s own actions.',
     ],
@@ -87,9 +87,9 @@ const SECTIONS = [
         heading: '5.1 Websites Built by The Catalyst Method',
         points: [
           'A professional website build is included as part of every plan at no additional charge. This website is built as a component of the ongoing service and is not sold, transferred, or gifted to the Client.',
-          'All websites designed, built, and maintained by The Catalyst Method — including their design, code, structure, layout, copy, and any custom-built features — remain the intellectual property of The Catalyst Method at all times.',
+          'All websites designed, built, and maintained by The Catalyst Method, including their design, code, structure, layout, copy, and any custom-built features, remain the intellectual property of The Catalyst Method at all times.',
           'The Client is granted a licence to use the website for the duration of their active subscription. This licence is non-transferable and exists only while the subscription remains paid and active.',
-          'If the Client\'s subscription is cancelled for any reason — whether by the Client, by us, or due to non-payment — this licence immediately terminates. The Client loses all rights to use, host, access, claim ownership of, or replicate the website built by The Catalyst Method.',
+          'If the Client\'s subscription is cancelled for any reason, whether by the Client, by us, or due to non-payment, this licence immediately terminates. The Client loses all rights to use, host, access, claim ownership of, or replicate the website built by The Catalyst Method.',
           'Upon cancellation, The Catalyst Method reserves the right to take the website offline, remove hosting, and reclaim all associated materials. We are under no obligation to transfer website files, code, or assets to the Client.',
         ],
       },
@@ -121,7 +121,7 @@ const SECTIONS = [
     title: '6. Client Responsibilities',
     content: [
       'You agree to provide us with accurate information about your business, including correct contact details, business name, services offered, and target location. Inaccurate information that affects our ability to deliver results does not entitle you to a refund.',
-      'Where services require your input — such as approving copy, providing photos, or granting access to platforms — you agree to respond to our reasonable requests within a timely manner. Unreasonable delays caused by the Client do not pause billing.',
+      'Where services require your input, such as approving copy, providing photos, or granting access to platforms, you agree to respond to our reasonable requests within a timely manner. Unreasonable delays caused by the Client do not pause billing.',
       'You agree not to use our services for any unlawful purpose and to comply with applicable UK law.',
       'For 6-month and 12-month plans, the Client must sign and return the client agreement before work commences. Failure to return a signed agreement within 14 days of purchase may result in cancellation and, at our discretion, a refund of fees paid.',
     ],
@@ -131,7 +131,7 @@ const SECTIONS = [
     title: '7. Cancellation',
     subsections: [
       {
-        heading: '7.1 Cancellation by the Client — Monthly Plans',
+        heading: '7.1 Cancellation by the Client: Monthly Plans',
         points: [
           'You may cancel your monthly rolling plan at any time by providing 30 days\' written notice to hey@thecatalystmethod.co.uk.',
           'Cancellation takes effect at the end of the billing period following the 30-day notice period. You will be charged for that final period in full.',
@@ -139,7 +139,7 @@ const SECTIONS = [
         ],
       },
       {
-        heading: '7.2 Cancellation by the Client — Fixed-Term Plans',
+        heading: '7.2 Cancellation by the Client: Fixed-Term Plans',
         points: [
           'Fixed-term plans (6-month or 12-month) may not be cancelled before the end of the agreed term other than in cases where The Catalyst Method has materially breached these Terms and failed to remedy the breach within 14 days of receiving written notice.',
           'Early cancellation of a fixed-term plan does not entitle the Client to a refund of fees already paid.',
