@@ -75,7 +75,7 @@ const SECTIONS = [
       'Monthly plan fees are charged in advance at the start of each billing period.',
       'All fees are stated in pounds sterling (GBP) and are inclusive of any applicable VAT unless stated otherwise.',
       'If a payment fails, we will notify you and attempt to collect payment again. If payment remains outstanding after 7 days, we reserve the right to suspend services until the outstanding balance is settled.',
-      'All fees paid are non-refundable except where we have materially failed to deliver the services agreed and have not remedied that failure within a reasonable period following written notice.',
+      'All fees paid are non-refundable except where we have materially failed to deliver the services agreed and have not remedied that failure within a reasonable period following written notice, or where our leads guarantee applies as set out in Section 11.',
     ],
   },
   {
@@ -158,7 +158,7 @@ const SECTIONS = [
     id: 'limitation-of-liability',
     title: '8. Limitation of Liability',
     content: [
-      'We provide our services with reasonable skill and care. However, we do not guarantee specific outcomes including but not limited to Google rankings, traffic volumes, enquiry numbers, or revenue generated.',
+      'We provide our services with reasonable skill and care. However, we do not guarantee specific outcomes including but not limited to Google rankings, traffic volumes, or revenue generated, except as set out in our leads guarantee in Section 11.',
       'To the fullest extent permitted by law, The Catalyst Method\'s total liability to you in connection with these Terms shall not exceed the total fees paid by you in the 3 months immediately preceding the event giving rise to the claim.',
       'We shall not be liable for any indirect, consequential, or special loss, including loss of profits, loss of business, or loss of reputation, even if we have been advised of the possibility of such losses.',
       'Nothing in these Terms limits or excludes liability for death or personal injury caused by negligence, fraud, or any other matter that cannot lawfully be excluded.',
@@ -182,8 +182,19 @@ const SECTIONS = [
     ],
   },
   {
+    id: 'guarantee',
+    title: '11. Leads Guarantee',
+    content: [
+      'We guarantee that every new Client will receive at least one new lead within the first 4 weeks of their plan starting. For the purposes of this guarantee, a "lead" means a genuine enquiry from a prospective customer — for example, a contact form submission, a phone call, a direct message, or an email — that originates from the work we have carried out.',
+      'If no such lead is received within the first 4 weeks, you are entitled to a full refund of your first payment. To claim this refund, you must notify us in writing at hey@thecatalystmethod.co.uk within 7 days of the end of the 4-week period.',
+      'This guarantee applies to new Clients on their first billing cycle only. It does not apply to renewals or to Clients who have previously subscribed.',
+      'The guarantee is void if the Client has not provided us with the access, information, or approvals we have reasonably requested within the first 2 weeks of the plan starting, or if the Client has materially changed their target service area, offering, or website without our involvement during the guarantee period.',
+      'This guarantee does not affect your statutory rights as a consumer under UK law.',
+    ],
+  },
+  {
     id: 'governing-law',
-    title: '11. Governing Law',
+    title: '12. Governing Law',
     content: [
       'These Terms and any disputes arising from them are governed by the laws of England and Wales.',
       'Both parties agree to submit to the exclusive jurisdiction of the courts of England and Wales.',
@@ -191,7 +202,7 @@ const SECTIONS = [
   },
   {
     id: 'contact',
-    title: '12. Contact',
+    title: '13. Contact',
     content: [
       'If you have any questions about these Terms, please contact us at:',
       'Email: hey@thecatalystmethod.co.uk',

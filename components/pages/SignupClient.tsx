@@ -201,6 +201,50 @@ export default function SignupClient() {
         </div>
       </section>
 
+      {/* Guarantee */}
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '0 24px 56px' }}>
+        <div style={{
+          display: 'flex', alignItems: 'center', gap: '28px', flexWrap: 'wrap' as const,
+          background: 'linear-gradient(135deg, rgba(255,215,0,0.07) 0%, rgba(255,215,0,0.03) 100%)',
+          border: '1.5px solid rgba(255,215,0,0.35)',
+          borderRadius: '16px',
+          padding: '28px 36px',
+          maxWidth: '680px', width: '100%',
+        }}>
+          <div style={{ flexShrink: 0, textAlign: 'center' as const }}>
+            <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
+              <path d="M36 4L44.5 14H58L50.5 24.5L54 38L36 30L18 38L21.5 24.5L14 14H27.5L36 4Z" fill="rgba(255,215,0,0.15)" stroke="#FFD700" strokeWidth="1.5"/>
+              <path d="M26 36L33 43L47 29" stroke="#FFD700" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
+          <div style={{ flex: 1, minWidth: '220px' }}>
+            <p style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: '0.62rem', fontWeight: 800,
+              letterSpacing: '0.14em', textTransform: 'uppercase' as const,
+              color: '#FFD700', margin: '0 0 8px',
+            }}>
+              Our Guarantee
+            </p>
+            <p style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: '1.05rem', fontWeight: 900,
+              color: '#fff', margin: '0 0 8px', lineHeight: 1.3,
+              letterSpacing: '-0.01em',
+            }}>
+              New leads within 4 weeks or your money back
+            </p>
+            <p style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontSize: '0.82rem', color: 'rgba(255,255,255,0.5)',
+              margin: 0, lineHeight: 1.7,
+            }}>
+              We guarantee you will receive new leads within your first 4 weeks. If not, you get a full refund. No questions, no small print.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Soft CTA */}
       <div style={{ textAlign: 'center', padding: '12px 24px 56px' }}>
         <p style={{
