@@ -244,7 +244,7 @@ export default function HomeClient() {
                   </button>
                 </div>
                 <div className="input-meta">
-                  <span className="input-meta-item">Free — no sign-up needed</span>
+                  <span className="input-meta-item">Free. No sign-up needed</span>
                   <span className="input-meta-item">Results in 10 seconds</span>
                   <span className="input-meta-item">16 checks run instantly</span>
                 </div>
