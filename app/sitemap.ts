@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { manualPosts } from '@/lib/manual-posts'
 
 const BASE_URL = 'https://www.thecatalystmethod.co.uk'
 
@@ -76,12 +77,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ]
 
-  const blogRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
+  const seobotRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${BASE_URL}/blog/${article.slug}`,
     lastModified: article.publishedAt ? new Date(article.publishedAt) : new Date(),
     changeFrequency: 'monthly',
     priority: 0.6,
   }))
 
-  return [...staticRoutes, ...blogRoutes]
+  const manualRoutes: MetadataRoute.Sitemap = manualPosts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.publishedAt),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  return [...staticRoutes, ...manualRoutes, ...seobotRoutes]
 }
