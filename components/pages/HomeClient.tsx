@@ -412,6 +412,179 @@ export default function HomeClient() {
           </div>
         </div>
       )}
+
+      {/* ── What We Do ───────────────────────────────── */}
+      <section style={{ padding: '80px 24px 0', maxWidth: '960px', margin: '0 auto' }}>
+        <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+          <p style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: '11px', fontWeight: 700,
+            letterSpacing: '0.18em', textTransform: 'uppercase',
+            color: '#FFD700', marginBottom: '16px',
+          }}>
+            Local SEO and Lead Generation for UK Small Businesses
+          </p>
+          <h2 style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: 'clamp(1.5rem, 3.5vw, 2.2rem)',
+            fontWeight: 900, lineHeight: 1.15,
+            letterSpacing: '-0.025em', color: '#FFFFFF',
+            marginBottom: '18px',
+          }}>
+            Why most small business websites<br />don&apos;t generate leads — and how to fix it
+          </h2>
+          <p style={{
+            fontSize: '1rem', color: 'rgba(255,255,255,0.55)',
+            lineHeight: 1.75, maxWidth: '620px', margin: '0 auto',
+            fontFamily: "'Open Sans', sans-serif",
+          }}>
+            Lead generation for local businesses starts with getting found on Google, then converting that traffic into real enquiries. Most small business websites fail at both. The Catalyst Method fixes both.
+          </p>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
+          {[
+            {
+              eyebrow: 'Website Lead Generation',
+              title: 'Turn your website into a lead machine',
+              body: 'Website lead generation for small businesses means your site works around the clock. Every page should pull in local visitors from Google and give them a clear reason to get in touch. Most small business websites do neither — ours are built to do both.',
+            },
+            {
+              eyebrow: 'Local SEO',
+              title: 'Rank where your customers are searching',
+              body: 'Local SEO for small businesses gets you in front of people actively searching for your service in your area. The Google Map Pack, local organic results, and AI Overviews — not generic national traffic that never converts into real enquiries.',
+            },
+            {
+              eyebrow: 'Done For You SEO',
+              title: 'A complete system, fully managed',
+              body: 'Done for you SEO for UK businesses means you get the strategy, the content, the technical fixes, and the monthly reporting — without needing to understand any of it yourself. You run your business. The leads come to you.',
+            },
+          ].map(({ eyebrow, title, body }) => (
+            <div key={title} style={{
+              background: 'rgba(255,255,255,0.04)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: '14px',
+              padding: '28px',
+            }}>
+              <p style={{
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: '10px', fontWeight: 700,
+                letterSpacing: '0.16em', textTransform: 'uppercase',
+                color: '#FFD700', marginBottom: '12px',
+              }}>{eyebrow}</p>
+              <h3 style={{
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: '1.08rem', fontWeight: 800,
+                color: '#FFFFFF', marginBottom: '12px', lineHeight: 1.35,
+              }}>{title}</h3>
+              <p style={{
+                fontSize: '0.92rem', color: 'rgba(255,255,255,0.6)',
+                lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
+              }}>{body}</p>
+            </div>
+          ))}
+        </div>
+
+        <div style={{ textAlign: 'center', marginTop: '36px' }}>
+          <a href="/about" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '6px',
+            color: 'rgba(255,215,0,0.65)',
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+            fontSize: '0.8rem', letterSpacing: '0.06em', textTransform: 'uppercase',
+            textDecoration: 'none',
+          }}>
+            How the system works →
+          </a>
+        </div>
+      </section>
+
+      {/* ── Blog Posts ───────────────────────────────── */}
+      <section style={{ padding: '72px 24px 96px', maxWidth: '960px', margin: '0 auto' }}>
+        <div style={{
+          display: 'flex', justifyContent: 'space-between',
+          alignItems: 'flex-end', marginBottom: '32px',
+          flexWrap: 'wrap', gap: '12px',
+        }}>
+          <div>
+            <p style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: '11px', fontWeight: 700,
+              letterSpacing: '0.18em', textTransform: 'uppercase',
+              color: '#FFD700', marginBottom: '10px',
+            }}>From the blog</p>
+            <h2 style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: 'clamp(1.2rem, 2.8vw, 1.7rem)',
+              fontWeight: 900, lineHeight: 1.2,
+              letterSpacing: '-0.02em', color: '#FFFFFF',
+            }}>Practical local SEO guides for UK small businesses</h2>
+          </div>
+          <a href="/blog" style={{
+            color: 'rgba(255,215,0,0.65)',
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+            fontSize: '0.78rem', letterSpacing: '0.05em', textTransform: 'uppercase',
+            textDecoration: 'none', whiteSpace: 'nowrap',
+          }}>View all posts →</a>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px' }}>
+          {[
+            {
+              slug: 'google-business-profile-optimisation-uk',
+              category: 'Local SEO',
+              title: 'How to Optimise Your Google Business Profile: The 2026 Guide for UK Small Businesses',
+              desc: 'The 7 steps that move you up the Map Pack and win more local enquiries — including how to get Google reviews without breaking the rules.',
+              time: '9 min read',
+            },
+            {
+              slug: 'why-website-not-getting-enquiries',
+              category: 'Lead Generation',
+              title: '7 Reasons Your Website Isn\'t Getting Enquiries (And Exactly How to Fix Each One)',
+              desc: 'The 7 most common reasons UK small business websites fail to convert visitors, with a specific fix for each one.',
+              time: '9 min read',
+            },
+            {
+              slug: 'local-seo-checklist-small-business-uk',
+              category: 'Local SEO',
+              title: 'The Local SEO Checklist for UK Small Businesses: 12 Checks That Actually Move the Needle',
+              desc: 'Work through these 12 checks once and repeat the monthly ones to consistently outrank local competitors on Google.',
+              time: '10 min read',
+            },
+          ].map(({ slug, category, title, desc, time }) => (
+            <a key={slug} href={`/blog/${slug}`} style={{ textDecoration: 'none', display: 'flex' }}>
+              <div style={{
+                background: 'rgba(255,255,255,0.04)',
+                border: '1px solid rgba(255,255,255,0.08)',
+                borderRadius: '14px',
+                padding: '24px',
+                display: 'flex', flexDirection: 'column',
+                transition: 'border-color 0.15s',
+              }}>
+                <p style={{
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontSize: '10px', fontWeight: 700,
+                  letterSpacing: '0.14em', textTransform: 'uppercase',
+                  color: '#FFD700', marginBottom: '10px',
+                }}>{category}</p>
+                <h3 style={{
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontSize: '0.97rem', fontWeight: 800,
+                  color: '#FFFFFF', marginBottom: '10px', lineHeight: 1.4,
+                }}>{title}</h3>
+                <p style={{
+                  fontSize: '0.85rem', color: 'rgba(255,255,255,0.55)',
+                  lineHeight: 1.7, fontFamily: "'Open Sans', sans-serif",
+                  flex: 1, marginBottom: '16px',
+                }}>{desc}</p>
+                <p style={{
+                  fontSize: '0.75rem', color: 'rgba(255,215,0,0.4)',
+                  fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+                }}>{time}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
     </>
   )
 }
