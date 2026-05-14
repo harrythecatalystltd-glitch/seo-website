@@ -1025,4 +1025,232 @@ export const manualPosts: ManualPost[] = [
 </div>
 `,
   },
+  {
+    slug: 'done-for-you-seo-uk',
+    title: 'Done For You SEO: What It Is and Why UK Small Businesses Need It',
+    description: 'Done for you SEO explained for UK small business owners. What is included, how it differs from DIY or hiring a freelancer, and what results to expect.',
+    category: 'SEO',
+    publishedAt: '2026-05-14',
+    readingTime: 10,
+    image: '/blog/done-for-you-seo-uk.jpg',
+    html: `
+<p>You have probably heard the phrase "done for you SEO" and wondered what it actually means in practice. Does someone take over your Google account? Do they write content for you? How is it different from hiring a freelancer or just paying for Google Ads?</p>
+
+<p>This guide answers all of that. By the end you will know exactly what a done for you SEO service includes, who it suits, what results to expect and when, and whether it is the right move for your business right now.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">What you will get from this</p>
+  <ul style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.82);line-height:1.85;">
+    <li style="margin-bottom:8px;">A clear explanation of what done for you SEO actually means</li>
+    <li style="margin-bottom:8px;">How it differs from doing it yourself or hiring someone part-time</li>
+    <li style="margin-bottom:8px;">What a proper done for you SEO service should include</li>
+    <li style="margin-bottom:8px;">Who it is right for and who it is not</li>
+    <li style="margin-bottom:8px;">What results to expect and a realistic timeline</li>
+    <li style="margin-bottom:0;">How to choose the right provider</li>
+  </ul>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#what-it-means">What does done for you SEO actually mean?</a></li>
+    <li style="margin-bottom:8px;"><a href="#vs-diy">Done for you vs DIY SEO</a></li>
+    <li style="margin-bottom:8px;"><a href="#vs-freelancer">Done for you vs hiring a freelancer or agency</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-is-included">What a done for you SEO service should include</a></li>
+    <li style="margin-bottom:8px;"><a href="#who-it-suits">Who it is right for</a></li>
+    <li style="margin-bottom:8px;"><a href="#results-timeline">What results to expect and when</a></li>
+    <li style="margin-bottom:8px;"><a href="#how-catalyst-works">How The Catalyst Method done for you system works</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-dfyseo">Common questions about done for you SEO</a></li>
+  </ol>
+</div>
+
+<h2 id="what-it-means">What Does Done For You SEO Actually Mean?</h2>
+
+<p>Done for you SEO means a provider takes full responsibility for your search engine optimisation. You are not being taught how to do it. You are not getting a monthly report with recommendations you then have to action yourself. Someone else handles the strategy, the implementation, the content, and the ongoing management.</p>
+
+<p>Think of it the same way you think about hiring an accountant. You do not want to learn tax law. You want your accounts handled properly so you can focus on running your business. Done for you SEO works on the same principle.</p>
+
+<p>In practice, that typically means:</p>
+
+<ul style="color:rgba(255,255,255,0.82);line-height:1.85;padding-left:24px;margin:16px 0;">
+  <li style="margin-bottom:10px;">Your website is audited and the technical issues are fixed</li>
+  <li style="margin-bottom:10px;">Your pages are rewritten or restructured to rank for the searches your customers are actually making</li>
+  <li style="margin-bottom:10px;">New content is published to your site every month targeting relevant keywords</li>
+  <li style="margin-bottom:10px;">Your Google Business Profile is optimised and maintained</li>
+  <li style="margin-bottom:10px;">Backlinks are built to increase your site's authority</li>
+  <li style="margin-bottom:10px;">You receive reports showing what is working and what your traffic is doing</li>
+</ul>
+
+<p>You stay in control of your business. The SEO happens in the background.</p>
+
+<h2 id="vs-diy">Done For You vs DIY SEO</h2>
+
+<p>DIY SEO is possible, and for some business owners who have both the time and the inclination, it can be worth pursuing. But most small business owners who try to do their own SEO run into the same problems.</p>
+
+<p>The first is time. Learning SEO properly takes months. Implementing it consistently takes hours every week. Most business owners are already stretched across sales, delivery, admin, and customer service. Adding SEO on top is one thing too many, and it usually gets dropped as soon as things get busy.</p>
+
+<p>The second is consistency. SEO is not a one-off task. It requires fresh content, regular updates, ongoing link building, and continual monitoring of how rankings are moving. A business owner who publishes two blog posts and then stops will see no meaningful results.</p>
+
+<p>The third is expertise. The fundamentals of SEO can be learned from YouTube in a weekend. But the nuance of keyword selection, the difference between a penalty and a ranking drop, the technical SEO work behind a crawl issue, knowing which backlinks help and which hurt — these take experience that only comes from working across many sites over time.</p>
+
+<p>Done for you SEO removes all three problems. You get a consistent, expert-led operation running in the background without you needing to think about it.</p>
+
+<h2 id="vs-freelancer">Done For You vs Hiring a Freelancer or Agency</h2>
+
+<p>There is an important distinction between done for you SEO and the traditional agency or freelancer model.</p>
+
+<p>A traditional SEO agency typically sells you a retainer that covers a set number of hours per month. Those hours are split across strategy, reporting, and some implementation. Often what you get back is a document of recommendations — things you or your web developer then need to action. If you do not have a developer, those recommendations sit gathering dust.</p>
+
+<p>A freelancer can be more hands-on, but their capacity is limited, their availability can be inconsistent, and a single person rarely has the full skillset to cover technical SEO, content, outreach, and strategy simultaneously.</p>
+
+<p>Done for you SEO, done properly, covers all of it under one roof. Strategy and implementation are the same team. There is no handoff document. Things get done.</p>
+
+<p>The other key difference is what is included. A proper done for you service will include website work, content production, Google Business Profile management, and reporting as part of the monthly fee. A traditional agency often charges separately for each of these, or scopes them out entirely.</p>
+
+<h2 id="what-is-included">What a Done For You SEO Service Should Include</h2>
+
+<p>Not all done for you SEO services are equal. Here is what a complete service should include, and questions to ask any provider before committing.</p>
+
+<h3 style="color:#fff;font-family:'Montserrat',sans-serif;font-size:1.1rem;margin:32px 0 12px;">Website audit and technical fixes</h3>
+<p>The foundation of any SEO work is understanding what is currently broken. A done for you service should start with a thorough technical audit and then actually fix the issues found, not just report them.</p>
+
+<h3 style="color:#fff;font-family:'Montserrat',sans-serif;font-size:1.1rem;margin:32px 0 12px;">Keyword research and on-page SEO</h3>
+<p>Every page on your website should be targeting a specific search phrase that your customers are actively using. This means proper keyword research, followed by rewriting or optimising page titles, headings, meta descriptions, and body content to match those phrases naturally.</p>
+
+<h3 style="color:#fff;font-family:'Montserrat',sans-serif;font-size:1.1rem;margin:32px 0 12px;">Regular SEO content</h3>
+<p>Fresh, relevant content signals to Google that your site is active and authoritative. A good done for you service publishes new blog posts or articles every month, each one targeting a keyword your customers search for. The volume matters: one post a month is better than nothing, but eight to twenty posts a month is what accelerates results.</p>
+
+<h3 style="color:#fff;font-family:'Montserrat',sans-serif;font-size:1.1rem;margin:32px 0 12px;">Google Business Profile management</h3>
+<p>For local businesses, the Map Pack is where most search clicks happen. A done for you service should be actively managing your GBP, posting updates, monitoring reviews, ensuring your information is accurate, and expanding your services and attributes.</p>
+
+<h3 style="color:#fff;font-family:'Montserrat',sans-serif;font-size:1.1rem;margin:32px 0 12px;">Link building</h3>
+<p>Backlinks from other websites tell Google your site is trustworthy. A done for you service should be building these for you, whether through content partnerships, directory listings, or outreach. Ask any provider to be specific about how they build links.</p>
+
+<h3 style="color:#fff;font-family:'Montserrat',sans-serif;font-size:1.1rem;margin:32px 0 12px;">Monthly reporting</h3>
+<p>You should receive a clear monthly report showing keyword rankings, organic traffic, and the work completed. A good provider will explain what the numbers mean, not just share a spreadsheet.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:40px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">Questions to ask any done for you SEO provider</p>
+  <ul style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.82);line-height:1.85;">
+    <li style="margin-bottom:8px;">Who actually writes the content — is it AI generated or written by a human with industry knowledge?</li>
+    <li style="margin-bottom:8px;">How many pieces of content do I get per month and how long are they?</li>
+    <li style="margin-bottom:8px;">Do you implement changes on my website or just recommend them?</li>
+    <li style="margin-bottom:8px;">How do you build backlinks and can you show me examples?</li>
+    <li style="margin-bottom:8px;">What does my monthly report look like and how often do we speak?</li>
+    <li style="margin-bottom:0;">Can I see results you have achieved for businesses similar to mine?</li>
+  </ul>
+</div>
+
+<h2 id="who-it-suits">Who Done For You SEO Is Right For</h2>
+
+<p>Done for you SEO is the right choice for a business owner who:</p>
+
+<ul style="color:rgba(255,255,255,0.82);line-height:1.85;padding-left:24px;margin:16px 0;">
+  <li style="margin-bottom:10px;"><strong style="color:#fff;">Has no time to learn or implement SEO themselves.</strong> You are running a business. You do not have ten hours a week to spend on content and keyword research.</li>
+  <li style="margin-bottom:10px;"><strong style="color:#fff;">Wants sustainable, compounding leads.</strong> Unlike paid ads, organic search traffic builds over time. Once you rank, you do not pay per click. A done for you SEO investment compounds every month.</li>
+  <li style="margin-bottom:10px;"><strong style="color:#fff;">Operates in a local market.</strong> Local SEO is one of the highest-ROI forms of marketing for small businesses. A plumber in Bristol who ranks number one for "emergency plumber Bristol" gets consistent enquiries without ever running an ad.</li>
+  <li style="margin-bottom:10px;"><strong style="color:#fff;">Has a service-based business where one client is worth hundreds or thousands of pounds.</strong> If a new customer is worth £1,000 to you, and SEO brings in five new customers a month, the maths is clear.</li>
+</ul>
+
+<p>It is not the right choice if you are looking for results in the next two to four weeks, if your budget does not allow for a meaningful monthly commitment, or if you are in a market where paid ads are consistently cheaper per acquisition. In those cases, a different strategy may serve you better.</p>
+
+<h2 id="results-timeline">What Results to Expect and When</h2>
+
+<p>This is the question most business owners ask first, and it deserves an honest answer.</p>
+
+<p>SEO is not instant. Google needs time to crawl new content, assess authority, and adjust rankings. For most local businesses, the timeline looks roughly like this:</p>
+
+<div style="overflow-x:auto;margin:32px 0;">
+  <table style="width:100%;border-collapse:collapse;font-size:0.88rem;color:rgba(255,255,255,0.82);">
+    <thead>
+      <tr style="border-bottom:1px solid rgba(255,215,0,0.3);">
+        <th style="text-align:left;padding:12px 16px;font-family:'Montserrat',sans-serif;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#FFD700;">Timeframe</th>
+        <th style="text-align:left;padding:12px 16px;font-family:'Montserrat',sans-serif;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#FFD700;">What is happening</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid rgba(255,255,255,0.07);">
+        <td style="padding:14px 16px;color:#fff;font-weight:700;white-space:nowrap;">Month 1</td>
+        <td style="padding:14px 16px;">Audit, technical fixes, keyword research, on-page changes, GBP optimisation. The groundwork is laid. No visible ranking movement yet — this is normal.</td>
+      </tr>
+      <tr style="border-bottom:1px solid rgba(255,255,255,0.07);">
+        <td style="padding:14px 16px;color:#fff;font-weight:700;white-space:nowrap;">Months 2 to 3</td>
+        <td style="padding:14px 16px;">Content is publishing. Google starts re-crawling the site. You may start to see movement on lower-competition keywords and longer search phrases. Some early enquiries may come through.</td>
+      </tr>
+      <tr style="border-bottom:1px solid rgba(255,255,255,0.07);">
+        <td style="padding:14px 16px;color:#fff;font-weight:700;white-space:nowrap;">Months 3 to 6</td>
+        <td style="padding:14px 16px;">Traffic is growing. Rankings on target keywords are improving. Enquiries start to become consistent. This is where the work begins to compound.</td>
+      </tr>
+      <tr>
+        <td style="padding:14px 16px;color:#fff;font-weight:700;white-space:nowrap;">Month 6 onwards</td>
+        <td style="padding:14px 16px;">Established rankings. Consistent organic enquiries. The investment is paying for itself and compounding further each month new content is published.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Any provider promising page one results in thirty days is either selling you paid ads or is being dishonest about how SEO works. The realistic expectation is meaningful, compounding growth from month three onwards, with the biggest results coming in months six to twelve.</p>
+
+<h2 id="how-catalyst-works">How The Catalyst Method Done For You System Works</h2>
+
+<p>The Catalyst Method is a done for you SEO and lead generation system built specifically for UK small businesses. Here is what is included from day one.</p>
+
+<p>Every client starts with a website audit and a full keyword and conversion plan. The existing site is reviewed for technical issues, conversion problems, and keyword gaps. A clear strategy is documented before any work begins.</p>
+
+<p>From there, on-page SEO is implemented across all key pages, Google Business Profile is optimised, and a content schedule begins immediately. Every plan includes monthly SEO content with backlinks, monthly analytics reports, a lead magnet to capture warm traffic, and a branded leads dashboard so you can see what is coming in.</p>
+
+<p>Three tiers are available depending on the volume of content you need and the level of sales support you want. All three include a free website build, CRM setup, lead magnet design, and email automation, included at no extra cost.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:28px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 12px;">See where your site stands right now</p>
+  <p style="color:rgba(255,255,255,0.75);margin:0 0 20px;line-height:1.75;">Run a free audit on your website and get a score showing exactly what is helping and hurting your ranking. No email required to get your score.</p>
+  <a href="/" style="display:inline-block;background:#FFD700;color:#0a0e1a;font-family:'Montserrat',sans-serif;font-weight:800;font-size:0.82rem;letter-spacing:0.06em;text-transform:uppercase;padding:14px 28px;border-radius:8px;text-decoration:none;">Get My Free Audit</a>
+</div>
+
+<p>The system is designed around one goal: consistent, qualified enquiries from organic search. Not vanity traffic. Not monthly reports that tell you impressions went up. Actual leads from people in your area searching for what you offer.</p>
+
+<p>If you want to see the plans and what each tier includes, <a href="/signup">you can do that here</a>.</p>
+
+<h2 id="faq-dfyseo">Common Questions About Done For You SEO</h2>
+
+<div style="margin:32px 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How is done for you SEO different from Google Ads?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Google Ads puts you at the top of results immediately, but you pay for every click and the traffic stops the moment you stop paying. Done for you SEO builds organic rankings that do not require ongoing spend per click. It takes longer to see results, but the leads you generate through SEO cost you nothing on a per-click basis and the traffic compounds over time. Most established businesses use both, but SEO is what provides the stable, sustainable foundation.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do I need to be involved day to day?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. That is the point of a done for you service. You will typically have an onboarding conversation so your provider understands your business, your customers, and your goals. After that, the work happens without you needing to be involved. You will receive monthly reports and updates, but your job is to run your business, not to manage your SEO.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Will I own my website and content?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes, and this is worth confirming with any provider before you sign. All content published to your site, all changes made, and the website itself should belong to you. If a provider ever suggests you do not own your own website, walk away.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I am already running ads? Should I stop them?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Not necessarily. If your ads are generating positive returns, keep running them while SEO builds in the background. Over time, as organic rankings improve, you may find you can reduce your ad spend without losing lead volume. Think of the two as running in parallel, with SEO gradually taking over the load as it matures.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I know if my done for you SEO is actually working?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Your monthly reports should show three things clearly: keyword ranking changes (are you moving up for the phrases that matter?), organic traffic trends (is more relevant traffic coming to the site?), and conversion activity (are those visitors turning into enquiries?). If your provider cannot show you all three, ask why.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is done for you SEO worth it for a very small business?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">The question is not your size — it is the lifetime value of your customers. If a single new client is worth £500 or more to your business, and SEO consistently brings in even three to five new clients per month, the maths works in your favour quickly. Many of the businesses that benefit most from local done for you SEO are sole traders and small teams, because they compete against local businesses rather than national brands, and local SEO is genuinely winnable. If you want to see what your website is currently doing, <a href="/">run the free audit here</a>.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by The Catalyst Method</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">We help UK small business owners get consistent enquiries from Google through done for you SEO and lead generation. <a href="/signup">View the plans here</a>, or <a href="/">run the free website audit</a> to see where your site stands today.</p>
+</div>
+`,
+  },
 ]
