@@ -70,7 +70,7 @@ export default function SignupClient() {
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
             The Catalyst Method | SEO and Lead Growth System
           </div>
-          <h1>Done-For-You Lead Generation<br />for <em>UK Small Businesses</em></h1>
+          <h1>Done For You Lead Generation<br />for <em>UK Small Businesses</em></h1>
           <p className="hero-sub">
             You run a serious business. You&apos;ve seen what&apos;s broken on your website.
             You don&apos;t need a long conversation to know the right move.
@@ -196,7 +196,7 @@ export default function SignupClient() {
       </section>
 
       {/* Soft CTA */}
-      <div style={{ textAlign: 'center', padding: '52px 24px 0' }}>
+      <div style={{ textAlign: 'center', padding: '12px 24px 56px' }}>
         <p style={{
           fontSize: '0.93rem', color: 'rgba(255,255,255,0.38)',
           fontFamily: "'Open Sans', sans-serif", marginBottom: '14px',
