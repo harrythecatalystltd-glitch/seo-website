@@ -41,7 +41,7 @@ const schema = {
       url: 'https://www.thecatalystmethod.co.uk',
       logo: { '@type': 'ImageObject', url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' },
       email: 'hey@thecatalystmethod.co.uk',
-      description: 'Lead generation system for UK small businesses using local SEO, targeted content, and website conversion design.',
+      description: 'Lead generation system for UK small businesses built from first-hand experience scaling a local business to over £1M in revenue through local SEO, targeted content, and conversion design.',
       areaServed: { '@type': 'Country', name: 'United Kingdom' },
     },
     {
@@ -462,38 +462,71 @@ export default function AboutPage() {
           border: '1px solid rgba(255,255,255,0.07)',
           borderRadius: '14px',
           padding: '36px 40px',
-          display: 'flex', gap: '24px', alignItems: 'flex-start', flexWrap: 'wrap' as const,
         }}>
-          <div style={{
-            width: '40px', height: '40px',
-            background: 'rgba(255,215,0,0.1)',
-            borderRadius: '9px',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            flexShrink: 0,
+          <p style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: '11px', fontWeight: 700,
+            letterSpacing: '0.18em', textTransform: 'uppercase' as const,
+            color: '#FFD700', marginBottom: '16px',
           }}>
-            <svg width="14" viewBox="0 0 18 30" fill="#FFD700"><path d={BOLT} /></svg>
-          </div>
-          <div style={{ flex: 1, minWidth: '220px' }}>
-            <h3 style={{
-              fontFamily: "'Montserrat', sans-serif",
-              fontSize: '1rem', fontWeight: 800,
-              color: '#FFFFFF', marginBottom: '12px',
-            }}>
-              Built by a North West SEO specialist
-            </h3>
-            <p style={{
-              fontSize: '0.93rem', color: 'rgba(255,255,255,0.6)',
-              lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
-              marginBottom: '10px',
-            }}>
-              The Catalyst Method was developed by a specialist with over 6 years&apos; experience in SEO and local brand building for small businesses across the North West of England.
-            </p>
-            <p style={{
-              fontSize: '0.93rem', color: 'rgba(255,255,255,0.6)',
-              lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
-            }}>
-              Every element of the system has been tested and refined against real results, not theory, not generic playbooks. If it didn&apos;t move the needle for real local businesses, it didn&apos;t make it in.
-            </p>
+            Our Track Record
+          </p>
+          <h3 style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: 'clamp(1.2rem, 2.5vw, 1.6rem)', fontWeight: 900,
+            color: '#FFFFFF', marginBottom: '16px', lineHeight: 1.2,
+            letterSpacing: '-0.02em',
+          }}>
+            Built from first-hand experience scaling a local business to over £1,000,000 in revenue
+          </h3>
+          <p style={{
+            fontSize: '0.93rem', color: 'rgba(255,255,255,0.6)',
+            lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
+            marginBottom: '16px',
+          }}>
+            The Catalyst Method was not invented in a marketing agency. It was built from the ground up inside a real local service business, combining local SEO, targeted content, conversion design, and sales systems to generate consistent, qualified leads at scale.
+          </p>
+          <p style={{
+            fontSize: '0.93rem', color: 'rgba(255,255,255,0.6)',
+            lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
+            marginBottom: '24px',
+          }}>
+            We now apply the same system for UK small businesses. Every element has been tested and refined against real results. If it did not move the needle for real local businesses, it did not make it in.
+          </p>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+            gap: '16px',
+          }}>
+            {[
+              { stat: '£1M+', label: 'Revenue generated for a single local business' },
+              { stat: '+297%', label: 'Organic traffic growth for a local brand in 90 days' },
+              { stat: '100%', label: 'Of clients receive their first lead within 4 weeks' },
+            ].map(({ stat, label }) => (
+              <div key={stat} style={{
+                background: 'rgba(255,215,0,0.05)',
+                border: '1px solid rgba(255,215,0,0.15)',
+                borderRadius: '10px',
+                padding: '20px 16px',
+                textAlign: 'center' as const,
+              }}>
+                <div style={{
+                  fontFamily: "'Montserrat', sans-serif",
+                  fontSize: '1.8rem', fontWeight: 900,
+                  color: '#FFD700', lineHeight: 1,
+                  marginBottom: '8px',
+                }}>
+                  {stat}
+                </div>
+                <div style={{
+                  fontSize: '0.76rem', color: 'rgba(255,255,255,0.5)',
+                  fontFamily: "'Open Sans', sans-serif",
+                  lineHeight: 1.5,
+                }}>
+                  {label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
