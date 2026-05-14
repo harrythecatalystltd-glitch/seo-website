@@ -100,8 +100,9 @@ export default function SignupClient() {
         <div className="pricing-intro">
           <h2>Choose Your Growth Plan</h2>
           <p>
-            Every plan includes a free website build, CRM setup, lead magnet design and email
-            automation. You are set up to convert from day one.
+            Three tiers of done for you SEO UK small businesses can actually use. Every plan includes
+            a free website build, CRM setup, lead magnet design and email automation. You are set up
+            to convert from day one.
           </p>
         </div>
 
