@@ -431,7 +431,7 @@ export default function HomeClient() {
             letterSpacing: '-0.025em', color: '#FFFFFF',
             marginBottom: '18px',
           }}>
-            Why most small business websites<br />don&apos;t generate leads — and how to fix it
+            Why most small business websites<br />don&apos;t generate leads. Here is how to fix it.
           </h2>
           <p style={{
             fontSize: '1rem', color: 'rgba(255,255,255,0.55)',
@@ -447,17 +447,17 @@ export default function HomeClient() {
             {
               eyebrow: 'Website Lead Generation',
               title: 'Turn your website into a lead machine',
-              body: 'Website lead generation for small businesses means your site works around the clock. Every page should pull in local visitors from Google and give them a clear reason to get in touch. Most small business websites do neither — ours are built to do both.',
+              body: 'Website lead generation for small businesses means your site works around the clock. Every page should pull in local visitors from Google and give them a clear reason to get in touch. Most small business websites do neither. Ours are built to do both.',
             },
             {
               eyebrow: 'Local SEO',
               title: 'Rank where your customers are searching',
-              body: 'Local SEO for small businesses gets you in front of people actively searching for your service in your area. The Google Map Pack, local organic results, and AI Overviews — not generic national traffic that never converts into real enquiries.',
+              body: 'Local SEO for small businesses gets you in front of people actively searching for your service in your area. The Google Map Pack, local organic results, and AI Overviews. Not generic national traffic that never converts into real enquiries.',
             },
             {
               eyebrow: 'Done For You SEO',
               title: 'A complete system, fully managed',
-              body: 'Done for you SEO for UK businesses means you get the strategy, the content, the technical fixes, and the monthly reporting — without needing to understand any of it yourself. You run your business. The leads come to you.',
+              body: 'Done for you SEO for UK businesses means you get the strategy, the content, the technical fixes, and the monthly reporting, without needing to understand any of it yourself. You run your business. The leads come to you.',
             },
           ].map(({ eyebrow, title, body }) => (
             <div key={title} style={{
@@ -485,21 +485,36 @@ export default function HomeClient() {
           ))}
         </div>
 
-        <div style={{ textAlign: 'center', marginTop: '36px' }}>
-          <a href="/about" style={{
-            display: 'inline-flex', alignItems: 'center', gap: '6px',
-            color: 'rgba(255,215,0,0.65)',
-            fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
-            fontSize: '0.8rem', letterSpacing: '0.06em', textTransform: 'uppercase',
-            textDecoration: 'none',
+        <div style={{
+          display: 'flex', gap: '14px', justifyContent: 'center',
+          flexWrap: 'wrap', marginTop: '48px',
+        }}>
+          <a href="/" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '8px',
+            background: '#FFD700', color: '#002B45',
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
+            fontSize: '0.85rem', letterSpacing: '0.04em', textTransform: 'uppercase',
+            padding: '14px 28px', borderRadius: '8px', textDecoration: 'none',
           }}>
-            How the system works →
+            <svg width="9" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
+            Get My Free Audit
+          </a>
+          <a href="/contact" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '8px',
+            background: 'transparent',
+            border: '1px solid rgba(255,255,255,0.18)',
+            color: 'rgba(255,255,255,0.65)',
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+            fontSize: '0.85rem', letterSpacing: '0.04em', textTransform: 'uppercase',
+            padding: '14px 28px', borderRadius: '8px', textDecoration: 'none',
+          }}>
+            Ask My Question
           </a>
         </div>
       </section>
 
       {/* ── Blog Posts ───────────────────────────────── */}
-      <section style={{ padding: '72px 24px 96px', maxWidth: '960px', margin: '0 auto' }}>
+      <section style={{ padding: '72px 24px 0', maxWidth: '960px', margin: '0 auto' }}>
         <div style={{
           display: 'flex', justifyContent: 'space-between',
           alignItems: 'flex-end', marginBottom: '32px',
@@ -533,13 +548,13 @@ export default function HomeClient() {
               slug: 'google-business-profile-optimisation-uk',
               category: 'Local SEO',
               title: 'How to Optimise Your Google Business Profile: The 2026 Guide for UK Small Businesses',
-              desc: 'The 7 steps that move you up the Map Pack and win more local enquiries — including how to get Google reviews without breaking the rules.',
+              desc: 'The 7 steps that move you up the Map Pack and win more local enquiries, including how to get Google reviews without breaking the rules.',
               time: '9 min read',
             },
             {
               slug: 'why-website-not-getting-enquiries',
               category: 'Lead Generation',
-              title: '7 Reasons Your Website Isn\'t Getting Enquiries (And Exactly How to Fix Each One)',
+              title: '7 Reasons Your Website Is Not Getting Enquiries (And Exactly How to Fix Each One)',
               desc: 'The 7 most common reasons UK small business websites fail to convert visitors, with a specific fix for each one.',
               time: '9 min read',
             },
@@ -583,6 +598,33 @@ export default function HomeClient() {
               </div>
             </a>
           ))}
+        </div>
+
+        <div style={{
+          display: 'flex', gap: '14px', justifyContent: 'center',
+          flexWrap: 'wrap', marginTop: '48px', paddingBottom: '96px',
+        }}>
+          <a href="/" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '8px',
+            background: '#FFD700', color: '#002B45',
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
+            fontSize: '0.85rem', letterSpacing: '0.04em', textTransform: 'uppercase',
+            padding: '14px 28px', borderRadius: '8px', textDecoration: 'none',
+          }}>
+            <svg width="9" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
+            Get My Free Audit
+          </a>
+          <a href="/contact" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '8px',
+            background: 'transparent',
+            border: '1px solid rgba(255,255,255,0.18)',
+            color: 'rgba(255,255,255,0.65)',
+            fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
+            fontSize: '0.85rem', letterSpacing: '0.04em', textTransform: 'uppercase',
+            padding: '14px 28px', borderRadius: '8px', textDecoration: 'none',
+          }}>
+            Ask My Question
+          </a>
         </div>
       </section>
     </>
