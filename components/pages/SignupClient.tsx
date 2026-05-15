@@ -72,7 +72,7 @@ export default function SignupClient() {
           </div>
           <h1>Done For You Lead Generation<br />for <em>UK Small Businesses</em></h1>
           <p className="hero-sub">
-            You run a serious business. You&apos;ve seen what&apos;s broken on your website.
+            The Catalyst Method is a done for you SEO and lead generation system for UK small businesses.
             You don&apos;t need a long conversation to know the right move.
             You need a system that brings in consistent leads while you focus on doing the work.
           </p>

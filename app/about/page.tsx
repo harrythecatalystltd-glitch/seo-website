@@ -3,14 +3,14 @@ import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 
 export const metadata: Metadata = {
-  title: 'What Is The Catalyst Method? | Local SEO & Lead Generation System',
+  title: 'Local SEO and Lead Generation for UK Small Businesses | The Catalyst Method',
   description: 'Lead generation for UK small businesses: local SEO, targeted content and website conversion design working together to deliver a consistent flow of enquiries.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/about' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/about',
-    title: 'What Is The Catalyst Method? | Local SEO & Lead Generation System',
+    title: 'Local SEO and Lead Generation for UK Small Businesses | The Catalyst Method',
     description: 'A proven local SEO and lead generation system that turns your small business website into a consistent source of high-quality enquiries.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
@@ -120,7 +120,7 @@ export default function AboutPage() {
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
             The Catalyst Method | About
           </div>
-          <h1>What Is The <em>Catalyst Method?</em></h1>
+          <h1>Local SEO and Lead Generation<br />for <em>UK Small Businesses</em></h1>
           <p style={{
             fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
             color: 'rgba(255,255,255,0.72)',
@@ -129,7 +129,7 @@ export default function AboutPage() {
             margin: '0 auto 36px',
             fontFamily: "'Open Sans', sans-serif",
           }}>
-            A lead generation system that turns your website into your best salesperson, attracting local customers from Google and converting them into real, high-quality enquiries.
+            The Catalyst Method is a local SEO and lead generation system that turns your website into your best salesperson, attracting local customers from Google and converting them into real, high-quality enquiries.
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/" style={{

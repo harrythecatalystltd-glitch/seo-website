@@ -205,8 +205,7 @@ export default function HomeClient() {
 
             <h1>Free Lead Generation Audit<br />for <em>UK Local Businesses</em></h1>
             <p className="subtitle">
-              Enter your web address below. We&apos;ll scan your site in seconds and show you exactly
-              what&apos;s working, what&apos;s broken, and what it&apos;s costing you.
+              Free lead generation audit for UK local businesses. Enter your web address below — we&apos;ll scan your site in seconds and show you exactly what&apos;s working, what&apos;s broken, and what it&apos;s costing you.
             </p>
 
             {heroState === 'input' && (
