@@ -53,7 +53,7 @@ async function getArticle(slug: string): Promise<Article | null> {
     const client = new BlogClient(process.env.SEOBOT_API_KEY || '')
     const raw = await client.getArticle(slug)
     if (!raw) return null
-    const r = raw as Record<string, unknown>
+    const r = raw as unknown as Record<string, unknown>
     return {
       ...raw,
       description: (r.metaDescription as string) || (r.description as string) || undefined,
