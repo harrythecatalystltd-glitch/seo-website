@@ -15,12 +15,50 @@ type Article = {
   tags?: Array<{ title: string; slug: string }>;
 }
 
+function removeBlockContaining(html: string, searchText: string): string {
+  const idx = html.toLowerCase().indexOf(searchText.toLowerCase())
+  if (idx === -1) return html
+  let depth = 0
+  let blockStart = 0
+  for (let i = idx; i >= 0; i--) {
+    if (html.slice(i, i + 6) === '</div>') { depth++ }
+    else if (html.slice(i, i + 4) === '<div') {
+      if (depth === 0) { blockStart = i; break }
+      depth--
+    }
+  }
+  depth = 0
+  let blockEnd = html.length
+  for (let i = blockStart; i < html.length; i++) {
+    if (html.slice(i, i + 4) === '<div') { depth++ }
+    else if (html.slice(i, i + 6) === '</div>') {
+      depth--
+      if (depth === 0) { blockEnd = i + 6; break }
+    }
+  }
+  return html.slice(0, blockStart) + html.slice(blockEnd)
+}
+
+function stripOldCtas(html: string): string {
+  let cleaned = html
+  for (const sig of ['Skool group', 'Launch your own PT Academy', 'PT/SMT Academy']) {
+    cleaned = removeBlockContaining(cleaned, sig)
+  }
+  return cleaned
+}
+
 async function getArticle(slug: string): Promise<Article | null> {
   try {
     const { BlogClient } = await import('seobot')
     const client = new BlogClient(process.env.SEOBOT_API_KEY || '')
-    const article = await client.getArticle(slug)
-    return article as Article | null
+    const raw = await client.getArticle(slug)
+    if (!raw) return null
+    const r = raw as Record<string, unknown>
+    return {
+      ...raw,
+      description: (r.metaDescription as string) || (r.description as string) || undefined,
+      html: raw.html ? stripOldCtas(raw.html) : raw.html,
+    } as Article
   } catch {
     return null
   }
@@ -52,24 +90,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const article = await resolveArticle(slug)
   if (!article) return { title: 'Article Not Found | The Catalyst Method' }
 
+  const title = article.title || 'The Catalyst Method Blog'
+  const description = article.description || undefined
+  const imageUrl = article.image ? `https://www.thecatalystmethod.co.uk${article.image}` : 'https://www.thecatalystmethod.co.uk/mainlogo.png'
+
   return {
-    title: `${article.title} | The Catalyst Method`,
-    description: article.description,
+    title: `${title} | The Catalyst Method`,
+    description,
     alternates: { canonical: `https://www.thecatalystmethod.co.uk/blog/${slug}` },
     robots: { index: true, follow: true },
     openGraph: {
       type: 'article',
       url: `https://www.thecatalystmethod.co.uk/blog/${slug}`,
-      title: article.title,
-      description: article.description,
-      images: article.image ? [{ url: `https://www.thecatalystmethod.co.uk${article.image}` }] : [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
+      title,
+      description,
+      images: [{ url: imageUrl }],
       siteName: 'The Catalyst Method',
     },
     twitter: {
       card: 'summary_large_image',
-      title: article.title,
-      description: article.description,
-      images: article.image ? [`https://www.thecatalystmethod.co.uk${article.image}`] : ['https://www.thecatalystmethod.co.uk/mainlogo.png'],
+      title,
+      description,
+      images: [imageUrl],
     },
   }
 }
@@ -155,11 +197,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           }}>
             <div style={{
               fontFamily: "'Montserrat', sans-serif",
-              fontSize: '1.15rem',
-              fontWeight: 900,
-              color: '#fff',
-              letterSpacing: '-0.02em',
-              marginBottom: '10px',
+              fontSize: '1.15rem', fontWeight: 900,
+              color: '#fff', letterSpacing: '-0.02em', marginBottom: '10px',
             }}>
               See exactly what&apos;s holding your website back
             </div>
