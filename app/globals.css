@@ -42,7 +42,7 @@ body {
   text-align: center;
 }
 
-.hero-home    { padding: 80px 24px 88px; }
+.hero-home    { padding: 80px 24px 48px; }
 .hero-signup  { padding: 120px 24px 90px; background-image: radial-gradient(ellipse at 50% -10%, #005585 0%, #0b1f3a 65%); }
 .hero-blog    { padding: 112px 24px 80px; }
 .hero-contact { padding: 112px 24px 72px; }
