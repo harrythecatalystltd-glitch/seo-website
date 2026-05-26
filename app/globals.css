@@ -579,8 +579,9 @@ h1 em {
 .findings-group { margin-bottom: 36px; }
 
 .more-hint {
-  text-align: center; font-size: 0.83rem;
-  color: rgba(255,255,255,0.48); padding: 8px 0 40px; line-height: 1.75;
+  text-align: center; font-size: 0.85rem;
+  color: rgba(255,255,255,0.72); padding: 8px 0 40px; line-height: 1.75;
+  font-weight: 600;
 }
 
 /* Email CTA (index results) */

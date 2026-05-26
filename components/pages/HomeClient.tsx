@@ -330,8 +330,8 @@ export default function HomeClient() {
                 if (hidden > 0) parts.push(`${hidden} more issue${hidden > 1 ? 's' : ''}`)
                 if (good > 0) parts.push(`${good} thing${good > 1 ? 's' : ''} already working in your favour`)
                 return parts.length > 0
-                  ? `Your full 16-point report includes ${parts.join(' and ')} — plus a simple action plan to fix every issue quickly.`
-                  : 'Get your full 16-point report with a simple action plan to fix every issue quickly.'
+                  ? `Your full 16 point report includes ${parts.join(' and ')} — plus a simple action plan to fix every issue quickly.`
+                  : 'Get your full 16 point report with a simple action plan to fix every issue quickly.'
               })()}
             </p>
 
@@ -339,7 +339,7 @@ export default function HomeClient() {
               <svg className="cta-bolt-l" viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
               <svg className="cta-bolt-r" viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
               <div className="email-cta-inner">
-                <h3>Get Your Full 16-Point Report + Action Plan</h3>
+                <h3>Get Your Full 16 Point Report + Action Plan</h3>
                 <p>
                   We&apos;ll email you the complete 16-point breakdown and a simple step-by-step action plan
                   so you can fix every issue quickly — plain English, no jargon.
