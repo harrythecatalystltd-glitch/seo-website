@@ -75,6 +75,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly',
       priority: 0.4,
     },
+    {
+      url: `${BASE_URL}/wrise-alternative`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ]
 
   const seobotRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
