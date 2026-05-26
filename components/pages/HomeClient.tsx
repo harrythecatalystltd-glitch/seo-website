@@ -1,6 +1,5 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
-import SiteNav from '@/components/SiteNav'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
@@ -187,7 +186,6 @@ export default function HomeClient() {
     <>
       {/* Hero */}
       <section className="hero hero-home">
-        <SiteNav />
         <div className="bolts-bg" aria-hidden="true">
           {[1,2,3,4,5,6,7,8].map(n => (
             <svg key={n} className={`bolt b${n}`} viewBox="0 0 18 30">
@@ -210,23 +208,6 @@ export default function HomeClient() {
 
             {heroState === 'input' && (
               <>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 18 }}>
-                  <span style={{
-                    color: '#FFD700',
-                    fontFamily: "'Montserrat', sans-serif",
-                    fontSize: '1.25rem',
-                    fontWeight: 800,
-                    letterSpacing: '-0.01em',
-                    transition: 'transform 0.15s ease, opacity 0.15s ease',
-                    ...(counterBump ? { transform: 'scale(1.25)', opacity: 0.7 } : {}),
-                  }}>
-                    {auditCount.toLocaleString('en-GB')}
-                  </span>
-                  <span style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.48)' }}>
-                    businesses have had a free audit
-                  </span>
-                </div>
-
                 <div id="state-input">
                   <input
                     type="text"
@@ -239,13 +220,17 @@ export default function HomeClient() {
                     onKeyDown={e => { if (e.key === 'Enter') startScan() }}
                   />
                   <button type="button" className="scan-btn" onClick={startScan}>
-                    Scan My Website Free
+                    Scan My Website Free →
                   </button>
                 </div>
                 <div className="input-meta">
-                  <span className="input-meta-item">Free. No sign-up needed</span>
+                  <span className="input-meta-item" style={counterBump ? { color: '#FFD700' } : {}}>
+                    {auditCount.toLocaleString('en-GB')} free audits
+                  </span>
+                  <span className="input-meta-item">No sign-up needed</span>
                   <span className="input-meta-item">Results in 10 seconds</span>
-                  <span className="input-meta-item">16 checks run instantly</span>
+                  <span className="input-meta-item">+297% traffic growth</span>
+                  <span className="input-meta-item">£1M+ revenue driven</span>
                 </div>
               </>
             )}
@@ -274,41 +259,6 @@ export default function HomeClient() {
           </div>
         </div>
       </section>
-
-      {/* Proof strip */}
-      <div style={{
-        background: 'rgba(255,255,255,0.025)',
-        borderTop: '1px solid rgba(255,255,255,0.06)',
-        borderBottom: '1px solid rgba(255,255,255,0.06)',
-        padding: '36px 24px',
-      }}>
-        <div style={{
-          maxWidth: '900px', margin: '0 auto',
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-          gap: '28px', textAlign: 'center', alignItems: 'center',
-        }}>
-          <div>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '2.2rem', fontWeight: 900, color: '#FFD700', lineHeight: 1 }}>+297%</div>
-            <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.42)', marginTop: '6px', fontFamily: "'Open Sans', sans-serif" }}>website traffic · Creation Coffee · 90 days · zero paid ads</div>
-          </div>
-          <div>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '2.2rem', fontWeight: 900, color: '#FFD700', lineHeight: 1 }}>£1M+</div>
-            <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.42)', marginTop: '6px', fontFamily: "'Open Sans', sans-serif" }}>revenue generated for a UK local service business · organic SEO only</div>
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <a href="/signup" style={{
-              display: 'inline-flex', alignItems: 'center', gap: '8px',
-              background: 'transparent', border: '1px solid rgba(255,215,0,0.3)',
-              color: 'rgba(255,215,0,0.75)',
-              fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
-              fontSize: '0.78rem', letterSpacing: '0.06em', textTransform: 'uppercase',
-              padding: '11px 18px', borderRadius: '8px', textDecoration: 'none',
-            }}>
-              View Case Studies →
-            </a>
-          </div>
-        </div>
-      </div>
 
       {/* Results */}
       {scanResult && (
