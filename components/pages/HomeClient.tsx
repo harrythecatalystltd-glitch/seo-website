@@ -201,13 +201,27 @@ export default function HomeClient() {
               The Catalyst Method | Free Audit
             </div>
 
-            <h1>Free Lead Generation Audit<br />for <em>UK Local Businesses</em></h1>
-            <p className="subtitle">
-              Free lead generation audit for UK local businesses. Enter your web address below. We&apos;ll scan your site in seconds and show you exactly what&apos;s working, what&apos;s broken, and what it&apos;s costing you.
-            </p>
+            <h1>Your website is losing you<br />leads <em>every day.</em></h1>
+            <p className="subtitle">Find out exactly why your UK business isn&apos;t getting leads. Free. 60 seconds.</p>
 
             {heroState === 'input' && (
               <>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 18 }}>
+                  <span style={{
+                    color: '#FFD700',
+                    fontFamily: "'Montserrat', sans-serif",
+                    fontSize: '1.15rem',
+                    fontWeight: 800,
+                    letterSpacing: '-0.01em',
+                    transition: 'transform 0.15s ease, opacity 0.15s ease',
+                    ...(counterBump ? { transform: 'scale(1.25)', opacity: 0.7 } : {}),
+                  }}>
+                    {auditCount.toLocaleString('en-GB')}
+                  </span>
+                  <span style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.48)' }}>
+                    businesses have had a free audit
+                  </span>
+                </div>
                 <div id="state-input">
                   <input
                     type="text"
@@ -224,9 +238,6 @@ export default function HomeClient() {
                   </button>
                 </div>
                 <div className="input-meta">
-                  <span className="input-meta-item" style={counterBump ? { color: '#FFD700' } : {}}>
-                    {auditCount.toLocaleString('en-GB')} free audits
-                  </span>
                   <span className="input-meta-item">No sign-up needed</span>
                   <span className="input-meta-item">Results in 10 seconds</span>
                   <span className="input-meta-item">+297% traffic growth</span>
