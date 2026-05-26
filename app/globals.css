@@ -1421,11 +1421,18 @@ h1 em {
 }
 
 @media (max-width: 520px) {
-  .hero-home   { padding: 56px 20px 56px; }
+  .hero-home   { padding: 56px 20px 32px; }
   .hero-blog   { padding: 88px 20px 60px; }
   .site-nav { padding: 12px 16px; }
   .site-nav img { width: 76px; }
+
+  /* Hide most bolts on mobile, keep 4 small corner ones that stay outside text */
   .bolt { display: none; }
+  .hero-home .b2 { display: block; width: 14px; height: 23px; top: 10%; left: 3%; }
+  .hero-home .b3 { display: block; width: 22px; height: 37px; top: 5%;  right: 3%; }
+  .hero-home .b6 { display: block; width: 16px; height: 27px; bottom: 10%; left: 3%; top: auto; }
+  .hero-home .b7 { display: block; width: 12px; height: 20px; bottom: 14%; right: 3%; top: auto; }
+
   h1 { font-size: 2rem; }
   .scan-btn { padding: 18px; }
   .email-row { flex-direction: column; }
