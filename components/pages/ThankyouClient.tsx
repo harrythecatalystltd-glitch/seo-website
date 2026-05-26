@@ -18,9 +18,9 @@ type ScanData = {
 
 // Commercial reframes — one line each
 const REVENUE_IMPACT: Record<string, string> = {
-  page_speed:         'Slow pages lose 5–8 leads a month. Most visitors leave before the page loads.',
+  page_speed:         'Slow pages lose 5 to 8 leads a month. Most visitors leave before the page loads.',
   mobile_friendly:    'Over half of all local searches happen on phones. A site that breaks on mobile loses those enquiries.',
-  https:              'The "Not Secure" warning sends visitors straight back to Google — competitors with HTTPS win those leads.',
+  https:              'The "Not Secure" warning sends visitors straight back to Google. Competitors with HTTPS win those leads.',
   title_tag:          "Without a proper title tag Google doesn't know what you offer. You're invisible for searches your customers are making.",
   meta_description:   "No meta description means no compelling reason to click your result. Fewer clicks = fewer leads.",
   h1_tag:             "Without a clear headline Google can't rank you for the right searches. You're missing customers who are actively looking.",
@@ -28,7 +28,7 @@ const REVENUE_IMPACT: Record<string, string> = {
   image_alt:          "Untagged images are invisible to search engines. You're missing ranking opportunities your competitors are capturing.",
   tap_to_call:        "If a mobile visitor can't tap to call, most won't. They'll find a competitor who makes it easy.",
   phone_above_fold:   'A phone number buried below the fold means most visitors leave without ever contacting you.',
-  cta_button:         'No clear call to action = no next step = visitors leave. You could be losing 6–10 leads a month to this alone.',
+  cta_button:         'No clear call to action = no next step = visitors leave. You could be losing 6 to 10 leads a month to this alone.',
   contact_form:       'Without a form, anyone who visits outside business hours has no way to enquire. Those leads go elsewhere.',
   nap:                'Inconsistent business details confuse Google. You rank lower in local results than competitors with consistent listings.',
   social_proof:       '90% of people check reviews before choosing a local business. No visible proof loses those decisions.',
@@ -253,7 +253,7 @@ export default function ThankyouClient() {
         {urgent.length > 0 && (
           <IssueGroup items={urgent} severity="urgent" icon="!"
             title="Address Soon"
-            desc="These gaps are hurting your results — fix them after the critical issues."
+            desc="These gaps are hurting your results. Fix them after the critical issues."
             startOpen={false}
           />
         )}
@@ -270,6 +270,25 @@ export default function ThankyouClient() {
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.8, margin: 0 }}>
             90% of local business websites have these same problems. They were built to look good, not rank. The result is a site that costs you money every month it stays broken.
           </p>
+        </div>
+
+        {/* Case studies */}
+        <div style={{ marginBottom: 48 }}>
+          <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.38)', marginBottom: 14 }}>See it in action</div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
+            <a href="/case-study-creation-coffee.html" style={{ display: 'block', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 14, padding: '22px 20px', textDecoration: 'none', transition: 'border-color 0.2s' }}>
+              <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.68rem', fontWeight: 800, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#FFD700', marginBottom: 8 }}>Case Study</div>
+              <div style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 900, fontSize: '0.95rem', color: '#fff', marginBottom: 8, lineHeight: 1.3 }}>Creation Coffee</div>
+              <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.45)', lineHeight: 1.5, marginBottom: 12 }}>+297% traffic in 90 days. Zero paid ads.</div>
+              <span style={{ fontSize: '0.78rem', color: '#FFD700', fontWeight: 700 }}>Read the story →</span>
+            </a>
+            <a href="/case-study-fitness-coach-chronicle.html" style={{ display: 'block', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 14, padding: '22px 20px', textDecoration: 'none', transition: 'border-color 0.2s' }}>
+              <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.68rem', fontWeight: 800, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#FFD700', marginBottom: 8 }}>Case Study</div>
+              <div style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 900, fontSize: '0.95rem', color: '#fff', marginBottom: 8, lineHeight: 1.3 }}>Fitness Coach</div>
+              <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.45)', lineHeight: 1.5, marginBottom: 12 }}>From invisible to fully booked with organic search.</div>
+              <span style={{ fontSize: '0.78rem', color: '#FFD700', fontWeight: 700 }}>Read the story →</span>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -294,9 +313,9 @@ export default function ThankyouClient() {
           <svg style={{ position: 'absolute', fill: '#FFD700', opacity: 0.055, width: 56, height: 93, bottom: -12, right: 26, transform: 'rotate(13deg)', pointerEvents: 'none' }} viewBox="0 0 18 30"><path d={BOLT} /></svg>
 
           <div style={{ position: 'relative', zIndex: 1 }}>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.68rem', fontWeight: 800, letterSpacing: '0.16em', textTransform: 'uppercase', color: '#FFD700', marginBottom: 6 }}>Done-For-You SEO</div>
+            <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.68rem', fontWeight: 800, letterSpacing: '0.16em', textTransform: 'uppercase', color: '#FFD700', marginBottom: 6 }}>Done For You SEO</div>
             <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: 'clamp(1.3rem, 3vw, 1.75rem)', fontWeight: 900, color: '#fff', letterSpacing: '-0.025em', marginBottom: 6 }}>We fix it for you.</div>
-            <div style={{ fontSize: '0.83rem', color: 'rgba(255,255,255,0.45)', marginBottom: 28, lineHeight: 1.6 }}>Everything identified in your audit — handled. No calls, no stress, no learning curve.</div>
+            <div style={{ fontSize: '0.83rem', color: 'rgba(255,255,255,0.45)', marginBottom: 28, lineHeight: 1.6 }}>Everything identified in your audit. Handled. No calls, no stress, no learning curve.</div>
 
             <div style={{ marginBottom: 28 }}>
               <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '2.8rem', fontWeight: 900, color: '#fff', letterSpacing: '-0.04em', lineHeight: 1 }}>£500</span>
@@ -308,9 +327,9 @@ export default function ThankyouClient() {
             <ul style={{ listStyle: 'none', marginBottom: 32, padding: 0 }}>
               {[
                 'We take over your Google Business profile and get you showing up in local map results',
-                'Every issue in your audit gets fixed — technical, content, and conversion',
+                'Every issue in your audit gets fixed. Technical, content, and conversion.',
                 'We write content that ranks for the searches your customers are actually making',
-                'Monthly plain-English report: your rankings, traffic, and enquiries',
+                'Monthly plain English report: your rankings, traffic, and enquiries',
                 'Your site gets optimised to turn more of your existing visitors into leads',
               ].map((f, i, arr) => (
                 <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 12, padding: '10px 0', fontSize: '0.88rem', color: 'rgba(255,255,255,0.82)', lineHeight: 1.5, borderBottom: i < arr.length - 1 ? '1px solid rgba(255,215,0,0.1)' : 'none' }}>
@@ -324,8 +343,24 @@ export default function ThankyouClient() {
               ))}
             </ul>
 
+            <div style={{ background: 'rgba(255,215,0,0.08)', border: '1px solid rgba(255,215,0,0.22)', borderRadius: 12, padding: '20px 22px', marginBottom: 28 }}>
+              <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.68rem', fontWeight: 800, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#FFD700', marginBottom: 14 }}>3 Free Bonuses Included</div>
+              {[
+                'Brand new 200 page website built for you',
+                'Lead magnet built for your business',
+                'CRM with email automation set up and ready',
+              ].map((b, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, padding: '8px 0', fontSize: '0.86rem', color: '#fff', fontWeight: 700, lineHeight: 1.5, borderBottom: i < 2 ? '1px solid rgba(255,215,0,0.12)' : 'none' }}>
+                  <svg width="14" height="14" fill="none" stroke="#FFD700" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 12 12" style={{ flexShrink: 0, marginTop: 2 }}>
+                    <polyline points="2,6 5,9 10,3" />
+                  </svg>
+                  {b}
+                </div>
+              ))}
+            </div>
+
             <Link
-              href="/contact"
+              href="https://buy.stripe.com/00w9AW1rAfWIamy7cF5wI00"
               style={{ display: 'block', textAlign: 'center', background: '#FFD700', color: '#002B45', borderRadius: 12, padding: '18px 24px', fontFamily: "'Montserrat', sans-serif", fontSize: '1.05rem', fontWeight: 900, textDecoration: 'none', letterSpacing: '0.01em', boxShadow: '0 6px 28px rgba(255,215,0,0.42)' }}
             >
               Fix this for me
@@ -347,10 +382,10 @@ export default function ThankyouClient() {
         <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 16, padding: '36px 32px' }}>
           <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.38)', marginBottom: 12 }}>Rather do it yourself?</div>
           <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: 'clamp(1.05rem, 2.5vw, 1.35rem)', fontWeight: 900, color: '#fff', letterSpacing: '-0.02em', marginBottom: 12 }}>
-            Here&apos;s every tool we use — packaged for you.
+            Here&apos;s every tool we use, packaged for you.
           </div>
           <p style={{ fontSize: '0.88rem', color: 'rgba(255,255,255,0.52)', lineHeight: 1.78, marginBottom: 24 }}>
-            Want to fix it yourself first? Here&apos;s every tool we use internally, packaged so you can run them yourself. Same system, your hands. £97 one-time, keep forever.
+            Want to fix it yourself first? Here&apos;s every tool we use internally, packaged so you can run them yourself. Same system, your hands. £97 one time, keep forever.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginBottom: 28 }}>
             {['Marketing Pack', 'Sales Pack', 'Business Growth Pack', 'Personal Assistant Pack'].map(p => (
@@ -365,9 +400,9 @@ export default function ThankyouClient() {
               href="/contact?ref=toolkit"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.09)', border: '1.5px solid rgba(255,255,255,0.2)', color: '#fff', borderRadius: 10, padding: '13px 22px', fontFamily: "'Montserrat', sans-serif", fontSize: '0.9rem', fontWeight: 800, textDecoration: 'none', letterSpacing: '0.01em' }}
             >
-              Get the toolkit — £97
+              Get the toolkit £97
             </Link>
-            <span style={{ fontSize: '0.77rem', color: 'rgba(255,255,255,0.28)' }}>One-time. Keep forever.</span>
+            <span style={{ fontSize: '0.77rem', color: 'rgba(255,255,255,0.28)' }}>One time. Keep forever.</span>
           </div>
         </div>
       </div>
@@ -380,7 +415,7 @@ export default function ThankyouClient() {
             What happens when these issues get fixed
           </div>
           <p style={{ fontSize: '0.83rem', color: 'rgba(255,255,255,0.42)', maxWidth: 380, margin: '0 auto' }}>
-            Creation Coffee — local brand, zero paid ads, 90 days.
+            Creation Coffee, local brand, zero paid ads, 90 days.
           </p>
         </div>
 
@@ -401,7 +436,7 @@ export default function ThankyouClient() {
         {/* Guarantee repeat */}
         <div style={{ textAlign: 'center', padding: '20px 24px', background: 'rgba(110,231,183,0.06)', border: '1px solid rgba(110,231,183,0.18)', borderRadius: 12 }}>
           <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, color: '#6EE7B7', fontSize: '0.9rem', margin: 0, lineHeight: 1.6 }}>
-            New leads within 4 weeks or your money back — no questions, no conditions.
+            New leads within 4 weeks or your money back. No questions, no conditions.
           </p>
         </div>
       </div>
@@ -415,7 +450,7 @@ export default function ThankyouClient() {
         <div style={{ border: '1.5px solid rgba(255,255,255,0.1)', borderRadius: 16, padding: '0 28px' }}>
           <FaqItem
             q="How long does it take to see results?"
-            a="You'll typically see your first new rankings within 2–4 weeks. Most clients report new enquiries within the first month. We build this into our guarantee — new leads within 4 weeks or your money back."
+            a="You'll typically see your first new rankings within 2 to 4 weeks. Most clients report new enquiries within the first month. We build this into our guarantee. New leads within 4 weeks or your money back."
           />
           <FaqItem
             q="Do I need to do anything myself?"
