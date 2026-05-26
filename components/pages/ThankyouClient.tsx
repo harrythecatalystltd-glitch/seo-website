@@ -16,7 +16,7 @@ type ScanData = {
   scannedAt?: string; email?: string;
 }
 
-// Commercial reframes — one line each
+// Commercial reframes - one line each
 const REVENUE_IMPACT: Record<string, string> = {
   page_speed:         'Slow pages lose 5 to 8 leads a month. Most visitors leave before the page loads.',
   mobile_friendly:    'Over half of all local searches happen on phones. A site that breaks on mobile loses those enquiries.',
@@ -260,7 +260,7 @@ export default function ThankyouClient() {
         {good.length > 0 && (
           <IssueGroup items={good} severity="good" icon="✓"
             title="Already Working"
-            desc="These elements are in good shape — keep them and build on them."
+            desc="These elements are in good shape. Keep them and build on them."
             startOpen={false}
           />
         )}
@@ -454,7 +454,7 @@ export default function ThankyouClient() {
           />
           <FaqItem
             q="Do I need to do anything myself?"
-            a="No. Once you're set up you don't need to do anything. We handle everything — your Google profile, your content, your site. You run your business, we handle the growth."
+            a="No. Once you're set up you don't need to do anything. We handle everything: your Google profile, your content, your site. You run your business, we handle the growth."
           />
           <FaqItem
             q="What if it doesn't work?"

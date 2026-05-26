@@ -185,7 +185,7 @@ const SECTIONS = [
     id: 'guarantee',
     title: '11. Leads Guarantee',
     content: [
-      'We guarantee that every new Client will receive at least one new lead within the first 4 weeks of their plan starting. For the purposes of this guarantee, a "lead" means a genuine enquiry from a prospective customer — for example, a contact form submission, a phone call, a direct message, or an email — that originates from the work we have carried out.',
+      'We guarantee that every new Client will receive at least one new lead within the first 4 weeks of their plan starting. For the purposes of this guarantee, a "lead" means a genuine enquiry from a prospective customer (for example, a contact form submission, a phone call, a direct message, or an email) that originates from the work we have carried out.',
       'If no such lead is received within the first 4 weeks, you are entitled to a full refund of your first payment. To claim this refund, you must notify us in writing at hey@thecatalystmethod.co.uk within 7 days of the end of the 4-week period.',
       'This guarantee applies to new Clients on their first billing cycle only. It does not apply to renewals or to Clients who have previously subscribed.',
       'The guarantee is void if the Client has not provided us with the access, information, or approvals we have reasonably requested within the first 2 weeks of the plan starting, or if the Client has materially changed their target service area, offering, or website without our involvement during the guarantee period.',

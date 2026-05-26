@@ -105,7 +105,7 @@ export default function ContactClient() {
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
               </div>
-              <h2>Message sent — we&apos;ll be in touch soon</h2>
+              <h2>Message sent. We&apos;ll be in touch soon</h2>
               <p>We&apos;ve received your enquiry and will get back to you within one business day.</p>
               <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const, marginTop: 28 }}>
                 <Link href="/" className="contact-back-btn contact-back-btn-gold">
@@ -202,7 +202,7 @@ export default function ContactClient() {
                     <><svg viewBox="0 0 18 30" width="11"><path fill="currentColor" d={BOLT} /></svg>Send My Message</>
                   )}
                 </button>
-                <p className="contact-privacy">We&apos;ll never share your details. One reply — no spam.</p>
+                <p className="contact-privacy">We&apos;ll never share your details. One reply, no spam.</p>
               </form>
             </>
           )}

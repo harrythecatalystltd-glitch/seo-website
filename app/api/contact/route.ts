@@ -40,7 +40,7 @@ export async function POST(request: Request) {
         companyName: business || undefined,
         locationId,
         tags: ['contact-form'],
-        source: 'Contact Form — thecatalystmethod.co.uk',
+        source: 'Contact Form - thecatalystmethod.co.uk',
         customFields: [
           { key: 'contact_message', field_value: message },
         ],

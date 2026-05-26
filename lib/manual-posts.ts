@@ -568,7 +568,7 @@ export const manualPosts: ManualPost[] = [
 
 <h3 id="check-11">Check 11: Your NAP Details Are Identical Across Every Directory <span style="font-size:0.7rem;font-weight:700;background:rgba(255,215,0,0.12);color:#FFD700;border:1px solid rgba(255,215,0,0.3);border-radius:20px;padding:3px 10px;margin-left:8px;vertical-align:middle;">One-off, then annually</span></h3>
 
-<p>NAP stands for name, address, and phone number. These three details must be identical across every platform your business appears on. Not similar. Identical. "Ltd" and "Limited," "Street" and "St," two different phone number formats — all of these count as inconsistencies. Research shows a business with 50 accurate, consistent citations typically outranks competitors with 200 scattered listings containing errors.</p>
+<p>NAP stands for name, address, and phone number. These three details must be identical across every platform your business appears on. Not similar. Identical. "Ltd" and "Limited," "Street" and "St," two different phone number formats. All of these count as inconsistencies. Research shows a business with 50 accurate, consistent citations typically outranks competitors with 200 scattered listings containing errors.</p>
 
 <p>Check your listing on each of these platforms and correct any discrepancies: Google Business Profile, Bing Places, Apple Maps, Yell, Thomson Local, Facebook, and your own website footer. This is a one-off task but worth repeating annually, especially if you have moved premises or changed your phone number.</p>
 
@@ -584,7 +584,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does local SEO take to work?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Google Business Profile improvements can show results within 2 to 4 weeks. On-page website changes typically take 2 to 3 months to appear in rankings. Citation building and backlink acquisition usually take 3 to 6 months to produce visible ranking movement. The checks that need doing monthly, like photos, posts, and review requests, compound over time — the businesses that show up most consistently are the ones that have been doing these small tasks for 6 months or more.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Google Business Profile improvements can show results within 2 to 4 weeks. On-page website changes typically take 2 to 3 months to appear in rankings. Citation building and backlink acquisition usually take 3 to 6 months to produce visible ranking movement. The checks that need doing monthly, like photos, posts, and review requests, compound over time. The businesses that show up most consistently are the ones that have been doing these small tasks for 6 months or more.</p>
   </div>
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
@@ -1091,7 +1091,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>The second is consistency. SEO is not a one-off task. It requires fresh content, regular updates, ongoing link building, and continual monitoring of how rankings are moving. A business owner who publishes two blog posts and then stops will see no meaningful results.</p>
 
-<p>The third is expertise. The fundamentals of SEO can be learned from YouTube in a weekend. But the nuance of keyword selection, the difference between a penalty and a ranking drop, the technical SEO work behind a crawl issue, knowing which backlinks help and which hurt — these take experience that only comes from working across many sites over time.</p>
+<p>The third is expertise. The fundamentals of SEO can be learned from YouTube in a weekend. But the nuance of keyword selection, the difference between a penalty and a ranking drop, the technical SEO work behind a crawl issue, knowing which backlinks help and which hurt. These take experience that only comes from working across many sites over time.</p>
 
 <p>Done for you SEO removes all three problems. You get a consistent, expert-led operation running in the background without you needing to think about it.</p>
 
@@ -1099,7 +1099,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>There is an important distinction between done for you SEO and the traditional agency or freelancer model.</p>
 
-<p>A traditional SEO agency typically sells you a retainer that covers a set number of hours per month. Those hours are split across strategy, reporting, and some implementation. Often what you get back is a document of recommendations — things you or your web developer then need to action. If you do not have a developer, those recommendations sit gathering dust.</p>
+<p>A traditional SEO agency typically sells you a retainer that covers a set number of hours per month. Those hours are split across strategy, reporting, and some implementation. Often what you get back is a document of recommendations. Things you or your web developer then need to action. If you do not have a developer, those recommendations sit gathering dust.</p>
 
 <p>A freelancer can be more hands-on, but their capacity is limited, their availability can be inconsistent, and a single person rarely has the full skillset to cover technical SEO, content, outreach, and strategy simultaneously.</p>
 
@@ -1132,7 +1132,7 @@ export const manualPosts: ManualPost[] = [
 <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:40px 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">Questions to ask any done for you SEO provider</p>
   <ul style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.82);line-height:1.85;">
-    <li style="margin-bottom:8px;">Who actually writes the content — is it AI generated or written by a human with industry knowledge?</li>
+    <li style="margin-bottom:8px;">Who actually writes the content? Is it AI generated or written by a human with industry knowledge?</li>
     <li style="margin-bottom:8px;">How many pieces of content do I get per month and how long are they?</li>
     <li style="margin-bottom:8px;">Do you implement changes on my website or just recommend them?</li>
     <li style="margin-bottom:8px;">How do you build backlinks and can you show me examples?</li>
@@ -1171,7 +1171,7 @@ export const manualPosts: ManualPost[] = [
     <tbody>
       <tr style="border-bottom:1px solid rgba(255,255,255,0.07);">
         <td style="padding:14px 16px;color:#fff;font-weight:700;white-space:nowrap;">Month 1</td>
-        <td style="padding:14px 16px;">Audit, technical fixes, keyword research, on-page changes, GBP optimisation. The groundwork is laid. No visible ranking movement yet — this is normal.</td>
+        <td style="padding:14px 16px;">Audit, technical fixes, keyword research, on-page changes, GBP optimisation. The groundwork is laid. No visible ranking movement yet. This is normal.</td>
       </tr>
       <tr style="border-bottom:1px solid rgba(255,255,255,0.07);">
         <td style="padding:14px 16px;color:#fff;font-weight:700;white-space:nowrap;">Months 2 to 3</td>
@@ -1242,7 +1242,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="padding:22px 0 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is done for you SEO worth it for a very small business?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">The question is not your size — it is the lifetime value of your customers. If a single new client is worth £500 or more to your business, and SEO consistently brings in even three to five new clients per month, the maths works in your favour quickly. Many of the businesses that benefit most from local done for you SEO are sole traders and small teams, because they compete against local businesses rather than national brands, and local SEO is genuinely winnable. If you want to see what your website is currently doing, <a href="/">run the free audit here</a>.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">The question is not your size. It is the lifetime value of your customers. If a single new client is worth £500 or more to your business, and SEO consistently brings in even three to five new clients per month, the maths works in your favour quickly. Many of the businesses that benefit most from local done for you SEO are sole traders and small teams, because they compete against local businesses rather than national brands, and local SEO is genuinely winnable. If you want to see what your website is currently doing, <a href="/">run the free audit here</a>.</p>
   </div>
 
 </div>

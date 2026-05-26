@@ -29,22 +29,22 @@ const COUNTER_KEY = 'auditCount'
 const COUNTER_BASE = 1000
 
 const LEADS_FIGURE: Record<string, string> = {
-  page_speed: 'Costing you an estimated 5–8 leads every month — most visitors leave before a slow page loads',
-  mobile_friendly: 'Could be losing you 6–10 leads every month — over half of all local searches happen on phones',
-  https: 'Could cost you 3–5 leads every month — the "Not Secure" warning sends visitors straight back to Google',
-  title_tag: 'Could be missing out on 5–8 leads every month from lower Google click-through rates',
-  meta_description: 'Could be costing you 4–6 leads every month — no snippet means fewer people click your listing',
-  h1_tag: 'Could be losing you 6–9 leads every month — without a clear headline Google struggles to rank you',
-  schema: 'Could be missing 5–8 leads every month from Google Maps results alone',
-  image_alt: 'Could be costing you 3–5 leads every month from reduced search visibility',
-  tap_to_call: 'Could be losing 4–7 mobile leads every month — most people will not copy-paste a number to call',
-  phone_above_fold: 'Could be costing you 3–6 leads every month — most visitors never scroll to find your number',
-  cta_button: 'Could be losing 6–10 leads every month — visitors with no clear next step simply leave',
-  contact_form: 'Could be missing 4–7 out-of-hours leads every month — no form means no way to enquire at night or weekends',
-  nap: 'Could be costing you 4–6 leads every month from lower Google Maps rankings',
-  social_proof: 'Could be losing 5–8 leads every month to competitors who show reviews — 90% of people check before choosing',
-  lead_magnet: 'Could be losing 8–15 future leads every month — only 3% of visitors are ready to buy today, the rest leave forever',
-  problem_solution: 'Could be losing 6–10 leads every month — a vague headline sends most visitors back to Google in under 5 seconds',
+  page_speed: 'Costing you an estimated 5 to 8 leads every month. Most visitors leave before a slow page loads',
+  mobile_friendly: 'Could be losing you 6 to 10 leads every month. Over half of all local searches happen on phones',
+  https: 'Could cost you 3 to 5 leads every month. The "Not Secure" warning sends visitors straight back to Google',
+  title_tag: 'Could be missing out on 5 to 8 leads every month from lower Google click-through rates',
+  meta_description: 'Could be costing you 4 to 6 leads every month. No snippet means fewer people click your listing',
+  h1_tag: 'Could be losing you 6 to 9 leads every month. Without a clear headline Google struggles to rank you',
+  schema: 'Could be missing 5 to 8 leads every month from Google Maps results alone',
+  image_alt: 'Could be costing you 3 to 5 leads every month from reduced search visibility',
+  tap_to_call: 'Could be losing 4 to 7 mobile leads every month. Most people will not copy a number to call',
+  phone_above_fold: 'Could be costing you 3 to 6 leads every month. Most visitors never scroll to find your number',
+  cta_button: 'Could be losing 6 to 10 leads every month. Visitors with no clear next step simply leave',
+  contact_form: 'Could be missing 4 to 7 out of hours leads every month. No form means no way to enquire at night or weekends',
+  nap: 'Could be costing you 4 to 6 leads every month from lower Google Maps rankings',
+  social_proof: 'Could be losing 5 to 8 leads every month to competitors who show reviews. 90% of people check before choosing',
+  lead_magnet: 'Could be losing 8 to 15 future leads every month. Only 3% of visitors are ready to buy today, the rest leave forever',
+  problem_solution: 'Could be losing 6 to 10 leads every month. A vague headline sends most visitors back to Google in under 5 seconds',
 }
 
 export default function HomeClient() {
@@ -330,7 +330,7 @@ export default function HomeClient() {
                 if (hidden > 0) parts.push(`${hidden} more issue${hidden > 1 ? 's' : ''}`)
                 if (good > 0) parts.push(`${good} thing${good > 1 ? 's' : ''} already working in your favour`)
                 return parts.length > 0
-                  ? `Your full 16 point report includes ${parts.join(' and ')} — plus a simple action plan to fix every issue quickly.`
+                  ? `Your full 16 point report includes ${parts.join(' and ')}. Plus a simple action plan to fix every issue quickly.`
                   : 'Get your full 16 point report with a simple action plan to fix every issue quickly.'
               })()}
             </p>
@@ -342,7 +342,7 @@ export default function HomeClient() {
                 <h3>Get Your Full 16 Point Report + Action Plan</h3>
                 <p>
                   We&apos;ll email you the complete 16-point breakdown and a simple step-by-step action plan
-                  so you can fix every issue quickly — plain English, no jargon.
+                  so you can fix every issue quickly. Plain English, no jargon.
                 </p>
                 <div className="email-row" style={{ marginBottom: 8 }}>
                   <input
