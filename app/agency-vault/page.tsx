@@ -48,11 +48,21 @@ const schema = {
     {
       '@type': 'FAQPage',
       mainEntity: [
-        { '@type': 'Question', name: 'What is The Agency Vault?', acceptedAnswer: { '@type': 'Answer', text: '12 AI skills for Claude covering website design, SEO, sales and business growth. The exact tools The Catalyst Method uses daily.' } },
-        { '@type': 'Question', name: 'Is this a subscription?', acceptedAnswer: { '@type': 'Answer', text: 'No. You pay £97 once and keep all 12 skills forever with no monthly fees.' } },
-        { '@type': 'Question', name: 'Do I need Claude Code?', acceptedAnswer: { '@type': 'Answer', text: 'Most skills work in Claude.ai. Only Website Builder works best in Claude Code. Setup instructions included.' } },
-        { '@type': 'Question', name: 'How long does setup take?', acceptedAnswer: { '@type': 'Answer', text: 'Around 5 minutes to install all 12 skills into Claude.' } },
-        { '@type': 'Question', name: 'Can I use these for client work?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Use across unlimited projects and clients with no restrictions.' } },
+        { '@type': 'Question', name: 'What is The Agency Vault?', acceptedAnswer: { '@type': 'Answer', text: 'The Agency Vault is a collection of 12 AI skills for Claude covering website design, SEO, sales and business growth. These are the exact tools The Catalyst Method uses every day to grow local businesses across the UK. Skills include Frontend Design, UI/UX Pro Max, Design MD, Website Builder, SEO Keyword Research, SEO Blog Builder, SEO Optimiser, Meta Ad Copywriter, Slide Deck Creator, Brainstorming, Writing Plans and Writing Skills.' } },
+        { '@type': 'Question', name: 'Is this a subscription?', acceptedAnswer: { '@type': 'Answer', text: 'No. You pay £97 once and keep all 12 skills forever. There are no monthly fees, no renewals and no usage limits. You keep them regardless of what happens to our pricing in the future.' } },
+        { '@type': 'Question', name: 'Do I need Claude Code to use these skills?', acceptedAnswer: { '@type': 'Answer', text: 'Most skills work perfectly inside Claude.ai on any paid plan. Only the Website Builder skill achieves its best results inside Claude Code, because it needs to create multiple files and folders at once. Full Claude Code setup instructions are included with your purchase. Claude Code is free to download.' } },
+        { '@type': 'Question', name: 'How long does setup take?', acceptedAnswer: { '@type': 'Answer', text: 'Around 5 minutes to install all 12 Claude skills. You go to Settings inside Claude.ai, find the Skills section and upload each folder one by one. A full step by step guide is included with every purchase.' } },
+        { '@type': 'Question', name: 'Can I use these skills for client work?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Use them across as many projects and clients as you like with no restrictions on commercial use. Many buyers use these Claude skills to deliver client work and charge for the output.' } },
+        { '@type': 'Question', name: 'What version of Claude do I need?', acceptedAnswer: { '@type': 'Answer', text: 'The skills work with Claude.ai on any paid plan. Claude Pro or above is recommended for the best results.' } },
+        { '@type': 'Question', name: 'What if I am not technical?', acceptedAnswer: { '@type': 'Answer', text: 'These Claude skills are built for non-technical users. You do not need any coding knowledge or prompt writing experience. If you can type a message into Claude, you can use every skill in this vault.' } },
+        { '@type': 'Question', name: 'Do I get access to updates?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. When skills are updated you receive access to the new versions via the same Google Drive link. Your access continues for the lifetime of the product.' } },
+      ],
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thecatalystmethod.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'Agency Vault', item: 'https://www.thecatalystmethod.co.uk/agency-vault' },
       ],
     },
   ],
@@ -147,10 +157,17 @@ export default function AgencyVaultPage() {
             What Is The Agency Vault
           </div>
           <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
-            The Same Tools We Use <em>Every Single Day.</em>
+            12 Claude AI Skills We Use <em>Every Single Day.</em>
           </h2>
-          <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 580, marginBottom: 40 }}>
+          <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 580, marginBottom: 24 }}>
             The Agency Vault is a collection of 12 AI skills built specifically for Claude. Not generic prompts or templates. The exact instructions we load before every client project at The Catalyst Method.
+          </p>
+          <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 580, marginBottom: 40 }}>
+            Not sure how your website is performing right now?{' '}
+            <Link href="/" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 600, borderBottom: '1px solid rgba(255,215,0,0.35)' }}>
+              Run our free website audit
+            </Link>
+            {' '}first. It takes 10 seconds and shows you exactly what is stopping your site from ranking on Google.
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 12 }}>
@@ -190,7 +207,7 @@ export default function AgencyVaultPage() {
             How It Works
           </div>
           <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
-            Up and Running In <em>5 Minutes.</em>
+            Install Your Claude Skills <em>In 5 Minutes.</em>
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, marginBottom: 44 }}>
             No technical knowledge needed. No coding. No prompt writing. Just follow these four steps and the skills are live inside Claude.
@@ -258,7 +275,7 @@ export default function AgencyVaultPage() {
             Common Questions
           </div>
           <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 44 }}>
-            Everything You Need to <em>Know.</em>
+            Frequently Asked Questions About <em>The Agency Vault.</em>
           </h2>
           <div style={{ display: 'grid', gap: 8 }}>
             {FAQS.map(f => (
