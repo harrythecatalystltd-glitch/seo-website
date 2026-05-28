@@ -396,12 +396,14 @@ export default function ThankyouClient() {
             ))}
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
-            <Link
-              href="/contact?ref=toolkit"
+            <a
+              href="https://buy.stripe.com/aFa3cyeemeSE7amaoR5wI09"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.09)', border: '1.5px solid rgba(255,255,255,0.2)', color: '#fff', borderRadius: 10, padding: '13px 22px', fontFamily: "'Montserrat', sans-serif", fontSize: '0.9rem', fontWeight: 800, textDecoration: 'none', letterSpacing: '0.01em' }}
             >
               Get the toolkit £97
-            </Link>
+            </a>
             <span style={{ fontSize: '0.77rem', color: 'rgba(255,255,255,0.28)' }}>One time. Keep forever.</span>
           </div>
         </div>
