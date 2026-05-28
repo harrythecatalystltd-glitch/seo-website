@@ -107,6 +107,12 @@ const nextConfig: NextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      // deleted posts
+      {
+        source: '/blog/grow-pt-academy-100k-per-year',
+        destination: '/blog',
+        permanent: true,
+      },
     ]
   },
   async rewrites() {

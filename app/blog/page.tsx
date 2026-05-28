@@ -52,8 +52,10 @@ type DisplayArticle = {
   readingTime?: number
 }
 
+const HIDDEN_SLUGS = new Set(['grow-pt-academy-100k-per-year'])
+
 function mergeArticles(seobotArticles: Article[]): DisplayArticle[] {
-  const fromSeobot: DisplayArticle[] = seobotArticles.map(a => ({
+  const fromSeobot: DisplayArticle[] = seobotArticles.filter(a => !HIDDEN_SLUGS.has(a.slug)).map(a => ({
     slug: a.slug,
     title: a.title,
     description: a.description,
