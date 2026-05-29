@@ -248,7 +248,7 @@ function Headlines({ headlines }: { headlines: HeadlineSuggestion[] }) {
                   padding: '5px 12px', borderRadius: 8, fontSize: '0.72rem', fontWeight: 700,
                   fontFamily: "'Montserrat',sans-serif", cursor: 'pointer', border: '1px solid',
                   background: active ? (ls ? ls.bg : 'rgba(255,215,0,0.1)') : 'rgba(255,255,255,0.04)',
-                  color: active ? (ls ? ls.text : 'var(--gold)') : 'rgba(255,255,255,0.4)',
+                  color: active ? (ls ? ls.text : '#FFD700') : 'rgba(255,255,255,0.4)',
                   borderColor: active ? (ls ? ls.border : 'rgba(255,215,0,0.3)') : 'rgba(255,255,255,0.08)',
                   transition: 'all 0.15s',
                 }}
@@ -349,9 +349,10 @@ export default function KeywordAnalyser() {
             disabled={loading || !keyword.trim()}
             style={{
               flexShrink: 0, padding: '14px 28px', borderRadius: 10,
-              background: keyword.trim() && !loading ? 'var(--gold)' : 'rgba(255,215,0,0.25)',
-              color: keyword.trim() && !loading ? '#002B45' : 'rgba(255,255,255,0.3)',
-              border: 'none', cursor: keyword.trim() && !loading ? 'pointer' : 'default',
+              background: '#FFD700',
+              color: '#002B45',
+              border: 'none', cursor: loading ? 'default' : 'pointer',
+              opacity: loading ? 0.6 : 1,
               fontFamily: "'Montserrat',sans-serif", fontWeight: 800,
               fontSize: '0.82rem', letterSpacing: '0.04em', textTransform: 'uppercase',
               transition: 'all 0.15s', whiteSpace: 'nowrap',
@@ -371,7 +372,7 @@ export default function KeywordAnalyser() {
           <div style={{
             width: 40, height: 40,
             border: '3px solid rgba(255,255,255,0.1)',
-            borderTopColor: 'var(--gold)',
+            borderTopColor: '#FFD700',
             borderRadius: '50%',
             animation: 'spin 0.8s linear infinite',
           }} />
@@ -426,7 +427,7 @@ export default function KeywordAnalyser() {
             </div>
             <a href="/" style={{
               display: 'inline-flex', alignItems: 'center', gap: 8, flexShrink: 0,
-              background: 'var(--gold)', color: '#002B45',
+              background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat',sans-serif", fontWeight: 800,
               fontSize: '0.78rem', letterSpacing: '0.04em', textTransform: 'uppercase',
               padding: '12px 22px', borderRadius: 8, textDecoration: 'none',
