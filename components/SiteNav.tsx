@@ -39,6 +39,14 @@ export default function SiteNav() {
           <BoltIcon />
           Blog
         </Link>
+        <Link href="/keyword-analyser" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          Keyword Analyser
+        </Link>
+        <Link href="/youtube-title-analyser" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          YouTube Titles
+        </Link>
         <Link href="/signup" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           Sign Up
