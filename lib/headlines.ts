@@ -22,12 +22,6 @@ function labelFor(
   return escalation[baseLabel]
 }
 
-// Natural PAA hooks — varied by index so they don't all read the same
-const paaHooks = [
-  (q: string) => `${q} — and what to do with the answer`,
-  (q: string) => `${q}: what most people get wrong`,
-  (q: string) => `${q} (the short answer, and the full picture)`,
-]
 
 export function generateHeadlines(
   keyword: string,
@@ -44,13 +38,13 @@ export function generateHeadlines(
   const baseLabel = (low: HeadlineSuggestion['label'], high: HeadlineSuggestion['label']) =>
     d <= 40 ? low : d <= 66 ? high : 'Long Game'
 
-  // PAA-derived — each gets a different natural hook so they don't repeat
-  paaQuestions.slice(0, 3).forEach((paa, i) => {
+  // PAA-derived — use the question as-is, it's already a headline
+  paaQuestions.slice(0, 3).forEach((paa) => {
     const question = paa.question.replace(/\?$/, '')
     const words = question.split(' ').slice(0, 4).join(' ')
     const covered = coveredByTop10(words, titles)
     headlines.push({
-      headline: paaHooks[i](question),
+      headline: paa.question,
       label: labelFor(baseLabel('Quick Win', 'Medium Term'), covered),
       explanation: covered
         ? `This "People Also Ask" question has some top-10 coverage — but none of the current results answers it directly and simply. Own the direct answer and you own the featured snippet opportunity.`
@@ -74,7 +68,7 @@ export function generateHeadlines(
   const beginnerCovered =
     coveredByTop10('beginner', titles) || coveredByTop10('plain english', titles)
   headlines.push({
-    headline: `What ${kw} actually means — and why most explanations overcomplicate it`,
+    headline: `${kw}: what it is, how it works, and what to expect`,
     label: labelFor('Quick Win', beginnerCovered),
     explanation: beginnerCovered
       ? `Some beginner-level content exists but none of it owns the "cut through the noise" angle. A genuinely simple, direct page will beat longer, more complex ones for this audience.`
