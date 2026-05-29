@@ -316,7 +316,7 @@ export default function KeywordAnalyser() {
     <div style={{ maxWidth: 820, margin: '0 auto', padding: '0 24px 100px' }}>
 
       {/* Search form */}
-      <div style={{ padding: '64px 0 0' }}>
+      <div style={{ padding: '28px 0 0' }}>
         <form onSubmit={analyse} style={{ display: 'flex', gap: 10 }}>
           <div style={{ flex: 1, position: 'relative' }}>
             <svg
