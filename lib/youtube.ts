@@ -137,21 +137,33 @@ export function generateYouTubeTitles(
 
   const covered = (word: string) => titles.some(t => t.includes(word.toLowerCase()))
 
+  // Detect keywords that are already a "how to" or question phrase.
+  // These can't be embedded mid-sentence ("The how to use ai strategy" is broken English).
+  // For these, templates put the keyword at the START of the title instead.
+  const isHowToKw   = /^how\s+to\s+/i.test(keyword)
+  const isQuestionKw = isHowToKw || /^(what\s+(is|are)|why\s+|when\s+|should\s+i\s+|can\s+i\s+)/i.test(keyword)
+
   const suggestions: TitleSuggestion[] = [
 
     {
-      title: `How to ${keyword} in ${year} (step by step)`,
+      // For "how to X" keywords, "How to how to X" is broken — lead with the keyword instead.
+      title: isHowToKw
+        ? `${kw} from scratch: the complete guide for ${year}`
+        : `How to ${keyword} in ${year} (step by step)`,
       label: labelFromPattern(howToPct),
       angle: 'How-to',
       explanation: howToPct >= 60
-        ? `How-to titles dominate this topic. You need a sharper angle to stand out — add a specific outcome, timeframe or audience in the title rather than just "step by step".`
+        ? `How-to titles dominate this topic. You need a sharper angle to stand out — add a specific outcome, timeframe or audience rather than just "step by step".`
         : howToPct >= 25
         ? `Some how-to content exists but there is still room. A well-structured tutorial with a clear outcome in the title should perform.`
         : `How-to content is rare here. A clear tutorial with a specific promise in the title is a straightforward gap to fill.`,
     },
 
     {
-      title: `Testing ${keyword} for 30 days: my honest results`,
+      // For "how to X" keywords, "Testing how to X for 30 days" reads oddly — frame it as a direct experience.
+      title: isHowToKw
+        ? `${kw}: I tested it for 30 days. Here's my honest take.`
+        : `Testing ${keyword} for 30 days: my honest results`,
       label: labelFromPattern(personalPct),
       angle: 'Personal story / results',
       explanation: personalPct >= 60
@@ -178,12 +190,17 @@ export function generateYouTubeTitles(
     },
 
     {
-      title: covered('mistake') || covered('wrong')
+      // "You're doing how to use ai wrong" is broken — for question-type keywords, lead with the keyword.
+      title: isQuestionKw
+        ? `${kw} the right way (most people get this wrong)`
+        : covered('mistake') || covered('wrong')
         ? `The biggest ${keyword} mistake that costs people results`
         : `You're doing ${keyword} wrong (here's what to fix first)`,
-      label: covered('mistake') || covered('wrong') ? 'Medium Term' : 'Quick Win',
+      label: isQuestionKw ? 'Quick Win' : (covered('mistake') || covered('wrong') ? 'Medium Term' : 'Quick Win'),
       angle: 'Mistakes / warning',
-      explanation: covered('mistake') || covered('wrong')
+      explanation: isQuestionKw
+        ? `Leading with the keyword and "the right way" flips the expectation — viewers assume they are doing it wrong, which is one of the strongest click triggers on YouTube.`
+        : covered('mistake') || covered('wrong')
         ? `Mistake content already exists in the top results. Make yours more specific with a single, concrete mistake rather than a list — the more specific the pain point, the higher the click-through rate.`
         : `No top-ranked video covers the mistakes angle. Warning-style titles attract high engagement because viewers immediately check whether they are doing something wrong.`,
     },
@@ -196,14 +213,20 @@ export function generateYouTubeTitles(
     },
 
     {
-      title: `The ${keyword} strategy that actually gets results`,
+      // "The how to use ai strategy" is broken — for how-to keywords, restructure the sentence.
+      title: isHowToKw
+        ? `${kw} properly: the approach that actually gets results`
+        : `The ${keyword} strategy that actually gets results`,
       label: labelFromPattern(personalPct),
       angle: 'Strategy / results',
-      explanation: `Leading with "the strategy" signals authority and specificity. Viewers searching this topic are often frustrated with generic advice — a title that promises a real, working approach gets clicks from people ready to act.`,
+      explanation: `A title that promises a specific, working approach gets clicks from people who are frustrated with generic advice. Viewers searching this topic have usually already tried something that didn't work.`,
     },
 
     {
-      title: `${kw} for beginners: where to actually start`,
+      // "How to use ai for beginners" is redundant — use "as a complete beginner" instead.
+      title: isHowToKw
+        ? `${kw} as a complete beginner: where to actually start`
+        : `${kw} for beginners: where to actually start`,
       label: covered('beginner') || covered('starter') ? 'Medium Term' : 'Quick Win',
       angle: 'Beginner entry point',
       explanation: covered('beginner') || covered('starter')
