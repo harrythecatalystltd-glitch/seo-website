@@ -114,31 +114,6 @@ export default function KeywordAnalyserPage() {
         </div>
       </section>
 
-      {/* Static section — server-rendered for SEO, gives crawlers substantive content */}
-      <section aria-label="What this tool analyses" style={{ maxWidth: 820, margin: '0 auto', padding: '56px 24px 0' }}>
-        <h2 style={{
-          fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.1rem,2.5vw,1.5rem)',
-          fontWeight: 900, letterSpacing: '-0.02em', color: '#fff',
-          marginBottom: 24, textAlign: 'center',
-        }}>
-          What the keyword difficulty checker shows you
-        </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))', gap: 12 }}>
-          {[
-            { emoji: '📊', title: 'Difficulty score', desc: 'A 0-100 score showing how hard it is to rank on UK Google, colour-coded green, amber or red.' },
-            { emoji: '🔍', title: 'Top 10 results', desc: 'See exactly who is ranking, which big brands dominate, and where smaller sites have broken through.' },
-            { emoji: '❓', title: 'People Also Ask', desc: 'The related questions Google surfaces for that keyword — each one is a potential blog angle.' },
-            { emoji: '💡', title: 'Headline ideas', desc: 'Blog headline suggestions ranked Quick Win, Medium Term or Long Game based on gaps in the current top 10.' },
-          ].map(f => (
-            <div key={f.title} style={{ background: 'rgba(255,255,255,0.04)', border: '1.5px solid rgba(255,255,255,0.09)', borderRadius: 12, padding: '20px 18px' }}>
-              <div style={{ fontSize: '1.4rem', marginBottom: 10 }}>{f.emoji}</div>
-              <h3 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.04em', color: '#FFD700', marginBottom: 6 }}>{f.title}</h3>
-              <p style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.52)', lineHeight: 1.7, fontFamily: "'Open Sans',sans-serif" }}>{f.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <KeywordAnalyser />
     </>
   )
