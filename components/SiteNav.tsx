@@ -47,6 +47,10 @@ export default function SiteNav() {
           <BoltIcon />
           YouTube Titles
         </Link>
+        <Link href="/youtube-description-generator" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          YT Description
+        </Link>
         <Link href="/signup" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           Sign Up
