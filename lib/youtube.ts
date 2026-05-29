@@ -140,89 +140,89 @@ export function generateYouTubeTitles(
   const suggestions: TitleSuggestion[] = [
 
     {
-      title: `How to ${kw} in ${year} (step by step)`,
+      title: `How to ${keyword} in ${year} (step by step)`,
       label: labelFromPattern(howToPct),
       angle: 'How-to',
       explanation: howToPct >= 60
-        ? `How-to titles dominate this topic. To stand out you need a sharper angle — add a specific outcome, timeframe or audience in the title rather than just "step by step".`
+        ? `How-to titles dominate this topic. You need a sharper angle to stand out — add a specific outcome, timeframe or audience in the title rather than just "step by step".`
         : howToPct >= 25
         ? `Some how-to content exists but there is still room. A well-structured tutorial with a clear outcome in the title should perform.`
         : `How-to content is rare here. A clear tutorial with a specific promise in the title is a straightforward gap to fill.`,
     },
 
     {
-      title: `I tried ${kw} for 30 days — here's what actually happened`,
+      title: `Testing ${keyword} for 30 days: my honest results`,
       label: labelFromPattern(personalPct),
       angle: 'Personal story / results',
       explanation: personalPct >= 60
-        ? `Personal story content is already common here. Go more specific — a stronger result ("from 0 to X") or a more honest angle ("it didn't work and here's why") will stand out.`
+        ? `Personal story content is already common here. Go more specific — a stronger concrete result or a more honest angle ("it didn't work and here's why") will stand out over another generic experience video.`
         : `First-person results content is rare in these results. Personal experience videos build trust quickly and YouTube recommends them heavily because they keep people watching.`,
     },
 
     {
-      title: `${numbers(titles)} things nobody tells you about ${kw}`,
+      title: `${numbers(titles)} things nobody tells you about ${keyword}`,
       label: labelFromPattern(numbersPct),
       angle: 'Numbered list',
       explanation: numbersPct >= 60
-        ? `Numbered titles are crowded here. If you use a list format, the number and the "nobody tells you" framing makes it feel more original than a generic tips video.`
+        ? `Numbered titles are crowded here. The "nobody tells you" framing makes yours feel more original than a generic tips video, but you'll still need a strong hook in the first 30 seconds.`
         : `Numbered titles are underused for this topic. They set clear expectations and tend to win higher click-through rate than vague headline formats.`,
     },
 
     {
-      title: `Is ${kw} actually worth it in ${year}?`,
+      title: `The truth about ${keyword} in ${year} (nobody talks about this)`,
       label: labelFromPattern(questionPct),
       angle: 'Question / honest take',
       explanation: questionPct >= 60
-        ? `Question titles are common here — the "actually worth it" framing makes yours feel more honest and contrarian than the standard "should I do X" format.`
-        : `Question titles are rare in these results. YouTube surfaces question-format videos heavily in suggested feeds because they match how people phrase searches.`,
+        ? `Question and opinion titles are already common here. The "truth" framing with a contrarian angle works better than a standard "should I do X" format because it implies others are getting it wrong.`
+        : `Opinion and truth-telling titles are rare in these results. YouTube surfaces them heavily in suggested feeds because they match the sceptical questions people type into search.`,
     },
 
     {
       title: covered('mistake') || covered('wrong')
-        ? `The ${kw} mistake that costs people the most time`
-        : `Stop doing ${kw} wrong — watch this first`,
+        ? `The biggest ${keyword} mistake that costs people results`
+        : `You're doing ${keyword} wrong (here's what to fix first)`,
       label: covered('mistake') || covered('wrong') ? 'Medium Term' : 'Quick Win',
       angle: 'Mistakes / warning',
       explanation: covered('mistake') || covered('wrong')
-        ? `Mistake content exists in the top results. Make yours more specific with a single, concrete mistake rather than a list — the more specific the pain point, the higher the click-through rate.`
-        : `No top-ranked video covers the mistakes angle. Warning-style titles attract high engagement because viewers check whether they are doing something wrong.`,
+        ? `Mistake content already exists in the top results. Make yours more specific with a single, concrete mistake rather than a list — the more specific the pain point, the higher the click-through rate.`
+        : `No top-ranked video covers the mistakes angle. Warning-style titles attract high engagement because viewers immediately check whether they are doing something wrong.`,
     },
 
     {
-      title: `${kw}: what works, what doesn't, and what to do instead`,
+      title: `${kw} in ${year}: what actually works and what's a waste of time`,
       label: 'Medium Term',
       angle: 'Honest review / reality check',
-      explanation: `"What works / what doesn't" framing positions your video as a definitive resource rather than another tutorial. It attracts viewers who have already tried other content and want a clearer picture.`,
+      explanation: `This framing positions your video as the definitive resource rather than another tutorial. It attracts viewers who have already tried other content and want a straight answer on what to stop doing.`,
     },
 
     {
-      title: `How I went from zero to [result] with ${kw} (full breakdown)`,
+      title: `The ${keyword} strategy that actually gets results`,
       label: labelFromPattern(personalPct),
-      angle: 'Transformation story',
-      explanation: `Transformation titles ("from X to Y") are among the highest-retention formats on YouTube. Viewers stay to find out how the story ends, which boosts watch time and signals quality to the algorithm.`,
+      angle: 'Strategy / results',
+      explanation: `Leading with "the strategy" signals authority and specificity. Viewers searching this topic are often frustrated with generic advice — a title that promises a real, working approach gets clicks from people ready to act.`,
     },
 
     {
-      title: `${kw} for beginners — everything you need to get started`,
+      title: `${kw} for beginners: where to actually start`,
       label: covered('beginner') || covered('starter') ? 'Medium Term' : 'Quick Win',
       angle: 'Beginner entry point',
       explanation: covered('beginner') || covered('starter')
-        ? `Some beginner content exists. To differentiate, be more specific in the title about what "everything you need" actually includes.`
-        : `No beginner-focused video ranks in the top 10. New audiences searching this topic have no single go-to starting point — that gap is yours to own.`,
+        ? `Some beginner content already exists. To differentiate, make the title more specific about what the starting point actually is rather than promising everything at once.`
+        : `No beginner-focused video ranks in the top 10. New audiences searching this topic have no clear go-to starting point — that gap is yours to own.`,
     },
 
     {
-      title: `${kw} in ${year}: the honest truth (no fluff)`,
+      title: `${kw} in ${year}: the real honest breakdown`,
       label: labelFromPattern(bracketPct),
       angle: 'Honest / no-fluff',
-      explanation: `"The honest truth" framing works because it implies other content is misleading. Combined with the year for freshness, this title signals a video that gets straight to the point — which appeals to experienced searchers who have been burned by vague content before.`,
+      explanation: `"Honest breakdown" signals that other content on this topic is either vague or misleading. Combined with the year for freshness, this title appeals to experienced searchers who have already watched several videos and want something direct.`,
     },
 
     {
-      title: `What I wish I knew before starting with ${kw}`,
+      title: `Everything I got wrong about ${keyword} when I first started`,
       label: timePct >= 40 ? 'Medium Term' : 'Quick Win',
       angle: 'Lessons learned',
-      explanation: `"What I wish I knew" titles rank well in suggested feeds because they combine personal authority with the promise of saving the viewer time. They attract mid-journey viewers who have started but are struggling — a highly engaged segment.`,
+      explanation: `Lessons-learned titles perform well in suggested feeds because they combine personal authority with the promise of saving the viewer from making the same mistakes. They attract mid-journey viewers who have started but are struggling — a highly engaged segment.`,
     },
 
   ]
