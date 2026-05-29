@@ -1,6 +1,7 @@
 export interface DescriptionInput {
   title: string
-  tags: string        // comma-separated
+  tags: string          // comma-separated
+  notes?: string        // what the video actually covers — one point per line or comma-separated
   channelName?: string
 }
 
@@ -137,6 +138,35 @@ function buildBullets(topic: string, tags: string[], format: Format): string {
   }
 }
 
+/* ── Parse creator notes into clean bullet points ── */
+function parseNotes(raw: string): string[] {
+  if (!raw.trim()) return []
+
+  // Try newlines first; fall back to comma/semicolon splitting for single-line input
+  const lines = raw.split('\n').map(l => l.trim()).filter(Boolean)
+  const items = lines.length >= 2 ? lines : raw.split(/[,;]/).map(l => l.trim()).filter(Boolean)
+
+  return items
+    .map(item => item.replace(/^[-•→*\d+.\)]\s*/, '').trim()) // strip leading bullets/numbers
+    .filter(item => item.length > 3)
+    .slice(0, 5)
+}
+
+/* ── Second paragraph built from creator notes ── */
+function secondFromNotes(notes: string[], topic: string): string {
+  const cleaned = notes.map(n => n.charAt(0).toLowerCase() + n.slice(1))
+
+  if (cleaned.length === 1) {
+    return `In this video I cover ${cleaned[0]}. If you've been putting ${topic} off or not getting the results you expected, this will give you a clear starting point.`
+  }
+
+  const listed = cleaned.length === 2
+    ? `${cleaned[0]} and ${cleaned[1]}`
+    : `${cleaned.slice(0, -1).join(', ')} and ${cleaned[cleaned.length - 1]}`
+
+  return `In this video I cover ${listed}. By the end you'll have a clear picture of what to actually do and in what order.`
+}
+
 /* ── Hashtag generation ── */
 function buildHashtags(title: string, tags: string[]): string[] {
   const STOP = new Set(['this', 'that', 'with', 'from', 'into', 'when', 'what', 'your', 'have', 'will', 'they', 'about', 'actually', 'here', 'just', 'more', 'than', 'some', 'there', 'their', 'were', 'been', 'most', 'also', 'only', 'even', 'back', 'after', 'made', 'make', 'first', 'then', 'over', 'very', 'like', 'many', 'before', 'real', 'right'])
@@ -175,10 +205,17 @@ export function generateDescription(input: DescriptionInput): GeneratedDescripti
   const format = detectFormat(title)
   const channel = channelName?.trim() || 'this channel'
 
-  const opening   = openingLine(topic, format)
-  const second    = secondParagraph(topic, format)
-  const bullets   = buildBullets(topic, tags, format)
-  const hashtags  = buildHashtags(title, tags)
+  // If the creator provided notes about what's in the video, use them directly.
+  // Otherwise fall back to format-based templates.
+  const noteItems = input.notes ? parseNotes(input.notes) : []
+  const hasNotes  = noteItems.length >= 2
+
+  const opening  = openingLine(topic, format)
+  const second   = hasNotes ? secondFromNotes(noteItems, topic) : secondParagraph(topic, format)
+  const bullets  = hasNotes
+    ? noteItems.map(n => `→ ${n.charAt(0).toUpperCase() + n.slice(1)}`).join('\n')
+    : buildBullets(topic, tags, format)
+  const hashtags = buildHashtags(title, tags)
 
   const coverLine = format === 'numbered'
     ? `What I cover:`

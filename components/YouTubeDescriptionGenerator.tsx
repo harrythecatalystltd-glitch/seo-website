@@ -253,6 +253,7 @@ function Results({ result }: { result: GeneratedDescription }) {
 export default function YouTubeDescriptionGenerator() {
   const [title, setTitle]       = useState('')
   const [tags, setTags]         = useState('')
+  const [notes, setNotes]       = useState('')
   const [channelName, setChannel] = useState('')
   const [result, setResult]     = useState<GeneratedDescription | null>(null)
   const resultRef = useRef<HTMLDivElement>(null)
@@ -261,7 +262,7 @@ export default function YouTubeDescriptionGenerator() {
 
   const handleGenerate = () => {
     if (!canGenerate) return
-    const desc = generateDescription({ title, tags, channelName })
+    const desc = generateDescription({ title, tags, notes, channelName })
     setResult(desc)
     setTimeout(() => resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80)
   }
@@ -327,6 +328,39 @@ export default function YouTubeDescriptionGenerator() {
               fontSize: '0.95rem',
               outline: 'none',
               padding: '12px 16px',
+              width: '100%',
+              boxSizing: 'border-box' as const,
+              transition: 'border-color 0.2s',
+            }}
+            onFocus={e => (e.target.style.borderColor = GOLD)}
+            onBlur={e => (e.target.style.borderColor = 'rgba(255,255,255,0.12)')}
+          />
+        </label>
+
+        {/* Notes */}
+        <label style={{ display: 'block', marginBottom: '18px' }}>
+          <span style={{ display: 'block', fontSize: '0.73rem', fontWeight: 700, fontFamily: "'Montserrat', sans-serif", letterSpacing: '0.08em', textTransform: 'uppercase' as const, color: 'rgba(255,255,255,0.5)', marginBottom: '4px' }}>
+            What does your video cover? <span style={{ color: 'rgba(255,255,255,0.25)', fontWeight: 400, fontStyle: 'italic' }}>optional</span>
+          </span>
+          <span style={{ display: 'block', fontSize: '0.75rem', color: 'rgba(255,255,255,0.3)', fontFamily: "'Open Sans', sans-serif", marginBottom: '8px' }}>
+            One point per line or comma separated. The more you add, the more specific the description.
+          </span>
+          <textarea
+            placeholder={'The 3 tools I actually use\nWhy most people get this wrong\nMy step by step process\nCommon mistakes to avoid'}
+            value={notes}
+            onChange={e => setNotes(e.target.value)}
+            rows={4}
+            style={{
+              background: 'rgba(0,0,0,0.35)',
+              border: '1px solid rgba(255,255,255,0.12)',
+              borderRadius: '10px',
+              color: '#fff',
+              fontFamily: "'Open Sans', sans-serif",
+              fontSize: '0.92rem',
+              lineHeight: 1.6,
+              outline: 'none',
+              padding: '12px 16px',
+              resize: 'vertical' as const,
               width: '100%',
               boxSizing: 'border-box' as const,
               transition: 'border-color 0.2s',
