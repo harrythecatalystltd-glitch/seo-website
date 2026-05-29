@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: 'The Agency Vault | 12 AI Skills for Claude | The Catalyst Method',
   description: 'Get the exact AI skills The Catalyst Method uses every day to grow local businesses. 12 Claude skills covering website design, SEO, sales and business growth. One payment of £97. Keep them forever.',
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://www.thecatalystmethod.co.uk/agency-vault' },
+  alternates: { canonical: 'https://www.thecatalystmethod.co.uk/the-agency-vault' },
   openGraph: {
     type: 'website',
-    url: 'https://www.thecatalystmethod.co.uk/agency-vault',
+    url: 'https://www.thecatalystmethod.co.uk/the-agency-vault',
     title: 'The Agency Vault | 12 AI Skills for Claude | The Catalyst Method',
     description: 'The exact AI tools we use to grow local businesses. 12 Claude skills for design, SEO, sales and business. One payment of £97. Keep them forever.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
@@ -62,7 +62,7 @@ const schema = {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thecatalystmethod.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'Agency Vault', item: 'https://www.thecatalystmethod.co.uk/agency-vault' },
+        { '@type': 'ListItem', position: 2, name: 'Agency Vault', item: 'https://www.thecatalystmethod.co.uk/the-agency-vault' },
       ],
     },
   ],

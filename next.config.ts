@@ -113,6 +113,12 @@ const nextConfig: NextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      // agency-vault → the-agency-vault
+      {
+        source: '/agency-vault',
+        destination: '/the-agency-vault',
+        permanent: true,
+      },
     ]
   },
   async rewrites() {
