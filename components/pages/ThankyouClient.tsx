@@ -397,7 +397,7 @@ export default function ThankyouClient() {
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
             <a
-              href="https://buy.stripe.com/aFa3cyeemeSE7amaoR5wI09"
+              href="https://link.fastpaydirect.com/payment-link/6a18434ac3ea3a19f0bd8e8e"
               target="_blank"
               rel="noopener noreferrer"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.09)', border: '1.5px solid rgba(255,255,255,0.2)', color: '#fff', borderRadius: 10, padding: '13px 22px', fontFamily: "'Montserrat', sans-serif", fontSize: '0.9rem', fontWeight: 800, textDecoration: 'none', letterSpacing: '0.01em' }}
