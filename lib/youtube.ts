@@ -137,18 +137,32 @@ export function generateYouTubeTitles(
 
   const covered = (word: string) => titles.some(t => t.includes(word.toLowerCase()))
 
-  // Detect keywords that are already a "how to" or question phrase.
-  // These can't be embedded mid-sentence ("The how to use ai strategy" is broken English).
-  // For these, templates put the keyword at the START of the title instead.
-  const isHowToKw   = /^how\s+to\s+/i.test(keyword)
-  const isQuestionKw = isHowToKw || /^(what\s+(is|are)|why\s+|when\s+|should\s+i\s+|can\s+i\s+)/i.test(keyword)
+  // ── Keyword classification ─────────────────────────────────────────────────
+  // Keywords come in three broad shapes:
+  //   • noun phrases   – "SEO", "social media marketing", "keyword research"
+  //   • verb phrases   – "get more leads", "grow your business", "build a website"
+  //   • how-to phrases – "how to use ai", "how to rank on Google"
+  //
+  // Noun phrases can be inserted mid-sentence as a noun ("The SEO strategy…").
+  // Verb/how-to phrases cannot ("The get more leads strategy" and
+  // "The how to use ai strategy" are broken English).
+  // For verb/how-to phrases we use infinitive constructions instead:
+  // "The only way to get more leads…", "How to use ai properly…"
+  const isHowToKw    = /^how\s+to\s+/i.test(keyword)
+  const isVerbPhrase = !isHowToKw && /^(get|make|build|grow|create|start|run|use|find|write|learn|improve|increase|generate|drive|boost|scale|launch|manage|develop|attract|close|sell|convert|plan|optimis)/i.test(keyword)
+  // needsInfinitive: the keyword works as an infinitive verb but not as a noun mid-sentence
+  const needsInfinitive = isHowToKw || isVerbPhrase
+  // inf: the bare verb phrase (strips "how to" prefix for how-to keywords)
+  const inf = isHowToKw ? keyword.replace(/^how\s+to\s+/i, '').trim() : keyword
 
   const suggestions: TitleSuggestion[] = [
 
     {
-      // For "how to X" keywords, "How to how to X" is broken — lead with the keyword instead.
-      title: isHowToKw
-        ? `${kw} from scratch: the complete guide for ${year}`
+      // Noun:     "How to SEO in 2026 (step by step)"
+      // Verb/HowTo: "The step by step guide to get more leads in 2026"
+      //             "The step by step guide to use ai in 2026"
+      title: needsInfinitive
+        ? `The step by step guide to ${inf} in ${year}`
         : `How to ${keyword} in ${year} (step by step)`,
       label: labelFromPattern(howToPct),
       angle: 'How-to',
@@ -160,9 +174,10 @@ export function generateYouTubeTitles(
     },
 
     {
-      // For "how to X" keywords, "Testing how to X for 30 days" reads oddly — frame it as a direct experience.
-      title: isHowToKw
-        ? `${kw}: I tested it for 30 days. Here's my honest take.`
+      // Noun:       "Testing SEO for 30 days: my honest results"
+      // Verb/HowTo: "I spent 30 days trying to get more leads: my honest results"
+      title: needsInfinitive
+        ? `I spent 30 days trying to ${inf}: my honest results`
         : `Testing ${keyword} for 30 days: my honest results`,
       label: labelFromPattern(personalPct),
       angle: 'Personal story / results',
@@ -190,22 +205,25 @@ export function generateYouTubeTitles(
     },
 
     {
-      // "You're doing how to use ai wrong" is broken — for question-type keywords, lead with the keyword.
-      title: isQuestionKw
-        ? `${kw} the right way (most people get this wrong)`
+      // Noun (no coverage):   "You're doing SEO wrong (here's what to fix first)"
+      // Noun (has coverage):  "The biggest SEO mistake that costs people results"
+      // Verb/HowTo:           "The biggest reason people fail to get more leads (and how to fix it)"
+      title: needsInfinitive
+        ? `The biggest reason people fail to ${inf} (and how to fix it)`
         : covered('mistake') || covered('wrong')
         ? `The biggest ${keyword} mistake that costs people results`
         : `You're doing ${keyword} wrong (here's what to fix first)`,
-      label: isQuestionKw ? 'Quick Win' : (covered('mistake') || covered('wrong') ? 'Medium Term' : 'Quick Win'),
+      label: needsInfinitive ? 'Quick Win' : (covered('mistake') || covered('wrong') ? 'Medium Term' : 'Quick Win'),
       angle: 'Mistakes / warning',
-      explanation: isQuestionKw
-        ? `Leading with the keyword and "the right way" flips the expectation — viewers assume they are doing it wrong, which is one of the strongest click triggers on YouTube.`
+      explanation: needsInfinitive
+        ? `"Fail to" framing triggers immediate curiosity — viewers wonder whether they recognise themselves in the failure mode. It works especially well for action-based topics where most people feel stuck.`
         : covered('mistake') || covered('wrong')
         ? `Mistake content already exists in the top results. Make yours more specific with a single, concrete mistake rather than a list — the more specific the pain point, the higher the click-through rate.`
         : `No top-ranked video covers the mistakes angle. Warning-style titles attract high engagement because viewers immediately check whether they are doing something wrong.`,
     },
 
     {
+      // kw is always at the start here — safe for any keyword type
       title: `${kw} in ${year}: what actually works and what's a waste of time`,
       label: 'Medium Term',
       angle: 'Honest review / reality check',
@@ -213,19 +231,22 @@ export function generateYouTubeTitles(
     },
 
     {
-      // "The how to use ai strategy" is broken — for how-to keywords, restructure the sentence.
-      title: isHowToKw
-        ? `${kw} properly: the approach that actually gets results`
+      // Noun:       "The SEO strategy that actually gets results"
+      // Verb/HowTo: "How to get more leads properly: the approach that actually works"
+      //             "How to use ai properly: the approach that actually works"
+      title: needsInfinitive
+        ? `How to ${inf} properly: the approach that actually works`
         : `The ${keyword} strategy that actually gets results`,
       label: labelFromPattern(personalPct),
       angle: 'Strategy / results',
-      explanation: `A title that promises a specific, working approach gets clicks from people who are frustrated with generic advice. Viewers searching this topic have usually already tried something that didn't work.`,
+      explanation: `A title that promises a specific working approach gets clicks from people frustrated with generic advice. Viewers searching this topic have usually already tried something that didn't work.`,
     },
 
     {
-      // "How to use ai for beginners" is redundant — use "as a complete beginner" instead.
-      title: isHowToKw
-        ? `${kw} as a complete beginner: where to actually start`
+      // Noun:       "SEO for beginners: where to actually start"
+      // Verb/HowTo: "How to get more leads as a complete beginner: where to start"
+      title: needsInfinitive
+        ? `How to ${inf} as a complete beginner: where to start`
         : `${kw} for beginners: where to actually start`,
       label: covered('beginner') || covered('starter') ? 'Medium Term' : 'Quick Win',
       angle: 'Beginner entry point',
@@ -235,6 +256,7 @@ export function generateYouTubeTitles(
     },
 
     {
+      // kw is always at the start here — safe for any keyword type
       title: `${kw} in ${year}: the real honest breakdown`,
       label: labelFromPattern(bracketPct),
       angle: 'Honest / no-fluff',
@@ -242,7 +264,11 @@ export function generateYouTubeTitles(
     },
 
     {
-      title: `Everything I got wrong about ${keyword} when I first started`,
+      // Noun:       "Everything I got wrong about SEO when I first started"
+      // Verb/HowTo: "The mistakes I made when I first started trying to get more leads"
+      title: needsInfinitive
+        ? `The mistakes I made when I first started trying to ${inf}`
+        : `Everything I got wrong about ${keyword} when I first started`,
       label: timePct >= 40 ? 'Medium Term' : 'Quick Win',
       angle: 'Lessons learned',
       explanation: `Lessons-learned titles perform well in suggested feeds because they combine personal authority with the promise of saving the viewer from making the same mistakes. They attract mid-journey viewers who have started but are struggling — a highly engaged segment.`,
