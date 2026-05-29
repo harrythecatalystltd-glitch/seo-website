@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 }
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
-const STRIPE_URL = 'https://buy.stripe.com/aFa3cyeemeSE7amaoR5wI09'
+const STRIPE_URL = 'https://link.fastpaydirect.com/payment-link/6a18434ac3ea3a19f0bd8e8e'
 
 const schema = {
   '@context': 'https://schema.org',
@@ -379,7 +379,7 @@ function SkillList({ skills }: { skills: { num: number; name: string; desc: stri
 
 function CtaBlock() {
   const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
-  const STRIPE_URL = 'https://buy.stripe.com/aFa3cyeemeSE7amaoR5wI09'
+  const STRIPE_URL = 'https://link.fastpaydirect.com/payment-link/6a18434ac3ea3a19f0bd8e8e'
   const includes = ['12 AI Skills', 'Website Design', 'SEO Tools', 'Sales Copy', 'Business Tools', 'Setup Guide', 'Unlimited Uses']
   return (
     <div style={{ padding: '0 24px 80px' }}>
