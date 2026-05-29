@@ -6,7 +6,7 @@ export interface DescriptionInput {
 
 export interface GeneratedDescription {
   full: string        // complete description ready to paste
-  aboveFold: string   // first ~125 chars — what shows in search before "Show more"
+  aboveFold: string   // first ~125 chars shown as the search snippet in YouTube search results
   hashtags: string[]
   charCount: number
 }
@@ -49,24 +49,24 @@ function extractTopic(title: string): string {
   return t || title
 }
 
-/* ── Opening lines (above-the-fold SEO real estate) ── */
-// Start with value — don't open with "In this video I..."
+/* ── Opening lines (first ~125 chars show as the YouTube search snippet) ── */
+// Start with value, not with "In this video I..."
 function openingLine(topic: string, format: Format): string {
   const tc = cap(topic)
   switch (format) {
     case 'howto':
-      return `Learn how to ${topic} the right way. This step-by-step guide covers everything from the basics to the bits most tutorials skip over.`
+      return `Learn how to ${topic} the right way. This guide covers everything from the basics to the bits most tutorials skip over.`
     case 'numbered': {
-      return `${tc} — and the things most people never hear about it. Here's what actually matters and why it makes a difference.`
+      return `${tc}: the things most people never hear about. Here's what actually matters and why it makes a difference.`
     }
     case 'review':
       return `The honest truth about ${topic}. This video covers what actually works, what's a waste of your time, and what the results really look like.`
     case 'story':
-      return `Here's what actually happened when I got serious about ${topic} — the real process, the mistakes, and what finally worked.`
+      return `Here's what actually happened when I got serious about ${topic}. The real process, the mistakes, and what finally worked.`
     case 'beginner':
       return `New to ${topic}? This is the video I wish someone had shown me when I started. Clear, practical, and no unnecessary fluff.`
     default:
-      return `Everything you actually need to know about ${topic} — without the jargon, without the padding, and without the generic advice you've already heard.`
+      return `Everything you actually need to know about ${topic}. No jargon, no padding, just what actually matters.`
   }
 }
 
@@ -74,15 +74,15 @@ function openingLine(topic: string, format: Format): string {
 function secondParagraph(topic: string, format: Format): string {
   switch (format) {
     case 'howto':
-      return `Whether you're brand new to ${topic} or you've tried before and got stuck, this video gives you the exact process from start to finish — including the mistakes most people make along the way.`
+      return `Whether you're brand new to ${topic} or you've tried before and got stuck, this video gives you the exact process from start to finish, including the mistakes most people make along the way.`
     case 'numbered':
       return `These are the things I wish someone had told me earlier. If you've been doing ${topic} and not getting the results you expected, at least one of these will explain why.`
     case 'review':
-      return `I've tested this properly so you don't have to sit through vague advice. No hype, no fluff — just a straight answer on whether it's worth your time and what to actually do.`
+      return `I've tested this properly so you don't have to sit through vague advice. No hype, no fluff. Just a straight answer on whether it's worth your time and what to actually do.`
     case 'story':
-      return `If you're struggling with ${topic}, this is the video I wish I had when I started. I'm not going to sugarcoat it — there were real mistakes along the way, and I cover all of them.`
+      return `If you're struggling with ${topic}, this is the video I wish I had when I started. I'm not going to sugarcoat it. There were real mistakes along the way, and I cover all of them.`
     case 'beginner':
-      return `I've kept this as simple and practical as possible. No unnecessary theory — just the things you actually need to know to get started and see your first results.`
+      return `I've kept this as simple and practical as possible. No unnecessary theory, just the things you actually need to know to get started and see your first results.`
     default:
       return `If you've been putting ${topic} off or feeling overwhelmed by where to start, this video gives you a clear, practical picture of what to do and in what order.`
   }

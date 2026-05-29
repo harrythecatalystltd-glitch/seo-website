@@ -104,7 +104,7 @@ function AboveFoldPreview({ text }: { text: string }) {
         marginBottom: '10px',
       }}>
         <span style={{ fontSize: '0.72rem', fontWeight: 700, fontFamily: "'Montserrat', sans-serif", color: 'rgba(255,255,255,0.45)', letterSpacing: '0.08em', textTransform: 'uppercase' as const }}>
-          Preview — what shows before &ldquo;Show more&rdquo;
+          Search snippet preview
         </span>
         <span style={{ fontSize: '0.72rem', fontWeight: 700, fontFamily: "'Montserrat', sans-serif", color: colour }}>
           {text.length}/125 chars
@@ -114,6 +114,9 @@ function AboveFoldPreview({ text }: { text: string }) {
       <div style={{ height: '3px', background: 'rgba(255,255,255,0.08)', borderRadius: '2px', marginBottom: '12px' }}>
         <div style={{ height: '100%', width: `${pct}%`, background: colour, borderRadius: '2px', transition: 'width 0.4s' }} />
       </div>
+      <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.35)', margin: '0 0 8px', fontFamily: "'Montserrat', sans-serif" }}>
+        What shows in YouTube search results before someone clicks your video
+      </p>
       <p style={{ fontSize: '0.88rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.55, margin: 0, fontStyle: 'italic' }}>
         &ldquo;{text}&rdquo;
       </p>
@@ -204,11 +207,11 @@ function Results({ result }: { result: GeneratedDescription }) {
         </p>
         <ul style={{ margin: 0, paddingLeft: '18px', display: 'flex', flexDirection: 'column' as const, gap: '6px' }}>
           {[
-            'Replace [Add your chapter timestamps here] with real chapter times from your video.',
-            'Add any links you mention to the links section.',
-            'The first 125 characters show in YouTube search results — make sure they hook your viewer.',
-            'YouTube recommends 3–5 hashtags. Edit them down if needed.',
-            'Paste the description before setting your title, tags and category so everything is done in one session.',
+            'YouTube reads your entire description for search ranking, not just the opening line. Keywords mentioned naturally throughout the full text all count.',
+            'The first 125 characters are your search snippet. That is what people see in YouTube search results before clicking, so make sure your main topic is in there.',
+            'Replace [Add your chapter timestamps here] with real chapter times. Chapters improve watch time and show up as sections under the video.',
+            'YouTube recommends 3 to 5 hashtags. The first 3 show above your video title so put the most relevant ones first.',
+            'Add any links you mention in the video to the links section before publishing.',
           ].map((tip, i) => (
             <li key={i} style={{ fontSize: '0.83rem', color: 'rgba(255,255,255,0.55)', lineHeight: 1.5 }}>{tip}</li>
           ))}
@@ -307,7 +310,7 @@ export default function YouTubeDescriptionGenerator() {
         {/* Tags */}
         <label style={{ display: 'block', marginBottom: '18px' }}>
           <span style={{ display: 'block', fontSize: '0.73rem', fontWeight: 700, fontFamily: "'Montserrat', sans-serif", letterSpacing: '0.08em', textTransform: 'uppercase' as const, color: 'rgba(255,255,255,0.5)', marginBottom: '8px' }}>
-            Tags / keywords <span style={{ color: 'rgba(255,255,255,0.25)', fontWeight: 400, fontStyle: 'italic' }}>optional — comma separated</span>
+            Tags / keywords <span style={{ color: 'rgba(255,255,255,0.25)', fontWeight: 400, fontStyle: 'italic' }}>optional, comma separated</span>
           </span>
           <input
             type="text"
