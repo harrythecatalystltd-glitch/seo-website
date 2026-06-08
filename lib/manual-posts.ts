@@ -11,6 +11,198 @@ export type ManualPost = {
 
 export const manualPosts: ManualPost[] = [
   {
+    slug: 'ai-skills-local-business-revenue-growth-uk',
+    title: 'The AI Skills That Took a Manchester Service Business From £255k to £645k a Year (Here Is the Exact System)',
+    description: 'How a local PT course business grew from £255k to £645k a year without spending more on ads. The exact AI tools, landing page fixes, and email systems that made it happen.',
+    category: 'AI Tools',
+    publishedAt: '2026-06-08',
+    readingTime: 12,
+    image: '/blog/ai-skills-local-business-revenue-growth-uk.jpg',
+    html: `
+<p>Four years ago, a PT course business in Manchester was spending £8,000 a month on Google Ads and earning £255,000 a year. By year four, the same business was earning £645,000 a year. The ad budget had not changed by a single pound.</p>
+
+<p>No new staff. No rebrand. No viral moment. The growth came from one insight: the money was not being lost before people clicked the ads. It was being lost after they landed on the site.</p>
+
+<p>This is the full story of what changed, system by system, and how you can apply the same approach to any local service business.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">What you will get from this</p>
+  <ul style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.82);line-height:1.85;">
+    <li style="margin-bottom:8px;">How a local service business grew revenue by £390,000 without increasing its ad spend</li>
+    <li style="margin-bottom:8px;">Why 98% of website visitors were leaving without making contact, and the fix that stopped it</li>
+    <li style="margin-bottom:8px;">The 4-system framework that turned a click into a sale</li>
+    <li style="margin-bottom:8px;">How Claude AI wrote landing pages, built SEO content, and researched keywords in hours instead of weeks</li>
+    <li style="margin-bottom:0;">Where to get the exact AI skills used in this case study for a single payment of £97</li>
+  </ul>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#doing-everything-right">The business that was doing almost everything right</a></li>
+    <li style="margin-bottom:8px;"><a href="#where-leaking">Where the money was actually leaking</a></li>
+    <li style="margin-bottom:8px;"><a href="#landing-page-fix">The landing page fix that tripled form completions</a></li>
+    <li style="margin-bottom:8px;"><a href="#email-system">The email system that closed sales on autopilot</a></li>
+    <li style="margin-bottom:8px;"><a href="#three-hour-rule">Why calling leads within 3 hours changed everything</a></li>
+    <li style="margin-bottom:8px;"><a href="#claude-ai">How Claude AI scaled the parts that were working</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-result">The result and how to replicate it</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-ai-tools">Common questions about AI tools for local business</a></li>
+  </ol>
+</div>
+
+<h2 id="doing-everything-right">The Business That Was Doing Almost Everything Right</h2>
+
+<p>This was a personal training course provider serving Manchester and Liverpool. They ran Google Ads every month. They had a working website. They ranked for a handful of relevant keywords. Traffic arrived consistently.</p>
+
+<p>The owner was not naive. He tracked spend. He checked his ad click-through rates. He knew roughly how many people were visiting the site each month. On paper, the funnel looked like it was working.</p>
+
+<p>But the revenue was stuck. For a business spending £96,000 a year on Google Ads, £255,000 in annual revenue felt thin. Something was wrong, and it was not obvious where.</p>
+
+<h2 id="where-leaking">Where the Money Was Actually Leaking</h2>
+
+<p>The first thing we did was look at what happened after the click. Not the ad click rate. Not the impressions. What happened when a real person landed on the course page.</p>
+
+<p>Of every 100 people who landed on the main course landing page, fewer than 2 filled in the contact form. A 98% drop-off rate. Not because the traffic was wrong. The people clicking were genuinely looking for a PT course. They were the right audience. They arrived, looked around, and left.</p>
+
+<p>Three things were causing the leak. The landing pages were overloaded with information, navigation links, and an 8-field contact form that asked for more than most people were willing to give a stranger. There was no email follow-up for people who did not convert on the first visit. And leads that did come through were often waiting 18 to 24 hours for a response, by which point they had enrolled elsewhere.</p>
+
+<p>The business was not losing leads at the top of the funnel. It was losing them at every single step after the click. The ad budget was paying to bring people in the front door. A broken system was pushing them straight out the back.</p>
+
+<p>For a detailed look at the specific website issues that kill enquiries, see our guide on <a href="/blog/why-website-not-getting-enquiries">the 7 reasons your website is not getting enquiries</a>.</p>
+
+<h2 id="landing-page-fix">The Landing Page Fix That Tripled Form Completions</h2>
+
+<p>The first change was the most visible. We stripped the landing pages back to their simplest possible form.</p>
+
+<p>Navigation menus were removed. Sidebars were gone. The page had one job: explain the problem the reader had, show them the solution, and ask for one thing. Just a name and an email address. Nothing else on the first visit.</p>
+
+<p>The headline changed from a course description to a problem statement. Not "Level 3 Personal Trainer Course, Manchester" but "Want to become a qualified personal trainer in Manchester? Here is the fastest way to do it."</p>
+
+<p>Trust elements were moved above the fold. Google review scores. Student outcome data. A real photo of a recent graduate. Everything a hesitant visitor needed to feel safe was in the first screen, not buried below a point they might never scroll to.</p>
+
+<p>Within 30 days, form completions went from under 2% to 8% on the same traffic. The ad budget had not changed. The keywords had not changed. The only thing that changed was what the page said and what it asked for.</p>
+
+<p>For a full breakdown of what makes a high-converting local business website, the guide on <a href="/blog/how-to-get-more-leads-from-your-website">getting more leads from your website without paying for ads</a> covers each element in order of impact.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want the exact AI skills used to build these pages?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">The Agency Vault includes 16 Claude skills covering website copy, SEO content, keyword research, and more. One payment of £97. New skills added every week and yours forever.</p>
+  <a href="/the-agency-vault" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Instant Access for £97</a>
+</div>
+
+<h2 id="email-system">The Email System That Closed Sales on Autopilot</h2>
+
+<p>Getting someone's name and email address is not a sale. Most local businesses treat an opt-in as a lead and then wait for the phone to ring. That waiting is where most of the revenue goes.</p>
+
+<p>We built a 14-email sequence that activated automatically the moment someone submitted the form. The first email arrived within 5 minutes. It did not try to sell anything. It answered the one question every new opt-in had: "Is this course actually right for me?"</p>
+
+<p>Over 14 days, the sequence covered what the qualification involved, what jobs it opened up, what personal trainers earn in Manchester, real student stories, and honest answers to the five most common objections. By email 10, most people had already decided. The final email with the enrolment link felt like a confirmation, not a pitch.</p>
+
+<p>Students started enrolling without ever speaking to anyone. Not the majority, but a consistent percentage every single month. Revenue that the business had been leaving on the table started arriving automatically. Overnight. At weekends. During bank holidays.</p>
+
+<p>The lead magnet that fed this sequence was simple: a short guide answering the most common questions about PT qualifications. Not a brochure. Not a price list. A useful piece of content that attracted exactly the right people. For ideas on what works well as a lead magnet for UK local businesses, see our post on <a href="/blog/what-is-a-lead-magnet-ideas-for-local-businesses">lead magnet ideas that convert</a>.</p>
+
+<h2 id="three-hour-rule">Why Calling Leads Within 3 Hours Changed Everything</h2>
+
+<p>The email system handled leads who needed time. But some people were ready to talk right away. For those leads, speed was everything.</p>
+
+<p>Research shows the odds of converting a lead drop by 80% after the first hour. After 24 hours, most people have already found an alternative or stopped thinking about it. The business was responding in an average of 18 hours.</p>
+
+<p>We introduced one rule: every new enquiry gets a phone call within 3 hours. Not the next morning. Not when someone had time. Within 3 hours.</p>
+
+<p>We set up a CRM that sent an immediate alert to whoever was on lead duty that day. A 30-minute window was blocked in the diary every morning and every afternoon, specifically for lead calls. Nothing else went in those slots.</p>
+
+<p>The conversion rate on called leads went from 12% to 31% within 3 months. Same leads. Same offer. Same price. The only variable was how quickly the phone rang after the form was submitted.</p>
+
+<h3>See How Claude AI Skills Work in Practice</h3>
+
+<p>This video shows how Claude AI skills work across different business tasks. If you want to understand the tool before buying the vault, this is a good place to start.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/ADByNXt2ouY" title="10 Claude AI Skills That Will Save You 20+ Hours a Week" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="claude-ai">How Claude AI Scaled the Parts That Were Working</h2>
+
+<p>Every system above needed content. Landing pages needed copy. Email sequences needed writing. Blog posts needed researching and publishing to improve SEO rankings. Location pages for Manchester and Liverpool needed building.</p>
+
+<p>Doing all of that at pace, while running the rest of the business, was not possible without help. That is where Claude AI came in.</p>
+
+<p>We used Claude to rewrite every landing page from scratch. The brief was always the same: problem first, solution second, social proof third, single clear call to action. Claude produced first drafts in minutes. Editing and publishing took an hour instead of a day.</p>
+
+<p>For the blog strategy, we researched which keywords had realistic ranking potential in Manchester and Liverpool. Claude then wrote posts targeting each one. Competitor analysis that would have taken a full day was done in 20 minutes. Blog posts that would have taken a working day were drafted in under an hour.</p>
+
+<p>For keyword research, we identified the exact phrases people searched before enrolling on a PT course. We looked at who was ranking, why they were winning, and where the gaps were. The <a href="/keyword-analyser">free keyword analyser on this site</a> runs the same check: paste any keyword and it shows the real top 10 results, flags the competition level, and generates headline ideas based on what is actually ranking.</p>
+
+<p>We also built dedicated location pages for each area the business served. Each page targeted a specific local search and included local context that generic course pages could not match. Claude handled the copy for all of them, from a clear brief, in a fraction of the time manual writing would have taken.</p>
+
+<p>Within 12 months, organic traffic had increased by 40% on top of the paid traffic. More leads from the same ad spend. And a growing number of leads that cost nothing at all.</p>
+
+<p>For the full local SEO approach used throughout this project, the <a href="/blog/local-seo-checklist-small-business-uk">12-point local SEO checklist for UK small businesses</a> covers each element in the order that produces the fastest results.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">These are the exact skills now in the Agency Vault</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">16 Claude AI skills for website design, SEO, content, sales copy, and business growth. Buy once. Keep forever. New skills added every week and yours automatically at no extra cost.</p>
+  <a href="/the-agency-vault" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">See All 16 Skills for £97</a>
+</div>
+
+<h2 id="the-result">The Result and How to Replicate It</h2>
+
+<p>Year 1: £255,000. Year 4: £645,000. Same ad budget. Same team. Same product.</p>
+
+<p>The business grew by £390,000 a year without spending an extra pound on traffic. Every pound of growth came from fixing what happened after the click: the pages, the follow-up, the speed to contact, and the content that built trust before any conversation took place.</p>
+
+<p>The same pattern shows up in almost every local service business we work with. Traffic arrives. Most of it leaves without converting. The leads that do come through wait too long for a response. The visitors who are not quite ready to buy hear nothing after their first visit and never come back.</p>
+
+<p>Fixing those gaps does not require a bigger budget. It requires the right tools and the knowledge of what to build. The Agency Vault contains every instruction set we use, built into 16 skills ready to install in Claude. Website copy that converts. SEO content that ranks. Keyword research that finds the right terms. Location pages that capture local traffic. Email copy that nurtures leads. Ad copy that drives action.</p>
+
+<p>All of it for a single payment of £97. Every new skill added to the vault goes straight to you, automatically, forever. No subscription. No renewal. Buy once and it is yours for the lifetime of the product, including everything added after you join.</p>
+
+<h2 id="faq-ai-tools">Common Questions About AI Tools for Local Business</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does this approach work for businesses other than PT course providers?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes. The pattern of fixing what happens after the click applies to any local service business that generates leads through a website. Tradespeople, fitness studios, tutors, driving schools, dental practices, accountants, cleaning companies. If you spend money getting traffic and that traffic is not converting at the rate it should, the same 4 systems apply.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do I need technical knowledge to use the Agency Vault skills?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. The skills are installed in Claude in about 5 minutes. Once installed, they activate automatically when you start a relevant task. You do not need to know anything about AI or prompting. You talk to Claude as normal and the skill handles the rest. A step-by-step setup guide is included with every purchase.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it take to see results from these changes?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Landing page improvements can show results within days of going live. Email automation produces its first sales within the first few weeks. Speed-to-contact improvements affect your very next lead. SEO content takes longer, typically 2 to 4 months before rankings move, but compounds over time. The fastest wins come from the landing pages and follow-up speed, which you can change this week.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is included in the Agency Vault?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">16 Claude AI skills across 5 categories: website design, SEO, content, sales copy, and business tools. That includes a website builder, SEO blog writer, keyword research tool, YouTube title analyser, meta ad copywriter, slide deck creator, and more. See the full list on the <a href="/the-agency-vault" style="color:#FFD700;">Agency Vault page</a>. New skills are added every week and go straight into your vault at no extra charge.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is the £97 a subscription or a one-off payment?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">One-off. You pay £97 once and the skills are yours forever. There are no monthly fees, no renewals, and no usage limits. Every new skill added to the vault after your purchase is included automatically, regardless of when you joined or how many new skills are added later.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Which skill should I use first?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Start with the SEO Optimiser if your website is already live and getting some traffic. It audits your site, identifies the specific issues holding back your rankings, and tells you exactly what to fix. If you are building a new site or a new landing page, start with the Website Builder. The full setup guide included with your purchase walks you through the right sequence based on your situation.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by The Catalyst Method</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">We help UK local businesses get more enquiries from Google through SEO, lead generation, and AI tools built for real results. For more case studies and practical guides, <a href="/blog">visit the blog</a>. To get the exact AI skills used in this case study, visit the <a href="/the-agency-vault">Agency Vault</a>.</p>
+</div>
+`,
+  },
+  {
     slug: 'google-business-profile-optimisation-uk',
     title: 'How to Optimise Your Google Business Profile: The 2026 Guide for UK Small Businesses',
     description: 'A step-by-step guide to Google Business Profile optimisation for UK small businesses. Learn the 7 steps that move you up the Map Pack and win more local enquiries.',
