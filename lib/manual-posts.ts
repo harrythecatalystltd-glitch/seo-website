@@ -17,7 +17,7 @@ export const manualPosts: ManualPost[] = [
     category: 'AI Tools',
     publishedAt: '2026-06-08',
     readingTime: 12,
-    image: '/blog/ai-skills-local-business-revenue-growth-uk.jpg',
+    image: '/blog/localbusinessrevenue.png',
     html: `
 <p>Four years ago, a PT course business in Manchester was spending £8,000 a month on Google Ads and earning £255,000 a year. By year four, the same business was earning £645,000 a year. The ad budget had not changed by a single pound.</p>
 
