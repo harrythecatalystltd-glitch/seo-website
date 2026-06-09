@@ -11,6 +11,242 @@ export type ManualPost = {
 
 export const manualPosts: ManualPost[] = [
   {
+    slug: 'email-automation-sequence-local-business-uk',
+    title: 'The 7-Part Email Sequence That Nurtures Local Business Leads Into Sales (The Exact System We Use)',
+    description: 'The exact 7-part email sequence we use to turn local business leads into paying customers. Real subject lines, a 20% open rate, and the GoHighLevel setup behind it.',
+    category: 'Lead Generation',
+    publishedAt: '2026-06-09',
+    readingTime: 11,
+    html: `
+<p>Most local businesses spend money getting leads and then do nothing useful with them. The lead fills in the form. Someone follows up once. Nothing comes of it. The lead goes cold and is written off as low quality.</p>
+
+<p>That is not a lead quality problem. That is a follow-up problem.</p>
+
+<p>This is the exact 7-part email sequence we use to turn cold opt-ins into paying customers, without a phone call, without a big team, and without a complicated tech setup. Every detail here comes from real campaigns run across local service businesses in the UK.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">What you will get from this</p>
+  <ul style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.82);line-height:1.85;">
+    <li style="margin-bottom:8px;">The 7-email structure that moves a lead from cold opt-in to ready to buy</li>
+    <li style="margin-bottom:8px;">The subject line that consistently achieves a 20% open rate and exactly why it works</li>
+    <li style="margin-bottom:8px;">The PS and PPS formula that drives all the clicks in the sequence</li>
+    <li style="margin-bottom:8px;">How to rescue open rates when they drop after email 4</li>
+    <li style="margin-bottom:0;">The platform we use and recommend, and how to get a pre-built version free</li>
+  </ul>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#leads-go-cold">Why your leads go cold before they buy</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-it-does">What a 7-part nurture sequence actually does</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-7-emails">The 7 emails, what each one contains</a></li>
+    <li style="margin-bottom:8px;"><a href="#subject-line">The subject line that gets a 20% open rate</a></li>
+    <li style="margin-bottom:8px;"><a href="#ps-pps">The PS and PPS formula that drives every click</a></li>
+    <li style="margin-bottom:8px;"><a href="#open-rate-drop">How to rescue open rates when they drop at email 4</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-platform">The platform we use and why we give it away free</a></li>
+    <li style="margin-bottom:8px;"><a href="#write-faster">How to write the whole sequence faster with AI</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-email">Common questions about email automation for local business</a></li>
+  </ol>
+</div>
+
+<h2 id="leads-go-cold">Why Your Leads Go Cold Before They Buy</h2>
+
+<p>When someone fills in your contact form or downloads your lead magnet, they are interested. They have a problem and they are actively looking for a solution. That moment is the highest point of intent they will ever have.</p>
+
+<p>Most businesses respond to that moment with one email, one follow-up call, and silence. The lead was never nurtured. They were never shown proof that you deliver results. Their objections were never addressed. They were just expected to buy from a stranger they had known for 48 hours.</p>
+
+<p>Nobody buys like that. People buy from businesses they trust, and trust takes more than one touchpoint to build. A 7-part sequence gives you 7 chances to build that trust, answer the objections that are silently killing your sales, and move someone from curious to committed without a single extra pound spent on ads.</p>
+
+<p>If you are not sure why your current website visitors are not converting into leads in the first place, the guide on <a href="/blog/why-website-not-getting-enquiries">the 7 reasons your website is not getting enquiries</a> covers that part of the problem first.</p>
+
+<h2 id="what-it-does">What a 7-Part Nurture Sequence Actually Does</h2>
+
+<p>A nurture sequence is not a sales campaign. It is a trust-building system that runs automatically from the moment someone opts in.</p>
+
+<p>Done well, it does four things. It delivers immediate value before asking for anything. It shows proof of results across multiple touchpoints. It handles the objections your ideal customer has before they have to voice them. And it closes with a clear path to the next step, whether that is a call, a purchase, or a reply.</p>
+
+<p>The 7-email structure gives you enough room to do all of this without overwhelming the reader. Each email has one job. One message. One action you want the reader to take. Nothing more.</p>
+
+<p>The sequence runs every 7 days. That spacing is deliberate. Close enough to stay in their mind. Spread out enough to feel like a conversation, not a bombardment.</p>
+
+<h2 id="the-7-emails">The 7 Emails, What Each One Contains</h2>
+
+<p>Here is the exact structure we use. Every email is built around your specific audience and the real objections they have, which we research before writing a single word.</p>
+
+<h3>Email 1: The Free Gift (Day 0, sent immediately on opt-in)</h3>
+
+<p>This goes out within 5 minutes of the opt-in. It delivers the lead magnet they signed up for. No selling. No pitching. Just the thing you promised them, delivered fast.</p>
+
+<p>This email sets the tone for everything that follows. You gave them something useful before asking for anything. That is the foundation of every good business relationship.</p>
+
+<h3>Email 2: Proof (Day 7)</h3>
+
+<p>A short case study or result story. One client. One specific outcome. Real numbers wherever possible. The goal is simple: show that what you do actually works for people like them.</p>
+
+<p>Keep this email short. Two or three paragraphs. The story should feel personal, not like a testimonial page. Write it as if you are telling a friend what happened.</p>
+
+<h3>Email 3: More Proof (Day 14)</h3>
+
+<p>A second proof email. Different client, different outcome, same message: this works. Two proof emails in a row builds a pattern. One result might be a fluke. Two results is a track record.</p>
+
+<h3>Email 4: Objection 1 (Day 21)</h3>
+
+<p>This is where the sequence earns its money. The first objection email addresses the single biggest reason your ideal customer does not buy. Not a generic objection. The specific one your avatar has, based on real research into what they think and say before they make a decision.</p>
+
+<p>For a PT course business it might be "I am not sure I am fit enough to become a trainer." For an accountancy firm it might be "I do not think I am big enough to need an accountant yet." Whatever the real objection is, you name it in the subject line and answer it directly in the body.</p>
+
+<h3>Email 5: Free Gift 2 (Day 28)</h3>
+
+<p>Open rates drop after email 4. This is predictable and it happens in almost every sequence. The fix is to give something away again at email 5. A second lead magnet, a bonus resource, a template, or a tool. Anything genuinely useful.</p>
+
+<p>This resets the reader's relationship with your emails. You are not someone who only sells. You are someone who keeps giving value. Open rates spike back up and the sequence continues from a position of goodwill.</p>
+
+<p>For ideas on what works well as a lead magnet for local businesses, see the guide on <a href="/blog/what-is-a-lead-magnet-ideas-for-local-businesses">lead magnet ideas that convert</a>.</p>
+
+<h3>Email 6: Objection 2 (Day 35)</h3>
+
+<p>The second biggest objection your avatar has. Same format as email 4. Name the objection. Answer it honestly. Give them a reason to reconsider.</p>
+
+<p>Objection emails convert better than almost any other type of email in a nurture sequence. Most businesses are too afraid to name what their customers are thinking. The ones that do it earn immediate trust, because it shows they understand the reader well enough to know what is holding them back.</p>
+
+<h3>Email 7: The Close (Day 42)</h3>
+
+<p>The final email makes the ask directly. Not aggressively. Clearly. By this point the reader has received value, seen proof, and had their main objections addressed. If they are still on the list and still reading, they are interested. They just need a reason to act now.</p>
+
+<p>Give them one. A deadline, a limited intake, a specific next step. The close email should feel like a natural conclusion to a 6-week conversation, not a hard sell tacked on at the end.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want AI to write this entire sequence for you?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">The Agency Vault includes the 90 Day Marketing Plan skill, which builds your full strategy, content plan, and lead generation system using Claude AI. One payment of £97. New skills added every week.</p>
+  <a href="/the-agency-vault" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Instant Access for £97</a>
+</div>
+
+<h2 id="subject-line">The Subject Line That Gets a 20% Open Rate</h2>
+
+<p>Email 1 always uses the same subject line: <strong>"Did you get it?"</strong></p>
+
+<p>That is it. Four words. And it outperforms every other subject line we have tested on the first email of a nurture sequence.</p>
+
+<p>Here is why it works. It implies a previous interaction. The reader feels like this is a personal follow-up from someone who sent them something. It creates instant curiosity without being clickbait. And because the first line of the email is personalised with their name, the combination of a personal subject line and a personal opening line reads like a message from a real person, not a marketing campaign.</p>
+
+<p>That first line personalisation is non-negotiable. Every email in the sequence opens with a variable that pulls in the contact's first name and something relevant to their situation. "Hi [First Name], I noticed you grabbed the guide on becoming a PT in Manchester" does more work in one sentence than three paragraphs of generic copy.</p>
+
+<p>For emails 2 through 7, the subject line formula changes. Use curiosity for proof emails ("What happened when Sarah tried this for the first time"). Use directness for objection emails ("If you think you are too old to become a PT, read this"). Use urgency for the close ("The next intake closes Friday").</p>
+
+<p>The 20% open rate comes from consistency across all 7 emails, not just email 1. If your first email is great and the rest feel like newsletters, the sequence will decay fast. Every email needs to feel personal, worth opening, and worth reading to the end.</p>
+
+<h2 id="ps-pps">The PS and PPS Formula That Drives Every Click</h2>
+
+<p>Most people scan emails before they read them. They look at the first line and the last few lines. The PS and PPS at the bottom of every email are the most-read part after the opening.</p>
+
+<p>Use this structure at the bottom of every email in the sequence:</p>
+
+<p><strong>PS:</strong> The soft call to action. A low-commitment next step. "If you want to know more before you decide, just reply to this email with your questions and I will answer personally." This works because it is genuine. It is a real personal inbox. People do reply, and those replies convert at a very high rate because the person is engaged enough to write back.</p>
+
+<p><strong>PPS:</strong> The hard call to action. A direct link to book a call or take the next step. "When you are ready to start, you can book a free 15-minute call here: [link]." Short, direct, no pressure. Just available for the reader who is ready.</p>
+
+<p>The soft CTA converts the undecided. The hard CTA converts the ready. Having both in every email means you capture both types of buyer without having to guess which stage each person is at.</p>
+
+<p>The "reply to this email" line is one of the most powerful things you can add to a local business email sequence. It signals that a real person is on the other end. It removes the feeling of being processed by a system. And it gives hesitant buyers a low-stakes way to engage before committing to anything.</p>
+
+<h2 id="open-rate-drop">How to Rescue Open Rates When They Drop at Email 4</h2>
+
+<p>Open rates will fall across a 7-email sequence. This is normal and it does not mean the sequence is failing. It means some people have made their decision, one way or the other, by email 4. The ones who are still opening are your hottest prospects.</p>
+
+<p>The drop typically happens between emails 4 and 5. The sequence has been running for 28 days. Novelty has worn off. The free gift from email 1 is a distant memory.</p>
+
+<p>The fix is email 5: another free gift. A second resource, a checklist, a template, a bonus guide. Something genuinely useful that costs you nothing to deliver but reminds the reader why they are on your list in the first place.</p>
+
+<p>The subject line for email 5 makes the gift explicit: "A free [resource] for you" or "I made something for you." Open rates jump back up because value resets the relationship. The reader stops thinking of you as someone who sends emails and starts thinking of you as someone who gives them things.</p>
+
+<p>After the open rate spike at email 5, emails 6 and 7 perform better than they would have without it. The second free gift buys you two more high-performing emails. It is the cheapest conversion tactic in the entire sequence.</p>
+
+<h3>See the Exact GoHighLevel Setup in Practice</h3>
+
+<p>This walkthrough shows how to build a 7-day nurture sequence inside GoHighLevel step by step. Worth watching before you start building your own.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/59shTGzlfAk" title="How to Create a 7-Day Nurture Email Sequence in GoHighLevel" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="the-platform">The Platform We Use and Why We Give It Away Free</h2>
+
+<p>We have built email sequences on Salesforce, Mailchimp, ActiveCampaign, and GoHighLevel. For local service businesses, GoHighLevel wins on every metric that matters: ease of setup, CRM integration, automation depth, and cost.</p>
+
+<p>GoHighLevel combines your CRM, email automation, pipeline management, and lead tracking into one platform. You do not need five separate tools talking to each other. Everything lives in one place, which means leads never fall through the gaps between systems.</p>
+
+<p>The pre-built 7-part sequence we described in this post is available as a ready-to-install snapshot inside GoHighLevel. You do not need to build the automation from scratch. You install the snapshot, customise the copy for your business, and the sequence is live.</p>
+
+<p>We include a GoHighLevel account with the pre-built sequence, CRM setup, and lead magnet templates as part of our main offer. If you want to get the full system set up for your business, <a href="/contact">get in touch and we will talk through what that looks like</a>.</p>
+
+<p>For the AI skills that generate the content that feeds into the sequence, including email copy, landing pages, and blog posts, see the <a href="/the-agency-vault">Agency Vault</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">16 AI skills that write the content your sequence needs</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Landing page copy. Lead magnets. Blog posts that rank. Email sequences. The Agency Vault covers every piece of content a local business needs to generate and convert leads. One payment of £97. Lifetime access. New skills added every week.</p>
+  <a href="/the-agency-vault" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">See All 16 Skills for £97</a>
+</div>
+
+<h2 id="write-faster">How to Write the Whole Sequence Faster With AI</h2>
+
+<p>The biggest reason local business owners do not build a nurture sequence is time. Writing 7 emails that feel personal, handle real objections, and stay on brand across 42 days of contact is not a quick afternoon task.</p>
+
+<p>It was not quick before AI. Now it is.</p>
+
+<p>The process we use starts with a brief. Before a single email is written, we research the avatar: who they are, what they want, what is stopping them buying, and what language they use to describe their problem. That research informs every subject line, every objection email, and every proof story in the sequence.</p>
+
+<p>With that brief, Claude AI drafts all 7 emails in a single session. Each draft is typically 80 to 90% ready to send. The review and personalisation pass takes an hour. A process that used to take a week of writing and editing is done in a morning.</p>
+
+<p>The <a href="/blog/ai-skills-local-business-revenue-growth-uk">PT business case study</a> covers how this approach worked across landing pages, blog content, and email copy at the same time, producing results that compounded month on month. The same method applies here.</p>
+
+<p>The Agency Vault includes the 90 Day Marketing Plan skill, which maps out your full content and lead generation strategy before anything is written. Starting with a plan means the sequence is built around the right objectives from day one, not retrofitted around guesswork. You can see everything included on the <a href="/the-agency-vault">Agency Vault page</a>.</p>
+
+<h2 id="faq-email">Common Questions About Email Automation for Local Business</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How many leads do I need before a nurture sequence is worth setting up?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Even 10 leads a month justifies a sequence. If you are converting 2 of those 10 without one, a well-built sequence will typically move that to 3 or 4. That is a 50% to 100% increase in sales from the same traffic, with no extra ad spend. The sequence is built once and runs forever. The earlier you set it up, the more compounding value it delivers.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I use the same sequence for every lead?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Start with one sequence that covers your main offer and your main audience. Once that is live and producing results, you can branch the sequence based on behaviour. Leads who click specific links can enter a more targeted follow-up. Leads who do not open after email 3 can move to a re-engagement sequence. For most local businesses, one well-built sequence outperforms multiple poorly built ones.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is a good open rate for a local business email sequence?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">The UK average for small business email marketing sits around 20 to 22% across all industries. A well-structured nurture sequence should match or beat that on the first two emails. Expect some decay across the sequence, dropping to around 12 to 15% by emails 6 and 7. If your email 1 open rate is below 15%, the problem is usually the subject line or the sender name rather than the content.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do I need to keep writing new emails or does the sequence run forever?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">The sequence runs automatically for every new lead without you doing anything. You build it once and it works in the background indefinitely. We recommend reviewing the sequence every 6 months to update proof stories, refresh the objection emails based on any new feedback you have received, and update any links or offers that have changed. Beyond that, the system runs itself.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is the best platform for a local business email sequence?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">GoHighLevel is our recommendation for local service businesses. It combines CRM, email automation, pipeline tracking, and lead management in one platform, which removes the gaps that appear when multiple tools have to talk to each other. It is more powerful than Mailchimp for automation and more affordable than Salesforce at the same capability level. We include a GoHighLevel setup with the pre-built 7-part sequence as part of our main offer. <a href="/contact" style="color:#FFD700;">Get in touch</a> to find out more.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I get leads into the sequence in the first place?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">A lead magnet on your landing page is the most effective way to capture opt-ins from warm traffic. Someone visiting your site is already interested. A free guide, checklist, or tool gives them a reason to share their email before they are ready to buy. The guide on <a href="/blog/how-to-get-more-leads-from-your-website" style="color:#FFD700;">getting more leads from your website without paying for ads</a> covers exactly how to set this up.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by The Catalyst Method</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">We help UK local businesses build systems that turn traffic into leads and leads into sales. For more practical guides on SEO, lead generation, and AI tools, <a href="/blog">visit the blog</a>. To get the AI skills that write your content, visit the <a href="/the-agency-vault">Agency Vault</a>.</p>
+</div>
+`,
+  },
+  {
     slug: 'ai-skills-local-business-revenue-growth-uk',
     title: 'The AI Skills That Took a Manchester Service Business From £255k to £645k a Year (Here Is the Exact System)',
     description: 'How a local PT course business grew from £255k to £645k a year without spending more on ads. The exact AI tools, landing page fixes, and email systems that made it happen.',
