@@ -17,6 +17,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Lead Generation',
     publishedAt: '2026-06-09',
     readingTime: 11,
+    image: '/blog/7-emailsequence.png',
     html: `
 <p>Most local businesses spend money getting leads and then do nothing useful with them. The lead fills in the form. Someone follows up once. Nothing comes of it. The lead goes cold and is written off as low quality.</p>
 
