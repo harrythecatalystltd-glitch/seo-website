@@ -119,7 +119,7 @@ export const manualPosts: ManualPost[] = [
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want AI to write this entire sequence for you?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">The Agency Vault includes the 90 Day Marketing Plan skill, which builds your full strategy, content plan, and lead generation system using Claude AI. One payment of £97. New skills added every week.</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">The Agency Vault includes the Email Sequence Writer skill, which interviews you about your business, researches your ideal customer, and writes all 7 emails in full, ready to paste into GoHighLevel. One payment of £97. New skills added every week.</p>
   <a href="/the-agency-vault" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Instant Access for £97</a>
 </div>
 
@@ -203,7 +203,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>The <a href="/blog/ai-skills-local-business-revenue-growth-uk">PT business case study</a> covers how this approach worked across landing pages, blog content, and email copy at the same time, producing results that compounded month on month. The same method applies here.</p>
 
-<p>The Agency Vault includes the 90 Day Marketing Plan skill, which maps out your full content and lead generation strategy before anything is written. Starting with a plan means the sequence is built around the right objectives from day one, not retrofitted around guesswork. You can see everything included on the <a href="/the-agency-vault">Agency Vault page</a>.</p>
+<p>The Agency Vault includes the Email Sequence Writer skill, which does exactly this. It interviews you, researches your avatar, and writes all 7 emails in full with subject lines, personalised openers, body copy, and PS and PPS calls to action. You answer the questions and it produces a complete, ready-to-send sequence. See everything included on the <a href="/the-agency-vault">Agency Vault page</a>.</p>
 
 <h2 id="faq-email">Common Questions About Email Automation for Local Business</h2>
 
