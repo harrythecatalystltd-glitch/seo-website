@@ -180,7 +180,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>The pre-built 7-part sequence we described in this post is available as a ready-to-install snapshot inside GoHighLevel. You do not need to build the automation from scratch. You install the snapshot, customise the copy for your business, and the sequence is live.</p>
 
-<p>We include a GoHighLevel account with the pre-built sequence, CRM setup, and lead magnet templates as part of our main offer. If you want to get the full system set up for your business, <a href="/contact">get in touch and we will talk through what that looks like</a>.</p>
+<p>We include a GoHighLevel account with the pre-built sequence, CRM setup, and lead magnet templates as part of our main offer. If you want to get the full system set up for your business, <a href="/signup">see what is included and sign up here</a>.</p>
 
 <p>For the AI skills that generate the content that feeds into the sequence, including email copy, landing pages, and blog posts, see the <a href="/the-agency-vault">Agency Vault</a>.</p>
 
@@ -230,7 +230,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is the best platform for a local business email sequence?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">GoHighLevel is our recommendation for local service businesses. It combines CRM, email automation, pipeline tracking, and lead management in one platform, which removes the gaps that appear when multiple tools have to talk to each other. It is more powerful than Mailchimp for automation and more affordable than Salesforce at the same capability level. We include a GoHighLevel setup with the pre-built 7-part sequence as part of our main offer. <a href="/contact" style="color:#FFD700;">Get in touch</a> to find out more.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">GoHighLevel is our recommendation for local service businesses. It combines CRM, email automation, pipeline tracking, and lead management in one platform, which removes the gaps that appear when multiple tools have to talk to each other. It is more powerful than Mailchimp for automation and more affordable than Salesforce at the same capability level. We include a GoHighLevel setup with the pre-built 7-part sequence as part of our main offer. <a href="/signup" style="color:#FFD700;">See what is included here</a>.</p>
   </div>
 
   <div style="padding:22px 0 0;">
