@@ -3,15 +3,15 @@ import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 
 export const metadata: Metadata = {
-  title: 'The Agency Vault | 17 AI Skills for Claude | The Catalyst Method',
-  description: 'Get the exact AI skills The Catalyst Method uses every day to grow local businesses. 17 Claude skills covering website design, SEO, content, sales and business growth. One payment of £97. Keep them forever.',
+  title: 'The Agency Vault | 18 AI Skills for Claude | The Catalyst Method',
+  description: 'Get the exact AI skills The Catalyst Method uses every day to grow local businesses. 18 Claude skills covering website design, SEO, content, sales and business growth. One payment of £97. Keep them forever.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/the-agency-vault' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/the-agency-vault',
-    title: 'The Agency Vault | 17 AI Skills for Claude | The Catalyst Method',
-    description: 'The exact AI tools we use to grow local businesses. 17 Claude skills for design, SEO, content, sales and business. One payment of £97. Keep them forever.',
+    title: 'The Agency Vault | 18 AI Skills for Claude | The Catalyst Method',
+    description: 'The exact AI tools we use to grow local businesses. 18 Claude skills for design, SEO, content, sales and business. One payment of £97. Keep them forever.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
   },
@@ -35,7 +35,7 @@ const schema = {
     {
       '@type': 'Product',
       name: 'The Agency Vault',
-      description: '17 AI skills for Claude covering website design, SEO, content, sales and business growth.',
+      description: '18 AI skills for Claude covering website design, SEO, content, sales and business growth.',
       brand: { '@id': 'https://www.thecatalystmethod.co.uk/#organization' },
       offers: {
         '@type': 'Offer',
@@ -48,10 +48,10 @@ const schema = {
     {
       '@type': 'FAQPage',
       mainEntity: [
-        { '@type': 'Question', name: 'What is The Agency Vault?', acceptedAnswer: { '@type': 'Answer', text: 'The Agency Vault is a collection of 17 AI skills for Claude covering website design, SEO, content, sales and business growth. These are the exact tools The Catalyst Method uses every day to grow local businesses across the UK. Skills include Frontend Design, UI/UX Pro Max, Design MD, Website Builder, SEO Keyword Research, SEO Blog Builder, SEO Optimiser, YouTube Description Generator, YouTube Title Analyser, Keyword Difficulty Checker, Meta Ad Copywriter, Slide Deck Creator, Brainstorming, Writing Plans and Writing Skills.' } },
-        { '@type': 'Question', name: 'Is this a subscription?', acceptedAnswer: { '@type': 'Answer', text: 'No. You pay £97 once and keep all 17 skills forever. There are no monthly fees, no renewals and no usage limits. You keep them regardless of what happens to our pricing in the future.' } },
+        { '@type': 'Question', name: 'What is The Agency Vault?', acceptedAnswer: { '@type': 'Answer', text: 'The Agency Vault is a collection of 18 AI skills for Claude covering website design, SEO, content, sales and business growth. These are the exact tools The Catalyst Method uses every day to grow local businesses across the UK. Skills include Frontend Design, UI/UX Pro Max, Design MD, Website Builder, SEO Keyword Research, SEO Blog Builder, SEO Optimiser, YouTube Description Generator, YouTube Title Analyser, Keyword Difficulty Checker, Meta Ad Copywriter, Meta Call Ad Writer, Slide Deck Creator, Brainstorming, Writing Plans and Writing Skills.' } },
+        { '@type': 'Question', name: 'Is this a subscription?', acceptedAnswer: { '@type': 'Answer', text: 'No. You pay £97 once and keep all 18 skills forever. There are no monthly fees, no renewals and no usage limits. You keep them regardless of what happens to our pricing in the future.' } },
         { '@type': 'Question', name: 'Do I need Claude Code to use these skills?', acceptedAnswer: { '@type': 'Answer', text: 'Most skills work perfectly inside Claude.ai on any paid plan. Only the Website Builder skill achieves its best results inside Claude Code, because it needs to create multiple files and folders at once. Full Claude Code setup instructions are included with your purchase. Claude Code is free to download.' } },
-        { '@type': 'Question', name: 'How long does setup take?', acceptedAnswer: { '@type': 'Answer', text: 'Around 5 minutes to install all 17 Claude skills. You go to Settings inside Claude.ai, find the Skills section and upload each folder one by one. A full step by step guide is included with every purchase.' } },
+        { '@type': 'Question', name: 'How long does setup take?', acceptedAnswer: { '@type': 'Answer', text: 'Around 5 minutes to install all 18 Claude skills. You go to Settings inside Claude.ai, find the Skills section and upload each folder one by one. A full step by step guide is included with every purchase.' } },
         { '@type': 'Question', name: 'Can I use these skills for client work?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Use them across as many projects and clients as you like with no restrictions on commercial use. Many buyers use these Claude skills to deliver client work and charge for the output.' } },
         { '@type': 'Question', name: 'What version of Claude do I need?', acceptedAnswer: { '@type': 'Answer', text: 'The skills work with Claude.ai on any paid plan. Claude Pro or above is recommended for the best results.' } },
         { '@type': 'Question', name: 'What if I am not technical?', acceptedAnswer: { '@type': 'Answer', text: 'These Claude skills are built for non-technical users. You do not need any coding knowledge or prompt writing experience. If you can type a message into Claude, you can use every skill in this vault.' } },
@@ -86,11 +86,11 @@ export default function AgencyVaultPage() {
         <div className="hero-inner">
           <div className="brand-tag">
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
-            17 AI Skills. One Payment. Keep Forever.
+            18 AI Skills. One Payment. Keep Forever.
           </div>
           <h1>The Agency<br /><em>Vault.</em></h1>
           <p className="hero-sub" style={{ marginBottom: 40 }}>
-            The exact AI tools we use every day to build websites, run SEO campaigns, create content and grow local businesses across the UK. All 17 skills. All yours for a single payment of £97.
+            The exact AI tools we use every day to build websites, run SEO campaigns, create content and grow local businesses across the UK. All 18 skills. All yours for a single payment of £97.
           </p>
           <a href={STRIPE_URL} className="cta-btn" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
@@ -108,7 +108,7 @@ export default function AgencyVaultPage() {
             background: 'rgba(255,255,255,0.03)',
           }}>
             {[
-              { num: '17', label: 'AI Skills' },
+              { num: '18', label: 'AI Skills' },
               { num: '5',  label: 'Categories' },
               { num: '5 min', label: 'To Set Up' },
               { num: '∞', label: 'Uses' },
@@ -157,10 +157,10 @@ export default function AgencyVaultPage() {
             What Is The Agency Vault
           </div>
           <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
-            17 Claude AI Skills We Use <em>Every Single Day.</em>
+            18 Claude AI Skills We Use <em>Every Single Day.</em>
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 580, marginBottom: 24 }}>
-            The Agency Vault is a collection of 17 AI skills built specifically for Claude. Not generic prompts or templates. The exact instructions we load before every client project at The Catalyst Method.
+            The Agency Vault is a collection of 18 AI skills built specifically for Claude. Not generic prompts or templates. The exact instructions we load before every client project at The Catalyst Method.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 580, marginBottom: 40 }}>
             Not sure how your website is performing right now?{' '}
@@ -313,7 +313,7 @@ export default function AgencyVaultPage() {
                 <span style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(3rem,6vw,4.5rem)', fontWeight: 900, color: 'var(--gold)', letterSpacing: '-0.04em', lineHeight: 1 }}>£97</span>
                 <div>
                   <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.82rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.06em' }}>One Payment</div>
-                  <div style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.42)' }}>17 skills. Lifetime access. No subscription.</div>
+                  <div style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.42)' }}>18 skills. Lifetime access. No subscription.</div>
                 </div>
               </div>
               <a href={STRIPE_URL} className="cta-btn" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1rem', padding: '18px 48px' }}>
@@ -384,7 +384,7 @@ function SkillList({ skills }: { skills: { num: number; name: string; desc: stri
 function CtaBlock() {
   const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
   const STRIPE_URL = 'https://link.fastpaydirect.com/payment-link/6a18434ac3ea3a19f0bd8e8e'
-  const includes = ['17 AI Skills', 'Website Design', 'SEO Tools', 'Content Tools', 'Sales Copy', 'Business Tools', 'Setup Guide', 'Unlimited Uses']
+  const includes = ['18 AI Skills', 'Website Design', 'SEO Tools', 'Content Tools', 'Sales Copy', 'Business Tools', 'Setup Guide', 'Unlimited Uses']
   return (
     <div style={{ padding: '0 24px 80px' }}>
       <div style={{ maxWidth: 820, margin: '0 auto' }}>
@@ -395,7 +395,7 @@ function CtaBlock() {
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.25)', textDecoration: 'line-through', fontFamily: "'Montserrat',sans-serif", fontWeight: 700, marginBottom: 4 }}>Worth well over £500 in agency time</p>
             <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(3rem,7vw,5rem)', fontWeight: 900, color: 'var(--gold)', letterSpacing: '-0.04em', lineHeight: 1, marginBottom: 6 }}>£97</div>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.62)', lineHeight: 1.78, maxWidth: 460, margin: '0 auto 32px' }}>
-              All 17 skills. All categories. Instant access via Google Drive. <strong style={{ color: '#fff' }}>One payment and they are yours forever.</strong> No subscriptions, no renewals, no limits.
+              All 18 skills. All categories. Instant access via Google Drive. <strong style={{ color: '#fff' }}>One payment and they are yours forever.</strong> No subscriptions, no renewals, no limits.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, justifyContent: 'center', marginBottom: 32 }}>
               {includes.map(i => (
@@ -442,13 +442,14 @@ const CONTENT_SKILLS = [
 
 const SALES_SKILLS = [
   { num: 13, name: 'Meta Ad Copywriter', desc: 'Generates Facebook and Instagram ad copy built to convert. Handles primary text variations, headlines and long form descriptions. Direct response focused. Every word earns its place. Built for lead generation campaigns targeting local businesses.', triggers: ['write me a Facebook ad', 'create Meta ad copy', 'I need an Instagram ad for'], folder: 'meta-ad-copywriter' },
+  { num: 14, name: 'Meta Call Ad Writer', desc: 'Writes a complete A/B call ad brief for UK local service businesses. Someone taps the ad on their phone and it dials the business directly. No form. No landing page. Produces two full ads with different angles, three headline options each, five content ideas for future campaigns and step by step setup instructions for Meta Ads Manager.', triggers: ['write a call ad', 'write a Meta ad for my business', 'Facebook call ad', 'ad brief for local business'], folder: 'meta-call-ad-writer' },
 ]
 
 const BIZ_SKILLS = [
-  { num: 14, name: 'Slide Deck Creator', desc: 'Builds premium, fully branded presentations and outputs both a PowerPoint file and a standalone HTML deck you can share by link. Interviews you on topic, audience, content and brand style before building. Works for pitches, workshops, client proposals and internal decks.', triggers: ['make me a deck', 'create a presentation', 'build slides for'], folder: 'slide-deck-creator' },
-  { num: 15, name: 'Brainstorming', desc: 'Explores your idea through dialogue before anything gets built. Asks the right questions, refines your requirements and presents a design for your approval before a single line of code is written. Prevents wasted effort on the wrong thing.', triggers: ['help me think through', 'I have an idea for', 'brainstorm with me on'], folder: 'brainstorming' },
-  { num: 16, name: 'Writing Plans', desc: 'Turns a spec or a set of requirements into a detailed, step by step implementation plan. Breaks complex tasks into clear, bite sized actions. Ideal before starting any multi step project so nothing gets missed and nothing gets built twice.', triggers: ['plan this project for me', 'create a step by step plan for', 'break this down into tasks'], folder: 'writing-plans' },
-  { num: 17, name: 'Writing Skills', desc: 'Helps you create, edit, test and optimise your own Claude skills. If you want to build custom instructions for your specific business or workflow, this skill walks you through the full process from first draft to deployment.', triggers: ['create a new skill', 'edit this skill', 'help me build a custom skill'], folder: 'writing-skills' },
+  { num: 15, name: 'Slide Deck Creator', desc: 'Builds premium, fully branded presentations and outputs both a PowerPoint file and a standalone HTML deck you can share by link. Interviews you on topic, audience, content and brand style before building. Works for pitches, workshops, client proposals and internal decks.', triggers: ['make me a deck', 'create a presentation', 'build slides for'], folder: 'slide-deck-creator' },
+  { num: 16, name: 'Brainstorming', desc: 'Explores your idea through dialogue before anything gets built. Asks the right questions, refines your requirements and presents a design for your approval before a single line of code is written. Prevents wasted effort on the wrong thing.', triggers: ['help me think through', 'I have an idea for', 'brainstorm with me on'], folder: 'brainstorming' },
+  { num: 17, name: 'Writing Plans', desc: 'Turns a spec or a set of requirements into a detailed, step by step implementation plan. Breaks complex tasks into clear, bite sized actions. Ideal before starting any multi step project so nothing gets missed and nothing gets built twice.', triggers: ['plan this project for me', 'create a step by step plan for', 'break this down into tasks'], folder: 'writing-plans' },
+  { num: 18, name: 'Writing Skills', desc: 'Helps you create, edit, test and optimise your own Claude skills. If you want to build custom instructions for your specific business or workflow, this skill walks you through the full process from first draft to deployment.', triggers: ['create a new skill', 'edit this skill', 'help me build a custom skill'], folder: 'writing-skills' },
 ]
 
 const FAQS = [
@@ -456,7 +457,7 @@ const FAQS = [
   { q: 'Do I need Claude Code to use these?', a: '<strong style="color:#fff">Most skills work perfectly inside Claude.ai</strong> on any paid plan. Only the Website Builder skill achieves its best results inside Claude Code, because it needs to create multiple files and folders at once. Full Claude Code setup instructions are included with your purchase. Claude Code is free to download.' },
   { q: 'Is this a subscription?', a: '<strong style="color:#fff">No.</strong> You pay £97 once and the skills are yours forever. No monthly fees, no renewals and no usage limits. You keep them regardless of what happens to our pricing in the future.' },
   { q: 'What version of Claude do I need?', a: 'The skills work with Claude.ai on any paid plan. Claude Pro or above is recommended for the best results. You do not need any specific version or add on beyond a standard paid subscription.' },
-  { q: 'How long does setup take?', a: 'Around 5 minutes to install all 17 skills. A step by step guide is included with every purchase. You go to Settings inside Claude.ai, find the Skills section and upload each folder. That is it.' },
+  { q: 'How long does setup take?', a: 'Around 5 minutes to install all 18 skills. A step by step guide is included with every purchase. You go to Settings inside Claude.ai, find the Skills section and upload each folder. That is it.' },
   { q: 'Can I use these for client work?', a: '<strong style="color:#fff">Yes.</strong> Use them across as many projects and clients as you like with no restrictions on commercial use. Many buyers use these skills to deliver client work and charge for the output.' },
   { q: 'What if I am not technical?', a: 'These skills are built for exactly that. You do not need any technical knowledge. If you can type a message into Claude, you can use every skill in this vault. The skills handle all the complexity for you.' },
   { q: 'Do I get access to updates?', a: 'Yes. When skills are updated you receive access to the new versions via the same Google Drive link. Your access continues for the lifetime of the product.' },
