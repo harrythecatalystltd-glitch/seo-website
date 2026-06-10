@@ -1689,7 +1689,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Paid Advertising',
     publishedAt: '2026-06-10',
     readingTime: 9,
-    image: '/blog/meta-call-ads-vs-lead-forms-local-business.jpg',
+    image: '/blog/metadcall.png',
     html: `
 <div style="background:rgba(255,215,0,0.08);border:1.5px solid rgba(255,215,0,0.3);border-radius:14px;padding:24px 28px;margin:0 0 32px;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 12px;">TL;DR</p>
