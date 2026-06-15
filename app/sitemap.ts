@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { manualPosts } from '@/lib/manual-posts'
+import { SEOBOT_DATE_OVERRIDES } from '@/lib/seobot-overrides'
 
 const BASE_URL = 'https://www.thecatalystmethod.co.uk'
 
@@ -101,12 +102,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ]
 
-  const seobotRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
-    url: `${BASE_URL}/blog/${article.slug}`,
-    lastModified: article.publishedAt ? new Date(article.publishedAt) : new Date(),
-    changeFrequency: 'monthly',
-    priority: 0.6,
-  }))
+  const seobotRoutes: MetadataRoute.Sitemap = articles.map((article) => {
+    const overriddenDate = SEOBOT_DATE_OVERRIDES[article.slug] || article.publishedAt
+    return {
+      url: `${BASE_URL}/blog/${article.slug}`,
+      lastModified: overriddenDate ? new Date(overriddenDate) : new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }
+  })
 
   const manualRoutes: MetadataRoute.Sitemap = manualPosts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,

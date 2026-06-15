@@ -15,7 +15,7 @@ export const manualPosts: ManualPost[] = [
     title: 'The 7-Part Email Sequence That Nurtures Local Business Leads Into Sales (The Exact System We Use)',
     description: 'The exact 7-part email sequence we use to turn local business leads into paying customers. Real subject lines, a 20% open rate, and the GoHighLevel setup behind it.',
     category: 'Lead Generation',
-    publishedAt: '2026-06-09',
+    publishedAt: '2026-02-24',
     readingTime: 11,
     image: '/blog/7-emailsequence.png',
     html: `
@@ -252,7 +252,7 @@ export const manualPosts: ManualPost[] = [
     title: 'The AI Skills That Took a Manchester Service Business From £255k to £645k a Year (Here Is the Exact System)',
     description: 'How a local PT course business grew from £255k to £645k a year without spending more on ads. The exact AI tools, landing page fixes, and email systems that made it happen.',
     category: 'AI Tools',
-    publishedAt: '2026-06-08',
+    publishedAt: '2026-02-20',
     readingTime: 12,
     image: '/blog/localbusinessrevenue.png',
     html: `
@@ -444,7 +444,7 @@ export const manualPosts: ManualPost[] = [
     title: 'How to Optimise Your Google Business Profile: The 2026 Guide for UK Small Businesses',
     description: 'A step-by-step guide to Google Business Profile optimisation for UK small businesses. Learn the 7 steps that move you up the Map Pack and win more local enquiries.',
     category: 'Local SEO',
-    publishedAt: '2026-05-13',
+    publishedAt: '2026-01-30',
     readingTime: 9,
     image: '/blog/google-business-profile-optimisation-uk.jpg',
     html: `
@@ -661,7 +661,7 @@ export const manualPosts: ManualPost[] = [
     title: '7 Reasons Your Website Isn\'t Getting Enquiries (And Exactly How to Fix Each One)',
     description: 'Got a website but no enquiries coming in? Here are the 7 most common reasons UK small business websites fail to convert visitors, with specific fixes for each one.',
     category: 'Lead Generation',
-    publishedAt: '2026-05-13',
+    publishedAt: '2026-01-23',
     readingTime: 9,
     image: '/blog/why-website-not-getting-enquiries.jpg',
     html: `
@@ -865,7 +865,7 @@ export const manualPosts: ManualPost[] = [
     title: 'The Local SEO Checklist for UK Small Businesses: 12 Checks That Actually Move the Needle',
     description: 'A practical 12-point local SEO checklist for UK small businesses. Work through these checks once and repeat the monthly ones to consistently outrank local competitors on Google.',
     category: 'Local SEO',
-    publishedAt: '2026-05-13',
+    publishedAt: '2026-01-16',
     readingTime: 10,
     image: '/blog/local-seo-checklist-small-business-uk.jpg',
     html: `
@@ -1054,7 +1054,7 @@ export const manualPosts: ManualPost[] = [
     title: 'How to Get More Leads From Your Website (Without Paying for Ads)',
     description: 'Seven practical changes that turn a small business website into a consistent source of enquiries. No paid ads, no agency required. Just fixes that work.',
     category: 'Lead Generation',
-    publishedAt: '2026-05-14',
+    publishedAt: '2026-02-13',
     readingTime: 11,
     image: '/blog/how-to-get-more-leads-from-your-website.jpg',
     html: `
@@ -1260,7 +1260,7 @@ export const manualPosts: ManualPost[] = [
     title: 'What Is a Lead Magnet? 5 Ideas for UK Local Businesses',
     description: 'A lead magnet captures the 97% of visitors who are not ready to buy yet. Five practical lead magnet ideas for UK local businesses, with examples for each.',
     category: 'Lead Generation',
-    publishedAt: '2026-05-14',
+    publishedAt: '2026-02-10',
     readingTime: 9,
     image: '/blog/what-is-a-lead-magnet-ideas-for-local-businesses.jpg',
     html: `
@@ -1459,7 +1459,7 @@ export const manualPosts: ManualPost[] = [
     title: 'Done For You SEO: What It Is and Why UK Small Businesses Need It',
     description: 'Done for you SEO explained for UK small business owners. What is included, how it differs from DIY or hiring a freelancer, and what results to expect.',
     category: 'SEO',
-    publishedAt: '2026-05-14',
+    publishedAt: '2026-02-06',
     readingTime: 10,
     image: '/blog/done-for-you-seo-uk.jpg',
     html: `
@@ -1687,7 +1687,7 @@ export const manualPosts: ManualPost[] = [
     title: 'Form Fills Are Not Customers: How a £28 Meta Call Ad Booked a Real Appointment',
     description: 'Meta lead form ads not converting? Learn why Facebook ads for local businesses fail to produce real bookings and how a £28 call ad test booked a real appointment on day one.',
     category: 'Paid Advertising',
-    publishedAt: '2026-06-10',
+    publishedAt: '2026-02-27',
     readingTime: 9,
     image: '/blog/metadcall.png',
     html: `

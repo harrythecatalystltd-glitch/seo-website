@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import { manualPosts } from '@/lib/manual-posts'
+import { SEOBOT_DATE_OVERRIDES } from '@/lib/seobot-overrides'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
@@ -58,6 +59,7 @@ async function getArticle(slug: string): Promise<Article | null> {
       ...raw,
       description: (r.metaDescription as string) || (r.description as string) || undefined,
       html: raw.html ? stripOldCtas(raw.html) : raw.html,
+      publishedAt: SEOBOT_DATE_OVERRIDES[slug] || (r.publishedAt as string) || undefined,
     } as Article
   } catch {
     return null
