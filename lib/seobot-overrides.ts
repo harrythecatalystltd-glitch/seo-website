@@ -17,4 +17,8 @@ export const SEOBOT_DATE_OVERRIDES: Record<string, string> = {
   'how-to-local-seo-for-my-business-small-business-owners': '2026-02-19',
   'local-seo-for-business-complete-2026-guide-uk-small-businesses': '2026-02-18',
   'seo-checker-tool': '2026-02-17',
+  'education-marketing-strategy-training-providers': '2026-02-05',
+  'education-marketing-strategy-too-complicated': '2026-02-04',
+  'meditation-vs-journaling-building-confidence': '2026-02-03',
+  'simplify-your-offer-overcoming-choice-paralysis': '2026-02-02',
 }

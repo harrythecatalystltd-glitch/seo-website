@@ -35,8 +35,20 @@ async function getArticles(): Promise<{ articles: Article[]; total: number }> {
   try {
     const { BlogClient } = await import('seobot')
     const client = new BlogClient(process.env.SEOBOT_API_KEY || '')
-    const result = await client.getArticles(0, 12)
-    return result as { articles: Article[]; total: number }
+    const pageSize = 50
+    let page = 0
+    const all: Article[] = []
+    let total = 0
+
+    while (true) {
+      const result = await client.getArticles(page, pageSize) as { articles: Article[]; total: number }
+      all.push(...result.articles)
+      total = result.total
+      if (all.length >= result.total || result.articles.length < pageSize) break
+      page++
+    }
+
+    return { articles: all, total }
   } catch {
     return { articles: [], total: 0 }
   }
