@@ -5,7 +5,7 @@ import { manualPosts } from '@/lib/manual-posts'
 
 export const metadata: Metadata = {
   title: 'More Leads for Local Service Businesses | The Catalyst Method',
-  description: 'We get UK local service businesses more leads from Google. Done-for-you SEO and lead generation with a money-back guarantee, or grab the exact tools we use yourself. +297% traffic. £1M+ revenue driven.',
+  description: 'We get UK local service businesses more leads from Google. Done-for-you SEO with a money-back guarantee, or grab the exact tools we use yourself.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/' },
   openGraph: {
@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     url: 'https://www.thecatalystmethod.co.uk/',
     title: 'More Leads for Local Service Businesses | The Catalyst Method',
     description: 'Done-for-you SEO and lead generation for UK local service businesses. New leads within 4 weeks or your money back. Or run the exact tools we use yourself.',
-    images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
+    images: [{ url: 'https://www.thecatalystmethod.co.uk/og', width: 1200, height: 630, alt: 'The Catalyst Method — more leads for local service businesses' }],
     siteName: 'The Catalyst Method',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'More Leads for Local Service Businesses | The Catalyst Method',
     description: 'Done-for-you SEO and lead generation for UK local service businesses. Or run the exact tools we use yourself.',
-    images: ['https://www.thecatalystmethod.co.uk/mainlogo.png'],
+    images: ['https://www.thecatalystmethod.co.uk/og'],
   },
 }
 
