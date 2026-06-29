@@ -164,7 +164,7 @@ export default function AgencyVaultPage() {
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 580, marginBottom: 40 }}>
             Not sure how your website is performing right now?{' '}
-            <Link href="/" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 600, borderBottom: '1px solid rgba(255,215,0,0.35)' }}>
+            <Link href="/website-audit" style={{ color: 'var(--gold)', textDecoration: 'none', fontWeight: 600, borderBottom: '1px solid rgba(255,215,0,0.35)' }}>
               Run our free website audit
             </Link>
             {' '}first. It takes 10 seconds and shows you exactly what is stopping your site from ranking on Google.

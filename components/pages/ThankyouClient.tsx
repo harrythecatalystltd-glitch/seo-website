@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import SiteNav from '@/components/SiteNav'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
@@ -152,19 +153,7 @@ export default function ThankyouClient() {
     return () => { clearTimeout(t); clearInterval(counter) }
   }, [score])
 
-  if (noData) {
-    return (
-      <div className="page" style={{ paddingTop: 80 }}>
-        <div className="no-data">
-          <h2>No report data found</h2>
-          <p>It looks like you arrived here directly. Run a free scan first.</p>
-          <Link href="/">← Scan my website</Link>
-        </div>
-      </div>
-    )
-  }
-
-  if (!data && score === 0) return null
+  if (!data && score === 0 && !noData) return null
 
   const critical   = data?.critical ?? []
   const urgent     = data?.urgent   ?? []
@@ -182,7 +171,32 @@ export default function ThankyouClient() {
         </div>
       )}
 
+      {/* ── SALES HERO (direct visit, no audit data) ── */}
+      {noData && (
+        <section className="hero hero-blog">
+          <SiteNav />
+          <div className="bolts-bg" aria-hidden="true">
+            {[1,2,3,4,5,6,7].map(n => (
+              <svg key={n} className={`bolt b${n}`} viewBox="0 0 18 30">
+                <path fill="currentColor" d={BOLT} />
+              </svg>
+            ))}
+          </div>
+          <div className="hero-inner">
+            <div className="brand-tag">
+              <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
+              Done For You SEO &amp; Lead Generation
+            </div>
+            <h1>We Get You <em>More Leads.</em></h1>
+            <p className="hero-sub">
+              We take over your Google profile, website, content and follow-up so new enquiries land in your inbox. New leads within 4 weeks or your money back.
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* ── BRIDGE + SCORE HERO ── */}
+      {!noData && (
       <div style={{
         background: 'var(--navy)',
         backgroundImage: 'radial-gradient(ellipse at 50% -10%, #005585 0%, #002B45 65%)',
@@ -240,8 +254,10 @@ export default function ThankyouClient() {
           </div>
         </div>
       </div>
+      )}
 
       {/* ── ISSUES ── */}
+      {!noData && (
       <div className="page" style={{ paddingTop: 48, paddingBottom: 0 }}>
         {critical.length > 0 && (
           <IssueGroup items={critical} severity="critical" icon="✕"
@@ -291,6 +307,7 @@ export default function ThankyouClient() {
           </div>
         </div>
       </div>
+      )}
 
       {/* ── THE OFFER ── */}
       <div style={{ padding: '16px 24px 60px', maxWidth: 680, margin: '0 auto' }}>

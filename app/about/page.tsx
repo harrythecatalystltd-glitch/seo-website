@@ -132,7 +132,7 @@ export default function AboutPage() {
             The Catalyst Method is a local SEO and lead generation system that turns your website into your best salesperson, attracting local customers from Google and converting them into real, high-quality enquiries.
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
@@ -646,7 +646,7 @@ export default function AboutPage() {
             justifyContent: 'center', flexWrap: 'wrap',
             position: 'relative',
           }}>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,

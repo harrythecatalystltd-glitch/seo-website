@@ -108,7 +108,7 @@ export default function ContactClient() {
               <h2>Message sent. We&apos;ll be in touch soon</h2>
               <p>We&apos;ve received your enquiry and will get back to you within one business day.</p>
               <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const, marginTop: 28 }}>
-                <Link href="/" className="contact-back-btn contact-back-btn-gold">
+                <Link href="/website-audit" className="contact-back-btn contact-back-btn-gold">
                   Run a Free Website Audit
                 </Link>
                 <Link href="/signup" className="contact-back-btn">

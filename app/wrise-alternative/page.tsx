@@ -266,7 +266,7 @@ export default function WriseAlternativePage() {
             Same monthly cost as Wrise&apos;s top plan. Considerably more included.
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
@@ -502,7 +502,7 @@ export default function WriseAlternativePage() {
           </div>
 
           <div style={{ textAlign: 'center' }}>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
@@ -716,7 +716,7 @@ export default function WriseAlternativePage() {
             justifyContent: 'center', flexWrap: 'wrap',
             position: 'relative',
           }}>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,

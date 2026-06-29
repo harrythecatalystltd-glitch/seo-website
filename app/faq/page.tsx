@@ -332,7 +332,7 @@ export default function FaqPage() {
             justifyContent: 'center', flexWrap: 'wrap',
             position: 'relative',
           }}>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,

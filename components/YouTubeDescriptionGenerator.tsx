@@ -229,7 +229,7 @@ function Results({ result }: { result: GeneratedDescription }) {
         <p style={{ margin: '0 0 14px', fontSize: '0.95rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.5 }}>
           Want help building a YouTube and SEO strategy that actually brings in leads?
         </p>
-        <a href="/" style={{
+        <a href="/website-audit" style={{
           background: GOLD,
           borderRadius: '8px',
           color: NAVY,

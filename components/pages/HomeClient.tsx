@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
+import SiteNav from '@/components/SiteNav'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
@@ -186,6 +187,7 @@ export default function HomeClient() {
     <>
       {/* Hero */}
       <section className="hero hero-home">
+        <SiteNav />
         <div className="bolts-bg" aria-hidden="true">
           {[1,2,3,4,5,6,7,8].map(n => (
             <svg key={n} className={`bolt b${n}`} viewBox="0 0 18 30">

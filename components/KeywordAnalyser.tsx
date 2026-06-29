@@ -425,7 +425,7 @@ export default function KeywordAnalyser() {
                 Run a free audit of your website and see exactly what is stopping you from appearing on Google.
               </p>
             </div>
-            <a href="/" style={{
+            <a href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: 8, flexShrink: 0,
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat',sans-serif", fontWeight: 800,

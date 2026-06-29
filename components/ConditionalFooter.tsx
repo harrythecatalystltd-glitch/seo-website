@@ -1,10 +1,4 @@
-'use client'
-import { usePathname } from 'next/navigation'
-
 export default function ConditionalFooter() {
-  const pathname = usePathname()
-  if (pathname === '/') return null
-
   return (
     <footer style={{
       borderTop: '1px solid rgba(255,255,255,0.08)',
@@ -14,7 +8,7 @@ export default function ConditionalFooter() {
     }}>
       <div style={{ maxWidth: '760px', margin: '0 auto' }}>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', flexWrap: 'wrap' as const, marginBottom: '14px' }}>
-          {([['/', 'Home'], ['/blog', 'Blog'], ['/keyword-analyser', 'Keyword Analyser'], ['/youtube-title-analyser', 'YouTube Titles'], ['/youtube-description-generator', 'YT Descriptions'], ['/about', 'About'], ['/faq', 'FAQ'], ['/signup', 'Plans'], ['/the-agency-vault', 'Agency Vault'], ['/contact', 'Contact'], ['/terms-and-conditions', 'Terms']] as [string, string][]).map(([href, label]) => (
+          {([['/', 'Home'], ['/website-audit', 'Free Website Audit'], ['/blog', 'Blog'], ['/keyword-analyser', 'Keyword Analyser'], ['/youtube-title-analyser', 'YouTube Titles'], ['/youtube-description-generator', 'YT Descriptions'], ['/about', 'About'], ['/faq', 'FAQ'], ['/signup', 'Plans'], ['/the-agency-vault', 'Agency Vault'], ['/contact', 'Contact'], ['/terms-and-conditions', 'Terms']] as [string, string][]).map(([href, label]) => (
             <a key={href} href={href} style={{ color: 'rgba(255,255,255,0.45)', textDecoration: 'none', fontSize: '0.8rem', fontWeight: 600, fontFamily: "'Montserrat', sans-serif", letterSpacing: '0.06em', textTransform: 'uppercase' as const }}>
               {label}
             </a>

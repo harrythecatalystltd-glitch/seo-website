@@ -354,7 +354,7 @@ export default function SignupClient() {
       </section>
 
       <div className="page-footer">
-        <p>&copy; 2026 The Catalyst Method · <Link href="/">← Back to audit tool</Link></p>
+        <p>&copy; 2026 The Catalyst Method · <Link href="/website-audit">← Back to audit tool</Link></p>
       </div>
     </>
   )

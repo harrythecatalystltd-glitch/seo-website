@@ -35,6 +35,14 @@ export default function SiteNav() {
         <span /><span /><span />
       </button>
       <div className={`nav-dropdown${open ? ' open' : ''}`}>
+        <Link href="/website-audit" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          Free Website Audit
+        </Link>
+        <Link href="/the-agency-vault" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          Agency Vault
+        </Link>
         <Link href="/blog" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           Blog

@@ -207,7 +207,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.58)', marginBottom: '22px', lineHeight: 1.7 }}>
               Run the free 16-point audit. Takes 10 seconds. No sign-up needed.
             </p>
-            <Link href="/" style={{
+            <Link href="/website-audit" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               borderRadius: '10px', padding: '14px 28px',

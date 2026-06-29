@@ -242,7 +242,7 @@ export default function GetYourWebsiteSeenAlternativePage() {
             More upfront investment. A complete lead generation system in return.
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#FFD700', color: '#002B45', fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: '0.88rem', letterSpacing: '0.04em', textTransform: 'uppercase', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none' }}>
+            <Link href="/website-audit" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#FFD700', color: '#002B45', fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: '0.88rem', letterSpacing: '0.04em', textTransform: 'uppercase', padding: '14px 28px', borderRadius: '8px', textDecoration: 'none' }}>
               <svg width="10" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
               Get Your Free Audit
             </Link>
@@ -362,7 +362,7 @@ export default function GetYourWebsiteSeenAlternativePage() {
             ))}
           </div>
           <div style={{ textAlign: 'center' }}>
-            <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#FFD700', color: '#002B45', fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: '0.9rem', letterSpacing: '0.04em', textTransform: 'uppercase', padding: '16px 32px', borderRadius: '8px', textDecoration: 'none' }}>
+            <Link href="/website-audit" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#FFD700', color: '#002B45', fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: '0.9rem', letterSpacing: '0.04em', textTransform: 'uppercase', padding: '16px 32px', borderRadius: '8px', textDecoration: 'none' }}>
               <svg width="10" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
               Get Your Free Audit Now
             </Link>
@@ -459,7 +459,7 @@ export default function GetYourWebsiteSeenAlternativePage() {
             Run a free 16-point audit on your website. Find out exactly what is stopping you from getting leads. Takes 10 seconds.
           </p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap', position: 'relative' }}>
-            <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#FFD700', color: '#002B45', fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: '0.9rem', letterSpacing: '0.04em', textTransform: 'uppercase', padding: '16px 32px', borderRadius: '8px', textDecoration: 'none' }}>
+            <Link href="/website-audit" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#FFD700', color: '#002B45', fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: '0.9rem', letterSpacing: '0.04em', textTransform: 'uppercase', padding: '16px 32px', borderRadius: '8px', textDecoration: 'none' }}>
               <svg width="10" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
               Get My Free Website Audit
             </Link>

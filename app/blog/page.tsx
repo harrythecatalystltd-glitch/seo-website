@@ -178,7 +178,7 @@ export default async function BlogPage() {
             </div>
             <h2>First post coming soon</h2>
             <p>We are writing practical local SEO and lead generation guides for UK business owners. Check back shortly.</p>
-            <Link href="/" className="empty-cta">
+            <Link href="/website-audit" className="empty-cta">
               <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
               Get Your Free Website Audit
             </Link>
