@@ -155,6 +155,38 @@ export default function ThankyouClient() {
 
   if (!data && score === 0 && !noData) return null
 
+  // Direct visit with no audit data — this page is only for website audit reports.
+  if (noData) {
+    return (
+      <section className="hero hero-blog">
+        <SiteNav />
+        <div className="bolts-bg" aria-hidden="true">
+          {[1,2,3,4,5,6,7].map(n => (
+            <svg key={n} className={`bolt b${n}`} viewBox="0 0 18 30">
+              <path fill="currentColor" d={BOLT} />
+            </svg>
+          ))}
+        </div>
+        <div className="hero-inner" style={{ textAlign: 'center' }}>
+          <div className="brand-tag">
+            <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
+            Website Audit | The Catalyst Method
+          </div>
+          <h1>No audit report found.</h1>
+          <p className="hero-sub">
+            This page shows your personalised website audit report. It looks like you arrived here directly. Run a free 16-point audit and we&apos;ll show you exactly what is costing you leads.
+          </p>
+          <div style={{ marginTop: 32, display: 'flex', justifyContent: 'center' }}>
+            <Link href="/website-audit" className="cta-btn" style={{ padding: '16px 32px' }}>
+              <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
+              Run My Free Audit
+            </Link>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
   const critical   = data?.critical ?? []
   const urgent     = data?.urgent   ?? []
   const good       = data?.good     ?? []
@@ -169,30 +201,6 @@ export default function ThankyouClient() {
           <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
           Your full report is on its way to <strong>{email}</strong>
         </div>
-      )}
-
-      {/* ── SALES HERO (direct visit, no audit data) ── */}
-      {noData && (
-        <section className="hero hero-blog">
-          <SiteNav />
-          <div className="bolts-bg" aria-hidden="true">
-            {[1,2,3,4,5,6,7].map(n => (
-              <svg key={n} className={`bolt b${n}`} viewBox="0 0 18 30">
-                <path fill="currentColor" d={BOLT} />
-              </svg>
-            ))}
-          </div>
-          <div className="hero-inner">
-            <div className="brand-tag">
-              <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
-              Done For You SEO &amp; Lead Generation
-            </div>
-            <h1>We Get You <em>More Leads.</em></h1>
-            <p className="hero-sub">
-              We take over your Google profile, website, content and follow-up so new enquiries land in your inbox. New leads within 4 weeks or your money back.
-            </p>
-          </div>
-        </section>
       )}
 
       {/* ── BRIDGE + SCORE HERO ── */}

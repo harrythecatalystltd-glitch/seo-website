@@ -139,7 +139,7 @@ function LeadCtas({ center = true }: { center?: boolean }) {
         <svg width="13" viewBox="0 0 18 30" style={{ fill: 'var(--gold)', flexShrink: 0 }}><path d={BOLT} /></svg>
         Get More Leads Yourself
       </Link>
-      <Link href="/thankyou" className="cta-btn" style={{ padding: '16px 32px' }}>
+      <Link href="/we-get-you-leads" className="cta-btn" style={{ padding: '16px 32px' }}>
         <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
         We Get You More Leads
       </Link>
@@ -267,7 +267,7 @@ export default async function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/thankyou" className="cta-btn" style={{ width: '100%', justifyContent: 'center' }}>
+              <Link href="/we-get-you-leads" className="cta-btn" style={{ width: '100%', justifyContent: 'center' }}>
                 <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
                 We Get You More Leads
               </Link>

@@ -47,6 +47,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
+      url: `${BASE_URL}/we-get-you-leads`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${BASE_URL}/the-agency-vault`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
