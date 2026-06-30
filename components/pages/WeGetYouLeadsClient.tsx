@@ -168,29 +168,60 @@ export default function WeGetYouLeadsClient() {
         </div>
       </div>
 
-      {/* ── SOCIAL PROOF ── */}
+      {/* ── SOCIAL PROOF / CASE STUDIES ── */}
       <div style={{ padding: '0 24px 64px', maxWidth: 680, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
           <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.38)', marginBottom: 10 }}>Real results</div>
           <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: 'clamp(1.05rem, 2.5vw, 1.4rem)', fontWeight: 900, color: '#fff', letterSpacing: '-0.025em', marginBottom: 8 }}>
-            What happens when we take it over
+            Real local businesses. Real revenue.
           </div>
-          <p style={{ fontSize: '0.83rem', color: 'rgba(255,255,255,0.42)', maxWidth: 380, margin: '0 auto' }}>
-            Creation Coffee, local brand, zero paid ads, 90 days.
+          <p style={{ fontSize: '0.83rem', color: 'rgba(255,255,255,0.42)', maxWidth: 420, margin: '0 auto' }}>
+            Two businesses we grew with the exact system above. Both with zero spend on paid ads.
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2, borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.08)', marginBottom: 24 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 14, marginBottom: 24 }}>
           {[
-            { num: '+297%', label: 'Website traffic' },
-            { num: '+277%', label: 'Search impressions' },
-            { num: '+293%', label: 'Google clicks' },
-            { num: '+240%', label: 'New users' },
-          ].map(s => (
-            <div key={s.label} style={{ background: 'rgba(0,30,50,0.9)', padding: '28px 20px', textAlign: 'center' }}>
-              <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: 'clamp(1.6rem, 4vw, 2.1rem)', fontWeight: 900, color: '#FFD700', lineHeight: 1, marginBottom: 6 }}>{s.num}</div>
-              <div style={{ fontSize: '0.74rem', color: 'rgba(255,255,255,0.42)', letterSpacing: '0.04em' }}>{s.label}</div>
-            </div>
+            {
+              tag: 'Creation Coffee',
+              blurb: 'A local coffee brand we took on with zero paid ads. Now averaging 58 sales a month from organic search alone.',
+              href: '/case-study-creation-coffee.html',
+              stats: [
+                { num: '58/mo', label: 'Sales from organic' },
+                { num: '+297%', label: 'Website traffic' },
+                { num: '+293%', label: 'Google clicks' },
+                { num: '£0', label: 'Paid ads' },
+              ],
+            },
+            {
+              tag: 'Fitness Coach Chronicle',
+              blurb: 'A brand new website and brand built from scratch. 6 sales from leads and over £12k in revenue in the first 5 months.',
+              href: '/case-study-fitness-coach-chronicle.html',
+              stats: [
+                { num: '6', label: 'Sales from leads' },
+                { num: '£12k+', label: 'Revenue in 5 months' },
+                { num: '5 mo', label: 'From scratch' },
+                { num: '£0', label: 'Paid ads' },
+              ],
+            },
+          ].map(cs => (
+            <a
+              key={cs.tag}
+              href={cs.href}
+              style={{ display: 'flex', flexDirection: 'column', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 16, padding: '26px 24px', textDecoration: 'none' }}
+            >
+              <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#FFD700', marginBottom: 10 }}>Case Study · {cs.tag}</div>
+              <p style={{ fontSize: '0.86rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.65, marginBottom: 20 }}>{cs.blurb}</p>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 12, overflow: 'hidden', marginBottom: 18 }}>
+                {cs.stats.map(s => (
+                  <div key={s.label} style={{ background: 'rgba(0,30,50,0.9)', padding: '18px 14px', textAlign: 'center' }}>
+                    <div style={{ fontFamily: "'Montserrat', sans-serif", fontSize: 'clamp(1.2rem, 3.5vw, 1.5rem)', fontWeight: 900, color: '#FFD700', lineHeight: 1, marginBottom: 5 }}>{s.num}</div>
+                    <div style={{ fontSize: '0.66rem', color: 'rgba(255,255,255,0.42)', letterSpacing: '0.03em' }}>{s.label}</div>
+                  </div>
+                ))}
+              </div>
+              <span style={{ marginTop: 'auto', fontSize: '0.8rem', color: '#FFD700', fontWeight: 700 }}>Read the full story →</span>
+            </a>
           ))}
         </div>
 
