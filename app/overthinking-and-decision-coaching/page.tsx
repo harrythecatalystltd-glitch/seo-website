@@ -3,16 +3,17 @@ import SiteNav from '@/components/SiteNav'
 import BioBlock from '@/components/BioBlock'
 import CtaButtons from '@/components/CtaButtons'
 import RelatedPosts from '@/components/RelatedPosts'
+import PillarCrossLinks from '@/components/PillarCrossLinks'
 
 export const metadata: Metadata = {
-  title: 'Overthinking & Decision-Making Coach | Stop Second-Guessing Yourself',
+  title: 'Overthinking Coach | Stop Second-Guessing Every Decision',
   description: 'Coaching for people stuck overthinking every decision, big or small. Learn to trust your judgement and move forward, without needing to fix every worry first.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/overthinking-and-decision-coaching' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/overthinking-and-decision-coaching',
-    title: 'Overthinking & Decision-Making Coach | Stop Second-Guessing Yourself',
+    title: 'Overthinking Coach | Stop Second-Guessing Every Decision',
     description: 'Coaching for people stuck overthinking every decision, big or small.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
@@ -120,6 +121,8 @@ export default function OverthinkingCoachingPage() {
             'decision-making-checklist-steps-choose',
           ]}
         />
+
+        <PillarCrossLinks current="/overthinking-and-decision-coaching" />
       </div>
 
       <div style={{ padding: '76px 24px 100px', background: 'radial-gradient(ellipse at 50% 100%, rgba(0,85,133,0.25) 0%, transparent 65%)' }}>

@@ -156,14 +156,15 @@ export default async function HomePage() {
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12 }}>
             {[
-              { n: '01', title: 'You Overthink Every Decision', text: 'Big choices or small ones, you run the same options in your head over and over and still can’t land on an answer. By the time you decide, the moment has often passed.' },
-              { n: '02', title: 'Self-Doubt Drowns Out What You Know', text: 'You know what you want. But self-doubt gets louder than that knowledge, so you wait for certainty that never quite arrives before you’ll act on it.' },
-              { n: '03', title: 'You Feel Stuck, Not Lost', text: 'You’re not confused about the big picture. You just can’t seem to move from knowing to doing, and that gap is where confidence quietly leaks away.' },
+              { n: '01', title: 'You Overthink Every Decision', text: 'Big choices or small ones, you run the same options in your head over and over and still can’t land on an answer. By the time you decide, the moment has often passed.', href: '/overthinking-and-decision-coaching' },
+              { n: '02', title: 'Self-Doubt Drowns Out What You Know', text: 'You know what you want. But self-doubt gets louder than that knowledge, so you wait for certainty that never quite arrives before you’ll act on it.', href: '/overcome-self-doubt-coaching' },
+              { n: '03', title: 'You Feel Stuck, Not Lost', text: 'You’re not confused about the big picture. You just can’t seem to move from knowing to doing, and that gap is where confidence quietly leaks away.', href: '/self-belief-coaching' },
             ].map(c => (
               <div key={c.n} style={{ background: 'rgba(255,255,255,0.05)', border: '1.5px solid rgba(255,255,255,0.1)', borderRadius: 14, padding: '28px 22px' }}>
                 <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.62rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 14 }}>{c.n}</div>
                 <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.92rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.02em', marginBottom: 10, lineHeight: 1.2 }}>{c.title}</div>
-                <p style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.55)', lineHeight: 1.78 }}>{c.text}</p>
+                <p style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.55)', lineHeight: 1.78, marginBottom: 14 }}>{c.text}</p>
+                <Link href={c.href} style={{ fontSize: '0.78rem', color: 'var(--gold)', fontWeight: 700, textDecoration: 'none' }}>Read more →</Link>
               </div>
             ))}
           </div>

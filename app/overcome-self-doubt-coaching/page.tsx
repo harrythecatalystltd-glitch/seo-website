@@ -3,16 +3,17 @@ import SiteNav from '@/components/SiteNav'
 import BioBlock from '@/components/BioBlock'
 import CtaButtons from '@/components/CtaButtons'
 import RelatedPosts from '@/components/RelatedPosts'
+import PillarCrossLinks from '@/components/PillarCrossLinks'
 
 export const metadata: Metadata = {
-  title: 'Overcome Self-Doubt Coaching | From Self-Doubt to Self-Belief',
+  title: 'Overcome Self-Doubt Coaching | Self-Doubt to Self-Belief',
   description: 'Stuck in a loop of self-doubt? Coaching to help you trust your own judgement again. Practical, honest, and free, not just positive thinking.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/overcome-self-doubt-coaching' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/overcome-self-doubt-coaching',
-    title: 'Overcome Self-Doubt Coaching | From Self-Doubt to Self-Belief',
+    title: 'Overcome Self-Doubt Coaching | Self-Doubt to Self-Belief',
     description: 'Stuck in a loop of self-doubt? Coaching to help you trust your own judgement again.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
@@ -120,6 +121,8 @@ export default function OvercomeSelfDoubtPage() {
             '3-books-that-changed-my-life',
           ]}
         />
+
+        <PillarCrossLinks current="/overcome-self-doubt-coaching" />
       </div>
 
       <div style={{ padding: '76px 24px 100px', background: 'radial-gradient(ellipse at 50% 100%, rgba(0,85,133,0.25) 0%, transparent 65%)' }}>
