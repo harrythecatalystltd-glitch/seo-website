@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server'
 
+function escapeHtml(s: string) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+
 export async function POST(request: Request) {
   let parsed: Record<string, unknown> = {}
   try {
@@ -8,67 +12,49 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Bad request' }, { status: 400 })
   }
 
-  const name     = typeof parsed.name     === 'string' ? parsed.name.trim()     : ''
-  const email    = typeof parsed.email    === 'string' ? parsed.email.trim()    : ''
-  const phone    = typeof parsed.phone    === 'string' ? parsed.phone.trim()    : ''
-  const business = typeof parsed.business === 'string' ? parsed.business.trim() : ''
-  const message  = typeof parsed.message  === 'string' ? parsed.message.trim()  : ''
+  const name    = typeof parsed.name    === 'string' ? parsed.name.trim()    : ''
+  const email   = typeof parsed.email   === 'string' ? parsed.email.trim()   : ''
+  const phone   = typeof parsed.phone   === 'string' ? parsed.phone.trim()   : ''
+  const message = typeof parsed.message === 'string' ? parsed.message.trim() : ''
 
   if (!name || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !message) {
     return NextResponse.json({ error: 'Please fill in all required fields.' }, { status: 400 })
   }
 
-  const apiKey     = process.env.GHL_API_KEY
-  const locationId = process.env.GHL_LOCATION_ID
+  const apiKey = process.env.RESEND_API_KEY
+  const to     = process.env.CONTACT_EMAIL_TO || 'hey@thecatalystmethod.co.uk'
 
-  if (!apiKey || !locationId) {
+  if (!apiKey) {
     return NextResponse.json({ ok: true })
   }
 
   try {
-    const contactRes = await fetch('https://services.leadconnectorhq.com/contacts/', {
+    const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'Version': '2021-07-28',
       },
       body: JSON.stringify({
-        email,
-        name,
-        phone: phone || undefined,
-        companyName: business || undefined,
-        locationId,
-        tags: ['contact-form'],
-        source: 'Contact Form - thecatalystmethod.co.uk',
-        customFields: [
-          { key: 'contact_message', field_value: message },
-        ],
+        from: 'The Catalyst Method <onboarding@resend.dev>',
+        to: [to],
+        reply_to: email,
+        subject: `New contact form message from ${name}`,
+        html: `
+          <p><strong>Name:</strong> ${escapeHtml(name)}</p>
+          <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+          ${phone ? `<p><strong>Phone:</strong> ${escapeHtml(phone)}</p>` : ''}
+          <p><strong>Message:</strong></p>
+          <p>${escapeHtml(message).replace(/\n/g, '<br>')}</p>
+        `,
       }),
     })
 
-    if (contactRes.ok) {
-      const contactData = await contactRes.json() as { contact?: { id?: string } }
-      const contactId = contactData?.contact?.id
-
-      if (contactId) {
-        await fetch(`https://services.leadconnectorhq.com/contacts/${contactId}/notes`, {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${apiKey}`,
-            'Content-Type': 'application/json',
-            'Version': '2021-07-28',
-          },
-          body: JSON.stringify({
-            body: `Contact form enquiry from ${name}${business ? ` (${business})` : ''}:\n\n${message}`,
-          }),
-        })
-      }
-    } else {
-      console.error('GHL contact error:', contactRes.status, await contactRes.text())
+    if (!res.ok) {
+      console.error('Resend contact error:', res.status, await res.text())
     }
   } catch (err) {
-    console.error('GHL contact failed:', err)
+    console.error('Resend contact failed:', err)
   }
 
   return NextResponse.json({ ok: true })

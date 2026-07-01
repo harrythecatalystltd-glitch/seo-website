@@ -6,7 +6,7 @@ import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
 
 export const metadata: Metadata = {
   title: 'Confidence & Self-Belief Blog | The Catalyst Method',
-  description: 'Free weekly tips on confidence, self-belief, overthinking and decision-making. Practical, honest guides — no sales pitch.',
+  description: 'Free weekly tips on confidence, self-belief, overthinking and decision-making. Practical, honest guides, no sales pitch.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/blog' },
   openGraph: {

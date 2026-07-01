@@ -1,5 +1,5 @@
 // Only these SeoBot article slugs are shown on the blog listing, homepage blog
-// preview, and sitemap — everything else was written for the old SEO/lead-gen
+// preview, and sitemap. Everything else was written for the old SEO/lead-gen
 // agency positioning and is redirected to /blog instead (see next.config.ts).
 export const RELEVANT_SEOBOT_SLUGS = new Set<string>([
   'lack-confidence-common-causes',

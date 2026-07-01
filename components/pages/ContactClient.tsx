@@ -169,7 +169,7 @@ export default function ContactClient() {
                   <label htmlFor="cf-message">How can I help? <span className="contact-required">*</span></label>
                   <textarea
                     id="cf-message"
-                    placeholder="Tell me what's on your mind — a decision you're stuck on, something you're doubting yourself about, or just what you'd find helpful…"
+                    placeholder="Tell me what's on your mind: a decision you're stuck on, something you're doubting yourself about, or just what you'd find helpful."
                     value={fields.message}
                     onChange={e => set('message', e.target.value)}
                     className={errors.message ? 'error' : ''}

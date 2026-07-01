@@ -3,14 +3,14 @@ import ContactClient from '@/components/pages/ContactClient'
 
 export const metadata: Metadata = {
   title: 'Contact The Catalyst Method | Confidence & Self-Belief Coaching',
-  description: 'Get in touch about confidence, self-belief or decision-making coaching. No sales pitch — just a real reply.',
+  description: 'Get in touch about confidence, self-belief or decision-making coaching. No sales pitch, just a real reply.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/contact' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/contact',
     title: 'Contact The Catalyst Method | Confidence & Self-Belief Coaching',
-    description: 'Get in touch about confidence, self-belief or decision-making coaching. No sales pitch — just a real reply.',
+    description: 'Get in touch about confidence, self-belief or decision-making coaching. No sales pitch, just a real reply.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
   },

@@ -6,21 +6,21 @@ import { manualPosts } from '@/lib/manual-posts'
 import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
 
 export const metadata: Metadata = {
-  title: 'Confidence Coach UK | Self-Belief & Life Coaching — The Catalyst Method',
-  description: '1:1 confidence and self-belief coaching for UK professionals who overthink every decision. Free weekly tips, no sales pitch — plus support if you want it.',
+  title: 'Confidence & Self-Belief Coaching | The Catalyst Method',
+  description: 'Confidence and self-belief coaching for people who overthink every decision. Free weekly tips, no sales pitch, plus support if you want it.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/',
-    title: 'Confidence Coach UK | Self-Belief & Life Coaching — The Catalyst Method',
+    title: 'Confidence & Self-Belief Coaching | The Catalyst Method',
     description: 'Confidence and self-belief coaching for people who overthink every decision. Free weekly tips, no sales pitch.',
-    images: [{ url: 'https://www.thecatalystmethod.co.uk/og', width: 1200, height: 630, alt: 'The Catalyst Method — confidence and self-belief coaching' }],
+    images: [{ url: 'https://www.thecatalystmethod.co.uk/og', width: 1200, height: 630, alt: 'The Catalyst Method, confidence and self-belief coaching' }],
     siteName: 'The Catalyst Method',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Confidence Coach UK | Self-Belief & Life Coaching — The Catalyst Method',
+    title: 'Confidence & Self-Belief Coaching | The Catalyst Method',
     description: 'Confidence and self-belief coaching for people who overthink every decision. Free weekly tips, no sales pitch.',
     images: ['https://www.thecatalystmethod.co.uk/og'],
   },
@@ -157,23 +157,42 @@ export default async function HomePage() {
 
           <h1>Confidence &amp; Self-Belief Coaching for People Who <em>Overthink</em> Every Decision.</h1>
           <p className="subtitle" style={{ marginBottom: 38 }}>
-            1:1 coaching for UK professionals who second-guess every decision. Free weekly tips to start, real support when you&apos;re ready for it.
+            Coaching for people who second-guess every decision. Free weekly tips to start, real support when you&apos;re ready for it.
           </p>
 
-          <div id="weekly-tips" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20, scrollMarginTop: 100 }}>
-            <NewsletterForm />
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, justifyContent: 'center' }}>
+            <a href="#weekly-tips" className="cta-btn">
+              <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
+              Get Free Weekly Tips
+            </a>
             <ContactCta />
           </div>
 
           <div className="input-meta" style={{ marginTop: 28 }}>
             <span className="input-meta-item">Free weekly tips</span>
             <span className="input-meta-item">No sales pitch</span>
-            <span className="input-meta-item">UK based</span>
           </div>
         </div>
       </section>
 
       <div style={{ maxWidth: 820, margin: '0 auto', padding: '0 24px' }}>
+
+        {/* ── WEEKLY TIPS FORM ── */}
+        <div id="weekly-tips" style={{ padding: '76px 0 0', scrollMarginTop: 100, textAlign: 'center' }}>
+          <div className="brand-tag" style={{ marginBottom: 22 }}>
+            <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
+            Free Weekly Tips
+          </div>
+          <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
+            Get Free Weekly Tips
+          </h2>
+          <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, margin: '0 auto 32px' }}>
+            One practical email a week on confidence, self-belief, overthinking and decision-making. Real tools you can use the same day, not theory.
+          </p>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <NewsletterForm />
+          </div>
+        </div>
 
         {/* ── PROBLEM ── */}
         <div style={{ padding: '76px 0 0' }}>
@@ -185,7 +204,7 @@ export default async function HomePage() {
             Why You Keep <em>Talking Yourself Out of It.</em>
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, marginBottom: 44 }}>
-            You&apos;re not lazy and you&apos;re not broken. You&apos;re stuck in a loop that has a shape — and once you can see the shape, it gets a lot easier to break.
+            You&apos;re not lazy and you&apos;re not broken. You&apos;re stuck in a loop that has a shape, and once you can see the shape, it gets a lot easier to break.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12 }}>
             {[
@@ -237,10 +256,10 @@ export default async function HomePage() {
             </div>
 
             <div style={{ background: 'rgba(255,255,255,0.05)', border: '1.5px solid rgba(255,255,255,0.12)', borderRadius: 18, padding: '34px 30px', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.5)', marginBottom: 10 }}>1:1</div>
+              <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.66rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.5)', marginBottom: 10 }}>Direct</div>
               <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '1.4rem', fontWeight: 900, letterSpacing: '-0.02em', marginBottom: 10 }}>Talk It Through With Me</div>
               <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.78, marginBottom: 20 }}>
-                If you want more than an email — whether that&apos;s a one-off conversation or ongoing support — just reach out. No sales script, just a real reply from me.
+                If you want more than an email, whether that&apos;s a one-off conversation or ongoing support, just reach out. No sales script, just a real reply from me.
               </p>
               <ul style={{ listStyle: 'none', margin: '0 0 26px', padding: 0, flex: 1 }}>
                 {['A real reply, not a funnel', 'We figure out what’s actually blocking you', 'No pressure, no obligation'].map(f => (
@@ -320,10 +339,13 @@ export default async function HomePage() {
                 Start With One Free Tip.<br />See Where It Takes You.
               </h2>
               <p>
-                No product to buy, no funnel to sit through. Just free, practical help — and a real person to talk to when you want one.
+                No product to buy, no funnel to sit through. Just free, practical help, and a real person to talk to when you want one.
               </p>
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
-                <NewsletterForm />
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, justifyContent: 'center' }}>
+                <a href="#weekly-tips" className="cta-btn">
+                  <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
+                  Get Free Weekly Tips
+                </a>
                 <ContactCta />
               </div>
             </div>

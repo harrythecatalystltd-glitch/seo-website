@@ -15,35 +15,33 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Please enter a valid email address.' }, { status: 400 })
   }
 
-  const apiKey     = process.env.GHL_API_KEY
-  const locationId = process.env.GHL_LOCATION_ID
+  const apiKey  = process.env.MAILERLITE_API_KEY
+  const groupId = process.env.MAILERLITE_GROUP_ID
 
-  if (!apiKey || !locationId) {
+  if (!apiKey) {
     return NextResponse.json({ ok: true })
   }
 
   try {
-    const res = await fetch('https://services.leadconnectorhq.com/contacts/', {
+    const res = await fetch('https://connect.mailerlite.com/api/subscribers', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'Version': '2021-07-28',
+        'Accept': 'application/json',
       },
       body: JSON.stringify({
         email,
-        name: name || undefined,
-        locationId,
-        tags: ['weekly-tips'],
-        source: 'Weekly Tips Signup - thecatalystmethod.co.uk',
+        fields: name ? { name } : undefined,
+        groups: groupId ? [groupId] : undefined,
       }),
     })
 
     if (!res.ok) {
-      console.error('GHL newsletter error:', res.status, await res.text())
+      console.error('MailerLite subscribe error:', res.status, await res.text())
     }
   } catch (err) {
-    console.error('GHL newsletter subscribe failed:', err)
+    console.error('MailerLite subscribe failed:', err)
   }
 
   return NextResponse.json({ ok: true })

@@ -11,5 +11,5 @@ export type ManualPost = {
 
 // All previous manual posts were written for the old SEO/lead-gen agency
 // positioning and have been removed as part of the confidence/self-belief
-// coaching rebuild. Their URLs redirect to /blog — see next.config.ts.
+// coaching rebuild. Their URLs redirect to /blog, see next.config.ts.
 export const manualPosts: ManualPost[] = []
