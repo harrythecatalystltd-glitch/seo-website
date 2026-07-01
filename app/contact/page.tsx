@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import ContactClient from '@/components/pages/ContactClient'
 
 export const metadata: Metadata = {
-  title: 'Contact The Catalyst Method | Local Business SEO',
-  description: 'Get in touch with The Catalyst Method. Questions about our SEO and lead generation plans for UK local businesses? We\'d love to hear from you.',
+  title: 'Contact The Catalyst Method | Confidence & Self-Belief Coaching',
+  description: 'Get in touch about confidence, self-belief or decision-making coaching. No sales pitch — just a real reply.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/contact' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/contact',
-    title: 'Contact The Catalyst Method | Local Business SEO',
-    description: 'Questions about our SEO and lead generation plans for UK local businesses? Get in touch.',
+    title: 'Contact The Catalyst Method | Confidence & Self-Belief Coaching',
+    description: 'Get in touch about confidence, self-belief or decision-making coaching. No sales pitch — just a real reply.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
   },
@@ -34,7 +34,7 @@ export default function ContactPage() {
         '@id': 'https://www.thecatalystmethod.co.uk/contact',
         url: 'https://www.thecatalystmethod.co.uk/contact',
         name: 'Contact The Catalyst Method',
-        description: 'Get in touch with The Catalyst Method about SEO and lead generation for UK local businesses.',
+        description: 'Get in touch with The Catalyst Method about confidence, self-belief and decision-making coaching.',
         publisher: { '@id': 'https://www.thecatalystmethod.co.uk/#organization' },
       },
       {

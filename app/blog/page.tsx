@@ -2,17 +2,18 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import { manualPosts } from '@/lib/manual-posts'
+import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
 
 export const metadata: Metadata = {
-  title: 'Local SEO & Lead Gen Blog for Small Businesses | The Catalyst Method',
-  description: 'Practical local SEO tips, lead generation strategies and website conversion guides for UK small businesses. Free advice from The Catalyst Method.',
+  title: 'Confidence & Self-Belief Blog | The Catalyst Method',
+  description: 'Free weekly tips on confidence, self-belief, overthinking and decision-making. Practical, honest guides — no sales pitch.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/blog' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/blog',
-    title: 'Local SEO and Lead Generation Blog | The Catalyst Method',
-    description: 'Practical local SEO tips, lead generation strategies and website conversion guides for UK small businesses.',
+    title: 'Confidence & Self-Belief Blog | The Catalyst Method',
+    description: 'Free weekly tips on confidence, self-belief, overthinking and decision-making.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
   },
@@ -64,10 +65,8 @@ type DisplayArticle = {
   readingTime?: number
 }
 
-const HIDDEN_SLUGS = new Set(['grow-pt-academy-100k-per-year'])
-
 function mergeArticles(seobotArticles: Article[]): DisplayArticle[] {
-  const fromSeobot: DisplayArticle[] = seobotArticles.filter(a => !HIDDEN_SLUGS.has(a.slug)).map(a => ({
+  const fromSeobot: DisplayArticle[] = seobotArticles.filter(a => RELEVANT_SEOBOT_SLUGS.has(a.slug)).map(a => ({
     slug: a.slug,
     title: a.title,
     description: a.description,
@@ -115,7 +114,7 @@ export default async function BlogPage() {
         '@type': 'Blog',
         '@id': 'https://www.thecatalystmethod.co.uk/blog#blog',
         name: 'The Catalyst Method Blog',
-        description: 'Practical local SEO, lead generation and website conversion guides for UK small businesses.',
+        description: 'Free weekly tips on confidence, self-belief, overthinking and decision-making.',
         url: 'https://www.thecatalystmethod.co.uk/blog',
         publisher: { '@id': 'https://www.thecatalystmethod.co.uk/#organization' },
         inLanguage: 'en-GB',
@@ -146,11 +145,11 @@ export default async function BlogPage() {
         <div className="hero-inner">
           <div className="brand-tag">
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
-            The Catalyst Method | SEO Blog
+            The Catalyst Method | Blog
           </div>
-          <h1>Local SEO and Lead Generation Blog<br />for <em>Small Businesses</em></h1>
+          <h1>Confidence &amp; Self-Belief<br />for People Who <em>Overthink</em></h1>
           <p className="hero-sub">
-            Practical guides, local SEO tips and lead generation strategies for small businesses across the UK. Written for business owners who want more enquiries from Google.
+            Free, practical guides on confidence, self-belief, overthinking and decision-making. Written to actually help, not to sell you anything.
           </p>
         </div>
       </section>
@@ -163,7 +162,7 @@ export default async function BlogPage() {
           lineHeight: 1.75, fontFamily: "'Open Sans', sans-serif",
           padding: '0 16px',
         }}>
-          The Catalyst Method blog covers local SEO for small businesses, lead generation strategy and website conversion. Every guide is written for UK business owners, not marketers.
+          The Catalyst Method blog covers confidence, self-belief and the overthinking that gets in the way of deciding anything. Every guide is written for real people, not case studies.
         </p>
         <div className="blog-section-label">
           <div className="blog-section-label-line" />
@@ -177,10 +176,10 @@ export default async function BlogPage() {
               <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
             </div>
             <h2>First post coming soon</h2>
-            <p>We are writing practical local SEO and lead generation guides for UK business owners. Check back shortly.</p>
-            <Link href="/website-audit" className="empty-cta">
+            <p>We are writing practical guides on confidence, self-belief and decision-making. Check back shortly, or get free weekly tips straight to your inbox.</p>
+            <Link href="/#weekly-tips" className="empty-cta">
               <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
-              Get Your Free Website Audit
+              Get Free Weekly Tips
             </Link>
           </div>
         ) : (

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import { manualPosts } from '@/lib/manual-posts'
 import { SEOBOT_DATE_OVERRIDES } from '@/lib/seobot-overrides'
+import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
@@ -67,10 +68,12 @@ async function getArticle(slug: string): Promise<Article | null> {
 }
 
 async function resolveArticle(slug: string): Promise<Article | null> {
+  const manual = manualPosts.find(p => p.slug === slug)
+  if (!manual && !RELEVANT_SEOBOT_SLUGS.has(slug)) return null
+
   const seobotArticle = await getArticle(slug)
   if (seobotArticle) return seobotArticle
 
-  const manual = manualPosts.find(p => p.slug === slug)
   if (!manual) return null
 
   return {
@@ -202,22 +205,34 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               fontSize: '1.15rem', fontWeight: 900,
               color: '#fff', letterSpacing: '-0.02em', marginBottom: '10px',
             }}>
-              See exactly what&apos;s holding your website back
+              Want more of this in your inbox?
             </div>
             <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.58)', marginBottom: '22px', lineHeight: 1.7 }}>
-              Run the free 16-point audit. Takes 10 seconds. No sign-up needed.
+              Free weekly tips on confidence, self-belief and decision-making. No sales pitch.
             </p>
-            <Link href="/website-audit" style={{
-              display: 'inline-flex', alignItems: 'center', gap: '8px',
-              background: '#FFD700', color: '#002B45',
-              borderRadius: '10px', padding: '14px 28px',
-              fontFamily: "'Montserrat', sans-serif",
-              fontSize: '0.9rem', fontWeight: 800,
-              textDecoration: 'none', letterSpacing: '0.01em',
-              boxShadow: '0 4px 20px rgba(255,215,0,0.35)',
-            }}>
-              Scan My Website Free
-            </Link>
+            <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const }}>
+              <Link href="/#weekly-tips" style={{
+                display: 'inline-flex', alignItems: 'center', gap: '8px',
+                background: '#FFD700', color: '#002B45',
+                borderRadius: '10px', padding: '14px 28px',
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: '0.9rem', fontWeight: 800,
+                textDecoration: 'none', letterSpacing: '0.01em',
+                boxShadow: '0 4px 20px rgba(255,215,0,0.35)',
+              }}>
+                Get Free Weekly Tips
+              </Link>
+              <Link href="/contact" style={{
+                display: 'inline-flex', alignItems: 'center', gap: '8px',
+                background: 'rgba(255,255,255,0.08)', border: '1.5px solid rgba(255,255,255,0.22)',
+                color: '#fff', borderRadius: '10px', padding: '14px 28px',
+                fontFamily: "'Montserrat', sans-serif",
+                fontSize: '0.9rem', fontWeight: 800,
+                textDecoration: 'none', letterSpacing: '0.01em',
+              }}>
+                Contact Me for Help
+              </Link>
+            </div>
           </div>
 
           <div style={{ marginTop: '32px', paddingTop: '24px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>

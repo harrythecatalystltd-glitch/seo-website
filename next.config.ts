@@ -22,7 +22,7 @@ const nextConfig: NextConfig = {
       // /post/ → /blog/ redirects (old URL structure → new)
       {
         source: '/post/simplify-your-offer-overcoming-choice-paralysis',
-        destination: '/blog/simplify-your-offer-overcoming-choice-paralysis',
+        destination: '/blog',
         permanent: true,
       },
       {
@@ -52,7 +52,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/post/build-triggers-daily-business-habits',
-        destination: '/blog/build-triggers-daily-business-habits',
+        destination: '/blog',
         permanent: true,
       },
       {
@@ -70,24 +70,24 @@ const nextConfig: NextConfig = {
         destination: '/blog/lack-confidence-common-causes',
         permanent: true,
       },
-      // /post/ URLs with no matching /blog/ slug → send to blog index
       {
         source: '/post/align-purpose-daily-actions-steps',
-        destination: '/blog',
-        permanent: true,
-      },
-      {
-        source: '/post/how-to-overcome-indecision',
-        destination: '/blog',
+        destination: '/blog/align-purpose-daily-actions-steps',
         permanent: true,
       },
       {
         source: '/post/practise-micro-decisions-20-minutes',
-        destination: '/blog',
+        destination: '/blog/practise-micro-decisions-20-minutes',
         permanent: true,
       },
       {
         source: '/post/meditation-vs-journaling-building-confidence',
+        destination: '/blog/meditation-vs-journaling-building-confidence',
+        permanent: true,
+      },
+      // /post/ URLs with no matching /blog/ slug → send to blog index
+      {
+        source: '/post/how-to-overcome-indecision',
         destination: '/blog',
         permanent: true,
       },
@@ -119,6 +119,52 @@ const nextConfig: NextConfig = {
         destination: '/the-agency-vault',
         permanent: true,
       },
+
+      // ─── Confidence coaching rebuild (2026-07-01): removed all SEO/lead-gen
+      // agency blog content — only the personal-development cluster survives
+      // (see lib/relevant-blog-slugs.ts). Every removed post redirects here. ───
+
+      // old manual (repo-owned) SEO/lead-gen posts — content deleted
+      { source: '/blog/email-automation-sequence-local-business-uk', destination: '/blog', permanent: true },
+      { source: '/blog/ai-skills-local-business-revenue-growth-uk', destination: '/blog', permanent: true },
+      { source: '/blog/google-business-profile-optimisation-uk', destination: '/blog', permanent: true },
+      { source: '/blog/why-website-not-getting-enquiries', destination: '/blog', permanent: true },
+      { source: '/blog/local-seo-checklist-small-business-uk', destination: '/blog', permanent: true },
+      { source: '/blog/how-to-get-more-leads-from-your-website', destination: '/blog', permanent: true },
+      { source: '/blog/what-is-a-lead-magnet-ideas-for-local-businesses', destination: '/blog', permanent: true },
+      { source: '/blog/done-for-you-seo-uk', destination: '/blog', permanent: true },
+      { source: '/blog/meta-call-ads-vs-lead-forms-local-business', destination: '/blog', permanent: true },
+
+      // old SeoBot local-SEO / education-business posts — hidden from listing, redirected
+      { source: '/blog/local-seo-for-business-checklist-actions', destination: '/blog', permanent: true },
+      { source: '/blog/local-seo-for-business-cost-uk-2026-pricing-breakdown', destination: '/blog', permanent: true },
+      { source: '/blog/how-to-local-seo-for-business-step-by-step-guide-examples', destination: '/blog', permanent: true },
+      { source: '/blog/local-seo-for-business-explained-plain-english', destination: '/blog', permanent: true },
+      { source: '/blog/can-i-do-local-seo-myself-small-business-owners', destination: '/blog', permanent: true },
+      { source: '/blog/local-seo-example-clear-answer-small-business-owners', destination: '/blog', permanent: true },
+      { source: '/blog/how-to-local-seo-for-my-business-small-business-owners', destination: '/blog', permanent: true },
+      { source: '/blog/local-seo-for-business-complete-2026-guide-uk-small-businesses', destination: '/blog', permanent: true },
+      { source: '/blog/seo-checker-tool', destination: '/blog', permanent: true },
+      { source: '/blog/mindset-shifts-10k-months', destination: '/blog', permanent: true },
+      { source: '/blog/academy-growth-strategy-generator', destination: '/blog', permanent: true },
+      { source: '/blog/academy-sales-conversion-analyzer', destination: '/blog', permanent: true },
+      { source: '/blog/academy-marketing-budget-converter', destination: '/blog', permanent: true },
+      { source: '/blog/training-business-revenue-planner', destination: '/blog', permanent: true },
+      { source: '/blog/academy-lead-generation-calculator', destination: '/blog', permanent: true },
+      { source: '/blog/education-marketing-strategy-too-complicated', destination: '/blog', permanent: true },
+      { source: '/blog/simple-education-marketing-strategy-drives-enrolments', destination: '/blog', permanent: true },
+      { source: '/blog/tutoring-business-revenue-analyzer', destination: '/blog', permanent: true },
+      { source: '/blog/education-sales-funnel-converter', destination: '/blog', permanent: true },
+      { source: '/blog/lead-generation-planner-tutors', destination: '/blog', permanent: true },
+      { source: '/blog/education-business-growth-calculator', destination: '/blog', permanent: true },
+      { source: '/blog/kpi-tracking-education-businesses', destination: '/blog', permanent: true },
+      { source: '/blog/education-marketing-strategy-generator', destination: '/blog', permanent: true },
+      { source: '/blog/education-marketing-strategy-training-providers', destination: '/blog', permanent: true },
+      { source: '/blog/rank-business-priorities-better-decisions', destination: '/blog', permanent: true },
+      { source: '/blog/accountability-coaching-key-benefits-explained', destination: '/blog', permanent: true },
+      { source: '/blog/simplify-your-offer-overcoming-choice-paralysis', destination: '/blog', permanent: true },
+      { source: '/blog/why-feedback-builds-trust-confidence', destination: '/blog', permanent: true },
+      { source: '/blog/build-triggers-daily-business-habits', destination: '/blog', permanent: true },
     ]
   },
   async rewrites() {

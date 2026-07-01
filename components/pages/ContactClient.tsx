@@ -5,11 +5,11 @@ import SiteNav from '@/components/SiteNav'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
-type Field = { name: string; email: string; phone: string; business: string; message: string }
+type Field = { name: string; email: string; phone: string; message: string }
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
 export default function ContactClient() {
-  const [fields, setFields] = useState<Field>({ name: '', email: '', phone: '', business: '', message: '' })
+  const [fields, setFields] = useState<Field>({ name: '', email: '', phone: '', message: '' })
   const [errors, setErrors] = useState<Partial<Field>>({})
   const [status, setStatus] = useState<Status>('idle')
   const [errorMsg, setErrorMsg] = useState('')
@@ -68,10 +68,10 @@ export default function ContactClient() {
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
             The Catalyst Method | Get In Touch
           </div>
-          <h1>Talk to Us About<br /><em>Growing Your Business</em></h1>
+          <h1>Talk to Me About<br /><em>Confidence &amp; Self-Belief</em></h1>
           <p className="subtitle">
-            Questions about our plans? Want to know if we&apos;re a good fit?
-            Fill in the form and we&apos;ll get back to you within one business day.
+            Stuck overthinking a decision, or just want a second opinion?
+            Fill in the form and I&apos;ll reply myself within one business day.
           </p>
         </div>
       </section>
@@ -105,22 +105,22 @@ export default function ContactClient() {
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
               </div>
-              <h2>Message sent. We&apos;ll be in touch soon</h2>
-              <p>We&apos;ve received your enquiry and will get back to you within one business day.</p>
+              <h2>Message sent. I&apos;ll be in touch soon</h2>
+              <p>I&apos;ve received your message and will reply within one business day.</p>
               <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const, marginTop: 28 }}>
-                <Link href="/website-audit" className="contact-back-btn contact-back-btn-gold">
-                  Run a Free Website Audit
+                <Link href="/#weekly-tips" className="contact-back-btn contact-back-btn-gold">
+                  Get Free Weekly Tips
                 </Link>
-                <Link href="/signup" className="contact-back-btn">
-                  View Our Plans
+                <Link href="/blog" className="contact-back-btn">
+                  Read the Blog
                 </Link>
               </div>
             </div>
           ) : (
             <>
               <div className="contact-card-header">
-                <h2>Send Us a Message</h2>
-                <p>Tell us about your business and what you&apos;re looking to achieve.</p>
+                <h2>Send Me a Message</h2>
+                <p>Tell me what&apos;s going on and what you&apos;d find helpful.</p>
               </div>
 
               <form onSubmit={submit} noValidate className="contact-form">
@@ -143,7 +143,7 @@ export default function ContactClient() {
                     <input
                       id="cf-email"
                       type="email"
-                      placeholder="you@yourbusiness.co.uk"
+                      placeholder="you@example.com"
                       value={fields.email}
                       onChange={e => set('email', e.target.value)}
                       className={errors.email ? 'error' : ''}
@@ -153,36 +153,23 @@ export default function ContactClient() {
                   </div>
                 </div>
 
-                <div className="contact-form-row">
-                  <div className="contact-field">
-                    <label htmlFor="cf-phone">Phone Number <span className="contact-optional">(optional)</span></label>
-                    <input
-                      id="cf-phone"
-                      type="tel"
-                      placeholder="07700 000 000"
-                      value={fields.phone}
-                      onChange={e => set('phone', e.target.value)}
-                      autoComplete="tel"
-                    />
-                  </div>
-                  <div className="contact-field">
-                    <label htmlFor="cf-business">Business Name <span className="contact-optional">(optional)</span></label>
-                    <input
-                      id="cf-business"
-                      type="text"
-                      placeholder="Your Business Ltd"
-                      value={fields.business}
-                      onChange={e => set('business', e.target.value)}
-                      autoComplete="organization"
-                    />
-                  </div>
+                <div className="contact-field contact-field-full">
+                  <label htmlFor="cf-phone">Phone Number <span className="contact-optional">(optional)</span></label>
+                  <input
+                    id="cf-phone"
+                    type="tel"
+                    placeholder="07700 000 000"
+                    value={fields.phone}
+                    onChange={e => set('phone', e.target.value)}
+                    autoComplete="tel"
+                  />
                 </div>
 
                 <div className="contact-field contact-field-full">
-                  <label htmlFor="cf-message">How can we help? <span className="contact-required">*</span></label>
+                  <label htmlFor="cf-message">How can I help? <span className="contact-required">*</span></label>
                   <textarea
                     id="cf-message"
-                    placeholder="Tell us about your business, what you're struggling with, or which plan you're interested in…"
+                    placeholder="Tell me what's on your mind — a decision you're stuck on, something you're doubting yourself about, or just what you'd find helpful…"
                     value={fields.message}
                     onChange={e => set('message', e.target.value)}
                     className={errors.message ? 'error' : ''}
@@ -210,8 +197,8 @@ export default function ContactClient() {
 
         {/* Bottom CTA */}
         <div className="contact-bottom">
-          <p>Not sure which plan is right for you?</p>
-          <Link href="/signup" className="contact-plan-link">View our plans and pricing →</Link>
+          <p>Not ready to reach out yet?</p>
+          <Link href="/#weekly-tips" className="contact-plan-link">Get free weekly tips instead →</Link>
         </div>
       </div>
     </>

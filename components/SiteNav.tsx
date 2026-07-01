@@ -35,33 +35,13 @@ export default function SiteNav() {
         <span /><span /><span />
       </button>
       <div className={`nav-dropdown${open ? ' open' : ''}`}>
-        <Link href="/website-audit" className="nav-link" onClick={() => setOpen(false)}>
+        <Link href="/#weekly-tips" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
-          Free Website Audit
-        </Link>
-        <Link href="/the-agency-vault" className="nav-link" onClick={() => setOpen(false)}>
-          <BoltIcon />
-          Agency Vault
+          Free Weekly Tips
         </Link>
         <Link href="/blog" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           Blog
-        </Link>
-        <Link href="/keyword-analyser" className="nav-link" onClick={() => setOpen(false)}>
-          <BoltIcon />
-          Keyword Analyser
-        </Link>
-        <Link href="/youtube-title-analyser" className="nav-link" onClick={() => setOpen(false)}>
-          <BoltIcon />
-          YouTube Titles
-        </Link>
-        <Link href="/youtube-description-generator" className="nav-link" onClick={() => setOpen(false)}>
-          <BoltIcon />
-          YT Description
-        </Link>
-        <Link href="/signup" className="nav-link" onClick={() => setOpen(false)}>
-          <BoltIcon />
-          Sign Up
         </Link>
         <Link href="/contact" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
