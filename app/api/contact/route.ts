@@ -25,6 +25,10 @@ export async function POST(request: Request) {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
+        // FormSubmit rejects requests with no browser-like Referer/Origin
+        // (it silently returns 200 with success:"false" in that case).
+        'Referer': 'https://www.thecatalystmethod.co.uk/contact',
+        'Origin': 'https://www.thecatalystmethod.co.uk',
       },
       body: JSON.stringify({
         name,
@@ -38,8 +42,10 @@ export async function POST(request: Request) {
       }),
     })
 
-    if (!res.ok) {
-      console.error('FormSubmit contact error:', res.status, await res.text())
+    const data = await res.json().catch(() => null) as { success?: string; message?: string } | null
+
+    if (!res.ok || data?.success === 'false') {
+      console.error('FormSubmit contact error:', res.status, data)
     }
   } catch (err) {
     console.error('FormSubmit contact failed:', err)
