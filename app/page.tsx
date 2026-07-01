@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import MailerLiteForm from '@/components/MailerLiteForm'
+import BioBlock from '@/components/BioBlock'
 import { getRelevantArticles } from '@/lib/get-relevant-articles'
 
 export const metadata: Metadata = {
@@ -170,33 +171,7 @@ export default async function HomePage() {
 
         {/* ── ABOUT ME ── */}
         <div style={{ padding: '76px 0 0' }}>
-          <div style={{
-            background: 'rgba(255,255,255,0.04)',
-            border: '1px solid rgba(255,255,255,0.1)',
-            borderRadius: 20,
-            padding: '44px 36px',
-            display: 'flex',
-            gap: 32,
-            alignItems: 'center',
-            flexWrap: 'wrap',
-          }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/harry.png"
-              alt="Harry, The Catalyst Method"
-              style={{ width: 110, height: 110, borderRadius: '50%', objectFit: 'cover', border: '2px solid rgba(255,215,0,0.32)', flexShrink: 0 }}
-            />
-            <div style={{ flex: 1, minWidth: 240 }}>
-              <div className="brand-tag" style={{ marginBottom: 14 }}>
-                <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
-                Who&apos;s Behind This
-              </div>
-              <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.72)', lineHeight: 1.82, marginBottom: 18 }}>
-                I&apos;m not a trained life coach. A few years ago I got stuck, low mood, going through the motions, and went back to the inner work that had changed me once before. This site is what came out of it. Free, always, because giving this away is part of my own journey too.
-              </p>
-              <Link href="/about" style={{ fontSize: '0.85rem', color: 'var(--gold)', fontWeight: 700, textDecoration: 'none' }}>Read my full story →</Link>
-            </div>
-          </div>
+          <BioBlock reason="I'm not a trained life coach. A few years ago I got stuck, low mood, going through the motions, and went back to the inner work that had changed me once before. This site is what came out of it. Free, always, because giving this away is part of my own journey too." />
         </div>
 
         {/* ── HOW I CAN HELP ── */}
