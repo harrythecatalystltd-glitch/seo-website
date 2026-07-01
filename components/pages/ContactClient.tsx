@@ -33,14 +33,26 @@ export default function ContactClient() {
     if (!validate()) return
     setStatus('sending')
     try {
-      const res = await fetch('/api/contact', {
+      // Posted directly to FormSubmit from the browser (not via our own API
+      // route) — FormSubmit blocks server-to-server calls from cloud/hosting
+      // IPs like Vercel's, so this has to come from the visitor's own browser.
+      const res = await fetch('https://formsubmit.co/ajax/hey@thecatalystmethod.co.uk', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(fields),
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          name: fields.name,
+          email: fields.email,
+          phone: fields.phone || 'Not provided',
+          message: fields.message,
+          _subject: `New contact form message from ${fields.name}`,
+          _template: 'table',
+          _captcha: 'false',
+          _replyto: fields.email,
+        }),
       })
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}))
-        setErrorMsg((data as { error?: string }).error || 'Something went wrong. Please try again.')
+      const data = await res.json().catch(() => null) as { success?: string } | null
+      if (!res.ok || data?.success === 'false') {
+        setErrorMsg('Something went wrong. Please try again, or email hey@thecatalystmethod.co.uk directly.')
         setStatus('error')
         return
       }
