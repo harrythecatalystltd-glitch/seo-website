@@ -3,15 +3,15 @@ import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 
 export const metadata: Metadata = {
-  title: 'FAQs | The Catalyst Method: Local SEO & Lead Generation',
-  description: 'Your questions answered: how The Catalyst Method works, what results to expect, and how local SEO gets UK small businesses more enquiries from Google.',
+  title: 'FAQ | Confidence & Self-Belief Coaching',
+  description: 'Common questions about the free confidence and self-belief coaching on this site: who it is for, how it works, and why it does not cost anything.',
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/faq' },
   openGraph: {
     type: 'website',
     url: 'https://www.thecatalystmethod.co.uk/faq',
-    title: 'FAQs | The Catalyst Method: Local SEO & Lead Generation',
-    description: 'Common questions about The Catalyst Method: local SEO, lead generation, lead magnets, and getting more enquiries from your website.',
+    title: 'FAQ | Confidence & Self-Belief Coaching',
+    description: 'Common questions about the free confidence and self-belief coaching on this site.',
     images: [{ url: 'https://www.thecatalystmethod.co.uk/mainlogo.png' }],
     siteName: 'The Catalyst Method',
   },
@@ -21,82 +21,44 @@ const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
 const CATEGORIES = [
   {
-    label: 'About The Catalyst Method',
+    label: 'About This Site',
     faqs: [
       {
         q: 'What is The Catalyst Method?',
-        a: 'The Catalyst Method is a lead generation system for UK small businesses. It combines local Google rankings, targeted SEO content, and website conversion design to attract visitors and turn them into high-quality enquiries. It is not a single tactic. It is a structured system built around three stages: Attract, Convert, and Deliver.',
+        a: 'A free confidence and self-belief coaching site. I write weekly tips, blog guides, and reply directly to anyone who reaches out, all built from my own experience working through several genuinely stuck years, not a business selling a programme.',
       },
       {
-        q: 'Who is The Catalyst Method for?',
-        a: 'It is built for UK small and local businesses: tradespeople, consultants, service businesses, and local professionals who want their website to consistently generate enquiries from Google rather than just sitting there. If you rely on word of mouth and want to add a reliable online channel, this is designed for you.',
+        q: 'Are you a trained life coach or therapist?',
+        a: 'No. I am not a trained life coach or counsellor. I can only help you through the lens of what has actually helped me, from my own journey. If you need trained professional support, please seek that out too, alongside this rather than instead of it.',
       },
       {
-        q: 'What makes this different from just doing SEO?',
-        a: 'Traditional SEO focuses on getting traffic. The Catalyst Method focuses on getting leads. Traffic without conversion is wasted. We combine ranking improvements with the website design, CTAs, and lead magnets needed to actually convert that traffic into enquiries. More visits means nothing if visitors leave without getting in touch.',
+        q: 'Why is everything free?',
+        a: 'The more I do this work myself, the more I want to give instead of take. Helping other people with what helped me is part of my own journey, not a lead magnet for something I am trying to sell you later. You can read the full story on my about page.',
       },
       {
-        q: 'Do I need a new website?',
-        a: 'Not necessarily. The Catalyst Method can be applied to an existing website through targeted improvements: fixing your page structure, adding a lead magnet, improving your calls to action, and optimising your content. Our free audit tells you exactly what\'s working, what\'s missing, and what it\'s costing you in lost leads every month.',
-      },
-    ],
-  },
-  {
-    label: 'Lead Generation',
-    faqs: [
-      {
-        q: 'What is a lead magnet?',
-        a: 'A lead magnet is a free resource, tool, or offer that gives website visitors a reason to engage with your business before they\'re ready to buy. Only around 3% of visitors are ready to enquire immediately. A good lead magnet captures the other 97% and keeps them in your world until they are ready. Examples include a free audit, a downloadable guide, a checklist, or a free consultation.',
-      },
-      {
-        q: 'What is the difference between a hard CTA and a soft CTA?',
-        a: 'A hard CTA asks for a high-commitment action: "Get a Quote", "Book a Call", "Sign Up Now". It works well for visitors who are ready to buy. A soft CTA asks for a low-commitment action: "Download the free guide", "Get your free audit", "See how it works". It works for visitors who are interested but not yet ready. You need both on your website, placed at the right moments, or you\'re leaving leads behind at both ends.',
-      },
-      {
-        q: 'Why isn\'t my website generating leads even though I get visitors?',
-        a: 'The most common reasons are: no clear call to action above the fold, copy that talks about the business rather than the customer\'s problem, no lead magnet to capture visitors who aren\'t ready to buy, slow page load speed, no trust signals like reviews or credentials, and poor mobile experience. Our free audit checks all 16 of these factors and scores your site instantly.',
-      },
-      {
-        q: 'How many leads should I expect from my website?',
-        a: 'That depends on your traffic, your industry, and your conversion rate. A well-optimised local business website typically converts between 2 and 5% of visitors into enquiries. If you\'re getting 300 visitors a month and converting 1%, that\'s 3 leads. Fix the conversion rate to 4% and it\'s 12 leads from the same traffic, without spending more on ads.',
+        q: 'Who is this for?',
+        a: 'People who overthink every decision, doubt themselves more than they should, or feel generally stuck without one clear problem to point at. If that sounds familiar, this is for you, whether or not you ever get in touch directly.',
       },
     ],
   },
   {
-    label: 'Local SEO & Google Rankings',
+    label: 'Confidence, Self-Belief & Overthinking',
     faqs: [
       {
-        q: 'What is local SEO?',
-        a: 'Local SEO is the process of optimising your website and online presence so that you appear in Google when people in your area search for your service. This includes on-page SEO (your website content and structure), Google Business Profile optimisation, and building local authority through targeted content. It is the primary channel The Catalyst Method uses to bring relevant, high-intent traffic to your website.',
+        q: 'What is the difference between confidence and self-belief?',
+        a: 'Confidence is often situational. You can feel confident in one area and still doubt yourself the moment a real decision is on the line. Self-belief runs deeper: it is the quiet trust that your own judgement is worth listening to, even without proof yet.',
       },
       {
-        q: 'How long does it take to rank on Google?',
-        a: 'For new or poorly-optimised websites, meaningful local rankings typically start to appear within 3 to 6 months of consistent SEO work. Quick wins in that time include fixing technical issues, optimising your Google Business Profile, and improving page titles and headings. SEO is a long-term investment, but unlike paid ads, the results compound and continue working without ongoing spend.',
+        q: 'Why do I overthink every decision, even small ones?',
+        a: 'Usually it is decision fatigue combined with wanting certainty before you act. Every decision uses a bit of mental energy, so by the time a real one shows up, the small stuff and the big stuff start to feel equally heavy. It is not a character flaw, it is a resource running low.',
       },
       {
-        q: 'Do I need a Google Business Profile?',
-        a: 'Yes. For local businesses, your Google Business Profile (GBP) is one of the highest-value assets you have. It is what appears in the map pack when someone searches for your service nearby. An optimised GBP with photos, reviews, accurate categories, and regular posts can drive significant enquiries on its own, separate from your website rankings.',
+        q: 'Can this help with imposter syndrome or feeling like a fraud at work?',
+        a: 'Yes. It is one of the most common patterns I write about. See the confidence at work page for more on this specifically, or the blog for longer guides.',
       },
       {
-        q: 'What kind of content helps with local Google rankings?',
-        a: 'Content that targets specific, local search terms your customers actually use. Not generic "about us" pages, but location-specific service pages ("plumber in Manchester"), question-based blog posts answering what your customers search, and comparison content that captures people who are evaluating options. The Catalyst Method builds this content strategically, mapped to real search data.',
-      },
-    ],
-  },
-  {
-    label: 'Results & Expectations',
-    faqs: [
-      {
-        q: 'How long before I see results?',
-        a: 'Some improvements show results within weeks. Fixing your CTAs, adding a lead magnet, tidying up your Google Business Profile, and improving page speed can all move the needle quickly. SEO content builds over months. The system is designed for steady, compounding growth rather than a short-term spike that disappears.',
-      },
-      {
-        q: 'Can I see what\'s wrong with my website before committing to anything?',
-        a: 'The free website audit on our home page runs 16 checks in seconds and gives you a scored breakdown of every issue, what it means, and roughly how many leads it\'s costing you every month. No sign-up required. It\'s the fastest way to see exactly where your website is falling short.',
-      },
-      {
-        q: 'What results have other businesses seen?',
-        a: 'Results depend on the starting point, the industry, and the local competition. Businesses that implement the full Catalyst Method system, including SEO content, an optimised website, a lead magnet, and strong CTAs, typically see a meaningful increase in website enquiries within 3 to 6 months. We share real case studies on our blog.',
+        q: 'I do not have one big problem, I just feel generally stuck. Is this still for me?',
+        a: 'That is exactly what this site was built for. I spent six years stuck without one dramatic cause, just low mood and going through the motions. Most people who find this site are in that same place, not in the middle of a crisis.',
       },
     ],
   },
@@ -105,15 +67,40 @@ const CATEGORIES = [
     faqs: [
       {
         q: 'What is the first step?',
-        a: 'Run the free website audit. It takes 10 seconds, checks 16 key factors, and shows you exactly where you\'re losing leads right now. From there, you\'ll have a clear picture of what needs fixing and we can talk about the best way to address it.',
+        a: 'Sign up for the free weekly tips. It is the easiest way to see if what I write actually helps before you decide whether to reach out directly.',
       },
       {
-        q: 'How do I work with The Catalyst Method?',
-        a: 'Start with the free audit to understand your current position. Then explore our plans on the Sign Up page. We work with local businesses at different stages, from a done-with-you setup to a fully managed service. Get in touch if you\'re not sure which option fits best.',
+        q: 'What is actually in the weekly emails, versus the blog?',
+        a: 'The weekly emails are more personal: stories and practices from my own journey, sent straight to your inbox. The blog has longer pieces I have researched or learned, for when you want to go deeper on something specific.',
       },
       {
-        q: 'Is there a contract?',
-        a: 'Details vary by plan. See the Sign Up page or get in touch for specifics. We don\'t believe in locking people into long contracts they can\'t get out of. The goal is to deliver results that make you want to stay.',
+        q: 'Can I just message you directly instead?',
+        a: 'Yes. Email or WhatsApp both work, and I reply myself. See the contact page for both.',
+      },
+      {
+        q: 'How often will I hear from you?',
+        a: 'The weekly tips are exactly that: one email a week, nothing more. No daily nudges, no drip sequence trying to sell you something by email seven.',
+      },
+    ],
+  },
+  {
+    label: 'Practical Stuff',
+    faqs: [
+      {
+        q: 'Is this therapy or counselling?',
+        a: 'No. I am not a trained therapist or counsellor, and this site is not a substitute for either. It is one person sharing what has genuinely helped them, which is a different thing.',
+      },
+      {
+        q: 'What if I need more serious professional support?',
+        a: 'Please seek it out, alongside this rather than instead of it. If something you are dealing with feels bigger than what a free email or a chat with me can help with, a trained professional is the right next step.',
+      },
+      {
+        q: 'Do you ever sell anything?',
+        a: 'No. No products, no programmes, no calls that turn into a pitch. That is not a marketing line, it is genuinely how the site is built.',
+      },
+      {
+        q: 'How quickly will you reply if I get in touch?',
+        a: 'Within one business day, usually sooner. I reply to messages myself.',
       },
     ],
   },
@@ -135,8 +122,8 @@ const schema = {
       '@type': 'FAQPage',
       '@id': 'https://www.thecatalystmethod.co.uk/faq',
       url: 'https://www.thecatalystmethod.co.uk/faq',
-      name: 'FAQs: The Catalyst Method',
-      description: 'Frequently asked questions about The Catalyst Method: local SEO and lead generation for UK small businesses.',
+      name: 'FAQ: The Catalyst Method',
+      description: 'Frequently asked questions about the free confidence and self-belief coaching on this site.',
       publisher: { '@id': 'https://www.thecatalystmethod.co.uk/#organization' },
       inLanguage: 'en-GB',
       mainEntity: CATEGORIES.flatMap(cat =>
@@ -177,7 +164,7 @@ export default function FaqPage() {
             <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
             The Catalyst Method | FAQ
           </div>
-          <h1>Local SEO &amp; Lead Generation <em>FAQs for UK Small Businesses</em></h1>
+          <h1>Questions, <em>Answered Honestly.</em></h1>
           <p style={{
             fontSize: 'clamp(1rem, 2.5vw, 1.15rem)',
             color: 'rgba(255,255,255,0.65)',
@@ -186,7 +173,7 @@ export default function FaqPage() {
             margin: '0 auto',
             fontFamily: "'Open Sans', sans-serif",
           }}>
-            Everything you need to know about The Catalyst Method: local SEO, lead generation, and how to turn your website into a consistent source of enquiries.
+            Everything people usually ask about this site, who it is for, and what it actually is.
           </p>
         </div>
       </section>
