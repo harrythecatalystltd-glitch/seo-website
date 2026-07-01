@@ -39,6 +39,10 @@ export default function SiteNav() {
           <BoltIcon />
           Free Weekly Tips
         </Link>
+        <Link href="/about" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          About
+        </Link>
         <Link href="/blog" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           Blog
