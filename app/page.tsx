@@ -178,19 +178,28 @@ export default async function HomePage() {
       <div style={{ maxWidth: 820, margin: '0 auto', padding: '0 24px' }}>
 
         {/* ── WEEKLY TIPS FORM ── */}
-        <div id="weekly-tips" style={{ padding: '76px 0 0', scrollMarginTop: 100, textAlign: 'center' }}>
-          <div className="brand-tag" style={{ marginBottom: 22 }}>
-            <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
-            Free Weekly Tips
-          </div>
-          <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
-            Get Free Weekly Tips
-          </h2>
-          <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, margin: '0 auto 32px' }}>
-            One practical email a week on confidence, self-belief, overthinking and decision-making. Real tools you can use the same day, not theory.
-          </p>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <MailerLiteForm />
+        <div id="weekly-tips" style={{ padding: '76px 0 0', scrollMarginTop: 100 }}>
+          <div style={{
+            background: 'rgba(255,255,255,0.04)',
+            border: '1.5px solid rgba(255,215,0,0.22)',
+            borderRadius: 20,
+            padding: '48px 40px',
+            textAlign: 'center',
+            boxShadow: '0 20px 60px rgba(0,0,0,0.35), 0 0 40px rgba(255,215,0,0.06)',
+          }}>
+            <div className="brand-tag" style={{ marginBottom: 22 }}>
+              <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
+              Free Weekly Tips
+            </div>
+            <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
+              Get Free Weekly Tips
+            </h2>
+            <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, margin: '0 auto 32px' }}>
+              One practical email a week on confidence, self-belief, overthinking and decision-making. Real tools you can use the same day, not theory.
+            </p>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <MailerLiteForm />
+            </div>
           </div>
         </div>
 

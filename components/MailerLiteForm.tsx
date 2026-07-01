@@ -54,7 +54,7 @@ const FORM_CSS = `
 
 #mlb2-43256023.ml-form-embedContainer { box-sizing: border-box; display: table; margin: 0 auto; width: 100% !important; }
 #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper {
-  background-color: #002b45; border-radius: 4px; box-sizing: border-box; display: inline-block !important; position: relative;
+  background-color: transparent; border-radius: 4px; box-sizing: border-box; display: inline-block !important; position: relative;
 }
 #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 400px; width: 100%; }
 #mlb2-43256023.ml-form-embedContainer .ml-form-align-center { text-align: center; }
