@@ -31,12 +31,6 @@ const FORM_HTML = `
           <input type="hidden" name="anticsrf" value="true">
         </form>
       </div>
-      <div class="ml-form-successBody row-success" style="display: none">
-        <div class="ml-form-successContent">
-          <h4>Thank you!</h4>
-          <p>You have successfully joined our subscriber list.</p>
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -76,14 +70,6 @@ const FORM_CSS = `
 }
 #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading { display: none; }
 #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover { background-color: #e6c200 !important; }
-#mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody { padding: 20px 20px 0 20px; }
-#mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent { text-align: left; margin: 0 0 20px 0; }
-#mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
-  color: #ffffff; font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 800; margin: 0 0 10px 0; text-align: left;
-}
-#mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
-  color: rgba(255,255,255,0.7); font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; margin: 0; text-align: left;
-}
 .ml-error input { border-color: #e05a4e !important; }
 @media only screen and (max-width: 400px) {
   #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper.embedForm { width: 100% !important; }
@@ -93,15 +79,10 @@ const FORM_CSS = `
 export default function MailerLiteForm() {
   useEffect(() => {
     (window as unknown as Record<string, unknown>).ml_webform_success_43256023 = function () {
-      const w = window as unknown as { ml_jQuery?: unknown; jQuery?: unknown }
-      const $ = w.ml_jQuery || w.jQuery
-      if (typeof $ === 'function') {
-        (
-          $ as unknown as (sel: string) => { show: () => void; hide: () => void }
-        )('.ml-subscribe-form-43256023 .row-success').show()
-        ;(
-          $ as unknown as (sel: string) => { show: () => void; hide: () => void }
-        )('.ml-subscribe-form-43256023 .row-form').hide()
+      try {
+        window.top!.location.href = 'https://www.thecatalystmethod.co.uk/thankyou'
+      } catch {
+        window.location.href = 'https://www.thecatalystmethod.co.uk/thankyou'
       }
     }
 
