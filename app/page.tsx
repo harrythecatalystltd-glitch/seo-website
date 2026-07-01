@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
-import NewsletterForm from '@/components/NewsletterForm'
+import MailerLiteForm from '@/components/MailerLiteForm'
 import { manualPosts } from '@/lib/manual-posts'
 import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
 
@@ -190,7 +190,7 @@ export default async function HomePage() {
             One practical email a week on confidence, self-belief, overthinking and decision-making. Real tools you can use the same day, not theory.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <NewsletterForm />
+            <MailerLiteForm />
           </div>
         </div>
 

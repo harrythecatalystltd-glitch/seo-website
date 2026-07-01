@@ -1,9 +1,5 @@
 import { NextResponse } from 'next/server'
 
-function escapeHtml(s: string) {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-}
-
 export async function POST(request: Request) {
   let parsed: Record<string, unknown> = {}
   try {
@@ -21,40 +17,32 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Please fill in all required fields.' }, { status: 400 })
   }
 
-  const apiKey = process.env.RESEND_API_KEY
-  const to     = process.env.CONTACT_EMAIL_TO || 'hey@thecatalystmethod.co.uk'
-
-  if (!apiKey) {
-    return NextResponse.json({ ok: true })
-  }
+  const to = process.env.CONTACT_EMAIL_TO || 'hey@thecatalystmethod.co.uk'
 
   try {
-    const res = await fetch('https://api.resend.com/emails', {
+    const res = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(to)}`, {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
+        'Accept': 'application/json',
       },
       body: JSON.stringify({
-        from: 'The Catalyst Method <onboarding@resend.dev>',
-        to: [to],
-        reply_to: email,
-        subject: `New contact form message from ${name}`,
-        html: `
-          <p><strong>Name:</strong> ${escapeHtml(name)}</p>
-          <p><strong>Email:</strong> ${escapeHtml(email)}</p>
-          ${phone ? `<p><strong>Phone:</strong> ${escapeHtml(phone)}</p>` : ''}
-          <p><strong>Message:</strong></p>
-          <p>${escapeHtml(message).replace(/\n/g, '<br>')}</p>
-        `,
+        name,
+        email,
+        phone: phone || 'Not provided',
+        message,
+        _subject: `New contact form message from ${name}`,
+        _template: 'table',
+        _captcha: 'false',
+        _replyto: email,
       }),
     })
 
     if (!res.ok) {
-      console.error('Resend contact error:', res.status, await res.text())
+      console.error('FormSubmit contact error:', res.status, await res.text())
     }
   } catch (err) {
-    console.error('Resend contact failed:', err)
+    console.error('FormSubmit contact failed:', err)
   }
 
   return NextResponse.json({ ok: true })
