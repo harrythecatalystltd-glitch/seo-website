@@ -227,9 +227,9 @@ function Results({ result }: { result: GeneratedDescription }) {
         textAlign: 'center' as const,
       }}>
         <p style={{ margin: '0 0 14px', fontSize: '0.95rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.5 }}>
-          Want help building a YouTube and SEO strategy that actually brings in leads?
+          Want more free tools and tips like this?
         </p>
-        <a href="/website-audit" style={{
+        <a href="/#weekly-tips" style={{
           background: GOLD,
           borderRadius: '8px',
           color: NAVY,
@@ -242,7 +242,7 @@ function Results({ result }: { result: GeneratedDescription }) {
           textDecoration: 'none',
           textTransform: 'uppercase' as const,
         }}>
-          Get a Free Audit
+          Get Free Weekly Tips
         </a>
       </div>
     </div>

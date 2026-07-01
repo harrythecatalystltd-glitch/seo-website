@@ -66,28 +66,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/website-audit`,
+      url: `${BASE_URL}/keyword-analyser`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.9,
+      priority: 0.5,
     },
     {
-      url: `${BASE_URL}/we-get-you-leads`,
+      url: `${BASE_URL}/youtube-title-analyser`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.9,
+      priority: 0.5,
     },
     {
-      url: `${BASE_URL}/the-agency-vault`,
+      url: `${BASE_URL}/youtube-description-generator`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${BASE_URL}/signup`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.5,
     },
     {
       url: `${BASE_URL}/blog`,
@@ -118,30 +112,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.4,
-    },
-    {
-      url: `${BASE_URL}/wrise-alternative`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/milk-it-digital-alternative`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/get-your-website-seen-alternative`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/wrise-vs-the-catalyst-method`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
     },
   ]
 

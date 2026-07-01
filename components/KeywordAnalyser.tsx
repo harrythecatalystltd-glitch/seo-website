@@ -419,13 +419,13 @@ export default function KeywordAnalyser() {
           <div style={{ background: 'rgba(255,215,0,0.05)', border: '1px solid rgba(255,215,0,0.18)', borderRadius: 14, padding: '24px 28px', display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap', justifyContent: 'space-between' }}>
             <div>
               <p style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.82rem', fontWeight: 800, color: '#fff', marginBottom: 4 }}>
-                Want help ranking for keywords like this?
+                Want more free tools and tips like this?
               </p>
               <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.5)', fontFamily: "'Open Sans',sans-serif" }}>
-                Run a free audit of your website and see exactly what is stopping you from appearing on Google.
+                Free weekly tips on confidence, self-belief and decision-making, straight to your inbox.
               </p>
             </div>
-            <a href="/website-audit" style={{
+            <a href="/#weekly-tips" style={{
               display: 'inline-flex', alignItems: 'center', gap: 8, flexShrink: 0,
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat',sans-serif", fontWeight: 800,
@@ -433,7 +433,7 @@ export default function KeywordAnalyser() {
               padding: '12px 22px', borderRadius: 8, textDecoration: 'none',
             }}>
               <svg width="9" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
-              Free Website Audit
+              Get Free Weekly Tips
             </a>
           </div>
         </div>

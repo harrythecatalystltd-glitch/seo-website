@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/services',
-        destination: '/signup',
+        destination: '/',
         permanent: true,
       },
       // /post/ → /blog/ redirects (old URL structure → new)
@@ -113,10 +113,10 @@ const nextConfig: NextConfig = {
         destination: '/blog',
         permanent: true,
       },
-      // agency-vault → the-agency-vault
+      // agency-vault (old typo redirect target no longer exists either)
       {
         source: '/agency-vault',
-        destination: '/the-agency-vault',
+        destination: '/',
         permanent: true,
       },
 
@@ -165,18 +165,20 @@ const nextConfig: NextConfig = {
       { source: '/blog/simplify-your-offer-overcoming-choice-paralysis', destination: '/blog', permanent: true },
       { source: '/blog/why-feedback-builds-trust-confidence', destination: '/blog', permanent: true },
       { source: '/blog/build-triggers-daily-business-habits', destination: '/blog', permanent: true },
-    ]
-  },
-  async rewrites() {
-    return [
-      {
-        source: '/case-study-creation-coffee',
-        destination: '/case-study-creation-coffee.html',
-      },
-      {
-        source: '/case-study-fitness-coach-chronicle',
-        destination: '/case-study-fitness-coach-chronicle.html',
-      },
+
+      // ─── Confidence coaching rebuild (2026-07-01): removed the remaining
+      // SEO/lead-gen agency pages (sales tools, pricing, competitor
+      // comparisons). None are relevant to a free confidence coaching site. ───
+      { source: '/the-agency-vault', destination: '/', permanent: true },
+      { source: '/signup', destination: '/', permanent: true },
+      { source: '/we-get-you-leads', destination: '/', permanent: true },
+      { source: '/website-audit', destination: '/', permanent: true },
+      { source: '/wrise-alternative', destination: '/', permanent: true },
+      { source: '/milk-it-digital-alternative', destination: '/', permanent: true },
+      { source: '/get-your-website-seen-alternative', destination: '/', permanent: true },
+      { source: '/wrise-vs-the-catalyst-method', destination: '/', permanent: true },
+      { source: '/case-study-creation-coffee', destination: '/', permanent: true },
+      { source: '/case-study-fitness-coach-chronicle', destination: '/', permanent: true },
     ]
   },
 }

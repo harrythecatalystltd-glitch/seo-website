@@ -325,14 +325,14 @@ export default function FaqPage() {
             fontFamily: "'Open Sans', sans-serif",
             position: 'relative',
           }}>
-            Get in touch, or run the free audit to see exactly what your website is missing right now.
+            Get in touch, or get free weekly tips straight to your inbox.
           </p>
           <div style={{
             display: 'flex', gap: '14px',
             justifyContent: 'center', flexWrap: 'wrap',
             position: 'relative',
           }}>
-            <Link href="/website-audit" style={{
+            <Link href="/#weekly-tips" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
@@ -340,7 +340,7 @@ export default function FaqPage() {
               padding: '15px 28px', borderRadius: '8px', textDecoration: 'none',
             }}>
               <svg width="10" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
-              Get Your Free Audit
+              Get Free Weekly Tips
             </Link>
             <Link href="/contact" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',

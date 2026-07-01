@@ -474,17 +474,6 @@ export default function TermsPage() {
               <svg width="9" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
               Contact Us
             </Link>
-            <Link href="/signup" style={{
-              display: 'inline-flex', alignItems: 'center', gap: '8px',
-              background: 'transparent',
-              border: '1px solid rgba(255,255,255,0.15)',
-              color: 'rgba(255,255,255,0.65)',
-              fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
-              fontSize: '0.82rem', letterSpacing: '0.04em', textTransform: 'uppercase',
-              padding: '13px 24px', borderRadius: '8px', textDecoration: 'none',
-            }}>
-              View Pricing Plans
-            </Link>
           </div>
         </div>
 
