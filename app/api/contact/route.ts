@@ -47,8 +47,16 @@ export async function POST(request: Request) {
     if (!res.ok || data?.success === 'false') {
       console.error('FormSubmit contact error:', res.status, data)
     }
+
+    // TEMPORARY debug echo, remove once the delivery issue is confirmed fixed.
+    if (request.headers.get('x-debug') === 'true') {
+      return NextResponse.json({ ok: true, debug: { to, status: res.status, data } })
+    }
   } catch (err) {
     console.error('FormSubmit contact failed:', err)
+    if (request.headers.get('x-debug') === 'true') {
+      return NextResponse.json({ ok: true, debug: { to, error: String(err) } })
+    }
   }
 
   return NextResponse.json({ ok: true })
