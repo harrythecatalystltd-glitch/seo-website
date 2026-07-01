@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import MailerLiteForm from '@/components/MailerLiteForm'
-import { manualPosts } from '@/lib/manual-posts'
-import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
+import { getRelevantArticles } from '@/lib/get-relevant-articles'
 
 export const metadata: Metadata = {
   title: 'Confidence & Self-Belief Coaching | The Catalyst Method',
@@ -27,67 +26,6 @@ export const metadata: Metadata = {
 }
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
-
-/* ── Blog fetch (latest 3, confidence-relevant only) ── */
-type Article = {
-  slug: string
-  title: string
-  description?: string
-  image?: string
-  category?: { title?: string }
-  publishedAt?: string
-  readingTime?: number
-}
-
-type DisplayArticle = {
-  slug: string
-  title: string
-  description?: string
-  image?: string
-  category?: string
-  publishedAt?: string
-  readingTime?: number
-}
-
-async function getLatestArticles(): Promise<DisplayArticle[]> {
-  let fromSeobot: DisplayArticle[] = []
-  try {
-    const { BlogClient } = await import('seobot')
-    const client = new BlogClient(process.env.SEOBOT_API_KEY || '')
-    const result = await client.getArticles(0, 50) as { articles: Article[]; total: number }
-    fromSeobot = result.articles
-      .filter(a => RELEVANT_SEOBOT_SLUGS.has(a.slug))
-      .map(a => ({
-        slug: a.slug,
-        title: a.title,
-        description: a.description,
-        image: a.image,
-        category: a.category?.title,
-        publishedAt: a.publishedAt,
-        readingTime: a.readingTime,
-      }))
-  } catch {
-    fromSeobot = []
-  }
-
-  const fromManual: DisplayArticle[] = manualPosts.map(p => ({
-    slug: p.slug,
-    title: p.title,
-    description: p.description,
-    image: p.image,
-    category: p.category,
-    publishedAt: p.publishedAt,
-    readingTime: p.readingTime,
-  }))
-
-  return [...fromSeobot, ...fromManual]
-    .sort((a, b) => {
-      if (!a.publishedAt) return 1
-      if (!b.publishedAt) return -1
-      return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    })
-    .slice(0, 3)
-}
 
 const schema = {
   '@context': 'https://schema.org',
@@ -132,7 +70,7 @@ function ContactCta() {
 }
 
 export default async function HomePage() {
-  const posts = await getLatestArticles()
+  const posts = (await getRelevantArticles()).slice(0, 3)
 
   return (
     <>

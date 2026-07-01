@@ -1,13 +1,15 @@
 import type { Metadata } from 'next'
 import ThankyouClient from '@/components/pages/ThankyouClient'
+import { getRelevantArticles } from '@/lib/get-relevant-articles'
 
 export const metadata: Metadata = {
-  title: 'Your Website Audit Report | The Catalyst Method',
-  description: 'Your personalised 16-point website audit report from The Catalyst Method. See what is holding your site back and how to fix it.',
+  title: 'Thank You | The Catalyst Method',
+  description: 'Thanks for signing up. Get in touch by email or WhatsApp anytime.',
   robots: { index: false, follow: false },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/thankyou' },
 }
 
-export default function ThankyouPage() {
-  return <ThankyouClient />
+export default async function ThankyouPage() {
+  const articles = (await getRelevantArticles()).slice(0, 3)
+  return <ThankyouClient articles={articles} />
 }

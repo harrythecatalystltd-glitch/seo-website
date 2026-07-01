@@ -152,14 +152,6 @@ export default function HomeClient() {
       setTimeout(() => setEmailErr(false), 1500)
       return
     }
-    const data = scanResult ? { ...scanResult, email } : null
-    if (data) { try { sessionStorage.setItem('scanData', JSON.stringify(data)) } catch {} }
-    const p = new URLSearchParams({
-      score: String(scanResult?.score ?? 0),
-      domain: scanResult?.domain ?? '',
-      email,
-      band: scanResult?.band?.label ?? '',
-    })
     try {
       await fetch('/api/subscribe', {
         method: 'POST',
@@ -176,7 +168,9 @@ export default function HomeClient() {
         }),
       })
     } catch {}
-    window.location.href = '/thankyou?' + p.toString()
+    // /thankyou is now the MailerLite signup confirmation page, not this
+    // legacy audit tool's report page, so send visitors home instead.
+    window.location.href = '/'
   }
 
   const scoreColor = scanResult
