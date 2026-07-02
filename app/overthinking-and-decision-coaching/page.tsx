@@ -149,6 +149,7 @@ export default function OverthinkingCoachingPage() {
           heading="Related Reading"
           slugs={[
             'stop-overthinking-decisions',
+            'feeling-stuck-in-life',
             'manage-decision-fatigue-prioritisation',
             'complete-guide-overcoming-indecision',
             'practise-micro-decisions-20-minutes',

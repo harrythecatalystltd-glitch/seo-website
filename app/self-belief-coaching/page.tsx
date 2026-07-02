@@ -148,9 +148,10 @@ export default function SelfBeliefCoachingPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
+            'feeling-stuck-in-life',
+            'self-worth-vs-self-esteem-vs-confidence',
             'self-doubt-vs-self-confidence-key-differences',
             'trust-yourself-simple-steps',
-            'lack-confidence-common-causes',
             'daily-habits-build-self-confidence-fast',
             '3-books-that-changed-my-life',
           ]}

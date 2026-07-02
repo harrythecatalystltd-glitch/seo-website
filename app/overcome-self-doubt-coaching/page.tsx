@@ -148,6 +148,7 @@ export default function OvercomeSelfDoubtPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
+            'self-worth-vs-self-esteem-vs-confidence',
             'self-doubt-vs-self-confidence-key-differences',
             'lack-confidence-common-causes',
             'trust-yourself-simple-steps',

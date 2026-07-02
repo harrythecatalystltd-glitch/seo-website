@@ -148,6 +148,7 @@ export default function ConfidenceAtWorkPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
+            'what-is-imposter-syndrome',
             'feeling-stuck-work-ways-move-forward',
             'lack-confidence-common-causes',
             'daily-habits-build-self-confidence-fast',

@@ -594,4 +594,343 @@ export const manualPosts: ManualPost[] = [
 </div>
 `,
   },
+  {
+    slug: 'what-is-imposter-syndrome',
+    title: 'What Is Imposter Syndrome? Signs, Causes and What Actually Helps',
+    description: 'Feel like a fraud at work despite the evidence? Here is what imposter syndrome actually is, the signs to watch for, and what has helped me and the people I talk to move through it.',
+    category: 'Personal Development',
+    publishedAt: '2026-01-15',
+    readingTime: 8,
+    image: '/blog/what-is-imposter-syndrome.png',
+    html: `
+<p>Imposter syndrome gets talked about so often it has almost lost its meaning. So let&apos;s be specific: it is the gap between what you have actually achieved and what you privately believe about your own ability, a gap that no amount of evidence ever seems to close.</p>
+
+<p>I have felt it. I still feel it sometimes. Here is what it actually is, why I think it happens, and what has helped, both for me and for the people I talk to.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Imposter syndrome is putting your success down to luck rather than ability, downplaying what you have done, and quietly waiting to be found out. I think it comes from comparing your full internal experience, all your doubt, against everyone else&apos;s edited exterior, which is comparing your essence to their appearance. It is a false reality, not a verdict on your competence. What helps is naming one thing you did well without explaining it away, testing whether a thought makes you feel stronger or smaller, and actually letting the feeling go instead of arguing with it.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#what-it-is">What imposter syndrome actually is</a></li>
+    <li style="margin-bottom:8px;"><a href="#not-about-ability">Why it isn&apos;t about ability</a></li>
+    <li style="margin-bottom:8px;"><a href="#where-it-comes-from">Where I think it comes from</a></li>
+    <li style="margin-bottom:8px;"><a href="#signs">Signs you might recognise</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-helps">What actually helps</a></li>
+    <li style="margin-bottom:8px;"><a href="#extra-support">When to get extra support</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-imposter">Common questions about imposter syndrome</a></li>
+  </ol>
+</div>
+
+<h2 id="what-it-is">What Imposter Syndrome Actually Is</h2>
+
+<p>Imposter syndrome is the pattern of putting your success down to luck, timing, or other people, never your own ability. It&apos;s downplaying what you&apos;ve done before someone else can. It&apos;s quietly waiting for the moment everyone realises you&apos;re not as capable as they think.</p>
+
+<p>None of that is a character flaw, and none of it is actually about whether you&apos;re good at what you do. It&apos;s a pattern of belief, running independently of the evidence in front of you.</p>
+
+<h2 id="not-about-ability">Why It Isn&apos;t About Ability</h2>
+
+<p>Most of the time this has nothing to do with actual competence. It comes from comparing your internal experience, all your doubts and second-guessing, against everyone else&apos;s polished exterior. I think of this as comparing essence to appearance, essence being your full, honest inside, appearance being everyone else&apos;s edited outside. You never see their doubt, so you assume you&apos;re the only one carrying it.</p>
+
+<p>That comparison was never fair to begin with. You&apos;re comparing your behind-the-scenes to their highlight reel, and then treating the result as evidence about your ability.</p>
+
+<h2 id="where-it-comes-from">Where I Think It Comes From</h2>
+
+<p>Add in a stretch of feeling stuck, going through the motions rather than actually engaging, and each small knock that never gets let go of just quietly stacks. Confidence erodes further without one single bad thing having actually happened.</p>
+
+<p>I think imposter syndrome is a false reality in the same way self-doubt is: a leftover perspective from somewhere in your past, still running as if it were current fact. It isn&apos;t evidence. It&apos;s a feeling that never got released, dressed up as a conclusion about your competence.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/BkA6bpyaTIQ" title="Letting Go Technique Explained in 5 Easy Steps, David Hawkins" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="signs">Signs You Might Recognise</h2>
+
+<p>You attribute a promotion, a good piece of work, or a compliment to luck, timing, or someone else being generous, never to your own ability. You rehearse an achievement before mentioning it, ready to explain it away the moment someone reacts. You feel a low hum of dread that someone is about to notice you don&apos;t belong, even in a role you&apos;ve done well for years.</p>
+
+<p>If any of that lands, you&apos;re not broken and you&apos;re not alone. It has a name, and more importantly, it has a way out.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this kind of thing?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Free weekly tips on confidence, self-belief and letting go. No sales pitch, ever.</p>
+  <a href="/#weekly-tips" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Free Weekly Tips</a>
+</div>
+
+<h2 id="what-helps">What Actually Helps</h2>
+
+<p>Small, repeated proof beats a single confidence boost every time. Naming one thing you did well without immediately explaining it away is a good place to start, even though it will feel uncomfortable at first.</p>
+
+<p>Beyond that, I use the same two tools I use for most false realities. First, the truth test: does this thought make me feel stronger and clearer, or smaller and tighter? Imposter thoughts almost always make you feel smaller. That&apos;s usually enough to tell you it&apos;s appearance, not essence, and I go deeper into this test in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">Why &quot;Not Good Enough&quot; Is a False Reality</a>.</p>
+
+<p>Second, actually letting the feeling go rather than arguing with it intellectually. Feel where the doubt sits in your body before a meeting or a moment that triggers it, let it be there, and stay with it until the charge runs out. I break the full technique down in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">How I Let Go of Negative Thoughts and Feelings Every Day</a>.</p>
+
+<h2 id="extra-support">When to Get Extra Support</h2>
+
+<p>None of this is complicated, but it has to be done on purpose, because it won&apos;t happen by accident. If imposter syndrome is showing up specifically at work, I&apos;ve written more directly about that on my <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching for work</a> page. And if you want to talk it through properly, <a href="/contact" style="color:#FFD700;">get in touch</a>, no sales script, just a real reply from me.</p>
+
+<h2 id="faq-imposter">Common Questions About Imposter Syndrome</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is imposter syndrome the same thing as low confidence?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Not quite. Low confidence is usually about ability. Imposter syndrome is more specific: you can be genuinely capable, with real evidence to prove it, and still not believe it applies to you. That&apos;s why more achievements alone rarely fix it.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does imposter syndrome ever fully go away?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For me it has faded a lot, but it still shows up occasionally, usually in a new or higher-stakes situation. The difference now is I recognise it faster and know what to do with it, rather than being run by it for weeks.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why do capable, successful people get imposter syndrome the most?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I think it&apos;s because capable people are often the most aware of everything they don&apos;t know, and the most exposed to rooms full of other capable people whose doubts they can&apos;t see. That combination makes the comparison feel especially convincing, even though it isn&apos;t fair.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can journaling or positive affirmations fix imposter syndrome?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">They can help as a supporting habit, but on their own they usually just argue with the thought rather than releasing the feeling underneath it. I&apos;ve had more success actually letting the feeling go than trying to out-argue it with a nicer sentence.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I tell my manager or colleagues I feel like an imposter?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">That&apos;s a personal call, but in my experience, saying it out loud to even one trusted person usually breaks its power a little, because you find out how common the feeling actually is. You don&apos;t have to announce it to everyone to get that benefit.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'self-worth-vs-self-esteem-vs-confidence',
+    title: 'Self-Worth vs Self-Esteem vs Self-Confidence: What Is Actually Different',
+    description: 'These three get used interchangeably but they are not the same thing. Here is the difference, why it matters, and which one is actually worth building first.',
+    category: 'Personal Development',
+    publishedAt: '2026-01-22',
+    readingTime: 8,
+    image: '/blog/self-worth-vs-self-esteem-vs-confidence.png',
+    html: `
+<p>People use self-worth, self-esteem and self-confidence like they mean the same thing. They don&apos;t, and mixing them up is exactly why so many confidence tips don&apos;t actually stick.</p>
+
+<p>Here is how I think about the difference between them, and which one is actually worth building first.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;"><strong>Self-confidence</strong> is situational, belief in your ability to do a specific thing. <strong>Self-esteem</strong> is your overall evaluation of yourself, and it moves up and down with results. <strong>Self-worth</strong> is unconditional, the sense that you are enough as you are, regardless of outcome. Most people try to fix self-worth with confidence tips, and it doesn&apos;t work, because self-worth isn&apos;t built by proving yourself. It&apos;s built by letting go of the false idea that you need to.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#definitions">The three definitions</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-confused">Why people mix them up</a></li>
+    <li style="margin-bottom:8px;"><a href="#doesnt-move">Self-worth is the one that doesn&apos;t move</a></li>
+    <li style="margin-bottom:8px;"><a href="#tips-dont-fix">Why confidence tips alone don&apos;t fix self-worth</a></li>
+    <li style="margin-bottom:8px;"><a href="#building-each">Building each one</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-worth">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="definitions">The Three Definitions</h2>
+
+<p><strong>Self-confidence</strong> is belief in your ability to do a specific thing. It&apos;s situational by nature. You can feel confident presenting to a room and still feel completely out of your depth learning to ski. Confidence is built by doing the thing enough times that your track record backs you up.</p>
+
+<p><strong>Self-esteem</strong> is your overall evaluation of yourself as a person, and it tends to move with results. A good week can lift it. A setback, a rejection, a mistake at work, can knock it down. It&apos;s more stable than confidence, but it&apos;s still conditional on how things are going.</p>
+
+<p><strong>Self-worth</strong> is different from both. It&apos;s the sense that you are enough as you are, independent of outcome, ability, or how the week went. It doesn&apos;t rise when you succeed and it shouldn&apos;t fall when you fail, because it was never actually about the result in the first place.</p>
+
+<h2 id="why-confused">Why People Mix Them Up</h2>
+
+<p>All three feel similar from the inside, a general sense of how okay you feel about yourself, so it&apos;s easy to lump them together. But the fixes for each one are different, and using a confidence fix on a self-worth problem is why so much advice falls flat.</p>
+
+<p>If you keep hitting confidence-building exercises and still feel hollow underneath, that&apos;s usually the sign you&apos;re trying to solve a self-worth problem with a self-confidence tool.</p>
+
+<h2 id="doesnt-move">Self-Worth Is the One That Doesn&apos;t Move</h2>
+
+<p>I think of self-worth in terms of essence versus appearance, a distinction from <em>Truth vs Falsehood</em>. Appearance is the story your mind builds from results, comparisons and mood. Essence is what&apos;s actually true underneath all of that. Self-worth lives in essence. It doesn&apos;t need a good result to be true, and a bad one doesn&apos;t make it less true either.</p>
+
+<p>The truth, once you strip the story away, is simpler than it sounds: you are enough as you are, and you don&apos;t need anyone else to be happy but yourself. Most people never feel that as true because they&apos;re still trying to earn it through achievement, which is a self-esteem move applied to a self-worth question.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/BkA6bpyaTIQ" title="Letting Go Technique Explained in 5 Easy Steps, David Hawkins" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="tips-dont-fix">Why Confidence Tips Alone Don&apos;t Fix Self-Worth</h2>
+
+<p>Confidence tips are usually about doing more, practising more, gathering more proof. That works for confidence. It does very little for self-worth, because self-worth was never a competence problem to begin with.</p>
+
+<p>What actually moves self-worth is letting go of the false realities stacked underneath it, old feelings of not being good enough that never got released, just carried forward and mistaken for fact. I go into this properly in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">Why &quot;Not Good Enough&quot; Is a False Reality</a>, and if self-doubt is the bigger pattern for you day to day, my <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcome self-doubt coaching</a> page goes into that specifically.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this kind of thing?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Free weekly tips on self-belief, self-worth and letting go. No sales pitch, ever.</p>
+  <a href="/#weekly-tips" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Free Weekly Tips</a>
+</div>
+
+<h2 id="building-each">Building Each One</h2>
+
+<p><strong>Confidence</strong> builds through repetition. Do the specific thing enough times, badly at first if you have to, and the evidence accumulates on its own.</p>
+
+<p><strong>Self-esteem</strong> builds through honest reflection rather than pure outcome-chasing. Noticing effort and character, not just results, keeps it from swinging as wildly with every win and loss.</p>
+
+<p><strong>Self-worth</strong> builds by letting go, releasing the old feelings that told you your worth was conditional, and testing new thoughts against how they actually make you feel. Stronger and clearer means closer to the truth. Smaller and tighter usually means it&apos;s appearance, not essence. I write about the daily practice behind this in <a href="/blog/morning-routine-that-changed-my-life" style="color:#FFD700;">The Morning Routine That Actually Changed My Life</a>, and about the three books that taught me all of this in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
+
+<h2 id="faq-worth">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can you have high confidence but low self-worth?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes, and it&apos;s more common than people think. You can be genuinely skilled and capable, confident in specific situations, and still feel like you&apos;re not enough underneath it all. That gap is exactly why self-worth needs a different fix to confidence.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Which one should I focus on first?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">If you feel hollow even after wins, start with self-worth, since that&apos;s the foundation the other two eventually rest on. If you&apos;re avoiding a specific action out of fear of doing it badly, confidence work will get you moving faster.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is low self-esteem the same as low self-worth?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Related, but not identical. Self-esteem can dip after a bad week and recover on its own. If it never really recovers, and the low feeling seems to sit underneath everything regardless of how things are going, that&apos;s usually self-worth, not self-esteem.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do I need therapy for a self-worth issue, or can I work on it myself?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Plenty of people make real progress working on this themselves, which is what this whole site is about. If the feeling is severe or tied to something more serious, trained professional support is worth having alongside self-work, not instead of it. I&apos;m not a trained therapist myself, just sharing what&apos;s helped me, and you&apos;re always welcome to <a href="/contact" style="color:#FFD700;">get in touch</a> if you want to talk it through.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'feeling-stuck-in-life',
+    title: 'Feeling Stuck in Life? Here Is What Actually Helped Me Move',
+    description: 'Stuck is not the same as lost. Here is what feeling stuck in life actually means, why it happens, and the small, practical things that helped me move again after six years of it.',
+    category: 'Personal Development',
+    publishedAt: '2026-01-29',
+    readingTime: 9,
+    image: '/blog/feeling-stuck-in-life.png',
+    html: `
+<p>Feeling stuck doesn&apos;t look like a crisis from the outside. Nothing dramatic happens. You just go through the motions, low mood, further from yourself than you realise, for far longer than you&apos;d ever admit to anyone.</p>
+
+<p>I lived in that exact state for six years. Here is what I now think stuck actually is, why it happens, and what genuinely moved me again.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Stuck is not the same as lost. You&apos;re not confused about the big picture, you just can&apos;t seem to move from knowing to doing. I think this happens when you stop doing the daily work of letting go, so unreleased feelings quietly pile up until they&apos;re running the show. What moved me again wasn&apos;t one big insight, it was three things done daily: letting go of what I was carrying, seeing my situation more truthfully instead of through fear, and protecting a small amount of time each day to actually practise both.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#stuck-not-lost">Stuck is not lost</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-it-happens">Why it happens</a></li>
+    <li style="margin-bottom:8px;"><a href="#six-years">The six years I lived this</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-moved-me">What actually moved me again</a></li>
+    <li style="margin-bottom:8px;"><a href="#values">Knowing what you&apos;re actually moving toward</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-stuck">Common questions about feeling stuck</a></li>
+  </ol>
+</div>
+
+<h2 id="stuck-not-lost">Stuck Is Not Lost</h2>
+
+<p>Being lost is not knowing where you want to go. Being stuck is knowing exactly where you want to go and still not moving. That distinction matters, because the advice for each one is completely different.</p>
+
+<p>If you&apos;re lost, you need clarity. If you&apos;re stuck, more clarity usually won&apos;t help much, you probably already have it. What you need is to deal with whatever is actually blocking the movement, and in my experience that block is rarely logical.</p>
+
+<h2 id="why-it-happens">Why It Happens</h2>
+
+<p>I think stuck happens when you stop doing the daily work of letting go, so the negative quietly piles up until it&apos;s running the show. It&apos;s almost never one big problem. It&apos;s small feelings, worries, disappointments, resentments, that never got fully felt and released, just carried forward and added to the pile, day after day, until moving feels impossible even though nothing catastrophic ever happened.</p>
+
+<p>From the outside it can look like laziness or a lack of direction. It&apos;s neither. It&apos;s a resource problem, specifically your capacity to let go, quietly running on empty.</p>
+
+<h2 id="six-years">The Six Years I Lived This</h2>
+
+<p>Before I had kids, I quit my job and went travelling for six months. Meditation and looking inward changed how I saw everything, and I came home wanting to experience life, not just live it.</p>
+
+<p>Then I had two kids. I threw myself into being a parent, and the inner work, the meditation, the yoga, all of it fell away while I focused on them. About six years later, I was stuck. Low mood, going through the motions, further from that person I&apos;d become while travelling than I even realised.</p>
+
+<p>I tell the full story, and the three books that pulled me out of it, in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/BkA6bpyaTIQ" title="Letting Go Technique Explained in 5 Easy Steps, David Hawkins" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this kind of thing?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Free weekly tips on getting unstuck, self-belief and letting go. No sales pitch, ever.</p>
+  <a href="/#weekly-tips" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Free Weekly Tips</a>
+</div>
+
+<h2 id="what-moved-me">What Actually Moved Me Again</h2>
+
+<p>Not one big insight. Three ordinary things, done daily.</p>
+
+<p><strong>Letting go of what I was carrying.</strong> Actually feeling the stacked-up, unreleased feelings instead of pushing them down or distracting from them, until the charge behind them ran out. I break the full technique down in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">How I Let Go of Negative Thoughts and Feelings Every Day</a>.</p>
+
+<p><strong>Seeing my situation more truthfully.</strong> Realising that a lot of what felt stuck was a story built from fear and old perspective, not the actual truth of my life. I go into this in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">Why &quot;Not Good Enough&quot; Is a False Reality</a>.</p>
+
+<p><strong>Protecting time to actually practise both.</strong> None of this works as a one-off. I built it into a small daily routine, which I cover fully in <a href="/blog/morning-routine-that-changed-my-life" style="color:#FFD700;">The Morning Routine That Actually Changed My Life</a>, so letting go and seeing clearly became a practice, not just something I remembered when things got bad.</p>
+
+<h2 id="values">Knowing What You&apos;re Actually Moving Toward</h2>
+
+<p>Letting go clears the weight. It doesn&apos;t automatically tell you which direction to move in once you can move again. That part comes from getting honest about what you actually value, rather than what looks good or what you think you&apos;re supposed to want.</p>
+
+<p>For me that meant noticing the difference between decisions that made me feel stronger and clearer, and ones that made me feel smaller and tighter, and letting that guide me instead of habit or other people&apos;s expectations. If overthinking every decision, even small ones, is part of what&apos;s keeping you stuck, my <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision-making coaching</a> page goes into that specifically.</p>
+
+<h2 id="faq-stuck">Common Questions About Feeling Stuck</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I know if I&apos;m stuck or actually lost?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">If you can describe what you want but can&apos;t seem to move toward it, that&apos;s stuck. If you genuinely don&apos;t know what you want, that&apos;s closer to lost, and it usually needs clarity work first, values, priorities, what actually matters to you, before the letting-go work will feel useful.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it usually take to feel unstuck?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For me it wasn&apos;t sudden. Small shifts started within weeks of going back to daily practice, but genuinely feeling like myself again took months. Six years of stacked-up feelings don&apos;t clear in a weekend, and I&apos;d be wary of anything that promises they will.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is feeling stuck the same as depression?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">They can look similar and sometimes overlap, but they&apos;re not automatically the same thing. If low mood is severe, persistent, or affecting your ability to function, please speak to a GP or a trained mental health professional. I&apos;m not medically trained, and what I write about is self-work, not a substitute for clinical support when it&apos;s needed.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do I need to make a big life change to get unstuck?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Not necessarily, and I&apos;d actually caution against a dramatic change made from a stuck, low place, since it&apos;s hard to tell the difference between a genuine new direction and an escape from feelings you haven&apos;t let go of yet. Doing the inner work first usually makes the right next step much clearer.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can I work through feeling stuck without a coach or therapist?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I did, and everything on this site is what actually worked for me doing exactly that. If you want support alongside it, I&apos;m always happy to <a href="/contact" style="color:#FFD700;">talk it through</a>, no pitch, just a real reply.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
 ]
