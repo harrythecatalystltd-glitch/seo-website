@@ -139,6 +139,21 @@ export default async function HomePage() {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <MailerLiteForm />
             </div>
+            <div style={{ marginTop: 28 }}>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: 3, marginBottom: 8 }}>
+                {[1,2,3,4,5].map(n => (
+                  <svg key={n} width="13" viewBox="0 0 24 24" style={{ fill: 'var(--gold)' }} aria-hidden="true">
+                    <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.86L12 17.77l-6.18 3.23L7 14.14 2 9.27l7.1-1.01L12 2z" />
+                  </svg>
+                ))}
+              </div>
+              <p style={{ fontSize: '0.78rem', color: 'rgba(255,215,0,0.55)', lineHeight: 1.7, maxWidth: 420, margin: '0 auto', fontStyle: 'italic' }}>
+                &ldquo;Great content, really helpful to me personally in a time when I felt stuck and low. Can&apos;t thank them enough, and all for free!&rdquo;
+              </p>
+              <p style={{ fontSize: '0.72rem', color: 'rgba(255,215,0,0.4)', marginTop: 6 }}>
+                — Stresslessedu Education, Google Review
+              </p>
+            </div>
           </div>
         </div>
 
