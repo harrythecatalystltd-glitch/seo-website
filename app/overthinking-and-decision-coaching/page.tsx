@@ -148,12 +148,12 @@ export default function OverthinkingCoachingPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
+            'trust-your-gut-instead-of-overthinking',
             'stop-overthinking-decisions',
             'feeling-stuck-in-life',
             'manage-decision-fatigue-prioritisation',
             'complete-guide-overcoming-indecision',
             'practise-micro-decisions-20-minutes',
-            'decision-making-checklist-steps-choose',
           ]}
         />
 

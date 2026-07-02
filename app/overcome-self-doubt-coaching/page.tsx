@@ -148,9 +148,9 @@ export default function OvercomeSelfDoubtPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
+            'how-to-stop-people-pleasing',
             'self-worth-vs-self-esteem-vs-confidence',
             'self-doubt-vs-self-confidence-key-differences',
-            'lack-confidence-common-causes',
             'trust-yourself-simple-steps',
             'meditation-vs-journaling-building-confidence',
             '3-books-that-changed-my-life',
