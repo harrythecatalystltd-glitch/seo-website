@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import BioBlock from '@/components/BioBlock'
 import CtaButtons from '@/components/CtaButtons'
@@ -76,10 +77,10 @@ export default function OverthinkingCoachingPage() {
             Overthinking Isn&apos;t the Enemy.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Most advice tells you to just stop overthinking, as if it were a switch. It isn&apos;t. Overthinking is usually your mind trying to protect you from a wrong decision. The problem isn&apos;t that you think things through. It&apos;s that the thinking never actually ends in a decision.
+            Most advice tells you to just stop overthinking, like it&apos;s a switch. It isn&apos;t, and I don&apos;t think that&apos;s actually the goal. In <em>Truth vs Falsehood</em>, David Hawkins writes about something called positionality, a fixed stance the mind clings to: I need to be certain, I need to be right, getting this wrong would mean something about me. That isn&apos;t thinking something through. That&apos;s defending a position. And a mind defending a position never feels finished, because the real goal was never the decision, it was the certainty.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
-            You don&apos;t need to quiet your mind completely. You need a way to move while it&apos;s still talking.
+            I don&apos;t think you need to quiet your mind completely. I think you need to notice what you&apos;re actually defending, and let go of needing to defend it.
           </p>
         </div>
 
@@ -88,10 +89,10 @@ export default function OverthinkingCoachingPage() {
             What&apos;s Actually Happening.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Every decision you sit with uses up a bit of mental energy, whether it&apos;s picking what to have for dinner or something that actually matters. By the time a real decision shows up, a lot of people have nothing left, so the small stuff and the big stuff start to feel equally heavy.
+            Every decision you sit with uses up mental energy, whether it&apos;s dinner or something that actually matters. But I think there&apos;s more to decision fatigue than a tired brain. Every decision you didn&apos;t let yourself finish, the ones you second-guessed after the fact, the ones you&apos;re still quietly replaying, stays switched on in the background. By the time a real decision shows up, you&apos;re not just tired, you&apos;re carrying every unresolved one that came before it.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
-            That&apos;s decision fatigue, and it looks a lot like indecision from the outside. It isn&apos;t a character flaw. It&apos;s a resource running low.
+            That isn&apos;t a character flaw. It&apos;s a resource running low, and I think the resource is your capacity to let go, not just your mental energy.
           </p>
         </div>
 
@@ -100,11 +101,44 @@ export default function OverthinkingCoachingPage() {
             The Pattern I See Most.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Underneath most overthinking is a position the mind is defending. I&apos;m right, or I need to be certain before I move, or getting this wrong would mean something about me. Chasing certainty before you act is often the actual block, not the decision itself.
+            Underneath most overthinking is a want. Hawkins names three in <em>Letting Go</em>: approval, control, or security. I spent six years defending a want I&apos;d never actually named, mostly control, needing to know how something would turn out before I&apos;d let myself commit to it. The test I use now, from <em>Truth vs Falsehood</em>, is simple: when I hold onto a thought, does it make me feel stronger and clearer, or smaller and tighter?
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
-            Letting go of needing to be certain first is usually what unlocks the decision. Not more analysis.
+            Needing to be certain almost always makes me feel smaller. That&apos;s usually the sign I&apos;m not actually deciding anymore. I&apos;m just defending a position.
           </p>
+        </div>
+
+        <div style={{ padding: '64px 0 0' }}>
+          <div style={{
+            background: 'rgba(255,215,0,0.05)',
+            border: '1.5px solid rgba(255,215,0,0.22)',
+            borderRadius: 18,
+            padding: '36px 32px',
+          }}>
+            <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.3rem,3vw,1.9rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.15, marginBottom: 18 }}>
+              What You Can Actually Do About It.
+            </h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>1. Catch the position, not just the decision.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  Next time you&apos;re circling a decision, ask what you&apos;re actually defending: being right, being certain, or being safe. Then use the test above. Does holding this thought make you feel stronger and clearer, or smaller and tighter? That tells you whether you&apos;re deciding or defending.
+                </p>
+              </div>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>2. Let go of the want before you decide.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  You can&apos;t think your way out of needing certainty, you have to release it. I use the letting go technique for this: feel where the need for certainty sits in your body, let it be there without fighting it, and stay with it until the charge runs out. I break the full technique down in <Link href="/blog/how-to-let-go-of-negative-thoughts" style={{ color: 'var(--gold)' }}>this guide</Link>.
+                </p>
+              </div>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>3. Build the habit before you need it.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  This gets much easier if letting go isn&apos;t something you only try mid-decision. I protect twenty minutes most mornings for it, part of a routine I write about in <Link href="/blog/morning-routine-that-changed-my-life" style={{ color: 'var(--gold)' }}>The Morning Routine That Actually Changed My Life</Link>. It means the release muscle is already warm when a real decision shows up.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div style={{ padding: '76px 0 0' }}>

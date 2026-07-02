@@ -1358,6 +1358,11 @@ h1 em {
 /* Blog article cards */
 .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
 
+/* Homepage flagship post card */
+@media (max-width: 700px) {
+  .flagship-grid { grid-template-columns: 1fr !important; }
+}
+
 .blog-card {
   background: rgba(255,255,255,0.04);
   border: 1.5px solid rgba(255,255,255,0.10);

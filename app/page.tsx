@@ -152,13 +152,13 @@ export default async function HomePage() {
             Why You Keep <em>Talking Yourself Out of It.</em>
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, marginBottom: 44 }}>
-            You&apos;re not lazy and you&apos;re not broken. You&apos;re stuck in a loop that has a shape, and once you can see the shape, it gets a lot easier to break.
+            Here&apos;s what I actually think is going on, based on what pulled me out of six stuck years myself. Not a diagnosis, just my honest read on it.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12 }}>
             {[
-              { n: '01', title: 'You Overthink Every Decision', text: 'Big choices or small ones, you run the same options in your head over and over and still can’t land on an answer. By the time you decide, the moment has often passed.', href: '/overthinking-and-decision-coaching' },
-              { n: '02', title: 'Self-Doubt Drowns Out What You Know', text: 'You know what you want. But self-doubt gets louder than that knowledge, so you wait for certainty that never quite arrives before you’ll act on it.', href: '/overcome-self-doubt-coaching' },
-              { n: '03', title: 'You Feel Stuck, Not Lost', text: 'You’re not confused about the big picture. You just can’t seem to move from knowing to doing, and that gap is where confidence quietly leaks away.', href: '/self-belief-coaching' },
+              { n: '01', title: 'You Overthink Every Decision', text: 'I think this is your mind defending a position, needing to be certain, needing to be right, rather than actually weighing the choice. That need for certainty is a feeling you haven’t let go of yet, not a fact about the decision. The moment you stop needing to be certain first is the moment you can move.', href: '/overthinking-and-decision-coaching' },
+              { n: '02', title: 'Self-Doubt Drowns Out What You Know', text: 'I think self-doubt is a false reality, not a true one, a leftover perspective built from old fears rather than evidence about who you are. The truth is steadier than the doubt makes it feel: you are enough as you are. You only start to feel that once you let the doubt go instead of arguing with it.', href: '/overcome-self-doubt-coaching' },
+              { n: '03', title: 'You Feel Stuck, Not Lost', text: 'I think stuck happens when you stop doing the daily work of letting go, so the negative quietly piles up until it is running the show. I lived this for six years. It wasn’t one big problem, just small feelings I never released, stacking until moving felt impossible.', href: '/self-belief-coaching' },
             ].map(c => (
               <div key={c.n} style={{ background: 'rgba(255,255,255,0.05)', border: '1.5px solid rgba(255,255,255,0.1)', borderRadius: 14, padding: '28px 22px' }}>
                 <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.62rem', fontWeight: 800, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 14 }}>{c.n}</div>
@@ -168,6 +168,57 @@ export default async function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* ── FLAGSHIP: 3 BOOKS ── */}
+        <div style={{ padding: '76px 0 0' }}>
+          <Link
+            href="/blog/3-books-that-changed-my-life"
+            style={{
+              display: 'block',
+              textDecoration: 'none',
+              color: 'inherit',
+              position: 'relative',
+              background: 'linear-gradient(135deg, rgba(0,43,69,0.95), rgba(0,60,95,0.7))',
+              border: '1.5px solid rgba(255,215,0,0.45)',
+              borderRadius: 22,
+              padding: '4px',
+              boxShadow: '0 24px 70px rgba(0,0,0,0.45), 0 0 60px rgba(255,215,0,0.14)',
+            }}
+          >
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'minmax(0, 260px) 1fr',
+              gap: 32,
+              alignItems: 'center',
+              padding: '32px',
+            }}
+            className="flagship-grid"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/blog/3-books-changed-my-life.png"
+                alt="3 Books That Pulled Me Out of Feeling Stuck"
+                style={{ width: '100%', borderRadius: 14, display: 'block', boxShadow: '0 12px 32px rgba(0,0,0,0.4)' }}
+              />
+              <div>
+                <div className="brand-tag" style={{ marginBottom: 16 }}>
+                  <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
+                  Where It Actually Started
+                </div>
+                <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.4rem,3vw,1.9rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.15, marginBottom: 14 }}>
+                  3 Books That Pulled Me Out of Feeling Stuck.
+                </h2>
+                <p style={{ fontSize: '0.92rem', color: 'rgba(255,255,255,0.62)', lineHeight: 1.82, marginBottom: 18 }}>
+                  Six years stuck, low mood, going through the motions. Three books changed how I see everything: <strong style={{ color: '#fff' }}>Letting Go</strong>, <strong style={{ color: '#fff' }}>Truth vs Falsehood</strong>, and <strong style={{ color: '#fff' }}>The 5am Club</strong>. Everything on this site comes from what they taught me.
+                </p>
+                <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: '0.85rem', color: 'var(--gold)', fontWeight: 800, fontFamily: "'Montserrat',sans-serif" }}>
+                  Read the Full Story
+                  <svg width="12" viewBox="0 0 18 30" style={{ fill: 'var(--gold)' }}><path d={BOLT} /></svg>
+                </span>
+              </div>
+            </div>
+          </Link>
         </div>
 
         {/* ── ABOUT ME ── */}

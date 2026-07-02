@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import BioBlock from '@/components/BioBlock'
 import CtaButtons from '@/components/CtaButtons'
@@ -76,10 +77,10 @@ export default function SelfBeliefCoachingPage() {
             Self-Belief Isn&apos;t the Same Thing as Confidence.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Confidence is often situational. You can feel confident running a meeting and still doubt yourself the moment a real decision is on the line. Self-belief runs deeper. It&apos;s the quiet trust that your own judgement is worth listening to, even when you can&apos;t prove you&apos;re right yet.
+            Confidence is often situational. You can run a meeting well and still doubt yourself the second a real decision is on the line. Self-belief runs deeper than that. I think of it in terms of a distinction from <em>Truth vs Falsehood</em>: essence versus appearance. Appearance is the story your mind tells about you, coloured by mood, history and fear. Essence is what is actually true. Self-belief is trusting your essence even when the appearance, the doubt, the fear, is loud.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
-            You can be a confident, capable person and still not trust yourself. That gap is where most of the stuck feeling lives.
+            You can be a confident, capable person and still be living from appearance instead of essence. That gap is where most of the stuck feeling lives.
           </p>
         </div>
 
@@ -88,10 +89,10 @@ export default function SelfBeliefCoachingPage() {
             Why It Erodes.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Self-belief doesn&apos;t usually vanish in one big moment. It wears away slowly. A decision you second-guessed until someone else made it for you. A goal you quietly downgraded so it wouldn&apos;t hurt as much if it went wrong. Years of putting everyone else&apos;s needs first until you lost track of your own.
+            Self-belief doesn&apos;t usually vanish in one big moment. It wears away slowly. A decision you second-guessed until someone else made it for you. A goal you quietly downgraded so it wouldn&apos;t hurt as much if it went wrong. I think what actually erodes it is that none of those moments ever got let go of. Each one got suppressed, replayed, or quietly filed away as evidence against you, instead of felt fully and released.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
-            None of that makes you weak. It makes you human. But it does mean self-belief has to be rebuilt on purpose. It doesn&apos;t come back by accident.
+            None of that makes you weak. It makes you human. But it does mean self-belief has to be rebuilt on purpose, one released feeling at a time. It doesn&apos;t come back by accident.
           </p>
         </div>
 
@@ -100,11 +101,44 @@ export default function SelfBeliefCoachingPage() {
             What&apos;s Actually Helped Me Build Mine Back.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            It wasn&apos;t a mindset shift I read once and applied. It was small, repeated proof. Making a decision and living with it instead of outsourcing it. Noticing the difference between a thought that makes me feel stronger and one that makes me feel smaller, and taking that seriously.
+            It wasn&apos;t a mindset shift I read once and applied. Before kids, I quit my job and travelled for six months, and meditation and looking inward changed how I saw everything. Then two kids came along, the inner work fell away, and six years later I was stuck and low. Going back to it, through Letting Go, Truth vs Falsehood and The 5am Club, is what actually rebuilt my self-belief. Not one big insight, small repeated proof: noticing the difference between a thought that makes me feel stronger and one that makes me feel smaller, and taking that seriously every day, not just when it&apos;s convenient.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
             None of it requires certainty first. That&apos;s the part most people get stuck on. You don&apos;t need to feel sure to start trusting yourself again. You need to start, and let the trust catch up.
           </p>
+        </div>
+
+        <div style={{ padding: '64px 0 0' }}>
+          <div style={{
+            background: 'rgba(255,215,0,0.05)',
+            border: '1.5px solid rgba(255,215,0,0.22)',
+            borderRadius: 18,
+            padding: '36px 32px',
+          }}>
+            <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.3rem,3vw,1.9rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.15, marginBottom: 18 }}>
+              What You Can Actually Do About It.
+            </h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>1. Tell essence from appearance.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  When a self-doubting thought shows up, ask if it makes you feel stronger and clearer, or smaller and tighter. That is usually enough to tell you whether you are looking at the truth, or a false story built from an old fear. I go deeper into this test in <Link href="/blog/why-not-good-enough-is-a-false-reality" style={{ color: 'var(--gold)' }}>Why &quot;Not Good Enough&quot; Is a False Reality</Link>.
+                </p>
+              </div>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>2. Actually let go of the eroding moments.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  Replaying a moment of self-doubt is not the same as processing it. Feel where it sits in your body, let it be there without a story attached, and stay with it until the charge runs out. I break the whole technique down in <Link href="/blog/how-to-let-go-of-negative-thoughts" style={{ color: 'var(--gold)' }}>How I Let Go of Negative Thoughts and Feelings Every Day</Link>.
+                </p>
+              </div>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>3. Protect the time to actually practise this.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  Self-belief rebuilds through repetition, not a single realisation. I use twenty minutes most mornings, part of the routine in <Link href="/blog/morning-routine-that-changed-my-life" style={{ color: 'var(--gold)' }}>The Morning Routine That Actually Changed My Life</Link>, so the practice happens on purpose instead of only when things get hard.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div style={{ padding: '76px 0 0' }}>

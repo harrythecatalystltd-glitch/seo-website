@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
 import BioBlock from '@/components/BioBlock'
 import CtaButtons from '@/components/CtaButtons'
@@ -76,7 +77,7 @@ export default function ConfidenceAtWorkPage() {
             Signs You Might Recognise.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            You put success down to luck, timing, or other people, never your own ability. You downplay what you&apos;ve done before someone else can. You quietly wait for the moment everyone realises you&apos;re not as capable as they think.
+            You put success down to luck, timing, or other people, never your own ability. You downplay what you&apos;ve done before someone else can. You quietly wait for the moment everyone realises you&apos;re not as capable as they think. I think all three of these are the same thing wearing different outfits: a false reality that has been carried for so long it started to feel like a fact.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
             If any of that lands, you&apos;re not broken and you&apos;re not alone. It has a name, and more importantly, it has a way out.
@@ -88,10 +89,10 @@ export default function ConfidenceAtWorkPage() {
             Why This Happens.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Most of the time it has nothing to do with actual ability. It comes from comparing your internal experience, all your doubts and second-guessing, against everyone else&apos;s polished exterior. You never see their doubt, so you assume you&apos;re the only one carrying it.
+            Most of the time it has nothing to do with actual ability. It comes from comparing your internal experience, all your doubts and second-guessing, against everyone else&apos;s polished exterior. That is comparing your essence to their appearance, your full, honest inside against their edited outside. You never see their doubt, so you assume you&apos;re the only one carrying it.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
-            Add in a stretch of feeling stuck, going through the motions rather than actually engaging, and confidence erodes even further without one single bad thing having happened.
+            Add in a stretch of feeling stuck, going through the motions rather than actually engaging, the negative feelings from each small knock never let go of, just quietly stacking, and confidence erodes further without one single bad thing having happened.
           </p>
         </div>
 
@@ -100,11 +101,44 @@ export default function ConfidenceAtWorkPage() {
             What&apos;s Helped Me and the People I Talk To.
           </h2>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640, marginBottom: 20 }}>
-            Small, repeated proof beats a single confidence boost every time. Naming one thing you did well without immediately explaining it away. Getting clear on what you actually value, rather than what looks good, and letting that guide a decision at work for once.
+            Small, repeated proof beats a single confidence boost every time. Naming one thing you did well without immediately explaining it away. But the bigger shift for me has been honesty, with myself first, then with other people. People can&apos;t help the way they are, they&apos;re shaped by their own history same as I am, and once I stopped assuming everyone else had it figured out, comparing myself against them stopped meaning very much.
           </p>
           <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.85, maxWidth: 640 }}>
             None of it is complicated. It just has to be done on purpose, because it won&apos;t happen by accident.
           </p>
+        </div>
+
+        <div style={{ padding: '64px 0 0' }}>
+          <div style={{
+            background: 'rgba(255,215,0,0.05)',
+            border: '1.5px solid rgba(255,215,0,0.22)',
+            borderRadius: 18,
+            padding: '36px 32px',
+          }}>
+            <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.3rem,3vw,1.9rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.15, marginBottom: 18 }}>
+              What You Can Actually Do About It.
+            </h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>1. Catch the comparison as a story, not a fact.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  Before a meeting where you feel like a fraud, notice you are comparing your inside to someone else&apos;s outside. That thought will make you feel smaller and tighter, which is usually the sign it is appearance, not essence. I go into this test properly in <Link href="/blog/why-not-good-enough-is-a-false-reality" style={{ color: 'var(--gold)' }}>Why &quot;Not Good Enough&quot; Is a False Reality</Link>.
+                </p>
+              </div>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>2. Let the feeling go before you walk in.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  Rather than pushing the nerves down or talking yourself out of them, feel where they sit, let them be there, and let the charge run out before the meeting starts. The full technique is in <Link href="/blog/how-to-let-go-of-negative-thoughts" style={{ color: 'var(--gold)' }}>How I Let Go of Negative Thoughts and Feelings Every Day</Link>.
+                </p>
+              </div>
+              <div>
+                <div style={{ fontFamily: "'Montserrat',sans-serif", fontSize: '0.95rem', fontWeight: 800, color: '#fff', marginBottom: 6 }}>3. Do not let it only show up at work.</div>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.8, margin: 0 }}>
+                  If letting go only happens in the ten minutes before a hard meeting, it will always feel like a scramble. I build it into a small daily routine instead, which I cover in <Link href="/blog/morning-routine-that-changed-my-life" style={{ color: 'var(--gold)' }}>The Morning Routine That Actually Changed My Life</Link>, so I am already practised by the time work needs it.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div style={{ padding: '76px 0 0' }}>
