@@ -302,7 +302,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it take before letting go feels natural?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For me it took weeks of consistent practice before it stopped feeling forced. Some feelings release in seconds. Others, especially old ones, take longer and might need to be revisited more than once. I still do not manage it every time, and that is normal.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For me it took weeks of consistent practice before it stopped feeling forced. Some feelings release in seconds. Others, especially old ones, take longer and might need to be revisited more than once. I still do not manage it every time, and that is normal. If you want a simple daily entry point into this kind of noticing, <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">The 20-Minute Rule</a> is where I would start.</p>
   </div>
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
@@ -568,7 +568,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I only have twenty minutes, not a full hour?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Start with just the meditation piece. Twenty minutes of letting go done consistently will do more for you than a full hour attempted once and abandoned. Build up as it becomes a genuine habit rather than an effort.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Start with just the meditation piece. Twenty minutes of letting go done consistently will do more for you than a full hour attempted once and abandoned. Build up as it becomes a genuine habit rather than an effort. I break down why twenty minutes is the right place to start, whatever the activity, in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">The 20-Minute Rule</a>.</p>
   </div>
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
@@ -907,7 +907,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it usually take to feel unstuck?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For me it wasn&apos;t sudden. Small shifts started within weeks of going back to daily practice, but genuinely feeling like myself again took months. Six years of stacked-up feelings don&apos;t clear in a weekend, and I&apos;d be wary of anything that promises they will.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For me it wasn&apos;t sudden. Small shifts started within weeks of going back to daily practice, but genuinely feeling like myself again took months. Six years of stacked-up feelings don&apos;t clear in a weekend, and I&apos;d be wary of anything that promises they will. If you want somewhere concrete to start that daily practice, <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">The 20-Minute Rule</a> is the simplest version I know.</p>
   </div>
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
@@ -1223,7 +1223,7 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="building-the-evidence">Building Your Own Evidence, One Decision at a Time</h2>
 
-<p>You do not need to quit your job to build this. Start with a decision that is real but not catastrophic, and practise noticing the gut pull versus the fear before you let the overthinking take over. Each time you trust it and it holds up, even in a small way, you are building the same evidence I got from a much bigger risk.</p>
+<p>You do not need to quit your job to build this. Start with a decision that is real but not catastrophic, and practise noticing the gut pull versus the fear before you let the overthinking take over. Each time you trust it and it holds up, even in a small way, you are building the same evidence I got from a much bigger risk. That is the same evidence I write about in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">How to Keep a Promise to Yourself</a>, just applied to decisions instead of daily habits.</p>
 
 <p>Underneath this is the same letting-go work I write about everywhere else on this site. Trusting your gut usually means letting go of the need for certainty first, which I break down in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">How I Let Go of Negative Thoughts and Feelings Every Day</a>.</p>
 
@@ -1328,6 +1328,8 @@ export const manualPosts: ManualPost[] = [
 <h2 id="what-helps">What Actually Helps</h2>
 
 <p>Notice a loss of interest as a signal worth investigating, not a personal failure to push through. Twelve years taught me that pushing through alone just extends the fade, it does not resolve it.</p>
+
+<p>On the days burnout makes even a small habit feel impossible, shrink it rather than dropping it. I go into exactly how in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">What to Do When Your 20 Minutes Feels Like Too Much</a>.</p>
 
 <p>Use the same honesty test I use everywhere else: does staying where you are make you feel stronger and clearer, or smaller and tighter over time. And actually let go of the frustration you are carrying about work, rather than managing around it indefinitely, using the technique in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">this guide</a>. If imposter feelings or confidence at work are part of the picture too, my <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching for work</a> page goes into that specifically.</p>
 
@@ -1522,6 +1524,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>Ask yourself honestly what you would actually look forward to doing for twenty minutes. Start there. You can always add other habits once this one is holding.</p>
 
+<p>On the days it genuinely feels too big, do not skip it entirely. I go into exactly what to do instead in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">What to Do When Your 20 Minutes Feels Like Too Much</a>.</p>
+
 <h2 id="walking-without-distraction">Why Walking Without Music Is the Best Place to Start</h2>
 
 <p>If you are not sure where to begin, start with walking. No music, no podcast, no phone in your hand.</p>
@@ -1542,9 +1546,9 @@ export const manualPosts: ManualPost[] = [
 
 <p>Do this for just 30 days and something shifts. You feel calmer. More positive. And self-belief starts to flood in, quietly, without you announcing it to anyone.</p>
 
-<p>It rarely stops there. One habit, held for 30 days, tends to pull others in behind it. You start wanting to meditate. You pick up a self-help book you had been putting off. You add a second twenty minutes of exercise without deciding to.</p>
+<p>It rarely stops there. One habit, held for 30 days, tends to pull others in behind it. You start wanting to meditate. You pick up a self-help book you had been putting off. You add a second twenty minutes of exercise without deciding to. I break down why small habits stack this way, instead of needing a big overhaul, in <a href="/blog/micro-habits-vs-big-life-changes" style="color:#FFD700;">Micro-Habits vs Big Life Changes</a>.</p>
 
-<p>None of that is forced. It is a chain reaction, not a to-do list. The first small habit proves to you that you can keep a promise to yourself, and that proof is what makes the next habit feel possible.</p>
+<p>None of that is forced. It is a chain reaction, not a to-do list. The first small habit proves to you that you can keep a promise to yourself, and that proof is what makes the next habit feel possible. I go deeper into that idea in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">How to Keep a Promise to Yourself</a>.</p>
 
 <h3>The Compound Effect of Small Daily Habits</h3>
 
@@ -1666,7 +1670,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>If the promise was twenty minutes of walking, and I truly cannot manage that, I do five. Not zero. Five minutes, badly, with no energy behind it, still counts.</p>
 
-<p>The standard is that you show up in some form. The bar is how much you do once you are there. Lowering the bar keeps the promise alive. Skipping it entirely breaks it.</p>
+<p>The standard is that you show up in some form. The bar is how much you do once you are there. Lowering the bar keeps the promise alive. Skipping it entirely breaks it. I go into this in more depth in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">What to Do When Your 20 Minutes Feels Like Too Much</a>.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
@@ -1698,7 +1702,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>Either way, the promise holds. You did not need motivation, you needed a rule flexible enough to survive a bad day without breaking.</p>
 
-<p>Do this for a month and something changes. You stop wondering whether you can rely on yourself, because you have the evidence sitting right there, day after day.</p>
+<p>Do this for a month and something changes. You stop wondering whether you can rely on yourself, because you have the evidence sitting right there, day after day. Keep stacking small kept promises and you end up with real change, which is the whole argument I make in <a href="/blog/micro-habits-vs-big-life-changes" style="color:#FFD700;">Micro-Habits vs Big Life Changes</a>.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
@@ -1784,7 +1788,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>On a genuinely hard day, do that version instead. Not because it replaces the real thing, but because it keeps the promise alive until you have the capacity for more again.</p>
 
-<p>This only works if you are honest about when to use it. It is for days you truly cannot manage more, not for days you simply do not feel like it.</p>
+<p>This only works if you are honest about when to use it. It is for days you truly cannot manage more, not for days you simply do not feel like it. I go into that honesty check in more depth in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">How to Keep a Promise to Yourself</a>.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
@@ -1814,7 +1818,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>A five-minute day followed by another five-minute day, followed by a return to twenty, is still a habit intact. A skipped week is where habits actually die.</p>
 
-<p>Protect the streak. Let the size flex.</p>
+<p>Protect the streak. Let the size flex. This is the same reason micro-habits beat big overhauls, which I write about in <a href="/blog/micro-habits-vs-big-life-changes" style="color:#FFD700;">Micro-Habits vs Big Life Changes</a>.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
@@ -1898,7 +1902,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>Micro-habits work differently. One small habit, held consistently, tends to pull others in behind it without you deciding to add them.</p>
 
-<p>I saw this happen with <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule</a>. One habit led to wanting to meditate. Meditating led to picking up a book I had been avoiding. None of it was planned in advance. It stacked on its own, because the first small win made the next one feel possible.</p>
+<p>I saw this happen with <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule</a>. One habit led to wanting to meditate. Meditating led to picking up a book I had been avoiding. None of it was planned in advance. It stacked on its own, because the first small win made the next one feel possible, which is the same idea I write about in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">How to Keep a Promise to Yourself</a>.</p>
 
 <h2 id="my-own-hour">My Own Hour-Long Routine Started With 20 Minutes</h2>
 
@@ -1930,7 +1934,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>Make it small enough that skipping it feels almost silly. Keep it for a month before you even consider adding anything else.</p>
 
-<p>This will feel slower than an overhaul. It is, at the start. But an overhaul that collapses in week two is slower than a micro-habit that is still running a year later.</p>
+<p>This will feel slower than an overhaul. It is, at the start. But an overhaul that collapses in week two is slower than a micro-habit that is still running a year later. On the days even that one small habit feels too big, shrink it rather than dropping it, exactly as I describe in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">What to Do When Your 20 Minutes Feels Like Too Much</a>.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
