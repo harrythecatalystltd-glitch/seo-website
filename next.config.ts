@@ -85,6 +85,26 @@ const nextConfig: NextConfig = {
         destination: '/blog/meditation-vs-journaling-building-confidence',
         permanent: true,
       },
+      {
+        source: '/post/stop-overthinking-decisions',
+        destination: '/blog/stop-overthinking-decisions',
+        permanent: true,
+      },
+      {
+        source: '/post/feeling-stuck-work-ways-move-forward',
+        destination: '/blog/feeling-stuck-work-ways-move-forward',
+        permanent: true,
+      },
+      {
+        source: '/post/why-you-cant-make-decisions',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/post/accountability-coaching-key-benefits-explained',
+        destination: '/blog',
+        permanent: true,
+      },
       // /post/ URLs with no matching /blog/ slug → send to blog index
       {
         source: '/post/how-to-overcome-indecision',
@@ -179,6 +199,16 @@ const nextConfig: NextConfig = {
       { source: '/wrise-vs-the-catalyst-method', destination: '/', permanent: true },
       { source: '/case-study-creation-coffee', destination: '/', permanent: true },
       { source: '/case-study-fitness-coach-chronicle', destination: '/', permanent: true },
+
+      // ─── Old agency pages found 404-ing in Google Search Console (2026-07-09) ───
+      { source: '/coaching-services', destination: '/', permanent: true },
+      { source: '/work-with-me', destination: '/', permanent: true },
+      { source: '/30-day-confidence-challenge', destination: '/', permanent: true },
+      { source: '/training-provider-seo', destination: '/', permanent: true },
+      { source: '/testimonials', destination: '/', permanent: true },
+      { source: '/training-company-marketing', destination: '/blog', permanent: true },
+      { source: '/how-to-grow-a-training-business', destination: '/blog', permanent: true },
+      { source: '/privacy-policy', destination: '/terms-and-conditions', permanent: true },
     ]
   },
 }
