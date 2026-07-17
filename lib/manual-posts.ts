@@ -2344,4 +2344,176 @@ export const manualPosts: ManualPost[] = [
 </div>
 `,
   },
+  {
+    slug: 'how-to-set-goals-that-give-you-energy',
+    title: 'How to Set Goals That Give You Energy Instead of Draining It',
+    description: 'How to set goals that actually energise you: aim big, build them around who you want to become, and use visualisation and letting go to fuel the work.',
+    category: 'Personal Development',
+    publishedAt: '2026-07-17',
+    readingTime: 11,
+    image: '/blog/how-to-set-goals-that-give-you-energy.png',
+    html: `
+<p>Most goals feel like homework. You write one down, feel briefly motivated, and by week two it is a source of guilt instead of energy.</p>
+
+<p>That is not because you lack discipline. It is because the goal was never built to give you energy in the first place.</p>
+
+<p>Here is how I set goals differently, so they give me direction, purpose, and the energy to actually enjoy the journey instead of dreading it.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Set goals based on who you want to become, not just what you want to have. Aim high. Reach for the stars and you will land somewhere far better than if you had aimed small in the first place. Make the goal time bound and specific, then spend a few minutes each day imagining yourself having already achieved it, relaxed and at peace, not straining for it. Let go of the desperate wanting. That is power, not force, and it is what actually fuels the work instead of draining you before you have even started.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#why-most-goals-dont-work">Why most goals do not actually work</a></li>
+    <li style="margin-bottom:8px;"><a href="#start-with-who-you-want-to-become">Start with who you want to become</a></li>
+    <li style="margin-bottom:8px;"><a href="#aim-for-the-stars">Aim for the stars, land on the moon</a></li>
+    <li style="margin-bottom:8px;"><a href="#how-to-set-the-goal">How to actually set the goal</a></li>
+    <li style="margin-bottom:8px;"><a href="#imagine-it-already-done">The daily practice: imagine it already done</a></li>
+    <li style="margin-bottom:8px;"><a href="#letting-go-of-the-wanting">Letting go of the wanting, power not force</a></li>
+    <li style="margin-bottom:8px;"><a href="#revisit-your-goals">Revisit and use your goals often</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-goal-setting">Common questions about setting goals</a></li>
+  </ol>
+</div>
+
+<h2 id="why-most-goals-dont-work">Why Most Goals Do Not Actually Work</h2>
+
+<p>Goal setting matters. It gives you direction, purpose, and a clear idea of what is actually possible for you.</p>
+
+<p>But most goals are set backwards. They start with a number, a deadline, or something you think you should want, instead of starting with why the goal matters and who it will turn you into along the way.</p>
+
+<p>A goal like that has nothing behind it. The first hard day arrives, the motivation runs out, and there is no deeper reason left to keep going. I write about that same problem, applied to life in general rather than goals specifically, in <a href="/blog/how-to-find-your-why" style="color:#FFD700;">How to Find Your Why</a>. Goal setting works best once you already know that.</p>
+
+<h2 id="start-with-who-you-want-to-become">Start With Who You Want to Become</h2>
+
+<p>Before you set a goal, ask what it would actually give you. Not the goal itself, but the life underneath it.</p>
+
+<p>Look for something that solves a real problem you are struggling with right now, and points toward a version of yourself you actually want to become.</p>
+
+<p>Take a money goal as an example. Say you are dealing with credit card debt, or you need a car to actually get to a better job. The number itself, clearing the debt or affording the car, is not really the goal. It is the vehicle.</p>
+
+<p>The real goal is what earning and managing that money teaches you along the way. Discipline. Self-belief. The confidence that comes from doing something hard and seeing it through. Clear the debt through consistent, honest work and you do not just end up with better finances. You end up as a different person, with a different sense of what you are capable of.</p>
+
+<p>Money is not the goal. The journey and the destination it takes to get there is what transforms you. That transformation is the actual point of setting the goal in the first place.</p>
+
+<h2 id="aim-for-the-stars">Aim for the Stars, Land on the Moon</h2>
+
+<p>There is an old saying that fits here well. Reach for the stars, and even if you fall short, you will land on the moon.</p>
+
+<p>Set a goal too small and hitting it exactly still leaves you roughly where you started. Set a goal big enough to genuinely stretch you, and even missing it lands you somewhere you never would have reached if you had aimed low from the start.</p>
+
+<p>That is why your goals should be high reaching, with real potential behind them. Not reckless, not disconnected from reality, but big enough that chasing them actually changes who you are by the time you get there.</p>
+
+<p>Goal setting deserves to be taken seriously. It should be valued, revisited, and used at every real opportunity you get, not written once in January and forgotten by February.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Free weekly tips on confidence, self-belief and setting goals that actually stick. No sales pitch, ever.</p>
+  <a href="/#weekly-tips" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Free Weekly Tips</a>
+</div>
+
+<h2 id="how-to-set-the-goal">How to Actually Set the Goal</h2>
+
+<p>Once you know the version of yourself you are chasing, the goal itself needs three things.</p>
+
+<p>First, pick a goal that genuinely makes you become that person, not one that just keeps you busy or looks good from the outside.</p>
+
+<p>Second, make it time bound. A goal with no deadline is just a wish. Give it a real date.</p>
+
+<p>Third, make it literal and specific. Not "get better with money" but "clear £3,000 of credit card debt by the end of the year." Vague goals give you nothing to actually aim at, and nothing to check yourself against later.</p>
+
+<p>Write it down in full, in one sentence, with the deadline and the number attached. That sentence is what you will come back to on the days motivation runs low.</p>
+
+<h2 id="imagine-it-already-done">The Daily Practice: Imagine It Already Done</h2>
+
+<p>Once the goal is written, sit still for a few minutes and close your eyes.</p>
+
+<p>Imagine yourself having already achieved it. Not straining toward it, already there. See the version of you who cleared the debt, or hit the number, or became the person the goal was always pointing toward.</p>
+
+<p>Do this daily. You are not just working toward a goal, you are training yourself to become a different person, and that training happens in the mind first, before it shows up anywhere else.</p>
+
+<p>This works the same way the visualisation habit does in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">The 20-Minute Rule</a>, small and consistent, not occasional and forced. A few minutes a day, done properly, builds more than one long session done once a month.</p>
+
+<h3>See Visualisation Used in Practice</h3>
+
+<p>This talk breaks down how visualising a goal, done properly and consistently, actually changes how you move toward it. Worth watching alongside building your own daily practice.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/oLU8gIxFfUk" title="Vision = Victory: How Visualization Can Help You Reach Goals, TEDxNewBedford" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="letting-go-of-the-wanting">Letting Go of the Wanting, Power Not Force</h2>
+
+<p>Here is the part most goal setting advice leaves out entirely. Once you have imagined yourself having already achieved the goal, you need to let go of wanting it.</p>
+
+<p>That sounds backwards, but it comes from a real distinction David R. Hawkins makes in his book <em>Power vs Force</em>. Force is straining, pushing, and chasing from a place of lack. It works for a while, but it is exhausting, and it usually collapses the moment you stop pushing. Power is relaxed. It does not need to force anything, because it is already coming from a place of having, not wanting.</p>
+
+<p>So after you picture yourself having already achieved the goal, relax. Let go of the desperate wanting and the tight grip. Feel what it is like to already be that version of yourself, calm and satisfied, rather than straining and anxious about whether it will happen.</p>
+
+<p>This is the same letting go technique I write about in full in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">How I Let Go of Negative Thoughts and Feelings Every Day</a>, just pointed at a goal instead of a difficult feeling. You are not giving up on the goal. You are releasing the tension around it, so the goal stops draining you and starts pulling you forward instead.</p>
+
+<p>Do this daily, as a form of practice, not a one-off exercise. It is manifestation in the practical sense, not the magical one. Relaxed, consistent visualisation followed by letting go of the strain is what actually gives you the resources and the energy to go and do the work the goal requires.</p>
+
+<h2 id="revisit-your-goals">Revisit and Use Your Goals Often</h2>
+
+<p>A goal written once and filed away does nothing for you. Goal setting is a habit, not a task you finish.</p>
+
+<p>Come back to your goal regularly. Read the sentence you wrote. Check whether it still points toward the person you actually want to become, or whether life has moved and it needs revising.</p>
+
+<p>Use it the same way I use my why as a daily filter. Every decision gets checked against it. Does this move me toward the goal? Yes, move forward. No, leave it. I write more about using a filter like that in <a href="/blog/how-to-find-your-why" style="color:#FFD700;">How to Find Your Why</a>, and about trusting the calls it leads you to make in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">How to Trust Your Gut Instead of Overthinking Every Decision</a>.</p>
+
+<p>The goal gives you the direction. The daily practice of imagining it done, then letting go of the strain, is what keeps you supplied with the energy to actually walk that direction instead of collapsing halfway through.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-goal-setting">Common Questions About Setting Goals</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if my goal is purely about money, is that a problem?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No, as long as you are honest about what the money is actually solving. Money itself rarely motivates people long term. The debt it clears, the stress it removes, or the version of you it builds along the way is what actually keeps you going.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is it actually smart to set a goal I might not reach?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes, within reason. A goal that stretches you and falls slightly short still moves you further than a small goal hit exactly. The key is that it stays connected to who you want to become, not disconnected from reality entirely.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long should I spend on the daily visualisation?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">A few minutes is enough, done consistently. It works the same way as any other small daily habit. What matters is doing it every day, not doing one long session and stopping.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does letting go of the wanting mean I stop trying?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. You still do the work. Letting go applies to the anxious, desperate grip around the goal, not the actual effort. You are removing the tension that drains you, not the action that gets you there.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How many goals should I set at once?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">One or two you are genuinely committed to beats five you half attempt. Spreading your energy across too many goals is often what makes all of them feel draining instead of just one.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I already achieved the goal but do not feel any different?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">That usually means the goal was set backwards, chosen for the outcome rather than the person it was meant to build. Go back to who you actually want to become and set the next goal from there instead.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
 ]
