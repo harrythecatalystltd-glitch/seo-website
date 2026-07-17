@@ -2153,4 +2153,195 @@ export const manualPosts: ManualPost[] = [
 <p>When your classes live in one place, your whole week finally makes sense.</p>
 `,
   },
+  {
+    slug: 'how-to-find-your-why',
+    title: 'How to Find Your Why: The Simple Exercise That Changed My Daily Decisions',
+    description: 'How I found my why through my two kids, and the simple 3-priority exercise you can use today to find yours and make better daily decisions.',
+    category: 'Personal Development',
+    publishedAt: '2026-07-17',
+    readingTime: 12,
+    image: '/blog/how-to-find-your-why.png',
+    html: `
+<p>Ask yourself why you get up and do what you do every day. If the honest answer is "I do not really know," you are not broken. You just have not found your why yet.</p>
+
+<p>Mine is easy to point to. I have two kids, and they are the reason I do everything.</p>
+
+<p>Here is how I found my why, what happens when you do not have one, and a simple exercise you can use today to find yours.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Your why is the reason behind everything you do. Mine is my two kids. Without a why, life can feel pointless, and pointless does not leave you with the energy to chase goals. To find yours, write down the three things that matter most to you, then rank them 1, 2 and 3. Put your number one somewhere you will see it every day: a board, a photo, your screen saver. Then use it as a daily filter. Does this decision move me toward my why? Yes, go ahead. No, leave it. That one habit turns a vague idea of purpose into daily positive decisions.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#what-is-your-why">What your why actually is</a></li>
+    <li style="margin-bottom:8px;"><a href="#my-why-my-kids">My why: my two kids</a></li>
+    <li style="margin-bottom:8px;"><a href="#how-my-why-shaped-my-career">How my why shaped my career</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-happens-without-a-why">What happens when you do not have one</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-3-priority-exercise">The 3-priority exercise for finding your why</a></li>
+    <li style="margin-bottom:8px;"><a href="#put-it-somewhere-you-will-see-it">Put your why somewhere you will actually see it</a></li>
+    <li style="margin-bottom:8px;"><a href="#using-your-why-for-decisions">Using your why to make daily decisions</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-find-your-why">Common questions about finding your why</a></li>
+  </ol>
+</div>
+
+<h2 id="what-is-your-why">What Your Why Actually Is</h2>
+
+<p>Your why is not a mission statement. It is not something you write once and frame on a wall.</p>
+
+<p>It is the real reason you get out of bed, take the harder path, and keep going when it would be easier to stop.</p>
+
+<p>For some people it is a cause. For others it is a person, a family, or a feeling they are chasing. This is exactly the kind of thing I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a> conversations: not confidence as a feeling you wait for, but confidence built from acting on what actually matters to you.</p>
+
+<h2 id="my-why-my-kids">My Why: My Two Kids</h2>
+
+<p>My two kids are the reason I do everything.</p>
+
+<p>They hold me grounded. They keep me focused on humility, on learning my own lessons, and on actually growing instead of standing still.</p>
+
+<p>Without them, I do not think I would have a pivot point, a place to aim my energy when I am chasing a goal.</p>
+
+<p>Life is about experiences, not things. I want to give my kids the most experiences I possibly can. Travel. Live music. Films. Just an afternoon at the park with nothing planned.</p>
+
+<p>I do not mean big, expensive experiences either. Half of it is a Saturday afternoon at the local park with no plan and no phone in my hand. The other half is the bigger stuff: a trip somewhere new, a gig, a film that gets talked about for weeks after. What matters is that they are living a full life, not a comfortable one they never actually experience.</p>
+
+<p>That is what keeps me grounded. That is the reason I do what I do, every single day, not just on the days it feels easy.</p>
+
+<h2 id="how-my-why-shaped-my-career">How My Why Shaped My Career</h2>
+
+<p>Before I had kids, I quit my job and went travelling for six months with no real plan. It was the biggest risk I had ever taken, and it was a gut decision, not a confident one.</p>
+
+<p>That one decision made every smaller decision after it feel easy by comparison. Once you have done the biggest one, the rest stop feeling so heavy.</p>
+
+<p>I was in the same line of work for twelve years, on and off, with that travel gap in the middle. Eventually I lost interest. Not in a dramatic way, no breakdown, no big crisis. Just a slow, quiet fade, the kind where you go through the motions and do not notice how far you have drifted until you stop and look. I go into that fade properly in <a href="/blog/burnout-and-self-belief" style="color:#FFD700;">Burnout and Self-Belief</a>.</p>
+
+<p>What pulled me out of it was going back to the inner work, the letting go and looking inward I had first found while travelling. That work is what let me see I could do more than fade quietly through another twelve years. It is what pushed me into sales, the job I actually do now.</p>
+
+<p>I love it because it means direct, honest conversations, and it means genuinely helping people. Neither of those were things I got much of in the old role. And underneath every one of those career decisions, quitting to travel, staying in a job past the point it still fit, finally moving into work I actually wanted, sat the same question I now ask about everything. Does this get my kids the life and the experiences I want to give them? That is the filter, even when I did not have the language for it yet.</p>
+
+<h2 id="what-happens-without-a-why">What Happens When You Do Not Have One</h2>
+
+<p>If you do not have a why, you can end up feeling lost.</p>
+
+<p>Everything can start to feel pointless. And once things feel pointless, you stop wanting to chase goals at all.</p>
+
+<p>That matters more than it sounds. Goals are what keep you going. Chasing them takes energy, and that energy has to come from somewhere.</p>
+
+<p>Without a why behind them, goals feel like homework. With one, they feel like something you actually want.</p>
+
+<p>Here is the part worth being honest about. Having a why is not automatic protection. My kids have been my why since the day they were born, and I still went through six stuck years where I was low, going through the motions, further from myself than I realised. Having a why did not stop that. What let it happen was that I quietly dropped the inner work, the meditation and the looking inward, while I threw myself into being a parent. I write the full story of what pulled me back out of it in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
+
+<p>Your why gives you a direction to point your energy. It does not run on its own. You still have to tend it. I write more about that stuck, going-through-the-motions feeling, and how to move through it, in <a href="/blog/feeling-stuck-in-life" style="color:#FFD700;">Feeling Stuck in Life</a> and <a href="/blog/feeling-lost-in-your-30s" style="color:#FFD700;">Feeling Lost in Your 30s</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Free weekly tips on confidence, self-belief and finding what actually matters to you. No sales pitch, ever.</p>
+  <a href="/#weekly-tips" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get Free Weekly Tips</a>
+</div>
+
+<h2 id="the-3-priority-exercise">The 3-Priority Exercise for Finding Your Why</h2>
+
+<p>You do not need weeks of journalling to find your why. You need one honest list.</p>
+
+<p>Write down the three things that matter most to you. Not the three things you think should matter. The three that actually do.</p>
+
+<p>Now rank them. One, two, three.</p>
+
+<p>For most people, that first one is not a surprise once it is written down. It has probably been sitting under the surface the whole time, quietly running the show, without ever being named.</p>
+
+<p>Here is what mine looks like, as an example. One, my kids. Two, honest work I actually believe in. Three, my own health, because none of the other two happen if I am not around and functioning to do them. Number one is what I keep coming back to, but writing out two and three matters too, because it shows you what you are willing to put second.</p>
+
+<p>Take that number one. That is your why.</p>
+
+<h2 id="put-it-somewhere-you-will-see-it">Put Your Why Somewhere You Will Actually See It</h2>
+
+<p>Writing your why down once is not enough. You have to see it every day, or it slips straight back under the surface.</p>
+
+<p>Put it somewhere you cannot avoid. A whiteboard by your desk. A photo as your lock screen. A note on your computer's home screen.</p>
+
+<p>It does not matter where. It matters that you see it first thing, before the day fills up with everyone else's priorities instead of your own.</p>
+
+<p>Use it as your daily focus, the thing that decides where your energy goes that day.</p>
+
+<h3>See Why Having a Why Matters</h3>
+
+<p>Simon Sinek's talk on this idea is the one most people have already seen, and it is aimed at leaders and businesses. The exercise above works the same way at a personal level, just pointed at your own life instead of a company.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/qp0HIF3SfI4" title="Simon Sinek: How Great Leaders Inspire Action" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="using-your-why-for-decisions">Using Your Why to Make Daily Decisions</h2>
+
+<p>Once you know your why, it becomes a filter.</p>
+
+<p>Every time you are stuck on a decision, ask one question. Does this benefit my why? Is it related to my why?</p>
+
+<p>Yes, move forward.</p>
+
+<p>No, leave it.</p>
+
+<p>That is genuinely how you make daily positive decisions. Not by weighing up every option for an hour, but by checking it against the one thing you already know matters most. If overthinking every choice is what usually slows you down, this filter is worth pairing with what I write about on <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision-making</a>.</p>
+
+<p>I use it in small ways most days, not just the big life calls. A late meeting request that eats into bedtime with the kids. No, leave it. An honest conversation at work that is a bit uncomfortable but actually helps someone. Yes, move forward, because that lines up with wanting work I believe in. None of these decisions take long once you have the filter. They used to take me far longer when I was weighing them up with nothing to weigh them against.</p>
+
+<p>I write more about trusting a decision like this instead of second-guessing it in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">How to Trust Your Gut Instead of Overthinking Every Decision</a>. And if you want this exercise to actually stick, not just feel good for a day, I go into that in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">How to Keep a Promise to Yourself</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-find-your-why">Common Questions About Finding Your Why</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I cannot think of three things that matter to me?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Start smaller. Write down what you actually spend your free time and money on, not what you think you should say. Your real priorities usually show up in your calendar and your bank statement before they show up in your head.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can your why change over time?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes. Mine did not exist in the same way before I had kids. A why usually shifts with what is actually true in your life, not on a schedule. If your list feels different in a year, redo the exercise then.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if my why feels selfish or small?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">It does not need to save the world. Mine is two kids and wanting them to have good experiences. It only has to be true and honest enough that it actually pulls you forward on a hard day.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How is a why different from a goal?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">A goal is something you finish. A why is the reason you keep going after you finish it and set the next one. Goals come and go. Your why is what sits underneath all of them.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I do not have kids or a family, can I still use this?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes. Kids happen to be mine. Yours might be a craft you love, a cause you care about, your own health, or the people already around you. The exercise works the same way whatever lands in that number one spot.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does this exercise actually take?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Ten minutes to write the list and rank it. The real work is putting your why somewhere you will see it daily and actually using it to filter decisions, which is a habit, not a one-off task.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can your why guide big decisions like a career change, not just daily habits?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes. My own move into work I actually believe in came from checking it against the same why I use for small daily calls. The filter does not change size to size. A career decision just gets more time and more weighing before you land on yes or no.</p>
+  </div>
+
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
 ]
