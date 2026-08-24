@@ -283,6 +283,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>Through the day, whenever something difficult comes up, I try to catch it early: notice it, feel where it sits in the body, let it be there, and let it pass, rather than carrying it around until evening. Some days I manage that better than others. That is fine. The practice is the point, not perfection.</p>
 
+<p>Two things make catching it early far easier. Breath counting, because it trains the noticing itself, which I cover in <a href="/blog/how-to-meditate-when-you-cannot-concentrate" style="color:#FFD700;">how to meditate when you cannot concentrate</a>. And a short written list of how I want to operate, read morning and night, which I go into in <a href="/blog/mental-state-checklist" style="color:#FFD700;">the mental state checklist</a>.</p>
+
 <p>I also use this alongside a second idea, that most of what triggers the negative feeling in the first place is not the situation itself, but the story I am adding on top of it. I go into that properly in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">Why "Not Good Enough" Is a False Reality</a>. And the whole thing started with the three books that pulled me out of six stuck years, which I cover in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
@@ -404,6 +406,8 @@ export const manualPosts: ManualPost[] = [
 <p>Fear, worry, and feeling not good enough all feel completely real when you are inside them. That is exactly what makes them convincing. But they are built on an old perspective, not on what is actually true right now.</p>
 
 <p>As you do the work, letting go, seeing clearly, that perspective shifts, and you start to see through these false realities for what they are: appearance, not essence. The feeling of not being good enough is not evidence. It is a leftover perspective from somewhere in your past, still running in the background as if it were current.</p>
+
+<p>Seeing that is one thing, acting on it is another. For the practical side, how to refuse those thoughts as they turn up and replace them with something true, see <a href="/blog/you-are-enough" style="color:#FFD700;">why you are already enough</a>.</p>
 
 <h2 id="the-truth">The Truth Underneath It All</h2>
 
@@ -548,6 +552,8 @@ export const manualPosts: ManualPost[] = [
 <p>Do not try to build the full hour on day one. Start with one piece, even ten minutes of it, and let it become consistent before adding the next.</p>
 
 <p>For most people, the meditation piece, using the letting go technique, is the best place to start, because it is the piece that changes how the rest of the day feels, even before yoga or reading get added in. Once that is steady, the rest builds naturally on top of it.</p>
+
+<p>If you have never sat down to meditate before, or you have tried and could not hold your concentration, start with the breath counting method in <a href="/blog/how-to-meditate-when-you-cannot-concentrate" style="color:#FFD700;">how to meditate when you cannot concentrate</a>. It is the simplest way in, and the letting go work sits on top of it once sitting still feels normal.</p>
 
 <p>This whole approach started for me with three books, not just this one. I tell the full story, and how <em>The 5am Club</em> fits alongside <em>Letting Go</em> and <em>Truth vs Falsehood</em>, in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
 
@@ -977,7 +983,7 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="my-story">My Own Version of This</h2>
 
-<p>Before I had kids, I quit my job and went travelling for six months. It was the biggest risk I had ever taken, and I loved it. Somewhere in those six months, meditation and looking inward instead of outward changed how I saw everything. I came home a different person, wanting to experience life, not just live it.</p>
+<p>Before I had kids, I quit my job and went travelling for six months. It was the biggest risk I had ever taken, and I loved it. Somewhere in those six months, meditation and looking inward instead of outward changed how I saw everything. I came home a different person, wanting to experience life, not just live it. That earlier stretch, before the kids and before any of this made sense, is written out in full in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
 
 <p>Then I had two kids. I threw myself into being a parent, and the inner work, the meditation, the yoga, all of it fell away while I focused on them. About six years later, I was lost. Low mood, going through the motions, further from that person I had become while travelling than I even realised at the time.</p>
 
@@ -2211,7 +2217,7 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="how-my-why-shaped-my-career">How My Why Shaped My Career</h2>
 
-<p>Before I had kids, I quit my job and went travelling for six months with no real plan. It was the biggest risk I had ever taken, and it was a gut decision, not a confident one.</p>
+<p>Before I had kids, I quit my job and went travelling for six months with no real plan. It was the biggest risk I had ever taken, and it was a gut decision, not a confident one. The full story of what pushed me to go, and the year of feeling lost that came before it, is in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
 
 <p>That one decision made every smaller decision after it feel easy by comparison. Once you have done the biggest one, the rest stop feeling so heavy.</p>
 
@@ -2521,7 +2527,7 @@ export const manualPosts: ManualPost[] = [
     title: 'I Lost My Sense of Self Before I Had Kids. Here Is How I Found It Again',
     description: 'Losing your sense of self rarely looks like a crisis. Here is how I lost mine before I had kids, what the searching felt like, and how I found my way back.',
     category: 'Personal Development',
-    publishedAt: '2026-08-24',
+    publishedAt: '2026-08-03',
     readingTime: 10,
     image: '/blog/losing-your-sense-of-self.jpg',
     html: `
@@ -2763,7 +2769,7 @@ export const manualPosts: ManualPost[] = [
     title: 'You Are Enough: Why You Do Not Need to Find Anything to Feel Confident',
     description: 'You are enough already. Low confidence comes from believing your negative thoughts, not from missing something. Here is the order that actually fixes it.',
     category: 'Personal Development',
-    publishedAt: '2026-08-24',
+    publishedAt: '2026-08-10',
     readingTime: 10,
     image: '/blog/you-are-enough.jpg',
     html: `
@@ -2995,7 +3001,7 @@ export const manualPosts: ManualPost[] = [
     title: 'How to Meditate When You Cannot Concentrate, Get Distracted or Get Bored',
     description: 'Cannot concentrate when you meditate? Get bored or distracted? Those are the reasons to do it, not to stop. Here is the simple 10-breath method I use daily.',
     category: 'Personal Development',
-    publishedAt: '2026-08-24',
+    publishedAt: '2026-08-17',
     readingTime: 10,
     image: '/blog/how-to-meditate-when-you-cannot-concentrate.jpg',
     html: `

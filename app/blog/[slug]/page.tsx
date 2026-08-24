@@ -8,6 +8,15 @@ import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
+const SITE_URL = 'https://www.thecatalystmethod.co.uk'
+
+// Manual posts store a site-relative path, SeoBot returns an absolute CDN URL.
+// Structured data and social tags both need an absolute URL either way.
+function absoluteImageUrl(image?: string): string {
+  if (!image) return `${SITE_URL}/mainlogo.png`
+  return image.startsWith('http') ? image : `${SITE_URL}${image}`
+}
+
 type Article = {
   id: string; slug: string; title: string; description?: string;
   image?: string; content?: string; html?: string;
@@ -97,7 +106,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const title = article.title || 'The Catalyst Method Blog'
   const description = article.description || undefined
-  const imageUrl = article.image ? `https://www.thecatalystmethod.co.uk${article.image}` : 'https://www.thecatalystmethod.co.uk/mainlogo.png'
+  const imageUrl = absoluteImageUrl(article.image)
 
   return {
     title: `${title} | The Catalyst Method`,
@@ -131,7 +140,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
-    image: article.image,
+    image: absoluteImageUrl(article.image),
     url: `https://www.thecatalystmethod.co.uk/blog/${slug}`,
     datePublished: article.publishedAt,
     author: { '@type': 'Organization', name: 'The Catalyst Method' },
