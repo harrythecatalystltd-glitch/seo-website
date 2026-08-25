@@ -148,11 +148,14 @@ export default function ConfidenceAtWorkPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
-            'burnout-and-self-belief',
             'what-is-imposter-syndrome',
             'feeling-stuck-work-ways-move-forward',
+            'burnout-and-self-belief',
             'lack-confidence-common-causes',
+            'why-discipline-is-a-negative-mindset',
+            'mental-state-checklist',
             'core-values-high-performers-guide',
+            'you-are-enough',
           ]}
         />
 

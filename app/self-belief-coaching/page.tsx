@@ -148,13 +148,14 @@ export default function SelfBeliefCoachingPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
-            'feeling-lost-in-your-30s',
-            'feeling-stuck-in-life',
+            'the-20-minute-rule-for-self-belief',
+            'you-are-enough',
             'self-worth-vs-self-esteem-vs-confidence',
-            'map-of-consciousness-explained-simply',
-            'self-doubt-vs-self-confidence-key-differences',
-            'trust-yourself-simple-steps',
-            '3-books-that-changed-my-life',
+            'how-to-keep-a-promise-to-yourself',
+            'burnout-and-self-belief',
+            'why-not-good-enough-is-a-false-reality',
+            'losing-your-sense-of-self',
+            'daily-habits-build-self-confidence-fast',
           ]}
         />
 

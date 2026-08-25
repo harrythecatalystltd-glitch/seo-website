@@ -148,12 +148,14 @@ export default function OvercomeSelfDoubtPage() {
         <RelatedPosts
           heading="Related Reading"
           slugs={[
+            'self-doubt-vs-self-confidence-key-differences',
+            'you-are-enough',
+            'lack-confidence-common-causes',
+            'why-not-good-enough-is-a-false-reality',
+            'what-is-imposter-syndrome',
+            'how-to-let-go-of-negative-thoughts',
             'how-to-stop-people-pleasing',
             'self-worth-vs-self-esteem-vs-confidence',
-            'self-doubt-vs-self-confidence-key-differences',
-            'trust-yourself-simple-steps',
-            'meditation-vs-journaling-building-confidence',
-            '3-books-that-changed-my-life',
           ]}
         />
 

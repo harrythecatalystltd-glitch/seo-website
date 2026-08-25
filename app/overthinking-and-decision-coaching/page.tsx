@@ -150,10 +150,12 @@ export default function OverthinkingCoachingPage() {
           slugs={[
             'trust-your-gut-instead-of-overthinking',
             'stop-overthinking-decisions',
-            'feeling-stuck-in-life',
-            'manage-decision-fatigue-prioritisation',
+            'how-to-find-your-why',
             'complete-guide-overcoming-indecision',
-            'practise-micro-decisions-20-minutes',
+            'mental-state-checklist',
+            'decision-making-checklist-steps-choose',
+            'you-are-enough',
+            'feeling-stuck-in-life',
           ]}
         />
 
