@@ -2595,6 +2595,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>Stay with it and the noise settles. Then you can actually hear what you think.</p>
 
+<p>That was true for me, and it is true for most people. It is not true for everyone, so it is worth knowing where the line sits between a normal rough patch and something that needs proper support. I go into that fully in <a href="/blog/why-meditation-makes-you-feel-worse" style="color:#FFD700;">why meditation can make you feel worse, and when to stop</a>.</p>
+
 <h2 id="spiritual-path-lonely">Why the Spiritual Path Feels So Lonely</h2>
 
 <p>This is the part I found hardest, and the part almost nobody talks about.</p>
@@ -3222,7 +3224,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="padding:22px 0 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if meditation makes me feel worse?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">That is common early on, because sitting still removes the distractions you were using to avoid whatever is underneath. It usually settles as the practice becomes familiar. If difficult feelings are intense or persistent, shorten the sessions and speak to your GP or a qualified therapist rather than pushing through on your own.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">That is common early on, because sitting still removes the distractions you were using to avoid whatever is underneath. It usually settles as the practice becomes familiar. If difficult feelings are intense or persistent, shorten the sessions and speak to your GP or a qualified therapist rather than pushing through on your own. I cover where that line sits in <a href="/blog/why-meditation-makes-you-feel-worse" style="color:#FFD700;">why meditation can make you feel worse, and when to stop</a>.</p>
   </div>
 
 </div>
@@ -3723,6 +3725,223 @@ export const manualPosts: ManualPost[] = [
 <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
   <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'why-meditation-makes-you-feel-worse',
+    title: 'Why Meditation Can Make You Feel Worse (And When to Stop)',
+    description: 'Feeling worse after meditating is common and usually passes. Sometimes it does not. Here is the difference, and when sitting with it is the wrong answer.',
+    category: 'Personal Development',
+    publishedAt: '2026-08-25',
+    readingTime: 11,
+    html: `
+<p>You sit down to meditate expecting to feel calmer. Instead you get restless, low, irritable, or hit by something you had not thought about in years.</p>
+
+<p>For most people that is normal and it passes. For some people it is not, and being told to push through is the worst advice they could get.</p>
+
+<p>Here is how to tell which one you are dealing with.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Sitting still takes away the distractions you were using to avoid whatever is underneath, so it surfaces. Boredom, restlessness, sadness, old memories and tearfulness are all common, and they usually settle over a few weeks. Research from Brown University found side effects are far more common than the apps suggest, and that a minority of people get effects serious enough to affect daily functioning. If you get panic that will not settle, feel detached from yourself or reality, start reliving trauma, cannot sleep, or cannot function, stop and get support rather than sitting with it. For everything milder, go shorter and gentler instead of quitting.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#is-this-normal">Is feeling worse normal? Mostly, yes</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-it-happens">Why it happens: you removed the noise</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-research">What the research actually found</a></li>
+    <li style="margin-bottom:8px;"><a href="#normal-vs-not">Normal discomfort versus something else</a></li>
+    <li style="margin-bottom:8px;"><a href="#when-to-stop">When to stop, and where to get help</a></li>
+    <li style="margin-bottom:8px;"><a href="#gentler">How to make the practice gentler</a></li>
+    <li style="margin-bottom:8px;"><a href="#how-long">How long the rough patch lasts</a></li>
+    <li style="margin-bottom:8px;"><a href="#my-experience">What it was like for me</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-meditation-worse">Common questions about feeling worse after meditating</a></li>
+  </ol>
+</div>
+
+<h2 id="is-this-normal">Is Feeling Worse Normal? Mostly, Yes</h2>
+
+<p>If you have started meditating and feel worse rather than better, you are not doing it wrong and you are not unusual.</p>
+
+<p>The common ones look like this. Restlessness that makes ten minutes feel like an hour. Irritability afterwards. A low mood that arrives out of nowhere. Old memories turning up uninvited. Sometimes crying without a clear reason.</p>
+
+<p>None of that means the practice has gone wrong. Most of it means it has started.</p>
+
+<p>The apps tend to skip this bit, which is why so many people conclude meditation is not for them in week two. If somebody had told me at the start that the first month often feels worse, I would have stuck with it far more easily.</p>
+
+<h2 id="why-it-happens">Why It Happens: You Removed the Noise</h2>
+
+<p>Think about what a normal day actually contains.</p>
+
+<p>A phone. A job to think about. Plans, podcasts, conversations, something on in the background. Most of that is not filling your life. It is covering something.</p>
+
+<p>Sitting still with your eyes closed removes all of it at once. Nothing is left to look at except what was already there.</p>
+
+<p>So it is not that meditation created the low mood or the restlessness. It made it audible. The volume did not go up, the background music went off.</p>
+
+<p>That is genuinely uncomfortable, and it is also the only way anything gets dealt with. You cannot work on something you have never let yourself look at.</p>
+
+<h2 id="the-research">What the Research Actually Found</h2>
+
+<p>This part surprised me, and I think it deserves saying plainly rather than being left out because it is inconvenient.</p>
+
+<p>Researchers at Brown University, led by Willoughby Britton, set out to measure side effects properly in people going through standard mindfulness programmes. Not extreme retreats. Ordinary courses.</p>
+
+<p>They found that 83 per cent reported at least one meditation-related side effect. Around 58 per cent had at least one that felt negative. And roughly 37 per cent reported effects that had a negative impact on how they were functioning day to day.</p>
+
+<p>The most common were anxiety, at about a third of people, and depression, at about a quarter. The wider literature also documents rarer and more serious effects, including feeling detached from yourself or your surroundings, and reliving traumatic memories.</p>
+
+<p>Two honest conclusions come out of that, and most articles only print the first one.</p>
+
+<p>The first is that feeling worse is common, so you are in good company and you probably do not need to worry.</p>
+
+<p>The second is that for a meaningful minority of people, this is not just a passing rough patch, and telling them to sit with it is the wrong call. Meditation is an active practice with real effects, and anything strong enough to help you is strong enough to affect you the other way.</p>
+
+<h3>The Researcher Behind the Findings</h3>
+
+<p>If you want this straight from the person who ran the studies, this interview covers the findings and what she thinks people should do about them.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/WdmvoX1RZWA" title="Dr Willoughby Britton on the hidden risks of meditation" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="normal-vs-not">Normal Discomfort Versus Something Else</h2>
+
+<p>This is the part I most wanted to get right, because the line matters.</p>
+
+<p><strong>Usually normal, and worth staying with.</strong> Boredom and restlessness. Irritability for an hour afterwards. Sadness that arrives and then passes. Old memories surfacing. Crying. Feeling tired. Noticing tension in your body you had not registered before.</p>
+
+<p>The pattern with all of these is that they move. They come up, they are uncomfortable, and they settle within the day.</p>
+
+<p><strong>Not just a rough patch.</strong> Panic that does not settle after the session ends. Feeling detached from yourself, or like the world around you is not quite real. Reliving a traumatic memory rather than remembering it. Sleep getting badly disrupted. Feeling emotionally flat or switched off for days. Not being able to function at work or at home. Any thoughts of harming yourself.</p>
+
+<p>Those are not a deeper stage of the practice and they are not something to breathe through. They are a signal to stop and get proper support.</p>
+
+<p>I want to be clear about my own position here. I am not a trained coach, counsellor or clinician. I can tell you what my own practice has been like and what the research says. I cannot tell you which side of that line you are on, and anyone who would, from a blog post, is guessing.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence, self-belief and daily practice. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="when-to-stop">When to Stop, and Where to Get Help</h2>
+
+<p>Stopping is allowed. It is not failure and it is not weakness, and the practice will still be there later.</p>
+
+<p>If anything from that second list is happening, stop meditating for now and speak to your GP or a qualified therapist. Say clearly that it started or worsened alongside a meditation practice, because that detail matters and is easy to leave out.</p>
+
+<p>There is also a nonprofit set up specifically for this. <a href="https://www.cheetahhouse.org/" target="_blank" rel="noopener" style="color:#FFD700;">Cheetah House</a> provides evidence-based information and support for people who have had negative effects from meditation, including consultations and support groups. It came out of the same research at Brown.</p>
+
+<p>If you are in the UK and things feel urgent, you can call Samaritans free on 116 123, at any hour, any day. If you or someone else is in immediate danger, call 999.</p>
+
+<p>None of that is me being dramatic about a breathing exercise. It is that this article will be read by people at very different points, and the ones who need that paragraph should not have to go looking for it.</p>
+
+<h2 id="gentler">How to Make the Practice Gentler</h2>
+
+<p>For ordinary discomfort, the answer is almost never to push harder. Go smaller instead.</p>
+
+<p><strong>Cut the time.</strong> Drop to five minutes, or three. A short sit you actually finish beats a long one you endure. There is more on shrinking the habit rather than abandoning it in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">when your 20 minutes feels like too much</a>.</p>
+
+<p><strong>Open your eyes.</strong> A soft gaze at the floor a metre or so in front of you keeps you anchored in the room. For a lot of people this alone settles it.</p>
+
+<p><strong>Get more grounded, not less.</strong> Feet flat on the floor, sit in a chair rather than on a cushion, notice the contact points. Anything that keeps you in your body.</p>
+
+<p><strong>Give the mind a job.</strong> Counting breaths gives attention something concrete to hold, which is far easier than open awareness when things feel raw. That is the method I use and it is written out in <a href="/blog/how-to-meditate-when-you-cannot-concentrate" style="color:#FFD700;">how to meditate when you cannot concentrate</a>.</p>
+
+<p><strong>Move instead of sitting.</strong> Walking slowly and deliberately, or gentle yoga, does much of the same work with far less intensity.</p>
+
+<p><strong>Change the time of day.</strong> Last thing at night is the hardest slot for most people, because you are tired and there is nothing after it to steady you.</p>
+
+<p><strong>Leave long retreats alone for now.</strong> Hours of silent practice is where most of the serious cases in the research come from. It is not a beginner move.</p>
+
+<p>If what keeps surfacing is emotional rather than restless, the release practice in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a> gives you something to actually do with it instead of just sitting underneath it.</p>
+
+<h2 id="how-long">How Long the Rough Patch Lasts</h2>
+
+<p>For ordinary discomfort, most people find it eases over a few weeks of short, regular practice.</p>
+
+<p>Judge it on the trend, not on individual sessions. Sessions are noisy. One awful sit means nothing, and so does one blissful one.</p>
+
+<p>The question worth asking every couple of weeks is simple. Across the last fortnight, is this getting easier, staying the same, or getting harder?</p>
+
+<p>Easier means carry on. The same means go shorter and gentler. Harder, over weeks, means stop and get some support rather than waiting it out.</p>
+
+<p>That last one is worth writing down somewhere, because in the middle of it you will be inclined to assume you just need to try harder.</p>
+
+<h2 id="my-experience">What It Was Like For Me</h2>
+
+<p>Mine was the ordinary kind, and it still knocked me about.</p>
+
+<p>This was years ago, before I had kids. I was meditating a lot and questioning who I actually was, and what came up first was not calm. It was feeling completely lost, for about a year.</p>
+
+<p>Nothing surfaced that needed a professional. It was just the noise going off and me finding out what had been sitting underneath it the whole time. I have written that whole stretch out in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
+
+<p>What I would tell myself at the start is that the discomfort was not a detour. It was the thing working. But I would also want to know that this is not true for everyone, and that carrying on regardless is not a virtue if it is genuinely making you worse.</p>
+
+<p>Both of those can be true. Most confidence and meditation writing only wants to tell you the first.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">If it is the ordinary kind of rough patch, this is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. For anything clinical, please see your GP or a qualified therapist.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-meditation-worse">Common Questions About Feeling Worse After Meditating</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is it normal to feel worse after meditating?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes, and it is more common than most apps let on. Research from Brown University found around 58 per cent of people in mindfulness programmes reported at least one side effect that felt negative. Restlessness, irritability, low mood and old memories surfacing are the usual ones, and they typically settle within the day.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why does meditation bring up old memories and emotions?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Because you have removed the distractions that were keeping them quiet. A normal day is full of things to look at and think about, and sitting still with your eyes closed takes all of that away at once. Meditation did not create the feeling, it made it audible.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I stop meditating if it makes me feel worse?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For mild discomfort, go shorter and gentler rather than stopping. Cut to five minutes, open your eyes, sit in a chair, or switch to walking. Stop and get support if you get panic that will not settle, feel detached from yourself or reality, start reliving trauma, cannot sleep, cannot function, or have any thoughts of harming yourself.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it take before meditation feels better?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Usually a few weeks of short, regular practice. Judge it on the trend across a fortnight rather than on single sessions, because individual sits vary wildly. If it is getting harder over weeks rather than easier, that is a reason to stop and seek support rather than to try harder.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can meditation be harmful?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">For a minority of people it can be, which the research is now clear about. Around 37 per cent of participants in one Brown University study reported effects that negatively impacted their daily functioning, and the wider literature documents rarer effects including dissociation and traumatic re-experiencing. That is not a reason for most people to avoid it, but it is a reason to take it seriously rather than treating it as automatically safe.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Where can I get help if meditation has harmed me?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Speak to your GP or a qualified therapist, and tell them it began alongside a meditation practice. Cheetah House is a nonprofit set up specifically to support people who have had negative effects from meditation. In the UK, Samaritans are free on 116 123 at any time, and call 999 if anyone is in immediate danger.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is it normal to feel worse after meditating?","acceptedAnswer":{"@type":"Answer","text":"Yes, and it is more common than most apps let on. Research from Brown University found around 58 per cent of people in mindfulness programmes reported at least one side effect that felt negative. Restlessness, irritability, low mood and old memories surfacing are the usual ones, and they typically settle within the day."}},
+{"@type":"Question","name":"Why does meditation bring up old memories and emotions?","acceptedAnswer":{"@type":"Answer","text":"Because you have removed the distractions that were keeping them quiet. A normal day is full of things to look at and think about, and sitting still with your eyes closed takes all of that away at once. Meditation did not create the feeling, it made it audible."}},
+{"@type":"Question","name":"Should I stop meditating if it makes me feel worse?","acceptedAnswer":{"@type":"Answer","text":"For mild discomfort, go shorter and gentler rather than stopping. Cut to five minutes, open your eyes, sit in a chair, or switch to walking. Stop and get support if you get panic that will not settle, feel detached from yourself or reality, start reliving trauma, cannot sleep, cannot function, or have any thoughts of harming yourself."}},
+{"@type":"Question","name":"How long does it take before meditation feels better?","acceptedAnswer":{"@type":"Answer","text":"Usually a few weeks of short, regular practice. Judge it on the trend across a fortnight rather than on single sessions, because individual sits vary wildly. If it is getting harder over weeks rather than easier, that is a reason to stop and seek support rather than to try harder."}},
+{"@type":"Question","name":"Can meditation be harmful?","acceptedAnswer":{"@type":"Answer","text":"For a minority of people it can be, which the research is now clear about. Around 37 per cent of participants in one Brown University study reported effects that negatively impacted their daily functioning, and the wider literature documents rarer effects including dissociation and traumatic re-experiencing. That is not a reason for most people to avoid it, but it is a reason to take it seriously rather than treating it as automatically safe."}},
+{"@type":"Question","name":"Where can I get help if meditation has harmed me?","acceptedAnswer":{"@type":"Answer","text":"Speak to your GP or a qualified therapist, and tell them it began alongside a meditation practice. Cheetah House is a nonprofit set up specifically to support people who have had negative effects from meditation. In the UK, Samaritans are free on 116 123 at any time, and call 999 if anyone is in immediate danger."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach, counsellor or clinician, just sharing what has helped me on my own journey. Nothing here is medical advice. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
 </div>
 `,
   },
