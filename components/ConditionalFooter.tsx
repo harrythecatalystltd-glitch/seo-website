@@ -1,4 +1,13 @@
+'use client'
+import { usePathname } from 'next/navigation'
+
+/* Routes that render as standalone landing pages: no nav, no footer. */
+const NO_CHROME_ROUTES = new Set(['/self-belief-email-series'])
+
 export default function ConditionalFooter() {
+  const pathname = usePathname()
+  if (pathname && NO_CHROME_ROUTES.has(pathname.replace(/\/$/, '') || '/')) return null
+
   return (
     <footer style={{
       borderTop: '1px solid rgba(255,255,255,0.08)',
