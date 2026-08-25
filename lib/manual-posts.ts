@@ -427,6 +427,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>This is one of three books that changed how I see everything. I cover the full story, and the other two books, in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>, and I write about how I turn all of this into a daily habit in <a href="/blog/morning-routine-that-changed-my-life" style="color:#FFD700;">The Morning Routine That Actually Changed My Life</a>.</p>
 
+<p>Seeing through the false reality is the start. Building something solid in its place is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
 <h2 id="faq-truth">Common Questions About Truth vs Falsehood</h2>
 
 <div style="margin:8px 0 0;">
@@ -791,6 +793,8 @@ export const manualPosts: ManualPost[] = [
 <p><strong>Self-esteem</strong> builds through honest reflection rather than pure outcome-chasing. Noticing effort and character, not just results, keeps it from swinging as wildly with every win and loss.</p>
 
 <p><strong>Self-worth</strong> builds by letting go, releasing the old feelings that told you your worth was conditional, and testing new thoughts against how they actually make you feel. Stronger and clearer means closer to the truth. Smaller and tighter usually means it&apos;s appearance, not essence. I write about the daily practice behind this in <a href="/blog/morning-routine-that-changed-my-life" style="color:#FFD700;">The Morning Routine That Actually Changed My Life</a>, and about the three books that taught me all of this in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
+
+<p>If self-belief is the one you decide to build first, the full method is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-worth">Common Questions</h2>
 
@@ -1341,6 +1345,8 @@ export const manualPosts: ManualPost[] = [
 
 <p style="font-size:0.85rem;color:rgba(255,255,255,0.45);">One honest note: this is not medical advice, and burnout can be a serious health issue. If you recognise persistent exhaustion, physical symptoms, or a sense you cannot function, please speak to a GP or a trained professional. I am not medically trained, I am only sharing what helped me personally with a long, quiet loss of interest, not treating or diagnosing anything.</p>
 
+<p>If yours has already eroded and you want the way back rather than the diagnosis, that is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
 <h2 id="faq-burnout">Common Questions About Burnout and Self-Belief</h2>
 
 <div style="margin:8px 0 0;">
@@ -1582,6 +1588,8 @@ export const manualPosts: ManualPost[] = [
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
 
+<p>The twenty minutes is the engine, but it is one of five things that rebuilt mine. The full picture, and the order the five go in, is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
 <h2 id="faq-20-minute">Common Questions About the 20-Minute Rule</h2>
 
 <div style="margin:8px 0 0;">
@@ -1716,6 +1724,8 @@ export const manualPosts: ManualPost[] = [
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
 
+<p>Kept promises are the raw material self-belief is actually built from. Where this fits alongside everything else is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
 <h2 id="faq-promise">Common Questions About Keeping Promises to Yourself</h2>
 
 <div style="margin:8px 0 0;">
@@ -1832,6 +1842,8 @@ export const manualPosts: ManualPost[] = [
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
 
+<p>Shrinking the habit instead of dropping it is what keeps the evidence accumulating. Why that evidence matters so much is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
 <h2 id="faq-too-much">Common Questions About Hard Days</h2>
 
 <div style="margin:8px 0 0;">
@@ -1947,6 +1959,8 @@ export const manualPosts: ManualPost[] = [
   <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
+
+<p>Small wins stick because they are evidence, and evidence is what self-belief is actually made of. More on that in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-micro-habits">Common Questions About Micro-Habits</h2>
 
@@ -2713,6 +2727,8 @@ export const manualPosts: ManualPost[] = [
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
 
+<p>Once you know roughly who you are again, rebuilding the belief is its own piece of work. I have written it out in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
 <h2 id="faq-sense-of-self">Common Questions About Losing Your Sense of Self</h2>
 
 <div style="margin:8px 0 0;">
@@ -2944,6 +2960,8 @@ export const manualPosts: ManualPost[] = [
   <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">This is exactly what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. Email or WhatsApp works too.</p>
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
+
+<p>Guarding your thoughts is the first of five things that rebuilt my self-belief. The rest, and why the order matters, are in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-you-are-enough">Common Questions About Believing You Are Enough</h2>
 
@@ -3674,6 +3692,8 @@ export const manualPosts: ManualPost[] = [
   <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Holding yourself accountable without beating yourself up is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me.</p>
   <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
 </div>
+
+<p>Respect rather than force is one of five things that rebuilt my self-belief. The other four are in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-discipline">Common Questions About Discipline and Self-Respect</h2>
 
