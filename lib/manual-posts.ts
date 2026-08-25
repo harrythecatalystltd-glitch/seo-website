@@ -4992,6 +4992,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-08-25',
     readingTime: 11,
+    image: '/blog/self-doubt-before-you-grow.jpg',
     html: `
 <p>Self-doubt is not spread evenly across your life. It clusters.</p>
 
