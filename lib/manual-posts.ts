@@ -4027,6 +4027,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>Work on the self-belief and the situational confidence tends to follow. It does not work the other way round.</p>
 
+<p>If that distinction is the bit you want nailed down properly, including how to tell which of the two you are actually short of, it has its own piece in <a href="/blog/what-is-self-belief" style="color:#FFD700;">what is self-belief, and why it is not the same as confidence</a>.</p>
+
 <h2 id="why-it-erodes">Why Self-Belief Erodes</h2>
 
 <p>Almost nobody loses it in one go. It goes quietly, in three ways.</p>
@@ -4233,6 +4235,246 @@ export const manualPosts: ManualPost[] = [
 {"@type":"Question","name":"What causes low self-belief in the first place?","acceptedAnswer":{"@type":"Answer","text":"Usually three things together: a pile of small promises to yourself you did not keep, a habit of believing negative thoughts without checking them, and a stretch of running on empty with nothing going back in. None of them is dramatic, which is why the erosion goes unnoticed for years."}},
 {"@type":"Question","name":"Can you build self-belief without a coach or therapist?","acceptedAnswer":{"@type":"Answer","text":"Yes. Everything in this article is something you can do on your own, and I did it on my own. Support helps mainly with accountability and with seeing the parts you cannot see from inside. If low self-belief comes with persistent low mood or anxiety that affects daily life, speak to your GP or a qualified therapist rather than treating it as a motivation problem."}},
 {"@type":"Question","name":"What is the single best first step?","acceptedAnswer":{"@type":"Answer","text":"One promise to yourself, small enough that you are certain you will keep it daily for a fortnight, written down each day that you do. Everything else builds on top of a promise you actually kept, and nothing works without one."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'what-is-self-belief',
+    title: 'What Is Self-Belief? Why It Is Not the Same as Confidence',
+    description: 'Self-belief is about you. Confidence is about the task. Here is the actual difference, how to tell which one you are short of, and which to build first.',
+    category: 'Personal Development',
+    publishedAt: '2026-08-25',
+    readingTime: 11,
+    image: '/blog/what-is-self-belief.jpg',
+    html: `
+<p>Most people use self-belief and confidence to mean the same thing. They are not the same thing, and mixing them up is why so much advice slides straight off.</p>
+
+<p>You can be extremely confident and still not believe in yourself. Plenty of capable people live there.</p>
+
+<p>Here is the real difference, how to tell which one you are actually short of, and which one is worth your effort first.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Confidence is about the task. Self-belief is about you. Confidence says I can do this thing because I have done it before, so it is specific and it moves. Self-belief says I will back myself whatever the thing is, so it sits underneath and holds steadier. You can have either without the other, and the combination you are in tells you what to work on. Confidence without self-belief is what imposter syndrome feels like from the inside. Build the self-belief first, because confidence follows from it and not the other way round.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#short-answer">The short answer</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-self-belief-is">What self-belief actually is</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-confidence-is">What confidence actually is</a></li>
+    <li style="margin-bottom:8px;"><a href="#four-combinations">The four combinations you can be in</a></li>
+    <li style="margin-bottom:8px;"><a href="#which-test">How to tell which one you are short of</a></li>
+    <li style="margin-bottom:8px;"><a href="#esteem-and-worth">Where self-esteem and self-worth fit</a></li>
+    <li style="margin-bottom:8px;"><a href="#which-first">Which one to build first</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-it-matters">Why the difference matters at all</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-what-is-self-belief">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="short-answer">The Short Answer</h2>
+
+<p><strong>Confidence is about the task. Self-belief is about you.</strong></p>
+
+<p>Confidence says: I can do this, because I have done it before.</p>
+
+<p>Self-belief says: I will back myself, whatever this turns out to be.</p>
+
+<p>One is tied to a specific thing you have practised. The other is a standing position on yourself that does not need the thing to be familiar.</p>
+
+<p>Everything else in this article is that one distinction, worked through properly.</p>
+
+<h2 id="what-self-belief-is">What Self-Belief Actually Is</h2>
+
+<p>Self-belief is the belief that you will do what you say you will do.</p>
+
+<p>Notice what that is not. It is not a belief that you are talented, or that things will go well, or that you are better than anyone. It is much plainer than that, and much more useful.</p>
+
+<p>It is trust in your own reliability. Exactly the kind of trust you build in another person: by watching them do what they said, repeatedly, until you stop bracing for the opposite.</p>
+
+<p>Which is why it is built from evidence rather than talked into existence. You are the person you have watched longest, and you already know your own record.</p>
+
+<p>Three things follow from that definition, and they are the whole reason it is worth getting right.</p>
+
+<p><strong>It generalises.</strong> Because it is about you rather than a task, it comes with you into things you have never done.</p>
+
+<p><strong>It is slow to build and slow to lose.</strong> One good day does not create it. One bad day does not remove it.</p>
+
+<p><strong>It is buildable.</strong> Evidence changes beliefs. It just takes more evidence than anyone tells you. The full method is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
+<h2 id="what-confidence-is">What Confidence Actually Is</h2>
+
+<p>Confidence is situational competence you have stopped having to think about.</p>
+
+<p>You are confident driving because you have done it a thousand times. You are not confident presenting because you have done it four times and two of them went badly.</p>
+
+<p>That is the whole mechanism. Repetition, then a feeling that follows the repetition.</p>
+
+<p>So confidence has two properties worth knowing.</p>
+
+<p><strong>It does not transfer.</strong> Being brilliant at your job gives you nothing when you walk into a room full of strangers at a party. Different task, different counter, starting near zero.</p>
+
+<p><strong>It moves quickly.</strong> A bad experience can knock out months of it, because it was built on a specific run of outcomes and you have just added a bad one.</p>
+
+<p>None of this makes confidence lesser. It is genuinely useful and it feels good. It is just narrower than people assume, and it is not the thing carrying you when you try something new.</p>
+
+<h2 id="four-combinations">The Four Combinations You Can Be In</h2>
+
+<p>Once you separate them, you can have either without the other. This is the part that tends to land, because most people recognise themselves in one of these immediately.</p>
+
+<h3>Confident and self-believing</h3>
+
+<p>You are good at the thing and you back yourself in general. This is where people assume everyone else lives. Almost nobody lives here across the whole of their life, only in patches of it.</p>
+
+<h3>Confident but low self-belief</h3>
+
+<p>You are demonstrably good at what you do and it does not touch you. Praise slides off. Every success gets filed under luck or timing.</p>
+
+<p>This one is extremely common in capable people, and it has a name. It is what <a href="/blog/what-is-imposter-syndrome" style="color:#FFD700;">imposter syndrome</a> feels like from the inside, and it is the clearest proof that competence alone does not produce self-belief. If it did, this combination could not exist.</p>
+
+<p>This is also the group most badly served by ordinary confidence advice, because they are told to build skills they already have.</p>
+
+<h3>Not confident but strong self-belief</h3>
+
+<p>You are new at something and you know you are new. You are also not particularly worried, because you have watched yourself get good at unfamiliar things before.</p>
+
+<p>This is the best position to start anything from, and it is the one that makes career changes and new ventures survivable.</p>
+
+<h3>Low on both</h3>
+
+<p>Nothing feels safe and nothing feels like yours. This is heavier and it is where a lot of people are after burnout or a long stuck stretch. I have written about how that erosion happens in <a href="/blog/burnout-and-self-belief" style="color:#FFD700;">burnout and self-belief</a>.</p>
+
+<p>The way out of this one is not to attack both. It is to pick one small thing, do it daily, and let the evidence start again.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="which-test">How to Tell Which One You Are Short Of</h2>
+
+<p>There is a simple test, and it takes about a minute.</p>
+
+<p>Think of something specific you are avoiding. Then ask yourself which of these two sentences is closer to what you actually feel.</p>
+
+<p><strong>"I do not know how to do this."</strong> That is a confidence gap. It is a skills problem and it has a boring, reliable solution: learn the thing, practise it, do it badly a few times.</p>
+
+<p><strong>"I could probably learn it, but I am not the kind of person who pulls that off."</strong> That is a self-belief gap. No amount of practice fixes it, because the doubt is not about the task.</p>
+
+<p>Be honest about which one it is, because the wrong diagnosis wastes months.</p>
+
+<p>People with a self-belief gap take course after course and never feel ready, because they are treating an identity problem as a skills problem. The course was never going to work.</p>
+
+<p>And people with a genuine confidence gap sometimes go looking for deep inner work when what they actually needed was ten hours of practice.</p>
+
+<h3>Watch: confidence as a skill you repeat</h3>
+
+<p>Ivan Joseph's talk is the best short case for the confidence half of this, and it is worth watching precisely because it is about the part that does respond to repetition.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/w-HYZv6HzAs" title="Dr Ivan Joseph: The Skill of Self Confidence, TEDxRyersonU" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="esteem-and-worth">Where Self-Esteem and Self-Worth Fit</h2>
+
+<p>Two more words get thrown into this and they are not the same either.</p>
+
+<p><strong>Self-esteem</strong> is how you rate yourself. It is a judgement, and like any judgement it moves with the evidence you happen to be looking at that week.</p>
+
+<p><strong>Self-worth</strong> is the one that should not move at all. It is the position that you matter regardless of output. Not because you achieved something, just because you are a person.</p>
+
+<p>So you get four layers, and they stack.</p>
+
+<p>Self-worth sits at the bottom and does not depend on anything. Self-belief sits on top of it and comes from your own track record. Self-esteem is your current rating of yourself. Confidence sits at the top and attaches to specific tasks.</p>
+
+<p>I break the bottom three down properly in <a href="/blog/self-worth-vs-self-esteem-vs-confidence" style="color:#FFD700;">self-worth vs self-esteem vs self-confidence</a>, which is worth reading if the distinction between worth and esteem is the one blurring for you.</p>
+
+<h2 id="which-first">Which One to Build First</h2>
+
+<p>Self-belief. Almost always, and for a reason that is easy to test.</p>
+
+<p>Build confidence first and you get good at one thing. Useful, but you are back at zero the next time something unfamiliar turns up.</p>
+
+<p>Build self-belief first and confidence tends to follow, because you will actually attempt the reps that produce it. The whole mechanism of confidence depends on doing the thing badly a few times, and doing something badly in front of people is exactly what low self-belief prevents.</p>
+
+<p>That is the trap. Confidence needs practice. Practice needs a willingness to be bad at something. Willingness to be bad at something needs self-belief.</p>
+
+<p>So the order is not a preference, it is a dependency.</p>
+
+<p>Practically, that means starting with a promise to yourself small enough that you will keep it, then keeping it. That is where the evidence comes from, and the full version is in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule for self-belief</a> and <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">how to keep a promise to yourself</a>.</p>
+
+<h2 id="why-it-matters">Why the Difference Matters at All</h2>
+
+<p>This can look like word games. It is not, and here is the practical cost of getting it wrong.</p>
+
+<p>If you think you have a confidence problem when you have a self-belief problem, you will keep buying solutions aimed at the wrong thing. Preparation, courses, techniques, power poses. All of it works on the task, and your problem was never the task.</p>
+
+<p>You will also read your own results wrong. Every skill you acquire will fail to produce the feeling you expected, and the obvious conclusion is that something is wrong with you specifically. It is not. You have been treating the wrong layer.</p>
+
+<p>Getting the words straight is not pedantry. It is what stops you spending another two years on the wrong problem.</p>
+
+<p>And if the thing underneath is a running commentary telling you that you are not enough, that is the first thing to deal with, before any of this. That one is in <a href="/blog/you-are-enough" style="color:#FFD700;">why you are already enough</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Not sure which one you are short of?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working that out is usually the first thing we do in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. Email or WhatsApp works too.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-what-is-self-belief">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is self-belief in simple terms?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">It is the belief that you will do what you say you will do. Not that you are talented or that things will go well, just that you are good for your own word. That makes it trust in your own reliability, built from evidence rather than talked into existence.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is the difference between self-belief and self-confidence?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Confidence is about the task and self-belief is about you. Confidence comes from having done a specific thing enough times, so it does not transfer to unfamiliar things and it moves quickly with results. Self-belief sits underneath all of it and comes with you into things you have never done.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can you be confident but still not believe in yourself?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes, and it is very common in capable people. You are demonstrably good at something and none of it lands, because every success gets filed under luck or timing. That combination is what imposter syndrome feels like from the inside, and it is the clearest evidence that competence alone does not create self-belief.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I know whether I lack confidence or self-belief?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Think of something you are avoiding and ask which sentence fits. "I do not know how to do this" is a confidence gap and practice fixes it. "I could probably learn it, but I am not the kind of person who pulls that off" is a self-belief gap, and no amount of practice will touch it.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Which should I build first?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Self-belief, because the order is a dependency rather than a preference. Confidence needs practice, practice needs a willingness to be bad at something in front of people, and that willingness is exactly what low self-belief removes. Build the belief and the confidence follows.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is self-belief the same as self-worth?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. Self-worth is the position that you matter regardless of what you produce, and it should not move at all. Self-belief sits on top of it and does come from your track record, so it can be built and it can erode. They stack rather than compete.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is self-belief in simple terms?","acceptedAnswer":{"@type":"Answer","text":"It is the belief that you will do what you say you will do. Not that you are talented or that things will go well, just that you are good for your own word. That makes it trust in your own reliability, built from evidence rather than talked into existence."}},
+{"@type":"Question","name":"What is the difference between self-belief and self-confidence?","acceptedAnswer":{"@type":"Answer","text":"Confidence is about the task and self-belief is about you. Confidence comes from having done a specific thing enough times, so it does not transfer to unfamiliar things and it moves quickly with results. Self-belief sits underneath all of it and comes with you into things you have never done."}},
+{"@type":"Question","name":"Can you be confident but still not believe in yourself?","acceptedAnswer":{"@type":"Answer","text":"Yes, and it is very common in capable people. You are demonstrably good at something and none of it lands, because every success gets filed under luck or timing. That combination is what imposter syndrome feels like from the inside, and it is the clearest evidence that competence alone does not create self-belief."}},
+{"@type":"Question","name":"How do I know whether I lack confidence or self-belief?","acceptedAnswer":{"@type":"Answer","text":"Think of something you are avoiding and ask which sentence fits. 'I do not know how to do this' is a confidence gap and practice fixes it. 'I could probably learn it, but I am not the kind of person who pulls that off' is a self-belief gap, and no amount of practice will touch it."}},
+{"@type":"Question","name":"Which should I build first?","acceptedAnswer":{"@type":"Answer","text":"Self-belief, because the order is a dependency rather than a preference. Confidence needs practice, practice needs a willingness to be bad at something in front of people, and that willingness is exactly what low self-belief removes. Build the belief and the confidence follows."}},
+{"@type":"Question","name":"Is self-belief the same as self-worth?","acceptedAnswer":{"@type":"Answer","text":"No. Self-worth is the position that you matter regardless of what you produce, and it should not move at all. Self-belief sits on top of it and does come from your track record, so it can be built and it can erode. They stack rather than compete."}}
 ]}
 </script>
 
