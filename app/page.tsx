@@ -212,7 +212,7 @@ export default async function HomePage() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/blog/3-books-changed-my-life.png"
+                src="/blog/3-books-changed-my-life.jpg"
                 alt="3 Books That Pulled Me Out of Feeling Stuck"
                 style={{ width: '100%', borderRadius: 14, display: 'block', boxShadow: '0 12px 32px rgba(0,0,0,0.4)' }}
               />

@@ -20,7 +20,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-28',
     readingTime: 11,
-    image: '/blog/3-books-changed-my-life.png',
+    image: '/blog/3-books-changed-my-life.jpg',
     html: `
 <p>Six years ago I was stuck. Low mood, going through the motions, further from myself than I realised.</p>
 
@@ -187,7 +187,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-10',
     readingTime: 9,
-    image: '/blog/lettingo.png',
+    image: '/blog/lettingo.jpg',
     html: `
 <p>For years I thought I had two options with a negative feeling: push it down and carry on, or let it out and deal with the mess after.</p>
 
@@ -337,7 +337,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-17',
     readingTime: 9,
-    image: '/blog/truth-vs-falsehood.png',
+    image: '/blog/truth-vs-falsehood.jpg',
     html: `
 <p>For a long time I assumed my view of the world was just the world. If I felt not good enough, that felt like a fact. If someone frustrated me, being right about that felt like a fact too.</p>
 
@@ -471,7 +471,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-24',
     readingTime: 8,
-    image: '/blog/5am-club-morning-routine.png',
+    image: '/blog/5am-club-morning-routine.jpg',
     html: `
 <p>Knowing that letting go of negative emotion and seeing things more truthfully could change my life was one thing. Actually doing it, consistently, on the days I did not feel like it, was a different problem entirely.</p>
 
@@ -607,7 +607,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-01-15',
     readingTime: 8,
-    image: '/blog/what-is-imposter-syndrome.png',
+    image: '/blog/what-is-imposter-syndrome.jpg',
     html: `
 <p>Imposter syndrome gets talked about so often it has almost lost its meaning. So let&apos;s be specific: it is the gap between what you have actually achieved and what you privately believe about your own ability, a gap that no amount of evidence ever seems to close.</p>
 
@@ -723,7 +723,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-01-22',
     readingTime: 8,
-    image: '/blog/self-worth-vs-self-esteem-vs-confidence.png',
+    image: '/blog/self-worth-vs-self-esteem-vs-confidence.jpg',
     html: `
 <p>People use self-worth, self-esteem and self-confidence like they mean the same thing. They don&apos;t, and mixing them up is exactly why so many confidence tips don&apos;t actually stick.</p>
 
@@ -831,7 +831,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-01-29',
     readingTime: 9,
-    image: '/blog/feeling-stuck-in-life.png',
+    image: '/blog/feeling-stuck-in-life.jpg',
     html: `
 <p>Feeling stuck doesn&apos;t look like a crisis from the outside. Nothing dramatic happens. You just go through the motions, low mood, further from yourself than you realise, for far longer than you&apos;d ever admit to anyone.</p>
 
@@ -946,7 +946,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-01',
     readingTime: 9,
-    image: '/blog/feeling-lost-in-your-30s.png',
+    image: '/blog/feeling-lost-in-your-30s.jpg',
     html: `
 <p>Somewhere in my thirties, with two kids and a life that looked fine from the outside, I felt completely lost. Not dramatic, not a crisis anyone could see. Just quietly disconnected from a version of myself I used to know.</p>
 
@@ -1059,7 +1059,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-03',
     readingTime: 8,
-    image: '/blog/how-to-stop-people-pleasing.png',
+    image: '/blog/how-to-stop-people-pleasing.jpg',
     html: `
 <p>I never thought of myself as a classic people pleaser. I did not struggle to say no, exactly. What I actually did was quieter than that: I performed. I tried to be interesting, to make people happy, to keep things smooth, without ever really showing up as myself.</p>
 
@@ -1168,7 +1168,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-06',
     readingTime: 8,
-    image: '/blog/trust-your-gut-instead-of-overthinking.png',
+    image: '/blog/trust-your-gut-instead-of-overthinking.jpg',
     html: `
 <p>The biggest decision of my life so far was made almost entirely on gut. I quit my job and went travelling, with no real plan beyond that. It is still the biggest risk I have ever taken.</p>
 
@@ -1272,7 +1272,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-08',
     readingTime: 9,
-    image: '/blog/burnout-and-self-belief.png',
+    image: '/blog/burnout-and-self-belief.jpg',
     html: `
 <p>I was in the same line of work for twelve years, on and off, with a gap in the middle. For a long stretch of that, I had simply lost interest. No breakdown, no dramatic moment, just a slow fade that I mistook for normal for far longer than I should have.</p>
 
@@ -1380,7 +1380,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-12',
     readingTime: 8,
-    image: '/blog/map-of-consciousness-explained-simply.png',
+    image: '/blog/map-of-consciousness-explained-simply.jpg',
     html: `
 <p>Alongside <em>Letting Go</em> and <em>Truth vs Falsehood</em>, one of the books that changed how I see things was Hawkins' work on what he calls the Map of Consciousness, sometimes published as <em>Transcending the Levels of Consciousness</em>. It gave me something the other two did not quite give me on their own: a map.</p>
 
@@ -1489,7 +1489,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-03-01',
     readingTime: 9,
-    image: '/blog/the-20-minute-rule.png',
+    image: '/blog/the-20-minute-rule.jpg',
     html: `
 <p>If you really want to change your life, you do not need a big plan or a total overhaul. You need twenty minutes a day, done on purpose, every single day.</p>
 
@@ -1631,7 +1631,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-26',
     readingTime: 8,
-    image: '/blog/how-to-keep-a-promise-to-yourself.png',
+    image: '/blog/how-to-keep-a-promise-to-yourself.jpg',
     html: `
 <p>Confidence is not something you feel your way into. It is something you build, one kept promise at a time.</p>
 
@@ -1760,7 +1760,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-27',
     readingTime: 7,
-    image: '/blog/when-20-minutes-feels-like-too-much.png',
+    image: '/blog/when-20-minutes-feels-like-too-much.jpg',
     html: `
 <p>Some mornings, twenty minutes feels like a mountain. Not because the habit is hard, but because everything feels hard that day.</p>
 
@@ -1876,7 +1876,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-02-25',
     readingTime: 8,
-    image: '/blog/micro-habits-vs-big-life-changes.png',
+    image: '/blog/micro-habits-vs-big-life-changes.jpg',
     html: `
 <p>I used to think change meant a total overhaul. New routine, new diet, new mindset, all starting Monday.</p>
 
@@ -1992,7 +1992,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Productivity',
     publishedAt: '2026-07-14',
     readingTime: 8,
-    image: '/blog/bringing-classes-rosters-schedules.png',
+    image: '/blog/bringing-classes-rosters-schedules.jpg',
     html: `
 <p>Think about a junk drawer stuffed with sticky notes, half a class roster, and a schedule scrawled on the back of a handout.</p>
 
@@ -2166,7 +2166,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-07-17',
     readingTime: 12,
-    image: '/blog/how-to-find-your-why.png',
+    image: '/blog/how-to-find-your-why.jpg',
     html: `
 <p>Ask yourself why you get up and do what you do every day. If the honest answer is "I do not really know," you are not broken. You just have not found your why yet.</p>
 
@@ -2357,7 +2357,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-07-17',
     readingTime: 11,
-    image: '/blog/how-to-set-goals-that-give-you-energy.png',
+    image: '/blog/how-to-set-goals-that-give-you-energy.jpg',
     html: `
 <p>Most goals feel like homework. You write one down, feel briefly motivated, and by week two it is a source of guilt instead of energy.</p>
 
@@ -3735,6 +3735,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-08-25',
     readingTime: 11,
+    image: '/blog/why-meditation-makes-you-feel-worse.jpg',
     html: `
 <p>You sit down to meditate expecting to feel calmer. Instead you get restless, low, irritable, or hit by something you had not thought about in years.</p>
 
