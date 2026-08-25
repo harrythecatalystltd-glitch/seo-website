@@ -4177,6 +4177,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>Not all five. One thing.</p>
 
+<p>If you would rather have the whole thing as a set of exercises with steps and timings, they are laid out in <a href="/blog/self-belief-exercises" style="color:#FFD700;">seven self-belief exercises you can do this week</a>.</p>
+
 <p>Pick a promise to yourself small enough that you are certain you will keep it every day for a fortnight. Genuinely certain. If there is any doubt, make it smaller.</p>
 
 <p>Ten minutes of something that is for you. A walk without your phone. Ten minutes of sitting still, which is easier than people expect once you have a method, and mine is in <a href="/blog/how-to-meditate-when-you-cannot-concentrate" style="color:#FFD700;">how to meditate when you cannot concentrate</a>.</p>
@@ -4475,6 +4477,255 @@ export const manualPosts: ManualPost[] = [
 {"@type":"Question","name":"How do I know whether I lack confidence or self-belief?","acceptedAnswer":{"@type":"Answer","text":"Think of something you are avoiding and ask which sentence fits. 'I do not know how to do this' is a confidence gap and practice fixes it. 'I could probably learn it, but I am not the kind of person who pulls that off' is a self-belief gap, and no amount of practice will touch it."}},
 {"@type":"Question","name":"Which should I build first?","acceptedAnswer":{"@type":"Answer","text":"Self-belief, because the order is a dependency rather than a preference. Confidence needs practice, practice needs a willingness to be bad at something in front of people, and that willingness is exactly what low self-belief removes. Build the belief and the confidence follows."}},
 {"@type":"Question","name":"Is self-belief the same as self-worth?","acceptedAnswer":{"@type":"Answer","text":"No. Self-worth is the position that you matter regardless of what you produce, and it should not move at all. Self-belief sits on top of it and does come from your track record, so it can be built and it can erode. They stack rather than compete."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'self-belief-exercises',
+    title: 'Seven Self-Belief Exercises You Can Do This Week',
+    description: 'Seven practical self-belief exercises with steps and timings. Two are one-offs, five are daily. Pick two, not seven, and start with the evidence list.',
+    category: 'Personal Development',
+    publishedAt: '2026-08-25',
+    readingTime: 12,
+    image: '/blog/self-belief-exercises.jpg',
+    html: `
+<p>Reading about self-belief does not build any. I know, because I spent a couple of years doing exactly that.</p>
+
+<p>These are seven exercises with actual steps and timings. Some take ten minutes once. Some take thirty seconds a day forever.</p>
+
+<p>Pick two. Not seven.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Self-belief is built from evidence, so every exercise here either produces evidence or stops you deleting it. Three are one-offs you do once and keep: the evidence list, the why, and the operating list. Three are daily and take under two minutes: the one promise, the tick sheet, and thought refusal. One is a ten-minute rehearsal for bad days, which is the exercise that decides whether the others survive week three. Start with the evidence list and the one promise. Add the rest only once those two are automatic.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#how-to-use">How to use these</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-1">1. The evidence list</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-2">2. The one promise</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-3">3. The tick sheet</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-4">4. Thought refusal</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-5">5. The bad-day rehearsal</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-6">6. The three priorities</a></li>
+    <li style="margin-bottom:8px;"><a href="#ex-7">7. The operating list</a></li>
+    <li style="margin-bottom:8px;"><a href="#which-two">Which two to start with</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-exercises">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="how-to-use">How to Use These</h2>
+
+<p>One rule, and it decides whether any of this works.</p>
+
+<p><strong>Pick two. Do them for a fortnight before adding a third.</strong></p>
+
+<p>Seven new habits started on a Monday is not commitment, it is a collapse with a date on it. And a collapsed attempt costs you more self-belief than it was ever going to build, because you have just added another broken promise to the pile.</p>
+
+<p>Two is boring and two works.</p>
+
+<p>Everything here rests on one idea: self-belief is built from evidence, not from telling yourself things. So each exercise either produces evidence or stops your memory deleting it. If you want the reasoning behind that rather than just the instructions, it is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
+
+<h2 id="ex-1">1. The Evidence List</h2>
+
+<p><strong>Fifteen minutes, once. Then five minutes a month.</strong></p>
+
+<p>Low self-belief comes with a memory that files failures in full and deletes successes as luck. This exercise corrects the record.</p>
+
+<p>Get paper, not your phone. Write down everything you have handled that you were not sure you could. Go back as far as you like.</p>
+
+<p>Prompts if you stall:</p>
+
+<ul style="color:rgba(255,255,255,0.72);line-height:1.9;padding-left:22px;">
+  <li>What is the hardest thing you have got through?</li>
+  <li>What can you do now that you could not do five years ago?</li>
+  <li>What did you learn without anyone teaching you?</li>
+  <li>What did you keep going with when it would have been easier to stop?</li>
+  <li>Who has relied on you, and were you there?</li>
+</ul>
+
+<p>Two rules. No qualifying, so no "but anyone could have". And small things count, because most of the evidence is small.</p>
+
+<p>Keep the list. Re-read it when the commentary starts. It is the closest thing you have to an objective record.</p>
+
+<h2 id="ex-2">2. The One Promise</h2>
+
+<p><strong>Two minutes to set up. Then daily, for however long it takes.</strong></p>
+
+<p>This is the engine. If you only do one thing on this page, do this one.</p>
+
+<p>Choose one thing you will do every day. Then make it smaller. Then make it smaller again.</p>
+
+<p>The test is not whether it is impressive. The test is whether you are certain you will do it on your worst day of the fortnight. If there is any doubt at all, it is still too big.</p>
+
+<p>Ten minutes of reading. A walk without your phone. Ten minutes sitting still. Twenty press-ups. It genuinely does not matter what it is.</p>
+
+<p>Because the point is not the activity. The point is that you said you would and you did, and that is the entry going into the file.</p>
+
+<p>Twenty minutes is where I have landed for myself, and why is in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule for self-belief</a>. Start smaller than that. The keeping is a skill in itself, covered in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">how to keep a promise to yourself</a>.</p>
+
+<h2 id="ex-3">3. The Tick Sheet</h2>
+
+<p><strong>Thirty seconds a day.</strong></p>
+
+<p>Exercise two produces the evidence. This one stops you losing it.</p>
+
+<p>Make a simple grid. Days down one side, one column for your promise. Tick it when it is done. That is the whole exercise.</p>
+
+<p>Paper on a wall beats an app, because you see it without opening anything.</p>
+
+<p>It sounds trivial and it is not, for one reason. After eleven days you have eleven ticks, and eleven ticks is very hard to argue with. Your head can dismiss a feeling of progress. It cannot dismiss a row of marks you made yourself.</p>
+
+<p>This is also the exercise that makes day twelve easier, because now there is a run and nobody wants to break a run.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want a nudge each week while you do this?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief, with something practical to try that same day. It is the closest thing to someone checking in.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="ex-4">4. Thought Refusal</h2>
+
+<p><strong>Ten seconds, whenever it happens. Ten to forty times a day at first.</strong></p>
+
+<p>This one is not scheduled. It runs in the background of everything else.</p>
+
+<p>When a thought turns up telling you that you cannot, or that you will embarrass yourself, do three things.</p>
+
+<p><strong>Notice it.</strong> Catch it as a thought rather than realising an hour later that you have been in a mood.</p>
+
+<p><strong>Refuse it.</strong> Say in your head, clearly: I do not believe you. You are not arguing with it or disproving it. You are declining to accept it.</p>
+
+<p><strong>Replace it with evidence.</strong> Not "I am brilliant". Something from your evidence list. "I have done harder things than this."</p>
+
+<p>That third step is why exercise one comes first. Without a list, the replacement is a hope and your head knows it.</p>
+
+<p>Expect to do this a lot in week one. That is not it failing, that is the volume you were previously accepting without noticing. The full method is in <a href="/blog/you-are-enough" style="color:#FFD700;">why you are already enough</a>, and if the letting-go part is the hard bit, <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a> covers it properly.</p>
+
+<h2 id="ex-5">5. The Bad-Day Rehearsal</h2>
+
+<p><strong>Ten minutes, once. Do it on a good day.</strong></p>
+
+<p>This is the exercise nobody does, and it is the one that decides whether the others survive.</p>
+
+<p>Everything above works fine while you feel reasonable. Then a bad week arrives, you miss two days, and you quietly stop. That is how almost every attempt at this ends.</p>
+
+<p>So decide now, in advance, while you are thinking clearly.</p>
+
+<p>Write down two things.</p>
+
+<p><strong>The minimum version.</strong> What is the smallest version of your promise that still counts? If it is normally twenty minutes, is the bad-day version five? Two? Write the number down.</p>
+
+<p><strong>The restart rule.</strong> What happens if you miss a day entirely? The only workable answer is that you do the minimum version the next day and the run is not over. Decide that now, because you will not decide it well in the moment.</p>
+
+<p>Shrinking beats skipping every time, and I have written about the days it matters most in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">when your 20 minutes feels like too much</a>.</p>
+
+<p>Ten minutes on a good Tuesday saves the whole thing in November.</p>
+
+<h2 id="ex-6">6. The Three Priorities</h2>
+
+<p><strong>Thirty minutes, once. Revisit every few months.</strong></p>
+
+<p>Self-belief without direction runs out. You can become reliable and still be drifting, and drifting quietly drains the point out of the reliability.</p>
+
+<p>Write down the three things that matter most to you. Not the three that should. The three that do.</p>
+
+<p>Then rank them one, two, three.</p>
+
+<p>Number one is your why. Most people are not surprised by it once it is written down, because it has been running things quietly for years without ever being named.</p>
+
+<p>The ranking matters as much as the list, because it tells you what you are willing to put second, and that is what makes decisions fast.</p>
+
+<p>The full exercise, with my own example, is in <a href="/blog/how-to-find-your-why" style="color:#FFD700;">how to find your why</a>.</p>
+
+<h2 id="ex-7">7. The Operating List</h2>
+
+<p><strong>Thirty minutes to write. Forty seconds a day to read.</strong></p>
+
+<p>A short written list of how you want to operate, kept where you will see it, read morning and night.</p>
+
+<p>Five to eight lines. Instructions rather than descriptions, so each one is something you could act on in the next ten minutes. Be curious. Be accountable. Give what you can.</p>
+
+<p>Write it from your bad days rather than your ambitions. Think about the last few times you did not like how you behaved, and ask what you would have needed to remember. That is your first line.</p>
+
+<p>Then cut it until you can recite it from memory. A list you have to concentrate to read is a list you will stop opening.</p>
+
+<p>Mine is six lines on my phone and it is in <a href="/blog/mental-state-checklist" style="color:#FFD700;">the mental state checklist</a>, including why an instruction holds where an affirmation does not.</p>
+
+<h2 id="which-two">Which Two to Start With</h2>
+
+<p>If you want it decided for you: <strong>the evidence list and the one promise.</strong></p>
+
+<p>They fit together. The evidence list corrects the record backwards, the promise starts adding to it forwards. Everything else on this page is support for those two.</p>
+
+<p>Do the evidence list tonight. It takes fifteen minutes and you will feel slightly better immediately, which is not the point but is a useful start.</p>
+
+<p>Set the promise tomorrow morning and make it embarrassingly small.</p>
+
+<p>Then add the tick sheet in week two, because by then you will have something to tick and the marks will mean something.</p>
+
+<p>Leave the rest for a month. They are not going anywhere.</p>
+
+<p>One honest note on timing. You will not feel different in week one, and week one is where most people conclude it is not working. The thoughts get quieter around week six, and the first real sign is a bad week you carry on through rather than a good day. Judge it on the fortnight, never on the day.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Done the evidence list? Tell me how you got on.</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out which two to start with, and what to do when they slip, is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-exercises">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How many of these should I do at once?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Two. Seven new habits started at once is a collapse with a date on it, and a collapsed attempt costs more self-belief than it was going to build. Start with the evidence list and the one promise, then add a third only when those two are automatic.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long before self-belief exercises actually work?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Nothing much in the first fortnight, quieter thoughts by around week six, and the first real sign at two to three months when a bad week no longer ends the whole thing. Judge it on the trend across a fortnight rather than on individual days, which are noisy and will mislead you both ways.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I cannot think of anything for the evidence list?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">That is common and it is the symptom, not a verdict. Use the prompts and go smaller than feels worth writing. Something you learned without being taught, something you kept going with, someone who relied on you. Small things count, because most of the evidence is small.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do I have to write things down, or can I just think them?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Write them. The whole point of the evidence list and the tick sheet is that your memory edits the record and paper does not. A row of marks you made yourself is much harder to dismiss than a feeling that you have been doing quite well.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What happens if I miss a day?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">You do the minimum version the next day and the run is not over. That is exactly what the bad-day rehearsal is for: you decide the rule in advance, on a good day, because you will not decide it well in the moment.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Are these the same as affirmations?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. An affirmation asks you to believe something you have no evidence for, which is why part of you argues back. Every exercise here either produces evidence or stops you deleting it, and even the replacement in thought refusal points at something that genuinely happened rather than something you hope is true.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How many of these should I do at once?","acceptedAnswer":{"@type":"Answer","text":"Two. Seven new habits started at once is a collapse with a date on it, and a collapsed attempt costs more self-belief than it was going to build. Start with the evidence list and the one promise, then add a third only when those two are automatic."}},
+{"@type":"Question","name":"How long before self-belief exercises actually work?","acceptedAnswer":{"@type":"Answer","text":"Nothing much in the first fortnight, quieter thoughts by around week six, and the first real sign at two to three months when a bad week no longer ends the whole thing. Judge it on the trend across a fortnight rather than on individual days, which are noisy and will mislead you both ways."}},
+{"@type":"Question","name":"What if I cannot think of anything for the evidence list?","acceptedAnswer":{"@type":"Answer","text":"That is common and it is the symptom, not a verdict. Use the prompts and go smaller than feels worth writing. Something you learned without being taught, something you kept going with, someone who relied on you. Small things count, because most of the evidence is small."}},
+{"@type":"Question","name":"Do I have to write things down, or can I just think them?","acceptedAnswer":{"@type":"Answer","text":"Write them. The whole point of the evidence list and the tick sheet is that your memory edits the record and paper does not. A row of marks you made yourself is much harder to dismiss than a feeling that you have been doing quite well."}},
+{"@type":"Question","name":"What happens if I miss a day?","acceptedAnswer":{"@type":"Answer","text":"You do the minimum version the next day and the run is not over. That is exactly what the bad-day rehearsal is for: you decide the rule in advance, on a good day, because you will not decide it well in the moment."}},
+{"@type":"Question","name":"Are these the same as affirmations?","acceptedAnswer":{"@type":"Answer","text":"No. An affirmation asks you to believe something you have no evidence for, which is why part of you argues back. Every exercise here either produces evidence or stops you deleting it, and even the replacement in thought refusal points at something that genuinely happened rather than something you hope is true."}}
 ]}
 </script>
 
