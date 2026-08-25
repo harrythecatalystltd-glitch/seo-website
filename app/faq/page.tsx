@@ -319,7 +319,7 @@ export default function FaqPage() {
             justifyContent: 'center', flexWrap: 'wrap',
             position: 'relative',
           }}>
-            <Link href="/#weekly-tips" style={{
+            <Link href="/self-belief-email-series" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
@@ -327,7 +327,7 @@ export default function FaqPage() {
               padding: '15px 28px', borderRadius: '8px', textDecoration: 'none',
             }}>
               <svg width="10" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
-              Get Free Weekly Tips
+              Get the Free Email Series
             </Link>
             <Link href="/contact" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',

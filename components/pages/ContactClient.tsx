@@ -120,8 +120,8 @@ export default function ContactClient() {
               <h2>Message sent. I&apos;ll be in touch soon</h2>
               <p>I&apos;ve received your message and will reply within one business day.</p>
               <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const, marginTop: 28 }}>
-                <Link href="/#weekly-tips" className="contact-back-btn contact-back-btn-gold">
-                  Get Free Weekly Tips
+                <Link href="/self-belief-email-series" className="contact-back-btn contact-back-btn-gold">
+                  Get the Free Email Series
                 </Link>
                 <Link href="/blog" className="contact-back-btn">
                   Read the Blog
@@ -210,7 +210,7 @@ export default function ContactClient() {
         {/* Bottom CTA */}
         <div className="contact-bottom">
           <p>Not ready to reach out yet?</p>
-          <Link href="/#weekly-tips" className="contact-plan-link">Get free weekly tips instead →</Link>
+          <Link href="/self-belief-email-series" className="contact-plan-link">Get the free email series instead →</Link>
         </div>
       </div>
     </>

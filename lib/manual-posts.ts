@@ -2400,7 +2400,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>Take a money goal as an example. Say you are dealing with credit card debt, or you need a car to actually get to a better job. The number itself, clearing the debt or affording the car, is not really the goal. It is the vehicle.</p>
 
-<p>The real goal is what earning and managing that money teaches you along the way. Discipline. Self-belief. The confidence that comes from doing something hard and seeing it through. Clear the debt through consistent, honest work and you do not just end up with better finances. You end up as a different person, with a different sense of what you are capable of.</p>
+<p>The real goal is what earning and managing that money teaches you along the way. Self-respect. Self-belief. The confidence that comes from doing something hard and seeing it through. Clear the debt through consistent, honest work and you do not just end up with better finances. You end up as a different person, with a different sense of what you are capable of.</p>
 
 <p>Money is not the goal. The journey and the destination it takes to get there is what transforms you. That transformation is the actual point of setting the goal in the first place.</p>
 

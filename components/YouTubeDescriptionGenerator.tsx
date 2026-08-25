@@ -229,7 +229,7 @@ function Results({ result }: { result: GeneratedDescription }) {
         <p style={{ margin: '0 0 14px', fontSize: '0.95rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.5 }}>
           Want more free tools and tips like this?
         </p>
-        <a href="/#weekly-tips" style={{
+        <a href="/self-belief-email-series" style={{
           background: GOLD,
           borderRadius: '8px',
           color: NAVY,
@@ -242,7 +242,7 @@ function Results({ result }: { result: GeneratedDescription }) {
           textDecoration: 'none',
           textTransform: 'uppercase' as const,
         }}>
-          Get Free Weekly Tips
+          Get the Free Email Series
         </a>
       </div>
     </div>

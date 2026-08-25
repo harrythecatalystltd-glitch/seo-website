@@ -35,9 +35,9 @@ export default function SiteNav() {
         <span /><span /><span />
       </button>
       <div className={`nav-dropdown${open ? ' open' : ''}`}>
-        <Link href="/#weekly-tips" className="nav-link" onClick={() => setOpen(false)}>
+        <Link href="/self-belief-email-series" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
-          Free Weekly Tips
+          Free Email Series
         </Link>
         <Link href="/about" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />

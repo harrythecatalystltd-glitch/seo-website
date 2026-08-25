@@ -391,7 +391,7 @@ export default function YouTubeAnalyser() {
                 Free weekly tips on confidence, self-belief and decision-making, straight to your inbox.
               </p>
             </div>
-            <a href="/#weekly-tips" style={{
+            <a href="/self-belief-email-series" style={{
               display: 'inline-flex', alignItems: 'center', gap: 8, flexShrink: 0,
               background: '#FFD700', color: '#002B45',
               fontFamily: "'Montserrat',sans-serif", fontWeight: 800,
@@ -399,7 +399,7 @@ export default function YouTubeAnalyser() {
               padding: '12px 22px', borderRadius: 8, textDecoration: 'none',
             }}>
               <svg width="9" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
-              Get Free Weekly Tips
+              Get the Free Email Series
             </a>
           </div>
         </div>
