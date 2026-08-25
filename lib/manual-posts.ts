@@ -4059,6 +4059,8 @@ export const manualPosts: ManualPost[] = [
 
 <p>You put off decisions you are perfectly capable of making. You need someone else to agree before you commit. You explain away anything that goes well as luck or timing, while treating anything that goes badly as proof of something permanent.</p>
 
+<p>If that doubting is the loudest part of it for you, the in-the-moment version of this is in <a href="/blog/how-to-stop-doubting-yourself" style="color:#FFD700;">how to stop doubting yourself in everything you do</a>.</p>
+
 <p>You say yes when you mean no, because the version of you that says no needs backing you do not feel you have. That pattern has its own post in <a href="/blog/how-to-stop-people-pleasing" style="color:#FFD700;">how to stop people-pleasing</a>.</p>
 
 <p>You feel like you got away with something at work rather than earned it, which is <a href="/blog/what-is-imposter-syndrome" style="color:#FFD700;">imposter syndrome</a> and is extremely common.</p>
@@ -4726,6 +4728,252 @@ export const manualPosts: ManualPost[] = [
 {"@type":"Question","name":"Do I have to write things down, or can I just think them?","acceptedAnswer":{"@type":"Answer","text":"Write them. The whole point of the evidence list and the tick sheet is that your memory edits the record and paper does not. A row of marks you made yourself is much harder to dismiss than a feeling that you have been doing quite well."}},
 {"@type":"Question","name":"What happens if I miss a day?","acceptedAnswer":{"@type":"Answer","text":"You do the minimum version the next day and the run is not over. That is exactly what the bad-day rehearsal is for: you decide the rule in advance, on a good day, because you will not decide it well in the moment."}},
 {"@type":"Question","name":"Are these the same as affirmations?","acceptedAnswer":{"@type":"Answer","text":"No. An affirmation asks you to believe something you have no evidence for, which is why part of you argues back. Every exercise here either produces evidence or stops you deleting it, and even the replacement in thought refusal points at something that genuinely happened rather than something you hope is true."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'how-to-stop-doubting-yourself',
+    title: 'How to Stop Doubting Yourself in Everything You Do',
+    description: 'Not all self-doubt is a problem. Here is how to tell useful doubt from the corrosive kind, what to do in the moment, and how to stop feeding it.',
+    category: 'Personal Development',
+    publishedAt: '2026-08-25',
+    readingTime: 12,
+    image: '/blog/how-to-stop-doubting-yourself.jpg',
+    html: `
+<p>Most advice on this starts from the assumption that all self-doubt is a problem to be removed. That is where it goes wrong.</p>
+
+<p>Some doubt is useful information. Some is a habit that has nothing to do with the situation in front of you.</p>
+
+<p>Treating them the same is why you can read ten articles on this and still doubt yourself on Monday.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">There are two kinds of self-doubt. Useful doubt is about the situation, it is specific, and it tells you something you can act on. Corrosive doubt is about you, it is vague, and it turns up whatever the situation is. Tell them apart by asking whether the doubt names something specific you could fix. If it does, fix it. If it does not, refuse it and act anyway. In the moment, the whole intervention takes about sixty seconds. Between moments, you stop feeding it by building evidence that contradicts it.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#two-kinds">There are two kinds of self-doubt</a></li>
+    <li style="margin-bottom:8px;"><a href="#tell-them-apart">How to tell them apart in ten seconds</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-it-repeats">Why the same doubt keeps coming back</a></li>
+    <li style="margin-bottom:8px;"><a href="#in-the-moment">What to do in the moment</a></li>
+    <li style="margin-bottom:8px;"><a href="#situations">Where it shows up most</a></li>
+    <li style="margin-bottom:8px;"><a href="#stop-feeding">How to stop feeding it</a></li>
+    <li style="margin-bottom:8px;"><a href="#not-doubt">When it is not self-doubt</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-changes">What actually changes</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-doubting">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="two-kinds">There Are Two Kinds of Self-Doubt</h2>
+
+<p>They feel almost identical from the inside, which is the whole problem.</p>
+
+<p><strong>Useful doubt is about the situation.</strong> It is specific and it names something. You have not read the document. You have never done this particular thing. You are about to promise a deadline you cannot hit.</p>
+
+<p>That is not a character flaw, it is information. It is your own judgement doing its job, and the correct response is to act on it: read the document, ask the question, promise a later date.</p>
+
+<p><strong>Corrosive doubt is about you.</strong> It is vague, it names nothing specific, and it shows up whether or not you are prepared.</p>
+
+<p>You know it is this kind when you are ready, you have done it before, and the feeling turns up anyway. Nothing has been assessed. A verdict has just been issued.</p>
+
+<p>The reason this distinction matters practically: useful doubt goes away when you fix the thing it named. Corrosive doubt does not, because it never named anything. You can prepare for a week and it will still be there on the morning.</p>
+
+<p>Everything ranking for this question tells you to eliminate self-doubt. Eliminate the second kind. Listen to the first, because it is one of the more useful things your head does.</p>
+
+<h2 id="tell-them-apart">How to Tell Them Apart in Ten Seconds</h2>
+
+<p>One question, and it works nearly every time.</p>
+
+<p><strong>Does this doubt name something specific I could fix in the next hour?</strong></p>
+
+<p>If yes, it is useful. Go and fix that thing. The doubt has done its job and it will quieten once you have.</p>
+
+<p>If no, it is corrosive, and no amount of preparation will settle it, because preparation is not what it is asking for.</p>
+
+<p>Two follow-ups if it is not obvious.</p>
+
+<p><strong>Would this doubt disappear if I were better prepared?</strong> Honest answer. If you have prepared thoroughly twice before and felt exactly the same both times, that is your answer.</p>
+
+<p><strong>Am I doubting the task, or am I doubting me?</strong> "This is harder than I have done before" is a task. "I am not the kind of person who does this" is you. The second one is the corrosive kind wearing the clothes of the first.</p>
+
+<p>Write the doubt down if you cannot tell. Written out, vague doubt looks vague immediately, and specific doubt reads like a to-do item.</p>
+
+<h2 id="why-it-repeats">Why the Same Doubt Keeps Coming Back</h2>
+
+<p>Because you keep proving it right, without meaning to.</p>
+
+<p>The loop runs like this. Doubt turns up. You believe it. You do not do the thing, or you do it half-heartedly with an escape route ready. Then not doing it becomes evidence, and the next time the doubt arrives it has a track record behind it.</p>
+
+<p>Nothing about that requires the doubt to have been accurate in the first place. It just needed to be believed once.</p>
+
+<p>Two things make it worse.</p>
+
+<p><strong>Your memory is not neutral.</strong> Low self-belief comes with a filing system that keeps failures in full and files successes under luck or timing. So the evidence you can actually recall is skewed before you start.</p>
+
+<p><strong>It gets louder near change.</strong> The doubt is not spread evenly across your life. It spikes the week you consider applying, asking, starting or leaving. That timing is a tell, and I go into it in <a href="/blog/you-are-enough" style="color:#FFD700;">why you are already enough</a>.</p>
+
+<p>And the feeling itself is not a fact about you. It is a view from where you are standing, which is the subject of <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">why not good enough is a false reality</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="in-the-moment">What to Do in the Moment</h2>
+
+<p>This takes about sixty seconds and you can do it standing outside a room.</p>
+
+<p><strong>Name it.</strong> Say to yourself: that is a doubt. Not a fact, not an instruction. Just a thought that has arrived. Naming it puts a small gap between you and it, and the gap is where everything else happens.</p>
+
+<p><strong>Run the test.</strong> Does it name something specific I could fix in the next hour? Ten seconds.</p>
+
+<p><strong>If it is useful, act on it.</strong> Ask the question. Say you need another day. Read the thing. Then move.</p>
+
+<p><strong>If it is corrosive, refuse it.</strong> Say in your head, clearly: I do not believe you. You are not arguing with it or disproving it, which never works. You are declining to accept it.</p>
+
+<p><strong>Replace it with evidence.</strong> Something that actually happened. "I have done harder things than this." Not "I am brilliant", because part of you will object and it will be right to.</p>
+
+<p><strong>Then do the thing, badly if necessary.</strong> This is the part that breaks the loop. The doubt predicted you would not, and you did, and now that goes in the file instead.</p>
+
+<p>You will need to do this repeatedly at first. That is not the method failing, it is the volume you were previously accepting without noticing.</p>
+
+<h2 id="situations">Where It Shows Up Most</h2>
+
+<p>Four situations account for most of it, and the response differs slightly in each.</p>
+
+<h3>Before a decision</h3>
+
+<p>The doubt here usually disguises itself as needing more information. You are not gathering, you are delaying, and the extra information will not settle it because the doubt was never about information.</p>
+
+<p>Set a limit in advance. One more piece of information, then decide. More on that in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">how to trust your gut instead of overthinking every decision</a>.</p>
+
+<h3>At work</h3>
+
+<p>Feeling like you got away with something rather than earned it, and waiting to be found out. That is common enough to have a name, and it is covered in <a href="/blog/what-is-imposter-syndrome" style="color:#FFD700;">what is imposter syndrome</a>.</p>
+
+<p>The tell is that the doubt does not fall when your competence rises. If it did, this would have fixed itself years ago.</p>
+
+<h3>Starting something new</h3>
+
+<p>Here some doubt is entirely correct. You are not good at this yet, because nobody is at the start.</p>
+
+<p>The mistake is reading "I am bad at this now" as "I will always be bad at this". The first is true and temporary. The second is the corrosive kind smuggling itself in behind a fact.</p>
+
+<h3>After something went badly</h3>
+
+<p>The most convincing version, because it comes with a real example attached.</p>
+
+<p>Separate the two questions. What specifically went wrong, and what would I do differently? That is useful. Whether the whole thing proves something permanent about you is a different question, and it is the one to refuse.</p>
+
+<h3>Watch: the case for useful doubt</h3>
+
+<p>Melody Wilding's TEDx talk makes the argument that self-doubt can genuinely help, which is worth hearing from someone other than me given how universally the rest of the internet says otherwise.</p>
+
+<div style="border-radius:14px;overflow:hidden;background:#000;border:1px solid rgba(255,215,0,0.15);box-shadow:0 16px 48px rgba(0,0,0,0.4);margin:28px 0;">
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/4OTf35doZPM" title="Melody Wilding: How Self-Doubt Can Actually Help, TEDxBergenCommunityCollege" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</div>
+
+<h2 id="stop-feeding">How to Stop Feeding It</h2>
+
+<p>The in-the-moment work handles individual episodes. It does not reduce how often they arrive. For that you need the slower thing.</p>
+
+<p>Corrosive doubt runs on an absence of evidence, so you starve it by producing some.</p>
+
+<p>That means one promise to yourself, small enough that you will keep it, kept daily, and written down each time. Not because the activity matters, but because "I said I would and I did" is the only entry that argues back.</p>
+
+<p>Do that for a few weeks and the doubt gets quieter on its own. Not gone. Quieter, and easier to refuse when it does turn up.</p>
+
+<p>The full model is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>, and if you want it as a set of exercises with steps and timings rather than an argument, they are in <a href="/blog/self-belief-exercises" style="color:#FFD700;">seven self-belief exercises you can do this week</a>. Start with the evidence list, because the refusal step above needs something true to reach for.</p>
+
+<p>It is also worth knowing whether you are short of self-belief or short of confidence, because they need different work. That distinction is in <a href="/blog/what-is-self-belief" style="color:#FFD700;">what is self-belief</a>.</p>
+
+<h2 id="not-doubt">When It Is Not Self-Doubt</h2>
+
+<p>Worth saying, because this article will be read by people at very different points.</p>
+
+<p>If the doubt is constant rather than situational, if it comes with dread that has no object, if it is affecting your sleep or your appetite, or if you cannot function at work or at home, that is not the thing this article is about.</p>
+
+<p>Persistent anxiety and low mood are not motivation problems and they do not respond to being refused. Speak to your GP or a qualified therapist.</p>
+
+<p>I am not a trained coach, counsellor or clinician. I can tell you what has worked for me and what I see in the people I talk to. I cannot tell you which of those you are dealing with, and neither can anyone else from a blog post.</p>
+
+<h2 id="what-changes">What Actually Changes</h2>
+
+<p>Be realistic about the destination, because the usual promise is nonsense.</p>
+
+<p>You do not stop doubting yourself. People who look like they never doubt themselves are either very well practised at the specific thing, or they are not telling you.</p>
+
+<p>Three things change instead.</p>
+
+<p><strong>The gap gets shorter.</strong> Doubt arrives, and instead of an afternoon of it you get about a minute before you have named it and moved.</p>
+
+<p><strong>It stops making decisions for you.</strong> You still feel it. You just stop treating it as the deciding vote.</p>
+
+<p><strong>It gets quieter.</strong> Thoughts that get refused every time eventually stop turning up as often, because they are not being fed.</p>
+
+<p>That is the honest version. Not silence, just a much smaller say in what you do.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck in the loop and want to talk it through?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out which kind of doubt you are actually dealing with is usually the first thing we do in <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcome self-doubt coaching</a>. No sales script, just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-doubting">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is all self-doubt bad?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. Useful doubt is about the situation, names something specific, and tells you to go and fix it. Corrosive doubt is about you, names nothing, and turns up whether or not you are prepared. Listen to the first and refuse the second.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I know which kind I am feeling?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Ask whether the doubt names something specific you could fix in the next hour. If it does, it is useful, so go and fix it. If it does not, no amount of preparation will settle it, because preparation is not what it is asking for. Writing it down helps, since vague doubt looks vague immediately on paper.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why does self-doubt keep coming back even when things go well?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Because it is not tracking your results. Low self-belief comes with a memory that keeps failures in full and files successes under luck, so the evidence you can recall is skewed before you start. It also spikes near change rather than spreading evenly, which is why it gets loudest just as you consider doing something new.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can you ever stop doubting yourself completely?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No, and anyone promising that is selling something. What changes is that the gap gets shorter, it stops being the deciding vote, and it gets quieter over time because it is no longer being fed. You still feel it. It just has much less say in what you actually do.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it take before it eases?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">The in-the-moment part works immediately, in the sense that you get a gap where before there was none. The frequency dropping takes a few weeks of building evidence that contradicts the doubt, and most people notice the difference somewhere around week six.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">When should I speak to someone rather than work on this myself?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">If it is constant rather than situational, comes with dread that has no object, affects your sleep or appetite, or stops you functioning at work or at home. Persistent anxiety and low mood are not motivation problems and do not respond to being refused. Speak to your GP or a qualified therapist.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is all self-doubt bad?","acceptedAnswer":{"@type":"Answer","text":"No. Useful doubt is about the situation, names something specific, and tells you to go and fix it. Corrosive doubt is about you, names nothing, and turns up whether or not you are prepared. Listen to the first and refuse the second."}},
+{"@type":"Question","name":"How do I know which kind I am feeling?","acceptedAnswer":{"@type":"Answer","text":"Ask whether the doubt names something specific you could fix in the next hour. If it does, it is useful, so go and fix it. If it does not, no amount of preparation will settle it, because preparation is not what it is asking for. Writing it down helps, since vague doubt looks vague immediately on paper."}},
+{"@type":"Question","name":"Why does self-doubt keep coming back even when things go well?","acceptedAnswer":{"@type":"Answer","text":"Because it is not tracking your results. Low self-belief comes with a memory that keeps failures in full and files successes under luck, so the evidence you can recall is skewed before you start. It also spikes near change rather than spreading evenly, which is why it gets loudest just as you consider doing something new."}},
+{"@type":"Question","name":"Can you ever stop doubting yourself completely?","acceptedAnswer":{"@type":"Answer","text":"No, and anyone promising that is selling something. What changes is that the gap gets shorter, it stops being the deciding vote, and it gets quieter over time because it is no longer being fed. You still feel it. It just has much less say in what you actually do."}},
+{"@type":"Question","name":"How long does it take before it eases?","acceptedAnswer":{"@type":"Answer","text":"The in-the-moment part works immediately, in the sense that you get a gap where before there was none. The frequency dropping takes a few weeks of building evidence that contradicts the doubt, and most people notice the difference somewhere around week six."}},
+{"@type":"Question","name":"When should I speak to someone rather than work on this myself?","acceptedAnswer":{"@type":"Answer","text":"If it is constant rather than situational, comes with dread that has no object, affects your sleep or appetite, or stops you functioning at work or at home. Persistent anxiety and low mood are not motivation problems and do not respond to being refused. Speak to your GP or a qualified therapist."}}
 ]}
 </script>
 
