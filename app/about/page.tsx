@@ -157,8 +157,11 @@ export default function AboutPage() {
           borderRadius: '0 14px 14px 0',
           padding: '32px 36px',
         }}>
-          <p style={{ fontSize: '0.98rem', color: 'rgba(255,255,255,0.68)', lineHeight: 1.8, fontFamily: "'Open Sans', sans-serif" }}>
+          <p style={{ fontSize: '0.98rem', color: 'rgba(255,255,255,0.68)', lineHeight: 1.8, fontFamily: "'Open Sans', sans-serif", marginBottom: 16 }}>
             One honest thing before you read anything else here: I am not a trained life coach or counsellor. I can only help you through the lens of what has actually helped me, from my own journey. If that is useful to you, use it. If you need trained professional support, please seek that out too.
+          </p>
+          <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.8, fontFamily: "'Open Sans', sans-serif" }}>
+            For context: I hold a BSc in Sports Therapy and an MEd (Masters in Education). Neither is a coaching or counselling qualification, and I don&apos;t practise as either here. Everything on this site comes from my own personal experience, not clinical training.
           </p>
         </div>
       </section>
@@ -235,9 +238,9 @@ export default function AboutPage() {
             No product to buy, no funnel to sit through. Just free, practical help, and a real person to talk to when you want one.
           </p>
           <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap', position: 'relative' }}>
-            <Link href="/#weekly-tips" className="cta-btn" style={{ padding: '16px 32px' }}>
+            <Link href="/self-belief-email-series" className="cta-btn" style={{ padding: '16px 32px' }}>
               <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
-              Get Free Weekly Tips
+              Get the Free Email Series
             </Link>
             <Link href="/contact" style={{
               display: 'inline-flex', alignItems: 'center', gap: 8,

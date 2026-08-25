@@ -3503,6 +3503,7 @@ export const manualPosts: ManualPost[] = [
     category: 'Personal Development',
     publishedAt: '2026-08-25',
     readingTime: 10,
+    image: '/blog/why-discipline-is-a-negative-mindset.jpg',
     html: `
 <p>Everything I have learned from meditation, inner work and coaching people through decisions points at the same conclusion.</p>
 
