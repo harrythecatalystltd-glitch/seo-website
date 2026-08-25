@@ -102,9 +102,9 @@ export default async function BlogPage() {
             </div>
             <h2>First post coming soon</h2>
             <p>We are writing practical guides on confidence, self-belief and decision-making. Check back shortly, or get free weekly tips straight to your inbox.</p>
-            <Link href="/#weekly-tips" className="empty-cta">
+            <Link href="/self-belief-email-series" className="empty-cta">
               <svg viewBox="0 0 18 30"><path d={BOLT} /></svg>
-              Get Free Weekly Tips
+              Get the Free Email Series
             </Link>
           </div>
         ) : (

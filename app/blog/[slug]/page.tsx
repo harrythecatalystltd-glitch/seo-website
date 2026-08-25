@@ -220,7 +220,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               Free weekly tips on confidence, self-belief and decision-making. No sales pitch.
             </p>
             <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const }}>
-              <Link href="/#weekly-tips" style={{
+              <Link href="/self-belief-email-series" style={{
                 display: 'inline-flex', alignItems: 'center', gap: '8px',
                 background: '#FFD700', color: '#002B45',
                 borderRadius: '10px', padding: '14px 28px',
@@ -229,7 +229,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 textDecoration: 'none', letterSpacing: '0.01em',
                 boxShadow: '0 4px 20px rgba(255,215,0,0.35)',
               }}>
-                Get Free Weekly Tips
+                Get the Free Email Series
               </Link>
               <Link href="/contact" style={{
                 display: 'inline-flex', alignItems: 'center', gap: '8px',
