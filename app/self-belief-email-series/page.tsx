@@ -238,7 +238,7 @@ export default function SelfBeliefEmailSeriesPage() {
         <div id="get-the-series" style={{ padding: '72px 0 0', scrollMarginTop: 40 }}>
           <FormCard
             heading="Start the Self-Belief Series"
-            blurb="Drop your name and email below and the first one lands straight away. One practical email a week on self-belief, self-confidence, overthinking and self-doubt. Real tools you can use the same day, not theory."
+            blurb="Get a free gift when you sign up. My mental state checklist, the eight lines I read first thing, last thing and in the middle of a bad day. Then one practical email a week on self-belief, self-confidence, overthinking and self-doubt."
           />
         </div>
 

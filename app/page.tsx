@@ -134,7 +134,7 @@ export default async function HomePage() {
               Get Free Weekly Tips
             </h2>
             <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, margin: '0 auto 32px' }}>
-              One practical email a week on confidence, self-belief, overthinking and decision-making. Real tools you can use the same day, not theory.
+              Get a free gift when you sign up. My mental state checklist, the eight lines I read first thing, last thing and in the middle of a bad day. Then one practical email a week on confidence, self-belief, overthinking and decision-making.
             </p>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <MailerLiteForm />
