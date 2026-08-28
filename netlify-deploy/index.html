@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Catalyst Method 30 Day Challenge</title>
+<meta name="description" content="Thirty days of proving to yourself that when you say you will do something, you do it. Free, no pitch, nothing to buy.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+:root{
+  --navy:#002B45;
+  --navy-deep:#001A2B;
+  --navy-lift:#00374F;
+  --gold:#FFD700;
+  --gold-dark:#e6c200;
+  --white:#FFFFFF;
+  --t-1:rgba(255,255,255,0.92);
+  --t-2:rgba(255,255,255,0.68);
+  --t-3:rgba(255,255,255,0.58);
+  --line:rgba(255,255,255,0.10);
+  --line-2:rgba(255,255,255,0.18);
+  --surface:rgba(255,255,255,0.04);
+  --surface-2:rgba(255,255,255,0.065);
+  --gold-soft:rgba(255,215,0,0.07);
+  --gold-line:rgba(255,215,0,0.30);
+  --warn:#FFB4A6;
+  --warn-soft:rgba(255,120,95,0.09);
+  --warn-line:rgba(255,120,95,0.32);
+  --z-nav:50;
+}
+
+html{scroll-behavior:smooth;}
+body{
+  background:var(--navy);
+  color:var(--white);
+  font-family:'Open Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:17px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ─── progress + nav ─── */
+.progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--gold-dark),var(--gold));z-index:calc(var(--z-nav) + 1);transition:width .1s linear;}
+.topbar{
+  position:sticky;top:0;z-index:var(--z-nav);
+  background:rgba(0,20,36,0.92);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-inner{max-width:1120px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px;min-height:60px;}
+.mark{display:flex;align-items:center;gap:9px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.82rem;letter-spacing:.02em;color:var(--white);white-space:nowrap;text-decoration:none;}
+.mark svg{width:11px;fill:var(--gold);flex:none;}
+.jump{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto;}
+.jump::-webkit-scrollbar{display:none;}
+.jump a{
+  font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--t-3);
+  text-decoration:none;padding:12px 11px;border-radius:8px;white-space:nowrap;
+  transition:color .2s,background .2s;min-height:44px;display:flex;align-items:center;
+}
+.jump a:hover{color:var(--gold);background:rgba(255,255,255,0.06);}
+.jump a:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;}
+
+/* ─── shell ─── */
+.wrap{max-width:820px;margin:0 auto;padding:0 24px;}
+.wide{max-width:1000px;}
+
+/* ─── hero ─── */
+.hero{position:relative;overflow:hidden;padding:88px 0 76px;text-align:center;}
+.hero::after{
+  content:'';position:absolute;left:50%;top:-140px;transform:translateX(-50%);
+  width:900px;height:520px;pointer-events:none;
+  background:radial-gradient(ellipse,rgba(0,110,175,0.40) 0%,transparent 70%);
+}
+.bolts{position:absolute;inset:0;pointer-events:none;overflow:hidden;}
+.bolts svg{position:absolute;fill:var(--gold);opacity:.13;}
+.b1{width:26px;top:16%;left:7%;transform:rotate(-14deg);}
+.b2{width:16px;top:62%;left:13%;transform:rotate(9deg);}
+.b3{width:38px;top:24%;right:8%;transform:rotate(12deg);}
+.b4{width:20px;top:70%;right:14%;transform:rotate(-8deg);}
+.b5{width:13px;top:44%;left:4%;}
+.b6{width:22px;top:80%;left:44%;transform:rotate(16deg);opacity:.08;}
+.hero-inner{position:relative;z-index:1;}
+
+.tag{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:'Montserrat',sans-serif;font-size:.68rem;font-weight:800;
+  letter-spacing:.17em;text-transform:uppercase;color:var(--gold);
+  background:var(--gold-soft);border:1px solid var(--gold-line);
+  padding:8px 15px;border-radius:99px;margin-bottom:26px;
+}
+.tag svg{width:9px;fill:currentColor;flex:none;}
+
+h1{
+  font-family:'Montserrat',sans-serif;font-weight:900;
+  font-size:clamp(2.3rem,7vw,4.2rem);line-height:1.02;letter-spacing:-.035em;
+  margin-bottom:22px;text-wrap:balance;
+}
+h1 em{
+  font-style:normal;
+  background:linear-gradient(90deg,#cc9a00 0%,#FFD700 28%,#fffbe0 50%,#FFD700 72%,#cc9a00 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.lede{font-size:1.1rem;color:var(--t-2);max-width:36em;margin:0 auto 34px;line-height:1.7;}
+
+.facts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:8px;}
+.fact{
+  display:flex;align-items:center;gap:8px;
+  background:var(--surface);border:1px solid var(--line);
+  border-radius:99px;padding:9px 17px;font-size:.83rem;color:var(--t-2);font-weight:600;
+}
+.fact svg{width:13px;fill:var(--gold);flex:none;}
+
+/* ─── sections ─── */
+section{padding:64px 0;scroll-margin-top:78px;}
+.day[id],h3[id]{scroll-margin-top:78px;}
+.eyebrow{
+  font-family:'Montserrat',sans-serif;font-size:.68rem;font-weight:800;
+  letter-spacing:.17em;text-transform:uppercase;color:var(--gold);
+  display:flex;align-items:center;gap:9px;margin-bottom:16px;
+}
+.eyebrow svg{width:9px;fill:currentColor;flex:none;}
+h2{
+  font-family:'Montserrat',sans-serif;font-weight:900;
+  font-size:clamp(1.7rem,4.2vw,2.6rem);line-height:1.08;letter-spacing:-.03em;
+  margin-bottom:18px;text-wrap:balance;
+}
+h3{font-family:'Montserrat',sans-serif;font-weight:800;font-size:1.18rem;letter-spacing:-.015em;margin-bottom:12px;line-height:1.3;}
+h4{
+  font-family:'Montserrat',sans-serif;font-size:.7rem;font-weight:800;
+  letter-spacing:.15em;text-transform:uppercase;color:var(--t-3);margin-bottom:11px;
+}
+p{margin-bottom:16px;color:var(--t-2);max-width:38em;}
+p:last-child{margin-bottom:0;}
+strong{color:var(--white);font-weight:700;}
+em{color:var(--gold);font-style:normal;font-weight:600;}
+ul,ol{margin:0 0 16px 0;padding-left:22px;color:var(--t-2);max-width:38em;}
+li{margin-bottom:9px;}
+li::marker{color:var(--gold);}
+a{color:var(--gold);}
+hr{border:none;height:1px;background:var(--line);margin:56px 0;}
+
+/* ─── cards ─── */
+.card{
+  background:var(--surface);border:1px solid var(--line);
+  border-radius:18px;padding:32px 30px;margin-bottom:18px;
+}
+.card > :last-child{margin-bottom:0;}
+
+.day{
+  background:linear-gradient(180deg,rgba(255,255,255,0.055),rgba(255,255,255,0.025));
+  border:1px solid var(--line);border-radius:20px;
+  padding:34px 32px;margin-bottom:20px;position:relative;overflow:hidden;
+}
+.day::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold-line),transparent 60%);}
+.day-head{display:flex;align-items:center;gap:16px;margin-bottom:22px;flex-wrap:wrap;}
+.daynum{
+  flex:none;min-width:62px;height:62px;border-radius:16px;
+  background:var(--gold-soft);border:1.5px solid var(--gold-line);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-family:'Montserrat',sans-serif;line-height:1;padding:0 10px;
+}
+.daynum small{font-size:.5rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--t-3);margin-bottom:4px;}
+.daynum b{font-size:1.5rem;font-weight:900;color:var(--gold);}
+.daynum b.sm{font-size:.72rem;letter-spacing:.01em;}
+.day-head h3{margin:0;font-size:1.32rem;}
+
+.pill{
+  display:inline-flex;align-items:center;gap:9px;
+  background:var(--gold);color:var(--navy);
+  font-family:'Montserrat',sans-serif;font-weight:800;font-size:.8rem;
+  padding:11px 18px;border-radius:10px;margin-bottom:20px;
+  box-shadow:0 4px 20px rgba(255,215,0,.22);
+}
+.pill svg{width:12px;fill:currentColor;flex:none;}
+
+/* callouts */
+.note{background:var(--gold-soft);border-left:3px solid var(--gold);border-radius:0 14px 14px 0;padding:22px 26px;margin:22px 0;}
+.note > :last-child{margin-bottom:0;}
+.warn{background:var(--warn-soft);border:1px solid var(--warn-line);border-radius:16px;padding:24px 26px;margin:22px 0;}
+.warn h4{color:var(--warn);}
+.warn > :last-child{margin-bottom:0;}
+.warn ul{margin-bottom:0;}
+.warn li::marker{color:var(--warn);}
+
+.quote{
+  font-family:'Montserrat',sans-serif;font-weight:800;
+  font-size:clamp(1.15rem,2.6vw,1.5rem);line-height:1.42;letter-spacing:-.02em;
+  color:var(--white);border-left:3px solid var(--gold);
+  padding:6px 0 6px 24px;margin:28px 0;max-width:30em;
+}
+
+/* door / CTA */
+.door{
+  background:linear-gradient(140deg,rgba(255,215,0,0.10),rgba(255,215,0,0.03));
+  border:1.5px solid var(--gold-line);border-radius:20px;
+  padding:30px 30px;margin:26px 0;position:relative;overflow:hidden;
+}
+.door::after{content:'';position:absolute;right:-40px;top:-40px;width:150px;height:150px;background:radial-gradient(circle,rgba(255,215,0,.14),transparent 70%);pointer-events:none;}
+.door h3{color:var(--gold);font-size:1.15rem;position:relative;}
+.door p{position:relative;}
+.door .meta{font-size:.85rem;color:var(--t-3);margin:0;}
+
+.btn{
+  display:inline-flex;align-items:center;gap:9px;
+  background:var(--gold);color:var(--navy);
+  font-family:'Montserrat',sans-serif;font-weight:800;font-size:.92rem;
+  padding:15px 30px;border-radius:11px;text-decoration:none;
+  box-shadow:0 4px 22px rgba(255,215,0,.32);
+  transition:background .18s,box-shadow .22s;min-height:48px;cursor:pointer;
+}
+.btn svg{width:13px;fill:currentColor;flex:none;}
+.btn:hover{background:#ffe033;box-shadow:0 6px 30px rgba(255,215,0,.5);}
+.btn:focus-visible{outline:3px solid var(--white);outline-offset:3px;}
+.btn-sm{padding:12px 20px;font-size:.85rem;}
+.btn-ghost{
+  background:transparent;color:var(--white);border:1.5px solid var(--line-2);box-shadow:none;
+}
+.btn-ghost:hover{background:rgba(255,255,255,0.07);box-shadow:none;}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px;}
+
+/* grids */
+.grid{display:grid;gap:16px;}
+.g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}
+.g3{grid-template-columns:repeat(auto-fit,minmax(215px,1fr));}
+
+/* phases */
+.phases{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:30px;}
+.phase{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 22px;position:relative;transition:border-color .2s,background .2s;}
+.phase:hover{border-color:var(--gold-line);background:var(--surface-2);}
+.phase .n{font-family:'Montserrat',sans-serif;font-size:.62rem;font-weight:800;letter-spacing:.15em;color:var(--gold);text-transform:uppercase;margin-bottom:12px;display:block;}
+.phase h3{font-size:1.05rem;margin-bottom:8px;}
+.phase p{font-size:.9rem;margin:0;color:var(--t-3);}
+
+/* steps */
+.steps{counter-reset:s;margin-top:26px;}
+.step{counter-increment:s;display:grid;grid-template-columns:46px 1fr;gap:20px;padding-bottom:26px;position:relative;}
+.step:not(:last-child)::before{content:'';position:absolute;left:22px;top:52px;bottom:0;width:2px;background:var(--line);}
+.step .dot{
+  width:46px;height:46px;border-radius:50%;
+  background:var(--navy);border:2px solid var(--gold-line);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Montserrat',sans-serif;font-weight:900;font-size:1rem;color:var(--gold);
+  position:relative;z-index:1;
+}
+.step .dot::before{content:counter(s);}
+.step-b{padding-top:8px;}
+.step-b h3{font-size:1.1rem;margin-bottom:8px;}
+.step-b p{font-size:.95rem;margin-bottom:0;}
+
+/* tick grid */
+.ticks{display:grid;grid-template-columns:repeat(auto-fit,minmax(64px,1fr));gap:8px;margin:26px 0;max-width:620px;}
+.tick{
+  aspect-ratio:1;border:1.5px solid var(--line-2);border-radius:11px;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Montserrat',sans-serif;font-size:.78rem;font-weight:800;color:var(--t-3);
+  background:var(--surface);transition:all .2s;
+}
+.tick.on{background:var(--gold-soft);border-color:var(--gold-line);color:var(--gold);}
+
+/* split panel */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:24px 0;}
+.split > div{padding:24px 22px;}
+.split > div:first-child{border-right:1px solid var(--line);background:rgba(255,255,255,0.02);}
+.split h4{margin-bottom:10px;}
+.split p{font-size:.93rem;margin:0;}
+.split .l h4{color:var(--gold);}
+
+/* books */
+.book{display:grid;grid-template-columns:44px 1fr;gap:18px;padding:20px 0;border-bottom:1px solid var(--line);}
+.book:last-child{border-bottom:none;}
+.book .bn{
+  width:44px;height:44px;border-radius:12px;background:var(--gold-soft);border:1px solid var(--gold-line);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Montserrat',sans-serif;font-weight:900;font-size:.95rem;color:var(--gold);flex:none;
+}
+.book .bn.next{background:var(--surface);border-color:var(--line-2);color:var(--t-3);}
+.book h3{font-size:1.02rem;margin-bottom:3px;}
+.book .by{font-size:.82rem;color:var(--t-3);margin-bottom:9px;font-weight:600;}
+.book p{font-size:.93rem;margin-bottom:0;}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:52px 0 68px;margin-top:40px;background:var(--navy-deep);}
+footer p{font-size:.9rem;color:var(--t-3);max-width:44em;}
+footer strong{color:var(--t-2);}
+.f-mark{display:flex;align-items:center;gap:9px;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.85rem;margin-bottom:18px;}
+.f-mark svg{width:11px;fill:var(--gold);}
+
+@media(max-width:720px){
+  body{font-size:16px;}
+  .wrap{padding:0 18px;}
+  section{padding:48px 0;}
+  .day{padding:26px 20px;}
+  .card{padding:24px 20px;}
+  .split{grid-template-columns:1fr;}
+  .split > div:first-child{border-right:none;border-bottom:1px solid var(--line);}
+  .hero{padding:56px 0 52px;}
+  .mark span{display:none;}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *{animation:none!important;transition:none!important;}
+}
+</style>
+</head>
+<body>
+
+<div class="progress" id="prog" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="mark"><svg viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg><span>The Catalyst Method</span></a>
+    <nav class="jump" aria-label="Jump to section">
+      <a href="#start">Start</a>
+      <a href="#how">How it works</a>
+      <a href="#d0">Days 0 to 4</a>
+      <a href="#run">5 to 15</a>
+      <a href="#d16">16 to 25</a>
+      <a href="#d26">26 to 30</a>
+      <a href="#rules">Rules</a>
+      <a href="#books">Books</a>
+    </nav>
+  </div>
+</div>
+
+<a id="top"></a>
+<header class="hero">
+  <div class="bolts" aria-hidden="true">
+    <svg class="b1" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="b2" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="b3" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="b4" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="b5" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+    <svg class="b6" viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>
+  </div>
+  <div class="wrap hero-inner">
+    <h1>The Catalyst Method<br><em>30 Day Challenge</em></h1>
+    <p class="lede">Thirty days of proving to yourself that when you say you will do something, you do it.</p>
+    <div class="facts">
+      <span class="fact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 10.6V6h-2v7.4l5 3 1-1.7-4-2.1z"/></svg>About 25 minutes a day</span>
+      <span class="fact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>No app, no kit</span>
+    </div>
+  </div>
+</header>
+
+<!-- START HERE -->
+<section id="start">
+  <div class="wrap">
+    <div class="eyebrow"><svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>Start here</div>
+    <h2>You are not broken. Nothing is missing from you.</h2>
+    <p>This is not 30 days of fixing yourself. It is 30 days of proving something to yourself.</p>
+    <p>Here is what you will prove. <strong>When you say you will do something, you do it.</strong></p>
+    <p>That is what self belief really is. It is not a good mood. It is proof that your word is good.</p>
+
+    <div class="quote">I am not going to promise you will feel confident on day 31. Nothing works that fast. Anyone who says it does is selling you something.</div>
+
+    <p>What I can tell you is what happened to me. And that I still do this today.</p>
+
+    <div class="grid g2" style="margin-top:34px">
+      <div class="card">
+        <h4>What it costs you</h4>
+        <p>About 25 minutes a day. Twenty for your activity. Under a minute to read your list. A few seconds to tick a box.</p>
+      </div>
+      <div class="card">
+        <h4>What you need</h4>
+        <p>The tick sheet, and somewhere to write. That is it. Nothing to buy, no app to download.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="wrap wide">
+    <div class="eyebrow"><svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>How it works</div>
+    <h2>Four phases, one habit.</h2>
+    <p>The month is built so the hard parts arrive only once you have something to handle them with.</p>
+    <div class="phases">
+      <div class="phase">
+        <span class="n">Days 0 to 4</span>
+        <h3>Set up and start</h3>
+        <p>Pick your twenty minutes and start on day one. The thinking gets layered on top of the doing, not before it.</p>
+      </div>
+      <div class="phase">
+        <span class="n">Days 5 to 15</span>
+        <h3>The run</h3>
+        <p>Nothing new for eleven days. Just the habit, twice-daily list, and a tick. This is where it gets real.</p>
+      </div>
+      <div class="phase">
+        <span class="n">Days 16 to 25</span>
+        <h3>Letting go</h3>
+        <p>Whatever the quiet brought up, you learn how to put it down instead of carrying it.</p>
+      </div>
+      <div class="phase">
+        <span class="n">Days 26 to 30</span>
+        <h3>Backing yourself</h3>
+        <p>You count the proof, look honestly at where you are, and decide how you treat yourself from here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="wrap" style="max-width:820px">
+
+<!-- DAY 0 -->
+<section id="d0" style="padding-bottom:20px">
+  <div class="wrap">
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>0</b></div>
+        <h3>Get ready</h3>
+      </div>
+      <p>Three small jobs. None of them take long.</p>
+
+      <h3 style="margin-top:26px">1. Pick your twenty minutes</h3>
+      <p>Pick one thing you will do every day for 30 days.</p>
+      <ul>
+        <li>Walk, with no phone and no music</li>
+        <li>Meditate</li>
+        <li>Run</li>
+        <li>Lift weights</li>
+        <li>Read something that helps you grow <a href="#books">(reading list below)</a></li>
+        <li>Learn a new skill</li>
+      </ul>
+      <p><strong>Pick something you actually like.</strong> Do not pick it because you think you should. If you force it, you will stop by day three.</p>
+      <div class="note"><p><strong>Not sure? Walk with no phone.</strong> It is the easiest way in. There is nothing to hide behind.</p></div>
+
+      <h3 style="margin-top:30px">2. Get your tick sheet</h3>
+      <p>Thirty boxes. That is all it is. Each day you do your twenty minutes, tick a box.</p>
+      <div class="ticks" aria-hidden="true">
+        <div class="tick on">1</div><div class="tick on">2</div><div class="tick on">3</div><div class="tick on">4</div><div class="tick on">5</div>
+        <div class="tick">6</div><div class="tick">7</div><div class="tick">8</div><div class="tick">9</div><div class="tick">10</div>
+      </div>
+      <p>Nobody else sees it. On day 26 you will count the ticks, and that number will matter more than how you feel.</p>
+      <div class="btn-row">
+        <a class="btn" href="https://docs.google.com/document/d/1UwKkD3Q1TGJmj-Cuz0mTWG1K_shSdJvQ/edit?usp=sharing" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>Get your tick sheet
+        </a>
+      </div>
+
+      <h3 style="margin-top:34px">3. Write down your big goal</h3>
+      <p>Not a thing you want. <strong>The person you want to be.</strong></p>
+      <p>Aim high. Higher than feels sensible. Aim high and miss, and you still land somewhere better than if you aimed low.</p>
+      <div class="note">
+        <h4>Do not know what it is?</h4>
+        <p>That is fine. Most people do not. It is often the reason they are here. Try one of these instead.</p>
+        <ul style="margin-bottom:0">
+          <li>Write what you do <strong>not</strong> want your life to look like in five years.</li>
+          <li>Or write the three things that matter most to you. Put them in order. Use number one.</li>
+          <li>Or finish this sentence. <em>"I want to be someone who..."</em></li>
+        </ul>
+      </div>
+      <p>This is a first draft. It is not a promise. A rough goal you write today beats a perfect one you never write.</p>
+    </div>
+
+    <!-- DAY 1 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>1</b></div>
+        <h3>Start</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Do your twenty minutes first. Then tick the box.</div>
+      <p>I mean that. Do the thing before you read the rest of this.</p>
+      <p>You already know how to think about your life. Thinking is not your problem. <strong>Doing is where this starts.</strong></p>
+
+      <h3 style="margin-top:26px">Then set your goal for the 30 days</h3>
+      <p>Pick one goal for the month. Make it small. Make it something only you control, so nobody else's choices can take it from you.</p>
+
+      <h3 style="margin-top:26px">Then do this</h3>
+      <div class="steps">
+        <div class="step"><div class="dot"></div><div class="step-b"><h3>Picture it done</h3><p>Picture your goal, and yourself having done it. Do not strain. Just see it done, and see yourself calm about it.</p></div></div>
+        <div class="step"><div class="dot"></div><div class="step-b"><h3>Loosen your grip</h3><p>Notice how tightly you are holding on. Let it go a little. Wanting something too badly wears you out.</p></div></div>
+        <div class="step"><div class="dot"></div><div class="step-b"><h3>Decide you will do it</h3><p>That is your intention. The wanting loosens. The intention stays.</p></div></div>
+      </div>
+
+      <div class="note">
+        <h4>Two honest notes</h4>
+        <p>Step 2 is the easy version on purpose. Letting go properly is a skill and you learn it on day 17.</p>
+        <p style="margin-bottom:0">And if picturing your goal makes you feel silly, that is normal. A voice might say <em>"that will never happen."</em> Do not fight it, and do not force the picture. Write the thought down and keep it. You will use it on day 16.</p>
+      </div>
+    </div>
+
+    <!-- DAY 2 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>2</b></div>
+        <h3>Your daily list</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Twenty minutes. Tick the box.</div>
+      <p>Now you are going to write a short list of how you want to behave. Keep it in your phone notes, pinned to the top.</p>
+
+      <div class="warn">
+        <h4>First, one important thing</h4>
+        <p>You are about to think about your bad days. So know this before you start.</p>
+        <p style="margin-bottom:0"><strong>Being hard on yourself</strong> says: "I am lazy and I always have been."<br>
+        <strong>Being honest</strong> says: "I snapped at my sister on Tuesday."</p>
+      </div>
+      <p>One is a judgement about who you are. The other is a fact you can do something about. If a line you write says something bad about who you are, bin it.</p>
+
+      <div class="door">
+        <h3>You can use mine as a guide</h3>
+        <p>Have a look at the shape of it. See how short the lines are. It walks you through writing yours, step by step.</p>
+        <p>Then put it away and write your own. Your own words carry weight. Someone else's read like advice, and advice is easy to ignore.</p>
+        <div class="btn-row">
+          <a class="btn" href="https://docs.google.com/document/d/1vdNy0gSSkoDWnzp3MUPr9Eeh_4a-P-Qb/edit?usp=sharing" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>Open the checklist guide
+          </a>
+        </div>
+      </div>
+
+      <p><strong>Five to eight lines. Write things you can do, not things you have to believe.</strong></p>
+      <div class="split">
+        <div class="l"><h4>This works</h4><p>"Be curious." Something you can do in your next chat, whatever mood you are in.</p></div>
+        <div><h4>This does not</h4><p>"I am confident." A claim. If part of you does not believe it, you have started an argument with yourself.</p></div>
+      </div>
+      <p>Write it from your bad days. Think about the last few times you did not like how you acted. What would you have needed to remember right then? That is your first line.</p>
+      <p>Then cut it down. You should be able to say it from memory. A list you do not read is useless.</p>
+    </div>
+
+    <!-- DAY 3 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>3</b></div>
+        <h3>Three rules</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Twenty minutes. List morning and night. Tick.</div>
+      <p>You read these today because they are for bad days. <strong>You cannot decide what to do on a bad day while you are having one.</strong></p>
+      <div class="grid g3" style="margin-top:24px">
+        <div class="card">
+          <h4>Rule 1</h4>
+          <h3>Shrink it. Do not skip it.</h3>
+          <p style="font-size:.93rem">Some days twenty minutes feels like too much. On those days do five. Five minutes still counts. Twenty is the target, not the minimum.</p>
+        </div>
+        <div class="card">
+          <h4>Rule 2</h4>
+          <h3>Miss a day? Carry on.</h3>
+          <p style="font-size:.93rem">Go to the next day. Do not start again at day 1. Missing one day does not cancel the days you did. Starting again is a punishment, and punishment is what makes people quit.</p>
+        </div>
+        <div class="card">
+          <h4>Rule 3</h4>
+          <h3>If something hard comes up</h3>
+          <p style="font-size:.93rem">Name it. Find it in your body, chest, stomach, throat or jaw. Let it sit there without fixing it until it fades. That is the short version of day 17.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 4 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>4</b></div>
+        <h3>Being honest with yourself</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Twenty minutes. Tick the box.</div>
+      <p>Now five minutes of reading. Nothing to do today.</p>
+
+      <h3 style="margin-top:24px">1. Being honest is not being hard on yourself</h3>
+      <p>Honesty is the part people skip. Usually because they mix it up with having a go at themselves.</p>
+      <p>All month, check which one you are doing. <strong>If it ends in a word about who you are, that is you having a go at yourself. If it ends in a fact, that is honesty.</strong></p>
+
+      <h3 style="margin-top:24px">2. You cannot fix what you will not look at</h3>
+      <p>That is why honesty comes first.</p>
+
+      <h3 style="margin-top:24px">3. Being humble just means being willing to grow</h3>
+      <p>It does not mean thinking less of yourself. It means accepting two things. You have growing to do. And you might be wrong about some of what you believe about yourself.</p>
+      <p>Part of you will fight this. <strong>Your ego wants you to stay the same.</strong> Same job, same friends, same you. Staying the same feels safe. So when that voice turns up, it will sound sensible. It usually does.</p>
+
+      <div class="warn">
+        <h4>What today is not</h4>
+        <p style="margin-bottom:0">Today is not the day you list everything wrong with your life. That would just hand your worst thoughts a shopping list. The real look comes on day 26, once you have put some things down.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE RUN -->
+<section id="run" style="padding-top:20px">
+  <div class="wrap">
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Days</small><b class="sm">5 to 15</b></div>
+        <h3>Just keep going</h3>
+      </div>
+      <p>Every morning and every night, read your list. Every day, do your twenty minutes. Every day, tick the box.</p>
+      <p><strong>That is all.</strong> Nothing new for eleven days, and that is on purpose. The value is not in one good session. It is in doing it again and again. It works like the gym.</p>
+      <p>Some days it will feel useful. Some days it will feel like twenty minutes of fidgeting. <strong>Both count.</strong></p>
+
+      <div class="warn">
+        <h4>Read this now, because it is coming</h4>
+        <p>Around day six or seven, this will start to feel pointless. The new feeling will have worn off. Nothing will look different.</p>
+        <p>Then a thought will turn up, and it will sound very reasonable. It will say: <strong>this is not working. Same as always.</strong></p>
+        <p style="margin-bottom:0">That is scheduled. It happens to everyone. It is not a fact about you, and it is not a fact about whether this works.</p>
+      </div>
+
+      <div class="grid g2">
+        <div class="card">
+          <h4>What gets you through, 1</h4>
+          <h3>Look at your ticks, not your feelings</h3>
+          <p style="font-size:.93rem">How you feel on day seven proves nothing. Six ticks proves something. That is why you keep the sheet.</p>
+        </div>
+        <div class="card">
+          <h4>What gets you through, 2</h4>
+          <h3>Use rule 1, not the door</h3>
+          <p style="font-size:.93rem">On the days it feels worst, do five minutes. Five minutes on a bad day is worth more than twenty on an easy one. It proves you have a floor.</p>
+        </div>
+      </div>
+      <div class="quote">Get through days six to nine and you get through this. That stretch is the whole test, and it is far more boring than it feels.</div>
+    </div>
+  </div>
+</section>
+
+<!-- DAY 16 -->
+<section id="d16" style="padding-bottom:20px">
+  <div class="wrap">
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>16</b></div>
+        <h3>Look back</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Twenty minutes. Tick. Then this.</div>
+      <p>Sit down and look back at the last two weeks. How has your head actually felt? What keeps coming up that you need to deal with?</p>
+      <p><strong>Write down the ones that keep coming back.</strong> Not everything, and not the worst thing you can think of. Just the ones that turned up more than once while you were walking, or the ones you noticed yourself steering away from.</p>
+      <div class="note"><p style="margin-bottom:0"><strong>Five or six is plenty.</strong> You have nine days and ten minutes a day to work through this. A list of forty is not better, it is unusable. Anything you leave off will come back on its own if it matters.</p></div>
+      <p>Write the honest version. Not the nice one, not the harsh one. Facts about what happened, not judgements about who you are. Nobody else is reading this, so a tidied up version only fools you.</p>
+      <p><strong>Keep this page.</strong> You will compare it on day 26.</p>
+
+      <div class="door">
+        <h3>Is your list bigger than you expected?</h3>
+        <p>That happens. Two weeks of quiet brings up more than people think it will.</p>
+        <p>If what you have written down feels bigger than a walk and ten minutes a day, say so. Send me the short version of it.</p>
+        <div class="btn-row" style="margin-top:4px;margin-bottom:18px">
+          <a class="btn btn-sm" href="mailto:hey@thecatalystmethod.co.uk?subject=Day%2016%20of%20the%20challenge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>Email me</a>
+          <a class="btn btn-sm btn-ghost" href="https://wa.me/447787227022?text=Day%2016%20of%20the%20challenge" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 00-8.6 15.1L2 22l5.05-1.32A10 10 0 1012 2z"/></svg>WhatsApp</a>
+        </div>
+        <p class="meta">Email or WhatsApp. I read these myself and I write back, usually within a day. There is no sales script and there is nothing to buy.</p>
+      </div>
+    </div>
+
+    <!-- DAY 17 -->
+    <div class="day" id="d17">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>17</b></div>
+        <h3>Letting go</h3>
+      </div>
+
+      <div class="warn">
+        <h4>Read this first</h4>
+        <p>Sitting still takes away the things you use to distract yourself, so what is underneath comes up. Feeling bored, restless, sad or teary is common. Old memories can turn up. This usually settles over a few weeks.</p>
+        <p>Researchers at Brown University found side effects are far more common than the apps admit. A small number of people get effects bad enough to affect daily life.</p>
+        <p><strong>Stop, and get support, if you:</strong></p>
+        <ul>
+          <li>get panic that will not settle</li>
+          <li>feel detached from yourself or from the world</li>
+          <li>start reliving something traumatic</li>
+          <li>cannot sleep, or cannot function</li>
+        </ul>
+        <p style="margin-bottom:0">For anything milder, go shorter and gentler. Do not force it.</p>
+      </div>
+
+      <h3 style="margin-top:26px">What to do</h3>
+      <p>Sit for ten minutes. Bring one thing from your day 16 list to mind. Let the feeling actually come up rather than just thinking about it.</p>
+      <p>Then breathe, and let it go. Let go of the feeling, and let go of what you decided it means.</p>
+      <div class="quote">It was never yours to carry.</div>
+      <p>Do not fight it. Do not talk yourself out of it. Do not explain it. Let it sit there until it runs out of steam. It always does.</p>
+
+      <div class="note">
+        <h4>You will probably think you are doing it wrong</h4>
+        <p>Almost everyone does. You will sit down, follow the steps, and feel nothing move. Then you will decide you are bad at this.</p>
+        <p><strong>It took me weeks before it felt natural. I still do not always manage it.</strong></p>
+        <p style="margin-bottom:0">You cannot do it badly enough to matter, because the worst case is you sat quietly for ten minutes. And feeling nothing does not mean it failed. Some of it goes with no moment you can point to.</p>
+      </div>
+
+      <div class="door">
+        <h3>Stuck on this bit?</h3>
+        <p>This is the part people find hardest, and it is the hardest part to learn from a page.</p>
+        <p>If you have sat with it a few times and nothing is moving, do not spend another week guessing. Tell me what you are doing and what is happening when you do it.</p>
+        <div class="btn-row" style="margin-top:4px;margin-bottom:18px">
+          <a class="btn btn-sm" href="mailto:hey@thecatalystmethod.co.uk?subject=Day%2017,%20letting%20go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>Email me</a>
+          <a class="btn btn-sm btn-ghost" href="https://wa.me/447787227022?text=Day%2017,%20letting%20go" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 00-8.6 15.1L2 22l5.05-1.32A10 10 0 1012 2z"/></svg>WhatsApp</a>
+        </div>
+        <p class="meta">Email or WhatsApp. A real reply from me, not a script. There is nothing to buy.</p>
+      </div>
+    </div>
+
+    <!-- DAYS 18-25 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Days</small><b class="sm">18 to 25</b></div>
+        <h3>Do it daily</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Ten minutes letting go, plus your twenty. Tick.</div>
+      <p>Work through your day 16 list, one thing at a time. Two extra things happen in this stretch.</p>
+
+      <h3 style="margin-top:28px">Day 20. What happened, and what you added</h3>
+      <p>After your ten minutes, pick one thing from your list. Split a page in two.</p>
+      <div class="split">
+        <div class="l"><h4>What actually happened</h4><p>Just the facts. What a camera would have seen.</p></div>
+        <div><h4>What you added</h4><p>What you decided it meant. What you decided it said about you.</p></div>
+      </div>
+      <p>Look at which side is longer. <strong>Most of what hurts is on the right.</strong> And the right side is not the event, it is how it looks from where you are standing today. Where you are standing is not the same as what is real.</p>
+
+      <h3 id="d22" style="margin-top:30px">Day 22. Guard the thought, then swap it</h3>
+      <p>By now you are noticing things. But noticing is not enough on its own. You need to know what to do in the moment. The whole thing takes about a minute.</p>
+      <div class="steps">
+        <div class="step"><div class="dot"></div><div class="step-b"><h3>Guard the door</h3><p>A thought turns up. "They will think I am an idiot." Do not let it walk straight in. Stop, and notice you are about to believe it. Most doubting thoughts get in because nobody checked them.</p></div></div>
+        <div class="step"><div class="dot"></div><div class="step-b"><h3>Swap it for something true</h3><p>Not a nicer lie. Do not swap "I am rubbish at this" for "I am brilliant at this," because part of you knows that is not true. Swap it for something you can stand behind: <em>"That is a feeling, not a fact."</em> <em>"I have done harder things."</em> <em>"I do not know how this will go yet."</em></p></div></div>
+        <div class="step"><div class="dot"></div><div class="step-b"><h3>Do one small thing that proves it</h3><p>A true thought with nothing behind it fades by the afternoon. Send the message. Ask the question. Put your hand up. Small is fine. The point is the proof, not the size.</p></div></div>
+      </div>
+      <div class="note"><p style="margin-bottom:0"><strong>Why this comes now, and not in week one.</strong> Swapping a thought before you have let the feeling go is just covering it with a nicer sentence. The feeling is still there and it comes back. You have spent five days letting go, so there is room now.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- DAY 26 -->
+<section id="d26" style="padding-top:20px">
+  <div class="wrap">
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>26</b></div>
+        <h3>Look back and count</h3>
+      </div>
+      <p>Write down how you feel now, and what has been coming up lately. Then read your day 16 page and put them side by side. You are not marking yourself. You are looking to see if the right hand side has got shorter.</p>
+
+      <h3 style="margin-top:26px">Now count your ticks</h3>
+      <div class="warn">
+        <h4>Read this before you count</h4>
+        <p>Whatever the number is, it is a count of times you kept your word to yourself. That is all it is. It is not a score, and there is no number on that sheet that means you failed.</p>
+        <p><strong>Got 25?</strong> Good. <strong>Got 14?</strong> Then you kept your word to yourself fourteen times in three weeks. That is fourteen more than the you who had not started.</p>
+        <p style="margin-bottom:0">Now watch what your mind does. It will take a real number and turn it into a verdict. <em>"Not even half. Same as always. Knew it."</em> That is you having a go at yourself.</p>
+      </div>
+      <p>Honesty says: I did it fourteen times out of twenty three. Everything after that is a story you added.</p>
+
+      <h3 style="margin-top:26px">The mirror</h3>
+      <div class="quote">Holding yourself up to a mirror means looking at where you actually are. Not where you say you are. Not where you meant to be by now.</div>
+      <p>That sounds harsh. It is the opposite. <strong>When you respect yourself, you can afford to be honest.</strong> The truth stops being a threat. You could not have done this on day 4, which is why I did not ask.</p>
+      <p>Two questions. Answer them plainly.</p>
+      <ol>
+        <li>Where am I really, on the thing I set out to do on day 1?</li>
+        <li>What have I been avoiding looking at?</li>
+      </ol>
+      <p>And this is not the soft option. Forcing yourself through something is easy to understand. Sitting with why you avoided it is harder, and doing that without turning it into an attack on yourself is harder still.</p>
+
+      <div class="door">
+        <h3>If today stung</h3>
+        <p>It can. This is the day people find heaviest, and that is usually a sign you looked properly rather than a sign you did it wrong.</p>
+        <p>You do not have to sit with it on your own. Tell me what you saw when you looked.</p>
+        <div class="btn-row" style="margin-top:4px;margin-bottom:18px">
+          <a class="btn btn-sm" href="mailto:hey@thecatalystmethod.co.uk?subject=Day%2026%20of%20the%20challenge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>Email me</a>
+          <a class="btn btn-sm btn-ghost" href="https://wa.me/447787227022?text=Day%2026%20of%20the%20challenge" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 00-8.6 15.1L2 22l5.05-1.32A10 10 0 1012 2z"/></svg>WhatsApp</a>
+        </div>
+        <p class="meta">Email or WhatsApp. I reply myself. No script, nothing to buy, and no follow up you did not ask for.</p>
+      </div>
+    </div>
+
+    <!-- DAYS 27-30 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Days</small><b class="sm">27 to 30</b></div>
+        <h3>Treating yourself well</h3>
+      </div>
+      <p>The sitting changes now. You are not working through your list any more. Instead, sit with this question.</p>
+      <div class="quote">If I really loved myself, would I treat my body, my mind and my time like this?</div>
+      <p>Then picture it. What would treating yourself well actually look like, in real life, in small ordinary detail? And what would you need to change to make that true? <strong>Write down what you come up with.</strong></p>
+      <p>Yours will be your own. But here are the kinds of things that come up.</p>
+      <div class="grid g3">
+        <div class="card"><p style="font-size:.93rem;margin:0">Where you spend your days</p></div>
+        <div class="card"><p style="font-size:.93rem;margin:0">Who you spend time with. Some people help you grow. Some quietly keep you where you are.</p></div>
+        <div class="card"><p style="font-size:.93rem;margin:0">What you eat</p></div>
+        <div class="card"><p style="font-size:.93rem;margin:0">Moving your body</p></div>
+        <div class="card"><p style="font-size:.93rem;margin:0">Doing more of what you love</p></div>
+        <div class="card"><p style="font-size:.93rem;margin:0">Helping other people</p></div>
+      </div>
+      <div class="note"><p style="margin-bottom:0"><strong>None of that is a rule and nothing here is banned.</strong> That is the point. If you were being strict with yourself, you would be banning things. Here it works the other way. You stop doing what harms you, because that is not how you treat someone you care about.</p></div>
+
+      <h3 style="margin-top:30px">One extra job on day 27</h3>
+      <p>Look ahead to day 29 and decide now what your one real thing is going to be. Write it down.</p>
+      <p>Decide it today. If you leave it until the day, you will pick something safe, or find a reason it is not the right time. Make it small and clear. Not "be more confident at work." <strong>One message. One question. One chat. One thing you send.</strong></p>
+
+      <h3 style="margin-top:30px">Day 29. Do the real thing</h3>
+      <p>Do the short version first. Notice the feeling, find it in your body, let it sit there until it fades, then check what actually happened against what you added on top. <strong>Then do the thing anyway.</strong></p>
+      <div class="note">
+        <p><strong>This has a shrink rule too.</strong> If the thing you picked really will not move today, do a smaller version. Send the shorter message. Ask the smaller question. Say one sentence instead of having the whole chat.</p>
+        <p style="margin-bottom:0">A small version done beats the full version put off. And putting it off is a move you already know well.</p>
+      </div>
+      <p><strong>If you do not manage it at all, that is not the month undone.</strong> You have 28 days of proof behind you, and one day you did not take. Write down honestly what stopped you.</p>
+
+      <div class="door">
+        <h3>If you did not do it</h3>
+        <p>Tell me what stopped you.</p>
+        <p>I mean that one especially. Of all the messages I get about this challenge, that is usually the most useful conversation of the lot, because whatever stopped you today is the same thing that has been stopping you for a while.</p>
+        <div class="btn-row" style="margin-top:4px;margin-bottom:18px">
+          <a class="btn btn-sm" href="mailto:hey@thecatalystmethod.co.uk?subject=Day%2029,%20what%20stopped%20me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>Email me</a>
+          <a class="btn btn-sm btn-ghost" href="https://wa.me/447787227022?text=Day%2029,%20what%20stopped%20me" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 00-8.6 15.1L2 22l5.05-1.32A10 10 0 1012 2z"/></svg>WhatsApp</a>
+        </div>
+        <p class="meta">Email or WhatsApp. A real reply from me. Nothing to buy.</p>
+      </div>
+    </div>
+
+    <!-- DAY 30 -->
+    <div class="day">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>30</b></div>
+        <h3>The promise</h3>
+      </div>
+      <div class="pill"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>Twenty minutes. Tick the last box.</div>
+      <p>Read it all back. Your day 16 page, your day 26 page, and your list from the last four days. <strong>Count your ticks one more time.</strong> All 30 days.</p>
+      <div class="quote">Now make one promise to yourself. Promise to treat yourself with love and respect.</div>
+      <p>Then plan it. Go through your list from days 27 to 30 and decide what you are actually going to do. Not all of it. Pick what matters and start there.</p>
+      <p>That promise is the whole thing. It is the engine that keeps everything else running.</p>
+      <p>If you force yourself instead, it will crack. Usually around week six. Then you will decide the crack says something about you. <strong>It does not. You just ran out of something that always runs out.</strong></p>
+      <div class="note"><p style="margin-bottom:0">Holding yourself to something out of love holds. Holding yourself to it out of shame does not. <strong>Same actions. Completely different engine. Only one of them still works in a year.</strong></p></div>
+    </div>
+
+    <!-- DAY 31 -->
+    <div class="day" style="border-color:var(--gold-line)">
+      <div class="day-head">
+        <div class="daynum"><small>Day</small><b>31</b></div>
+        <h3>What happens now</h3>
+      </div>
+      <p>Nothing changes. You keep doing your twenty minutes. <strong>It was never a challenge. It was the start of something you keep.</strong></p>
+      <p>There is nothing to buy. There is no next level. There is no pitch coming.</p>
+      <div class="door">
+        <h3>Want to talk any of it through?</h3>
+        <p>If you want help working through what came up, or working out what happens next for you, just get in touch.</p>
+        <div class="btn-row" style="margin-top:4px;margin-bottom:18px">
+          <a class="btn btn-sm" href="mailto:hey@thecatalystmethod.co.uk?subject=Finished%20the%2030%20day%20challenge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>Email me</a>
+          <a class="btn btn-sm btn-ghost" href="https://wa.me/447787227022?text=Finished%20the%2030%20day%20challenge" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12 2a10 10 0 00-8.6 15.1L2 22l5.05-1.32A10 10 0 1012 2z"/></svg>WhatsApp</a>
+        </div>
+        <p class="meta">Email or WhatsApp. I reply myself, and there is no sales script waiting.</p>
+      </div>
+      <p>And if this helped, tell someone who needs it. That is the only way it reaches anyone.</p>
+    </div>
+  </div>
+</section>
+
+<!-- RULES -->
+<section id="rules">
+  <div class="wrap wide">
+    <div class="eyebrow"><svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>The rules</div>
+    <h2>All in one place.</h2>
+    <div class="grid g2" style="margin-top:28px">
+      <div class="card"><h3>Shrink it. Do not skip it.</h3><p>Five minutes counts.</p></div>
+      <div class="card"><h3>Miss a day? Carry on at the next one.</h3><p>Never start again at day 1.</p></div>
+      <div class="card">
+        <h3>Is life very full right now?</h3>
+        <p>If you have young kids, a hard job, or someone ill to look after, do five minutes every day for all 30 days. Count that as finishing, because it is.</p>
+        <p>Sometimes you get stuck because you have no room, not because you failed.</p>
+      </div>
+      <div class="card">
+        <h3>No public streak. No accountability partner.</h3>
+        <p>Both run on being scared of being seen to fail. That is force with a friendly face.</p>
+        <p>Your tick sheet is private. It is proof, not pressure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKS -->
+<section id="books">
+  <div class="wrap">
+    <div class="eyebrow"><svg viewBox="0 0 18 30"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>The reading list</div>
+    <h2>The books that actually did something for me.</h2>
+    <p>This is not homework. You do not need to read all of them. Any one on its own is enough. <strong>If you only ever read one, read the first.</strong></p>
+
+    <div class="card" style="margin-top:28px">
+      <div class="book"><div class="bn">1</div><div><h3>Letting Go: The Pathway of Surrender</h3><div class="by">David R. Hawkins</div><p>This is the one. Start here. It gave me a way to put a feeling down instead of carrying it round all day. Everything in this challenge from day 17 onwards came out of this book.</p></div></div>
+      <div class="book"><div class="bn">2</div><div><h3>Truth vs Falsehood</h3><div class="by">David R. Hawkins</div><p>This one changed how I see other people. It taught me that how I see things is not the same as how things are. That sounds simple. It took me a long time to really feel it.</p></div></div>
+      <div class="book"><div class="bn">3</div><div><h3>The 5am Club</h3><div class="by">Robin Sharma</div><p>The practical one. Give yourself an hour a day before the world gets to you. That is where your twenty minutes came from. You do not have to get up at 5am. I get up at 6 or 6:30.</p></div></div>
+      <div class="book"><div class="bn">4</div><div><h3>Transcending the Levels of Consciousness</h3><div class="by">David R. Hawkins</div><p>A map of the states people move through. Shame and guilt at the bottom, fear, anger and pride in the middle, then courage, and above that acceptance, love and peace. It gave me words for something I had been going round in circles about for years.</p></div></div>
+      <div class="book"><div class="bn">5</div><div><h3>Mindfulness: A Practical Guide to Awakening</h3><div class="by">Joseph Goldstein</div><p>Long, and worth it. Go here when you want to understand what you are actually doing when you sit still.</p></div></div>
+      <div class="book"><div class="bn">6</div><div><h3>The Dhammapada</h3><div class="by">Translated by Eknath Easwaran</div><p>Short verses. You can read one page and put it down. I keep coming back to this one. Easwaran's introduction is worth the book on its own.</p></div></div>
+    </div>
+
+    <div class="warn">
+      <h4>One honest note on number 4</h4>
+      <p style="margin-bottom:0">Hawkins' wider work includes muscle testing, and putting numbers on people and books and countries. I do not use that part and I do not teach it. I use the levels as a shared language, and as a direction to walk in. Nothing more.</p>
+    </div>
+
+    <h3 style="margin-top:36px">What I am reading next</h3>
+    <p>I have not read these yet. They are here because they are next on my list, not because I can tell you what they did for me.</p>
+    <div class="card">
+      <div class="book"><div class="bn next">7</div><div><h3>A Guide to the Bodhisattva's Way of Life</h3><div class="by">Shantideva</div></div></div>
+      <div class="book"><div class="bn next">8</div><div><h3>The Bhagavad Gita</h3><div class="by">Translated by Eknath Easwaran</div></div></div>
+      <div class="book"><div class="bn next">9</div><div><h3>The Upanishads</h3><div class="by">Translated by Eknath Easwaran</div></div></div>
+    </div>
+
+    <div class="grid g2" style="margin-top:24px">
+      <div class="card"><h4>On the spiritual ones</h4><p style="font-size:.93rem;margin:0">Some of these come out of Buddhist and Hindu writing. You do not have to believe anything to use them. I am not religious. I still found them useful.</p></div>
+      <div class="card"><h4>One last thing</h4><p style="font-size:.93rem;margin:0">Do not try to read them all. That turns this into another thing you are failing at. Pick one. Read it slowly. That is worth more than getting through nine.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="f-mark"><svg viewBox="0 0 18 30" aria-hidden="true"><path d="M13 0L3 16h6L4 30 16 13h-6z"/></svg>The Catalyst Method</div>
+    <p><strong>One honest thing.</strong> I am not a trained life coach or counsellor. Everything here is what has helped me, and that is the only lens I have. If you need proper professional support, please go and get it. Alongside this, not instead of it.</p>
+    <p style="margin-top:16px">Free, always. Nothing to buy, and no pitch coming.</p>
+  </div>
+</footer>
+
+<script>
+// anchor navigation with sticky-header offset, and a hard fallback if smooth scroll never starts
+(function(){
+  var HEAD=78;
+  var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function jump(top){ var r=document.documentElement, prev=r.style.scrollBehavior; r.style.scrollBehavior="auto"; window.scrollTo(0,top); r.style.scrollBehavior=prev; }
+  document.addEventListener("click",function(e){
+    var a=e.target.closest&&e.target.closest("a[href^=\"#\"]");
+    if(!a)return;
+    var id=a.getAttribute("href").slice(1);
+    if(!id)return;
+    var el=document.getElementById(id);
+    if(!el)return;
+    e.preventDefault();
+    var top=Math.max(0,el.getBoundingClientRect().top+window.pageYOffset-HEAD);
+    var start=window.pageYOffset;
+    try{window.scrollTo({top:top,behavior:reduce?"auto":"smooth"});}catch(err){window.scrollTo(0,top);}
+    setTimeout(function(){ if(Math.abs(window.pageYOffset-start)<2&&Math.abs(top-start)>2){ jump(top); } },90);
+    if(history.replaceState)history.replaceState(null,"","#"+id);
+  },false);
+})();
+
+(function(){
+  var bar=document.getElementById('prog');
+  var t=false;
+  function upd(){
+    var h=document.documentElement;
+    var max=h.scrollHeight-h.clientHeight;
+    var p=max>0?Math.min(100,(h.scrollTop||document.body.scrollTop)/max*100):0;
+    bar.style.width=p+'%';
+    bar.setAttribute('aria-valuenow',Math.round(p));
+    t=false;
+  }
+  window.addEventListener('scroll',function(){
+    if(!t){window.requestAnimationFrame(upd);t=true;}
+  },{passive:true});
+  upd();
+})();
+</script>
+
+</body>
+</html>
