@@ -63,7 +63,7 @@ breaks that promise quietly.
 
 | What | Link |
 |---|---|
-| The challenge page | https://zippy-hamster-ee2a9f.netlify.app/ |
+| The challenge page | https://thecatalystmethod30daychallenge.netlify.app/ |
 | Tick sheet | https://docs.google.com/document/d/1UwKkD3Q1TGJmj-Cuz0mTWG1K_shSdJvQ/edit?usp=sharing |
 | Mental state checklist guide | https://docs.google.com/document/d/1vdNy0gSSkoDWnzp3MUPr9Eeh_4a-P-Qb/edit?usp=sharing |
 | Email | hey@thecatalystmethod.co.uk |
@@ -74,9 +74,12 @@ for these. Checked on 28 August 2026: the pair in the copy file returned 410 Gon
 above returned 200. The copy file has been corrected to match, so all three files now agree.
 
 **Anchor links.** The page has anchors for `#d0`, `#d16`, `#d17`, `#d22`, `#d26`, `#run`, `#rules`
-and `#books`. `#d17` and `#d22` were added on 28 August 2026, so the day 17 and day 22 emails now
-deep link properly. **The page needs redeploying to Netlify before those two emails go out**, or
-both links will land at the top of the old page instead.
+and `#books`. `#d17` and `#d22` were added and deployed on 28 August 2026, and both are confirmed
+present in the live HTML, so the day 17 and day 22 emails deep link properly.
+
+**The URL changed on 28 August 2026.** The site was renamed and the old `zippy-hamster-ee2a9f`
+address now returns 404. Every link in this file uses the new one. If you have given the old link
+to anybody, they need the new one.
 
 ---
 
@@ -180,7 +183,7 @@ A rough goal you write today beats a perfect one you never write.
 That is day 0 done. Tomorrow you start.
 
 The whole challenge sits on one page if you ever want to read ahead:
-https://zippy-hamster-ee2a9f.netlify.app/
+https://thecatalystmethod30daychallenge.netlify.app/
 
 ---
 
@@ -339,7 +342,7 @@ If something hits you hard, do this.
 That is the short version of what you learn properly on day 17.
 
 All three rules live in one place here:
-https://zippy-hamster-ee2a9f.netlify.app/#rules
+https://thecatalystmethod30daychallenge.netlify.app/#rules
 
 ---
 
@@ -714,7 +717,7 @@ I read these myself and I write back, usually within a day. There is no sales sc
 nothing to buy.
 
 The day 16 section is here if you want it on the page:
-https://zippy-hamster-ee2a9f.netlify.app/#d16
+https://thecatalystmethod30daychallenge.netlify.app/#d16
 
 ---
 
@@ -801,7 +804,7 @@ Or WhatsApp me: https://wa.me/447787227022
 A real reply from me, not a script. There is nothing to buy.
 
 The day 17 section is on the page here, including the safety note:
-https://zippy-hamster-ee2a9f.netlify.app/#d17
+https://thecatalystmethod30daychallenge.netlify.app/#d17
 
 ---
 
@@ -954,7 +957,7 @@ have worked on day 3.
 Use it every day from now on.
 
 The three steps are on the page here, if you want them somewhere you can find again:
-https://zippy-hamster-ee2a9f.netlify.app/#d22
+https://thecatalystmethod30daychallenge.netlify.app/#d22
 
 ---
 
@@ -1107,7 +1110,7 @@ Or WhatsApp me: https://wa.me/447787227022
 I reply myself. No script, nothing to buy, and no follow up you did not ask for.
 
 The day 26 section is on the page here:
-https://zippy-hamster-ee2a9f.netlify.app/#d26
+https://thecatalystmethod30daychallenge.netlify.app/#d26
 
 ---
 
@@ -1305,7 +1308,7 @@ mouth is the only way it reaches anyone.
 There is a reading list at the end of the challenge page. Nine books, six I have read and three I
 have not got to yet, and the copy says which is which.
 
-https://zippy-hamster-ee2a9f.netlify.app/#books
+https://thecatalystmethod30daychallenge.netlify.app/#books
 
 If you only ever read one, read the first one.
 
