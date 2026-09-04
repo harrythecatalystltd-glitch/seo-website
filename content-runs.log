@@ -1,0 +1,41 @@
+=== 2026-09-04 (first run, triggered by hand) ===
+Commit 5f92e9a
+
+Published 4 of 4 from Week 1 of CONTENT-PLAN.md:
+
+  how-to-stop-overthinking-small-decisions   1983 words, grade 4.9, 10 links
+  what-do-you-do-question-confidence         1919 words, grade 5.1, 10 links
+  why-you-feel-worse-after-letting-go        2033 words, grade 4.9,  8 links
+  stop-comparing-yourself-on-social-media    1981 words, grade 5.4,  9 links
+
+Quality gate: 4 passed, 0 failed, 0 warnings.
+Build: green. Images: 4 generated at 1600x845.
+
+Section 10, the half the script cannot check:
+  Congruence      pass. Each post traces to a core belief and contradicts none.
+                  Post 1 to belief 12 and the certainty-as-a-feeling read, post 2
+                  to belief 10, post 3 to beliefs 2 and 3, post 4 to beliefs 6 and 10.
+  Traps           pass. Each post names the standard advice and says why Harry
+                  disagrees: reframing (1), fake it till you make it (2), things
+                  get worse before better as a blanket saying (3), gratitude as a
+                  fix and curating your feed as the answer (4).
+  Sequence        pass. All four teach let the feeling go, then check the story,
+                  then act, in that order.
+  Story bank      pass, after a fix. The first drafts invented personal detail
+                  that is not in Section 3: an anecdote about standing at a
+                  fridge, a claim about nearly quitting the practice, a "half the
+                  things I have envied" line, and a couple of invented bodily
+                  specifics. 13 edits removed them or replaced them with bank
+                  facts. Nothing outside Section 3 remains.
+  Support         pass. GP or trained support named in posts 1, 2, 3 and 4, framed
+                  alongside and never instead of.
+
+Skipped or blocked: none.
+Queued rows remaining: 44.
+
+Notes for Harry:
+  - The gate gained a FAQ schema check this run. It caught a real mismatch in
+    post 2 before publish.
+  - what-is-self-belief has a pre-existing FAQ schema answer that does not match
+    its visible text. Not fixed here.
+  - 18 older posts still fail the gate, almost all for missing FAQPage schema.
