@@ -107,7 +107,10 @@ export default function AboutPage() {
 
         <div style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.9, fontFamily: "'Open Sans', sans-serif" }}>
           <p style={{ marginBottom: 24 }}>
-            Before I had kids, I quit my job and went travelling for six months.
+            Before I had kids, my wife and I got married. Then we both quit our jobs and went travelling for six months.
+          </p>
+          <p style={{ marginBottom: 24 }}>
+            We had no real plan. It was a big leap of faith, and we took it together.
           </p>
           <p style={{ marginBottom: 24 }}>
             Somewhere in those six months, meditation and looking inward instead of outward changed how I saw everything. I came home wanting to experience life, not just live it.

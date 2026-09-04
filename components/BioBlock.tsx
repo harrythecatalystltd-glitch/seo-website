@@ -25,8 +25,11 @@ export default function BioBlock({ reason }: { reason: string }) {
           <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
           Who&apos;s Behind This
         </div>
-        <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.72)', lineHeight: 1.82, marginBottom: 18 }}>
+        <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.72)', lineHeight: 1.82, marginBottom: 14 }}>
           {reason}
+        </p>
+        <p style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.42)', lineHeight: 1.6, marginBottom: 18 }}>
+          BSc Sports Therapy, MEd (Masters in Education). Not coaching or counselling qualifications, just background.
         </p>
         <Link href="/about" style={{ fontSize: '0.85rem', color: 'var(--gold)', fontWeight: 700, textDecoration: 'none' }}>Read my full story →</Link>
       </div>

@@ -30,7 +30,7 @@ export const manualPosts: ManualPost[] = [
 
 <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
-  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Before kids, I quit my job and went travelling for six months. Meditation and looking inward changed how I saw life. Then I had two kids, let the inner work go, and six years later I was stuck and low. I went back to it and found three books: <strong>Letting Go</strong> taught me how to stop holding onto negative feelings that were never mine to keep. <strong>Truth vs Falsehood</strong> taught me that my perspective is not reality, and that seeing people and situations honestly is what actually sets you free. <strong>The 5am Club</strong> taught me how to turn both of those into a daily practice instead of an idea I only remembered when things got bad.</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Before kids, my wife and I got married, then we both quit our jobs and went travelling for six months. Meditation and looking inward changed how I saw life. Then I had two kids, let the inner work go, and six years later I was stuck and low. I went back to it and found three books: <strong>Letting Go</strong> taught me how to stop holding onto negative feelings that were never mine to keep. <strong>Truth vs Falsehood</strong> taught me that my perspective is not reality, and that seeing people and situations honestly is what actually sets you free. <strong>The 5am Club</strong> taught me how to turn both of those into a daily practice instead of an idea I only remembered when things got bad.</p>
 </div>
 
 <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
@@ -48,7 +48,9 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="lost-myself">The Six Years I Lost Myself</h2>
 
-<p>Before I had kids, I quit my job and went travelling for six months.</p>
+<p>Before I had kids, my wife and I got married. Then we both quit our jobs and went travelling for six months.</p>
+
+<p>We had no real plan. It was a big leap of faith, and we took it together.</p>
 
 <p>Somewhere in those six months, meditation and looking inward instead of outward changed how I saw everything. I came home wanting to experience life, not just live it.</p>
 
@@ -872,7 +874,7 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="six-years">The Six Years I Lived This</h2>
 
-<p>Before I had kids, I quit my job and went travelling for six months. Meditation and looking inward changed how I saw everything, and I came home wanting to experience life, not just live it.</p>
+<p>Before I had kids, my wife and I got married, then we both quit our jobs and went travelling for six months. Meditation and looking inward changed how I saw everything, and I came home wanting to experience life, not just live it.</p>
 
 <p>Then I had two kids. I threw myself into being a parent, and the inner work, the meditation, the yoga, all of it fell away while I focused on them. About six years later, I was stuck. Low mood, going through the motions, further from that person I&apos;d become while travelling than I even realised.</p>
 
@@ -958,7 +960,7 @@ export const manualPosts: ManualPost[] = [
 
 <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
-  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Feeling lost in your thirties is extremely common, life just stops asking you to figure out who you are once you are busy building it. In my case, it followed a huge high: quitting my job and travelling for six months, which changed how I saw everything, followed by two kids and six years of quietly losing that person again. What actually helped was not a plan. It was going back to daily inner work, letting go of what I was carrying and seeing my life more honestly, until I recognised myself again.</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Feeling lost in your thirties is extremely common, life just stops asking you to figure out who you are once you are busy building it. In my case, it followed a huge high: getting married, both of us quitting our jobs and travelling for six months, which changed how I saw everything, followed by two kids and six years of quietly losing that person again. What actually helped was not a plan. It was going back to daily inner work, letting go of what I was carrying and seeing my life more honestly, until I recognised myself again.</p>
 </div>
 
 <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
@@ -987,7 +989,7 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="my-story">My Own Version of This</h2>
 
-<p>Before I had kids, I quit my job and went travelling for six months. It was the biggest risk I had ever taken, and I loved it. Somewhere in those six months, meditation and looking inward instead of outward changed how I saw everything. I came home a different person, wanting to experience life, not just live it. That earlier stretch, before the kids and before any of this made sense, is written out in full in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
+<p>Before I had kids, my wife and I got married, then we both quit our jobs and went travelling for six months. It was the biggest risk I had ever taken, and I loved it. Somewhere in those six months, meditation and looking inward instead of outward changed how I saw everything. I came home a different person, wanting to experience life, not just live it. That earlier stretch, before the kids and before any of this made sense, is written out in full in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
 
 <p>Then I had two kids. I threw myself into being a parent, and the inner work, the meditation, the yoga, all of it fell away while I focused on them. About six years later, I was lost. Low mood, going through the motions, further from that person I had become while travelling than I even realised at the time.</p>
 
@@ -1174,13 +1176,13 @@ export const manualPosts: ManualPost[] = [
     readingTime: 8,
     image: '/blog/trust-your-gut-instead-of-overthinking.jpg',
     html: `
-<p>The biggest decision of my life so far was made almost entirely on gut. I quit my job and went travelling, with no real plan beyond that. It is still the biggest risk I have ever taken.</p>
+<p>The biggest decision of my life so far was made almost entirely on gut. My wife and I had just got married. We both quit our jobs and went travelling, with no real plan beyond that. It is still the biggest risk I have ever taken.</p>
 
 <p>I loved it, and I came back a different person. What I did not expect is what it did to every decision after that one. Here is what trusting my gut on the big one taught me about overthinking the small ones.</p>
 
 <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
-  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Quitting my job and travelling with no real plan was the biggest gut decision I have ever made, and it worked out better than I could have hoped. What I did not expect was the effect it had afterwards: once you have made one genuinely big decision on gut and lived with it, smaller decisions stop feeling so heavy by comparison. I think overthinking often comes from never having proven to yourself that you can trust a gut call. Once you have, everything else gets easier, not because the stakes are lower, but because your own judgement has evidence behind it.</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Getting married, then both of us quitting our jobs and travelling with no real plan, was the biggest gut decision I have ever made, and it worked out better than I could have hoped. What I did not expect was the effect it had afterwards: once you have made one genuinely big decision on gut and lived with it, smaller decisions stop feeling so heavy by comparison. I think overthinking often comes from never having proven to yourself that you can trust a gut call. Once you have, everything else gets easier, not because the stakes are lower, but because your own judgement has evidence behind it.</p>
 </div>
 
 <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
@@ -1197,7 +1199,9 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="biggest-risk">The Biggest Risk I Have Ever Taken</h2>
 
-<p>I quit my job and went travelling for six months with nothing close to a proper plan. Looking back, it is still the single biggest risk I have ever taken, and at the time it did not feel calculated at all. It felt like a gut decision, made because staying suddenly felt like the wrong thing far more clearly than going felt like the right one.</p>
+<p>We had just got married. Then we both quit our jobs and went travelling for six months, with nothing close to a proper plan. Looking back, it is still the single biggest risk I have ever taken, and at the time it did not feel calculated at all. It felt like a gut decision, made because staying suddenly felt like the wrong thing far more clearly than going felt like the right one.</p>
+
+<p>My wife made the same call at the same time. That part matters more than I realised back then. A gut decision you make on your own only costs you if it goes wrong. This one was not only mine to get wrong, and we took it anyway.</p>
 
 <p>I loved it. I came back a different person, and that trip is where the meditation and inner-work habits that eventually became this whole site first started.</p>
 
@@ -1243,7 +1247,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is trusting your gut just another way of saying ignore the risks?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. I still weighed the risk of quitting my job, I just did not let the analysis run forever, waiting for a certainty that was never going to arrive. Trusting your gut is deciding once you have enough information, not deciding with none.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. I still weighed the risk of quitting our jobs, I just did not let the analysis run forever, waiting for a certainty that was never going to arrive. Trusting your gut is deciding once you have enough information, not deciding with none.</p>
   </div>
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
@@ -1578,7 +1582,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>That order matters. Most people wait to feel confident before they act. It works the other way round. You act, in a small, repeatable way, and the confidence turns up afterwards as evidence.</p>
 
-<p>The biggest risk I ever took was quitting my job to go travelling, with no real plan. It was a gut decision, not a confident one. But making that one huge decision made every smaller decision after it feel easy by comparison. I write more about trusting that instinct instead of overthinking every choice in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">How to Trust Your Gut Instead of Overthinking Every Decision</a>.</p>
+<p>The biggest risk I ever took was when my wife and I quit our jobs to go travelling, with no real plan. It was a gut decision, not a confident one. But making that one huge decision made every smaller decision after it feel easy by comparison. I write more about trusting that instinct instead of overthinking every choice in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">How to Trust Your Gut Instead of Overthinking Every Decision</a>.</p>
 
 <p>Twenty minutes a day works on the same principle, just at a much smaller scale. You are not waiting to believe in yourself. You are giving yourself a small, honest reason to.</p>
 
@@ -1983,7 +1987,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Can I ever make a big change all at once?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Sometimes a single big decision is right, I made one myself when I quit my job to go travelling with no real plan. But even then, what kept the change alive afterwards was the small daily habits I built once the big decision was already made.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Sometimes a single big decision is right, I made one myself when my wife and I quit our jobs to go travelling with no real plan. But even then, what kept the change alive afterwards was the small daily habits I built once the big decision was already made.</p>
   </div>
 
   <div style="padding:22px 0 0;">
@@ -2231,7 +2235,7 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="how-my-why-shaped-my-career">How My Why Shaped My Career</h2>
 
-<p>Before I had kids, I quit my job and went travelling for six months with no real plan. It was the biggest risk I had ever taken, and it was a gut decision, not a confident one. The full story of what pushed me to go, and the year of feeling lost that came before it, is in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
+<p>Before I had kids, my wife and I got married, then we both quit our jobs and went travelling for six months with no real plan. It was the biggest risk I had ever taken, and it was a gut decision, not a confident one. The full story of what pushed me to go, and the year of feeling lost that came before it, is in <a href="/blog/losing-your-sense-of-self" style="color:#FFD700;">losing your sense of self</a>.</p>
 
 <p>That one decision made every smaller decision after it feel easy by comparison. Once you have done the biggest one, the rest stop feeling so heavy.</p>
 
@@ -2547,13 +2551,13 @@ export const manualPosts: ManualPost[] = [
     html: `
 <p>About seven years ago I stopped recognising myself. Nothing dramatic happened, no crisis anyone could point at. I just woke up one day with no real sense of who I was or what I was for.</p>
 
-<p>It took a quit job, six months away and a long stretch of sitting with it before that changed.</p>
+<p>It took a wedding, two quit jobs, six months away and a long stretch of sitting with it before that changed.</p>
 
 <p>Here is what losing your sense of self actually feels like from the inside, why the searching part is so lonely, and what finally worked.</p>
 
 <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
-  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Losing your sense of self is usually quiet, not dramatic. Mine happened before I had kids, while I was meditating a lot and questioning everything I thought I was. Meditation did not hand me an answer, it just took away the noise I had been hiding behind, and that felt worse before it felt better. The spiritual path is hard and lonely, but there is always an answer at the end of it. I quit my job and travelled for six months, and came back wanting a direct reason behind what I did. Start smaller than I did: write down what actually gives you energy, check the intention behind it is a good one, then build from there.</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Losing your sense of self is usually quiet, not dramatic. Mine happened before I had kids, while I was meditating a lot and questioning everything I thought I was. Meditation did not hand me an answer, it just took away the noise I had been hiding behind, and that felt worse before it felt better. The spiritual path is hard and lonely, but there is always an answer at the end of it. My wife and I got married, both quit our jobs and travelled for six months, and I came back wanting a direct reason behind what I did. Start smaller than I did: write down what actually gives you energy, check the intention behind it is a good one, then build from there.</p>
 </div>
 
 <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
@@ -2635,9 +2639,11 @@ export const manualPosts: ManualPost[] = [
 
 <h2 id="six-months-away">The Six Months Away, and What Travel Actually Did</h2>
 
-<p>In the end I quit my job and went travelling for six months with no real plan.</p>
+<p>In the end my wife and I got married, quit both our jobs, and went travelling for six months with no real plan.</p>
 
 <p>It was the biggest risk I had ever taken. I want to be clear that it was a gut decision, not a confident one. I was not brave, I just could not carry on the way I was.</p>
+
+<p>She made the same call at the same time, which is the part I am most grateful for. Leaving is a lot easier when you are not asking someone to wait for you.</p>
 
 <p>Here is what travel actually did, and it is not what the films suggest.</p>
 
@@ -3277,13 +3283,13 @@ export const manualPosts: ManualPost[] = [
     html: `
 <p>I start and end every day by reading the same short list on my phone.</p>
 
-<p>Six lines. Nothing clever. It takes about forty seconds.</p>
+<p>Eight lines. Nothing clever. It takes about forty seconds.</p>
 
 <p>That list has carried me through some genuinely hard days, and it is the single easiest thing I do to stay present and make decent decisions.</p>
 
 <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
   <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
-  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">A mental state checklist is a short list of reminders about how you want to operate, kept somewhere you will see it, read first thing and last thing. Not goals, not affirmations. Instructions. Mine has six lines covering how I want to show up, how I want to treat people, and what I refuse to chase. I read it in the morning to set the day, at night to sleep on the right thoughts, and in the middle of a bad afternoon when emotions are running the show. Spend thirty minutes writing yours. Keep it short enough to recite from memory, or you will stop reading it by week two.</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">A mental state checklist is a short list of reminders about how you want to operate, kept somewhere you will see it, read first thing and last thing. Not goals, not affirmations. Instructions. Mine has eight lines covering how I want to show up, how I want to treat people, and what I refuse to chase. I read it in the morning to set the day, at night to sleep on the right thoughts, and in the middle of a bad afternoon when emotions are running the show. Spend thirty minutes writing yours. Keep it short enough to recite from memory, or you will stop reading it by week two.</p>
 </div>
 
 <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
@@ -3321,7 +3327,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>You cannot out-willpower that in the moment. The moment is already gone.</p>
 
-<p>What you can do is decide in advance. When you read the same six lines every morning, you are loading them in before the day starts throwing things at you.</p>
+<p>What you can do is decide in advance. When you read the same eight lines every morning, you are loading them in before the day starts throwing things at you.</p>
 
 <p>Then something happens at two in the afternoon, and instead of nothing being available, one of the lines turns up. Be curious. Be calm. That is often all it takes to leave a gap between the feeling and the response.</p>
 
@@ -3357,7 +3363,13 @@ export const manualPosts: ManualPost[] = [
 
 <p><strong>Be truthful in all areas of my life and to myself.</strong> The second half of that is the hard half. It is easy to be honest with other people and still tell yourself a story about why you did not do the thing.</p>
 
-<p>Six lines. I can recite them without looking, which is exactly the point.</p>
+<p><strong>Be kind.</strong> Two words, and the shortest line on the list. It is there because on the days I am stressed it is the first thing to go, and it is the one that costs other people the most when it does.</p>
+
+<p><strong>You do not own negative thoughts. It is a choice to believe them.</strong> This one is a reminder rather than an instruction, which breaks my own rule slightly. It earns its place because it is the line I need at two in the afternoon when a thought has already been running for an hour and I have been treating it as a fact.</p>
+
+<p>Eight lines. I can recite them without looking, which is exactly the point.</p>
+
+<p>It was six for a long time. The last two went on more recently, which is how this is supposed to work. You review it every few months and change it slowly.</p>
 
 <div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
   <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
@@ -3451,7 +3463,7 @@ export const manualPosts: ManualPost[] = [
 
 <p>Without it, a hard morning used to set the tone for everything after it. I would carry it into the afternoon, make worse decisions from it, and go to bed with all of it still running.</p>
 
-<p>Now there is a point where I stop, read six lines, and remember how I decided to operate. The day is still hard. I am just not adding to it.</p>
+<p>Now there is a point where I stop, read eight lines, and remember how I decided to operate. The day is still hard. I am just not adding to it.</p>
 
 <p>Over months, that is the whole difference. Not never having bad days, but not compounding them.</p>
 
@@ -3476,7 +3488,7 @@ export const manualPosts: ManualPost[] = [
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
     <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How many things should be on the list?</p>
-    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Five to eight lines. Mine has six. The real test is whether you can recite it from memory after a couple of weeks, because a list you have to concentrate to get through is one you will stop opening.</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Five to eight lines. Mine has eight. The real test is whether you can recite it from memory after a couple of weeks, because a list you have to concentrate to get through is one you will stop opening.</p>
   </div>
 
   <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
@@ -3504,7 +3516,7 @@ export const manualPosts: ManualPost[] = [
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"How is this different from affirmations?","acceptedAnswer":{"@type":"Answer","text":"An affirmation is a claim about who you are, which part of you may not believe yet. A checklist line is an instruction you can act on immediately, whatever mood you are in. You cannot fail an instruction, you can only follow it or not, so it survives the days when you do not feel like yourself."}},
-{"@type":"Question","name":"How many things should be on the list?","acceptedAnswer":{"@type":"Answer","text":"Five to eight lines. Mine has six. The real test is whether you can recite it from memory after a couple of weeks, because a list you have to concentrate to get through is one you will stop opening."}},
+{"@type":"Question","name":"How many things should be on the list?","acceptedAnswer":{"@type":"Answer","text":"Five to eight lines. Mine has eight. The real test is whether you can recite it from memory after a couple of weeks, because a list you have to concentrate to get through is one you will stop opening."}},
 {"@type":"Question","name":"Where should I keep it?","acceptedAnswer":{"@type":"Answer","text":"Somewhere that takes two taps or less. I pin mine to the top of my phone notes. A lock screen, a card in your wallet or a note by the kettle all work too. Friction is the only thing that kills this habit."}},
 {"@type":"Question","name":"Can I just use someone else's list?","acceptedAnswer":{"@type":"Answer","text":"You can borrow the structure, but not the lines. Someone else's list reads like advice, and advice is easy to ignore at the exact moment you need it. Write yours from your own patterns and it will carry weight a copied one never does."}},
 {"@type":"Question","name":"How long before it makes a difference?","acceptedAnswer":{"@type":"Answer","text":"The night-time reading changes how you fall asleep almost immediately. The rest builds over a few weeks, as the lines start turning up on their own in the middle of a difficult moment. That is the point where it starts doing real work."}},
