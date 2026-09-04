@@ -181,6 +181,27 @@ function checkPost(post, routes, allSlugs) {
   if (faqSchema) {
     const qCount = (html.match(/"@type"\s*:\s*"Question"/g) || []).length
     if (qCount < 5) fails.push('FAQ schema has ' + qCount + ' questions. Minimum is 5.')
+
+    // Google requires the answer in the schema to be on the page. It is easy to
+    // edit one copy and forget the other, so compare them rather than trusting it.
+    const block = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)
+    if (block) {
+      const visible = stripHtml(html.replace(/<script[\s\S]*?<\/script>/g, ' '))
+      try {
+        const ld = JSON.parse(block[1])
+        for (const q of ld.mainEntity || []) {
+          if (!visible.includes(q.name)) {
+            fails.push('FAQ schema question is not on the page: "' + q.name + '".')
+          }
+          const answer = (q.acceptedAnswer && q.acceptedAnswer.text) || ''
+          if (answer && !visible.includes(answer)) {
+            fails.push('FAQ schema answer does not match the visible one for: "' + q.name + '".')
+          }
+        }
+      } catch {
+        fails.push('FAQ JSON-LD does not parse.')
+      }
+    }
   }
 
   if (!/Written by Harry/i.test(html)) fails.push('Not signed off as Harry.')

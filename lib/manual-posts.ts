@@ -5225,4 +5225,822 @@ export const manualPosts: ManualPost[] = [
 </div>
 `,
   },
+  {
+    slug: 'how-to-stop-overthinking-small-decisions',
+    title: 'How to Stop Overthinking Small Decisions',
+    description: 'Small decisions are the ones that drain you, because there are hundreds of them. Here is what I think is actually going on, and what helps me.',
+    category: 'Personal Development',
+    publishedAt: '2026-09-04',
+    readingTime: 11,
+    image: '/blog/how-to-stop-overthinking-small-decisions.jpg',
+    html: `
+<p>The biggest decision of my life was made on gut, not on analysis.</p>
+
+<p>Small ones used to take me far longer than they were worth.</p>
+
+<p>That sounds like it should be the other way round. It is not, and working out why is what stopped small decisions costing me so much.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Small decisions cost more than big ones, because there are hundreds of them and none of them feel important enough to sit down and think about properly. I do not think the problem is the choice. I think you are waiting to feel certain, and certainty is a feeling, not information. So more thinking never delivers it. What helps me is noticing the tightness first, letting it go, then asking what actually happens if I get this wrong. Usually the honest answer is nothing much. Then I pick. Tidying your life so you face fewer choices helps a bit, but it treats the symptom, and the loop turns up again on the next thing you cannot avoid.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#small-cost">Why the small ones cost more than the big ones</a></li>
+    <li style="margin-bottom:8px;"><a href="#whats-happening">What is actually happening when you cannot pick</a></li>
+    <li style="margin-bottom:8px;"><a href="#certainty">The certainty you are waiting for is a feeling</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-i-do">What I do when I catch myself looping</a></li>
+    <li style="margin-bottom:8px;"><a href="#reducing-choices">Why cutting down your choices only half works</a></li>
+    <li style="margin-bottom:8px;"><a href="#big-decisions">The strange thing about big decisions</a></li>
+    <li style="margin-bottom:8px;"><a href="#performing">What changed when I stopped performing</a></li>
+    <li style="margin-bottom:8px;"><a href="#this-week">What to try this week</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-small-decisions">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="small-cost">Why the Small Ones Cost More Than the Big Ones</h2>
+
+<p>A big decision gets treated like a big decision. You give it time. You talk to someone. You accept that it is hard, so the difficulty does not feel like a personal failing.</p>
+
+<p>Small decisions get none of that. Nobody sits down to properly consider a sandwich.</p>
+
+<p>So when a small one takes far longer than it should, there is no explanation available except the obvious one. Something must be wrong with you.</p>
+
+<p>That is the real cost. Not the lost minutes. The quiet conclusion you draw about yourself afterwards, several times a day, for years.</p>
+
+<p>And there are hundreds of them. Which reply to send. Which route to drive. Whether to say something in the group chat. Each one is tiny. Together they are most of your mental life.</p>
+
+<h2 id="whats-happening">What Is Actually Happening When You Cannot Pick</h2>
+
+<p>Here is my honest read, and it took me a long time to see it.</p>
+
+<p>When I could not pick, I was not weighing anything up. I had already weighed it up. I knew both options were fine.</p>
+
+<p>I was waiting for a feeling to arrive. The feeling of being sure.</p>
+
+<p>Until that turned up, picking felt like guessing, and guessing felt dangerous. So I went round again, looking for one more piece of information that would settle it.</p>
+
+<p>That information does not exist. There is no fact about lunch that produces certainty.</p>
+
+<p>This is the same thing I write about in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">trusting your gut instead of overthinking</a>, just shrunk down to something small enough that you never examine it.</p>
+
+<h2 id="certainty">The Certainty You Are Waiting For Is a Feeling</h2>
+
+<p>This is the bit that changed things for me.</p>
+
+<p>Certainty is not information. It is a feeling, in the same family as comfort and safety. And like any feeling, it can be let go of.</p>
+
+<p>You cannot think your way into it. You have been trying that, which is why the loop runs so long.</p>
+
+<p>Underneath the need to be sure, there is usually a want. Approval, if the decision involves other people. Control, if it involves anything you cannot predict. Security, if getting it wrong would cost you something.</p>
+
+<p>Once you see which one is driving it, the decision stops being about the sandwich.</p>
+
+<p>I go through the mechanics of releasing a feeling properly in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a>. It is the same move, done in about twenty seconds.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="what-i-do">What I Do When I Catch Myself Looping</h2>
+
+<p>Three steps, in this order. The order is the whole thing.</p>
+
+<p><strong>Notice the tightness.</strong> There is a physical feeling before there is a thought. Chest or stomach, usually. Catching it is easier than catching the thought, because the thought sounds reasonable and the tightness does not.</p>
+
+<p><strong>Let it be there.</strong> Do not argue with it. Do not tell yourself it is silly to feel tense about a sandwich. Just find where it is and stay with it for a few breaths. It fades faster than you expect, because there was never much fuel in it.</p>
+
+<p><strong>Then ask what actually happens if I get this wrong.</strong> Not what could go wrong. What actually happens. The honest answer for a small decision is almost always some mild inconvenience for about an hour.</p>
+
+<p>Then pick. Usually the picking is easy by that point, because you were never stuck on the options.</p>
+
+<p>Notice what is not in that list. I am not telling you to think about it harder, and I am not telling you to reframe the thought into something more positive. Reframing a thought you have not released is <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">suppression wearing a nicer outfit</a>. It works for about a minute.</p>
+
+<h2 id="reducing-choices">Why Cutting Down Your Choices Only Half Works</h2>
+
+<p>Most advice on this says the same thing. Have fewer options. Eat the same breakfast. Wear a uniform. Batch your decisions.</p>
+
+<p>I think that genuinely helps, and I do some of it. Fewer choices means fewer chances to loop.</p>
+
+<p>But I want to be honest about what it is doing. It is removing the situations that trigger the problem. It is not touching the problem.</p>
+
+<p>You cannot remove every choice from your life. The ones that are left are usually the ones that matter more, which means the loop turns up exactly where it is most expensive.</p>
+
+<p>So use the routines. Just do not mistake a tidier life for a settled one.</p>
+
+<h2 id="big-decisions">The Strange Thing About Big Decisions</h2>
+
+<p>The biggest decision of my life was made almost entirely on gut.</p>
+
+<p>My wife and I had just got married. We both quit our jobs and went travelling for six months, with no real plan beyond that. It is still the biggest risk I have ever taken.</p>
+
+<p>It was not a confident decision. It was a leap of faith, and we took it together. She quit her job too, at the same time, which meant it was not only mine to get wrong.</p>
+
+<p>I have thought about why that one was clearer than the small ones. My honest read is that the stakes were so obviously high that I stopped pretending a right answer existed. There was nothing to look up. So I stopped looking, and felt for it instead.</p>
+
+<p>Small decisions let you keep pretending. There is always one more thing you could check.</p>
+
+<h2 id="performing">What Changed When I Stopped Performing</h2>
+
+<p>My version of people-pleasing was not struggling to say no. It was performing. Being whoever I thought the room wanted, agreeable and entertaining on their terms.</p>
+
+<p>When I stopped, something I did not expect happened. I started making decisions much faster.</p>
+
+<p>It makes sense looking back. A lot of my small decisions were not decisions at all. They were calculations about how the choice would land with other people.</p>
+
+<p>Take the audience out and there is far less to work out. I wrote about the rest of that shift in <a href="/blog/how-to-stop-people-pleasing" style="color:#FFD700;">how to stop people-pleasing</a>.</p>
+
+<p>I should say I have not fixed this. I still stall on things where I care what someone will think of the answer. It is quicker to spot now, and I no longer treat it as evidence of anything.</p>
+
+<h2 id="this-week">What to Try This Week</h2>
+
+<p>One thing, not a system.</p>
+
+<p>The next time you catch yourself on the second lap of a small decision, stop and notice where it sits in your body. Stay there for three breaths. Then pick whichever option you were leaning towards when you started.</p>
+
+<p>You will get some of them wrong. That is the point. Getting a small decision wrong is how you find out that getting a small decision wrong costs almost nothing.</p>
+
+<p>Self-belief is not a feeling you wait for. It is evidence you build, and this is a cheap way to build some. That is the same argument I make in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule</a>, applied to something that takes seconds instead of twenty minutes.</p>
+
+<p>If the looping is loud enough that it is running most of your day, that is worth taking seriously rather than pushing through. It is what <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a> is for, and if it comes with anxiety that is affecting how you function, please speak to your GP as well. What I do here sits alongside professional support, never instead of it.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck on something specific?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me the decision you keep going round on and I will tell you honestly what I think is underneath it. No sales pitch, ever, just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-small-decisions">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why do I overthink small decisions but handle big ones fine?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Because a big decision is obviously beyond looking up, so at some point you stop searching and feel for it instead. A small one always leaves you one more thing you could check, so the search never ends on its own. The size of the decision is not what makes it hard. The availability of more information is.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is overthinking small things a sign of anxiety?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I am not trained to answer that and I would not want to guess about anyone. What I can say is that the two often turn up together, and that if it is affecting your sleep, your work or your relationships, a GP is the right person to talk to. Nothing here is a substitute for that. It can sit alongside it.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I just set a timer and force myself to decide?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Timers work, but watch what they run on. If the timer is a way of forcing yourself because you think you would be useless without pressure, you have just added a small punishment to every choice. I would rather you let the tightness go and then pick, which takes about the same time and leaves you liking yourself more afterwards.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I genuinely do not know which option is better?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Then it is close, and close means it matters less than it feels like it does. If one option were clearly better you would not be stuck. Being stuck is itself the information: you are choosing between two acceptable things, which is a good position to be in and a bad one to spend twenty minutes on.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does this ever go away completely?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Not for me. I still stall on things where I care what somebody will think of my answer. What changed is the length of the loop and what I make it mean. It used to be a long loop and a conclusion about my character. Now it is closer to a few seconds and a note that I am looking for approval again.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Where should I start if I only do one thing?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Notice where the tightness sits in your body before you try to solve anything. That one move puts you a step behind the thought instead of inside it, and everything else here depends on it. If you want the longer version of that skill, the letting go post is the place to go next.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Why do I overthink small decisions but handle big ones fine?","acceptedAnswer":{"@type":"Answer","text":"Because a big decision is obviously beyond looking up, so at some point you stop searching and feel for it instead. A small one always leaves you one more thing you could check, so the search never ends on its own. The size of the decision is not what makes it hard. The availability of more information is."}},
+{"@type":"Question","name":"Is overthinking small things a sign of anxiety?","acceptedAnswer":{"@type":"Answer","text":"I am not trained to answer that and I would not want to guess about anyone. What I can say is that the two often turn up together, and that if it is affecting your sleep, your work or your relationships, a GP is the right person to talk to. Nothing here is a substitute for that. It can sit alongside it."}},
+{"@type":"Question","name":"Should I just set a timer and force myself to decide?","acceptedAnswer":{"@type":"Answer","text":"Timers work, but watch what they run on. If the timer is a way of forcing yourself because you think you would be useless without pressure, you have just added a small punishment to every choice. I would rather you let the tightness go and then pick, which takes about the same time and leaves you liking yourself more afterwards."}},
+{"@type":"Question","name":"What if I genuinely do not know which option is better?","acceptedAnswer":{"@type":"Answer","text":"Then it is close, and close means it matters less than it feels like it does. If one option were clearly better you would not be stuck. Being stuck is itself the information: you are choosing between two acceptable things, which is a good position to be in and a bad one to spend twenty minutes on."}},
+{"@type":"Question","name":"Does this ever go away completely?","acceptedAnswer":{"@type":"Answer","text":"Not for me. I still stall on things where I care what somebody will think of my answer. What changed is the length of the loop and what I make it mean. It used to be a long loop and a conclusion about my character. Now it is closer to a few seconds and a note that I am looking for approval again."}},
+{"@type":"Question","name":"Where should I start if I only do one thing?","acceptedAnswer":{"@type":"Answer","text":"Notice where the tightness sits in your body before you try to solve anything. That one move puts you a step behind the thought instead of inside it, and everything else here depends on it. If you want the longer version of that skill, the letting go post is the place to go next."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'what-do-you-do-question-confidence',
+    title: 'What to Say When Someone Asks What You Do and You Feel Small',
+    description: 'The question is not the problem. Here is what I think that half second of dread actually is, and why a better sounding answer never fixes it.',
+    category: 'Personal Development',
+    publishedAt: '2026-09-04',
+    readingTime: 11,
+    image: '/blog/what-do-you-do-question-confidence.jpg',
+    html: `
+<p>There is a half second, right after someone asks what you do, where you decide how to say it.</p>
+
+<p>Most people do not notice that half second. If you do, you know exactly what I am talking about.</p>
+
+<p>You are not looking for the words. You already have the words. You are working out how they are going to land.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">The dread is not about your job. It is about the gap between how you see your work and how you think it reads to other people. Most advice tells you to craft a better answer, and I think that makes it worse, because polishing the sentence is performing, and performing is exhausting. What helped me was noticing the feeling before I opened my mouth, letting it go, then saying the plain version. Not a confident version. The plain one. I spent twelve years in the same line of work quietly not minding it, and no clever phrasing would have touched that. What changed was not my answer. It was that I stopped needing the answer to do a job for me.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#not-the-question">The question is not the problem</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-pause">What that half second actually is</a></li>
+    <li style="margin-bottom:8px;"><a href="#better-answer">Why a better answer does not fix it</a></li>
+    <li style="margin-bottom:8px;"><a href="#twelve-years">Twelve years of quietly not minding</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-changed">What actually changed for me</a></li>
+    <li style="margin-bottom:8px;"><a href="#not-a-verdict">Your job is not a verdict on you</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-to-say">What to say in the moment</a></li>
+    <li style="margin-bottom:8px;"><a href="#bigger-version">When it is pointing at something bigger</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-what-do-you-do">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="not-the-question">The Question Is Not the Problem</h2>
+
+<p>Nobody asking what you do is running an assessment. They are making conversation, and it is the easiest opener in the language.</p>
+
+<p>I know that does not help much in the moment. But it is worth saying plainly, because the story in your head has them holding a clipboard.</p>
+
+<p>What actually happened is that a person said seven words. Everything else in that moment is something you added on top.</p>
+
+<p>Separating those two things is most of the work here. What happened, and what you made it mean.</p>
+
+<h2 id="the-pause">What That Half Second Actually Is</h2>
+
+<p>My honest read is that it is a fast calculation, and it is not about your job at all.</p>
+
+<p>You are measuring the distance between two things. How you see your work, and how you think it sounds out loud to this particular person.</p>
+
+<p>When those two are close, the question is easy. When there is a gap, you feel it as a drop in your chest before you have thought anything.</p>
+
+<p>Notice what that means. The size of the dread does not track the job. It tracks the gap.</p>
+
+<p>Which is why two people doing identical work can have completely different experiences of the same question. One has accepted their own answer. The other has not.</p>
+
+<h2 id="better-answer">Why a Better Answer Does Not Fix It</h2>
+
+<p>Almost every piece of advice on this says the same thing. Reframe it. Lead with the impact, not the title. Have a line ready.</p>
+
+<p>I understand why. A good line does get you through the party.</p>
+
+<p>But look at what it asks you to do. Prepare a version of yourself that goes down better than the real one. That is performing, and performing was the thing that quietly cost me the most.</p>
+
+<p>My version of people-pleasing was never struggling to say no. It was being whoever I thought the room wanted. Agreeable, entertaining, on their terms. I got good at it, and it left me with no idea who I was when nobody was watching. I wrote about the whole thing in <a href="/blog/how-to-stop-people-pleasing" style="color:#FFD700;">how to stop people-pleasing</a>.</p>
+
+<p>A polished answer to this question is that same habit in miniature. It works, and it costs you something every time you use it.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="twelve-years">Twelve Years of Quietly Not Minding</h2>
+
+<p>I have been in the same line of work for about twelve years, on and off, with the travelling gap in the middle.</p>
+
+<p>For a long stretch of that I had quietly lost interest. There was no breakdown and no signed-off-sick moment. Just a slow fade that I mistook for how work is supposed to feel.</p>
+
+<p>Through that stretch I could have given anyone a perfectly good answer to the question. Clear, pleasant, nothing wrong with it.</p>
+
+<p>A good answer would not have touched what was actually going on.</p>
+
+<p>The sentence was never the issue. I was describing work I had stopped caring about, in words chosen to make it sound better than it felt, and no phrasing closes a gap like that.</p>
+
+<p>That slow fade has a name I only found later, and I wrote about it in <a href="/blog/burnout-and-self-belief" style="color:#FFD700;">burnout and self-belief</a>.</p>
+
+<h2 id="what-changed">What Actually Changed for Me</h2>
+
+<p>I now work in sales, and I love it. That surprised me more than anyone. I would not have predicted it.</p>
+
+<p>I love it because I get to help people directly through honest conversations, which turns out to be the thing I actually wanted from work all along.</p>
+
+<p>So the easy story is: get a job you love and the question stops hurting.</p>
+
+<p>I do not think that is quite it, and I want to be careful here, because I cannot promise anyone a different job or a timeline for getting one.</p>
+
+<p>What changed was smaller and more available. I stopped asking the answer to do a job for me. It no longer had to prove I was doing alright.</p>
+
+<p>Some of that came from the work being a better fit. A lot of it came from no longer needing other people's approval to feel settled about my own life.</p>
+
+<h2 id="not-a-verdict">Your Job Is Not a Verdict on You</h2>
+
+<p>This is the belief underneath everything above, and it is the one I would want you to take away.</p>
+
+<p>You are enough as you are. Not once you have a better title. Not once the answer sounds impressive. Right now, with the job you have got today.</p>
+
+<p>That is not a nice thing to say to make you feel better. It is the thing that makes the question survivable, because if your worth is not on the table, there is nothing to defend.</p>
+
+<p>I have written the long version of that in <a href="/blog/you-are-enough" style="color:#FFD700;">you are enough</a>, and the difference between worth and confidence in <a href="/blog/self-worth-vs-self-esteem-vs-confidence" style="color:#FFD700;">self-worth vs self-esteem vs self-confidence</a>. The short version is that your worth is not something your job is qualified to comment on.</p>
+
+<p>Also worth saying plainly. Life is about experiences, not things. Most of what I actually want out of my life happens nowhere near my work.</p>
+
+<h2 id="what-to-say">What to Say in the Moment</h2>
+
+<p>Three steps, and the order matters more than the words.</p>
+
+<p><strong>Catch the drop.</strong> You will feel it before you think anything. Chest or stomach, usually. Notice it is there.</p>
+
+<p><strong>Let it be there for one breath.</strong> One breath is genuinely enough for this one, because it is a small feeling that only gets big when you fight it mid-sentence.</p>
+
+<p><strong>Then say the plain version.</strong> Your actual job, in normal words, with no upgrade and no apology attached. "I work in sales." "I am a teaching assistant." "I am between things at the moment."</p>
+
+<p>No qualifier. The qualifier is the tell. "Only", "just", "at the moment, but" are all doing the same defensive job, and people hear them.</p>
+
+<p>Then ask them something back, because that is how conversations work anyway.</p>
+
+<p>The plain version feels exposed the first few times. It also ends the transaction cleanly, and nobody has ever thought less of me for it. That is the evidence you are building. Not a feeling you wait for.</p>
+
+<h2 id="bigger-version">When It Is Pointing at Something Bigger</h2>
+
+<p>Sometimes the dread is not about the room. It is a quiet signal that you have been fading for a while and have not said so out loud.</p>
+
+<p>If that is you, the honest thing is to treat it as information rather than a flaw to manage. Something in you has noticed a gap. That is useful.</p>
+
+<p>The daily practice is where I would start, not a career decision made in one evening. Twenty minutes a day of something that grows you, done because it means something to you. That is the argument in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule</a>, and it is what gives you enough clarity to make a bigger call properly later.</p>
+
+<p>If the flatness has been there a long time, or it is affecting your sleep and your health, please speak to your GP. I am not medically trained, and none of this replaces that. It sits alongside it.</p>
+
+<p>If it is more that you freeze up in work situations generally, that is what <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a> is about.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this one through?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me what you say when people ask, and what you wish you could say instead. No sales pitch, ever, just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-what-do-you-do">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is it normal to feel embarrassed about your job?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Very. And it tracks the gap between how you see the work and how you think it sounds, not the work itself. That is why people in jobs others would envy still feel it, and why people in jobs nobody asks about often do not. The feeling is about the distance, not the role.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I just avoid the question or change the subject?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">You can, and it works, but it teaches you that the question is dangerous. Every time you dodge it you confirm the story. I would rather you gave the plain answer and found out nothing happened, because that is the only thing that actually loosens it.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I am unemployed or between jobs?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Say so plainly. "I am between things at the moment" is a complete sentence and it is true. The urge to attach a reason is the same defensive move as the polished job title, and it invites the follow-up you were dreading. Most people move on immediately, because they were making conversation.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is fake it till you make it useful here?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I do not think so, and this is where I disagree with most advice. Faking it is performing, and performing was the exact habit I had to drop. When I stopped, people found me more interesting rather than less. The plain version is less impressive on paper and much easier to keep up for the rest of your life.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does this mean I should change jobs?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Maybe, but I would not make that call off the back of a party. I spent years in work I had lost interest in, and the answer for me was eventually different work. I cannot tell you that will be your answer or when. What I can say is that the daily practice comes first, because a decision that size is much better made from a settled place than a flat one.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What is the one thing to change first?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Drop the qualifier. Cut "only", "just", and "at the moment, but" out of your answer entirely. It is one word and it changes what the sentence is doing, because those words are you arguing a case nobody opened.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is it normal to feel embarrassed about your job?","acceptedAnswer":{"@type":"Answer","text":"Very. And it tracks the gap between how you see the work and how you think it sounds, not the work itself. That is why people in jobs others would envy still feel it, and why people in jobs nobody asks about often do not. The feeling is about the distance, not the role."}},
+{"@type":"Question","name":"Should I just avoid the question or change the subject?","acceptedAnswer":{"@type":"Answer","text":"You can, and it works, but it teaches you that the question is dangerous. Every time you dodge it you confirm the story. I would rather you gave the plain answer and found out nothing happened, because that is the only thing that actually loosens it."}},
+{"@type":"Question","name":"What if I am unemployed or between jobs?","acceptedAnswer":{"@type":"Answer","text":"Say so plainly. \\"I am between things at the moment\\" is a complete sentence and it is true. The urge to attach a reason is the same defensive move as the polished job title, and it invites the follow-up you were dreading. Most people move on immediately, because they were making conversation."}},
+{"@type":"Question","name":"Is fake it till you make it useful here?","acceptedAnswer":{"@type":"Answer","text":"I do not think so, and this is where I disagree with most advice. Faking it is performing, and performing was the exact habit I had to drop. When I stopped, people found me more interesting rather than less. The plain version is less impressive on paper and much easier to keep up for the rest of your life."}},
+{"@type":"Question","name":"Does this mean I should change jobs?","acceptedAnswer":{"@type":"Answer","text":"Maybe, but I would not make that call off the back of a party. I spent years in work I had lost interest in, and the answer for me was eventually different work. I cannot tell you that will be your answer or when. What I can say is that the daily practice comes first, because a decision that size is much better made from a settled place than a flat one."}},
+{"@type":"Question","name":"What is the one thing to change first?","acceptedAnswer":{"@type":"Answer","text":"Drop the qualifier. Cut \\"only\\", \\"just\\", and \\"at the moment, but\\" out of your answer entirely. It is one word and it changes what the sentence is doing, because those words are you arguing a case nobody opened."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'why-you-feel-worse-after-letting-go',
+    title: 'Why You Feel Worse Straight After Letting Go of a Feeling',
+    description: 'You let something go and then feel flat, raw or tearful. Here is what I think that dip actually is, and how to tell it apart from a real warning.',
+    category: 'Personal Development',
+    publishedAt: '2026-09-04',
+    readingTime: 12,
+    image: '/blog/why-you-feel-worse-after-letting-go.jpg',
+    html: `
+<p>You do the thing properly. You sit with a feeling instead of running from it, and it fades.</p>
+
+<p>Then an hour later you are flat, tearful, or oddly irritable, and you have no idea why.</p>
+
+<p>Most people take that as proof they did it wrong. I think it is usually the opposite.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Feeling worse after letting something go is common and it caught me out for weeks. My honest read is that you were using the tension to hold other things down, so when it goes, what was underneath gets room. It usually shows up as flatness, tearfulness, or old memories arriving uninvited. That is different from a warning sign, and the test I use is whether it settles within a day or two and whether you can still function. If it does not settle, or you cannot, that is the point to stop and speak to someone trained, not to push harder. Going gentler is almost always the right adjustment, and never nothing at all.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#nobody-warns">The bit nobody warns you about</a></li>
+    <li style="margin-bottom:8px;"><a href="#three-things">Three things that get mistaken for failure</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-old-stuff">Why old things come up when you stop fighting</a></li>
+    <li style="margin-bottom:8px;"><a href="#flat-afternoon">The flat afternoon after a good release</a></li>
+    <li style="margin-bottom:8px;"><a href="#rebound-vs-warning">How to tell a dip from a warning</a></li>
+    <li style="margin-bottom:8px;"><a href="#when-to-stop">When to stop and get support</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-i-do">What I do on those days</a></li>
+    <li style="margin-bottom:8px;"><a href="#after-weeks">What it looks like after a few weeks</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-feel-worse">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="nobody-warns">The Bit Nobody Warns You About</h2>
+
+<p>Almost everything written about letting go stops at the good part. You feel the feeling, you stop fighting it, it burns out, you feel lighter.</p>
+
+<p>That does happen. It is genuinely the thing that changed my life, and I still do it every day.</p>
+
+<p>What I was not told is that a decent number of sessions end somewhere else entirely. Not lighter. Just open, and a bit raw.</p>
+
+<p>Because it is not what you were told to expect, it is very easy to read as evidence the technique is not working. I think that is the wrong conclusion, and it is the reason I wanted to write this one down.</p>
+
+<p>If you want the technique itself rather than the aftermath, it is written out step by step in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a>.</p>
+
+<h2 id="three-things">Three Things That Get Mistaken for Failure</h2>
+
+<p>These are the three that come up most, both in my own practice and in what people write to me about.</p>
+
+<p><strong>Flatness.</strong> Not sadness exactly. More like the colour has come out of the afternoon. This is the most common one by a distance.</p>
+
+<p><strong>Tearfulness at nothing.</strong> An advert, a song, someone being kind to you in a shop. It arrives sideways and out of proportion to whatever set it off.</p>
+
+<p><strong>Old things turning up.</strong> A memory you had not thought about in years, arriving with its feelings still attached and no obvious reason for being there.</p>
+
+<p>None of those are signs you did it wrong. All three are what it looks like when something that was being held down stops being held down.</p>
+
+<h2 id="why-old-stuff">Why Old Things Come Up When You Stop Fighting</h2>
+
+<p>Here is the mechanism as I understand it, and I want to be clear this is my read rather than anything clinical.</p>
+
+<p>There are only four things you can do with a difficult feeling. Suppress it, vent it, escape it, or let it go. The first three manage it. Only the fourth actually removes it.</p>
+
+<p>Suppression is the one most of us default to, and it is not free. It takes constant low-level effort, like keeping a door shut with your shoulder.</p>
+
+<p>Now let one thing go properly. You take your shoulder off the door for the first time in years.</p>
+
+<p>What was behind it comes forward. Not because you broke something, but because you finally stopped holding it.</p>
+
+<p>That is what the flatness and the old memories usually are. Not new pain. Old pain that had nowhere to go while you were busy.</p>
+
+<p>It is also, I think, a large part of why I got stuck for six years. I stopped doing the daily work when my first was born, and the unreleased quietly piled up until it was running the show. That story is in <a href="/blog/feeling-stuck-in-life" style="color:#FFD700;">feeling stuck in life</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="flat-afternoon">The Flat Afternoon After a Good Release</h2>
+
+<p>I want to describe this one properly, because it is the one that confused me longest.</p>
+
+<p>You let something significant go. It genuinely fades. You feel clear for maybe twenty minutes.</p>
+
+<p>Then the afternoon goes grey. Nothing is wrong. You are not upset about anything you can name. You just have no lift in you.</p>
+
+<p>My honest read is that a lot of what I called energy was actually tension. Being wound up is a kind of fuel, and it is not a good one, but it does get you through a day.</p>
+
+<p>Take it away and the first thing you notice is the absence of it. That reads as flat, because compared to wound up, calm feels like nothing at all.</p>
+
+<p>It stops reading that way after a few weeks. Calm starts feeling like calm rather than like something missing.</p>
+
+<h2 id="rebound-vs-warning">How to Tell a Dip From a Warning</h2>
+
+<p>This distinction matters more than anything else here, so I want to be plain about it.</p>
+
+<p>A dip settles. It moves. It is uncomfortable but it does not stop you doing your day, and by tomorrow or the day after it has changed shape.</p>
+
+<p>A warning does not settle. It gets louder, it stays, and it starts taking things from you. Sleep, function, your sense of being here.</p>
+
+<p>The test I use on myself is two questions. Has it moved at all since yesterday? And can I still do the ordinary things, work, kids, meals, conversation?</p>
+
+<p>If both answers are yes, I go gentler and carry on. If either is no, I stop and talk to someone.</p>
+
+<p>That is not me being cautious for the sake of it. Sitting still removes the distractions you were using to avoid what is underneath, and for a minority of people what surfaces is more than a flat afternoon.</p>
+
+<h2 id="when-to-stop">When to Stop and Get Support</h2>
+
+<p>I teach this practice because it changed my life, and I would rather be honest about its edges than sell it.</p>
+
+<p>Brown University research found side effects from meditation are far more common than the apps suggest, and that a minority of people get effects serious enough to affect daily functioning. That is worth knowing before you start, not after.</p>
+
+<p>Stop, and speak to a doctor or a trained professional, if you get any of these:</p>
+
+<p>Panic that will not settle. Feeling detached from yourself or from reality. Reliving trauma. Being unable to sleep. Being unable to function.</p>
+
+<p>Those are not signs you are doing it wrong either. They are signs this is not the right tool for what is currently coming up, and that you need someone trained alongside you.</p>
+
+<p>For anything milder than that, the adjustment is almost always the same. Go shorter and gentler rather than quitting. Five minutes instead of twenty. Eyes open. A walk instead of sitting still.</p>
+
+<p>I am not a trained life coach or counsellor, and I am not medically trained. What I write here sits alongside professional support, never instead of it. There is more on this in <a href="/blog/why-meditation-makes-you-feel-worse" style="color:#FFD700;">why meditation can make you feel worse</a>.</p>
+
+<h2 id="what-i-do">What I Do on Those Days</h2>
+
+<p>Less, mostly.</p>
+
+<p>I keep the practice, because skipping it entirely is how six years happened last time. But I shrink it. Five minutes of counting my breath to ten, and that is the whole thing.</p>
+
+<p>I do not try to work out what came up. Analysing the memory puts you back in the story, and the story is not where the feeling lives.</p>
+
+<p>I try not to make the flatness mean anything about how the work is going. That is the hardest part, and I still get it wrong. It is very easy to decide a flat afternoon proves you have gone backwards, and that thought is itself something to let go of.</p>
+
+<p>Then I go and do something ordinary with my kids. A park, no plan, no phone. That does more for a grey afternoon than any technique I know.</p>
+
+<h2 id="after-weeks">What It Looks Like After a Few Weeks</h2>
+
+<p>The dips get shorter. That is the first thing that changes.</p>
+
+<p>Then they get less frequent, because there is less piled up behind the door. The amount of it is not endless, and you are working through the backlog.</p>
+
+<p>Then something better happens, and this is the part worth staying for. You stop needing the tension. Days stop running on being wound up, and calm stops feeling like an absence.</p>
+
+<p>None of that is quick and I cannot tell you how long it takes for you. It took me weeks of practice before it started to feel natural, and there are still days I do not manage it at all.</p>
+
+<p>Twenty minutes a day, done because it means something to you, and five minutes on the days that is too much. Never nothing. That is the whole method, and it is laid out properly in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Had one of these and not sure what it was?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me what came up and what it felt like afterwards. I will tell you honestly what I think, including if I think you should talk to someone trained instead. No sales pitch, ever.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-feel-worse">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does feeling worse mean I did it wrong?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Usually not. The most common version is flatness a few hours later, and my read is that you were using tension as fuel without knowing it. Take the tension away and calm reads as nothing at all for a while. That is a shift in what you are comparing against, not a failure of the technique.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long should the dip last?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I would not put a number on it, because it varies and I do not want you measuring yourself against mine. The direction matters far more than the duration. If it has moved at all since yesterday, carry on more gently. If it has not moved, or it is getting heavier, stop and talk to someone rather than pushing through it.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why did an old memory come up out of nowhere?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Because holding one thing down takes effort that also holds other things down. Let the first one go and you have taken your shoulder off the door. I would not go digging into the memory though. Analysing it puts you back in the story, and the feeling lives in your body, not in the story.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I stop doing this if it keeps happening?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Go smaller before you stop. Five minutes instead of twenty, eyes open, or a walk instead of sitting still. Stopping altogether is what I did for six years and the unreleased just piled up. The exception is the stop signals above, and those are not a case for going gentler. They are a case for talking to someone trained.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is this the same as things getting worse before they get better?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I am wary of that phrase, because it can be used to talk someone out of a genuine warning sign. Some dips are part of it. Some are a signal to stop. I would rather you had the two questions, has it moved and can you still function, than a saying that makes everything sound fine.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Do you still get these?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes. And I still sometimes decide a flat afternoon means I have gone backwards, which is its own thing to let go of. That one has not stopped. I just catch it faster than I used to.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Does feeling worse mean I did it wrong?","acceptedAnswer":{"@type":"Answer","text":"Usually not. The most common version is flatness a few hours later, and my read is that you were using tension as fuel without knowing it. Take the tension away and calm reads as nothing at all for a while. That is a shift in what you are comparing against, not a failure of the technique."}},
+{"@type":"Question","name":"How long should the dip last?","acceptedAnswer":{"@type":"Answer","text":"I would not put a number on it, because it varies and I do not want you measuring yourself against mine. The direction matters far more than the duration. If it has moved at all since yesterday, carry on more gently. If it has not moved, or it is getting heavier, stop and talk to someone rather than pushing through it."}},
+{"@type":"Question","name":"Why did an old memory come up out of nowhere?","acceptedAnswer":{"@type":"Answer","text":"Because holding one thing down takes effort that also holds other things down. Let the first one go and you have taken your shoulder off the door. I would not go digging into the memory though. Analysing it puts you back in the story, and the feeling lives in your body, not in the story."}},
+{"@type":"Question","name":"Should I stop doing this if it keeps happening?","acceptedAnswer":{"@type":"Answer","text":"Go smaller before you stop. Five minutes instead of twenty, eyes open, or a walk instead of sitting still. Stopping altogether is what I did for six years and the unreleased just piled up. The exception is the stop signals above, and those are not a case for going gentler. They are a case for talking to someone trained."}},
+{"@type":"Question","name":"Is this the same as things getting worse before they get better?","acceptedAnswer":{"@type":"Answer","text":"I am wary of that phrase, because it can be used to talk someone out of a genuine warning sign. Some dips are part of it. Some are a signal to stop. I would rather you had the two questions, has it moved and can you still function, than a saying that makes everything sound fine."}},
+{"@type":"Question","name":"Do you still get these?","acceptedAnswer":{"@type":"Answer","text":"Yes. And I still sometimes decide a flat afternoon means I have gone backwards, which is its own thing to let go of. That one has not stopped. I just catch it faster than I used to."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'stop-comparing-yourself-on-social-media',
+    title: 'How to Stop Comparing Yourself to People on Social Media',
+    description: 'Comparison on social media is not vanity, it is borrowed self-worth. Here is what I think is really happening, and the twenty seconds that help.',
+    category: 'Personal Development',
+    publishedAt: '2026-09-04',
+    readingTime: 11,
+    image: '/blog/stop-comparing-yourself-on-social-media.jpg',
+    html: `
+<p>You pick up your phone feeling fine and put it down feeling behind.</p>
+
+<p>Nothing happened in between. Nobody said anything to you. You looked at some pictures.</p>
+
+<p>That gap, between nothing happening and feeling worse, is the whole thing worth understanding here.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Comparison is not vanity and it is not a character flaw. What you are doing is holding your own inside up against somebody else's outside, and losing, because those two things are not the same kind of thing at all. Underneath it sits a want, usually approval, and that is why unfollowing people only gets you so far. It removes the trigger and leaves the want. What actually helps me is catching the drop when it happens, letting it go before I start the story about it, then asking what I actually know about that person's life. Almost always the honest answer is: a photograph.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#what-youre-comparing">What you are actually comparing</a></li>
+    <li style="margin-bottom:8px;"><a href="#why-it-hurts">Why it stings more than real life does</a></li>
+    <li style="margin-bottom:8px;"><a href="#borrowed-worth">Comparison is borrowed self-worth</a></li>
+    <li style="margin-bottom:8px;"><a href="#unfollowing">Why unfollowing only gets you so far</a></li>
+    <li style="margin-bottom:8px;"><a href="#twenty-seconds">The twenty seconds that actually help</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-question">The question I ask myself</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-i-do-instead">What I do instead now</a></li>
+    <li style="margin-bottom:8px;"><a href="#where-to-start">Where I would start</a></li>
+    <li style="margin-bottom:0;"><a href="#faq-comparison">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="what-youre-comparing">What You Are Actually Comparing</h2>
+
+<p>There is a distinction that runs through everything I write, and this is the clearest example of it anywhere.</p>
+
+<p>Essence is what actually happened. Appearance is the story laid over the top of it.</p>
+
+<p>A photograph of someone's holiday is appearance. It is a chosen second out of a fortnight, framed and filtered, posted for a reason.</p>
+
+<p>What you compare it against is your essence. All of it. The tired morning, the argument you had at eight, the thing you are worried about at work, the whole unedited inside of your own day.</p>
+
+<p>So it is not a fair fight, and it was never going to be. You are holding a full life up against a highlight and wondering why yours looks worse.</p>
+
+<p>I go into that distinction properly in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">why not good enough is a false reality</a>.</p>
+
+<h2 id="why-it-hurts">Why It Stings More Than Real Life Does</h2>
+
+<p>You have always been around people doing better than you at something. That is not new, and mostly it does not hurt.</p>
+
+<p>Two things make the phone version worse.</p>
+
+<p><strong>Volume.</strong> In a day you might see forty edited lives. In a village you would see none. Your mind was not built to hold that many comparisons and it treats each one as real information.</p>
+
+<p><strong>No context.</strong> When a friend tells you about their promotion, you also know about their commute, their divorce, and the fact that they hate their boss. A post arrives with all of that stripped out.</p>
+
+<p>Take away context and what is left is pure appearance. Which is exactly the thing my mind is worst at handling honestly.</p>
+
+<h2 id="borrowed-worth">Comparison Is Borrowed Self-Worth</h2>
+
+<p>This is the part I think most advice misses.</p>
+
+<p>Comparison only hurts if your sense of being alright depends on where you land. If your worth is settled, someone else's good news is just news.</p>
+
+<p>So the feeling is not really about them. It is a signal that you are getting your sense of worth from outside rather than holding it as your own.</p>
+
+<p>I know that pattern well. My version of people-pleasing was performing, being whoever I thought the room wanted. That is the same machinery: worth taken on loan from other people's reactions, and repayable at any moment.</p>
+
+<p>Which is why the fix is not becoming impressive enough to win the comparison. There is no score high enough to end it. The full argument is in <a href="/blog/self-worth-vs-self-esteem-vs-confidence" style="color:#FFD700;">self-worth vs self-esteem vs self-confidence</a>.</p>
+
+<p>You are enough as you are. Not once the feed makes sense. Right now, mid-scroll, having just felt behind.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="unfollowing">Why Unfollowing Only Gets You So Far</h2>
+
+<p>The standard advice is to curate. Unfollow the accounts that make you feel bad, set time limits, fill your feed with better things.</p>
+
+<p>I do some of that and I think it helps. Fewer triggers means fewer drops.</p>
+
+<p>But be clear about what it is doing. It is removing the things that set the feeling off. It is not touching the feeling.</p>
+
+<p>You can tell, because the comparison finds somewhere else to go. You unfollow the fitness accounts and start comparing houses. You mute the houses and start comparing how happy people's children look.</p>
+
+<p>The want underneath is still there, quietly looking for the next place to land.</p>
+
+<p>So curate your feed, genuinely. Just do not expect it to be the answer, because the answer has to happen in you rather than in the app.</p>
+
+<h2 id="twenty-seconds">The Twenty Seconds That Actually Help</h2>
+
+<p>Here is what I do, and the order is the whole thing.</p>
+
+<p><strong>Catch it before the story starts.</strong> There is a physical drop first, chest or stomach usually, and a moment later your head starts explaining it. Catch the drop and you get to skip the explanation.</p>
+
+<p><strong>Let it sit.</strong> Find where it is, stay with it, do not argue with it. Do not tell yourself you are being ridiculous, because that is just suppression in a politer voice. It fades on its own if you stop fighting it.</p>
+
+<p><strong>Then ask what is true.</strong> Not what is wrong with me. What do I actually know here? I know a person posted a picture. That is the entire set of facts available to me.</p>
+
+<p>Then put the phone down or carry on scrolling. Either is fine. The point was never the scrolling.</p>
+
+<p>Notice what is not in there. I am not telling you to be grateful for what you have got instead. Gratitude on top of a feeling you have not released is <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">a nicer sentence over the same feeling</a>, and it wears off by the next post.</p>
+
+<h2 id="the-question">The Question I Ask Myself</h2>
+
+<p>When a comparison keeps coming back, there is usually something under it, and one question gets at it faster than anything else I have tried.</p>
+
+<p>Do I actually want that, or do I want to be seen as someone who has it?</p>
+
+<p>Those feel identical from the inside and they are completely different. The first is worth acting on. The second is approval wearing a costume, and chasing it never lands, because the target is other people's opinion and that moves.</p>
+
+<p>I have been surprised how often the honest answer is the second one. A lot of what feels like wanting a thing turns out to be wanting to be seen as someone who has it.</p>
+
+<p>The test I use for a lot of things works here too. Does holding this thought make me feel stronger and more open, or smaller and tighter? Smaller and tighter means it is not true, whatever it sounds like.</p>
+
+<h2 id="what-i-do-instead">What I Do Instead Now</h2>
+
+<p>Twenty minutes a day of something that actually grows me. Meditation, reading, a walk with no phone in my hand.</p>
+
+<p>That last one does more for this than any app setting. Not because walking is magic, but because a phone-free walk is twenty minutes where nobody's edited life is available to compare against, and you find out what your own head sounds like without it.</p>
+
+<p>And I try to keep hold of what I actually want, which is experiences rather than things. For me a lot of that is my kids. Travel and live music if we can, and an afternoon at the local park with nothing planned and no phone in my hand, which costs nothing and is half of it.</p>
+
+<p>None of that photographs well. That is sort of the point.</p>
+
+<p>If working out what you actually want is the hard bit, I wrote about that in <a href="/blog/how-to-find-your-why" style="color:#FFD700;">how to find your why</a>.</p>
+
+<h2 id="where-to-start">Where I Would Start</h2>
+
+<p>One thing. Not a digital detox.</p>
+
+<p>The next time you feel the drop while scrolling, do not put the phone down and do not tell yourself off. Stay exactly where you are and find where the feeling sits in your body. Three breaths. Then carry on.</p>
+
+<p>You are teaching yourself something small and important, which is that the feeling passes without you having to fix your life first.</p>
+
+<p>Do it enough times and the drop gets quieter, because you stop feeding it a story every time it arrives. That is evidence you build rather than a feeling you wait for.</p>
+
+<p>I still compare, by the way. I have not solved this. I catch it faster and I believe it less, and that has been enough to change how the day goes.</p>
+
+<p>If it is heavier than that, if the comparing is constant and it is affecting how you feel about yourself day to day, that is worth taking seriously. It is what <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcome self-doubt coaching</a> is for, and if it is affecting your mental health please speak to your GP as well. What I do sits alongside trained support, never instead of it.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Who do you keep comparing yourself to?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me, and I will tell you honestly what I think is underneath it. No sales pitch, ever, just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-comparison">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why do I compare myself even when I know the posts are not real?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Because knowing it and feeling it happen in different places. The drop arrives before the thought does, so by the time the sensible part of you points out that it is a filtered photograph, the feeling is already there. That is why arguing with it does not work, and why letting it go does.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I just delete social media?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">You can, and plenty of people feel better for it. I would only say that it removes the trigger rather than the want, so if the comparing is coming from somewhere, it tends to reappear pointed at your neighbours or your colleagues instead. If deleting it buys you the quiet to do the actual work, that is a good use of it.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is comparing yourself to others always bad?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. Seeing someone do a thing and thinking that looks possible for me is useful, and it opens something up. The version that closes you down and makes you feel smaller is the one to let go of. Same event, two very different feelings, and the difference is the reliable tell.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does gratitude help with comparison?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Not on its own, in my experience, and this is where I disagree with most of what gets written about this. Listing what you are thankful for while the feeling is still sitting there is a nicer thought laid over the same thing. Let the feeling go first, then notice what you have got. Same words, completely different effect.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I know if I want the thing or just want to be seen having it?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Ask whether you would still want it if nobody ever found out you had it. It is a blunt question and it is uncomfortable, and it has changed my mind about several things I was sure I wanted. If the answer is no, you were chasing approval, and approval is a target that keeps moving.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Have you stopped doing it?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. I catch it sooner and I believe it less. That is the honest answer, and I would be careful of anyone telling you they have switched it off entirely. What changes is not whether the feeling arrives. It is how long it gets to stay and what you let it mean.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Why do I compare myself even when I know the posts are not real?","acceptedAnswer":{"@type":"Answer","text":"Because knowing it and feeling it happen in different places. The drop arrives before the thought does, so by the time the sensible part of you points out that it is a filtered photograph, the feeling is already there. That is why arguing with it does not work, and why letting it go does."}},
+{"@type":"Question","name":"Should I just delete social media?","acceptedAnswer":{"@type":"Answer","text":"You can, and plenty of people feel better for it. I would only say that it removes the trigger rather than the want, so if the comparing is coming from somewhere, it tends to reappear pointed at your neighbours or your colleagues instead. If deleting it buys you the quiet to do the actual work, that is a good use of it."}},
+{"@type":"Question","name":"Is comparing yourself to others always bad?","acceptedAnswer":{"@type":"Answer","text":"No. Seeing someone do a thing and thinking that looks possible for me is useful, and it opens something up. The version that closes you down and makes you feel smaller is the one to let go of. Same event, two very different feelings, and the difference is the reliable tell."}},
+{"@type":"Question","name":"Does gratitude help with comparison?","acceptedAnswer":{"@type":"Answer","text":"Not on its own, in my experience, and this is where I disagree with most of what gets written about this. Listing what you are thankful for while the feeling is still sitting there is a nicer thought laid over the same thing. Let the feeling go first, then notice what you have got. Same words, completely different effect."}},
+{"@type":"Question","name":"How do I know if I want the thing or just want to be seen having it?","acceptedAnswer":{"@type":"Answer","text":"Ask whether you would still want it if nobody ever found out you had it. It is a blunt question and it is uncomfortable, and it has changed my mind about several things I was sure I wanted. If the answer is no, you were chasing approval, and approval is a target that keeps moving."}},
+{"@type":"Question","name":"Have you stopped doing it?","acceptedAnswer":{"@type":"Answer","text":"No. I catch it sooner and I believe it less. That is the honest answer, and I would be careful of anyone telling you they have switched it off entirely. What changes is not whether the feeling arrives. It is how long it gets to stay and what you let it mean."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
 ]

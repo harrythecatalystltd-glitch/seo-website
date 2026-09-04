@@ -59,10 +59,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | How to Stop Overthinking Small Decisions | `how-to-stop-overthinking-small-decisions` | how to stop overthinking small decisions | Overthinking | The small ones cost more than the big ones because there are hundreds of them. Link the overthinking pillar and the 20 minute rule. |
-| queued | What to Say When Someone Asks What You Do and You Feel Small | `what-do-you-do-question-confidence` | feeling embarrassed about my job | Confidence at work | The question is not about your job, it is about whether you have accepted your own answer. Link the work pillar and you-are-enough. |
-| queued | Why You Feel Worse Straight After Letting Go of a Feeling | `why-you-feel-worse-after-letting-go` | letting go feels worse at first | Letting go | The rebound nobody warns you about, and why it is not a sign it failed. Link the letting-go post and why-meditation-makes-you-feel-worse. |
-| queued | How to Stop Comparing Yourself to People on Social Media | `stop-comparing-yourself-on-social-media` | how to stop comparing yourself to others social media | Relationships | Comparison as borrowed self-worth, using the essence and appearance framing already live. Link self-worth-vs-self-esteem-vs-confidence. |
+| published 2026-09-04 | How to Stop Overthinking Small Decisions | `how-to-stop-overthinking-small-decisions` | how to stop overthinking small decisions | Overthinking | The small ones cost more than the big ones because there are hundreds of them. Link the overthinking pillar and the 20 minute rule. |
+| published 2026-09-04 | What to Say When Someone Asks What You Do and You Feel Small | `what-do-you-do-question-confidence` | feeling embarrassed about my job | Confidence at work | The question is not about your job, it is about whether you have accepted your own answer. Link the work pillar and you-are-enough. |
+| published 2026-09-04 | Why You Feel Worse Straight After Letting Go of a Feeling | `why-you-feel-worse-after-letting-go` | letting go feels worse at first | Letting go | The rebound nobody warns you about, and why it is not a sign it failed. Link the letting-go post and why-meditation-makes-you-feel-worse. |
+| published 2026-09-04 | How to Stop Comparing Yourself to People on Social Media | `stop-comparing-yourself-on-social-media` | how to stop comparing yourself to others social media | Relationships | Comparison as borrowed self-worth, using the essence and appearance framing already live. Link self-worth-vs-self-esteem-vs-confidence. |
 
 ## Week 2
 

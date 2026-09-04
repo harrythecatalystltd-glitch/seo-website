@@ -677,8 +677,10 @@ What a future piece of content must not contradict:
   whole aim of this is conversations rather than completions. Do not strip them back to a single
   CTA at the end, and do not turn any of them into a pitch.
 
-**Housekeeping:** all blog dates must predate 2 March 2026. `lib/seobot-overrides.ts` handles
-SeoBot-published articles whose real dates fall after that.
+**Housekeeping:** manual blog posts carry their real publish date. The old rule that every blog
+date had to predate 2 March 2026 was lifted on 14 July 2026, and posts since then have used the
+day they went out. It still applies to SeoBot-published articles, which is what
+`lib/seobot-overrides.ts` exists to handle.
 
 ---
 
