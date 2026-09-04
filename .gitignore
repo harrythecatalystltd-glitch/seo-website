@@ -4,8 +4,11 @@ node_modules
 .env.local
 .next/
 next-env.d.ts
-.claude/
+.claude/*
+!.claude/commands/
+.claude/settings.local.json
 remove-bg.js
 seo-audit-report.html
 
 .vercel
+logs/
