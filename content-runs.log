@@ -48,3 +48,49 @@ app's virtualised AppData, which an outside Task Scheduler process cannot see.
 Fixed the same day: the Windows task and its two runner scripts are removed, and the run
 now lives in the Claude app as the scheduled task "Catalyst Method weekly blogs",
 next run 18 September 07:03. Week 2 of CONTENT-PLAN.md is still queued, untouched.
+
+=== 2026-09-11 (run, triggered by hand via the Claude app scheduled task) ===
+Commit 6975fa4
+
+Published 4 of 4 from Week 2 of CONTENT-PLAN.md:
+
+  decision-fatigue-explained             2032 words, grade 6.9, 9 links
+  how-to-speak-up-in-meetings            2027 words, grade 6.4, 9 links
+  where-you-feel-feelings-in-your-body   2017 words, grade 6.5, 8 links
+  is-setting-boundaries-selfish          1925 words, grade 7.8, 7 links
+
+Quality gate: 4 passed, 0 failed, 0 warnings.
+Build: green. Images: 4 generated at 1600x845.
+
+Section 10, the half the script cannot check:
+  Congruence      pass. Post 1 traces to belief 4 (approval, control, security
+                  underneath stuck feelings). Post 2 to beliefs 9, 12 and 15.
+                  Post 3 to beliefs 2 and 3, the letting go mechanic itself.
+                  Post 4 to beliefs 5, 7 and 8.
+  Traps           pass. Each post checked against Section 6. Post 2 avoids "be
+                  more assertive" in favour of one sentence, not a personality
+                  change. Post 3 disowns "meditation is always good for you"
+                  with the safety note and stop signals. Post 4 avoids treating
+                  guilt as a verdict, matching the "self-doubt means not ready"
+                  row.
+  Sequence        pass. Posts 2 and 3 teach catch it, let it go, ask what's
+                  true, then act, in that order. Posts 1 and 4 apply the same
+                  order to a decision and a boundary respectively.
+  Story bank      pass. Personal detail used: working in sales and loving it,
+                  the people-pleasing-as-performing history, the 20/20/20
+                  morning routine, weekend time with the kids at the park.
+                  Nothing outside Section 3. One general research citation per
+                  post (Baumeister on decision fatigue, the PNAS body-map
+                  study), same pattern as existing posts, clearly not personal.
+  Support         pass. Post 3 carries the meditation safety note and stop
+                  signals in full, since sitting with a feeling at length
+                  overlaps with meditation risk. The other three did not need
+                  it, being everyday topics rather than anything clinical.
+
+One fix during the gate: post 4's FAQ JSON-LD failed to parse on the first
+run. A quoted phrase in one answer used a single backslash before the escaped
+quote, which a JS template literal silently unescapes at import time. Fixed
+by doubling it, matching the pattern already used elsewhere in the file.
+
+Skipped or blocked: none.
+Queued rows remaining: 40.
