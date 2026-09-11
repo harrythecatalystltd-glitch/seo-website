@@ -56,3 +56,8 @@ Run it by hand at any time with `/weekly-blogs`, or check a post with
   `publishedAt`, so new entries can be appended to the end of the array.
 - Manual posts carry their real publish date. The "before 2 March 2026" rule applies only to
   SeoBot articles, which is what `lib/seobot-overrides.ts` exists to enforce.
+- `scripts/make-blog-image.mjs` always outputs 1600x845, and `.blog-card-img` in
+  `app/globals.css` is pinned to that exact aspect ratio so the blog grid never crops the
+  category label and title baked into the image. If either side changes, the other must change
+  with it, or card thumbnails will crop through the text again (fixed 11 September 2026, see
+  `content-runs.log`).

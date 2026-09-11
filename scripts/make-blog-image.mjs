@@ -17,6 +17,8 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
+// WIDTH/HEIGHT must match the aspect-ratio on .blog-card-img in app/globals.css,
+// or the card grid crops into the category label and title drawn below.
 const WIDTH = 1600
 const HEIGHT = 845
 const MARGIN = 110
