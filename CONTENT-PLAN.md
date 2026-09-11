@@ -68,10 +68,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | Decision Fatigue: Why Your Choices Get Worse by Evening | `decision-fatigue-explained` | decision fatigue | Overthinking | Named in round one research as an owned term. Practical, not clinical. Link the overthinking pillar. |
-| queued | How to Speak Up in Meetings When Your Heart Is Pounding | `how-to-speak-up-in-meetings` | how to speak up in meetings confidence | Confidence at work | One sentence per meeting, not a personality transplant. Link the work pillar and what-is-imposter-syndrome. |
-| queued | Where You Actually Feel Feelings in Your Body | `where-you-feel-feelings-in-your-body` | where do you feel emotions in the body | Letting go | The core mechanic of the technique, given its own post. Link the letting-go post and the mental state checklist. |
-| queued | Is Setting Boundaries Selfish? | `is-setting-boundaries-selfish` | is setting boundaries selfish | Relationships | High volume question, no coverage on the site. Guilt after a boundary is not evidence you were wrong. Link how-to-stop-people-pleasing. |
+| published 2026-09-11 | Decision Fatigue: Why Your Choices Get Worse by Evening | `decision-fatigue-explained` | decision fatigue | Overthinking | Named in round one research as an owned term. Practical, not clinical. Link the overthinking pillar. |
+| published 2026-09-11 | How to Speak Up in Meetings When Your Heart Is Pounding | `how-to-speak-up-in-meetings` | how to speak up in meetings confidence | Confidence at work | One sentence per meeting, not a personality transplant. Link the work pillar and what-is-imposter-syndrome. |
+| published 2026-09-11 | Where You Actually Feel Feelings in Your Body | `where-you-feel-feelings-in-your-body` | where do you feel emotions in the body | Letting go | The core mechanic of the technique, given its own post. Link the letting-go post and the mental state checklist. |
+| published 2026-09-11 | Is Setting Boundaries Selfish? | `is-setting-boundaries-selfish` | is setting boundaries selfish | Relationships | High volume question, no coverage on the site. Guilt after a boundary is not evidence you were wrong. Link how-to-stop-people-pleasing. |
 
 ## Week 3
 
