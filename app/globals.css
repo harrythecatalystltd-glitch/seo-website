@@ -1373,7 +1373,7 @@ h1 em {
 }
 .blog-card:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
 
-.blog-card-img { width: 100%; height: 180px; object-fit: cover; display: block; }
+.blog-card-img { width: 100%; aspect-ratio: 1600 / 845; object-fit: cover; display: block; }
 
 .blog-card-body { padding: 20px 22px 24px; flex: 1; display: flex; flex-direction: column; }
 
