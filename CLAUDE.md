@@ -27,8 +27,9 @@ If Harry says something new (a story, a belief, a change to the model), add it t
 
 ## The weekly blog routine
 
-Four posts publish every Friday at 07:00, unattended, from a Windows scheduled task called
-"Catalyst Method weekly blogs".
+Four posts publish every Friday at 07:00, unattended, from a Claude app scheduled task called
+"Catalyst Method weekly blogs" (under Scheduled in the app sidebar). It runs while the app is
+open. If the app is closed at 07:00, it runs the next time the app starts.
 
 | Piece | File |
 | --- | --- |
@@ -36,8 +37,12 @@ Four posts publish every Friday at 07:00, unattended, from a Windows scheduled t
 | The pipeline the run follows | `.claude/commands/weekly-blogs.md` |
 | The automated quality gate | `scripts/check-posts.mjs` |
 | The featured image generator | `scripts/make-blog-image.mjs` |
-| The headless runner and its logs | `scripts/run-weekly-blogs.ps1`, `logs/` |
-| Registering or removing the schedule | `scripts/register-weekly-task.ps1` |
+| The schedule itself | `~/.claude/scheduled-tasks/catalyst-method-weekly-blogs/SKILL.md` |
+| What each run did | `content-runs.log` |
+
+Do not schedule it from Windows Task Scheduler. The Claude app is an MSIX package, so its CLI
+only exists inside the app's virtualised AppData, and a Task Scheduler process cannot see it.
+That is why the first scheduled run, on 11 September 2026, failed without publishing anything.
 
 To change what gets published, edit `CONTENT-PLAN.md`. Nothing else needs touching. The run
 never picks its own topics.

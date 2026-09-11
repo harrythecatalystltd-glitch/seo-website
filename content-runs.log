@@ -39,3 +39,12 @@ Notes for Harry:
   - what-is-self-belief has a pre-existing FAQ schema answer that does not match
     its visible text. Not fixed here.
   - 18 older posts still fail the gate, almost all for missing FAQPage schema.
+
+=== 2026-09-11 (scheduled run, FAILED, nothing published) ===
+The Windows Task Scheduler job fired at 09:20 and exited 1 before writing anything:
+"could not find claude.exe". The Claude app is an MSIX package, so its CLI lives in the
+app's virtualised AppData, which an outside Task Scheduler process cannot see.
+
+Fixed the same day: the Windows task and its two runner scripts are removed, and the run
+now lives in the Claude app as the scheduled task "Catalyst Method weekly blogs",
+next run 18 September 07:03. Week 2 of CONTENT-PLAN.md is still queued, untouched.
