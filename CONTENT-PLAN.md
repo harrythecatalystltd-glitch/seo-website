@@ -77,10 +77,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | The Difference Between Thinking and Overthinking | `thinking-vs-overthinking` | difference between thinking and overthinking | Overthinking | A test you can apply in the moment: is new information arriving, or is it the same lap again. Link the overthinking pillar. |
-| queued | How to Take Feedback Without It Ruining Your Week | `how-to-take-feedback-at-work` | how to take criticism at work without taking it personally | Confidence at work | Separating the note from the verdict on you. Link the work pillar and self-worth-vs-self-esteem-vs-confidence. |
-| queued | What to Do With Anger You Cannot Act On | `what-to-do-with-anger-you-cannot-act-on` | how to deal with anger you can't express | Letting go | Suppress, vent, escape, or let go. The fourth option applied to anger specifically. Link the letting-go post. |
-| queued | How to Say No Without Explaining Yourself | `how-to-say-no-without-explaining` | how to say no without feeling guilty | Relationships | The over-explaining is the people-pleasing, not the no. Link how-to-stop-people-pleasing. |
+| published 2026-09-18 | The Difference Between Thinking and Overthinking | `thinking-vs-overthinking` | difference between thinking and overthinking | Overthinking | A test you can apply in the moment: is new information arriving, or is it the same lap again. Link the overthinking pillar. |
+| published 2026-09-18 | How to Take Feedback Without It Ruining Your Week | `how-to-take-feedback-at-work` | how to take criticism at work without taking it personally | Confidence at work | Separating the note from the verdict on you. Link the work pillar and self-worth-vs-self-esteem-vs-confidence. |
+| published 2026-09-18 | What to Do With Anger You Cannot Act On | `what-to-do-with-anger-you-cannot-act-on` | how to deal with anger you can't express | Letting go | Suppress, vent, escape, or let go. The fourth option applied to anger specifically. Link the letting-go post. |
+| published 2026-09-18 | How to Say No Without Explaining Yourself | `how-to-say-no-without-explaining` | how to say no without feeling guilty | Relationships | The over-explaining is the people-pleasing, not the no. Link how-to-stop-people-pleasing. |
 
 ## Week 4
 
