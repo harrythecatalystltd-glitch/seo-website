@@ -142,7 +142,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     description: article.description,
     image: absoluteImageUrl(article.image),
     url: `https://www.thecatalystmethod.co.uk/blog/${slug}`,
-    datePublished: article.publishedAt,
     author: { '@type': 'Organization', name: 'The Catalyst Method' },
     publisher: {
       '@type': 'Organization',
@@ -178,9 +177,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             )}
             <h1 style={{ maxWidth: '680px' }}>{article.title}</h1>
             <div className="article-meta">
-              {article.publishedAt && (
-                <span>{new Date(article.publishedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
-              )}
               {article.readingTime && <span>{article.readingTime} min read</span>}
             </div>
           </div>

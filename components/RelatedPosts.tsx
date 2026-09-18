@@ -31,8 +31,7 @@ export default async function RelatedPosts({ slugs, heading }: { slugs: string[]
               <div className="blog-card-title">{article.title}</div>
               {article.description && <div className="blog-card-excerpt">{article.description}</div>}
               <div className="blog-card-meta">
-                {article.publishedAt && new Date(article.publishedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-                {article.readingTime && ` · ${article.readingTime} min read`}
+                {article.readingTime && `${article.readingTime} min read`}
               </div>
             </div>
           </Link>
