@@ -94,3 +94,75 @@ by doubling it, matching the pattern already used elsewhere in the file.
 
 Skipped or blocked: none.
 Queued rows remaining: 40.
+
+=== 2026-09-18 (run, by hand, after the scheduled fire got skipped) ===
+Commit f51615f
+
+The 07:03 scheduled fire never actually produced a new run. list_task_runs showed
+only one run ever logged against catalyst-method-weekly-blogs, still marked
+"running" since 11 September, because last week's scheduled session stayed open
+as an ordinary chat afterwards (the image-crop fix, mostly). The scheduler saw an
+existing run in progress and skipped firing a fresh one this week. Confirmed by
+trying run_scheduled_task by hand, which the harness itself refused with "This
+tool is unavailable in unattended sessions". So this week's batch was written and
+published inside that same long-lived session instead, on request.
+
+If a scheduled-task session is going to be kept open for follow-up chat, expect
+next Friday to skip too unless that session gets closed out first. Move ordinary
+follow-up conversation to a new chat rather than continuing in a scheduled run's
+session, or the routine stalls silently with no error surfaced anywhere obvious.
+
+Also removed all visible publish dates from the site this run, on Harry's
+instruction (commit a521ca9, just before this batch): blog cards, the article
+page header, and datePublished from the BlogPosting schema. publishedAt stays in
+lib/manual-posts.ts since sorting and the SeoBot date-override logic still need
+it. See CLAUDE.md for the note.
+
+Published 4 of 4 from Week 3 of CONTENT-PLAN.md:
+
+  thinking-vs-overthinking                 1806 words, grade 7.3, 8 links
+  how-to-take-feedback-at-work             1837 words, grade 7.0, 8 links
+  what-to-do-with-anger-you-cannot-act-on  1902 words, grade 7.7, 6 links
+  how-to-say-no-without-explaining         1824 words, grade 7.2, 6 links
+
+Quality gate: 4 passed, 0 failed. One post (how-to-say-no-without-explaining)
+warned twice on the first pass, thin word count and grade 8.1. Fixed both by
+shortening the longest sentences and adding two short paragraphs, then it
+passed clean with no warnings.
+
+Build: green. Images: 4 generated at 1600x845.
+
+Section 10, the half the script cannot check:
+  Congruence      pass. Post 1 extends belief 7 (fear and false certainty are
+                  leftover perspectives, not evidence) into a two second test.
+                  Post 2 to beliefs 1 and 6, essence versus appearance applied
+                  to feedback. Post 3 to belief 2, the four things you can do
+                  with a feeling, applied specifically to anger with nowhere
+                  to go. Post 4 to the people-pleasing-as-performing story and
+                  the matching congruence trap row on dropping the performance.
+  Traps           pass. Post 2 explicitly names "talking yourself into a
+                  nicer thought before letting the sting go is suppression
+                  wearing a nicer outfit", straight from Section 6. Post 3
+                  separates letting go of the feeling from accepting what
+                  caused it, so it does not read as "just let it go and move
+                  on". Post 4 avoids "fake it till you make it" throughout.
+  Sequence        pass. Posts 1, 2 and 3 all teach catch or notice, let the
+                  feeling settle, then ask what's true or decide, in that
+                  order. Post 4 applies the same discomfort-before-action
+                  logic to the silence after a no.
+  Story bank      pass. Personal detail used: working in sales and getting
+                  feedback most weeks, the people-pleasing-as-performing
+                  history, the 20/20/20 routine including yoga specifically,
+                  and general reference to the two kids without inventing any
+                  specific incident, name or dialogue. Nothing outside
+                  Section 3.
+  Support         pass. Post 3 carries a GP and trained professional line for
+                  anger that keeps returning at full strength or affects daily
+                  functioning, framed alongside rather than instead of.
+  Duplicate check post 4 sits close to last week's is-setting-boundaries-selfish.
+                  Kept deliberately distinct: that post is about guilt not
+                  being a verdict, this one is about the over-explaining habit
+                  itself. Cross-linked both ways rather than merged.
+
+Skipped or blocked: none.
+Queued rows remaining: 36.
