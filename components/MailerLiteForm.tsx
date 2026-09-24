@@ -1,5 +1,6 @@
 'use client'
 import { useEffect } from 'react'
+import { loadRecaptcha } from '@/lib/recaptcha'
 
 const FORM_HTML = `
 <div id="mlb2-43256023" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-43256023">
@@ -19,6 +20,9 @@ const FORM_HTML = `
                 <input aria-label="name" aria-required="true" type="text" class="form-control" name="fields[name]" placeholder="Name" autocomplete="given-name">
               </div>
             </div>
+          </div>
+          <div class="ml-form-recaptcha ml-validate-required">
+            <div class="g-recaptcha"></div>
           </div>
           <input type="hidden" name="ml-submit" value="1">
           <div class="ml-form-embedSubmit">
@@ -71,6 +75,12 @@ const FORM_CSS = `
 #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading { display: none; }
 #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover { background-color: #e6c200 !important; }
 .ml-error input { border-color: #e05a4e !important; }
+.ml-form-recaptcha { display: flex; justify-content: center; margin-bottom: 20px; }
+.ml-form-recaptcha.ml-error iframe { border: 1px solid #e05a4e; }
+@media screen and (max-width: 480px) {
+  .ml-form-recaptcha { height: 62px; }
+  .g-recaptcha { transform: scale(0.78); transform-origin: 50% 0; }
+}
 @media only screen and (max-width: 400px) {
   #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper.embedForm { width: 100% !important; }
 }
@@ -93,6 +103,8 @@ export default function MailerLiteForm() {
       script.async = true
       document.body.appendChild(script)
     }
+
+    loadRecaptcha()
 
     fetch('https://assets.mailerlite.com/jsonp/2308037/forms/191783699663029294/takel').catch(() => {})
   }, [])

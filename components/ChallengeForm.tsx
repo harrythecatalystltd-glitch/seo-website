@@ -1,5 +1,6 @@
 'use client'
 import { useEffect } from 'react'
+import { loadRecaptcha } from '@/lib/recaptcha'
 
 /* MailerLite form for The Catalyst Method 30 Day Challenge.
    Same trimmed pattern as MailerLiteForm: the raw embed ships ~600 lines of CSS
@@ -29,6 +30,9 @@ const FORM_HTML = `
                 <input aria-label="name" aria-required="true" type="text" class="form-control" name="fields[name]" placeholder="Name" autocomplete="given-name">
               </div>
             </div>
+          </div>
+          <div class="ml-form-recaptcha ml-validate-required">
+            <div class="g-recaptcha"></div>
           </div>
           <input type="hidden" name="ml-submit" value="1">
           <div class="ml-form-embedSubmit">
@@ -84,6 +88,12 @@ const FORM_CSS = `
 #mlb2-${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading { display: none; }
 #mlb2-${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover { background-color: #e6c200 !important; }
 .ml-error input { border-color: #e05a4e !important; }
+.ml-form-recaptcha { display: flex; justify-content: center; margin-bottom: 20px; }
+.ml-form-recaptcha.ml-error iframe { border: 1px solid #e05a4e; }
+@media screen and (max-width: 480px) {
+  .ml-form-recaptcha { height: 62px; }
+  .g-recaptcha { transform: scale(0.78); transform-origin: 50% 0; }
+}
 @media only screen and (max-width: 400px) {
   #mlb2-${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper.embedForm { width: 100% !important; }
 }
@@ -106,6 +116,8 @@ export default function ChallengeForm() {
       script.async = true
       document.body.appendChild(script)
     }
+
+    loadRecaptcha()
 
     fetch(`${FORM_ENDPOINT}/takel`).catch(() => {})
   }, [])
