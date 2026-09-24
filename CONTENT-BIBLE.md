@@ -2,7 +2,7 @@
 
 **Owner:** Harry · thecatalystmethod.co.uk
 **Status:** Canonical. This document wins over any other brief, skill, or draft.
-**Last updated:** 27 August 2026
+**Last updated:** 24 September 2026
 
 ---
 
@@ -11,8 +11,8 @@
 This is the reference that gets checked **before and after** writing anything: blog posts, lead
 magnets, emails, ad copy, programme outlines, social posts, page copy.
 
-**Before writing:** read Section 1 (the framework), Section 2 (core beliefs) and Section 6
-(congruence traps). Those three decide whether the piece is on-message.
+**Before writing:** read Section 1 (the framework), Section 1B (THE WORK), Section 2 (core
+beliefs) and Section 6 (congruence traps). Those decide whether the piece is on-message.
 
 **After writing:** run Section 10 (the pre-publish checklist). Every line has to pass.
 
@@ -149,6 +149,124 @@ his is the sequence, the plain-English version, and the fact that he has actuall
 
 ---
 
+## 1B. THE WORK
+
+The second named framework. Harry's own, named by him on 24 September 2026. Written exactly as
+**THE WORK**, in capitals, the way he wrote it. He will reference it a lot, so use it wherever a
+piece is about how to live, not just what to do in the moment.
+
+### The belief underneath it
+
+This is a summary, not a quote:
+
+> **Put in the work. Let go of the result. Take what comes.**
+
+What Harry said, lightly tidied:
+
+- Letting go of outcomes and results leaves you free to live in the moment. You feel relaxed,
+  and you are not lost in thoughts about why not me, or why not this way or that way.
+- He believes this, and he has experienced it. Letting go of the result and leaving it up to God,
+  the universe or the divine, depending on what you call it, frees you up to live life as it comes.
+- **But** the divine delivers results based on the life you choose to live.
+- The basic rule of life is to put in the work and see the fruits of the labour. Maybe not as you
+  expected them, but as they came.
+
+**The two halves always travel together.** Letting go of the result without doing the work is
+just waiting. Doing the work while gripping the result is force, and force runs out (belief 17,
+and the last paragraph of step 5). Never write one half without the other.
+
+### The three pillars (always in this order)
+
+**1. Thoughts**
+Guard your mind. Weed out negative thoughts, let them go, and replace them with positive ones.
+Thoughts shape actions, and actions shape the results you are given. The daily work here is
+letting go, guarding the mind, and doing it every day, not only when something goes wrong.
+
+*The order inside this pillar matters, and Harry's own wording already has it right:* let go
+first, then replace. Replacing a thought you have not let go of is suppression wearing a nicer
+outfit (Section 6). And the replacement has to be true, not just nice. In copy, "a positive
+thought" means one that makes you feel stronger and more open (belief 9), or an instruction like
+"be curious". Never a claim the reader does not believe (belief 14).
+
+**2. Lifestyle**
+Live so that your life keeps producing positive action. Harry compares this to right action in
+Buddhism. It covers:
+
+- **Kindness to other people.**
+- **Kindness to yourself**, which looks like daily exercise, eating well, plenty of sleep,
+  limiting screen time, and using silence to calm the mind.
+- **Your work and what you do with your days.** How you earn a living should be positive, build
+  goodwill with everyone, and not be built on falsehoods or lies.
+
+*Guardrails.* Lifestyle is not a regime. Written as rules you force yourself to keep, it turns
+into discipline, which contradicts belief 17. It is held out of self-respect (step 5), and on a
+full day it shrinks rather than disappears (belief 21). Never give diet, sleep or exercise
+prescriptions as health advice. Say what helps Harry, and point to a GP for anything medical.
+Credit Buddhism plainly for the right action comparison, and do not present Harry as a Buddhist
+or teach Buddhist doctrine beyond it.
+
+The honest work point already has support in the story bank: he loves sales because he helps
+people through honest conversations, and checklist line 6 is "Be truthful in all areas of my
+life and to myself."
+
+**3. Meditation**
+A pillar of its own, because it works on both of the others, the mind and the life. It covers:
+
+- Making the effort to meditate every day, possibly up to three times a day.
+- Sitting in silence.
+- Being aware of how you feel, and letting it go.
+- Practising guarding the mind against negative thoughts.
+- Surrendering to the moment, and letting go of results and outcomes.
+
+*Guardrails.* Harry's confirmed practice is twenty minutes of letting-go meditation a day
+(Section 3). Three times a day is something to reach for, not what he does, so **never write that
+he meditates three times a day** unless he confirms it. Never make three a day the bar either.
+One sit counts. Five minutes counts (belief 21). The meditation safety note in Section 7 applies
+whenever this pillar is taught at length. "Surrender" gets explained in plain words straight away
+(Section 4).
+
+### How THE WORK and The Catalyst Method fit together
+
+**Status: confirmed by Harry, 24 September 2026.**
+
+The Catalyst Method is the **how**: five instructions, in order, for a feeling in the moment and
+for the daily practice. THE WORK is the **what and the why**: the three areas of life the work
+covers, and the belief about results that sits underneath all of it.
+
+| Pillar | Where the Method shows up in it |
+|---|---|
+| Thoughts | Steps 1 to 3. Catch it, let it go, ask what's true. The replacement comes after. |
+| Lifestyle | Steps 4 and 5. The twenty minutes is one part of lifestyle, and backing yourself is how lifestyle is held. |
+| Meditation | Step 2, the engine, and step 4, since Harry's own twenty minutes is meditation. |
+
+The surrender belief is step 5's point about intention seen from the other side: do not chase the
+goal because you desperately want it. Do the work because your intention is good, and let the
+result come.
+
+**Which name to use.** The Catalyst Method when teaching the process, in a moment or as a daily
+practice. THE WORK when the piece is about the whole of a life, effort and results, or surrender.
+Never merge the two into one list, never renumber either, and never present them as rivals.
+
+### Talking about God, the universe, the divine
+
+- Harry uses the three words interchangeably, "depending on what you call it". Keep that openness
+  in copy. Offer all three, or say "whatever you call it". Never choose one for the reader.
+- He is not religious (Section 3). This is not a church, a faith or a doctrine. No scripture.
+- **Never imply anyone deserved what happened to them.** "The divine delivers results based on the
+  life you choose to live" is about effort and the part you control. It must never be written to
+  suggest that illness, loss, money trouble, trauma or a hard season is someone's fault, or a
+  verdict on how they lived (beliefs 8 and 24).
+- **Never promise results from THE WORK** (Section 7). Harry's own words protect this: the fruits
+  come, maybe not as you expected them, but as they come.
+
+### Where it comes from
+
+Harry named Buddhism, right action, for the Lifestyle pillar. He did not name a source for the
+surrender belief or for the pillars as a whole, so **do not attribute them on his behalf**. Ask
+first.
+
+---
+
 ## 2. Core beliefs
 
 These are non-negotiable. Every piece of content should be traceable to at least one of them,
@@ -217,6 +335,17 @@ and must contradict none of them.
 26. Helping someone see the truth about themselves is one of the most useful things you can offer
     anyone.
 27. Life is about experiences, not things.
+
+**On effort and results** (added 24 September 2026, see Section 1B)
+
+28. Letting go of the outcome leaves you free to live in the moment, relaxed, instead of lost in
+    "why not me" or "why not like this".
+29. Let go of the result, not the effort. Leave the result to God, the universe or the divine,
+    whatever you call it, and put in the work.
+30. The results you are given follow from the life you choose to live. Put in the work and you
+    see the fruits of it, maybe not as you expected, but as they come.
+31. Thoughts shape actions, and actions shape results. That is why the work starts with guarding
+    the mind.
 
 ---
 
@@ -338,7 +467,12 @@ easy to ignore.
 - **Qualifications:** BSc Sports Therapy, MEd (Masters in Education). **Neither is a coaching or
   counselling qualification.** He does not practise as either.
 - **Not a trained life coach or counsellor.** States this on every page.
-- **Not religious.** Found the books useful anyway.
+- **Not religious.** Found the books useful anyway. He does talk about God, the universe or the
+  divine, and uses the words interchangeably. That is not a faith, and never write him as
+  belonging to one (see Section 1B).
+- **Letting go of outcomes:** he believes, and says he has experienced, that letting go of the
+  result and leaving it to God, the universe or the divine frees him to live life as it comes.
+  **No specific story is attached to this yet.** Do not invent one. Ask.
 - **Does not use or teach muscle testing or numerical consciousness scoring.** Uses the Hawkins
   levels as shared language and a direction to travel, never as a measurement of a person.
 - **One review used on site:** "Great content, really helpful to me personally in a time when I
@@ -519,6 +653,10 @@ draft against this list.
 | "Self-doubt means you are not ready" | Doubt spikes near change, not near danger. | The volume tells you proximity, not accuracy. |
 | "Set SMART, realistic goals" | He says aim high, reach for the stars, and build the goal around who you want to become. | Time-bound and specific, yes. Small and safe, no. |
 | Stacking testimonials and social proof | Nothing is being sold, so there is no funnel to build proof for. | One review, already on the homepage. That is enough. |
+| "Manifest it", "believe hard enough and the universe provides" | Belief without the work. Results follow the life you live, not the wish. | Put in the work, then let go of the result. |
+| "Just think positive", "good vibes only" | Pushing a negative thought out with a positive one before letting it go is suppression. | Weed it out by letting it go, then replace it with something true. |
+| "Everything happens for a reason", "you attract what you are", said to someone struggling | Reads as blame, and turns belief 30 into a verdict on the person. | Results follow effort, and a hard season is not a verdict (belief 24). |
+| "Want it badly enough", "hustle for the result" | Desperate wanting is force, and force runs out. | Good intention, good decisions, the work done, the result let go. |
 
 ---
 
@@ -693,6 +831,11 @@ Run this on every piece before it goes out. Every line must pass.
 - [ ] Checked against every row of the congruence traps table in Section 6
 - [ ] If it teaches a sequence, the sequence is let the feeling go, then check the story, then act, in that order
 - [ ] No claim, story, number or date that is not in the story bank in Section 3
+- [ ] If THE WORK is named, the pillars are Thoughts, Lifestyle, Meditation, in that order, and
+      letting go of the result is always paired with putting in the work
+- [ ] God, the universe and the divine are offered openly, and nothing implies anyone deserved a
+      hard outcome
+- [ ] Never states or implies that Harry meditates three times a day
 
 **Voice**
 - [ ] First person, hedged honestly ("I think", not "research proves")
@@ -726,6 +869,7 @@ Run this on every piece before it goes out. Every line must pass.
 
 | Date | Change |
 |---|---|
+| 24 Sep 2026 | THE WORK added as Section 1B, on Harry's instruction: the belief about letting go of results while putting in the work, and the three pillars, Thoughts, Lifestyle and Meditation. Core beliefs 28 to 31 added under "On effort and results". Four congruence traps added (manifesting, think positive, everything happens for a reason, want it badly enough). Story bank updated: "not religious" now records that he talks about God, the universe or the divine interchangeably, and the surrender belief is logged with no story attached. Three checklist lines added. The mapping between THE WORK and The Catalyst Method was proposed by Claude and confirmed by Harry the same day. No live content names THE WORK yet, so nothing on the site needed editing. |
 | 27 Aug 2026 | Mental state checklist changed from six lines to eight, on Harry's instruction. Added "Be kind" and "You do not own negative thoughts. It is a choice to believe them." A third addition, "Be honest", was cut as a duplicate of line 6. The live `mental-state-checklist` post was updated in the same pass, since it stated six lines in five places. The post now also says it was six for a long time and the last two went on recently, which matches his own advice to review it every few months. |
 | 28 Aug 2026 | Challenge page redeployed and the Netlify site renamed to https://thecatalystmethod30daychallenge.netlify.app/. The old `zippy-hamster-ee2a9f` URL now returns 404, so any link given out before this date is dead. Two anchors added to the page, `#d17` and `#d22`, with a `scroll-margin-top` rule so they clear the sticky topbar the way the existing section anchors do. Both confirmed present in the live HTML. Section 9 updated with the new URL and the rename watch-item closed. |
 | 28 Aug 2026 | The Catalyst Method 30 Day Challenge MailerLite automation written to `30-DAY-CHALLENGE-EMAILS.md`. 32 emails, day 0 on signup then one a day to day 31, with setup steps and a shared footer carrying the disclaimer and the no-pitch line. All five doors preserved on days 16, 17, 26, 29 and 31. Open question logged in the file: the daily cadence needs a line drawn round it against Section 8, which says one email a week and no daily nudges. The assumption written in is that the challenge is a separate opt-in where daily is the product, and the signup page has to say so plainly. Also corrected two dead Google Doc links in `30-DAY-CHALLENGE-COPY.md`, which returned 410 while the pair in Section 9 returned 200. |

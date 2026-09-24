@@ -34,7 +34,7 @@ summarisable:
 1. `CONTENT-BIBLE.md` — every section. It governs what the writing may say.
 2. `CONTENT-PLAN.md` — the queue and its inherited rules.
 
-You need Section 1 (the five steps in order), Section 2 (core beliefs), Section 3 (the story
+You need Section 1 (the five steps in order), Section 1B (THE WORK), Section 2 (core beliefs), Section 3 (the story
 bank, the only facts you may use), Section 4 (voice), Section 6 (congruence traps),
 Section 7 (boundaries), Section 8 (the business model) and Section 9 (what already exists).
 
