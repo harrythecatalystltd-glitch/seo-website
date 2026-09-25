@@ -86,10 +86,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | Should You Trust Your First Instinct or Think It Through? | `first-instinct-or-think-it-through` | should I trust my first instinct | Overthinking | Extends trust-your-gut without repeating it: when the first instinct is worth overriding. Link that post and the pillar. |
-| queued | How to Ask for What You Want at Work Without Feeling Pushy | `how-to-ask-for-what-you-want-at-work` | how to ask for a pay rise without feeling awkward | Confidence at work | Asking feels pushy in proportion to how little you think you deserve it. Link the work pillar. |
-| queued | Why Letting Go Is Not the Same as Giving Up | `letting-go-is-not-giving-up` | letting go vs giving up | Letting go | A congruence trap post. Letting go of the feeling, not the goal. Link the letting-go post and how-to-set-goals-that-give-you-energy. |
-| queued | What to Do When a Friendship Starts Costing You | `when-a-friendship-costs-you` | when a friendship becomes one sided | Relationships | Honest about the guilt of stepping back, no clean answers. Link how-to-stop-people-pleasing. |
+| published 2026-09-25 | Should You Trust Your First Instinct or Think It Through? | `first-instinct-or-think-it-through` | should I trust my first instinct | Overthinking | Extends trust-your-gut without repeating it: when the first instinct is worth overriding. Link that post and the pillar. |
+| published 2026-09-25 | How to Ask for What You Want at Work Without Feeling Pushy | `how-to-ask-for-what-you-want-at-work` | how to ask for a pay rise without feeling awkward | Confidence at work | Asking feels pushy in proportion to how little you think you deserve it. Link the work pillar. |
+| published 2026-09-25 | Why Letting Go Is Not the Same as Giving Up | `letting-go-is-not-giving-up` | letting go vs giving up | Letting go | A congruence trap post. Letting go of the feeling, not the goal. Link the letting-go post and how-to-set-goals-that-give-you-energy. |
+| published 2026-09-25 | What to Do When a Friendship Starts Costing You | `when-a-friendship-costs-you` | when a friendship becomes one sided | Relationships | Honest about the guilt of stepping back, no clean answers. Link how-to-stop-people-pleasing. |
 
 ## Week 5
 
