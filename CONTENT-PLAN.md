@@ -95,10 +95,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | How to Make a Decision When Both Options Feel Wrong | `when-both-options-feel-wrong` | how to decide when both options are bad | Overthinking | The stuck point is usually the feeling, not the options. Link the overthinking pillar. |
-| queued | What to Do When You Freeze in a Difficult Conversation | `freezing-in-difficult-conversations` | why do I freeze in confrontation | Confidence at work | The freeze is a body response, so the fix is physical before it is verbal. Link the work pillar. |
-| queued | How to Stop Replaying Conversations in Your Head | `stop-replaying-conversations` | why do I replay conversations in my head | Overthinking | Rumination as a search for a verdict that is never coming. Link the overthinking pillar and the letting-go post. |
-| queued | Why You Feel Guilty for Resting | `why-you-feel-guilty-resting` | feeling guilty for resting | Habits | Rest guilt as an identity problem, tied to the discipline post. Link why-discipline-is-a-negative-mindset. |
+| published 2026-10-02 | How to Make a Decision When Both Options Feel Wrong | `when-both-options-feel-wrong` | how to decide when both options are bad | Overthinking | The stuck point is usually the feeling, not the options. Link the overthinking pillar. |
+| published 2026-10-02 | What to Do When You Freeze in a Difficult Conversation | `freezing-in-difficult-conversations` | why do I freeze in confrontation | Confidence at work | The freeze is a body response, so the fix is physical before it is verbal. Link the work pillar. |
+| published 2026-10-02 | How to Stop Replaying Conversations in Your Head | `stop-replaying-conversations` | why do I replay conversations in my head | Overthinking | Rumination as a search for a verdict that is never coming. Link the overthinking pillar and the letting-go post. |
+| published 2026-10-02 | Why You Feel Guilty for Resting | `why-you-feel-guilty-resting` | feeling guilty for resting | Habits | Rest guilt as an identity problem, tied to the discipline post. Link why-discipline-is-a-negative-mindset. |
 
 ## Week 6
 
