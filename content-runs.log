@@ -218,3 +218,64 @@ short sentences. Within the bible's target, flagged only as a change.
 
 Skipped or blocked: none.
 Queued rows remaining: 32.
+
+================================================================
+2026-10-02  Weekly blog run (scheduled, unattended)
+================================================================
+
+Published 4 of 4 from Week 5 of CONTENT-PLAN.md. Commit f02dc48.
+
+  when-both-options-feel-wrong             2613 words, grade 2.8, 11 links
+  freezing-in-difficult-conversations      2596 words, grade 3.5, 11 links
+  stop-replaying-conversations             2369 words, grade 3.2, 10 links
+  why-you-feel-guilty-resting              2606 words, grade 2.8, 13 links
+
+  https://www.thecatalystmethod.co.uk/blog/when-both-options-feel-wrong
+  https://www.thecatalystmethod.co.uk/blog/freezing-in-difficult-conversations
+  https://www.thecatalystmethod.co.uk/blog/stop-replaying-conversations
+  https://www.thecatalystmethod.co.uk/blog/why-you-feel-guilty-resting
+
+Quality gate: 4 passed first time, 0 failed, no warnings.
+Build: green. Images: 4 generated at 1600x845.
+
+Section 10, the half the script cannot check:
+  Congruence      pass. Post 1 to beliefs 4, 9, 28 and 29 and the audience
+                  read that the need for certainty is a feeling. Post 2 to
+                  beliefs 1, 3, 12 and 14. Post 3 to beliefs 2, 4, 6 and 10.
+                  Post 4 to beliefs 10, 15, 17, 18, 21 and 24.
+  Traps           pass. Post 2 rejects push-through and fake-it. Post 3
+                  rejects arguing with the thought as suppression. Post 4
+                  rejects "you have earned a rest" and "I deserve this" as a
+                  claim, and ties rest guilt to the discipline assumption.
+                  Post 1 offers God, the universe or the divine openly and
+                  pairs letting go of the result with doing the work.
+  Sequence        pass. All four teach catch it, let it go, ask what's true,
+                  then act, in that order.
+  THE WORK        Named in post 4 only. Pillars in order (thoughts,
+                  lifestyle, meditation), result and work paired, lifestyle
+                  list given as what helps Harry with a GP line, not advice.
+  Story bank      pass. Used only: the joint travelling leap of faith in
+                  the canonical wording, performing as his people-pleasing,
+                  sales and honest conversations, twelve years on and off
+                  and the quiet burnout, the six years from the first kid as
+                  capacity, the morning twenty minutes and the before-bed
+                  fallback, counting breaths to ten, the park with no phone.
+                  Four first-person lines that went beyond the bank were
+                  cut or turned into second person before publishing.
+  Support         pass. All four carry a GP or trained professional line,
+                  alongside not instead of. Post 2 adds that bullying is
+                  not a confidence problem to fix in yourself. Post 3
+                  carries the meditation stop signals.
+  Judgement calls The email CTA box now ends "No sales pitch, ever." so
+                  that line is present in every post. Posts 2 and 3 link to
+                  each other. Post 4 is in the Habits cluster, so its pillar
+                  link is the 20 minute rule and its contact box points at
+                  the self-belief pillar page. The freeze post explains the
+                  body response in plain words, hedged, with no named
+                  theory. The "contingent self-worth" term in post 4 is
+                  given as what some writers call it, not as science.
+                  Posts 1 and 4 each have a short run of two or three
+                  questions in a row, used as a checklist, left as is.
+
+Skipped or blocked: none.
+Queued rows remaining: 28.
