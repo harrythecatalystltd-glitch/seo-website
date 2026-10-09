@@ -104,10 +104,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | Analysis Paralysis: Why More Information Makes It Harder | `analysis-paralysis` | analysis paralysis how to overcome | Overthinking | Research as a socially acceptable way to avoid deciding. Link the overthinking pillar. |
-| queued | How to Handle Being Overlooked for a Promotion | `overlooked-for-promotion` | passed over for promotion how to deal with it | Confidence at work | Feel it first, then check the story, then decide. The method applied to a real work event. Link the work pillar. |
-| queued | Why Your Confidence Disappears Around Certain People | `confidence-disappears-around-certain-people` | why do I lose confidence around certain people | Self-doubt | Confidence is not a fixed quantity you carry, it is contextual. Link the self-doubt pillar. |
-| queued | How to Rebuild Trust in Yourself After You Let Yourself Down | `rebuild-trust-in-yourself` | how to trust yourself again after failing | Self-doubt | The promise-keeping mechanic applied to repair. Link how-to-keep-a-promise-to-yourself. |
+| published 2026-10-09 | Analysis Paralysis: Why More Information Makes It Harder | `analysis-paralysis` | analysis paralysis how to overcome | Overthinking | Research as a socially acceptable way to avoid deciding. Link the overthinking pillar. |
+| published 2026-10-09 | How to Handle Being Overlooked for a Promotion | `overlooked-for-promotion` | passed over for promotion how to deal with it | Confidence at work | Feel it first, then check the story, then decide. The method applied to a real work event. Link the work pillar. |
+| published 2026-10-09 | Why Your Confidence Disappears Around Certain People | `confidence-disappears-around-certain-people` | why do I lose confidence around certain people | Self-doubt | Confidence is not a fixed quantity you carry, it is contextual. Link the self-doubt pillar. |
+| published 2026-10-09 | How to Rebuild Trust in Yourself After You Let Yourself Down | `rebuild-trust-in-yourself` | how to trust yourself again after failing | Self-doubt | The promise-keeping mechanic applied to repair. Link how-to-keep-a-promise-to-yourself. |
 
 ## Week 7
 

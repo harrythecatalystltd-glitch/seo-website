@@ -9320,4 +9320,995 @@ export const manualPosts: ManualPost[] = [
 </div>
 `,
   },
+  {
+    slug: 'analysis-paralysis',
+    title: 'Analysis Paralysis: Why More Information Makes It Harder',
+    description: 'Analysis paralysis is not a shortage of facts. Here is why more research makes a decision harder, and the order I use to actually make the call.',
+    category: 'Personal Development',
+    publishedAt: '2026-10-09',
+    readingTime: 12,
+    image: '/blog/analysis-paralysis.jpg',
+    html: `
+<p>You have twelve tabs open. Three reviews say one thing. Two say the opposite. A video you found an hour ago has added a new option you had not even thought of.</p>
+
+<p>You started out choosing between two things. Now you are choosing between five, and you feel further away than when you began.</p>
+
+<p>So you open one more tab. Just to be sure.</p>
+
+<p>That is analysis paralysis. Most advice treats it as a problem with information. I do not think it is. This is what I think is actually going on, and what I do about it.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Analysis paralysis feels like you do not know enough yet. I do not think that is usually true. Past a certain point, more research does not make a choice clearer. It adds options, adds doubt, and pushes the decision further away. I think research becomes a socially acceptable way to avoid deciding, because it looks responsible. Underneath it is a feeling, often fear of getting it wrong or a need to be certain, and no amount of facts can settle a feeling. So the fix is not one more tab. It is to catch the feeling, let it go, ask what is actually true about the choice, then decide with what you have. Set a point where the research stops. Then keep your word to yourself and stop.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#what-it-is">What analysis paralysis actually is</a></li>
+    <li style="margin-bottom:8px;"><a href="#more-information">Why more information makes it harder</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-hiding-place">Research as a place to hide</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-feeling">The feeling under the tabs</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-order">The order I use to make the call</a></li>
+    <li style="margin-bottom:8px;"><a href="#a-stopping-point">Set a stopping point before you start</a></li>
+    <li style="margin-bottom:8px;"><a href="#gut-decisions">A decision I made without the research</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-does-not-work">What does not work</a></li>
+    <li style="margin-bottom:8px;"><a href="#when-it-is-more">When it is more than overthinking</a></li>
+    <li style="margin-bottom:0px;"><a href="#faq-analysis-paralysis">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="what-it-is">What Analysis Paralysis Actually Is</h2>
+
+<p>Analysis paralysis is when thinking about a decision stops you making it.</p>
+
+<p>It is not the same as being careful. Careful is looking at a choice, learning what you need, and then choosing.</p>
+
+<p>Paralysis is what comes after that. You have learned what you need. You keep going anyway.</p>
+
+<p>It turns up in big choices. A new job. A house. Whether to move. It turns up in small ones too. Which pram. Which phone. Which holiday. Which course.</p>
+
+<p>You can spot it by one sign. <strong>The research is not changing your mind any more. It is just keeping it open.</strong></p>
+
+<p>I wrote about a simple test for this in <a href="/blog/thinking-vs-overthinking" style="color:#FFD700;">the difference between thinking and overthinking</a>. Is new information arriving, or is it the same lap again? With analysis paralysis there is a twist. New information is arriving. It is just not helping.</p>
+
+<h2 id="more-information">Why More Information Makes It Harder</h2>
+
+<p>This is the part that surprises people. You would think more facts would make a decision easier. Up to a point, they do.</p>
+
+<p>After that point, I think three things happen.</p>
+
+<p><strong>The options multiply.</strong> Every search turns up another choice. Two options become five. Five become twelve. There is a well known idea, often called the paradox of choice, that more options can make it harder to choose and harder to feel happy with what you picked. I am not going to claim it as science. I will say it matches what I see.</p>
+
+<p><strong>The doubts multiply.</strong> Every option has a downside, and the internet will find it for you. The more you read, the more ways you find for each choice to go wrong.</p>
+
+<p><strong>The bar keeps moving.</strong> The more you have read, the more you feel you should know. So the amount of research that would feel like enough keeps going up.</p>
+
+<p>Add those together and you get the strange result. The more you look, the further away the decision feels.</p>
+
+<p>There is also a cost to waiting that the tabs never show you. While you are researching, life keeps going. The flat goes. The job closes. The window shuts. Not deciding is a decision too. It just does not feel like one.</p>
+
+<h2 id="the-hiding-place">Research as a Place to Hide</h2>
+
+<p>Here is my honest read. Past a certain point, research stops being about the decision. It becomes a place to hide.</p>
+
+<p>It is a very good hiding place, because it looks responsible. Nobody tells you off for being thorough. You can say "I am still looking into it" and sound sensible.</p>
+
+<p>But ask yourself one question. What would happen if you stopped researching right now?</p>
+
+<p>You would have to choose. And if you chose, you could be wrong.</p>
+
+<p>That is the thing the research is protecting you from. Not a bad choice. The feeling of making one.</p>
+
+<p>Most overthinking, I think, is the mind defending a position. It needs to be certain and it needs to be right. That is not the same as weighing up the choice. The need for certainty is a feeling you have not let go of. It is not a fact about the decision.</p>
+
+<p>There is a tired version of this, which I wrote about in <a href="/blog/decision-fatigue-explained" style="color:#FFD700;">decision fatigue</a>, and a small everyday version in <a href="/blog/how-to-stop-overthinking-small-decisions" style="color:#FFD700;">how to stop overthinking small decisions</a>.</p>
+
+<h2 id="the-feeling">The Feeling Under the Tabs</h2>
+
+<p>Underneath most stuck feelings sits one of three wants. Approval, control, or security.</p>
+
+<p>Analysis paralysis usually has a bit of all three.</p>
+
+<p><strong>Control.</strong> If I know everything, nothing can surprise me. If nothing can surprise me, nothing can go wrong.</p>
+
+<p><strong>Security.</strong> If I pick the right one, I will be safe. I will not lose money, or time, or face.</p>
+
+<p><strong>Approval.</strong> If it goes wrong, at least I can say I did my homework. Nobody can blame me.</p>
+
+<p>None of those wants is answered by a fact. You could read every review on the internet and still not feel safe. Facts cannot settle a feeling, because they were never what was holding it up.</p>
+
+<p>That is why the next tab never helps. You are trying to solve a feeling with information. It is the wrong tool.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day. No sales pitch, ever.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="the-order">The Order I Use to Make the Call</h2>
+
+<p>This is The Catalyst Method. The first three steps take about a minute, and the order matters.</p>
+
+<p><strong>Catch it.</strong> Notice the moment you reach for one more tab. Stop there. Name the feeling under it. It is usually fear. Sometimes it is a tight, restless need to be sure.</p>
+
+<p>That naming is most of the work. As long as it looks like research, you will keep doing it. Once you see it is a feeling, you have a choice.</p>
+
+<p><strong>Let it go.</strong> Find where it sits in your body. For a lot of people it is the chest, the stomach, or a clench in the jaw.</p>
+
+<p>Stay there. Do not argue with it. Do not push it down. Do not go and ask three friends which one they would pick.</p>
+
+<p>The energy behind a feeling is limited. It runs out if you stop fighting it. The full technique is in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a>.</p>
+
+<p><strong>Ask what's true.</strong> Now look at the choice with the story taken off.</p>
+
+<p>What is true: there are two or three good options, and I know enough about each to choose.</p>
+
+<p>What I added: one of them is perfect and I will be a fool if I miss it. If I get this wrong, it will be a disaster.</p>
+
+<p>Say the plain version out loud. It is nearly always calmer than the story.</p>
+
+<p><strong>Then decide.</strong> Not when you feel certain. Now, with what you have.</p>
+
+<p>The order is the whole point. If you try to decide while the fear is still loud, every option looks risky. If you skip the feeling and tell yourself to "just pick one", you are pushing against it the whole way, and you will reopen the decision tomorrow.</p>
+
+<p>Feeling first. Story second. Then act.</p>
+
+<h2 id="a-stopping-point">Set a Stopping Point Before You Start</h2>
+
+<p>The most common advice for analysis paralysis is to set a deadline. I think it is good advice, with one change.</p>
+
+<p>Set it before you start, not when you are already stuck. Once you are lost in the tabs, the fear will always find a reason to move the line.</p>
+
+<p>Here is what I mean. Before you look at anything, decide two things.</p>
+
+<p><strong>How long you will look.</strong> An evening. A week. Three options and no more.</p>
+
+<p><strong>What would be enough to choose.</strong> Two or three things that actually matter to you. Not twenty.</p>
+
+<p>Then, when you reach the line, you stop and choose. Even if it feels early. Especially if it feels early.</p>
+
+<p>This is not discipline. I do not think forcing yourself works, and I have written about why in <a href="/blog/why-discipline-is-a-negative-mindset" style="color:#FFD700;">why being disciplined is a negative mindset</a>.</p>
+
+<p>It is a promise to yourself, kept out of respect. Self-belief is the belief that you will do what you say you will do. Every time you stop where you said you would stop, you build a bit more of it.</p>
+
+<p>And if you go over the line? Do not beat yourself up. Notice it, let the feeling go, and choose. Back yourself, do not beat yourself.</p>
+
+<h2 id="gut-decisions">A Decision I Made Without the Research</h2>
+
+<p>I want to be honest about my own biggest decision, because it was not made the way most advice says decisions should be made.</p>
+
+<p>Before I had kids, my wife and I got married. Then we both quit our jobs and went travelling for six months. We had no real plan. It was a big leap of faith, and we took it together.</p>
+
+<p>It is still the biggest risk I have ever taken. And it was a gut decision, not a confident one.</p>
+
+<p>I am not telling you to quit your job. I am telling you that no amount of research would have made that decision feel safe. There was no spreadsheet that could have answered it.</p>
+
+<p>What it needed was a decision, and then the work of living with it.</p>
+
+<p>I have also noticed something since. When I stopped performing for other people, being whoever I thought they wanted, I started making decisions much faster. My honest read is that a lot of overthinking is about how a choice will look, not what it is.</p>
+
+<p>I wrote more about telling a real gut pull from fear in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">how to trust your gut instead of overthinking</a>. The short version is this. Fear closes you down. A genuine gut pull opens something up, even when it is frightening.</p>
+
+<h2 id="what-does-not-work">What Does Not Work</h2>
+
+<p>There are only four things you can do with a difficult feeling. Suppress it, vent it, escape it, or let it go. The first three manage it. Only the fourth removes it.</p>
+
+<p>A lot of advice for analysis paralysis sits in the first three.</p>
+
+<p><strong>One more round of research.</strong> That is escape. It feels like progress. It is the same loop with fresh content.</p>
+
+<p><strong>Asking everyone what they would do.</strong> That is often venting, and it adds opinions. Now you are weighing their fears as well as yours.</p>
+
+<p><strong>Pro and con lists, over and over.</strong> One list is useful. The fifth version of the same list is the same lap again.</p>
+
+<p><strong>Waiting until you feel sure.</strong> That feeling may never come. Doing comes first. Belief follows after.</p>
+
+<p><strong>Telling yourself it does not matter.</strong> If it matters to you, it matters. Pretending otherwise is suppression wearing a nicer outfit.</p>
+
+<p>And I still get this wrong. It took me weeks of practice before letting go started to feel natural, and I still do not always manage it.</p>
+
+<h2 id="when-it-is-more">When It Is More Than Overthinking</h2>
+
+<p>Most analysis paralysis is ordinary. It eases with practice.</p>
+
+<p>But if you cannot make any decisions at all, if it is stopping you sleeping or getting through your day, or if you have felt low and stuck for weeks, please talk to your GP or a trained professional.</p>
+
+<p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside proper support, not instead of it.</p>
+
+<p>For the ordinary kind, here is the one thing to try. Next time you reach for one more tab, stop. Find the feeling in your body, and let it run out before you choose.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Researching your way round a decision?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Getting unstuck on a choice is a big part of <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales pitch, ever. Just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-analysis-paralysis">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What causes analysis paralysis?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I think it is usually a feeling, not a lack of facts. Fear of getting it wrong, or a need to be certain. Research feels like it will settle that feeling, but facts cannot settle a feeling, so you keep looking.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I stop analysis paralysis?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Notice the moment you reach for more research, and name the feeling under it. Let that feeling be there in your body until it fades. Then look at the plain facts of the choice and decide with what you have.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is analysis paralysis a sign I am not ready to decide?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Not usually. In my experience it is a sign the decision matters to you and part of you is scared of getting it wrong. That fear is not evidence that you need more information.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How much research is enough before a big decision?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Decide that before you start. Pick a time limit and two or three things that really matter to you. When you reach that line, choose, even if it feels early.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I make the wrong choice?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">You might. Nobody gets every choice right, and more research would not change that. Most choices can be adjusted as you go. Waiting forever is also a choice, and it has a cost of its own.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is analysis paralysis a form of anxiety?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I cannot tell you that, and I would not try. I am not a trained counsellor. If you cannot make decisions at all, or it is affecting your sleep or your day, please talk to your GP alongside anything you try here.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What causes analysis paralysis?","acceptedAnswer":{"@type":"Answer","text":"I think it is usually a feeling, not a lack of facts. Fear of getting it wrong, or a need to be certain. Research feels like it will settle that feeling, but facts cannot settle a feeling, so you keep looking."}},
+{"@type":"Question","name":"How do I stop analysis paralysis?","acceptedAnswer":{"@type":"Answer","text":"Notice the moment you reach for more research, and name the feeling under it. Let that feeling be there in your body until it fades. Then look at the plain facts of the choice and decide with what you have."}},
+{"@type":"Question","name":"Is analysis paralysis a sign I am not ready to decide?","acceptedAnswer":{"@type":"Answer","text":"Not usually. In my experience it is a sign the decision matters to you and part of you is scared of getting it wrong. That fear is not evidence that you need more information."}},
+{"@type":"Question","name":"How much research is enough before a big decision?","acceptedAnswer":{"@type":"Answer","text":"Decide that before you start. Pick a time limit and two or three things that really matter to you. When you reach that line, choose, even if it feels early."}},
+{"@type":"Question","name":"What if I make the wrong choice?","acceptedAnswer":{"@type":"Answer","text":"You might. Nobody gets every choice right, and more research would not change that. Most choices can be adjusted as you go. Waiting forever is also a choice, and it has a cost of its own."}},
+{"@type":"Question","name":"Is analysis paralysis a form of anxiety?","acceptedAnswer":{"@type":"Answer","text":"I cannot tell you that, and I would not try. I am not a trained counsellor. If you cannot make decisions at all, or it is affecting your sleep or your day, please talk to your GP alongside anything you try here."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'overlooked-for-promotion',
+    title: 'How to Handle Being Overlooked for a Promotion',
+    description: 'Being passed over for a promotion hurts. Here is the order I would use: feel it first, then check the story, then decide what to actually do next.',
+    category: 'Personal Development',
+    publishedAt: '2026-10-09',
+    readingTime: 12,
+    image: '/blog/overlooked-for-promotion.jpg',
+    html: `
+<p>The email arrives, or the meeting ends, and someone else has the job.</p>
+
+<p>You smile. You say congratulations. You might even mean it.</p>
+
+<p>Then you go back to your desk, and something heavy sits down in your chest. By the evening it has a voice. They never rated you. You are not good enough. You have wasted years here.</p>
+
+<p>Most advice about this jumps straight to the plan. Ask for feedback, build your skills, update your CV. That advice is not wrong. I just think it is in the wrong order.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Being overlooked for a promotion is a real loss, and it is normal for it to hurt. The mistake I think most of us make is acting too soon, either by sulking, quitting in a temper, or rushing into a plan while the feeling is still running the show. The Catalyst Method gives a better order. Catch the feeling and name it. Let it go, in your body, until it runs out. Then ask what is actually true: what happened, and what story you added on top. Only then decide what to do, whether that is asking for feedback, staying, or leaving. A promotion decision is about a role, a budget and a few people's view at one moment. It is not a verdict on you. You are enough as you are, with or without the title.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#why-it-hurts">Why it hurts so much</a></li>
+    <li style="margin-bottom:8px;"><a href="#dont-act-yet">Do not act yet</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-order">Feel it, check the story, then decide</a></li>
+    <li style="margin-bottom:8px;"><a href="#not-a-verdict">It is a decision, not a verdict</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-to-do-next">What to actually do next</a></li>
+    <li style="margin-bottom:8px;"><a href="#stay-or-go">Should you stay or go?</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-does-not-work">What does not work</a></li>
+    <li style="margin-bottom:8px;"><a href="#when-it-is-more">When it is more than a knock</a></li>
+    <li style="margin-bottom:0px;"><a href="#faq-promotion">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="why-it-hurts">Why It Hurts So Much</h2>
+
+<p>I want to start by saying this plainly. It is fine that it hurts.</p>
+
+<p>You probably wanted it. You may have worked for it for a long time. You may have pictured telling people. You may have needed the money.</p>
+
+<p>Losing out on that is a real loss. Frustration, embarrassment, anger, a sense of unfairness. All of those are normal.</p>
+
+<p>But I think the size of the hurt often has less to do with the job, and more to do with what you made it mean.</p>
+
+<p>A promotion is easy to load up with meaning. Proof that you are good. Proof you were right to stay. Proof that people see you.</p>
+
+<p>So when it goes to someone else, it does not feel like losing a role. It feels like losing all of that proof in one go.</p>
+
+<p>That is worth noticing, because it tells you where the work is.</p>
+
+<h2 id="dont-act-yet">Do Not Act Yet</h2>
+
+<p>The first few days after a knock like this are a bad time to make a big move.</p>
+
+<p>I am not saying never act. I am saying the feeling will try to act for you, and it is not a good decision maker.</p>
+
+<p>Here is what it might push you to do.</p>
+
+<p><strong>Quit in a temper.</strong> Send the email, hand in the notice, show them.</p>
+
+<p><strong>Go cold.</strong> Do the bare minimum, stop offering ideas, make sure they know you are hurt.</p>
+
+<p><strong>Rush the plan.</strong> Book courses, rewrite your CV, ask for a meeting the same afternoon, all so you do not have to feel it.</p>
+
+<p><strong>Pretend it is fine.</strong> Smile, move on, never mention it again.</p>
+
+<p>Each one is a way of managing the feeling instead of dealing with it. There are only four things you can do with a difficult feeling. Suppress it, vent it, escape it, or let it go. Only the last one removes it.</p>
+
+<p>So the first job is not the plan. It is the feeling.</p>
+
+<h2 id="the-order">Feel It, Check the Story, Then Decide</h2>
+
+<p>This is The Catalyst Method. The first three steps are what you do when a feeling turns up, and they take about a minute each time.</p>
+
+<p><strong>Catch it.</strong> Notice the feeling before the story about whose fault it is. Name it. Disappointment. Anger. Embarrassment. Fear.</p>
+
+<p>It might come back a lot in the first week. Each time the email comes into your head, or you see the person who got the role, it will flare. That is normal. Catch it each time.</p>
+
+<p><strong>Let it go.</strong> Find where it sits in your body. It might be heat in your face, a weight in your chest, a knot in your stomach, a clenched jaw.</p>
+
+<p>Stay there. Do not argue with it. Do not push it down. Do not go and tell three colleagues about it.</p>
+
+<p>Just let it be there. The energy behind a feeling is limited, and it runs out if you stop fighting it. The full technique is in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a>.</p>
+
+<p><strong>Ask what's true.</strong> Once it has faded a bit, separate what happened from what your head added.</p>
+
+<p>What happened: someone else was given the role.</p>
+
+<p>What I added: they think I am useless, I will never get anywhere here, I have wasted years.</p>
+
+<p>Say the plain version out loud. It is smaller than the story every time.</p>
+
+<p><strong>Then decide.</strong> Now, and only now, think about what to do next.</p>
+
+<p>The order matters. If you try to make a plan while the hurt is still loud, you will plan from the hurt. If you skip the feeling and go straight to "it was for the best", you are hiding the feeling under a nicer sentence. It will come back the next time that person gets praised in a meeting.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day. No sales pitch, ever.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="not-a-verdict">It Is a Decision, Not a Verdict</h2>
+
+<p>Here is the story I think is worth checking hardest. The idea that this decision says something final about you.</p>
+
+<p>Look at what actually goes into a promotion. A role that needs filling. A budget. What the team needs right now. The views of a few people, at one moment, based on what they happened to see.</p>
+
+<p>Some of that is about you. A lot of it is not.</p>
+
+<p>Essence is what happened. Appearance is the story added on top. I think most of the pain here is a reaction to the appearance. The story that you are not good enough.</p>
+
+<p>That story is a false reality. It is a leftover perspective, built from old fears, not evidence. I wrote about that in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">why "not good enough" is a false reality</a>.</p>
+
+<p>You are enough as you are. Not once you get the next title. Right now, at the same desk.</p>
+
+<p>That is not me saying the decision was fair. It might not have been. It is me saying that your worth was never on the table in that meeting. I wrote more about that difference in <a href="/blog/self-worth-vs-self-esteem-vs-confidence" style="color:#FFD700;">self-worth vs self-esteem vs self-confidence</a>.</p>
+
+<h2 id="what-to-do-next">What to Actually Do Next</h2>
+
+<p>Once the feeling has had its run, there are some sensible next steps. These are the ones I think hold up.</p>
+
+<p><strong>Ask for feedback, once, calmly.</strong> Ask what they were looking for, and what would make you a stronger fit next time. Ask it as a question, not a protest.</p>
+
+<p><strong>Listen for the note, not the verdict.</strong> Some of what you hear may sting. Separate the useful note from the story about you. There is more on that in <a href="/blog/how-to-take-feedback-at-work" style="color:#FFD700;">how to take feedback at work without it ruining your week</a>.</p>
+
+<p><strong>Be decent to the person who got it.</strong> It was not their decision. They may also be your manager one day.</p>
+
+<p><strong>Ask for what you want, plainly.</strong> If you want to be considered next time, say so. If you want a different kind of work, say that. I wrote about this in <a href="/blog/how-to-ask-for-what-you-want-at-work" style="color:#FFD700;">how to ask for what you want at work</a>.</p>
+
+<p><strong>Pick one thing to grow.</strong> Not an overhaul. One skill or one habit, twenty minutes a day. Done because it matters to you, not to prove a point.</p>
+
+<p>Then let go of the result. I call this part of THE WORK. Its three pillars are thoughts, lifestyle and meditation, and the belief underneath them is simple. Put in the work. Let go of the result. Take what comes.</p>
+
+<p>The two halves go together. Doing the work while gripping the promotion is force, and force runs out. Letting go of the promotion without doing any work is just waiting.</p>
+
+<p>The fruits of the work do come, I think. Maybe not as you expected them. Maybe not at this company. But as they come.</p>
+
+<h2 id="stay-or-go">Should You Stay or Go?</h2>
+
+<p>Sometimes being passed over shows you something real. The place does not value what you do. There is no path for you. The decision really was unfair, and nothing is going to change.</p>
+
+<p>If that is what is true, looking elsewhere is a reasonable choice. But make it once the feeling has passed, not in the middle of it.</p>
+
+<p>I will be honest about why I think this matters.</p>
+
+<p>I was in the same line of work for twelve years, on and off, with a travel gap in the middle. I quietly lost interest. There was no breakdown and no signed-off-sick moment. It was a slow fade that I mistook for how work was supposed to feel.</p>
+
+<p>I now think that was burnout in its quiet form. I wrote about it in <a href="/blog/burnout-and-self-belief" style="color:#FFD700;">burnout is not just tiredness</a>.</p>
+
+<p>Now I work in sales, and I love it, because I get to help people through honest conversations. It surprised me. I would not have predicted it.</p>
+
+<p>I am not telling you that story to say you should leave. I am telling it because a knock like this is a good moment to ask an honest question. Not "how do I get them to rate me?" but "is this work actually right for me?"</p>
+
+<p>You can only hear the answer to that once the hurt is out of the way.</p>
+
+<h2 id="what-does-not-work">What Does Not Work</h2>
+
+<p>Here is what I think does not help, even though some of it sounds sensible.</p>
+
+<p><strong>Just get over it.</strong> You cannot skip a feeling by deciding to. You can only let it run out.</p>
+
+<p><strong>Work twice as hard to prove them wrong.</strong> That is force, and it is aimed at their opinion, not your growth. Force runs out, and then you are tired as well as hurt.</p>
+
+<p><strong>Replaying the meeting.</strong> Going over what they said a hundred times is a search for a verdict that is not coming.</p>
+
+<p><strong>Comparing yourself with the person who got it.</strong> It turns a decision about a role into a ranking of two people. There is more on why that hurts in <a href="/blog/stop-comparing-yourself-on-social-media" style="color:#FFD700;">how to stop comparing yourself to others</a>.</p>
+
+<p><strong>Pretending you did not want it.</strong> If you wanted it, you wanted it. Pretending otherwise is suppression wearing a nicer outfit.</p>
+
+<p>And I do not always get the order right myself. It took me weeks of practice before letting go started to feel natural, and I still do not always manage it.</p>
+
+<h2 id="when-it-is-more">When It Is More Than a Knock</h2>
+
+<p>For most people, the sting of a promotion fades over a few weeks.</p>
+
+<p>But if you have felt low for weeks, if you cannot sleep, or if work has become something you dread every day, please talk to your GP or a trained professional. And if what is happening at work is bullying or discrimination, that is not a confidence problem to fix in yourself. Speak to HR, a union, or a qualified adviser.</p>
+
+<p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside proper support, not instead of it.</p>
+
+<p>For the ordinary kind of knock, here is the one thing to try today. Before you plan anything, find the feeling in your body, and let it run out.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Knocked sideways by a decision at work?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Getting your footing back at work is a big part of <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a>. No sales pitch, ever. Just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-promotion">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I deal with being passed over for a promotion?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Feel it first. Name the feeling, find where it sits in your body, and let it run out before you plan anything. Then separate what happened from the story you added. Only then decide on next steps, like asking for feedback.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I ask why I did not get the promotion?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Yes, once the feeling has calmed down. Ask what they were looking for and what would make you a stronger fit next time. Ask it as a question, not a complaint, and listen for the useful note rather than the verdict.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does being overlooked mean I am not good enough?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. A promotion decision is about a role, a budget and a few views at one moment. Some of it is about you, a lot of it is not. You are enough as you are, with or without the title.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I quit after being passed over for a promotion?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Maybe, but not while the hurt is still loud. If the honest answer is that there is no path for you there, leaving can be a sensible choice. Make it once the feeling has passed, so the decision is yours and not the hurt talking.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I work with the person who got the promotion?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Be decent to them. It was not their decision. If seeing them stirs the feeling up, catch it and let it go each time. That gets easier with practice.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if the decision was unfair?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">It might have been. Letting go of the feeling does not mean pretending it was fair. If it involved discrimination or bullying, speak to HR, a union, or a qualified adviser. That is not something to fix in yourself.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How do I deal with being passed over for a promotion?","acceptedAnswer":{"@type":"Answer","text":"Feel it first. Name the feeling, find where it sits in your body, and let it run out before you plan anything. Then separate what happened from the story you added. Only then decide on next steps, like asking for feedback."}},
+{"@type":"Question","name":"Should I ask why I did not get the promotion?","acceptedAnswer":{"@type":"Answer","text":"Yes, once the feeling has calmed down. Ask what they were looking for and what would make you a stronger fit next time. Ask it as a question, not a complaint, and listen for the useful note rather than the verdict."}},
+{"@type":"Question","name":"Does being overlooked mean I am not good enough?","acceptedAnswer":{"@type":"Answer","text":"No. A promotion decision is about a role, a budget and a few views at one moment. Some of it is about you, a lot of it is not. You are enough as you are, with or without the title."}},
+{"@type":"Question","name":"Should I quit after being passed over for a promotion?","acceptedAnswer":{"@type":"Answer","text":"Maybe, but not while the hurt is still loud. If the honest answer is that there is no path for you there, leaving can be a sensible choice. Make it once the feeling has passed, so the decision is yours and not the hurt talking."}},
+{"@type":"Question","name":"How do I work with the person who got the promotion?","acceptedAnswer":{"@type":"Answer","text":"Be decent to them. It was not their decision. If seeing them stirs the feeling up, catch it and let it go each time. That gets easier with practice."}},
+{"@type":"Question","name":"What if the decision was unfair?","acceptedAnswer":{"@type":"Answer","text":"It might have been. Letting go of the feeling does not mean pretending it was fair. If it involved discrimination or bullying, speak to HR, a union, or a qualified adviser. That is not something to fix in yourself."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'confidence-disappears-around-certain-people',
+    title: 'Why Your Confidence Disappears Around Certain People',
+    description: 'Confidence is not a fixed amount you carry around. Here is why it drains away around certain people, and what I think actually brings it back.',
+    category: 'Personal Development',
+    publishedAt: '2026-10-09',
+    readingTime: 11,
+    image: '/blog/confidence-disappears-around-certain-people.jpg',
+    html: `
+<p>With most people, you are fine. You make jokes. You say what you think. You feel like yourself.</p>
+
+<p>Then a certain person walks in. A manager. A parent. That one friend. Someone you only met twice.</p>
+
+<p>And something drops. Your voice goes quieter. Your jokes dry up. You hear yourself agreeing with things you do not agree with.</p>
+
+<p>Afterwards you wonder where you went. I think the answer is more useful than it looks.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">Confidence is not a fixed amount you carry around. It changes with the room, the task and, most of all, the people. When it disappears around certain people, I do not think it means you are a fake, or that they are better than you. It usually means you want something from them, often their approval, and part of you is scared you will not get it. So you start performing. You become who you think they want, and the real you goes quiet. The fix is not to try harder to impress them. It is to catch the drop, let the feeling go, check the story about what they think, and then say one honest thing. Self-belief is about you, not them. Build that, and confidence around people follows from it.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#not-a-fixed-amount">Confidence is not a fixed amount</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-they-have">What that person has that others do not</a></li>
+    <li style="margin-bottom:8px;"><a href="#performing">The performance starts</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-old-lens">The old lens</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-order">What to do when it drops</a></li>
+    <li style="margin-bottom:8px;"><a href="#build-the-base">Build the base, not the act</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-does-not-work">What does not work</a></li>
+    <li style="margin-bottom:8px;"><a href="#when-it-is-more">When it is more than confidence</a></li>
+    <li style="margin-bottom:0px;"><a href="#faq-certain-people">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="not-a-fixed-amount">Confidence Is Not a Fixed Amount</h2>
+
+<p>A lot of us talk about confidence as if it is a tank. Some people have a full one. Some people have a low one.</p>
+
+<p>I do not think that is how it works.</p>
+
+<p>If it were a tank, it would not change from room to room. But it does. You can be calm with your friends and shaky with your boss on the same afternoon.</p>
+
+<p>So confidence is not something you carry. It is something that shows up, or does not, depending on what is around you.</p>
+
+<p>I find it useful to split two words here. <strong>Self-belief is about you. Confidence is about the task.</strong> Self-belief is the belief that you will do what you say you will do. Confidence is how you feel about a particular thing, in a particular place.</p>
+
+<p>Around certain people, the task changes. It is no longer "have a conversation". It quietly becomes "get them to think well of me".</p>
+
+<p>That is a much harder task. No wonder the confidence goes.</p>
+
+<p>I wrote more on the difference in <a href="/blog/what-is-self-belief" style="color:#FFD700;">what self-belief actually is</a>.</p>
+
+<h2 id="what-they-have">What That Person Has That Others Do Not</h2>
+
+<p>It is worth asking a plain question. What is it about this person?</p>
+
+<p>Usually it is not that they are scary. It is that they have something you want.</p>
+
+<p>Underneath most stuck feelings sits one of three wants. Approval, control, or security.</p>
+
+<p><strong>Approval.</strong> You want them to like you, respect you, rate you. A parent. A boss. Someone you admire.</p>
+
+<p><strong>Security.</strong> They have some power over you. Your job. Your place in a group. Your sense of being safe.</p>
+
+<p><strong>Control.</strong> You cannot predict them. They might be blunt, or moody, or hard to read, so you are on watch the whole time.</p>
+
+<p>Here is the thing. The more you want something from someone, the more your confidence depends on them.</p>
+
+<p>With your old friend, you do not need anything. So you are free. With this person, you need something. So you are careful.</p>
+
+<p>It is not about them being better than you. It is about how much of yourself you have handed to them.</p>
+
+<h2 id="performing">The Performance Starts</h2>
+
+<p>When you want approval from someone, I think you start to perform.</p>
+
+<p>You watch their face. You guess what they want. You become a slightly different version of yourself. Quieter, or louder. More agreeable. More impressive.</p>
+
+<p>I know this one well.</p>
+
+<p>My version of people-pleasing was not struggling to say no. It was performing. Being whoever I thought people wanted, entertaining and agreeable on their terms.</p>
+
+<p>Here is what surprised me. When I stopped, people found me more interesting, not less.</p>
+
+<p>I think that is because performing is tiring, and people can feel it. The real you is easier to be around than the version you are trying to be.</p>
+
+<p>And there is a side effect I did not expect. I make decisions much faster now.</p>
+
+<p>So when your confidence vanishes around someone, it is often not that you have less of it. It is that you are busy running a show, and there is no room left to be yourself. I wrote more about this in <a href="/blog/how-to-stop-people-pleasing" style="color:#FFD700;">how to stop people-pleasing</a>.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day. No sales pitch, ever.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="the-old-lens">The Old Lens</h2>
+
+<p>There is often a history behind it too.</p>
+
+<p>Your current view of someone is not the whole truth. It is a lens made of your mood, your history and your fears.</p>
+
+<p>Some people remind us of someone. A parent you could never quite please. A teacher who made you feel small. A group where you did not fit.</p>
+
+<p>Your body remembers that, even if you do not. So when someone with a similar tone or manner turns up, the old feeling arrives before you have had a chance to think.</p>
+
+<p>That is not a fault. Negative thoughts and feelings arrived to help you survive, not to make you happy. They are not a verdict on who you are.</p>
+
+<p>But it does mean the drop you feel is not always about the person in front of you. Sometimes it is about someone from years ago.</p>
+
+<p>It helps to ask, quietly. Is this about them, or about who they remind me of?</p>
+
+<h2 id="the-order">What to Do When It Drops</h2>
+
+<p>This is The Catalyst Method. The first three steps take about a minute, and you can do them in the middle of a conversation.</p>
+
+<p><strong>Catch it.</strong> Notice the moment it drops. Your voice gets quieter. You laugh at something that is not funny. You agree too fast.</p>
+
+<p>Name the feeling. Usually it is fear. Sometimes embarrassment, or a tight wish for them to approve of you.</p>
+
+<p><strong>Let it go.</strong> Find where it sits in your body. For a lot of people, it is the throat or the chest. Sometimes it is the shoulders, pulled up without you noticing.</p>
+
+<p>Stay there for a few breaths. Do not argue with it. Do not try to push it down so you can look confident.</p>
+
+<p>The energy behind a feeling is limited. It runs out if you stop fighting it. If you want to know more about finding it, I wrote about <a href="/blog/where-you-feel-feelings-in-your-body" style="color:#FFD700;">where you actually feel feelings in your body</a>.</p>
+
+<p><strong>Ask what's true.</strong> Separate what is actually happening from the story.</p>
+
+<p>What is happening: I am talking to my manager about the project.</p>
+
+<p>What I added: she thinks I am not up to it, I am about to say something stupid, I need her to be impressed.</p>
+
+<p>Say the plain version to yourself. It is much smaller.</p>
+
+<p><strong>Then say one honest thing.</strong> Not a speech. One real sentence. Your actual opinion. A question you actually want answered. A joke you would make with anyone else.</p>
+
+<p>The order matters. If you try to act confident while the fear is still loud, you are performing again, just a braver performance. If you skip the feeling and tell yourself "they are only human", you are hiding the feeling under a nicer sentence.</p>
+
+<p>Feeling first. Story second. Then one honest thing.</p>
+
+<h2 id="build-the-base">Build the Base, Not the Act</h2>
+
+<p>The in-the-moment steps help. But I think the bigger change happens away from those people.</p>
+
+<p>If your sense of being OK depends on their approval, you will always be at their mercy. So the long-term work is to need it less.</p>
+
+<p>Not by caring less about people. By building a base that is yours.</p>
+
+<p>For me, that base is a daily practice. I get up at 6 or 6:30. I do twenty minutes of meditation focused on letting go, twenty minutes of yoga, and twenty minutes of reading books that help me grow.</p>
+
+<p>That is not a rule for you. Your twenty minutes can be anything that actually grows you. A walk with no phone. Reading. Moving your body. There is more on that in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20 minute rule</a>.</p>
+
+<p>Why does that help with one tricky person? Because self-belief runs on evidence. Every day you keep a promise to yourself, you build a bit more proof that you are someone you can trust. And someone who trusts themselves needs less from the room.</p>
+
+<p>The one sentence I keep coming back to is this. You are enough as you are. Not once that person approves of you. Right now.</p>
+
+<p>You do not have to believe it in the moment. Just notice that you have been asking them to decide something that was never theirs to decide.</p>
+
+<h2 id="what-does-not-work">What Does Not Work</h2>
+
+<p>Here is what I think does not help.</p>
+
+<p><strong>Fake it till you make it.</strong> That is performing, and performing is the problem. A braver mask is still a mask.</p>
+
+<p><strong>Power poses and pep talks before you go in.</strong> If part of you does not believe the pep talk, it just starts an argument in your head.</p>
+
+<p><strong>Avoiding them.</strong> That is escape. It works until the next time you cannot avoid them.</p>
+
+<p><strong>Telling yourself they do not matter.</strong> If they did not matter, you would not shrink. Pretending otherwise is suppression wearing a nicer outfit.</p>
+
+<p><strong>Waiting until you feel confident to speak.</strong> Doing comes first. Belief follows after.</p>
+
+<p>And I still feel the pull to perform sometimes. It took me weeks of practice before letting go started to feel natural, and I still do not always manage it.</p>
+
+<h2 id="when-it-is-more">When It Is More Than Confidence</h2>
+
+<p>Sometimes your confidence drops around someone because they are actually unkind. They put you down, mock you, or make you feel unsafe.</p>
+
+<p>That is not a confidence problem to fix in yourself. It is worth being honest about. People are shaped by their own upbringing and fear, which can explain behaviour. It does not excuse harm. Setting a boundary with them is fair. I wrote about that in <a href="/blog/is-setting-boundaries-selfish" style="color:#FFD700;">is setting boundaries selfish</a>.</p>
+
+<p>And if fear of people is stopping you leaving the house, going to work, or seeing anyone at all, please talk to your GP or a trained professional.</p>
+
+<p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside proper support, not instead of it.</p>
+
+<p>For the ordinary kind, here is the one thing to try. Next time it drops, find the feeling in your throat or chest, let it run out, and then say one honest sentence.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Shrinking around the same few people?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Untangling where self-doubt comes from is a big part of <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcoming self-doubt</a>. No sales pitch, ever. Just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-certain-people">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why do I lose confidence around certain people?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I think it is usually because you want something from them, often their approval. The more you want it, the more your confidence depends on them. So you start performing for them, and the real you goes quiet.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why am I confident with some people and not others?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Confidence is not a fixed amount you carry. It changes with the room and the people. With people you need nothing from, you are free. With people whose approval you want, you are careful.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Does losing confidence around someone mean they are better than me?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. It usually means you have handed them a lot of power over how you feel. That is about what you want from them, not about who is better.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I stay myself around people who intimidate me?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Notice the moment you start to shrink, and find the feeling in your body. Let it be there for a few breaths until it eases. Then say one honest thing, your real opinion or a real question, rather than the thing you think they want.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why do some people remind me of feeling small?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Sometimes a tone or manner echoes someone from your past, like a parent or a teacher. Your body reacts before you have had time to think. It helps to ask whether the feeling is about this person, or someone they remind you of.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if the person really is putting me down?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Then it is not a confidence problem to fix in yourself. It is fair to set a boundary, and to step back if you need to. If it is happening at work, speak to HR or someone you trust.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Why do I lose confidence around certain people?","acceptedAnswer":{"@type":"Answer","text":"I think it is usually because you want something from them, often their approval. The more you want it, the more your confidence depends on them. So you start performing for them, and the real you goes quiet."}},
+{"@type":"Question","name":"Why am I confident with some people and not others?","acceptedAnswer":{"@type":"Answer","text":"Confidence is not a fixed amount you carry. It changes with the room and the people. With people you need nothing from, you are free. With people whose approval you want, you are careful."}},
+{"@type":"Question","name":"Does losing confidence around someone mean they are better than me?","acceptedAnswer":{"@type":"Answer","text":"No. It usually means you have handed them a lot of power over how you feel. That is about what you want from them, not about who is better."}},
+{"@type":"Question","name":"How do I stay myself around people who intimidate me?","acceptedAnswer":{"@type":"Answer","text":"Notice the moment you start to shrink, and find the feeling in your body. Let it be there for a few breaths until it eases. Then say one honest thing, your real opinion or a real question, rather than the thing you think they want."}},
+{"@type":"Question","name":"Why do some people remind me of feeling small?","acceptedAnswer":{"@type":"Answer","text":"Sometimes a tone or manner echoes someone from your past, like a parent or a teacher. Your body reacts before you have had time to think. It helps to ask whether the feeling is about this person, or someone they remind you of."}},
+{"@type":"Question","name":"What if the person really is putting me down?","acceptedAnswer":{"@type":"Answer","text":"Then it is not a confidence problem to fix in yourself. It is fair to set a boundary, and to step back if you need to. If it is happening at work, speak to HR or someone you trust."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
+  {
+    slug: 'rebuild-trust-in-yourself',
+    title: 'How to Rebuild Trust in Yourself After You Let Yourself Down',
+    description: 'Self-trust is not rebuilt with a big promise. It comes back one small kept promise at a time. Here is how I think the repair actually works.',
+    category: 'Personal Development',
+    publishedAt: '2026-10-09',
+    readingTime: 11,
+    image: '/blog/rebuild-trust-in-yourself.jpg',
+    html: `
+<p>You said you would do it this time. You meant it.</p>
+
+<p>Then it slipped. Maybe it was the gym, or the course, or the money, or the habit you swore you would break. Maybe it was something bigger.</p>
+
+<p>Now there is a quiet voice that says: why would this time be any different? You always do this.</p>
+
+<p>That voice is not cruel for no reason. It has evidence. The question is what you do with it.</p>
+
+<div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.22);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:#FFD700;margin:0 0 14px;">TL;DR</p>
+  <p style="margin:0;color:rgba(255,255,255,0.82);line-height:1.85;">When you let yourself down, what you lose is not just the goal. You lose some trust in your own word. I think self-belief is simply the belief that you will do what you say you will do, so a broken promise to yourself hits it directly. The way back is not a bigger promise. Big promises made to cancel out a failure usually fail too, and then the trust drops further. The repair works the same way the trust was built. First, catch the feeling and let it go, so you are not acting from shame. Then check the story, separating what happened from the verdict you added. Then make one small promise you are sure you can keep, and keep it, every day. Trust comes back as evidence, not as a feeling you wait for.</p>
+</div>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 28px;margin:32px 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.68rem;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin:0 0 14px;">In this article</p>
+  <ol style="margin:0 0 0 20px;padding:0;color:rgba(255,255,255,0.65);line-height:1.85;">
+    <li style="margin-bottom:8px;"><a href="#what-you-lost">What you actually lost</a></li>
+    <li style="margin-bottom:8px;"><a href="#the-big-promise">Why the big comeback promise fails</a></li>
+    <li style="margin-bottom:8px;"><a href="#feeling-first">Deal with the feeling first</a></li>
+    <li style="margin-bottom:8px;"><a href="#small-promise">One small promise, kept</a></li>
+    <li style="margin-bottom:8px;"><a href="#after-a-slip">What to do when you slip again</a></li>
+    <li style="margin-bottom:8px;"><a href="#my-own-gap">My own gap</a></li>
+    <li style="margin-bottom:8px;"><a href="#what-does-not-work">What does not work</a></li>
+    <li style="margin-bottom:8px;"><a href="#when-it-is-more">When it is more than a let-down</a></li>
+    <li style="margin-bottom:0px;"><a href="#faq-self-trust">Common questions</a></li>
+  </ol>
+</div>
+
+<h2 id="what-you-lost">What You Actually Lost</h2>
+
+<p>When you let yourself down, it is easy to focus on the thing itself. The weight you did not lose. The project you did not finish. The money you spent.</p>
+
+<p>But I think the bigger loss is quieter. It is trust.</p>
+
+<p>Self-belief, for me, is the belief that you will do what you say you will do. Nothing grander than that.</p>
+
+<p>So when you say you will do something and then do not, that belief takes a knock. Not because you are a bad person. Because you have one more piece of evidence that your word to yourself does not hold.</p>
+
+<p>Do that a few times and something changes. You stop believing your own plans. You start a new habit already half expecting to quit.</p>
+
+<p>That is the real damage. And it is also the good news, because it means the repair is clear. Trust was lost through evidence. It comes back through evidence too.</p>
+
+<p>I wrote more about this idea in <a href="/blog/what-is-self-belief" style="color:#FFD700;">what self-belief actually is</a>.</p>
+
+<h2 id="the-big-promise">Why the Big Comeback Promise Fails</h2>
+
+<p>After a let-down, there is a strong pull to make up for it.</p>
+
+<p>This time I will go every day. This time I will do it properly. Starting Monday, everything changes.</p>
+
+<p>I understand that pull. But I think it nearly always backfires.</p>
+
+<p>A big promise made straight after a failure is not really a plan. It is a way of getting rid of the bad feeling. It feels like taking control. For a few days, it even works.</p>
+
+<p>Then real life turns up. A late night. A sick kid. A hard week. The big promise cracks.</p>
+
+<p>Now you have broken two promises instead of one. And the voice that said "you always do this" has even more evidence.</p>
+
+<p>There is another problem with it. Big promises usually run on force. Discipline, no excuses, be harder on yourself. I think discipline is a negative mindset. It means controlling and starving yourself, and it runs on the idea that without force you would be lazy. That fuel burns out. I wrote about why in <a href="/blog/why-discipline-is-a-negative-mindset" style="color:#FFD700;">why being disciplined is a negative mindset</a>.</p>
+
+<p>When it cracks, you decide the crack proves something about you. It does not. You just ran out of a thing that always runs out.</p>
+
+<h2 id="feeling-first">Deal With the Feeling First</h2>
+
+<p>Before any plan, I would deal with how you feel. Because if you act from shame, you will make shame-shaped decisions. Too big, too harsh, too fast.</p>
+
+<p>This is where The Catalyst Method starts.</p>
+
+<p><strong>Catch it.</strong> Notice the feeling when it turns up. The sinking feeling when you think about what you did not do. Name it. Shame. Disappointment. Frustration. Fear that you will never change.</p>
+
+<p><strong>Let it go.</strong> Find where it sits in your body. Often it is the stomach, or a heaviness in the chest.</p>
+
+<p>Stay there. Do not argue with it. Do not try to fix it with a new plan. Do not go and tell someone how useless you are.</p>
+
+<p>Just let it be there. The energy behind a feeling is limited, and it runs out if you stop fighting it. The full technique is in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a>.</p>
+
+<p><strong>Ask what's true.</strong> Once the feeling has eased, look at what actually happened.</p>
+
+<p>What happened: I said I would go running three times a week. I went twice, then stopped.</p>
+
+<p>What I added: I am hopeless. I never finish anything. I cannot be trusted.</p>
+
+<p>Say the plain version out loud. It is a fact about a few weeks. It is not a fact about you.</p>
+
+<p>Your negative thoughts are not you. They are not a verdict on who you are.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want more of this in your inbox?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">One free email a week on confidence and self-belief. A couple of minutes to read, with something practical to try the same day. No sales pitch, ever.</p>
+  <a href="/self-belief-email-series" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Get the Free Email Series</a>
+</div>
+
+<h2 id="small-promise">One Small Promise, Kept</h2>
+
+<p>Now, with the feeling cleared and the story checked, you can act.</p>
+
+<p>Here is the step I think most people skip. Make the promise smaller. Much smaller.</p>
+
+<p>Not "I will run three times a week". Try "I will put my trainers on and walk for five minutes each day".</p>
+
+<p>That can feel embarrassing. Like it is not enough. But the point right now is not the running. The point is the trust.</p>
+
+<p>You are not trying to get fit this week. You are trying to prove to yourself, one day at a time, that your word holds.</p>
+
+<p>Each kept promise is a piece of evidence. Five minutes on Monday. Five minutes on Tuesday. By Friday, the voice that says "you always do this" has something to argue with.</p>
+
+<p>This is why I think self-belief is not a feeling you wait for. It is evidence you build.</p>
+
+<p>There is a full guide on this in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">how to keep a promise to yourself</a>.</p>
+
+<p>And on the days even the small version feels too big, shrink it again. Never skip it. A five-minute walk still counts. I wrote about that in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">what to do when your 20 minutes feels like too much</a>.</p>
+
+<h2 id="after-a-slip">What to Do When You Slip Again</h2>
+
+<p>You will slip again. Everyone does.</p>
+
+<p>What matters is what happens the day after.</p>
+
+<p>The old habit is to treat a slip as the end. I missed Wednesday, so the week is ruined, so I will start again next Monday. Back to day one.</p>
+
+<p>I do not think you should ever go back to day one. Miss a day, carry on at the next one. That is it.</p>
+
+<p>Starting over feels like a fresh start. But I think it is mostly a way of avoiding an honest look at what got in the way. And every restart tells you, again, that you are someone who has to restart.</p>
+
+<p>So when you slip, run the same order. Catch the feeling. Let it go. Ask what is true. "I missed one day" is the plain version. Then do today's small thing.</p>
+
+<p>Back yourself, do not beat yourself. Keep your word to yourself because you respect yourself enough to keep it, not because you will punish yourself if you do not.</p>
+
+<p>Same actions, different engine.</p>
+
+<h2 id="my-own-gap">My Own Gap</h2>
+
+<p>I want to be honest about my own version of this, because it is not a neat story.</p>
+
+<p>My first was born about six years ago, and for the six years since, the practice was gone. The meditation, the yoga, all of the inner work. I threw myself into being a parent, and it fell away.</p>
+
+<p>I was stuck in those years. Low mood, going through the motions.</p>
+
+<p>I have only started taking real action again recently, because we are out of the toddler years. Not because I finally found the discipline.</p>
+
+<p>I tell that story because I think it matters how you read a gap like that. Two kids under school age is a real limit on what you can do. Some stuck periods are capacity, not failure. The practice was the first thing to go, and stuck followed from it stopping.</p>
+
+<p>That is a sequence, not a character flaw.</p>
+
+<p>If your let-down happened in a full season, with young kids, a hard job or an ill parent, be fair to yourself about that. It does not mean nothing can be done. The smaller version is always there. But it is not a verdict on who you are.</p>
+
+<p>Now I get up at 6 or 6:30 and do twenty minutes of meditation, twenty minutes of yoga and twenty minutes of reading. If the morning is gone, I do the letting-go meditation before bed instead. That fallback is part of the promise, not a failure of it.</p>
+
+<h2 id="what-does-not-work">What Does Not Work</h2>
+
+<p>Here is what I think does not help, even though most of it sounds sensible.</p>
+
+<p><strong>The big comeback.</strong> As above. It is the feeling making the plan.</p>
+
+<p><strong>Beating yourself up.</strong> It feels like taking it seriously. It is not. It just adds a second thing to feel bad about.</p>
+
+<p><strong>Affirmations like "I trust myself".</strong> If part of you does not believe it, it starts an argument in your head. Self-belief runs on evidence, which is why affirmations on their own feel hollow.</p>
+
+<p><strong>Public promises and streaks.</strong> Telling everyone runs on fear of being seen to fail. Fear is a fuel that burns out.</p>
+
+<p><strong>Waiting until you feel ready.</strong> That feeling comes after, not before. Doing comes first. Belief follows after.</p>
+
+<p>And I am still learning this. It took me weeks of practice before letting go started to feel natural, and I still do not always manage it.</p>
+
+<h2 id="when-it-is-more">When It Is More Than a Let-Down</h2>
+
+<p>Most broken promises to yourself are ordinary. Missed habits, abandoned plans. They ease with small, kept promises.</p>
+
+<p>But if the let-down is about something like drinking, gambling or money trouble that is getting worse, or if you have felt low for weeks, please talk to your GP or a trained professional. Some things are much easier with proper support.</p>
+
+<p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside that kind of support, not instead of it.</p>
+
+<p>For the ordinary kind, here is the one thing to try today. Pick one promise so small it is almost silly, and keep it.</p>
+
+<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Finding it hard to trust your own word?</p>
+  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Rebuilding that trust is a big part of <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcoming self-doubt</a>. No sales pitch, ever. Just a real reply from me.</p>
+  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
+</div>
+
+<h2 id="faq-self-trust">Common Questions</h2>
+
+<div style="margin:8px 0 0;">
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How do I trust myself again after letting myself down?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Make one small promise you are sure you can keep, and keep it every day. Self-trust comes back as evidence. Each kept promise is proof that your word holds. Big comeback promises tend to break and make it worse.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Why do I keep breaking promises to myself?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Often the promises are too big and run on force. Force works for a while and then runs out. When that happens, it feels like proof you cannot be trusted, but I think you just ran out of something that always runs out.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Should I start again from day one after a slip?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">No. Miss a day, carry on at the next one. Going back to day one tells you again that you are someone who has to restart. Catch the feeling, check the story, and do the small thing for today.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">How long does it take to rebuild self-trust?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">I cannot give you a timeline, and I would be wary of anyone who does. It comes back gradually, one kept promise at a time. My honest read is that the voice that says you always do this gets quieter as the evidence builds.</p>
+  </div>
+
+  <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:22px 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">Is it my fault I let myself down?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">Sometimes it is partly yours, and sometimes life was simply full. Some stuck periods are capacity, not failure. Owning your part is useful. Treating it as a verdict on who you are is not.</p>
+  </div>
+
+  <div style="padding:22px 0 0;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:800;color:#fff;margin:0 0 10px;line-height:1.4;">What if I let myself down in something serious?</p>
+    <p style="color:rgba(255,255,255,0.65);line-height:1.85;margin:0;">If it involves something like drinking, gambling, debt or your health, please get proper support from your GP or a trained professional. I am not a trained counsellor. What I share here can sit alongside that, not replace it.</p>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How do I trust myself again after letting myself down?","acceptedAnswer":{"@type":"Answer","text":"Make one small promise you are sure you can keep, and keep it every day. Self-trust comes back as evidence. Each kept promise is proof that your word holds. Big comeback promises tend to break and make it worse."}},
+{"@type":"Question","name":"Why do I keep breaking promises to myself?","acceptedAnswer":{"@type":"Answer","text":"Often the promises are too big and run on force. Force works for a while and then runs out. When that happens, it feels like proof you cannot be trusted, but I think you just ran out of something that always runs out."}},
+{"@type":"Question","name":"Should I start again from day one after a slip?","acceptedAnswer":{"@type":"Answer","text":"No. Miss a day, carry on at the next one. Going back to day one tells you again that you are someone who has to restart. Catch the feeling, check the story, and do the small thing for today."}},
+{"@type":"Question","name":"How long does it take to rebuild self-trust?","acceptedAnswer":{"@type":"Answer","text":"I cannot give you a timeline, and I would be wary of anyone who does. It comes back gradually, one kept promise at a time. My honest read is that the voice that says you always do this gets quieter as the evidence builds."}},
+{"@type":"Question","name":"Is it my fault I let myself down?","acceptedAnswer":{"@type":"Answer","text":"Sometimes it is partly yours, and sometimes life was simply full. Some stuck periods are capacity, not failure. Owning your part is useful. Treating it as a verdict on who you are is not."}},
+{"@type":"Question","name":"What if I let myself down in something serious?","acceptedAnswer":{"@type":"Answer","text":"If it involves something like drinking, gambling, debt or your health, please get proper support from your GP or a trained professional. I am not a trained counsellor. What I share here can sit alongside that, not replace it."}}
+]}
+</script>
+
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 28px;margin:40px 0 0;">
+  <p style="font-family:'Montserrat',sans-serif;font-size:0.88rem;font-weight:800;color:#fff;margin:0 0 6px;">Written by Harry</p>
+  <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);margin:0;line-height:1.7;">Not a trained life coach or counsellor, just sharing what has helped me on my own journey. For more free guides on confidence, self-belief and letting go, <a href="/blog">visit the blog</a>. To read the full story, see the <a href="/about">about page</a>.</p>
+</div>
+`,
+  },
 ]
