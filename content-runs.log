@@ -279,3 +279,64 @@ Section 10, the half the script cannot check:
 
 Skipped or blocked: none.
 Queued rows remaining: 28.
+
+========================================================================
+2026-10-09  Weekly blog run (scheduled, unattended)
+========================================================================
+Commit 993a22b, pushed to origin/main.
+
+1. Analysis Paralysis: Why More Information Makes It Harder
+   https://www.thecatalystmethod.co.uk/blog/analysis-paralysis
+   2406 words, grade 3.7, 11 internal links
+2. How to Handle Being Overlooked for a Promotion
+   https://www.thecatalystmethod.co.uk/blog/overlooked-for-promotion
+   2355 words, grade 3.4, 12 internal links
+3. Why Your Confidence Disappears Around Certain People
+   https://www.thecatalystmethod.co.uk/blog/confidence-disappears-around-certain-people
+   2190 words, grade 3.6, 10 internal links
+4. How to Rebuild Trust in Yourself After You Let Yourself Down
+   https://www.thecatalystmethod.co.uk/blog/rebuild-trust-in-yourself
+   2189 words, grade 3.2, 10 internal links
+
+Gates: check:posts 4/4 PASS first attempt, no warnings. npm run build green.
+
+Section 10:
+  Beliefs         pass. Each traces to beliefs 2, 4, 10, 12 and 14 to 19;
+                  none contradicted.
+  Traps           pass. Every Section 6 row checked. Fake it till you
+                  make it, affirmations, discipline, big comeback promises,
+                  push through and trust your gut alone are each named as
+                  things that do not work, with the reason.
+  Sequence        pass. All four teach catch it, let it go, ask what's true,
+                  then act, in that order.
+  THE WORK        Named in post 2 only. Pillars in order, putting in the work
+                  always paired with letting go of the result, no promised
+                  result.
+  Story bank      pass. Used only: the joint travelling leap of faith in the
+                  canonical wording (gut decision, not a confident one),
+                  performing as his people-pleasing and deciding faster
+                  since, twelve years on and off and the quiet burnout,
+                  sales and honest conversations, the six years from the
+                  first kid as capacity, 6 or 6:30 and the 20/20/20, the
+                  before-bed fallback. Two first-person lines that went
+                  beyond the bank were cut before the gate ran. Post 2 does
+                  not claim Harry was ever passed over himself.
+  Support         pass. All four carry a GP or trained professional line,
+                  alongside not instead of. Posts 2 and 3 say bullying or
+                  discrimination is not a confidence problem to fix in
+                  yourself. Post 4 names drinking, gambling and debt as
+                  things that need proper support.
+  Judgement calls The pillar link sits in each contact box, as in earlier
+                  posts. "Paradox of choice" is named as a well known idea,
+                  explicitly not as science. Post 4 states the missed day
+                  rule (never restart at day 1) from Section 9. No
+                  meditation taught at length, so no full safety note.
+
+Push: the first push was refused (403). The active gh account had been
+switched to harrywellbeing. Pushed with the stored token for
+harrythecatalystltd-glitch for this command only. The global gh active
+account was left as harrywellbeing. Worth checking which account should be
+active, or the next run will hit the same 403.
+
+Skipped or blocked: none.
+Queued rows remaining: 24.
