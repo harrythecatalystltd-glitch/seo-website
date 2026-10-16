@@ -113,10 +113,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 
 | Status | Working title | Slug | Primary keyword | Cluster | Angle and must-links |
 | --- | --- | --- | --- | --- | --- |
-| queued | Fear of Failure: What It Is Actually Protecting You From | `fear-of-failure` | how to overcome fear of failure | Self-doubt | It protects the self-image, not you. Link the self-doubt pillar and self-doubt-before-you-grow. |
-| queued | How to Stop Caring What People Think, Realistically | `how-to-stop-caring-what-people-think` | how to stop caring what people think | Self-doubt | You will not stop caring. You can stop obeying it. Link the self-doubt pillar. |
-| queued | What to Do When You Do Not Know What You Want | `when-you-dont-know-what-you-want` | I don't know what I want in life | Purpose | Uses the loudest-doubt-as-a-map idea from self-doubt-before-you-grow. Link how-to-find-your-why. |
-| queued | How to Start Again After You Have Stopped | `how-to-start-again-after-stopping` | how to get back on track after giving up | Habits | Starting over feels productive because it delays the honest look. Link the 20 minute rule. |
+| published 2026-10-16 | Fear of Failure: What It Is Actually Protecting You From | `fear-of-failure` | how to overcome fear of failure | Self-doubt | It protects the self-image, not you. Link the self-doubt pillar and self-doubt-before-you-grow. |
+| published 2026-10-16 | How to Stop Caring What People Think, Realistically | `how-to-stop-caring-what-people-think` | how to stop caring what people think | Self-doubt | You will not stop caring. You can stop obeying it. Link the self-doubt pillar. |
+| published 2026-10-16 | What to Do When You Do Not Know What You Want | `when-you-dont-know-what-you-want` | I don't know what I want in life | Purpose | Uses the loudest-doubt-as-a-map idea from self-doubt-before-you-grow. Link how-to-find-your-why. |
+| published 2026-10-16 | How to Start Again After You Have Stopped | `how-to-start-again-after-stopping` | how to get back on track after giving up | Habits | Starting over feels productive because it delays the honest look. Link the 20 minute rule. |
 
 ## Week 8
 
