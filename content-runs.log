@@ -340,3 +340,53 @@ active, or the next run will hit the same 403.
 
 Skipped or blocked: none.
 Queued rows remaining: 24.
+
+2026-10-16  Weekly blog run (Week 7)  commit 3bf0b8d
+  fear-of-failure                       2582 words, grade 3.2, 10 links
+    Fear of Failure: What It Is Actually Protecting You From
+  how-to-stop-caring-what-people-think  2199 words, grade 3.6, 10 links
+    How to Stop Caring What People Think, Realistically
+  when-you-dont-know-what-you-want      2290 words, grade 3.1, 12 links
+    What to Do When You Do Not Know What You Want
+  how-to-start-again-after-stopping     2177 words, grade 3.0, 12 links
+    How to Start Again After You Have Stopped
+
+Gates: check:posts 4/4 pass first attempt, no warnings. npm run build green.
+
+Section 10:
+  Beliefs         pass. Traces to beliefs 1, 4, 9 to 12, 14 to 24, 27 to 30;
+                  none contradicted.
+  Traps           pass. Every Section 6 row checked. Reframe before letting
+                  go, worst-case planning loops, push through, affirmations,
+                  fake it till you make it, find your passion, the big new
+                  Monday, discipline and wanting it badly enough are each
+                  named as not working, with the reason.
+  Sequence        pass. All four teach catch it, let it go, ask what's true,
+                  then act, in that order.
+  THE WORK        Named in post 1 only. Pillars in order, work always paired
+                  with letting go of the result, no promised result,
+                  God/universe/divine offered openly.
+  Story bank      pass. Used only: the joint travel leap of faith (canonical
+                  wording, gut not confident, "frightening and open"), the
+                  lost-sense-of-self year and its symptoms, coming home
+                  wanting to experience life, performing as people-pleasing,
+                  more interesting and faster decisions since, the six years
+                  from the first kid as capacity, restarting once out of the
+                  toddler years, 6 or 6:30 and 20/20/20, the before-bed
+                  fallback, two checklist lines verbatim with "do not copy
+                  mine", kids as his why. Three lines that went beyond the
+                  bank were cut before the gate ran.
+  Support         pass. All four carry a GP or trained professional line,
+                  alongside not instead of. Post 2 says deliberate put-downs
+                  are not a confidence problem to fix in yourself.
+  Judgement calls Post 4 extends rebuild-trust-in-yourself (a slip) to a long
+                  stop, so it is not a near duplicate. Post 3 notes not every
+                  loud doubt is a hidden want. No meditation taught at length.
+
+Push: refused again (403, active gh account harrywellbeing). Pushed with the
+stored harrythecatalystltd-glitch token for this command only, global active
+account left unchanged. Same as 9 October. Switching the active account back
+would stop this recurring.
+
+Skipped or blocked: none.
+Queued rows remaining: 20.
