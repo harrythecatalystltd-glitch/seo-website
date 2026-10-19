@@ -769,7 +769,11 @@ and both in the sitemap:
 
 **Netlify copy:** https://thecatalystmethod30daychallenge.netlify.app/. Still live, because the
 MailerLite challenge emails link to it, including the anchors `#d16`, `#d17`, `#d22`, `#d26`,
-`#rules` and `#books`. The main-domain copy has the same anchors.
+`#rules` and `#books`. The main-domain copy has the same anchors. Since 19 October 2026 it carries
+a canonical tag pointing at the main-site guide, so Google credits the main site. The tag lives in
+`30-day-challenge.html` itself, so every copy made from it inherits it. Redeploy Netlify through
+the Netlify connector (account hey@thecatalystmethod.co.uk). The Netlify CLI on this machine is
+logged in to the findamassagetherapist account and cannot see this site.
 
 Hosted on Netlify, separate from the main site, which is on Vercel. The site was renamed from its
 auto-generated name on 28 August 2026, so **the old `zippy-hamster-ee2a9f` URL now returns 404**.
