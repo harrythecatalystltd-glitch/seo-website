@@ -1,7 +1,12 @@
 # Content Plan
 
-The publishing queue for the weekly blog run. Four posts go out every Friday, taken from the
-top of this queue.
+The publishing queue for the weekly blog run. Every Friday the run publishes **two new posts**
+from the new-post queue and **refreshes two existing posts** from the refresh queue.
+
+Why the split (decided 19 October 2026): new posts were being indexed and reaching page one, but
+for searches almost nobody makes. Posts already sitting at positions 5 to 15 on searches with
+real volume are the fastest traffic available. Moving one from position 8 to position 3 roughly
+triples its clicks.
 
 **This file is the plan of record.** Reorder it, rewrite a title, or drop a row whenever you
 like. The Friday run reads it, it never invents its own topics, and it never skips ahead.
@@ -13,16 +18,18 @@ This file only governs what gets written and in what order.
 
 ## How the queue works
 
-1. The Friday run takes the first four rows with status `queued`, in order.
-2. It researches, writes, illustrates and publishes them.
-3. It changes their status to `published YYYY-MM-DD` and commits this file with the posts.
+1. The Friday run takes the first two new-post rows with status `queued`, in file order, and
+   the first two refresh rows with status `queued`. The week headings below are only grouping.
+2. It researches, writes, illustrates and publishes the new posts, and reworks the refreshes.
+3. It changes new-post rows to `published YYYY-MM-DD` and refresh rows to
+   `refreshed YYYY-MM-DD`, and commits this file with the posts.
 4. If a row fails the quality gate twice, it is set to `blocked` with a reason and the run
    moves to the next queued row, so a single bad topic never stops a week going out.
 
 Statuses: `queued`, `published YYYY-MM-DD`, `blocked: reason`, `skip`.
 
-When fewer than eight `queued` rows remain, the run adds a note to its summary asking for the
-plan to be topped up. Refill it by running fresh keyword research against the live post list.
+When fewer than eight `queued` new-post rows remain, the run adds a note to its summary asking
+for the plan to be topped up. Refill it by running fresh keyword research against the live post list.
 
 ---
 
@@ -39,6 +46,32 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 - **Nothing is sold.** Free weekly tips or contact me directly. Those are the only CTAs.
 
 ---
+
+## Refresh queue
+
+Existing posts that already rank 5 to 15 for a search with real volume. Baselines are Google
+Search Console, last 28 days, taken the day the row was added, so the run log can show whether
+the refresh worked.
+
+| Status | Slug | Target search | Baseline (28 days) | What it needs |
+| --- | --- | --- | --- | --- |
+| queued | `how-to-keep-a-promise-to-yourself` | how to keep promises to yourself | 257 impressions, 2 clicks, position 8.6 | Only 1,071 words and no FAQ schema, so it fails the gate today. Grow to 2,000+, add a five-question FAQ with matching schema. Also ranks for "keeping promises to yourself". |
+| queued | `what-is-self-belief` | what is self-belief | 192 impressions, 1 click, position 8.2 | Fails the gate on one FAQ answer that does not match its schema. Fix that. Rework title and description for clicks. Add a plain section on self-belief vs confidence, it ranks 9 for "belief vs confidence". |
+| queued | `map-of-consciousness-explained-simply` | map of consciousness | 186 impressions, 1 click, position 6.9 | Only 1,085 words, no FAQ schema, meta description 217 characters. 305 impressions at position 11 over 120 days for "map of consciousness", plus "hawkins ladder". Section 7 applies hard: not science, no numbers for people, no muscle testing. |
+| queued | `first-instinct-or-think-it-through` | first instinct meaning | 107 impressions, 0 clicks, position 7 | Passes the gate. Zero clicks from page one is a title and description problem. Answer "what does first instinct mean" in plain words near the top. |
+
+Statuses: `queued`, `refreshed YYYY-MM-DD`, `blocked: reason`, `skip`.
+
+**Refilling the refresh queue.** The run does this itself when fewer than two rows are queued, so
+a week never goes out short. It is choosing from posts that already exist, by data, so it is not
+inventing topics.
+
+1. Fetch `https://seo-keyword-dashboard.vercel.app/api/gsc/pages?days=28` and
+   `https://seo-keyword-dashboard.vercel.app/api/gsc/keywords?days=28`.
+2. Take manual posts (in `lib/manual-posts.ts`) with average position 5 to 15, most
+   impressions first. Skip any with `updatedAt` in the last 90 days, the legacy agency posts,
+   and anything not in `lib/manual-posts.ts`.
+3. Add rows in the format above with today's baseline, and say in the run summary that it did.
 
 ## Clusters and their pillar pages
 
@@ -170,7 +203,10 @@ plan to be topped up. Refill it by running fresh keyword research against the li
 When this runs low, do fresh research rather than guessing:
 
 1. List every live post, so nothing gets written twice.
-2. Search the clusters above for questions that have real demand and no coverage here.
+2. Search the clusters above for questions that have real demand and no coverage here. Real
+   demand means people actually search the phrase. Check it in Search Console data, Google
+   autocomplete and People Also Ask. A clever angle on a phrase nobody types gets indexed and
+   then gets nothing, which is exactly what happened with most of September.
 3. Prefer topics where the personal angle is available. That is the whole differentiator.
 4. Add weeks to the bottom of this file in the same format.
 

@@ -1,10 +1,11 @@
 ---
-description: Research, write, illustrate and publish the next four blog posts from CONTENT-PLAN.md
+description: Publish two new blog posts and refresh two existing ones from CONTENT-PLAN.md
 ---
 
 # Weekly blog run
 
-Publish the next four posts from the content plan, live, with no questions asked.
+Publish the next two new posts and refresh the next two existing posts from the content plan,
+live, with no questions asked.
 
 This runs unattended every Friday. **Never stop to ask anything.** If a decision is unclear,
 take the conservative option, note it in the run summary, and carry on. If something is
@@ -38,19 +39,22 @@ You need Section 1 (the five steps in order), Section 1B (THE WORK), Section 2 (
 bank, the only facts you may use), Section 4 (voice), Section 6 (congruence traps),
 Section 7 (boundaries), Section 8 (the business model) and Section 9 (what already exists).
 
-## Phase 2: Pick the four posts
+## Phase 2: Pick the two new posts and the two refreshes
 
-Take the first four rows in `CONTENT-PLAN.md` with status `queued`, in file order.
+**New posts.** Take the first two rows with status `queued` from the new-post weeks in
+`CONTENT-PLAN.md`, in file order. For each, confirm the slug does not already exist in
+`lib/manual-posts.ts`. If it does, mark that row `skip: already published` and take the next.
+If fewer than two are queued, publish what there is and flag the shortfall loudly.
 
-For each, confirm the slug does not already exist in `lib/manual-posts.ts`. If it does, mark
-that row `skip: already published` and take the next queued row instead.
+**Refreshes.** Take the first two `queued` rows from the Refresh queue section. If fewer than
+two are queued, refill it first by the rule written under that section, then take them. Confirm
+each slug exists in `lib/manual-posts.ts`. If one does not, mark it `skip: not a manual post`.
 
-If fewer than four rows are queued, publish what there is and flag the shortfall loudly in the
-summary.
+Phases 3 to 5 are for the new posts. Phase 5B is for the refreshes. Both meet at Phase 6.
 
-## Phase 3: Research each post
+## Phase 3: Research each new post
 
-For each of the four, research before writing. Do this silently, no research dumps.
+For each of the two, research before writing. Do this silently, no research dumps.
 
 - Search the primary keyword and read what currently ranks. Note the angles taken, the word
   count to beat, and the questions left unanswered.
@@ -117,18 +121,71 @@ node scripts/make-blog-image.mjs --slug=<slug> --title="<title>" --category="<ca
 Writes `public/blog/<slug>.jpg` in the site's navy and gold at 1600x845, the same size as
 every existing blog image.
 
+## Phase 5B: Refresh each existing post
+
+The aim is more clicks from searches the post already ranks for. The post keeps its URL and its
+history. It is reworked, not replaced.
+
+**1. Record the baseline before touching anything.**
+Fetch `https://seo-keyword-dashboard.vercel.app/api/gsc/pages?days=28` and note the post's
+impressions, clicks and position. Run the gate on the slug and note its words, H2s, links and
+any failures. Both go in the run log, so a later run can see whether the refresh worked. If the
+dashboard does not respond, use the baseline in the plan row and say so.
+
+**2. Research the target search.** Search the target search from the plan row. Read what ranks
+above the post, the questions in People Also Ask, and anything those pages answer that this post
+does not. Fetch `https://seo-keyword-dashboard.vercel.app/api/gsc/keywords?days=28` for other
+searches that clearly belong to this post.
+
+**3. Rework the post in `lib/manual-posts.ts`.** Edit the existing entry in place.
+
+- **Never change** `slug` or `publishedAt`. Set `updatedAt` to today.
+- **Title:** lead with the target search, or something very close to it, in Harry's voice. Aim
+  for 60 characters or fewer so Google does not cut it off. It still has to be honest and
+  specific, never clickbait.
+- **Description:** 110 to 175 characters, contains the target search, says plainly what the
+  reader gets.
+- **Answer the search in plain words straight after the TL;DR**, in two or three sentences. That
+  is what Google and AI answers lift.
+- **Keep what is there.** Do not delete an H2 unless it breaks the bible. Fix anything that does.
+  Add sections for the questions the research found. The post ends up at 2,000 to 3,000 words and
+  never shorter than it was.
+- **FAQ:** at least five questions, visible text and `FAQPage` schema matching word for word.
+  Add the structure from Phase 4 if the post is missing any of it: TL;DR, contents list anchored
+  to every H2, the email CTA, the "Written by Harry" box.
+- Everything in Phase 4's hard requirements applies, including the story bank. A refresh is not
+  a licence to add new personal detail.
+- `readingTime` updated to body words / 200.
+
+**4. Point two other posts at it.** Pick two related manual posts and add one link to the
+refreshed post in each, worked into an existing sentence or one new sentence, with the target
+search as the anchor text where it reads naturally. Note which posts you edited. They go through
+the gate in Phase 6 too.
+
+**5. Image.** The title is baked into the image, so if the title changed, regenerate it to the
+existing path in the post's `image` field:
+
+```bash
+node scripts/make-blog-image.mjs --slug=<image file name without .jpg> --title="<new title>" --category="<category>"
+```
+
 ## Phase 6: The quality gate
 
 ```bash
-node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-posts.mjs <slug1> <slug2> <slug3> <slug4>
+node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-posts.mjs <new1> <new2> <refresh1> <refresh2> <every post edited for a link>
 ```
 
 This is the machine-checkable half of Section 10 of the bible. Every post must pass.
 
 - On failure, fix the post and run it again. Two attempts per post.
-- If a post still fails after two attempts, remove it from `lib/manual-posts.ts`, delete its
-  image, set its plan row to `blocked: <the failing check>`, and carry on with the others.
+- If a **new** post still fails after two attempts, remove it from `lib/manual-posts.ts`, delete
+  its image, set its plan row to `blocked: <the failing check>`, and carry on with the others.
   One bad topic must never stop the week going out.
+- If a **refresh** still fails after two attempts, put its entry and its image back exactly as
+  they were in `HEAD`, undo its two inbound links, set its row to `blocked: <the failing check>`,
+  and carry on. A refresh must never leave a live post worse than it found it.
+- A refresh must not lose ground on its Phase 5B baseline: no fewer words, H2s or internal
+  links than before. If it does, treat it as a failure and fix it.
 
 Warnings do not block publishing, but fix the cheap ones.
 
@@ -152,10 +209,10 @@ broken template literal, a bad import. If the build fails, fix it. Never publish
 
 ## Phase 8: Update the plan
 
-In `CONTENT-PLAN.md`, change each published row's status from `queued` to
-`published YYYY-MM-DD`.
+In `CONTENT-PLAN.md`, change each published new-post row from `queued` to
+`published YYYY-MM-DD`, and each refresh row to `refreshed YYYY-MM-DD`.
 
-Count the remaining `queued` rows. If fewer than eight, say so prominently in the summary so
+Count the remaining `queued` new-post rows. If fewer than eight, say so prominently in the summary so
 the queue gets topped up before it runs dry.
 
 ## Phase 9: Publish
@@ -163,9 +220,9 @@ the queue gets topped up before it runs dry.
 ```bash
 git add lib/manual-posts.ts CONTENT-PLAN.md public/blog/
 git commit -m "$(cat <<'MSG'
-Publish four posts: <slug1>, <slug2>, <slug3>, <slug4>
+Publish <new1> and <new2>, refresh <refresh1> and <refresh2>
 
-Written from the CONTENT-PLAN.md queue, checked against the Section 10
+Written from the CONTENT-PLAN.md queues, checked against the Section 10
 pre-publish checklist and the automated quality gate.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
@@ -181,8 +238,10 @@ Pushing to `main` deploys to Vercel. The posts are live within a couple of minut
 
 Append a dated entry to `content-runs.log` in the project root, and print the same thing:
 
-- The four slugs, titles and live URLs
+- The two new slugs, titles and live URLs
 - Word count, reading grade and internal link count for each
+- For each refresh: old and new title, the Search Console baseline from Phase 5B, gate stats
+  before and after, and the two posts that now link to it
 - The Section 10 confirmation from Phase 6
 - Anything skipped or blocked, with the reason
 - Queued rows remaining, and a warning if under eight

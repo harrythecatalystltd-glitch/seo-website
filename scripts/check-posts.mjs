@@ -251,6 +251,15 @@ function checkPost(post, routes, allSlugs) {
   } else if (new Date(publishedAt) > new Date()) {
     fails.push('publishedAt ' + publishedAt + ' is in the future.')
   }
+  if (post.updatedAt !== undefined) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(post.updatedAt)) {
+      fails.push('updatedAt "' + post.updatedAt + '" is not YYYY-MM-DD.')
+    } else if (new Date(post.updatedAt) > new Date()) {
+      fails.push('updatedAt ' + post.updatedAt + ' is in the future.')
+    } else if (post.updatedAt < publishedAt) {
+      fails.push('updatedAt ' + post.updatedAt + ' is before publishedAt ' + publishedAt + '.')
+    }
+  }
   if (!readingTime || readingTime < 4) fails.push('readingTime is ' + readingTime + '. Expected 5 or more.')
   if (!category) fails.push('No category.')
   if (!description) fails.push('No meta description.')

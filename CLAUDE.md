@@ -27,7 +27,7 @@ If Harry says something new (a story, a belief, a change to the model), add it t
 
 ## The weekly blog routine
 
-Four posts publish every Friday at 07:00, unattended, from a Claude app scheduled task called
+Every Friday at 07:00 the run publishes two new posts and refreshes two existing ones, unattended, from a Claude app scheduled task called
 "Catalyst Method weekly blogs" (under Scheduled in the app sidebar). It runs while the app is
 open. If the app is closed at 07:00, it runs the next time the app starts.
 
@@ -45,7 +45,10 @@ only exists inside the app's virtualised AppData, and a Task Scheduler process c
 That is why the first scheduled run, on 11 September 2026, failed without publishing anything.
 
 To change what gets published, edit `CONTENT-PLAN.md`. Nothing else needs touching. The run
-never picks its own topics.
+never picks its own new-post topics. When the refresh queue runs low it refills it itself, from
+Search Console data, with existing posts ranking 5 to 15 (the rule is in `CONTENT-PLAN.md`).
+Refreshes keep `slug` and `publishedAt` and set `updatedAt`, which feeds `dateModified` in the
+post schema and `lastModified` in the sitemap.
 
 Run it by hand at any time with `/weekly-blogs`, or check a post with
 `npm run check:posts -- <slug>`.

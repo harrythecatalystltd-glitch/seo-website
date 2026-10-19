@@ -4,6 +4,8 @@ export type ManualPost = {
   description: string
   category: string
   publishedAt: string
+  // Set by the weekly refresh run. publishedAt never changes, so the URL keeps its history.
+  updatedAt?: string
   readingTime: number
   image?: string
   html: string

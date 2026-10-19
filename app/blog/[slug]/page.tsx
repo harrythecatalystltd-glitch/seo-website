@@ -22,7 +22,7 @@ type Article = {
   id: string; slug: string; title: string; description?: string;
   image?: string; content?: string; html?: string;
   category?: { title?: string; slug?: string };
-  publishedAt?: string; readingTime?: number;
+  publishedAt?: string; updatedAt?: string; readingTime?: number;
   author?: { name?: string };
   tags?: Array<{ title: string; slug: string }>;
 }
@@ -95,6 +95,7 @@ async function resolveArticle(slug: string): Promise<Article | null> {
     html: manual.html,
     category: { title: manual.category },
     publishedAt: manual.publishedAt,
+    updatedAt: manual.updatedAt,
     readingTime: manual.readingTime,
     author: { name: 'The Catalyst Method' },
   }
@@ -143,6 +144,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     description: article.description,
     image: absoluteImageUrl(article.image),
     url: `https://www.thecatalystmethod.co.uk/blog/${slug}`,
+    ...(article.publishedAt && {
+      datePublished: article.publishedAt,
+      dateModified: article.updatedAt || article.publishedAt,
+    }),
     author: { '@type': 'Organization', name: 'The Catalyst Method' },
     publisher: {
       '@type': 'Organization',
