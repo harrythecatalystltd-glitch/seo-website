@@ -756,11 +756,20 @@ Trust Your Gut Instead of Overthinking · How to Find Your Why · What Is Impost
 4. Self-confidence in the moments it usually deserts you (speaking up at work, the hard
    conversation, backing yourself in the room)
 
-**The Catalyst Method 30 Day Challenge.** Written 27 August 2026. **The page is live. There is no
-sign-up flow or landing page yet**, and it is not linked from the main site, so it is reachable
-only by people given the link directly.
+**The Catalyst Method 30 Day Challenge.** Written 27 August 2026. Since 19 October 2026 it lives
+on the main site in two parts, both linked from the nav, the footer and the homepage signup card,
+and both in the sitemap:
 
-**Live page:** https://thecatalystmethod30daychallenge.netlify.app/
+- **Sign-up page:** https://www.thecatalystmethod.co.uk/30-day-challenge, the MailerLite form for
+  the daily emails (built 28 August 2026, `app/30-day-challenge/page.tsx`). It says plainly that
+  it is one email a day for 31 days, then it stops.
+- **The whole challenge:** https://www.thecatalystmethod.co.uk/30-day-challenge/guide, served from
+  `public/30-day-challenge-guide.html`. This is the version to link to and share, because links
+  to it build the main site's authority.
+
+**Netlify copy:** https://thecatalystmethod30daychallenge.netlify.app/. Still live, because the
+MailerLite challenge emails link to it, including the anchors `#d16`, `#d17`, `#d22`, `#d26`,
+`#rules` and `#books`. The main-domain copy has the same anchors.
 
 Hosted on Netlify, separate from the main site, which is on Vercel. The site was renamed from its
 auto-generated name on 28 August 2026, so **the old `zippy-hamster-ee2a9f` URL now returns 404**.
@@ -768,7 +777,11 @@ Anything written before that date carrying the old link is broken and needs the 
 
 Source files, all in the repo root:
 
-- `30-day-challenge.html`, the live page, single self-contained file
+- `30-day-challenge.html`, the source, single self-contained file
+- `public/30-day-challenge-guide.html`, the main-site copy. The same file plus a canonical tag,
+  social tags, Google Tag Manager, a home link on the logo, and a footer line linking the sign-up
+  page, the email series and the blog. **Edit the source, then rebuild this copy**, or the two
+  drift apart.
 - `netlify-deploy/`, the deploy folder, the same file named `index.html` plus a `_headers` file
 - `30-DAY-CHALLENGE.md`, the design document, with the rationale and the stress test log
 - `30-DAY-CHALLENGE-COPY.md`, the customer-facing copy at a 5th grade reading level
@@ -869,6 +882,7 @@ Run this on every piece before it goes out. Every line must pass.
 
 | Date | Change |
 |---|---|
+| 19 Oct 2026 | Section 9 corrected: it still said the challenge had no sign-up page, but `/30-day-challenge` has been live since 28 August, linked from nowhere. The whole challenge now also lives on the main site at `/30-day-challenge/guide`, so links to it build the main site's authority instead of Netlify's. Both pages added to the nav, footer, homepage and sitemap. The Netlify copy stays live because the challenge emails link to it. No copy in the challenge itself changed. |
 | 24 Sep 2026 | THE WORK added as Section 1B, on Harry's instruction: the belief about letting go of results while putting in the work, and the three pillars, Thoughts, Lifestyle and Meditation. Core beliefs 28 to 31 added under "On effort and results". Four congruence traps added (manifesting, think positive, everything happens for a reason, want it badly enough). Story bank updated: "not religious" now records that he talks about God, the universe or the divine interchangeably, and the surrender belief is logged with no story attached. Three checklist lines added. The mapping between THE WORK and The Catalyst Method was proposed by Claude and confirmed by Harry the same day. No live content names THE WORK yet, so nothing on the site needed editing. |
 | 27 Aug 2026 | Mental state checklist changed from six lines to eight, on Harry's instruction. Added "Be kind" and "You do not own negative thoughts. It is a choice to believe them." A third addition, "Be honest", was cut as a duplicate of line 6. The live `mental-state-checklist` post was updated in the same pass, since it stated six lines in five places. The post now also says it was six for a long time and the last two went on recently, which matches his own advice to review it every few months. |
 | 28 Aug 2026 | Challenge page redeployed and the Netlify site renamed to https://thecatalystmethod30daychallenge.netlify.app/. The old `zippy-hamster-ee2a9f` URL now returns 404, so any link given out before this date is dead. Two anchors added to the page, `#d17` and `#d22`, with a `scroll-margin-top` rule so they clear the sticky topbar the way the existing section anchors do. Both confirmed present in the live HTML. Section 9 updated with the new URL and the rename watch-item closed. |

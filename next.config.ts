@@ -7,6 +7,11 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: '*.cloudfront.net' },
     ],
   },
+  // The full challenge is a single self-contained HTML page, served from public/ so it
+  // keeps its own styles. Source of truth is 30-day-challenge.html in the repo root.
+  async rewrites() {
+    return [{ source: '/30-day-challenge/guide', destination: '/30-day-challenge-guide.html' }]
+  },
   async redirects() {
     return [
       {

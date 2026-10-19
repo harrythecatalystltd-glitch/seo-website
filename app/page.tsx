@@ -139,6 +139,13 @@ export default async function HomePage() {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <MailerLiteForm />
             </div>
+            <p style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.7, maxWidth: 460, margin: '20px auto 0' }}>
+              Want more structure than one email a week? Try{' '}
+              <Link href="/30-day-challenge" style={{ color: 'var(--gold)', fontWeight: 700, textDecoration: 'none' }}>
+                The Catalyst Method 30 Day Challenge
+              </Link>
+              . About 25 minutes a day, free, and you can read the whole thing before you start.
+            </p>
             <div style={{ marginTop: 28 }}>
               <div style={{ display: 'flex', justifyContent: 'center', gap: 3, marginBottom: 8 }}>
                 {[1,2,3,4,5].map(n => (

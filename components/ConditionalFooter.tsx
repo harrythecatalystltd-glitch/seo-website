@@ -29,7 +29,7 @@ export default function ConditionalFooter() {
           ))}
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', flexWrap: 'wrap' as const, marginBottom: '14px' }}>
-          {([['/', 'Home'], ['/about', 'About'], ['/blog', 'Blog'], ['/contact', 'Contact']] as [string, string][]).map(([href, label]) => (
+          {([['/', 'Home'], ['/about', 'About'], ['/blog', 'Blog'], ['/30-day-challenge', '30 Day Challenge'], ['/contact', 'Contact']] as [string, string][]).map(([href, label]) => (
             <a key={href} href={href} style={{ color: 'rgba(255,255,255,0.45)', textDecoration: 'none', fontSize: '0.8rem', fontWeight: 600, fontFamily: "'Montserrat', sans-serif", letterSpacing: '0.06em', textTransform: 'uppercase' as const }}>
               {label}
             </a>

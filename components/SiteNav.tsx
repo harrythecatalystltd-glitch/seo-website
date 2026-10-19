@@ -39,6 +39,10 @@ export default function SiteNav() {
           <BoltIcon />
           Free Email Series
         </Link>
+        <Link href="/30-day-challenge" className="nav-link" onClick={() => setOpen(false)}>
+          <BoltIcon />
+          30 Day Challenge
+        </Link>
         <Link href="/about" className="nav-link" onClick={() => setOpen(false)}>
           <BoltIcon />
           About

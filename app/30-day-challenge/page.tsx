@@ -256,6 +256,12 @@ export default function ThirtyDayChallengePage() {
               Start the Challenge
             </a>
           </div>
+          <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.55)', marginTop: 18 }}>
+            Want to see every day first?{' '}
+            <a href="/30-day-challenge/guide" style={{ color: 'var(--gold)', fontWeight: 700, textDecoration: 'none' }}>
+              Read the whole challenge
+            </a>
+          </p>
 
           <div className="input-meta" style={{ marginTop: 28 }}>
             <span className="input-meta-item">About 25 minutes a day</span>
