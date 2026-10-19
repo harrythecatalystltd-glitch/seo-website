@@ -29,22 +29,6 @@ export const metadata: Metadata = {
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
-/* MailerLite ships the form as an inline-block wrapper, so it shrink-wraps to the
-   width of the button text (~238px). On a landing page the form is the whole point,
-   so let it fill the card. Its own rules are ID-scoped, hence the ID here — it's the
-   same form id hardcoded in MailerLiteForm. */
-const FORM_ID = 'mlb2-43256023'
-const FORM_WIDTH_CSS = `
-.series-form { width: 100%; max-width: 400px; margin: 0 auto; }
-.series-form #${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper.embedForm { display: block !important; width: 100% !important; }
-.series-form #${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody { padding: 0 !important; }
-.series-form #${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input { padding: 13px 12px !important; font-size: 15px !important; }
-.series-form #${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit { margin-bottom: 0 !important; }
-.series-form #${FORM_ID}.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
-  padding: 15px 10px !important; font-size: 15px !important;
-}
-`
-
 const FAQS = [
   {
     q: 'Is the self-belief email series really free?',
@@ -143,7 +127,7 @@ const schema = {
   ],
 }
 
-function FormCard({ heading, blurb }: { heading: string; blurb: string }) {
+function FormCard({ heading, blurb }: { heading?: string; blurb: string }) {
   return (
     <div
       style={{
@@ -159,13 +143,15 @@ function FormCard({ heading, blurb }: { heading: string; blurb: string }) {
         <svg viewBox="0 0 18 30"><path fill="currentColor" d={BOLT} /></svg>
         Free Email Series
       </div>
-      <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
-        {heading}
-      </h2>
+      {heading && (
+        <h2 style={{ fontFamily: "'Montserrat',sans-serif", fontSize: 'clamp(1.5rem,3.5vw,2.3rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: 16 }}>
+          {heading}
+        </h2>
+      )}
       <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.82, maxWidth: 560, margin: '0 auto 32px' }}>
         {blurb}
       </p>
-      <div className="series-form">
+      <div className="ml-form-fill">
         <MailerLiteForm />
       </div>
       <div style={{ marginTop: 28 }}>
@@ -191,7 +177,6 @@ export default function SelfBeliefEmailSeriesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <style dangerouslySetInnerHTML={{ __html: FORM_WIDTH_CSS }} />
 
       {/* ── HERO ── */}
       <section className="hero hero-signup" style={{ paddingBottom: 72 }}>
@@ -217,11 +202,8 @@ export default function SelfBeliefEmailSeriesPage() {
             overthink every decision and talk themselves out of what they already know they want.
           </p>
 
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, justifyContent: 'center' }}>
-            <a href="#get-the-series" className="cta-btn">
-              <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
-              Get the Free Series
-            </a>
+          <div id="get-the-series" style={{ maxWidth: 560, margin: '0 auto', scrollMarginTop: 40 }}>
+            <FormCard blurb="Get a free gift when you sign up. My mental state checklist, the eight lines I read first thing, last thing and in the middle of a bad day. Then one practical email a week on self-belief, self-confidence, overthinking and self-doubt." />
           </div>
 
           <div className="input-meta" style={{ marginTop: 28 }}>
@@ -233,14 +215,6 @@ export default function SelfBeliefEmailSeriesPage() {
       </section>
 
       <div style={{ maxWidth: 820, margin: '0 auto', padding: '0 24px' }}>
-
-        {/* ── FORM ── */}
-        <div id="get-the-series" style={{ padding: '72px 0 0', scrollMarginTop: 40 }}>
-          <FormCard
-            heading="Start the Self-Belief Series"
-            blurb="Get a free gift when you sign up. My mental state checklist, the eight lines I read first thing, last thing and in the middle of a bad day. Then one practical email a week on self-belief, self-confidence, overthinking and self-doubt."
-          />
-        </div>
 
         {/* ── WHAT'S INSIDE ── */}
         <div style={{ padding: '76px 0 0' }}>

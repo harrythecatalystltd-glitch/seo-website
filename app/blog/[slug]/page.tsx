@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import SiteNav from '@/components/SiteNav'
+import MailerLiteForm from '@/components/MailerLiteForm'
 import { manualPosts } from '@/lib/manual-posts'
 import { SEOBOT_DATE_OVERRIDES } from '@/lib/seobot-overrides'
 import { RELEVANT_SEOBOT_SLUGS } from '@/lib/relevant-blog-slugs'
@@ -213,31 +214,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               Want more of this in your inbox?
             </div>
             <p style={{ fontSize: '0.875rem', color: 'rgba(255,255,255,0.58)', marginBottom: '22px', lineHeight: 1.7 }}>
-              Free weekly tips on confidence, self-belief and decision-making. No sales pitch.
+              One free email a week on confidence, self-belief and decision-making, plus my mental
+              state checklist when you sign up. No sales pitch, ever.
             </p>
-            <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' as const }}>
-              <Link href="/self-belief-email-series" style={{
-                display: 'inline-flex', alignItems: 'center', gap: '8px',
-                background: '#FFD700', color: '#002B45',
-                borderRadius: '10px', padding: '14px 28px',
-                fontFamily: "'Montserrat', sans-serif",
-                fontSize: '0.9rem', fontWeight: 800,
-                textDecoration: 'none', letterSpacing: '0.01em',
-                boxShadow: '0 4px 20px rgba(255,215,0,0.35)',
-              }}>
-                Get the Free Email Series
-              </Link>
-              <Link href="/contact" style={{
-                display: 'inline-flex', alignItems: 'center', gap: '8px',
-                background: 'rgba(255,255,255,0.08)', border: '1.5px solid rgba(255,255,255,0.22)',
-                color: '#fff', borderRadius: '10px', padding: '14px 28px',
-                fontFamily: "'Montserrat', sans-serif",
-                fontSize: '0.9rem', fontWeight: 800,
-                textDecoration: 'none', letterSpacing: '0.01em',
-              }}>
-                Contact Me for Help
-              </Link>
+            <div className="ml-form-fill">
+              <MailerLiteForm />
             </div>
+            <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.5)', marginTop: '20px', marginBottom: 0 }}>
+              Want to talk something through instead?{' '}
+              <Link href="/contact" style={{ color: '#FFD700', fontWeight: 700, textDecoration: 'none' }}>
+                Contact me directly
+              </Link>
+            </p>
           </div>
 
           <div style={{ marginTop: '32px', paddingTop: '24px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>

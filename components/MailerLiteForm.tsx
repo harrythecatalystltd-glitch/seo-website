@@ -84,6 +84,17 @@ const FORM_CSS = `
 @media only screen and (max-width: 400px) {
   #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper.embedForm { width: 100% !important; }
 }
+
+/* The embed is an inline-block wrapper, so it shrink-wraps to the width of the button
+   text (~238px). Wrap it in .ml-form-fill wherever the form should fill its card. */
+.ml-form-fill { width: 100%; max-width: 400px; margin: 0 auto; }
+.ml-form-fill #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper.embedForm { display: block !important; width: 100% !important; }
+.ml-form-fill #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody { padding: 0 !important; }
+.ml-form-fill #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input { padding: 13px 12px !important; font-size: 15px !important; }
+.ml-form-fill #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit { margin-bottom: 0 !important; }
+.ml-form-fill #mlb2-43256023.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  padding: 15px 10px !important; font-size: 15px !important;
+}
 `
 
 export default function MailerLiteForm() {
