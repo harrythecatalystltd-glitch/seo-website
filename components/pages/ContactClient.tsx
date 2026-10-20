@@ -5,11 +5,11 @@ import SiteNav from '@/components/SiteNav'
 
 const BOLT = 'M13 0L3 16h6L4 30 16 13h-6z'
 
-type Field = { name: string; email: string; phone: string; message: string }
+type Field = { name: string; email: string; message: string }
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
 export default function ContactClient() {
-  const [fields, setFields] = useState<Field>({ name: '', email: '', phone: '', message: '' })
+  const [fields, setFields] = useState<Field>({ name: '', email: '', message: '' })
   const [errors, setErrors] = useState<Partial<Field>>({})
   const [status, setStatus] = useState<Status>('idle')
   const [errorMsg, setErrorMsg] = useState('')
@@ -42,7 +42,6 @@ export default function ContactClient() {
         body: JSON.stringify({
           name: fields.name,
           email: fields.email,
-          phone: fields.phone || 'Not provided',
           message: fields.message,
           _subject: `New contact form message from ${fields.name}`,
           _template: 'table',
@@ -165,17 +164,6 @@ export default function ContactClient() {
                   </div>
                 </div>
 
-                <div className="contact-field contact-field-full">
-                  <label htmlFor="cf-phone">Phone Number <span className="contact-optional">(optional)</span></label>
-                  <input
-                    id="cf-phone"
-                    type="tel"
-                    placeholder="07700 000 000"
-                    value={fields.phone}
-                    onChange={e => set('phone', e.target.value)}
-                    autoComplete="tel"
-                  />
-                </div>
 
                 <div className="contact-field contact-field-full">
                   <label htmlFor="cf-message">How can I help? <span className="contact-required">*</span></label>

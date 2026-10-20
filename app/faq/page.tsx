@@ -75,7 +75,7 @@ const CATEGORIES = [
       },
       {
         q: 'Can I just message you directly instead?',
-        a: 'Yes. Email or WhatsApp both work, and I reply myself. See the contact page for both.',
+        a: 'Yes. Email works, and I reply myself. The address is on the contact page.',
       },
       {
         q: 'How often will I hear from you?',
@@ -328,17 +328,6 @@ export default function FaqPage() {
             }}>
               <svg width="10" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
               Get the Free Email Series
-            </Link>
-            <Link href="/contact" style={{
-              display: 'inline-flex', alignItems: 'center', gap: '8px',
-              background: 'transparent',
-              border: '1px solid rgba(255,255,255,0.18)',
-              color: 'rgba(255,255,255,0.72)',
-              fontFamily: "'Montserrat', sans-serif", fontWeight: 700,
-              fontSize: '0.85rem', letterSpacing: '0.04em', textTransform: 'uppercase',
-              padding: '15px 28px', borderRadius: '8px', textDecoration: 'none',
-            }}>
-              Ask My Question
             </Link>
           </div>
         </div>

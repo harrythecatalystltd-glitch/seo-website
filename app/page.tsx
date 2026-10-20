@@ -51,25 +51,6 @@ const schema = {
   ],
 }
 
-/* ── The two recurring CTAs ── */
-function ContactCta() {
-  return (
-    <Link
-      href="/contact"
-      style={{
-        display: 'inline-flex', alignItems: 'center', gap: 8,
-        background: 'rgba(255,255,255,0.08)', border: '1.5px solid rgba(255,255,255,0.22)',
-        color: '#fff', borderRadius: 11, padding: '16px 30px',
-        fontFamily: "'Montserrat', sans-serif", fontSize: '0.95rem', fontWeight: 800,
-        textDecoration: 'none', letterSpacing: '0.01em',
-      }}
-    >
-      <svg width="13" viewBox="0 0 18 30" style={{ fill: 'var(--gold)', flexShrink: 0 }}><path d={BOLT} /></svg>
-      Contact Me for Help
-    </Link>
-  )
-}
-
 export default async function HomePage() {
   const posts = (await getRelevantArticles()).slice(0, 3)
 
@@ -104,7 +85,6 @@ export default async function HomePage() {
               <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
               Get Free Weekly Tips
             </a>
-            <ContactCta />
           </div>
 
           <div className="input-meta" style={{ marginTop: 28 }}>
@@ -296,18 +276,6 @@ export default async function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link
-                href="/contact"
-                style={{
-                  display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: 8, width: '100%',
-                  background: 'rgba(255,255,255,0.08)', border: '1.5px solid rgba(255,255,255,0.22)',
-                  color: '#fff', borderRadius: 10, padding: '16px 24px',
-                  fontFamily: "'Montserrat', sans-serif", fontSize: '0.95rem', fontWeight: 800, textDecoration: 'none',
-                }}
-              >
-                <svg width="13" viewBox="0 0 18 30" style={{ fill: 'var(--gold)', flexShrink: 0 }}><path d={BOLT} /></svg>
-                Contact Me for Help
-              </Link>
             </div>
           </div>
         </div>
@@ -372,7 +340,6 @@ export default async function HomePage() {
                   <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
                   Get Free Weekly Tips
                 </a>
-                <ContactCta />
               </div>
             </div>
           </div>

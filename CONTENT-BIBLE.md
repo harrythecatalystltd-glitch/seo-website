@@ -585,8 +585,8 @@ Every long-form post follows this shape:
 2. **TL;DR** box, one dense paragraph, the whole argument in plain terms
 3. **In this article** contents list
 4. H2 sections, each one idea, each ending with something to actually do
-5. One or two inline CTA blocks ("Want more of this kind of thing?" and "Want to talk this through
-   with someone?")
+5. One inline CTA block ("Want more of this kind of thing?") pointing at the free email series.
+   No "Contact Me" buttons and no WhatsApp or phone number anywhere (removed 20 October 2026)
 6. Internal links to at least three other posts, worked into the sentence, never a bare list
 7. **Common questions about X**, a genuine FAQ with honest answers, including the awkward ones
 8. Sign-off: "Written by Harry. Not a trained life coach or counsellor, just sharing what has
@@ -872,7 +872,7 @@ Run this on every piece before it goes out. Every line must pass.
 **Model**
 - [ ] No pricing, no booking, no pitch, no funnel
 - [ ] "No sales pitch, ever" or equivalent is present
-- [ ] CTAs are the two standard ones: free weekly tips, or contact me directly
+- [ ] The only CTA is the free weekly tips. No "Contact Me" button, no WhatsApp, no phone number
 
 **Craft**
 - [ ] TL;DR present and genuinely summarises the argument

@@ -128,12 +128,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>I break my actual morning routine down properly, hour by hour, in a dedicated post: <a href="/blog/morning-routine-that-changed-my-life" style="color:#FFD700;">The Morning Routine That Actually Changed My Life</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="where-i-am-now">Where I Am Now</h2>
 
 <p>I am not finished. Nobody using this stuff ever really is.</p>
@@ -291,12 +285,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>I also use this alongside a second idea, that most of what triggers the negative feeling in the first place is not the situation itself, but the story I am adding on top of it. I go into that properly in <a href="/blog/why-not-good-enough-is-a-false-reality" style="color:#FFD700;">Why "Not Good Enough" Is a False Reality</a>. And the whole thing started with the three books that pulled me out of six stuck years, which I cover in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Struggling to let go of something specific?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Tell me what is going on.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-letting-go">Common Questions About Letting Go</h2>
 
 <div style="margin:8px 0 0;">
@@ -422,12 +410,6 @@ export const manualPosts: ManualPost[] = [
 <p>The test the book offers is not complicated. When you hold a thought, notice how it feels. Do you feel stronger and clearer, or smaller and tighter. Thoughts closer to the truth tend to feel expansive, even when they are hard to hear. Thoughts built from a false, fear-based perspective tend to feel constricting.</p>
 
 <p>That single question has changed how I make decisions and how I judge whether something I am telling myself is actually true, or just an old, familiar story.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <p>This is one of three books that changed how I see everything. I cover the full story, and the other two books, in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>, and I write about how I turn all of this into a daily habit in <a href="/blog/morning-routine-that-changed-my-life" style="color:#FFD700;">The Morning Routine That Actually Changed My Life</a>.</p>
 
@@ -562,12 +544,6 @@ export const manualPosts: ManualPost[] = [
 <p>If you have never sat down to meditate before, or you have tried and could not hold your concentration, start with the breath counting method in <a href="/blog/how-to-meditate-when-you-cannot-concentrate" style="color:#FFD700;">how to meditate when you cannot concentrate</a>. It is the simplest way in, and the letting go work sits on top of it once sitting still feels normal.</p>
 
 <p>This whole approach started for me with three books, not just this one. I tell the full story, and how <em>The 5am Club</em> fits alongside <em>Letting Go</em> and <em>Truth vs Falsehood</em>, in <a href="/blog/3-books-that-changed-my-life" style="color:#FFD700;">3 Books That Pulled Me Out of Feeling Stuck</a>.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-5am">Common Questions About the 5am Club Routine</h2>
 
@@ -1588,12 +1564,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>Twenty minutes a day works on the same principle, just at a much smaller scale. You are not waiting to believe in yourself. You are giving yourself a small, honest reason to.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <p>The twenty minutes is the engine, but it is one of five things that rebuilt mine. The full picture, and the order the five go in, is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-20-minute">Common Questions About the 20-Minute Rule</h2>
@@ -1724,12 +1694,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>Do this for a month and something changes. You stop wondering whether you can rely on yourself, because you have the evidence sitting right there, day after day. Keep stacking small kept promises and you end up with real change, which is the whole argument I make in <a href="/blog/micro-habits-vs-big-life-changes" style="color:#FFD700;">Micro-Habits vs Big Life Changes</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <p>Kept promises are the raw material self-belief is actually built from. Where this fits alongside everything else is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-promise">Common Questions About Keeping Promises to Yourself</h2>
@@ -1842,12 +1806,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>Protect the streak. Let the size flex. This is the same reason micro-habits beat big overhauls, which I write about in <a href="/blog/micro-habits-vs-big-life-changes" style="color:#FFD700;">Micro-Habits vs Big Life Changes</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <p>Shrinking the habit instead of dropping it is what keeps the evidence accumulating. Why that evidence matters so much is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-too-much">Common Questions About Hard Days</h2>
@@ -1959,12 +1917,6 @@ export const manualPosts: ManualPost[] = [
 <p>Make it small enough that skipping it feels almost silly. Keep it for a month before you even consider adding anything else.</p>
 
 <p>This will feel slower than an overhaul. It is, at the start. But an overhaul that collapses in week two is slower than a micro-habit that is still running a year later. On the days even that one small habit feels too big, shrink it rather than dropping it, exactly as I describe in <a href="/blog/when-20-minutes-feels-like-too-much" style="color:#FFD700;">What to Do When Your 20 Minutes Feels Like Too Much</a>.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <p>Small wins stick because they are evidence, and evidence is what self-belief is actually made of. More on that in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
@@ -2317,12 +2269,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>I write more about trusting a decision like this instead of second-guessing it in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">How to Trust Your Gut Instead of Overthinking Every Decision</a>. And if you want this exercise to actually stick, not just feel good for a day, I go into that in <a href="/blog/how-to-keep-a-promise-to-yourself" style="color:#FFD700;">How to Keep a Promise to Yourself</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-find-your-why">Common Questions About Finding Your Why</h2>
 
 <div style="margin:8px 0 0;">
@@ -2493,12 +2439,6 @@ export const manualPosts: ManualPost[] = [
 <p>Use it the same way I use my why as a daily filter. Every decision gets checked against it. Does this move me toward the goal? Yes, move forward. No, leave it. I write more about using a filter like that in <a href="/blog/how-to-find-your-why" style="color:#FFD700;">How to Find Your Why</a>, and about trusting the calls it leads you to make in <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">How to Trust Your Gut Instead of Overthinking Every Decision</a>.</p>
 
 <p>The goal gives you the direction. The daily practice of imagining it done, then letting go of the strain, is what keeps you supplied with the energy to actually walk that direction instead of collapsing halfway through.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-goal-setting">Common Questions About Setting Goals</h2>
 
@@ -2729,12 +2669,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>If you are in that gap now, something is already moving. That is worth knowing on the days it does not feel like it. If second-guessing every choice is what keeps you there, <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">trusting your gut instead of overthinking</a> is the next thing I would read.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Need help finding your why?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">This is exactly what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <p>Once you know roughly who you are again, rebuilding the belief is its own piece of work. I have written it out in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-sense-of-self">Common Questions About Losing Your Sense of Self</h2>
@@ -2964,12 +2898,6 @@ export const manualPosts: ManualPost[] = [
 <p>Be realistic about the timescale. This is not a weekend fix, and some days the old thought wins. That is fine. You are changing a habit of believing yourself, and habits move slowly and then all at once.</p>
 
 <p>One thing worth saying. If you are constantly shaping yourself around other people's opinions, guarding alone will not hold. That is a different pattern and I have written about it in <a href="/blog/how-to-stop-people-pleasing" style="color:#FFD700;">how to stop people pleasing</a>. It is also worth knowing what you are actually building, because confidence, self-esteem and self-worth are not the same thing. I break that down in <a href="/blog/self-worth-vs-self-esteem-vs-confidence" style="color:#FFD700;">self-worth vs self-esteem vs self-confidence</a>.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to build a plan around what you actually need?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">This is exactly what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <p>Guarding your thoughts is the first of five things that rebuilt my self-belief. The rest, and why the order matters, are in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
@@ -3214,12 +3142,6 @@ export const manualPosts: ManualPost[] = [
 <p>Do this every day and your life will change. I am not hedging on that, because I have watched it happen in mine and I know what it replaced.</p>
 
 <p>If you would rather come at it through feelings than through breath, the letting go practice in <a href="/blog/how-to-let-go-of-negative-thoughts" style="color:#FFD700;">how I let go of negative thoughts and feelings every day</a> is the other half of what I do, and the two work well together.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Tried it? Let me know how you get on.</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Building a daily practice around what you actually need is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-meditation">Common Questions About Meditating When You Cannot Concentrate</h2>
 
@@ -3473,12 +3395,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>If you want a way of naming which state you are actually in before you reach for the list, <a href="/blog/map-of-consciousness-explained-simply" style="color:#FFD700;">the Map of Consciousness explained simply</a> is the framework I use for that.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Written yours? Tell me how you got on.</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Building a checklist around what you actually need is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-checklist">Common Questions About a Mental State Checklist</h2>
 
 <div style="margin:8px 0 0;">
@@ -3703,12 +3619,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>Try it for yourself. Look honestly at where discipline has actually got you over the years, and look at what changed when you did something out of genuine respect instead. The comparison usually settles it faster than any argument I could make.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Need help seeing the real truth of where you are at?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Holding yourself accountable without beating yourself up is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <p>Respect rather than force is one of five things that rebuilt my self-belief. The other four are in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
 <h2 id="faq-discipline">Common Questions About Discipline and Self-Respect</h2>
@@ -3922,12 +3832,6 @@ export const manualPosts: ManualPost[] = [
 <p>What I would tell myself at the start is that the discomfort was not a detour. It was the thing working. But I would also want to know that this is not true for everyone, and that carrying on regardless is not a virtue if it is genuinely making you worse.</p>
 
 <p>Both of those can be true. Most confidence and meditation writing only wants to tell you the first.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this through with someone?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">If it is the ordinary kind of rough patch, this is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. For anything clinical, please see your GP or a qualified therapist.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-meditation-worse">Common Questions About Feeling Worse After Meditating</h2>
 
@@ -4205,12 +4109,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>That is it. Do that for two weeks before adding anything else. Everything in this article builds on top of a promise you actually kept, and none of it works without one.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want help building a plan around what you actually need?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">This is exactly what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-self-belief">Common Questions About Building Self-Belief</h2>
 
 <div style="margin:8px 0 0;">
@@ -4444,12 +4342,6 @@ export const manualPosts: ManualPost[] = [
 <p>Getting the words straight is not pedantry. It is what stops you spending another two years on the wrong problem.</p>
 
 <p>And if the thing underneath is a running commentary telling you that you are not enough, that is the first thing to deal with, before any of this. That one is in <a href="/blog/you-are-enough" style="color:#FFD700;">why you are already enough</a>.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Not sure which one you are short of?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working that out is usually the first thing we do in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me. Email or WhatsApp works too.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-what-is-self-belief">Common Questions</h2>
 
@@ -4694,12 +4586,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>One honest note on timing. You will not feel different in week one, and week one is where most people conclude it is not working. The thoughts get quieter around week six, and the first real sign is a bad week you carry on through rather than a good day. Judge it on the fortnight, never on the day.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Done the evidence list? Tell me how you got on.</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out which two to start with, and what to do when they slip, is what I work through in <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-exercises">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -4940,12 +4826,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>That is the honest version. Not silence, just a much smaller say in what you do.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck in the loop and want to talk it through?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out which kind of doubt you are actually dealing with is usually the first thing we do in <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcome self-doubt coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-doubting">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -5168,12 +5048,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>The version of this that shows up at work, where it hits hardest and gets least sympathy, is <a href="/blog/what-is-imposter-syndrome" style="color:#FFD700;">imposter syndrome</a>. And if the spikes keep arriving around one particular decision you cannot settle, <a href="/blog/trust-your-gut-instead-of-overthinking" style="color:#FFD700;">trusting your gut instead of overthinking</a> is the next thing to read.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Standing next to something and it has gone loud?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out whether the doubt is about the plan or about you is usually the first thing we do in <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcome self-doubt coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-before-you-grow">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -5370,12 +5244,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>If the looping is loud enough that it is running most of your day, that is worth taking seriously rather than pushing through. It is what <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a> is for, and if it comes with anxiety that is affecting how you function, please speak to your GP as well. What I do here sits alongside professional support, never instead of it.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck on something specific?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me the decision you keep going round on and I will tell you honestly what I think is underneath it. No sales pitch, ever, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-small-decisions">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -5571,12 +5439,6 @@ export const manualPosts: ManualPost[] = [
 <p>If the flatness has been there a long time, or it is affecting your sleep and your health, please speak to your GP. I am not medically trained, and none of this replaces that. It sits alongside it.</p>
 
 <p>If it is more that you freeze up in work situations generally, that is what <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a> is about.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Want to talk this one through?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me what you say when people ask, and what you wish you could say instead. No sales pitch, ever, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-what-do-you-do">Common Questions</h2>
 
@@ -5780,12 +5642,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>Twenty minutes a day, done because it means something to you, and five minutes on the days that is too much. Never nothing. That is the whole method, and it is laid out properly in <a href="/blog/the-20-minute-rule-for-self-belief" style="color:#FFD700;">the 20-minute rule</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Had one of these and not sure what it was?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me what came up and what it felt like afterwards. I will tell you honestly what I think, including if I think you should talk to someone trained instead. No sales pitch, ever.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-feel-worse">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -5986,12 +5842,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>If it is heavier than that, if the comparing is constant and it is affecting how you feel about yourself day to day, that is worth taking seriously. It is what <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcome self-doubt coaching</a> is for, and if it is affecting your mental health please speak to your GP as well. What I do sits alongside trained support, never instead of it.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Who do you keep comparing yourself to?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me, and I will tell you honestly what I think is underneath it. No sales pitch, ever, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-comparison">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -6156,12 +6006,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>I still get this wrong more often than I would like. Some evenings I put a heavy decision down to a long day when it was actually a feeling I had been avoiding since that morning. Noticing the difference is a practice, not something you master once and keep.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">One decision you cannot seem to make?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out whether it is fatigue or a feeling underneath is usually the first thing we do in <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-decision-fatigue">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -6323,12 +6167,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>Over months this genuinely changes what meetings feel like, not because the nerves vanish, but because you stop treating the nerves as a verdict on whether you are allowed to speak. The fuller version of how self-belief actually gets built, one piece of evidence at a time, is in <a href="/blog/how-to-build-self-belief" style="color:#FFD700;">how to build self-belief</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Freezing in the room more often than not?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working through this kind of thing is what most of <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a> actually is. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-speak-up-meetings">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -6488,12 +6326,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>I use a short checklist, read morning and night, partly to catch feelings earlier, before they have had all day to build. It is in <a href="/blog/mental-state-checklist" style="color:#FFD700;">the mental state checklist</a>, though I always tell people not to copy mine exactly. A borrowed list reads like advice, and advice is easy to ignore.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Not sure where a feeling is coming from?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Tell me what is going on.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-feelings-in-body">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -6650,12 +6482,6 @@ export const manualPosts: ManualPost[] = [
 <p>Timing matters too. A boundary set in the moment, calmly and once, tends to land better than one delayed for days while you rehearse it. The longer it sits unsaid, the bigger the story around it grows, and the harder the eventual sentence becomes to say out loud.</p>
 
 <p>You are allowed to be kind about how you say it. You are not required to earn the right to say it at all. <a href="/blog/you-are-enough" style="color:#FFD700;">You are enough as you are</a>, including on the days you disappoint someone by having a limit.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Guilt still winning most of the time?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working through where the guilt is actually coming from is something we can talk through directly. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-boundaries-selfish">Common Questions</h2>
 
@@ -6814,12 +6640,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>I would also say this gently to anyone reading this and thinking they should now be able to spot a loop instantly every time. You will not, and neither do I. Some days I am three laps in before I even notice, and the test only works once you remember to actually ask it. Noticing sooner is the whole skill, and it improves gradually rather than arriving all at once.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck on the same decision for days?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out whether you are still thinking or just looping is usually the first thing we do in <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-thinking-vs-overthinking">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -6977,12 +6797,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>And if it is the moment right after the feedback lands, in the room, that trips you up rather than the hours afterwards, the same catch it, let it go, ask what's true order applies there too, and I go through the meeting-specific version in <a href="/blog/how-to-speak-up-in-meetings" style="color:#FFD700;">how to speak up in meetings when your heart is pounding</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">One piece of feedback still sitting with you?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out what was the note and what you added yourself is something we can talk through in <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-feedback-at-work">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -7137,12 +6951,6 @@ export const manualPosts: ManualPost[] = [
 <p>Some anger is simply information that a line was crossed, and once it has been let go rather than suppressed, you can look at that information clearly and decide what to do about it, including changing something so it does not keep happening. Letting go clears the charge so you can see the situation properly. It does not mean shrugging and accepting whatever caused it.</p>
 
 <p>If the anger keeps returning at full strength every time you think about the situation, that is often a sign that letting go on your own has not fully worked yet, and revisiting it, possibly with support, is worth doing rather than assuming you are simply bad at this. If it has been building for a long time and it is affecting how you function day to day, that is worth taking to a GP or a trained professional alongside anything you are doing here yourself.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Carrying anger you cannot put down?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Tell me what is going on.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-anger-cannot-act-on">Common Questions</h2>
 
@@ -7300,12 +7108,6 @@ export const manualPosts: ManualPost[] = [
 <p>A simple check I use afterwards. If I replay the conversation and can remember exactly what I said, it was probably a clean no. If I cannot fully remember, because I was talking on autopilot trying to fill the silence, that is usually the sign I over-explained again.</p>
 
 <p>Sometimes the words are not the hard part at all. It is the guilt that follows a clean no. That is covered in more depth in <a href="/blog/is-setting-boundaries-selfish" style="color:#FFD700;">is setting boundaries selfish</a>. Read it alongside this one if the discomfort afterwards is what keeps pulling you back into over-explaining next time.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Still writing three sentences after every no?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">No sales script, just a real reply from me. Tell me what is going on.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-say-no-without-explaining">Common Questions</h2>
 
@@ -7528,12 +7330,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>And I do not always manage the process myself. It takes a minute, and in a busy moment the minute is the first thing to go. That is fine. It is like going to the gym. The value is in doing it most days, not in getting every single one right.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck between your gut and your head?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Telling fear apart from a real pull is a big part of <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-first-instinct">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -7741,12 +7537,6 @@ export const manualPosts: ManualPost[] = [
 <p>That is evidence. Self-belief runs on evidence. You now have proof that you will say the hard thing when it matters, whatever the answer was.</p>
 
 <p>If the feeling of not being worth it keeps coming back, it may be less about this job and more about how you judge your own value. The difference is laid out in <a href="/blog/self-worth-vs-self-esteem-vs-confidence" style="color:#FFD700;">self-worth vs self-esteem vs self-confidence</a>.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Putting off an ask at work?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Clearing the feeling before the conversation is a big part of <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a>. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-ask-at-work">Common Questions</h2>
 
@@ -7961,12 +7751,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>And if you are using meditation to do this and it keeps stirring up more than you can handle, read <a href="/blog/why-meditation-makes-you-feel-worse" style="color:#FFD700;">why meditation can make you feel worse</a>. Talk to someone trained too, alongside this rather than instead of it.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Not sure if you are letting go or giving up?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me what you are weighing up. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-letting-go-giving-up">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -8176,12 +7960,6 @@ export const manualPosts: ManualPost[] = [
 <p>I think the more you do this kind of work, the more you want to give rather than take. That can sound like it argues against stepping back. I do not think it does. Giving from a full cup is generous. Giving from an empty one, out of fear, is just performing.</p>
 
 <p>You are enough as you are. That includes being allowed to want friendships that go both ways.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Not sure what to do about a friendship?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Tell me what is going on. No sales script, just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-friendship-costs">Common Questions</h2>
 
@@ -8441,12 +8219,6 @@ export const manualPosts: ManualPost[] = [
 <p>What I can say is that the order still helps. Clear the feeling. Check the story. Then decide what to do next, even if the next thing is asking someone for help.</p>
 
 <p>So if you take one thing from this, take that. Before you weigh the two options one more time, spend a minute with the feeling instead.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck between two options that both feel wrong?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working out what the feeling is, and what is left once it settles, is a big part of <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-both-options">Common Questions</h2>
 
@@ -8723,12 +8495,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>For everything else, keep it simple. Next time your mind goes blank, do not reach for words. Feel your feet first.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Keep freezing when it matters most?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Finding your voice in the hard moments is a big part of <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-freezing">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -8988,12 +8754,6 @@ export const manualPosts: ManualPost[] = [
 <p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside that kind of support, not instead of it.</p>
 
 <p>For the ordinary kind, here is the one thing to try tonight. When the tape starts, stop watching it. Find the feeling instead, and stay with that.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Stuck in a loop you cannot think your way out of?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Breaking the loop is a big part of <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-replaying">Common Questions</h2>
 
@@ -9263,12 +9023,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>So tonight, when you sit down and the hum starts, try one thing. Stay sat down, and find where it is in your body.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Cannot switch off without feeling bad about it?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Untangling your worth from how much you get done is a big part of <a href="/self-belief-coaching" style="color:#FFD700;">self-belief coaching</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-rest-guilt">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -9520,12 +9274,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>For the ordinary kind, here is the one thing to try. Next time you reach for one more tab, stop. Find the feeling in your body, and let it run out before you choose.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Researching your way round a decision?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Getting unstuck on a choice is a big part of <a href="/overthinking-and-decision-coaching" style="color:#FFD700;">overthinking and decision coaching</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-analysis-paralysis">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -9763,12 +9511,6 @@ export const manualPosts: ManualPost[] = [
 <p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside proper support, not instead of it.</p>
 
 <p>For the ordinary kind of knock, here is the one thing to try today. Before you plan anything, find the feeling in your body, and let it run out.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Knocked sideways by a decision at work?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Getting your footing back at work is a big part of <a href="/confidence-coaching-at-work" style="color:#FFD700;">confidence coaching at work</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-promotion">Common Questions</h2>
 
@@ -10012,12 +9754,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>For the ordinary kind, here is the one thing to try. Next time it drops, find the feeling in your throat or chest, let it run out, and then say one honest sentence.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Shrinking around the same few people?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Untangling where self-doubt comes from is a big part of <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcoming self-doubt</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-certain-people">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -10253,12 +9989,6 @@ export const manualPosts: ManualPost[] = [
 <p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside that kind of support, not instead of it.</p>
 
 <p>For the ordinary kind, here is the one thing to try today. Pick one promise so small it is almost silly, and keep it.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Finding it hard to trust your own word?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Rebuilding that trust is a big part of <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcoming self-doubt</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-self-trust">Common Questions</h2>
 
@@ -10510,12 +10240,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>For the ordinary kind, here is the one thing to try today. Pick the thing you have been putting off. Catch the fear, let it go, ask what is true. Then take the smallest real step you can find. You are enough as you are, whether it lands or not. I wrote about that in <a href="/blog/you-are-enough" style="color:#FFD700;">you are enough</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Is fear of failure holding you back?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Working with it is a big part of <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcoming self-doubt</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-fear-of-failure">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -10747,12 +10471,6 @@ export const manualPosts: ManualPost[] = [
 <p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside proper support, not instead of it.</p>
 
 <p>For the ordinary kind, here is the one thing to try today. The next time you feel the urge to explain yourself, catch it, and let it go before you speak.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Tired of worrying what everyone thinks?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Letting go of that worry is a big part of <a href="/overcome-self-doubt-coaching" style="color:#FFD700;">overcoming self-doubt</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-caring-what-people-think">Common Questions</h2>
 
@@ -10994,12 +10712,6 @@ export const manualPosts: ManualPost[] = [
 
 <p>For the ordinary kind, here is the one thing to try today. Notice where your doubt is loudest, and write that one thing down. <a href="/blog/feeling-stuck-in-life" style="color:#FFD700;">Stuck is not the same as lost</a>.</p>
 
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Not sure what you want right now?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">It is a common place to be, and it is a big part of <a href="/self-belief-coaching" style="color:#FFD700;">building self-belief</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
-
 <h2 id="faq-dont-know-what-you-want">Common Questions</h2>
 
 <div style="margin:8px 0 0;">
@@ -11239,12 +10951,6 @@ export const manualPosts: ManualPost[] = [
 <p>I am not a trained life coach or counsellor. I can only share what has helped me. Anything here sits alongside that kind of support, not instead of it.</p>
 
 <p>For the ordinary kind, here is the one thing to try today. Pick the smallest version of the thing you stopped, and do it once. If you want to rebuild the trust that went with it, <a href="/blog/rebuild-trust-in-yourself" style="color:#FFD700;">how to rebuild trust in yourself</a> goes further.</p>
-
-<div style="background:linear-gradient(135deg,rgba(0,43,69,0.9),rgba(0,85,133,0.5));border:1.5px solid rgba(255,215,0,0.22);border-radius:16px;padding:28px 32px;margin:40px 0;text-align:center;">
-  <p style="font-family:'Montserrat',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 0 10px;letter-spacing:-0.02em;">Trying to start again?</p>
-  <p style="font-size:0.875rem;color:rgba(255,255,255,0.6);margin:0 0 20px;line-height:1.75;">Starting again without the shame is a big part of <a href="/self-belief-coaching" style="color:#FFD700;">building self-belief</a>. No sales pitch, ever. Just a real reply from me.</p>
-  <a href="/contact" style="display:inline-flex;align-items:center;gap:8px;background:#FFD700;color:#002B45;border-radius:9px;padding:13px 26px;font-size:0.875rem;font-weight:800;font-family:'Montserrat',sans-serif;text-decoration:none;border-bottom:none;box-shadow:0 4px 20px rgba(255,215,0,0.32);">Contact Me</a>
-</div>
 
 <h2 id="faq-start-again">Common Questions</h2>
 

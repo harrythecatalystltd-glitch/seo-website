@@ -144,7 +144,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     description: article.description,
     image: absoluteImageUrl(article.image),
     url: `https://www.thecatalystmethod.co.uk/blog/${slug}`,
-    ...(article.publishedAt && {
+    // Posts from March 2026 onwards carry no date, so Google has none to show in results
+    ...(article.publishedAt && article.publishedAt < '2026-03-01' && {
       datePublished: article.publishedAt,
       dateModified: article.updatedAt || article.publishedAt,
     }),
@@ -225,12 +226,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className="ml-form-fill">
               <MailerLiteForm />
             </div>
-            <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.5)', marginTop: '20px', marginBottom: 0 }}>
-              Want to talk something through instead?{' '}
-              <Link href="/contact" style={{ color: '#FFD700', fontWeight: 700, textDecoration: 'none' }}>
-                Contact me directly
-              </Link>
-            </p>
           </div>
 
           <div style={{ marginTop: '32px', paddingTop: '24px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>

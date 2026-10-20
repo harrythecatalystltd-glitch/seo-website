@@ -43,7 +43,7 @@ for the plan to be topped up. Refill it by running fresh keyword research agains
 - **Every post carries the personal angle.** The differentiator found in both rounds of
   keyword research is that nobody else in this niche writes from lived experience with a
   named method. A post that could have been written by any coach has missed the point.
-- **Nothing is sold.** Free weekly tips or contact me directly. Those are the only CTAs.
+- **Nothing is sold.** The free weekly tips are the only CTA. No "Contact Me" buttons, no WhatsApp, no phone number.
 
 ---
 
@@ -193,7 +193,7 @@ inventing topics.
 | --- | --- | --- | --- | --- | --- |
 | queued | How to Make Big Life Decisions Without a Five Year Plan | `big-decisions-without-a-five-year-plan` | how to make big life decisions | Overthinking | The travelling decision as the worked example. Link the overthinking pillar and losing-your-sense-of-self. |
 | queued | What Changes First When Self-Belief Starts Growing | `what-changes-first-with-self-belief` | signs your confidence is growing | Self-belief | Honest about how unremarkable the early signs are. Link how-to-build-self-belief. |
-| queued | How to Support Someone Who Does Not Believe in Themselves | `supporting-someone-with-low-self-belief` | how to help someone with low self esteem | Relationships | Includes the limits of helping, and when to point at real support. Link the self-belief pillar and /contact. |
+| queued | How to Support Someone Who Does Not Believe in Themselves | `supporting-someone-with-low-self-belief` | how to help someone with low self esteem | Relationships | Includes the limits of helping, and when to point at real support. Link the self-belief pillar. |
 | queued | What I Would Tell Myself at the Start of the Six Stuck Years | `what-i-would-tell-myself` | advice to my younger self stuck in life | Purpose | Story-led, straight from the story bank, no new facts invented. Link 3-books and feeling-stuck-in-life. |
 
 ---

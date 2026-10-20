@@ -27,7 +27,7 @@ const SECTIONS = [
     title: '1. Introduction',
     content: [
       'This page explains the terms of using this website, and sets out an important disclaimer about the nature of the content, tips and emails I share.',
-      'The Catalyst Method is run by Harry, contactable at hey@thecatalystmethod.co.uk. Everything on this site, the blog, the weekly emails, and any direct replies by email or WhatsApp, is provided completely free of charge.',
+      'The Catalyst Method is run by Harry, contactable at hey@thecatalystmethod.co.uk. Everything on this site, the blog, the weekly emails, and any direct replies by email, is provided completely free of charge.',
       'By using this site, signing up for weekly tips, or getting in touch, you agree to the terms on this page.',
     ],
   },
@@ -46,8 +46,8 @@ const SECTIONS = [
     id: 'no-relationship',
     title: '3. No Professional Relationship Is Formed',
     content: [
-      'Signing up for weekly tips, reading the blog, or messaging me by email or WhatsApp does not create a coaching, counselling, therapeutic, or any other professional relationship between us.',
-      'Any reply I give you, whether by email, WhatsApp, or otherwise, is given personally and informally, as one person sharing what has helped them. It is not a professional consultation or assessment of your situation.',
+      'Signing up for weekly tips, reading the blog, or messaging me by email does not create a coaching, counselling, therapeutic, or any other professional relationship between us.',
+      'Any reply I give you, whether by email or otherwise, is given personally and informally, as one person sharing what has helped them. It is not a professional consultation or assessment of your situation.',
     ],
   },
   {
@@ -72,7 +72,7 @@ const SECTIONS = [
     title: '6. Limitation of Liability',
     content: [
       'You use this site, and act on anything shared on it, entirely at your own discretion and risk.',
-      'To the fullest extent permitted by law, The Catalyst Method and Harry accept no liability for any loss, harm, or damage arising from your use of this site, its content, or any advice, tip, or reply given by email, WhatsApp, or otherwise.',
+      'To the fullest extent permitted by law, The Catalyst Method and Harry accept no liability for any loss, harm, or damage arising from your use of this site, its content, or any advice, tip, or reply given by email or otherwise.',
       'Nothing in these terms limits or excludes liability for death or personal injury caused by negligence, fraud, or any other matter that cannot lawfully be excluded under UK law.',
     ],
   },
@@ -87,7 +87,7 @@ const SECTIONS = [
     id: 'privacy',
     title: '8. Privacy',
     content: [
-      'If you sign up for weekly tips, your name and email address are used only to send you those emails. If you get in touch by the contact form, email, or WhatsApp, your details are used only to reply to you.',
+      'If you sign up for weekly tips, your name and email address are used only to send you those emails. If you get in touch by the contact form or email, your details are used only to reply to you.',
       'Your details are never sold to third parties. You can unsubscribe from the weekly emails at any time using the link in every email.',
     ],
   },
@@ -303,20 +303,8 @@ export default function TermsPage() {
             lineHeight: 1.65, marginBottom: '24px',
             fontFamily: "'Open Sans', sans-serif",
           }}>
-            Get in touch and I will answer anything.
+            Email hey@thecatalystmethod.co.uk and I will answer anything.
           </p>
-          <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/contact" style={{
-              display: 'inline-flex', alignItems: 'center', gap: '8px',
-              background: '#FFD700', color: '#002B45',
-              fontFamily: "'Montserrat', sans-serif", fontWeight: 800,
-              fontSize: '0.82rem', letterSpacing: '0.04em', textTransform: 'uppercase',
-              padding: '13px 24px', borderRadius: '8px', textDecoration: 'none',
-            }}>
-              <svg width="9" viewBox="0 0 18 30" fill="currentColor"><path d={BOLT} /></svg>
-              Contact Us
-            </Link>
-          </div>
         </div>
 
       </div>

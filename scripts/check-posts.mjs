@@ -236,8 +236,11 @@ function checkPost(post, routes, allSlugs) {
       break
     }
   }
-  if (!/self-belief-email-series/.test(html) && !/\/contact/.test(html)) {
-    fails.push('Neither standard CTA present (free email series, or contact me).')
+  if (!/self-belief-email-series/.test(html)) {
+    fails.push('Free email series CTA missing.')
+  }
+  if (/>\s*Contact Me\s*</i.test(html) || /whatsapp|wa\.me/i.test(html)) {
+    fails.push('Contact Me button or WhatsApp found. Both were removed from the site on 20 October 2026.')
   }
 
   // --- Metadata ---

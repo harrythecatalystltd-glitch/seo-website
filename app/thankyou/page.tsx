@@ -4,7 +4,7 @@ import { getRelevantArticles } from '@/lib/get-relevant-articles'
 
 export const metadata: Metadata = {
   title: 'Thank You | The Catalyst Method',
-  description: 'Thanks for signing up. Get in touch by email or WhatsApp anytime.',
+  description: 'Thanks for signing up. Get in touch by email anytime.',
   robots: { index: false, follow: false },
   alternates: { canonical: 'https://www.thecatalystmethod.co.uk/thankyou' },
 }

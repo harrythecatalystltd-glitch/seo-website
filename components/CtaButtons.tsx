@@ -9,19 +9,6 @@ export default function CtaButtons() {
         <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
         Get the Free Email Series
       </Link>
-      <Link
-        href="/contact"
-        style={{
-          display: 'inline-flex', alignItems: 'center', gap: 8,
-          background: 'rgba(255,255,255,0.08)', border: '1.5px solid rgba(255,255,255,0.22)',
-          color: '#fff', borderRadius: 11, padding: '16px 30px',
-          fontFamily: "'Montserrat', sans-serif", fontSize: '0.95rem', fontWeight: 800,
-          textDecoration: 'none', letterSpacing: '0.01em',
-        }}
-      >
-        <svg width="13" viewBox="0 0 18 30" style={{ fill: 'var(--gold)', flexShrink: 0 }}><path d={BOLT} /></svg>
-        Contact Me for Help
-      </Link>
     </div>
   )
 }

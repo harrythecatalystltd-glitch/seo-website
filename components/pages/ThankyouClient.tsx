@@ -23,27 +23,12 @@ export default function ThankyouClient({ articles }: { articles: DisplayArticle[
         </div>
         <h1>Thank You.</h1>
         <p className="hero-sub">
-          You&apos;re all set. If you&apos;d like to talk to me directly, send me an email or click below to WhatsApp me.
+          You&apos;re all set. If you&apos;d like to talk to me directly, send me an email.
         </p>
         <div style={{ marginTop: 32, display: 'flex', gap: 14, flexWrap: 'wrap', justifyContent: 'center' }}>
           <a href="mailto:hey@thecatalystmethod.co.uk" className="cta-btn" style={{ padding: '16px 32px' }}>
             <svg viewBox="0 0 18 30" aria-hidden="true"><path d={BOLT} /></svg>
             Email Me
-          </a>
-          <a
-            href="https://wa.me/447787227022"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: 'inline-flex', alignItems: 'center', gap: 8,
-              background: 'rgba(255,255,255,0.08)', border: '1.5px solid rgba(255,255,255,0.22)',
-              color: '#fff', borderRadius: 11, padding: '16px 30px',
-              fontFamily: "'Montserrat', sans-serif", fontSize: '0.95rem', fontWeight: 800,
-              textDecoration: 'none', letterSpacing: '0.01em',
-            }}
-          >
-            <svg width="13" viewBox="0 0 18 30" style={{ fill: 'var(--gold)', flexShrink: 0 }}><path d={BOLT} /></svg>
-            WhatsApp Me
           </a>
         </div>
       </div>

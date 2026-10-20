@@ -89,7 +89,7 @@ Hard requirements, all enforced by the quality gate in Phase 6:
 - At least five internal links, worked into sentences, never "click here". Include the cluster
   pillar named in the plan row, at least two related blog posts, and one standard CTA.
 - Names at least one thing that does not work, or something Harry still gets wrong.
-- No pricing, no booking, no pitch. Free weekly tips or contact me directly, nothing else.
+- No pricing, no booking, no pitch. The free weekly tips are the only CTA. No "Contact Me" buttons, no WhatsApp, no phone number.
 - Nothing invented. Every personal fact comes from the story bank in Section 3.
 - First person, hedged honestly. "I think", never "research proves".
 
