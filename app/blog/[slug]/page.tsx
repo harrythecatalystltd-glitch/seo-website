@@ -59,6 +59,19 @@ function stripOldCtas(html: string): string {
   return cleaned
 }
 
+// Build every post as a static page at deploy time instead of rendering it on each visit.
+// Each on-demand render cost a Vercel function call plus two SeoBot API calls, which is
+// what pushed the account over the Hobby plan's function limits (10 November 2026).
+// Posts refresh once a day in the background, and every deploy rebuilds them anyway.
+// Slugs not in the list below are 404s served from the cache, with no function run.
+export const revalidate = 86400
+export const dynamicParams = false
+
+export function generateStaticParams() {
+  const slugs = new Set<string>([...manualPosts.map(p => p.slug), ...RELEVANT_SEOBOT_SLUGS])
+  return [...slugs].map(slug => ({ slug }))
+}
+
 async function getArticle(slug: string): Promise<Article | null> {
   try {
     const { BlogClient } = await import('seobot')
